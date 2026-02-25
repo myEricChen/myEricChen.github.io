@@ -1,6 +1,6 @@
 (function() {
     if (!window.ludaData) {
-        console.error('Data not found! Make sure ../../data/data.js is loaded.');
+        console.error('Data not found! Make sure /data/data.js is loaded.');
         return;
     }
 
@@ -12,7 +12,7 @@
         let html = '';
         categories.forEach(cat => {
             // 链接到产品页并传递分类ID，产品页需解析参数
-            html += `<a href="../products/index.html?category=${cat.id}">${cat.name}</a>`;
+            html += `<a href="/products/index.html?category=${cat.id}">${cat.name}</a>`;
         });
         dropdown.innerHTML = html;
     }
@@ -24,7 +24,7 @@
         categories.forEach(cat => {
             // 使用 icon 字段作为图片源，若图片加载失败则显示默认图标
             html += `
-                <a href="../products/index.html?category=${cat.id}" class="category-card">
+                <a href="/products/index.html?category=${cat.id}" class="category-card">
                     <img src="${cat.icon}" alt="${cat.name}" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="category-icon" style="display: none;"><i class="fas fa-cogs"></i></div>
                     <h3>${cat.name}</h3>
