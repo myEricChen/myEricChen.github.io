@@ -1,0 +1,100 @@
+<!--
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2026-02-25 09:46:44
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2026-02-25 10:46:03
+ * @FilePath: \EngWebsite\pages\product-detail\index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luda Instruments – Product Detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="product-detail.css">
+</head>
+<body>
+    <!-- 右侧悬浮栏（与主页一致） -->
+    <div class="floating-bar">
+        <a href="https://wa.me/8618258021911" target="_blank" class="floating-item"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.tiktok.com/@ludamachinery_cn" target="_blank" class="floating-item"><i class="fab fa-tiktok"></i></a>
+        <a href="mailto:chen@ludatest.com" class="floating-item"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+8618258021911" class="floating-item"><i class="fas fa-phone-alt"></i></a>
+    </div>
+
+    <header>
+        <div class="container navbar">
+            <a>       </a>
+            <div class="logo">
+                <img src="/assets/icon/LudaLogo.png" alt="Luda Instruments" class="logo-img">
+                <div class="logo-text">
+                    <h1>LUDA INSTRUMENTS</h1>
+                    <span>Construction Materials Testing Equipment Manufacturer</span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="../home/index.html">Home</a>
+                <div class="dropdown">
+                    <a href="../products/index.html" class="dropbtn">Equipment series <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content" id="dropdown-menu">
+                        <!-- 动态生成分类列表 -->
+                    </div>
+                </div>
+                <a href="../contact/index.html">Contact</a>
+                <a>       </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- 面包屑导航 -->
+        <div class="breadcrumb">
+            <a href="../home/index.html">Home</a> > 
+            <a href="../products/index.html">Equipment series</a> > 
+            <a href="#" id="breadcrumb-category"></a> > 
+            <span id="breadcrumb-product">Loading...</span>
+        </div>
+
+        <!-- 产品详情区域 -->
+        <div class="product-detail" id="product-detail-container">
+            <!-- 动态生成产品详情 -->
+            <div class="loading">Loading product information...</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <strong>Luda Test</strong> · since 1996
+                </div>
+                <div class="footer-contacts">
+                    <div class="contact-person">
+                        <span class="person-name">Eric Chen<br>Sales Engineer & Supervisor</span>
+                        <a href="tel:+8618258021911" class="contact-phone">📞 +86 182 5802 1911</a>
+                        <a href="mailto:chen@ludatest.com" class="contact-email">✉️ chen@ludatest.com</a>
+                    </div>
+                    <div class="contact-person">
+                        <span class="person-name">Candy<br>Sales Manager on Asia</span>
+                        <a href="tel:+8612345678910" class="contact-phone">📞 +86 123 4567 8910</a>
+                        <a href="mailto:candy@ludatest.com" class="contact-email">✉️ Candy@ludatest.com</a>
+                    </div>
+                    <div class="contact-person">
+                        <span class="person-name">Angela<br>Sales Manager on LATAM</span>
+                        <a href="tel:+868888888888" class="contact-phone">📞 +86 888 8888 8888</a>
+                        <a href="mailto:angela@ludatest.com" class="contact-email">✉️ Angela@ludatest.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                © 2025 Luda Test. All specifications are subject to change without notice.
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../data/data.js"></script>
+    <script src="product-detail.js"></script>
+</body>
+</html>

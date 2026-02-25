@@ -1,0 +1,384 @@
+/* 重置与基础 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+body {
+    background-color: #f8fafc;
+    color: #1e2b37;
+    line-height: 1.6;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+/* 头部导航（复用之前样式） */
+header {
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,20,40,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo-img {
+    height: 50px;
+    width: auto;
+}
+.logo-text h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #d71920;
+    margin: 0;
+    line-height: 1.2;
+}
+.logo-text span {
+    font-size: 0.9rem;
+    color: #4a6f8e;
+}
+.nav-links {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+.nav-links a, .dropbtn {
+    text-decoration: none;
+    font-weight: 500;
+    color: #1e3a5f;
+    font-size: 1.1rem;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.nav-links a:hover, .dropbtn:hover,
+.nav-links a.active, .dropbtn.active {
+    border-bottom-color: #d71920;
+    color: #d71920;
+}
+/* 下拉菜单 */
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 280px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 12px 0;
+    z-index: 10;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: #1e3a5f;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.95rem;
+    transition: background 0.2s;
+}
+.dropdown-content a:hover {
+    background-color: #f5f5f5;
+    color: #d71920;
+}
+/* 右侧悬浮栏 */
+.floating-bar {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 999;
+}
+.floating-item {
+    width: 50px;
+    height: 50px;
+    background-color: #d71920;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background 0.2s, transform 0.2s;
+}
+.floating-item:hover {
+    background-color: #b0141a;
+    transform: scale(1.1);
+}
+/* 面包屑 */
+.breadcrumb {
+    margin: 30px 0 20px;
+    color: #6d8ba0;
+    font-size: 0.95rem;
+}
+.breadcrumb a {
+    color: #1e3a5f;
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+/* 产品详情布局 */
+.product-detail {
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+    padding: 40px;
+    margin: 30px 0 60px;
+    border: 1px solid #eaeef5;
+}
+.product-header {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.product-gallery {
+    flex: 1 1 400px;
+}
+.product-main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background: #f0f4fa;
+    overflow: hidden;
+}
+.product-main-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.product-thumbnail {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.2s;
+}
+.product-thumbnail:hover {
+    border-color: #d71920;
+}
+.product-info-header {
+    flex: 1 1 400px;
+}
+.product-category {
+    display: inline-block;
+    background: #eef2f6;
+    color: #1f4973;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+.product-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0a2647;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.product-model {
+    font-family: monospace;
+    background: #ecf2f9;
+    padding: 6px 16px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #004b8f;
+}
+.product-badges {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.badge {
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.badge-new {
+    background: #d71920;
+    color: white;
+}
+.badge-video {
+    background: #0a2647;
+    color: white;
+}
+.badge-manual {
+    background: #4f6f8f;
+    color: white;
+}
+.product-description {
+    font-size: 1.1rem;
+    color: #1e2b37;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+/* 特点列表 */
+.product-features {
+    margin: 30px 0;
+}
+.product-features h3,
+.product-specs h3 {
+    font-size: 1.5rem;
+    color: #0a2647;
+    margin-bottom: 20px;
+    border-left: 6px solid #d71920;
+    padding-left: 15px;
+}
+.features-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+}
+.features-list li {
+    padding-left: 1.8rem;
+    position: relative;
+    color: #4f6f8f;
+}
+.features-list li::before {
+    content: "✓";
+    color: #d71920;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+/* 规格表格 */
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #eaeef5;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.specs-table tr {
+    border-bottom: 1px solid #eaeef5;
+}
+.specs-table tr:last-child {
+    border-bottom: none;
+}
+.specs-table td {
+    padding: 15px 20px;
+    vertical-align: top;
+}
+.specs-table td:first-child {
+    font-weight: 600;
+    color: #0a2647;
+    width: 200px;
+    background-color: #f8fafc;
+}
+.specs-table td:last-child {
+    color: #4f6f8f;
+}
+/* 加载状态 */
+.loading {
+    text-align: center;
+    padding: 60px;
+    font-size: 1.2rem;
+    color: #4f6f8f;
+}
+/* 底部 */
+footer {
+    background: #0a1a2b;
+    color: #aac3d4;
+    padding: 40px 0;
+    margin-top: 60px;
+}
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.footer-brand {
+    font-size: 1.2rem;
+    white-space: nowrap;
+    color: #aac3d4;
+}
+.footer-brand strong {
+    color: white;
+}
+.footer-contacts {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.contact-person {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.person-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 4px;
+}
+.contact-phone, .contact-email {
+    color: #aac3d4;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.contact-phone:hover, .contact-email:hover {
+    color: white;
+}
+.footer-copyright {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #1f3a4e;
+    font-size: 0.9rem;
+    color: #6d8ba0;
+}
+/* 响应式 */
+@media (max-width: 1024px) {
+    .container { padding: 0 30px; }
+}
+@media (max-width: 768px) {
+    .navbar { flex-direction: column; gap: 15px; }
+    .nav-links { flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
+    .product-header { flex-direction: column; }
+    .product-title { font-size: 1.8rem; }
+    .specs-table td:first-child { width: 120px; }
+}
+@media (max-width: 640px) {
+    .product-detail { padding: 20px; }
+    .features-list { grid-template-columns: 1fr; }
+    .specs-table td { display: block; width: 100%; }
+    .specs-table td:first-child { width: 100%; }
+}

@@ -1,0 +1,2057 @@
+Catalog
+Ⅰ.UNIVERSAL TESTING MACHINE SERIES	1
+Ⅱ.ELECTRONIC UNIVERSAL MATERIAL TESTING MACHINE	17
+Ⅲ.PRESSURE TESTING MACHINE SERIES	30
+Ⅳ.LARGE TESTING MACHINE SERIES	57
+Ⅴ.ASPHALT TESTING SERIES	69
+Ⅵ.CONCRETE TESTING SERIES	89
+Ⅶ.CEMENT TESTING SERIES	111
+Ⅷ.GEOTECHNICAL SAND AND GRAVEL TESTING SERIES	130
+Ⅸ.MORTAR TESTING SERIES	141
+Ⅹ.SCIENTIFIC RESEARCH PRODUCT SERIES	145
+Ⅰ.UNIVERSAL TESTING MACHINE SERIES
+Ⅰ.UNIVERSAL TESTING MACHINE SERIES	1
+WAW-1000Pro Shock Absorber Universal Material Testing Machine	2
+WAW Series S Electro-hydraulic Servo Steel Strand Special Testing Machine	4
+WAW Series Servo Steel Strand Special Testing Machine	6
+WAW Series S  Electro-hydraulic Servo Universal Material Testing Machine	8
+WAW Series B Electro-hydraulic Servo Universal Material Testing Machine	10
+WEW Series Screen Display Universal Material Testing Machine	13
+WE Series Digital Display Universal Material Testing Machine	15
+WAW-1000Pro Shock Absorber Universal Material Testing Machine
+EN ISO 6892-1 | ISO 7500 | EN 10002 | EN 10080 | EN 15630-1 | ASTM A370 | 
+EN 15630-3 |EN ISO 7438 | EN ISO 15630-1 | ASTM A615 | ASTM A615M
+This testing machine is mainly used for tensile, compression, bending and shear tests of metal materials, and meets the requirements of national standards such as ASTM E8 metal tensile test standard. 
+Features：
+1.The servo oil source control system used in this equipment can effectively reduce the equipment operation noise, reduce heat generation, extend the service life of the oil, and eliminate the need for cooling. 
+2.The shock absorption system of this equipment can effectively reduce the vibration during the use of the equipment, making the experimental process safer and more comfortable.
+3.The screwless structure makes this equipment more rigid, more convenient for maintenance and lower failure rate compared to other universal testing machines.
+Main technical parameters and specifications:
+Specification Model	WAW- 1000Pro
+Maximum test force (KN)	1000
+Effective measurement range	5%～100%FS
+Accuracy of load indication value	Level 0.5
+Stretching space (mm)	250~550
+Circular Sample clamping diameter (mm)	Φ14~Φ45
+Flat Sample clamping diameter (mm)	0~40mm
+Sample clamping width(mm)	110
+Maximum rising speed (mm/min)	350
+Maximum lowering speed (mm/min)	500
+Motor power(kW)	2.3
+Supply Voltage	AC220V±10%,50-60Hz
+Dimensions of machine(mm)	1570×970×2280
+Weight (kg)	3200
+WAW Series S Electro-hydraulic Servo Steel Strand Special Testing Machine
+ASTM E8 | UNI 7676 (Wire Strands) |EN ISO 7438 | EN ISO 15630-1 | ASTM A615 | ASTM A615M
+This  product  is  suitable  for  tensile  test  of  steel  strand,  also  can  be  used  for tensile, compression, shear and other tests of metal and non-metal materials.
+Features：
+1.The frame adopts gantry frame structure, super strong steel.
+2.The shield is made of acrylic transparent material, clean and beautiful, can observe the whole test process.
+3.External hydraulic jaws, easy to overhaul.
+4.With upper/lower pressure plate, to achieve tensile and compressive double space.
+5.Sensor adopts wheel and spoke sensor, high precision, stable rate, with reciprocity.
+6.Brand computer, with wireless keyboard and mouse, large display, sensitive operation.
+7.Servo motor and radial piston pump, ultra-low decibel, oil temperature is not easy to rise, efficient and stable.
+8.Using double oil pumps and double motors to realize independent oil source and stable pressure supply.
+Main technical parameters and specifications:
+Specification Model	WAW-600GS	WAW- 1000GS
+Maximum test force (KN)	600	1000
+Effective measurement range	5%～100%	5%～100%
+Accuracy of load indication value	Level 0.5	Level 0.5
+Stretching space (mm)	1050	1050
+Compressed Space (mm)	950	950
+Specimen clamping diameter (mm)	Φ12~Φ16	Φ12~Φ16
+Working piston stroke (mm)	200	200
+Upper/lower pressure plate size (mm)	Φ220×Φ230	Φ220×Φ230
+Tabletop rising speed (mm/min)	100	100
+Moving beam lifting speed (mm/min)	240	240
+Distance between two pillars (mm)	450	450
+Supply Voltage	AC380V±10%,50-60Hz	AC380V±10%,50-60Hz
+Host size (mm)	1050×710×2910	1050×710×2910
+Dimensions of force measuring cabinet(mm)	700×520×1630	700×520×1630
+Weight (kg)	3700	3700
+WAW Series Servo Steel Strand Special Testing Machine
+ASTM E8 | UNI 7676 (Wire Strands) |EN ISO 7438 | EN ISO 15630-1 | ASTM A615 | ASTM A615M
+WAW series electro-hydraulic servo steel strand special test machine is mainly used for the tensile test of steel strand, can do the tensile, compression and other tests  of  metal materials;  equipped  with  appropriate  fixtures,  can  also  be  used  to conduct the tensile, compression, bending and shear tests of non-metallic materials.
+Features：
+1.The machine adopts high precision displacement sensor, accurate data.
+2.Adopt high precision electronic extensometer, accurate and effective measurement of deformation value.
+3.Adopt high-resolution acquisition system, fast data acquisition speed and high accuracy.
+4.Hydraulic control adopts integrated oil servo control system, which can automatically lift,  automatically position,automatically set the mark, realize equal force, equal displacement and mixed control.
+Main technical parameters and specifications:
+Model Specifications	WAW-600G	WAW- 1000G
+Maximum test force(KN)	600	1000
+Measuring range and measuring range(KN)	50-600	100- 1000
+Indication relative error	±1%	±1%
+Maximum Tensile Test Space(mm)	1050	1050
+Maximum compression test space(mm)	950	950
+Working piston stroke(mm)	180	180
+Upper and lower platen size(mm)	Φ223×Φ230	Φ223×Φ230
+Distance between two pillars in tension and
+compression space(mm)	
+510	
+510
+Maximum rise speed of table plate(mm/min)	60	60
+Maximum lifting speed of moving beam(mm/min)	240	240
+Total motor power(kW)	2.1	2.1
+Main external dimensions(mm)	890×590×2700	890×590×2700
+Dimension of force measuring cabinet(mm)	1000×700×850	1000×700×850
+Overall weight(kg)	3200	3200
+WAW Series S  Electro-hydraulic Servo Universal Material Testing Machine
+EN ISO 6892-1 | ISO 7500 | EN 10002 | EN 10080 | EN 15630-1 | ASTM A370 | 
+EN 15630-3 |EN ISO 7438 | EN ISO 15630-1 | ASTM A615 | ASTM A615M
+This product is suitable for metal, non-metal and composite materials,components of tensile, compression,bending,shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision,  simple operation, convenient, large data storage capacity and other advantages.
+Features：
+1.The machine adopts high precision pressure displacement sensor, with high sensitive digital valve, fast response speed, high resolution.
+2.Hydraulic control adopts integrated oil servo control system, easy to operate, stable and reliable.
+3.With intelligent prompting working state,servo automatic compensation, positioning, pressure-holding and other functions.
+4.The test space can be adjusted at will by moving the beam, and different test pieces can be tested.
+5.The range can be automatically switched, and the range is automatically selected according to the load bearing size of the sample.
+6.With maximum load peak hold function, overload protection and position over-limit protection, safer to use.
+7.With automatic data storage and automatic calculation and printing of all test results.
+Main technical parameters and specifications:
+Model Specifications	WAW-100S	WAW-300S	WAW-600S	WAW-1000S	WAW-2000S
+Maximum test force(KN)	100	300	600	1000	2000
+Effective measurement range	5%～100%	5%～100%	5%～100%	5%～100%	5%～100%
+Accuracy of load indication value	Level 0.5	Level 0.5	Level 0.5	Level 0.5	Level 0.5
+Stretching space (mm)	480	540	690	690	790
+Compressed Space (mm)	480	480	620	620	720
+Flat specimen clamping thickness(mm)	0-15	0-15	0-15	0-15	0-40
+Round specimen clamping
+diameter(mm)	10-20	10-20 、20-32	13-26 、26-40	14-32 、30-50	20-40、40-60
+Working piston stroke(mm)	180	180	180	180	250
+Upper pressure plate size(mm)	Φ180	Φ180	Φ180	Φ220	Φ220
+Lower pressure plate size(mm)	Φ180	Φ180	Φ180	Φ230	Φ230
+Distance between the two columns of the pulling and pressing space(mm)	
+380	
+400	
+400	
+450	
+570
+Maximum rise speed of table plate(mm/min)	100	100	100	100	100
+Maximum lifting speed of moving beam(mm/min)	240	240	240	240	240
+Total motor power(kW)	2.7	2.7	2.7	2.7	3.7
+Supply Voltage	AC380V±10%,50-60Hz	AC380V±10%,50-60Hz	AC380V±10%,50-60Hz	AC380V±10%,50-60Hz	AC380V±10%,50-60Hz
+Main external dimensions(mm)	730×600×1750	730×600×1840	890×590×2070	945×635×2100	1200×800×2940
+Dimension of force measuring cabinet(mm)	700×520×1630	700×520×1630	700×520×1630	700×520×1630	700×520×1630
+Weight(kg)	1500	1700	2400	2800	3500
+WAW Series B Electro-hydraulic Servo Universal Material Testing Machine
+EN ISO 6892-1 | ISO 7500 | EN 10002 | EN 10080 | EN 15630-1 | ASTM A370 | 
+EN 15630-3 |EN ISO 7438 | EN ISO 15630-1 | ASTM A615 | ASTM A615M
+This product is suitable for metal, non-metal and composite materials,components of tensile,  compression, bending, shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision, simple operation,convenient,large data storage capacity and other advantages.
+Features：
+1.The tester adopts four columns and two wire rod frame,"well"  structure, stronger steel,more stable.
+2.The machine adopts three closed shields, effective protection against test  piece debris, high safety performance.
+3.From the previous semi-circular jaws to triangular hydraulic jaws, so that the test piece clamping more tightly, not easy to loosen.
+4.Standard with upper/lower pressure plate and bending support,can do compression, bending test, more functional, more comprehensive.
+5.Oil cylinder is placed under, no oil leakage, stable operation.
+6.Adopt high precision photoelectric encoder, higher displacement accuracy and more stable.
+7.With windows system control software,automatic storage of data and automatic calculation of test results.
+8.Servo measurement and control system, can achieve constant speed, constant loading, constant force value, more stable control.
+9.The machine adopts high-precision digital servo valve to control loading, with higher precision and more stable data.
+10.Oil source control cabinet design humanized, more ergonomic, more convenient operation.
+Main technical parameters and specifications:
+Model Specifications	WAW-100B	WAW-300B	WAW-600B	WAW-1000B	WAW-2000B
+Maximum test force(KN)	100	300	600	1000	2000
+Effective measurement
+range	10%～100%	10%～100%	10%～100%	10%～100%	10%～100%
+Accuracy of load indication value	Level 1	Level 1	Level 1	Level 1	Level 1
+Stretching space (mm)	480	480	690	690	695
+Compressed Space (mm)	480	480	620	620	605
+Flat specimen clamping
+thickness(mm)	0-15	0-15	0-15	0-40	0-50
+Round specimen clamping diameter(mm)	10-20	10-20 、20-32	13-26 、26-40	14-32 、30-50	20-40 、40-70
+Working piston stroke(mm)	120	120	170	170	180
+Upper pressure plate size(mm)	Φ176	Φ180	Φ220	Φ220	Φ220
+Lower pressure plate
+size(mm)	Φ176	Φ180	Φ230	Φ230	Φ230
+Distance between two
+pillars in tension and
+compression space(mm)	420	420	510	510	610
+Maximum rise speed of table plate(mm/min)	100	100	100	100	100
+Maximum lifting speed
+of moving beam(mm/min)	
+240	
+240	
+240	
+240	
+240
+Total motor power(kW)	1.3	1.3	2.1	2.1	3.55
+Supply Voltage	AC380V±10%,50-60Hz	AC380V±10%,50-60Hz	AC380V±10%,50-60Hz	AC380V±10%,50-60Hz	AC380V±10%,50-60Hz
+Main external dimensions(mm)	720×550×1660	730×600×1840	820×600×2000	940×650×2080	1200×800×2685
+Dimension of force
+measuring cabinet(mm)	600×550×1400	600×550×1400	600×550×1400	600×550×1400	600×550×1400
+Overall weight(kg)	1600	1800	2400	2400	4000
+WEW Series Screen Display Universal Material Testing Machine
+EN ISO 6892-1 | ISO 7500 | EN 10002 | EN 10080 | EN 15630-1 | ASTM A370 | 
+EN 15630-3 |EN ISO 7438 | EN ISO 15630-1 | ASTM A615 | ASTM A615M
+The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.
+Features：
+1.The machine adopts high precision displacement sensor, the data is accurate.
+2.Adopt high resolution collection system,fast data collection speed,high accuracy.
+3.Adopt the design of hydraulic manual loading, computer display, main body and force meter subposition, easy operation and smooth force addition.
+Main technical parameters and specifications:
+Model Specifications	WEW- 100B	WEW-300B	WEW-600B	WEW- 1000B	WEW-2000B
+Maximum test force(KN)	100	300	600	1000	2000
+Range and measurement range(KN)	10～100	30～300	60～600	100～1000	200～2000
+Relative error of value	±1%	±1%	±1%	±1%	±1%
+Stretching space (mm)	480	480	690	690	790
+Compressed Space (mm)	480	480	620	620	720
+Flat specimen clamping
+thickness(mm)	0- 15	0- 15	0-15	0-40	0-40
+Round specimen clamping
+diameter(mm)	10-20	10-20
+20-32	13-26
+26-40	14-32
+30-50	20-40
+40-60
+Working piston stroke(mm)	120	120	170	170	180
+Upper and lower platen size(mm)	Φ176/Φ176	Φ180/Φ180	Φ220/Φ230	Φ220/Φ230	Φ220/Φ230
+Distance between two pillars in tension and compression
+space(mm)	
+420	
+420	
+510	
+510	
+610
+Maximum rise speed of table
+plate(mm/min)	100	100	100	100	100
+Maximum lifting speed of moving beam(mm/min)	240	240	240	240	240
+Total motor power(Kw)	1.2	1.2	1.8	1.8	3.55
+Main external dimensions(mm)	730×550×1660	730×600×1840	820×600×2000	940×650×2080	1200×800×2940
+Dimension of force measuring
+cabinet(mm)	1000×700×850	1000×700×850	1000×700×850	1000×700×850	1000×700×850
+Overall weight(kg)	1600	1800	2100	2400	4000
+WE Series Digital Display Universal Material Testing Machine
+EN ISO 6892-1 | ISO 7500 | EN 10002 | EN 10080 | EN 15630-1 | ASTM A370 | 
+EN 15630-3 |EN ISO 7438 | EN ISO 15630-1 | ASTM A615 | ASTM A615M
+The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.
+Main technical parameters and specifications:
+Model Specifications	WE- 100B	WE-300B	WE-600B	WE- 1000B	WE- 2000B
+Maximum test force(KN)	100	300	600	1000	2000
+Range and measurement range(KN)	10～100	30～300	60～600	100～1000	200～2000
+Relative error of value	±1%	±1%	±1%	±1%	±1%
+Stretching space (mm)	480	480	690	690	695
+Compressed Space (mm)	480	480	620	620	605
+Flat specimen clamping
+thickness(mm)	0～15	0～15	0～15	0～40	0～50
+Round specimen clamping
+diameter(mm)	10～20	10～20
+20～32	13～26
+26～40	14～32
+30～50	20～40
+40～70
+Working piston stroke(mm)	120	120	170	170	180
+Upper and lower platen size(mm)	Φ176×Φ176	Φ180×Φ180	Φ220×Φ230	Φ220×Φ230	Φ220×Φ230
+Distance between two pillars in tension and compression space(mm)	420	420	510	510	610
+Maximum rise speed of table plate(mm/min)	100	100	100	100	100
+Maximum lifting speed of moving beam(mm/min)	240	240	240	240	240
+Total motor power(kW)	1.3	1.3	1.8	1.8	3.55
+Main external dimensions(mm)	730×550×1660	730×600×1840	820×600×2000	940×650×2080	1200×800×2685
+Dimension of force measuring
+cabinet(mm)	530×500×1270	530×500×1270	530×500×1270	530×500×1270	530×500×1270
+Overall weight(kg)	1600	1800	2100	2400	4000
+Ⅱ.ELECTRONIC UNIVERSAL MATERIAL TESTING MACHINE
+Ⅱ.ELECTRONIC UNIVERSAL MATERIAL TESTING MACHINE	17
+WDW-100 Electronic Universal Material Testing Machine	18
+WDW-50 Electronic Universal Material Testing Machine	20
+WDW-10/20 Electronic Universal Material Testing Machine	22
+WDW-5 Electronic Universal Material Testing Machine	24
+WDW-S10 Electronic Universal Material Testing Machine	26
+WDW-S05 Electronic Universal Material Testing Machine(Special model for cement mortar)	28
+WDW-100 Electronic Universal Material Testing Machine
+This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.
+Features:
+1.Safety position and experimental position height arbitrary lock.
+2.Automatic protection when exceeding the maximum load,software limit and electronic limit double protection.
+Main technical parameters and specifications:
+Maximum test force	100KN
+Accuracy grade	Level 1 (can be customized to 0.5 on request)
+Test force measurement range	1% to 100% FS throughout the whole process without sub-grade
+Relative error of the test force value	±1% or less
+Test force resolution	1/±300000 of the maximum test force throughout the resolution remains unchanged
+Deformation measurement range	0.2%～100%FS
+Relative error of deformation value	Within ±0.5% of the indicated value
+Deformation resolution	1/±300000 of the maximum deformation
+Relative error of displacement value	Within ±0.5% of the displayed value
+Displacement resolution	0.025µm
+Force control rate adjustment range	0.01~5%FS/S
+Relative error of force-controlled rate	Within ±1% of the set value
+Deformation rate adjustment range	0.02~5%FS/S
+Relative error of deformation control rate	Within ±1% of the set value
+Cross-beam speed adjustment range	0.01～500mm/min
+Control range of constant force, constant deformation and constant displacement	0.5%～100%FS
+Control accuracy of constant force, constant deformation and constant displacement	Within ±1% of the set value when the set value is <10%FS;
+Within ±0.1% of the set value when the set value is ≥10%FS
+Effective tensile space (without jig)	800mm
+Effective test width	400mm
+Host size	1000 × 800 × 2200 (mm)
+Power supply	220V±10%, 2000W
+Host weight	About 760kg
+WDW-50 Electronic Universal Material Testing Machine
+This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield  strength, tensile  strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.
+Features:
+1.Safety position and experimental position height arbitrary lock.
+2.Automatic protection when exceeding the maximum load, software limit and electronic limit double protection.
+Main technical parameters and specifications:
+Maximum test force	50KN
+Accuracy grade	Level 1 (can be customized to 0.5 on request)
+Test force measurement range	1% to 100% FS throughout the whole process without sub-grade
+Relative error of the test force value	±1% or less
+Test force resolution	1/±300000 of the maximum test force throughout the resolution remains unchanged
+Deformation measurement range	0.2%～100%FS
+Relative error of deformation value	Within ±0.5% of the indicated value
+Deformation resolution	1/±300000 of the maximum deformation
+Relative error of displacement value	Within ±0.5% of the displayed value
+Displacement resolution	0.025µm
+Force control rate adjustment range	0.01~5%FS/S
+Relative error of force-controlled rate	Within ±1% of the set value
+Deformation rate adjustment range	0.02~5%FS/S
+Relative error of deformation control rate	Within ±1% of the set value
+Cross-beam speed adjustment range	0.01～500mm/min
+Control range of constant force, constant deformation and constant displacement	0.5%～100%FS
+Control accuracy of constant force, constant deformation and constant displacement	Within ±1% of the set value when the set value is <10%FS;
+Within ±0.1% of the set value when the set value is ≥10%FS
+Effective tensile space (without jig)	800mm
+Effective test width	400mm
+Host size	900 × 500 × 1900 (mm)
+Power supply	220V±10%, 750W
+Host weight	About 230kg
+WDW-10/20 Electronic Universal Material Testing Machine
+This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.
+Features:
+1.Safety position and experimental position height arbitrary lock.
+2.Automatic protection when exceeding the maximum load, software limit and electronic limit double protection.
+Main technical parameters and specifications:
+Maximum test force	10KN	20KN
+Accuracy grade	Level 1 (can be customized to 0.5 on request)	Level 1 (can be customized to 0.5 on request)
+Test force measurement range	1% to 100% FS throughout the whole process without sub-grade	1% to 100% FS throughout the whole process without sub-grade
+Relative error of the test force value	±1% or less	±1% or less
+Test force resolution	1/±300000 of the maximum test force throughout the resolution remains unchanged	1/±300000 of the maximum test force throughout the resolution remains unchanged
+Deformation measurement range	0.2%～100%FS	0.2%～100%FS
+Relative error of deformation value	Within ±0.5% of the indicated value	Within ±0.5% of the indicated value
+Deformation resolution	1/±300000 of the maximum deformation	1/±300000 of the maximum deformation
+Relative error of displacement value	Within ±0.5% of the displayed value	Within ±0.5% of the displayed value
+Displacement resolution	0.025µm	0.025µm
+Force control rate adjustment range	0.01~5%FS/S	0.01~5%FS/S
+Relative error of force-controlled rate	Within ±1% of the set value	Within ±1% of the set value
+Deformation rate adjustment range	0.02~5%FS/S	0.02~5%FS/S
+Relative error of deformation control rate	Within ±1% of the set value	Within ±1% of the set value
+Cross-beam speed adjustment range	0.01～500mm/min	0.01～500mm/min
+Control range of constant force, constant deformation and constant displacement	0.5%～100%FS	0.5%～100%FS
+Control accuracy of constant force, constant deformation and constant displacement	Within ±1% of the set value when the set value is <10%FS;
+Within ±0.1% of the set value when the set value is ≥10%FS	Within ±1% of the set value when the set value is <10%FS;
+Within ±0.1% of the set value when the set value is ≥10%FS
+Effective tensile space (without jig)	800mm	800mm
+Effective test width	400mm	400mm
+Host size	800 × 450 × 1600 (mm)	800 × 450 × 1600 (mm)
+Power supply	220V±10%, 400W	220V±10%, 400W
+Host weight	About 190kg	About 190kg
+WDW-5 Electronic Universal Material Testing Machine
+This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.
+Features:
+1.Safety position and experimental position height arbitrary lock.
+2.Automatic protection when exceeding the maximum load, software limit and electronic limit double protection.
+3.Microcomputer control, real-time display of  graphs, automatic generation of reports.
+Main technical parameters and specifications:
+Model	WDW-5
+Maximum load 	5KN
+Accuracy grade	Level 1 (can be customized to 0.5 on request)
+Test force measurement range 	1% to 100% FS throughout the whole process without sub-grade
+Relative error of the test force value	Within ±1%
+Test force resolution	1/±300000 of the test force
+Displacement resolution	0.025µm
+Relative error of displacement value	±1% of the indicated value
+Force control rate adjustment range 	0.01~5%FS/S
+Relative error of force control rate	Within ±1% of the set value
+Deformation resolving power	1/±300000 of the maximum deformation
+Relative error of deformation value	±1% of the displayed value
+Cross-beam speed adjustment range 	0.01～500mm/min
+Effective tensile space 	800mm
+Effective test width 	100mm
+Power supply	220V±10%,0.4kW
+Dimension of main machine 	600×380×1500mm
+Weight	About 80kg
+WDW-S10 Electronic Universal Material Testing Machine
+This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield  strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.
+Features:
+1.Single-arm design, cementitious sand special models.
+2.Safety position and experimental position height arbitrary lock.
+3.Automatic protection when exceeding the maximum load, software limit and electronic limit double protection.
+4.One button automatic operation, full touch screen control,can realize positioning and automatic return.
+Main technical parameters and specifications:
+Model	WDW-S10
+Control mode	On-screen control
+Maximum load	10KN
+Accuracy grade	Level 1
+Relative error of the test force value	Within ±1%
+Test force resolution	1/±300000 of the test force
+Deformation measurement range	0.5%-100%FS
+Cross-beam speed adjustment range	0.01～500mm/min
+Effective tensile space	800mm
+Effective test width	100mm
+Power supply	220V±10%,0.4kW
+WDW-S05 Electronic Universal Material Testing Machine(Special model for cement mortar)
+This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile  strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.
+Features:
+1.Single-arm design, cementitious sand special models.
+2.Safety position and experimental position height arbitrary lock.
+3.Automatic protection when exceeding the maximum load, software limit and electronic limit double protection.
+4.One button automatic operation,full touch screen control,can realize positioning and automatic return.
+Main technical parameters and specifications:
+Maximum load	5kN
+Accuracy level	Level 1
+Test force resolution	500,000 yards
+Displacement measurement accuracy	within ±1% of the indication value
+Deformation measurement accuracy	within ±1% of the indication value
+Test bench control	Full touch screen control, capable of positioning and automatic return
+Overload protection	Automatic protection when the maximum load is exceeded
+Test force measurement range	1%~100%FS
+Deformation measurement range	1%~100% FS
+Effective stretching space	800mm
+Effective test width	100mm
+Speed range	5-500mm/min
+Machine dimensions	500×450×1350mm
+Power supply	220V,50-60Hz
+Weight	About 90kg
+Ⅲ.PRESSURE TESTING MACHINE SERIES
+Ⅲ.PRESSURE TESTING MACHINE SERIES	30
+TSY-2000A Constant Loading Pressure Testing Machine(Large Frame) Jinhua Type	31
+YAW-2000H Constant Loading Pressure Testing Machine	33
+YAW Series Constant Loading Pressure Testing Machine(Automatic) White Machine	35
+TSY Series Constant Loading Pressure Testing Machine(Automatic)	37
+TSY Series Electro-hydraulic Pressure Testing Machine(Electric Screw)	39
+TSY Series Electro-Hydraulic Pressure Testing Machine	41
+YAW-300.10S Constant Load Cement Flexural And Compressive Testing Machine	43
+YAW-300S Constant Loading Pressure Testing Machine	45
+YZH-300·10 Constant Load Cement Flexural Compression Testing Machine	47
+YAW-300 Constant Loading Pressure Testing Machine	49
+TSY-300 Electro-hydraulic Compression Testing Machine	51
+TSY-300 Electro-hydraulic Flexural And Compression Testing Machine	53
+TSY-1000S Constant Load Manhole Cover Special Pressure Testing Machine	55
+TSY-2000A Constant Loading Pressure Testing Machine(Large Frame) Jinhua Type
+ASTM C39 | BS 1610 | NF P18-411 | AASHTO T22 | DIN 51220 | BS 812-110 | 812-111 | EN 772-1 | ASTM C140 | ASTM C1314 | EN 13412
+This product is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.
+Features:
+1. The hydraulic pump adopts an axial five-piston ultra-high pressure pump, which works smoothly and has low noise;
+2. The control valve adopts high-precision digital micro-flow valve with high control precision;
+3. The sensor adopts a pressure sensor, which has good reliability;
+4. The principle of automatic loading is adopted to strengthen the control of the loading rate.
+Main technical parameters and specifications:
+Model specification	TSY-2000A
+Maximum test force 	2000kN
+Measuring accuracy range 	10% ~ 100% FS(no classification in the whole process)
+Indication accuracy	≦±1%
+Lo ading rate 	0.3～0.8MPa
+Loading rate accuracy	±5%
+Upper/lower bearing plate size 	Φ380/Φ280mm
+Distance between upper and lower platens 	330mm
+Test space 	400mm
+Piston maximum stroke 	100mm
+Piston diameter 	Φ320mm
+Displacement rate control relative error	≦±1%
+Host structure	Screw electric adjustment
+Test force loading speed 	0.02%～2%FS/s
+Oil maximum pressure 	25MPa
+Machine power 	1.8kW
+Controller size	900×700×900 mm
+Host size 	850×840×1500mm
+Weight 	1800kg
+YAW-2000H Constant Loading Pressure Testing Machine
+This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials. The product conforms to ISO, ASTM and other standards.
+Main technical parameters and specifications:
+Model	YAW-2000H
+Test force (kN)	2000
+Loading rate (MPa)	0.3～1.0,1.0 or above can be entered manually
+Effective measurement range	10% to 100%
+Accuracy of the load indication	Better than ±1% of indicated value
+Distance between upper and lower platen (mm)	320
+Pressure plate size(mm)	Φ300×Φ300
+Piston stroke (mm)	50
+Piston diameter (mm)	Φ250
+Oil pressure (MPa)	40
+Total power (kW)	1.1
+Power supply	AC220V±10%, 60Hz
+Main unit dimensions (mm)	580×500×1400
+Overall dimension of control cabinet (mm)	560×550×1310
+Weight(kg)	900
+YAW Series Constant Loading Pressure Testing Machine(Automatic) White Machine
+EN 12390-4 | BS 1881 | ASTM C39 | BS 1610 | NF P18-411 | AASHTO T22 | DIN 51220 | BS 812-110 | 812-111 | EN 772-1 | ASTM C140 | ASTM C1314 | EN 13412
+This product is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.
+Features:
+1.The frame adopts the whole machine casting frame structure;
+2.Imported servo oil source;
+3.High-precision digital micro valve;
+4.Imported servo motor oil source, the oil temperature is not too high;
+5.The sensor uses a high-precision load sensor to ensure data accuracy. The control valve  has a force closed-loop control function, which can realize equal load rate loading or equal stress rate loading, with high control precision and good reliability.
+Main technical parameters and specifications:
+Model	YAW-2000S	YAW-3000S
+Maximum test force	2000KN	3000KN
+Measurement accuracy range	5%- 100%	5%- 100%
+Indication accuracy	≤±0.5%	≤±0.5%
+Loading rate	0.3Mpa-1.0MPa	0.3Mpa-1.0MPa
+Loading rate accuracy	±5%	±5%
+Distance between upper and lower platen	330mm	330mm
+Upper and lower bearing plate diameter	Φ280/Φ320mm	Φ280/Φ320mm
+Piston maximum stroke	120mm	120mm
+Piston diameter	Φ250mm	Φ310mm
+Oil maximum pressure	40MPa	40MPa
+Dimensions	1100x510x1510mm	1250x550x1510mm
+Weight	1200kg	2000kg
+TSY Series Constant Loading Pressure Testing Machine(Automatic)
+ASTM C39 | BS 1610 | NF P18-411 | AASHTO T22 | DIN 51220 | BS 812-110 | 812-111 | EN 772-1 | ASTM C140 | ASTM C1314 | EN 13412
+This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials. The product conforms to ISO, ASTM and other standards.
+Features:
+1. The hydraulic pump adopts an axial five-piston ultra-high pressure pump, which works smoothly and has low noise;
+2. The control valve adopts high-precision digital micro-flow valve with high control precision;
+3. The sensor adopts a pressure sensor, which has good reliability;
+4. Adopt the principle of automatic racking to strengthen the control of the loading rate.
+Main technical parameters and specifications:
+Model	TSY-2000A	TSY-3000A
+Test force 	2000kN	3000kN
+Loading rate	0.3～1.0MPa,1.0 or above can be entered manually	0.3～1.0MPa,1.0 or above can be entered manually
+Effective measurement range	10% to 100%	10% to 100%
+Accuracy of the load indication	Better than ±1% of indicated value	Better than ±1% of indicated value
+Distance between upper and lower platen	320mm	320mm
+Pressure plate size	260×260mm	320×320mm
+Piston stroke	50mm	50mm
+Piston diameter 	Φ250mm	Φ310mm
+Oil pressure 	40MPa	40MPa
+Total power 	1.1kW	1.8kW
+Power supply	AC380V±10%, 50-60Hz	AC380V±10%, 50-60Hz
+Main unit dimensions 	580×500×1400mm	550×650×1750mm
+Overall dimension of control cabinet 	560×550×1310mm	560×550×1310mm
+Weight	900kg	1300kg
+TSY Series Electro-hydraulic Pressure Testing Machine(Electric Screw)
+ASTM C39 | BS 1610 | NF P18-411 | AASHTO T22 | DIN 51220 | BS 812-110 | 812-111 | EN 772-1 | ASTM C140 | ASTM C1314
+This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials. 
+Features:
+1.With load digital display function;
+2.The maximum load hold function;
+3.Power-off data protection function;
+4.The hydraulic pump is an axial five-piston ultra-high pressure pump, which is directly driven by an electric motor;
+5.There is a safety valve on the oil delivery valve,which can overflow when overloaded, which plays a safety role;
+6.The hand wheel of the oil delivery valve can adjust the oil intake of the oil cylinder to achieve the required loading rate.
+Main technical parameters and specifications:
+Model	TSY-2000B	TSY-3000B
+Test force	2000kN	3000kN
+Effective measurement range	10% ~100%	10% ~100%
+Accuracy of load indication	Better than  ±1% of indicated value	Better than  ±1% of indicated value
+The  distance  between the  upper  and  lower platen 	320mm	330mm
+Pressure plate size	260×260mm	320×320mm
+Piston stroke	50mm	50mm
+Piston diameter	Φ250mm	Φ310mm
+Oil pressure 	40MPa	40MPa
+Total power 	1.1kW	1.8kW
+Power supply	AC380V,50-60Hz	AC380V,50-60Hz
+Main unit dimensions	580×500×1400mm	550×560×1750mm
+Overall dimension of control cabinet 	510×540×1470mm	510×540×1470mm
+Weight 	900kg	1200kg
+TSY Series Electro-Hydraulic Pressure Testing Machine
+ASTM C39 | BS 1610 | NF P18-411 | AASHTO T22 | DIN 51220 | BS 812-110 | 812-111 | EN 772-1 | ASTM C140 | ASTM C1314
+This testing machine is mainly used for the compressive strength test of building materials such as brick, cement mortar and concrete, and can also be used for the mechanical performance test of other materials.
+Features:
+1.With load digital display function;
+2.The maximum load hold function;
+3.Power-off data protection function;
+4.The hydraulic pump is an axial five-piston ultra-high pressure pump, which  is directly driven by an electric motor;
+5.There is a safety valve on the oil delivery valve,which can overflow  when overloaded, which plays a safety role;
+6.The hand wheel of the oil delivery valve can adjust the oil intake of the oil cylinder to achieve the required loading rate.
+Main technical parameters and specifications:
+Model	TSY-2000
+Test force	2000kN
+Effective measurement range	10%~100%
+Accuracy of load indication	Better than ±1% of indicated value
+Piston maximum stroke 	50mm
+Piston diameter 	Φ250mm
+Hydraulic pump rated pressure 	40MPa
+The distance between the upper and lower platen 	320mm
+Pressure plate size 	260×260mm
+Total power	1.1kW
+Power supply voltage	AC380V±10%, 50-60Hz
+Overall dimensions 	920×400×1200mm
+Weight 	700kg
+YAW-300.10S Constant Load Cement Flexural And Compressive Testing Machine
+EN 196-1 | EN 933-5 | EN 1015-11 | ISO 679 | ASTM C109, C348, C349, C1194| BS 4550
+YAW-300·10S Constant Load Cement Flexural and Compressive Testing Machine is a new generation of servo press independently developed and produced by Zhejiang Luda. With strong technology and production capacity, our company was honored to be invited to participate in the preparation of new standards for all-in-one machines. This  testing  machine  is an essential testing instrument for building materials,construction engineering, quality supervision, metrology testing, scientific research institutions and other units.
+Features:
+1.The whole machine adopts physical and chemical board countertop, and the frame adopts static surface electroplating, which is easy to clean and beautiful;
+2.The anti-bending part adopts electric oil cylinder, which has high precision, stable control, accurate displacement and force value;
+3.The sensor adopts the spoke sensor, which has high precision, stable speed and reciprocation;
+4.Servo motor system, silent throughout, low decibel, oil temperature is not easy to rise, high efficiency and stability, voltage adopts single-phase 220V, strong versatility, high efficiency and energy saving;
+5.The protective cover is made of acrylic transparent material, which is clean and beautiful, and the test process can be observed throughout the process;
+6.The 40mmx40mm cement compression jig is made of fully galvanized material.
+Main technical parameters and specifications:
+Compressive strength test	Compressive strength test	Flexural strength test	Flexural strength test
+Maximum test force 	300kN	Maximum test force 	10kN
+Constant loading rate 	0.3~9.9kN/s	Constant loading rate 	0.05kN/s
+Upper and lower platen spacing 	185mm	Section side length 	40mm
+Pressure plate diameter 	Φ120mm	Span between supports 	100mm
+Piston maximum stroke 	90mm	Piston maximum stroke 	70mm
+Indication relative error (accuracy)	Indication relative error (accuracy)	±0.5%	±0.5%
+Indication repeatability relative error	Indication repeatability relative error	0.5%	0.5%
+Return to zero relative error	Return to zero relative error	±0.1%	±0.1%
+The relative resolution of the force value
+display device of the test machine	The relative resolution of the force value
+display device of the test machine	0.5%	0.5%
+Zero drift	Zero drift	≤±0.1%	≤±0.1%
+Power supply	Power supply	220V(±10%),1.5kW	220V(±10%),1.5kW
+Dimensions 	Dimensions 	1300×480×1340mm	1300×480×1340mm
+Weight	Weight	500kg	500kg
+YAW-300S Constant Loading Pressure Testing Machine
+EN 196-1 | EN 933-5 | EN 1015-11 | ISO 679 | ASTM C109, C348, C349, C1194| BS 4550
+YAW-300S Constant Load Cement Flexural and Compressive Testing Machine is a new generation of servo press independently developed and produced by Zhejiang Luda. With strong technology and production capacity, our company was honored to be invited to participate in the preparation of new standards for all-in-one machines. This  testing  machine is an essential testing instrument for building materials,construction engineering, quality supervision, metrology testing, scientific research institutions and other units.
+Features:
+1.Imported servo motor is used to control the oil source;
+2.High-precision servo flow valve;
+3.With the force closed-loop control function, it can realize the loading of the load stress rate;
+4.It can realize equal load rate loading or equal stress rate loading.
+Main technical parameters and specifications:
+Maximum test force 	300kN
+Constant loading rate 	0.3~9.9kN
+Upper and lower platen spacing 	185mm
+Pressure plate diameter 	Φ120mm
+Piston maximum stroke 	90mm
+Indication relative error (accuracy)	±0.5%
+Indication repeatability relative error	0.5%
+Return to zero relative error	±0.1%
+The  relative  resolution of the force value display device of the test machine	0.5%
+Zero drift	≤±0.1%
+Power supply	220V (±10%),1.5kW
+Dimensions 	1100×480×1340mm
+Weight	460kg
+YZH-300·10 Constant Load Cement Flexural Compression Testing Machine
+EN 196-1 | EN 933-5 | EN 1015-11 | ISO 679 | ASTM C109, C348, C349, C1194| BS 4550
+YZH-300·10 constant load cement flexural and compressive testing machine is a pressure testing machine that integrates cement flexural and compressive resistance jointly  developed  by  Zhejiang  Luda  Machinery  Instrument  Co.,  Ltd.  and  Zhejiang University of Technology
+This product adopts anti-bending and anti-compression double oil cylinders to realize the test of cement compressive strength and cement flexural strength respectively.
+Features:
+1. Using high-precision digital micro-valve, can realize loading rate loading;
+2. With the force closed-loop control function, it can realize the loading of the load stress rate;
+3. The hydraulic pump adopts an axial five-piston ultra-high pressure pump, which works smoothly and has low noise;
+4. The control valve adopts a high-precision digital micro-flow valve with high control precision;
+5. The sensor adopts a pressure sensor, which has good reliability;
+6. The  principle  of  automatic  loading  is  adopted  to  strengthen the control of the loading rate.
+Main technical parameters and specifications:
+Compressive strength test	Compressive strength test	Flexural strength test	Flexural strength test
+Maximum test force 	300kN	Maximum test force 	10kN
+Constant loading rate 	0.3~9.9kN/s	Constant loading rate 	0.05kN/s
+Upper and lower platen
+spacing 	190mm	Section side length 	40mm
+Pressure plate diameter 	Φ120mm	Span between supports 	100mm
+Piston maximum stroke	90mm	Piston maximum stroke 	70mm
+Indication relative error (accuracy)	Indication relative error (accuracy)	±1.0%	±1.0%
+Indication repeatability relative error	Indication repeatability relative error	1.0%	1.0%
+Return to zero relative error	Return to zero relative error	±0.1%	±0.1%
+The relative resolution of  the force value
+display device of the test machine	The relative resolution of  the force value
+display device of the test machine	0.5%	0.5%
+Power supply	Power supply	380V (±10%) ,0.55kW	380V (±10%) ,0.55kW
+Dimensions 	Dimensions 	1200×490×1350mm	1200×490×1350mm
+Weight	Weight	400kg	400kg
+YAW-300 Constant Loading Pressure Testing Machine
+EN 196-1 | EN 933-5 | EN 1015-11 | ISO 679 | ASTM C109, C348, C349, C1194| BS 4550
+This product is suitable for the compressive strength test of brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other  materials.
+Features:
+1.The working oil cylinder and the working piston adopt precision couplings, embedded with composite sealing rings to achieve the best sealing state;
+2.The axial plunger high-pressure oil pump is used, which works smoothly and has low noise;
+3.The sensor adopts a pressure sensor, which is highly reliable;
+4.The control valve adopts a high-precision digital micro-flow valve with high control precision;
+5.Adopt the principle of automatic loading to strengthen the control of the loading rate.
+Main technical parameters and specifications:
+Maximum test force	300kN
+Measurement accuracy range	10%~ 100%
+Indication accuracy	≦±1%
+Loading rate 	0.3～9.9kN/s
+The distance between the upper and lower platen 	180mm
+Pressure plate diameter 	Φ120mm
+Piston maximum stroke 	90mm
+Piston diameter 	Φ140mm
+Oil maximum pressure 	31.5MPa
+Power supply voltage	AC380V±10%, 0.55kW
+Dimensions 	890×600×1450mm
+Weight 	400kg
+TSY-300 Electro-hydraulic Compression Testing Machine
+EN 196-1 | EN 933-5 | EN 1015-11 | ISO 679 | ASTM C109, C348, C349, C1194| BS 4550
+This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.
+Features:
+1.It can automatically adjust the parallelism of the pressure-bearing surface between the test piece and the pressure plate, so that the test piece is evenly stressed;
+2.There is a sealing device between the piston and the oil cylinder to prevent oil leakage;
+3.Equipped with a safety valve, which can overflow when overloaded and play a role of safety protection;
+4.The test data is automatically processed and the test report is printed out.
+Main technical parameters and specifications:
+Maximum test force 	300kN
+Indication relative error (accuracy)	±1%
+Hydraulic pump rated pressure 	31.5MPa
+Pressure plate diameter 	Φ140mm
+Maximum distance between upper and lower platen 	190mm
+Piston diameter and maximum stroke 	Φ140*90mm
+Motor power 	0.55kW
+Power supply voltage	AC380V±10%
+Dimensions	880×430×900mm
+Weight 	390kg
+TSY-300 Electro-hydraulic Flexural And Compression Testing Machine
+EN 196-1 | EN 933-5 | EN 1015-11 | ISO 679 | ASTM C109, C348, C349, C1194| BS 4550
+This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.
+Features:
+1.It can automatically adjust the parallelism of the pressure-bearing surface between the test piece and the pressure plate, so that the test piece is evenly stressed;
+2.There is a sealing device between the piston and the oil cylinder to prevent oil leakage;
+3.Equipped with a safety valve, which can overflow when overloaded and play a role of safety protection;
+4.The test data is automatically processed and the test report is printed out.
+Main technical parameters and specifications:
+Maximum test force 	300kN
+Indication relative error (accuracy)	±1%
+Hydraulic pump rated pressure 	31.5MPa
+Anti-folding roller diameter	Φ30mm
+Distance between upper and lower anti-folding rollers	165mm
+Center distance between two upper anti-folding rollers	150mm
+Center distance between two anti-folding rollers	450mm
+Pressure plate diameter 	Φ160mm
+Maximum distance between upper and lower platen 	230mm
+Piston diameter and maximum stroke 	Φ140*90mm
+Motor power 	0.55kW
+Power supply voltage	AC380V±10%
+Dimensions	890×600×1450mm
+Weight 	400kg
+TSY-1000S Constant Load Manhole Cover Special Pressure Testing Machine
+EN 124-1
+TSY series manhole cover pressure testing machine is a scientific and technological achievement of cooperation between our company and the Institute of Fluid Transmission and Control of Zhejiang University of Technology.
+The testing machine is mainly used for testing manhole cover load bearing test and residual deformation test, and can also be used for mechanical performance tests of other materials. 
+Features:
+1.This machine adopts high-precision deformation and high-resolution acquisition system;
+2.Hydraulic control adopts integrated oil circuit servo control system; 
+3.Stable and reliable loading, intelligent operation;
+4.It has the functions of automatic lifting, automatic positioning, automatic calibration, equal  force and equal deformation, servo automatic compensation, positioning,  pressure keeping,  intelligent prompting of working status and mixed control;
+5.With power-off data protection function;
+6.The experimental data is automatically processed, and the operation is convenient and reliable;
+7.The corresponding configuration can be selected according to the different needs of customers.
+Main technical parameters and specifications:
+Maximum test force 	1000kN
+Rigid adjustment block 	Φ356×40mm
+Calibration block 	500×500×50mm
+Effective measurement range	10%-100%
+Accuracy of load indication	better than ±1%/±0.5% of indication
+Piston maximum stroke 	250mm
+Piston diameter 	Φ210mm
+Hydraulic pump rated pressure 	31.5MPa
+Test space	1200×1200×300
+Power supply 	1.2kW
+Power supply voltage	AC380V±10%
+Mainframe Dimensions 	1400×1200×1400mm
+Overall dimension of control cabinet 	1200×700×900mm
+Weight 	2200kg
+Ⅳ.LARGE TESTING MACHINE SERIES
+Ⅳ.LARGE TESTING MACHINE SERIES	57
+TSY-500 Static Load Sleeper Testing Machine	58
+LDCJ-300 Microcomputer Controlled Tensile Stress Relaxation Testing Machine	60
+LDGW-60C Steel Pipe Bending Test Machine	62
+LDWQ-40D Vertical Steel Bar Bending and Rebending Testing Machine	63
+GW-40C Steel Bar Bending Machine	65
+LD-JZ500D Automatic Bolt Torque Tension Testing Machine	67
+TSY-500 Static Load Sleeper Testing Machine
+EN 13230-1 | EN 13230-2 | EN 13230-3
+The static load sleeper testing machine is a device for testing the static load crack resistance test of concrete sleepers (Type I sleepers, Type II sleepers, Type III sleepers, fork sleepers, bridge sleepers, wide sleepers, etc.). 
+Features:
+1.The force measurement of this machine adopts high-precision load sensor, microcomputer program control, electro-hydraulic proportional hydraulic loading system and other technologies;
+2.Use the positioning ruler (self-provided) to adjust the position of the sleeper so that the load center coincides with the center of the pressure plate;
+3.According to the set working procedure, the piston moves freely;
+4.Equipped with three  high-precision spoke sensors to ensure accurate data of three separate pressure points, and equipped with special LED crack observation lights. In order to facilitate the sleeper test of foreign standards, the fulcrum can be adjusted;
+5.The loading process is adjusted with the variable structure PID control algorithm, the constant speed control error is ≤5%, and the pressure holding control error is ≤0.5%;
+6.Loading speed Uniform loading;
+7.The static load point can be set arbitrarily, and the data result report is automatically printed.
+Main technical parameters and specifications:
+Model Specification	TSY-500
+The Maximum Load Value under the Rail	500kN
+Load Indication Accuracy	±1%
+Initial Load  after Placing the Sleeper	<20kN
+Loading Speed	3000±300N/s
+Hold Time	180s
+Piston Maximum Stroke	250mm
+Adjustable Under-rail Loading Distance	600, 700, 800mm
+Adjustable Loading Distance in the Rail	600, 1500mm
+Test space:Distance between Upper and Lower Supports	430 mm
+Test space: Distance between Four Columns	820, 900mm
+ Host Dimensions	1720×990×2266mm
+Carriage	3390×700×135mm
+Control Cabinet	1210×770×1020mm
+Related Parameters of Hydraulic Pump Station	Related Parameters of Hydraulic Pump Station
+Rated Pressure	High Pressure Oil Pump 31.5MPa
+Rated Displacement	High Pressure Oil Pump 25ml/rec
+Motor Power	1.2kW ,Speed 980rpm
+Power Supply Voltage	AC380V±10%
+LDCJ-300 Microcomputer Controlled Tensile Stress Relaxation Testing Machine
+ASTM E328 | ISO 15630-3
+This product is suitable for  testing equipment for measuring the relaxation properties of metal   materials at room temperature.   
+Features:
+1.The host machine is of horizontal structure with moderate height and easy operation. The load-bearing pedestal is a welded structure with high rigidity and light weight;
+2.The universal  prestressed through-hole jack is adopted, which has strong versatility and is suitable for prestressing. Applicable to tensioning Ovam clip group, anchor DM type heading anchor and LEM type cold casting anchor;
+3.The piston of the working jack is double-acting, which can realize quick return;
+4.Using a high-flow high-pressure pump, the loading speed can be controlled by a manual valve;
+5.Full digital measurement and control device, stable performance, high measurement and control accuracy;
+6.With force and displacement automatic clearing, automatic calibration function;
+7.The force measurement resolution is high and does not change in the whole process, and it is not divided into files;
+8.The whole machine is equipped with 6 round hole backing plates.
+Main technical parameters and specifications:
+Model Specification	LDCJ-300
+Maximum Test Force 	300kN
+Effective Measurement Range	10%~100%(no classification in the whole process)
+Load Indication Accuracy	Better than ±1% of indication
+Load Resolution	1N
+Accuracy of Displacement Indication	Better than ±0.5% of indication
+Loading speed 	0.01-40 mm/mincan be set arbitrarily
+Screw Stroke 	100mm
+Test  Space  	2200mm(the maximum stretching distance  between the left and right chucks)
+Power Supply	AC220V±10%, 2.3kW
+Dimensions 	2250×530×1200mm
+Weight 	1200kg
+LDGW-60C Steel Pipe Bending Test Machine
+LDGW-60C steel pipe bending testing machine has the characteristics of compact structure, simple operation, intuitive display of bending angle, easy maintenance, stable operation, safety, and low noise. It is a special equipment for cold bending test of steel pipes.This equipment is an ideal test equipment for steel mills and construction units to test the bending performance and reverse bending performance of steel pipes.
+Main technical parameters and specifications:
+Steel Pipe Outer Diameter	φ10.2-φ60.3mm (8 types)
+Bend Radius of Bend Center	6d
+Bending Angle	Set arbitrarily within 0-90°
+Angle Setting Resolution	1°
+Angle Control Accuracy	±1°
+Control Mode	Manual control, automatic control
+Working Disc Speed	1.4r/min
+Motor Power	2kW
+Machine Shape	1300×900×1200 (mm)
+Machine Weight	2000kg
+LDWQ-40D Vertical Steel Bar Bending and Rebending Testing Machine
+EN ISO 7438 | EN ISO 15630-1 | ASTM A615 | ASTM A615M
+The steel bar bending test machine is a special equipment for cold bending test and plane  reverse bending test of steel bars.It is mainly used in the quality inspection department of  metallurgy and construction engineering, and can also be used in the bending performance  inspection of construction raw materials and steel bar welding points. Commonly used equipment for performance testing and research.
+Features:
+1.Vertical closed integrated fuselage design, silent oil pump hydraulic system;
+2.3-cylinder  design, the  roller  span is driven by 2 lateral cylinders with displacement measurement;
+3.With a fully transparent  protective cover that can  be observed in all directions, the front plexiglass protective sliding door slides silently;
+4.Imported PLC control, equipped with 10.1-inch configuration touch screen, with animation display, real-time display of angle, automatic control of bending process and other functions.Friendly operation interface, the test steps have been decomposed into the whole screen interface, follow the prompts to operate step by step, easy to learn;
+5.Support bending test (0-180 degrees), reverse bending test (forward bending 90 degrees,  reverse bending 20 degrees), reverse bending needs to use additional bending support (optional);
+6.With dross, steel oxide skin collection drawer;
+7.One-click test. After the user selects the steel bar type parameters and diameter, the bending machine automatically adjusts the span and gives the number of the bending core. After the press test, the bending machine automatically completes the press bending and lateral pressurization. After the end, the vertical oil cylinder and the lateral oil cylinder return automatically.
+Main technical parameters and specifications:
+Bending Diameter Range	Φ6-Φ40mm
+Bending Angle Range	Set arbitrarily within 0-180°
+Cylinder Stroke	250mm
+Transverse Bending Speed	300mm/min
+Roller center distance	＞600mm
+Positive bending core	Φ6、Φ8、Φ10、Φ12、Φ14、Φ16、Φ18、Φ20、Φ24、Φ32、Φ40、Φ48、Φ56、Φ64、Φ72、Φ80、Φ88、Φ100、Φ140、Φ160、Φ180、Φ200mm
+Reverse bending core	Φ40、Φ50、Φ60、Φ70、Φ80、Φ84、Φ90、Φ100、Φ110、Φ125、Φ168、Φ192、Φ216、Φ240mm
+Power Supply	AC380V±10%
+Rated Power	3000W
+Machine Shape	1760×700×2160mm
+Equipment Weight	750kg
+GW-40C Steel Bar Bending Machine
+GW-40C steel bar bending machine is a test equipment for bending and reverse bending of steel bars in the plane. It is suitable for steel mills, construction units, working condition  enterprises, traffic quality inspection and other industries.It is suitable for steel mills,  construction units, working condition enterprises, traffic quality  inspection and other industries.
+Features:
+1.The working disc can be set for forward bending and reverse bending;
+2.Operation panel dual display device;
+3.There are safety devices such as protective covers on the host;
+4.Manual forward and reverse bending is possible;
+5.Once an abnormal state occurs, it can be cleared and stopped.
+Main technical parameters and specifications:
+Steel Bending Diameter 	Φ6~Φ40mm
+Reinforcement Positive Bending Angle	0~180° (arbitrary setting)
+Bar Reverse Bending Angle	0~20° (arbitrary setting)
+Working Disc Rotation Speed 	<3.7r/min
+Roll Center Distance	165mm
+Positive bending core	4×Φ6 、4×Φ8、4×Φ10(5×Φ8)、4×Φ12、4×Φ14、4×Φ16、4×Φ18、4×Φ20(5×Φ16)、4×Φ22、4×Φ25、5×Φ28、5×Φ32、5×Φ36、5×Φ40mm
+Reverse bending core	5×Φ6、5×Φ10、5×Φ12、5×Φ14、5×Φ18、5×Φ22、5×Φ25、6×Φ28、6×Φ32mm
+Power Supply	AC380V±10% ,1.5kW
+Dimensions 	1050×740×1170mm
+Weight 	750kg
+LD-JZ500D Automatic Bolt Torque Tension Testing Machine
+ISO 16047 | ASTM D5648
+It can detect, display and print the axial force and torque of 7/16 inch non-standard bolts.
+It can be equipped with a special torsional shear wrench, and can also detect the axial force (pre tightening force) after the shear-type high-strength bolt connection pair 7/16 is twisted off (this wrench needs special order).
+Features:
+1.This product has the function of parameter backup and recovery, automatic calibration function, and the monitoring of peak value is also set according to the detection requirements of high-strength bolts.
+2.In order to meet the needs of users, the instrument is equipped with a network interface connected to the computer, which can transmit data to the computer and upload the data, and print out the report after further processing.
+Main technical parameters and specifications:
+Axial Force Measurement Range 	30~500kN
+Torque Measurement Range 	50~2000Nm
+Resolution 	±0.1kN
+Indication Error 	±1%kN
+Display Mode	Liquid crystal display
+Overall Dimensions	1470×550×1400mm
+Weight 	1600kg
+Ⅴ.ASPHALT TESTING SERIES
+Ⅴ.ASPHALT TESTING SERIES	69
+LDSY-3 Asphalt Mixture Rotary Compactor	70
+LDRS-6 Asphalt Content Analyzer (combustion method)	71
+LDCX-1 Asphalt Roller Compactor	72
+LDCZ-5 Automatic Single Wheel Tracking Apparatus	74
+SYD-4508G Intelligent Asphalt Ductilometer	75
+STYD-3  Intelligent Asphalt Ductilometer	76
+LD-5B Asphalt Mixture CBR/Marshall Stability Tester	77
+LDHB-20 Automatic Laboratory Bituminous Mixers	78
+LDL-2 Asphalt Wax Content Tester	79
+82 Type Rotating Shelf Thin Film Oven (TFOT)	80
+85 Type Rolling Thin-Film Oven (RTFOT)	81
+CF-C Overflow Water Bath	82
+TC-20 Water Bath	83
+TC-20 Low Temperature Water Bath	84
+THD-0506 Low Temperature Water Bath	85
+LD-2000 Computer Asphalt Softening Point Tester	86
+IV-2000 Computer Automatic Asphalt Penetrometer	87
+LDSY-3 Asphalt Mixture Rotary Compactor
+The asphalt mixture gyratory compactor is a kind of simulating the volume and properties of the actual pavement material, under the conditions of constant pressure,fixed compaction angle and fixed compaction speed, the hot- mix asphalt mixture cylinder test is carried out by  kneading method,compaction molding equipment for piece production.  
+Features:
+This machine adopts imported accessories,under the given compaction pressure and rotation compaction angle,it can operate safely and reliably,and the experimental data is accurate and reliable.
+Main technical parameters and specifications:
+Mould size	Diameter 100mm,150mm,Height250mm
+Forming height	50-150mm
+Compaction pressure	100~ 1000kPa (adjustable)
+Number of rotations	1~999 times (adjustable)
+Rotation rate	30 rpm/ min
+Rotation angle	0.5°~2.0° (adjustable)
+Power	2150W
+Power supply	380V
+Size	900×900×1900mm
+Weight	450kg
+LDRS-6 Asphalt Content Analyzer (combustion method)
+AASHTO T308-10 | ASTM D6307-10 | BS EN 12697-39:2012
+This product uses the combustion method to determine the asphalt content.The product adopts a high-precision measurement and control system and is used with an imported  balance.It can quickly, accurately, safely and reliably measure the asphalt content, and can meet the requirements of mass continuous production of  mixing plants and road supervision   and inspection, thereby ensuring the quality of road construction.
+Features:
+The product adopts a high-precision measurement and control system and is used with an  imported balance.It can quickly, accurately, safely and reliably measure the asphalt content,   and can meet the requirements of  mass continuous production of mixing plants and road  supervision and inspection, thereby ensuring the quality of road construction.
+Main technical parameters and specifications:
+Working room size	360mm×400mm×300mm
+Power supply	Power supply
+Host working voltage	380V±10V,8000W
+Instrument working voltage	220V±10V (reliable grounding required)
+Balance capacity	10kg, division 0.1g
+Combustion chamber maximum operating temperature	800° C
+Maximum sample weight	4000g, recommended 1000g~ 1500g
+Asphalt content test accuracy	0.01%
+LDCX-1 Asphalt Roller Compactor
+EN 12697-33 method 5.2 | ASTM D8079
+This machine is mainly used for roll forming of asphalt mixture tests in rutting tests. It is also suitable for using the rolling method to make samples of other physical and mechanical properties of asphalt mixtures.
+Features:
+This machine integrates machinery, electricity and hydraulic pressure. Compared with similar  products, it has the characteristics of small size, high degree of automation, strong function and convenient operation.
+Rolling temperature can be set arbitrarily.
+After the test mold is installed on the trolley, it can be centered automatically.
+The rolling times of the trolley can be set arbitrarily, and the rolling times can be recorded at any time.
+Main technical parameters and specifications:
+Mould size 	300×300×(30~100)mm
+(Can be customized upon request)
+Trial car travel 	300mm
+The height change value of the test mold 	30~ 100mm
+Roller Radius	500mm
+Roller width	300mm
+Roller pressure	0~20kN,can be adjusted arbitrarily
+Dimensions 	620×1100×1900mm
+Voltage	380V±10%
+LDCZ-5 Automatic Single Wheel Tracking Apparatus
+EN 12697-22 | BS 598:110 | Comparable to NF P98-251-1, P98-251-4
+The automatic rutting tester is mainly used to measure the high-temperature anti- rutting ability of  asphalt mixture, and it is used for the high-temperature stability test of asphalt mixture design. 
+Features:
+This machine adopts the rutting tester produced by international contemporary technology,  which has reliable performance, high measurement and control precision, and convenient   operation; it can be used for water immersion experiments.
+Main technical parameters and specifications:
+Rolling speed of roller	42±1 times/ min (one way)
+Test trolley movement distance 	230±10mm
+Roller and rubber hardness (international standard hardness) 	78±2 (At 60° C)
+Contact pressure between roller and test die	0.7±0.05MPa (60° C), adjustable to 0.8-0.9MPa
+Trial mold size	300×300×50 (standard), which can be used for rutting test on specimens with a thickness of 30-100mm
+(Can be customized upon request)
+Measuring range of displacement 	0-30mm
+Rutting test time 	Usually 60min
+The temperature control range in the incubator (can be set arbitrarily) 	Room temperature 60° C, control accuracy ± 0.5
+Overall dimensions of the whole machine 	1330×815×1430mm
+SYD-4508G Intelligent Asphalt Ductilometer
+EN 13398 | AASHTO  T300 | AASHTO  T301 | EN 13589 | ASTM D113, D6084 |
+ AASHTO T51
+This instrument measures the length of petroleum asphalt when it is stretched to break at a certain speed under specified conditions and temperature. This equipment is a multi-purpose asphalt testing instrument that integrates asphalt ductility, asphalt force ductility, and asphalt elastic recovery capacity testing.
+Features:
+The air-conditioning water pump and the main machine are designed separately on the ground, and the stretching process is stable and synchronous, without shaking, and the speed is uniform, which improves the test accuracy;
+It adopts industrial control touch screen, and has two recording methods: wireless remote control recording and instrument touch screen recording, which are convenient for users to choose and use.
+Main technical parameters and specifications:
+Working power supply	AC220V±10%, 50-60Hz
+Measuring range	1.5m (±10mm)
+Heating method	Electric heater heating
+Heating power 	3500W
+Bath liquid circulation	Shielded cold and hot balance pressurized  circulation system
+Temperature control range  	Adjustable from 2℃ to 50 ℃, digital display, temperature display resolution 0.01
+Temperature control accuracy 	±0.1° C
+Tensile speed 	10mm/min, 50mm/min two gears
+Measurement accuracy 	±1mm
+Extensibility display	Real-time display on industrial touch screen
+STYD-3  Intelligent Asphalt Ductilometer
+EN 13398 | AASHTO  T300 | AASHTO  T301 | EN 13589 | ASTM D113, D6084 | 
+AASHTO T51
+This instrument is suitable for measuring the elongation of viscous petroleum,viscous shale asphalt,wax liquid, asphalt, liquid asphalt residue after distillation and asphalt emulsion fluid   evaporation residue,etc.It is widely used in production, road construction and scientific research departments. 
+Features:
+The inner box of this machine is made of imported stainless steel bending, and the inner tank  is equipped with a set of 3000-3500 watt  heating tube, a 1100 watt refrigerator and a set  of  cold tube, and a permanent magnet low-speed synchronous motor is used to drive the gearbox. The rod pulls the slide,optionally extending at a rate of 50mm/min±2.5mm/min.
+Main technical parameters and specifications:
+Extension speed 	50±2.5mm/min,10±0.5mm/min
+Test temperature 	2~50℃  (adjust by yourself according to actual needs)
+Heating power 	3~3.5kW
+Cooling power 	1kW
+Temperature control accuracy	±0.1° C
+Working voltage	220V±10%
+LD-5B Asphalt Mixture CBR/Marshall Stability Tester
+EN 12697-34 | ASTM D 6926, D5581 | AASHTO T245 | BS 598 :107| ASTM D1859 | ASTM D1883
+The automatic asphalt mixture stability tester is used to measure the ultimate pressure value and vertical deformation of the asphalt mixture specimen when the pressure reaches the failure point. It is a commonly used testing equipment for asphalt mix ratio design and asphalt pavement construction quality inspection.
+Features:
+This machine adopts ARM core processor, high-precision load sensor,high-precision   displacement sensor, and high measurement and control precision.
+Main technical parameters and specifications:
+Model	LD-5B
+Load range 	30±0.1kN
+Displacement range 	10±0.1mm
+Loading speed 	50±5mm/min
+Loading method	Automatic/Manual
+Relative Humidity 	≤85%RH
+Working power supply	AC220V±10%
+Specimen size	Ф101.6mm
+Power 	500W
+Dimensions 	550×350×700mm
+Weight 	60kg
+LDHB-20 Automatic Laboratory Bituminous Mixers
+EN 12697-35 | ASTM D6307 | AASHTO TP53
+The vertical fully automatic mixture mixer is a mixing machine commonly used in the preparation of asphalt, sand and gravel mixture, cement and sand and gravel mixture  samples.  
+Features:
+This machine adopts intelligent control instruments, automatic temperature control,  the  temperature of the heating pot can be set arbitrarily from room temperature to 200 ℃, and the stirring time is controlled by a timer, which can be set arbitrarily within the range of 1 to 999 seconds.
+Main technical parameters and specifications:
+Stirring capacity 	20L
+Heating pot temperature range 	Room temperature~200 ℃ (arbitrary setting)
+Temperature control accuracy 	±0.5° C
+Stirring time 	1~999s (arbitrary setting)
+Stirring blade rotation speed	75 rpm
+Revolution speed	46 rpm
+Temperature 	-10~40° C
+Relative humidity	Not more than 80%
+Power supply voltage	Power supply, motor,voltage380V, heating part 220V
+(that is, the power supply part should be three-phase four-wire system, the total power supply should be 380V plus 220V neutral wire)
+LDL-2 Asphalt Wax Content Tester
+This product is suitable for determining the wax content in petroleum asphalt, the wax content  of  petroleum asphalt produced from the vacuum residue of natural crude oil, and the wax   content of road petroleum asphalt.This equipment is a commonly used asphalt wax content detection equipment in the petrochemical, construction, and road construction industries.
+Features:
+The temperature controller of this machine adopts a digital temperature controller with high precision, clear temperature display, and convenient setting of temperature control points. The instrument can be used for analysis tests of three samples at a time, and the test efficiency is high.
+Main technical parameters and specifications:
+Working power supply	AC220V±10%
+Heating power 	1000W
+Cooling power 	1000W
+Internal circulation low temperature water pump	DC12V, 42W
+Temperature sensor	Pt100
+Refrigerant medium	R404
+Temperature control accuracy 	±0.5° C
+Operating environment	Ambient temperature -10° C ~+30° C,     relative temperature <85%
+Machine power consumption 	No more than 2100W
+82 Type Rotating Shelf Thin Film Oven (TFOT)
+EN 12607-2 | EN 13303 | ASTM D6, D1754 | AASHTO T47, T179 | UNE 7110 | 
+NF T66-011
+This product is mainly used for asphalt film heating test. 
+Explosives are strictly forbidden to be heated in the box to avoid explosion.
+Features:
+The  temperature  controller  of  this  machine  adopts  an  anti-integral  saturation circuit, which greatly improves the temperature fluctuation performance .
+Dual-purpose: After the workbench is disassembled, it can be  used as a drying box.
+Main technical parameters and specifications:
+Heating power 	2.8kW
+Usage Environment	Temperature 10~40℃, relative humidity ≤80%, no vibration and no corrosive or flammable gas
+Working temperature	163±0.5° C (Maximum working temperature 200° C)
+Voltage	220V
+Temperature range	50～200℃
+Temperature fluctuation	±0.5℃
+Disc rack speed	5.5 rpm
+Disc diameter	400mm
+Studio size 	550×450×550mm
+Dimensions 	850×600×1000mm
+Weight 	120kg
+85 Type Rolling Thin-Film Oven (RTFOT)
+EN 12607-1 | ASTM D2872 | AASHTO T240
+The instrument is suitable for measuring the performance change of semi-solid asphalt under the action of heating and air,and can check the aging performance of asphalt in a short time.  
+Features:
+The controller adopts integral saturation circuit, digital display temperature and time control,   and the temperature time can be adjusted according to requirements.
+The most advanced permanent magnet synchronous motor and speed changer are installed at the rear of the whole machine, so that the working turntable can rotate reliably under the technical requirement of 15 revolutions per minute.
+Main technical parameters and specifications:
+Heating wire power 	2kW
+Number of heating wires	2 PCS
+Working temperature	163±0.5° C
+Maximum temperature 	200° C
+Fan	Squirrel cage
+Fan speed 	2800±5%r/min
+Air volume 	4L/min
+Nozzle diameter 	1mm
+Sample bottle size 
+(diameter × diameter × height)	Φ32×Φ63×140 mm
+Rotary brick number 	15±0.2r/ min
+The number of sample bottles that can be loaded	8 PCS
+Total power 	2.5kW
+Power supply voltage	AC220V±10%
+Studio size 	450×450×420mm
+Dimensions 	680×800×1270mm
+Weight 	120kg
+CF-C Overflow Water Bath
+EN 12697-34 | ASTM D6927, D1559, D5581 | AASHTO T245
+CF-C constant temperature overflow water tank is developed according to the asphalt mixture density test method in the test regulations, and has functions such as automatic constant temperature. This product is widely used in scientific research departments such as chemical industry and physical performance testing.
+Main technical parameters and specifications:
+Heating power 	1500W
+Cooling power 	138W
+Temperature range 	Room temperature-60℃
+Temperature control accuracy 	±0.1℃
+Voltage 	220V
+Studio size	400×400×300mm
+Dimensions	950×450×900mm
+TC-20 Water Bath
+The machine creates a constant temperature environment in the box by controlling the temperature change. The constant temperature water bath has a wide range of applications and is suitable for scientific laboratories such as biology, chemistry, physics, plants, and chemicals.
+Features:
+The shell of this machine is made of steel plate,the shell is sprayed with high-temperature spray paint, and the inner tank is made of imported stainless steel material,with exquisite  workmanship,more reasonable structure and more convenient use.
+Main technical parameters and specifications:
+Model	TC-20
+Control temperature 	Room temperature ~ 100 ℃
+Total power of electric heating tube 	2kW
+Number of electric heating tubes	2 PCS
+Power supply voltage	AC220V±10%
+Studio size	600×300×210mm
+Dimensions 	820×395×315mm
+Weight 	35kg
+TC-20 Low Temperature Water Bath
+Low temperature constant temperature bath is one of the commonly used equipment  in  laboratories.It is widely used in petroleum,chemical industry,metallurgy, medicine,biochemical  property testing,chemical analysis research departments, colleges and universities,factory laboratories and metrology quality inspection departments.It also provides a maintenance  environment with controlled heat and cold and uniform and constant temperature.
+Main technical parameters and specifications:
+Model	TC-20
+Temperature range 	-6.00~59.99℃
+Fluctuation 	±0.1°C
+Inner tank volume 	50L
+Working tank size	550×300×300mm
+Pump flow 	13L/mm3
+Total power 	2.2kW
+Supply voltage	AC220V±10%
+THD-0506 Low Temperature Water Bath
+Low temperature constant temperature bath is one of the commonly used equipment  in  laboratories.It is widely used in petroleum,chemical industry,metallurgy, medicine,biochemical  property testing,chemical analysis research departments, colleges and universities,factory laboratories and metrology quality inspection departments.It also provides a maintenance  environment with controlled heat and cold and uniform and constant temperature.
+Main technical parameters and specifications:
+Model	THD-0506
+Temperature range 	-6.00~59.99℃
+Fluctuation 	±0.1°C
+Inner tank volume 	15L
+Working tank size	250×200×300mm
+Pump flow  	6L/mm³
+Total power 	1.5kW
+Supply voltage	AC220V±10%
+LD-2000 Computer Asphalt Softening Point Tester
+EN 1427 | ASTM D36 | AASHTO T53 | NF T66-008 | Comparable to: BS 2000 | UNI 4161 | DIN 52011 | UNE 7111
+This product is suitable for the determination of the softening point of road petroleum asphalt, coal asphalt, liquid petroleum asphalt, etc., and is generally applicable to road, bridge construction and other industries. 
+Features:
+The heating speed of the machine is controlled by PID plus fuzzy logic algorithm, and the temperature rises linearly.
+Main technical parameters and specifications:
+Test medium	Water or glycerin
+Temperature range 	0～125°C
+Resolution	0.01
+Temperature control rate	After three minutes: 5℃±0.5℃/min
+Measurement accuracy	0.5℃
+Test room temperature	Less than 30 ° C and relatively stable, no air convection Heating rate
+Mixing method	Magnetic stirring, stepless adjustable
+Temperature control method	Automatic temperature control
+Heating power 	0.7kW
+Relative humidity	≦85%
+Steel ball weight 	3.50±0.05g
+Steel ball diameter	Φ9.53mm
+Beaker volume 	1000ml
+Power supply voltage	AC220V±10%
+Dimensions 	200×260×260mm
+Weight 	5kg
+IV-2000 Computer Automatic Asphalt Penetrometer
+EN 1426 | ASTM D5 | AASHTO T49 | BS 1377-2
+ | NF T66-004 | JIS K 2207
+This product is suitable for measuring the penetration of viscous petroleum asphalt, viscous shale asphalt, liquid petroleum asphalt, road petroleum asphalt and modified asphalt, liquid petroleum asphalt distillation or emulsified asphalt residue after evaporation, generally suitable for road, municipal,chemical, scientific research and other departments engaged in  the measurement and research of asphalt performance indicators.  
+Features:
+This machine adopts the fine-tuning technology up and down of the microscope, which is very convenient to align the needle up and down. It is equipped with the most advanced digital temperature sensor, and the temperature measurement is more accurate.
+Main technical parameters and specifications:
+Model	IV-2000
+Temperature setting	0-99.9℃ adjustable, display precision 0.1℃
+(factory setting is 25℃)
+Time setting	0-99.9s adjustable, display precision 0.1s
+(factory setting is 5s)
+Temperature control range	10-60℃,accuracy ±0.5℃
+Total cone weight	100±0.05g
+Standard needle	25±0.05g
+Counterweight	50±0.05g
+Constant temperature container	＞1.0L
+Voltage	220V±10%, 50-60Hz
+Ⅵ.CONCRETE TESTING SERIES
+Ⅵ.CONCRETE TESTING SERIES	89
+TDRF Series Concrete Fast Freeze-thaw Chamber	90
+CCB-70A Concrete Carbonation Test Chamber	92
+LDZY-400 Accelerated Concrete Curing Tank	93
+JKS Alkali-aggregate Test Chamber	94
+(Mortar-Bar Method and Accelerated Mortar-Bar Method)	94
+LDWS Series Constant Temperature and Humidity Curing Controller (high pressure atomization)	95
+LDWS Series Constant Temperature And Humidity Curing Controller (ultrasonic atomization)	96
+LDWSA20 Constant Temperature And Humidity Control System	97
+LDHJ Series Constant Temperature And Humidity Environment Control System	98
+BYS-3 Curing Room Three-piece Set	99
+HP-4.0 Concrete Impermeability Apparatus	100
+A-Type Cement (Concrete) Fast Curing Chamber	101
+CA-3 Direct-reading Concrete Air Content Tester	102
+HC-7L Imitation Japanese Concrete Air Content Tester	103
+GQC-1 Improved Concrete Air Content Tester	104
+HG-1000 Acme Penetrometer	105
+HG-80 Acme Dial Penetrometer	106
+HZJ Series Concrete Vibrator	107
+SJD Series Single Shaft Concrete Mixer	108
+LDCL-B Chloride Ion Fast Content Analyzer	109
+SY-2 Concrete Pressure Secretion Instrument	110
+TDRF Series Concrete Fast Freeze-thaw Chamber
+ASTM C666 | AASHTO T161, PROCEDURE A
+Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.
+This product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.
+Main technical parameters and specifications:
+Model	TDRF-1	TDRF-2	TDRF-3
+Condenser cooling way	Air-cooling	Air-cooling	Air-cooling
+Number of test pieces 	28 PCS	16 PCS	10 PCS
+Specimen size	100×100×400mm,the temperature measuring parts are of the same size, and there are temperature measuring holes in the middle.	100×100×400mm,the temperature measuring parts are of the same size, and there are temperature measuring holes in the middle.	100×100×400mm,the temperature measuring parts are of the same size, and there are temperature measuring holes in the middle.
+Freezing end time/test piece center temperature	1.5～2.5h/-17±2℃（New standard -18±2℃）	1.5～2.5h/-17±2℃（New standard -18±2℃）	1.5～2.5h/-17±2℃（New standard -18±2℃）
+Melting end time/test piece center temperature	1.0～2.0h/8±2℃（New standard 5±2℃）	1.0～2.0h/8±2℃（New standard 5±2℃）	1.0～2.0h/8±2℃（New standard 5±2℃）
+Freeze-thaw cycle	2.5～4h,the melting time is not less than 1/4 freeze-thaw cycle.	2.5～4h,the melting time is not less than 1/4 freeze-thaw cycle.	2.5～4h,the melting time is not less than 1/4 freeze-thaw cycle.
+The temperature difference between the center and the surface of the specimen	＜28℃	＜28℃	＜28℃
+Number of cycles	The standard is 300 times, and the number of cycles can be adjusted.	The standard is 300 times, and the number of cycles can be adjusted.	The standard is 300 times, and the number of cycles can be adjusted.
+Temperature recorder	LCD touch screen controller	LCD touch screen controller	LCD touch screen controller
+Freeze-thaw cycle medium	-45°C antifreeze (1:1 mixed with water)	-45°C antifreeze (1:1 mixed with water)	-45°C antifreeze (1:1 mixed with water)
+Amount of freeze-thaw cycle media charged	90kg	60kg	30kg
+Refrigerator compressor	Complete inlet closure 8.5HP	Complete inlet closure 5HP	Complete inlet closure 3HP
+Specimen barrel size	115×115×490mm	115×115×490mm	115×115×490mm
+Heating power	9kW	6kW	4.5kW
+Maximum operating power	11kW	8kW	6kW
+Voltage	AC380V±10%	AC380V±10%	AC380V±10%
+Overall dimensions	1870×1370×1000mm	1870×1000×1000mm	1620×1000×1000mm
+CCB-70A Concrete Carbonation Test Chamber
+ISO 1920-12
+Our company participated in the drafting of CCB-70A concrete carbon ization test chamber and designated by the Building Materials Department.This equipment is a special apparatus for carbonation test of concretes.
+Main technical parameters and specifications:
+Temperature control	20±2℃(adjust)
+Temperature control precision 	0.5℃
+Humidity control 	70±5%RH (40~70 adjust)
+CO2 concentration	20±3% (0~60,0~100 adjust,two ranges available)
+CO2 concentration resolution 	±1%
+CO2 concentration uniformity 	≦2%
+CO2 concentration precision  	1%
+Heating power 	600W
+Refrigeration/Dehumidification power 	240W
+Humidification power 	1500W
+Voltage	AC220V±10%
+Studio size 	620×550×1230mm
+Overall dimensions	1100×710×1630mm
+Weigh	200kg
+LDZY-400 Accelerated Concrete Curing Tank
+ASTM C684 Method C
+This product is a common equipment for the steam curing test of concrete specimens.The equipment is made of stainless steel inside and outside, touch screen operation display, automatic control, the test process is simple and convenient.
+Main technical parameters and specifications:
+Specimen size with mold	195×195×175mm
+Box inner diameter	1000×750×640mm
+Overall dimensions	1560×850×900mm
+Number of specimen groups	8 groups (24 pieces in total)
+Temperature rise rate  	≦15℃/h
+Heating power	4.0kW (new heating tube)
+Cooling power	0.5kW
+Voltage	AC220V±10%
+Frequency	50-60Hz
+JKS Alkali-aggregate Test Chamber
+(Mortar-Bar Method and Accelerated Mortar-Bar Method)
+ASTM C1260 | ASTM C1567
+Alkali-aggregate test chamber is designed and manufactured according to the national standard requirements for concrete long-term durability test.It is suitable for temperature control and time control of sand aggregate expansion test. The inner liner and shelf are made of stainless steel material.
+It is suitable for conducting alkali-aggregate reaction test as to long-term durability of concretes in construction units,highway bridge engineering  units,and related research and quality inspection departments.
+Main technical parameters and specifications:
+Temperature control	Room temperature ~100℃(adjust)
+Temperature control precision 	±0.2℃
+Control time range	1~999min（99.9 days）
+Frequency	50-60Hz
+Control time precision 	±1min
+Heating power 	6kW
+Water pump power 	90W
+Voltage	AC380V±10%
+Studio size	650×550×600 (clear height 450mm)
+Overall dimensions	1010×680×800mm
+LDWS Series Constant Temperature and Humidity Curing Controller (high pressure atomization)
+This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.
+Main technical parameters and specifications:
+Model	LDWS-50	LDWS-100
+Temperature measurement accuracy 	±1℃	±1℃
+Temperature control	20±2℃	20±2℃
+Humidity control	≥95%RH	≥95%RH
+Voltage	380V	380V
+Supply frequency 	50-60Hz	50-60Hz
+Refrigerator power 	3000W	4000W
+Heater power 	9000W	9000W
+Maximum control area	50m3	100m3
+LDWS Series Constant Temperature And Humidity Curing Controller (ultrasonic atomization)
+This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.
+Main technical parameters and specifications:
+Model	LDWS-50	LDWS-100
+Temperature measurement accuracy 	±1℃	±1℃
+Temperature control	20±2℃	20±2℃
+Humidity control	≥95%RH	≥95%RH
+Voltage	380V	380V
+Supply frequency 	50-60Hz	50-60Hz
+Refrigerator power 	3000W	4000W
+Heater power 	9000W	9000W
+Maximum control area	50m3	100m3
+LDWSA20 Constant Temperature And Humidity Control System
+The product is suitable for cement plant, construction units, highway and bridge engineering units and  relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of mortar, cement products and other samples.
+Main technical parameters and specifications:
+Model	LDWSA20
+Temperature control	15～25±2℃(adjust)
+Temperature controller error	±1℃
+Humidity control	50～80±5％RH(adjust)
+Maximum control area	10m2
+Heating power 	1500W
+Refrigerator power 	1500W
+Dehumidification power	500W
+Voltage	AC220V±10%
+Wall-mounted controller installation size	450×200×550 mm
+Dimensions of 1.5 P air conditioner 	840×540×320mm
+Dimensions of dehumidifier	500×400×700mm
+LDHJ Series Constant Temperature And Humidity Environment Control System
+LDHJ-50/100 constant temperature and humidity environment control system is designed and  manufactured according to the national requirements for mortar chambers, cement chambers, insulation material chambers and other new standards,This product is suitable for cement factory and construction units, highway and bridge engineering units and relevant scientific research quality inspection departments of cement, concrete, cement products and other production and maintenance.
+Main technical parameters and specifications:
+Model	LDHJ-50	LDHJ-100
+Temperature controller error	±1℃	±1℃
+Temperature control	23±2℃(20-25±2℃ adjust)	23±2℃(20-25±2℃ adjust)
+Humidity control	50%RH±5%(50%-70%RH±5% adjust)	50%RH±5%(50%-70%RH±5% adjust)
+Voltage	380V	380V
+Refrigerator/Dehumidification power	
+2500W	
+4000W
+Heating power	4500W	7500W
+Control volume	50m³	100m³
+Weight	200kg	200kg
+BYS-3 Curing Room Three-piece Set
+The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.
+Main technical parameters and specifications:
+Temperature control instrument error 	±1℃
+Temperature control	20±2℃
+Humidity control	≥95%
+Voltage	AC220V±10%
+Power frequency	50-60Hz
+Refrigerator power	1～4 thousand kcal(customer-provided window air conditioner)
+Heater power 	3000W
+Maximum humidity and temperature control area	15m2(according to the area can be designed separately)
+HP-4.0 Concrete Impermeability Apparatus
+HP-4.0 automatic pressure regulating concrete impermeability instrument is used to measure the impermeability of concrete,which is used in construction enterprises, scientific research institutions, design departments and other units to engaged in the measurement and experimental research of concrete impermeability.It can also be used for building materials permeability measurement of quality inspection.
+Main technical parameters and specifications:
+Working pressure	4MPa
+Working mode	Automatic pressurization
+Number of test specimens	6 PCS
+Inner diameter of the upper opening of the test mold	Φ175mm
+Inner diameter of the bottom of the test mold	Φ185mm
+Trial mold height	160mm
+Motor power	80W
+Motor speed	136r/min
+Plunger pump plunger diameter	Φ10mm
+Plunger pump reciprocating frequency	136 times/min
+Piston pump flow 	0.11L/min
+Supply voltage	AC380V±10%
+Dimensions	1090×710×920mm
+Weight	185kg
+A-Type Cement (Concrete) Fast Curing Chamber
+EN 196-1, 196-8 | ISO 679 | ASTM C109, C511
+This product is suitable for the rapid cooking and maintenance of  concrete and construction units such as cement plants, building materials, and construction units.the liner and shelf are made of stainless steel  material.
+Main technical parameters and specifications:
+Voltage	220V
+Internal temperature	Room temperature to 100℃,users need to control freely
+Electric heat tube heating power 	2000W(3 PCS)
+Studio size	750×550×530mm
+CA-3 Direct-reading Concrete Air Content Tester
+EN 12350-7 | ASTM C231 type B | AASHTO T152 | DIN 1048
+This product is mainly used to measure the air content of new mixing concrete. It is suitable for ordinary concrete, flowing concrete, dry hard concrete, but is not suitable for light ingredient concrete.The product is designed according to ANS1/ASTM C231-78 standard, which is in line with international standards.The air content value can be read directly from the degree disk, and there is no need to query curve conversion.
+Main technical parameters and specifications:
+Concrete mix particle size	≤40mm
+Maximum air content determination	8%
+Concrete measuring pot size	Volume 7L, inner diameter to height ratio is 1:1
+Display instrument pressure value range	0.25MPa
+Display instrument dividing value	0.005MPa
+The amount of air content	8%
+The minimum reading	0.1%
+HC-7L Imitation Japanese Concrete Air Content Tester
+EN 12350-7 | ASTM C231 type B | AASHTO T152 | DIN 1048
+This product is mainly used to measure the air content in the concrete mixture.It is suitable for the determination of the air content in concrete mixtures having a slump with sub-aggregate diameter not exceeding 40mm and air content not exceeding 10%.
+This  machine  has  the  advantages  of  easy  operation,accurate measurement and intuitive reading. 
+Main technical parameters and specifications:
+Measuring bowl volume	7L(its inner diameter and depth are equal)
+Air content range	≤ 40mm
+Maximum size of coarse aggregate to be used 	≤40mm
+GQC-1 Improved Concrete Air Content Tester
+EN 12350-7 | ASTM C231 type B | AASHTO T152 | DIN 1048
+This product is suitable for the determination of the air content in concrete mixtures having a slump with sub-aggregate diameter not exceeding 40 mm and air content not exceeding 10%.
+Main technical parameters and specifications:
+Measuring bowl volume 	7L(diameter 205mm, height 212mm)
+Air content range	≤ 10%
+Maximum size of coarse aggregate to be used	≤40mm
+HG-1000 Acme Penetrometer
+ASTM C403 | AASHTO T197
+This product is suitable for testing the setting time of various cements, admixtures and concrete mixtures with different concrete mix ratios under different temperature environments. The test mold is made of all-aluminum material, light in weight and easy to use. 
+Main technical parameters and specifications:
+Specimen mould upper calibre	Φ160mm
+Specimen mould lower calibre 	Φ150mm
+Test temperature 	20±2℃
+Maximum penetration force	1000N
+Minimum division value	0.1N
+Display value error	<±1%
+Penetration method	Manual
+Stylus area 	100, 50, 20mm²
+Voltage	220V
+HG-80 Acme Dial Penetrometer
+ASTM C403 | AASHTO T197
+This product is suitable for testing the setting time of various cements, admixtures and concrete mixtures with different concrete mix ratios under different temperature environments.
+Main technical parameters and specifications:
+Display mode	Pointer
+Maximum measured value	1200N
+Specimen mould upper calibre 	Φ160mm
+Specimen mould lower calibre	Φ150mm
+Specimen mould height	150mm
+Penetration depth	25mm
+Minimum division value 	1N
+Indication error	±10N
+Stylus loading area	100,50,20mm2
+Penetration resistance	0.2～3.5MPa,3.5～20MPa, 20～28MPa
+Dimensions	700×350×1000mm
+Packing size	730×360×1040mm
+Weight	40kg
+HZJ Series Concrete Vibrator
+EN 12390-2 | BS 1881:108
+This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.
+Main technical parameters and specifications:
+Model	HZJ-0.5	HZJ-0.8	HZJ-1
+Table size	500×500mm	800×800mm	1000×1000mm
+Vibration frequency 	2860 point/min	2860 point/min	2860 point/min
+Vibration amplitude	0.3-0.6mm	0.3-0.6mm	0.3-0.6mm
+Vibrator power 	0.55kW	1.1kW	1.5kW
+Load 	100kg	150kg	200kg
+Weight	35kg	70kg	100kg
+SJD Series Single Shaft Concrete Mixer
+ASTM C192/C192M-02
+This machine is suitable for construction scientific research units and construction companies and concrete component units. It can mix ordinary concrete and lightweight concrete, and can also be used in other industries to stir with different materials.
+Main technical parameters and specifications:
+Model	SJD-30	SJD-60
+Wall thickness	6mm	6mm
+Feed capacity	48L	96L
+Discharging capacity	30L	60L
+Maximum discharge capacity 	33L	66L
+Mixing time 	≤45s	≤45s
+Stirring axis speed 	45r/min	45r/min
+Electric power 	1.5kW	2.2kW
+Voltage	AC380V±10%	AC380V±10%
+Dimensions	1130×400×900mm	1520×530×1060mm
+Weight	160kg	220kg
+LDCL-B Chloride Ion Fast Content Analyzer
+This product quickly determines the water-soluble chloride ion content of concrete, sand, gravel, cement, mixing water and other inorganic materials through the professional software and chemical anti-jamming reagents equipped.
+Main technical parameters and specifications:
+Model	LDCL-B
+Measurement range	50～999.99mV
+Electrode configuration	domestic 2 electrodes
+Electrical measurement range	1×10-2～5×10-5mol/L
+Voltage	AC220V±10%
+SY-2 Concrete Pressure Secretion Instrument
+This device is used for concrete mixture with no more than 40mm compound pressure to be measured. It has the advantages of accurate measurement value, simple operation, small volume, and convenient molding.
+Main technical parameters and specifications:
+Model	SY-2
+The maximum range of the pressure gauge	6MPa
+Cylinder inner diameter	125±0.02mm
+Cylinder body height	200±0.2mm
+Working piston diameter	125mm
+Screen aperture	0.335mm (50 mesh)
+Weight	20kg
+Ⅶ.CEMENT TESTING SERIES
+Ⅶ.CEMENT TESTING SERIES	111
+HBY-30 Constant Temperature Water Curing Box (vertical)	112
+HBY-64 Constant Temperature Water Curing Box (vertical)	113
+HBY-30 Constant Temperature Water Curing Box (horizontal)	114
+HBY-60 constant temperature water curing box (horizontal)	115
+HBY-40B Cement (Concrete) Constant Temperature And Humidity Curing Box (Glass door)	116
+HBY-40B Cement (Concrete) Constant Temperature And Humidity Curing Box(iron door)	117
+HBY-60B Cement (Concrete) Constant Temperature And Humidity Curing Box	118
+HBY-30 Mixed Mortar Specimen Standard Curing Box	119
+JJ-20 Cement Mortar Mixer	120
+ZT-20 Cement Mortar Vibrating Platform	121
+DKZ Series Electric Flexural Testing Machine (pointer type)	122
+DKZ-6000 Electric Flexural Testing Machine (digital display)	123
+NLD-3F Cement Mortar Flow Table	124
+FSY-150 Cement Fineness Air Jet Sieving Analyzer (ordinary)	125
+FSY-150 Cement Fineness Air Jet Sieving Analyzer	126
+(environmental protection)	126
+FZ-31A Boiling Box	127
+FBT-9 Automatic Specific Surface Area Meter (Blaine Method)	128
+Vicat Instrument	129
+HBY-30 Constant Temperature Water Curing Box (vertical)
+EN 196-1
+The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.
+Main technical parameters and specifications:
+Temperature control	20±1℃
+Temperature control precision	±1℃
+Compressor power	240W
+Heater power	1000W
+Voltage	AC220V±10%
+Maintenance box size	175×290×65mm (30 pieces)
+Test block size	40×40×160 mm(180 pieces)
+Dimensions	800×670×1750mm
+Weight	148kg
+HBY-64 Constant Temperature Water Curing Box (vertical)
+EN 196-1
+The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.
+Main technical parameters and specifications:
+Temperature control 	20±1℃
+Temperature control precision 	±1℃
+Voltage	AC220V±10%
+Compressor power	240W
+Heater power	2000W
+Test block size	40×40×160mm (360 pieces)
+Maintenance box size	175×290×65mm (60 pieces)
+Dimensions	1080×850×1880mm
+Weight	350kg
+HBY-30 Constant Temperature Water Curing Box (horizontal)
+EN 196-1
+The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.
+Main technical parameters and specifications:
+Temperature control 	20±1℃
+Temperature control precision 	±1℃
+Voltage	AC220V±10%
+Compressor power	500W
+Heater power	1200W
+Maintenance box size	140×100×180mm (16 pieces)
+Test block size	40×40×160mm (96 pieces)
+Dimensions	920×760×980mm
+Weight	113kg
+HBY-60 constant temperature water curing box (horizontal)
+EN 196-1
+The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.
+Main technical parameters and specifications:
+Temperature control 	20±1℃
+Temperature control precision 	±1℃
+Voltage	AC220V±10%
+Compressor power	1000W
+Heater power	2400W
+Maintenance box size	140×100×180mm（36 pieces）
+Test block size	40×40×160mm (216 pieces)
+Dimensions	1760×755×980mm
+Weight	350kg
+HBY-40B Cement (Concrete) Constant Temperature And Humidity Curing Box (Glass door)
+EN 196-1, 196-08 | ISO 679 | ASTM C109,C511
+This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.
+Main technical parameters and specifications:
+Test temperature	20±1℃
+Control humidity 	≧95%RH
+Compressor power 	138W
+Heater power 	800W
+Voltage	AC220V±10%
+Number of trial molds placed	40×40×160 trial molds, 6 groups can be placed on each layer
+Number of trial molds placed	150×150×150 mold trial, 3 groups can be placed on each layer
+Number of trial molds placed	100×100×100 mold trial, 4 groups can be placed on each layer
+Studio size	570×550×1000mm
+Dimensions	980×700×1350mm
+Weight	110kg
+HBY-40B Cement (Concrete) Constant Temperature And Humidity Curing Box(iron door)
+EN 196-1, 196-08 | ISO 679 | ASTM C109,C511
+This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.
+Main technical parameters and specifications:
+Test temperature	20±1℃
+Control humidity 	≧95%RH
+Compressor power 	138W
+Heater power 	800W
+Voltage	AC220V±10%
+Number of trial molds placed	40×40×160 trial molds, 6 groups can be placed on each layer
+Number of trial molds placed	150×150×150 mold trial, 3 groups can be placed on each layer
+Number of trial molds placed	100×100×100 mold trial, 4 groups can be placed on each layer
+Studio size	590×570×1180mm
+Dimensions	1000×700×1530mm
+Weight	122kg
+HBY-60B Cement (Concrete) Constant Temperature And Humidity Curing Box
+EN 196-1, 196-08 | ISO 679 | ASTM C109,C511
+This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.
+Main technical parameters and specifications:
+Test temperature	20±1℃
+Control humidity 	≧95%RH
+Compressor power 	500W
+Heater power 	800W
+Voltage	AC220V±10%
+Number of trial molds placed	40×40×160 trial molds, 6 groups can be placed on each layer
+Number of trial molds placed	150×150×150 mold trial, 3 groups can be placed on each layer
+Number of trial molds placed	100×100×100 mold trial, 4 groups can be placed on each layer
+Studio size	1180×550×1400mm
+Dimensions	1650×680×1750mm
+Weight	220kg
+HBY-30 Mixed Mortar Specimen Standard Curing Box
+EN 196-1, 196-08 | ISO 679 | ASTM C109,C511
+The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.
+Main technical parameters and specifications:
+Temperature controller accuracy  	20±1℃
+Control humidity 	60-80%RH
+Voltage	AC220V±10%
+Compressor power 	138W
+Heater power 	500W
+Studio size	580×500×1180mm
+The internal specimen rack is equally divided into 6 grid sizes 	580×490×180mm
+Dimensions	1000×700×1530 mm
+Weight	130kg
+JJ-20 Cement Mortar Mixer
+EN 196-1, EN 196-3 | EN 413-2 | EN 459-2 | EN 480-1 | EN ISO 679 | ASTM C305M | AASHTO T162
+The instrument is mainly used to prepare cement mortar strength test samples for mixing.
+Main technical parameters and specifications:
+1.Stirring blade speed
+Speed gear	Rotation r/min	Revolution r/min
+Low speed	140 士 2	62 士 2
+High speed	285 士 3	125 士 3
+2.The movement track of the mixing blade in the mixing pot is the same as ISO679
+3.Width of mixing blade:135mm
+4.Capacity: 5L
+5.The wall thickness:1.5mm
+6.The working gap between the mixing blade and the mixing pot : 3mm ±1mm
+7.Voltage：AC220V±10%
+8.Outer dimension (length×width×height):630×400×660mm)
+9.Weight:80kg
+ZT-20 Cement Mortar Vibrating Platform
+EN 196-1 | EN ISO 679
+This instrument is suitable for preparing samples for strength testing of cement mortar.
+Main technical parameters and specifications:
+The total mass of the table plate
+(including the arm,the die frame,etc.)                                                                                                	13.75±0.25kg
+The total weight of vibrating part                                                	20±0.5kg
+Amplitude (falling distance)                                                        	15±0.3mm
+The time of 60 vibrations                                                                    	60±2s
+Motor speed                                                                                           	60rpm
+Motor power                                                                                           	40W
+Voltage                                                                                                	AC220V
+Overall Dimensions   	1152×482×510mm
+Weight	87kg
+DKZ Series Electric Flexural Testing Machine (pointer type)
+This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.
+Main technical parameters and specifications:
+Model	DKZ-5000	DKZ-6000
+Display method	Pointer	Pointer
+Double lever output ratio (lower beam to arm distance ratio) (maximum)	50：1	60：1
+Maximum output	Double Leverage 5000N	Double Leverage 6000N
+Loading speed	50N/s	50N/s
+Loading roller and supporting roller diameter	Φ10mm	Φ10mm
+Support roller pitch	100mm	100mm
+Lay frame spacing	46mm	46mm
+Lever inclination	>1/50°	>1/50°
+Dimensions (length x width x height)	1080×220×780mm	1180×220×800mm
+Weight	130kg	135kg
+DKZ-6000 Electric Flexural Testing Machine (digital display)
+This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.
+Main technical parameters and specifications:
+Model	DKZ-6000
+Maximum bending resistance	6000N
+Loading roller and supporting roller diameter	Φ10mm
+Support roller distance	100mm
+Lay frame spacing 	46mm
+Lever inclination 	>1/50°
+Voltage	AC220V±10%
+Dimensions	1180×220×800mm
+Weight	135kg
+NLD-3F Cement Mortar Flow Table
+EN 459-2 | EN 1015-3 | EN 13279-2 | ASTM C230 | BS 4551-1
+It is mainly used for fluidity test of cement mortar sand.
+Main technical parameters and specifications:
+The total weight of the vibrating part	4.35±0.15kg
+Vibration fall distance	10±0.2mm(For ASTM C230, 12.7±0.2)
+Vibration frequency 	1Hz
+Vibration times	25 times
+Desktop parameters	Cast steel, hard chrome plated working surface
+Diameter 	Φ300±1mm(For ASTM C230, Φ254±1)
+Dimensions	400×500×370mm
+Voltage	AC220V±10%
+Weight	25kg
+FSY-150 Cement Fineness Air Jet Sieving Analyzer (ordinary)
+EN 933-10 | ASTM C1891
+This equipment is widely used in cement fineness inspection and cement production control. It can also be used in powder fineness testing in other industries. It is a commonly used instrument in various cement quality inspection stations, cement factories and other units.
+Main technical parameters and specifications:
+Model	FSY-150
+Sieve analysis test fineness	1~0.030mm
+Screening time automatic	0～999s (adjust)
+Working negative pressure	-4000~6000Pa
+Voltage	AC220V±10%
+Feeding 	10～25g
+Accessories	0.045 sieve, 0.08 sieve (optional)
+Noise	≤75dB
+Dimensions	450×380×830mm
+Weight	30kg
+FSY-150 Cement Fineness Air Jet Sieving Analyzer
+(environmental protection)
+EN 933-10 | ASTM C1891
+This equipment is widely used in cement fineness inspection and cement production control. It can also be used in powder fineness testing in other industries. It is a commonly used instrument in various cement quality inspection stations, cement factories and other units.
+Main technical parameters and specifications:
+Model	FSY-150
+Sieve analysis test fineness	1~0.030mm
+Screening time automatic	0～999s (adjust)
+Working negative pressure	-4000~6000Pa
+Voltage	AC220V±10%
+Feeding 	10～25g
+Accessories	0.045 sieve, 0.08 sieve (optional)
+Noise	≤75dB
+Dimensions	450×380×830mm
+Weight	30kg
+FZ-31A Boiling Box
+EN 196-3 | UNE 80102 | EN ISO 9597 | BS 6463 | NF P15-432
+This equipment is one of the commonly used equipment in cement production, construction, scientific research and testing units. 
+The equipment is made of stainless steel.
+Main technical parameters and specifications:
+Model	FZ-31A
+Maximum boiling temperature	100℃
+Inner tank volume	31L
+Heating time	30±5min(20℃ to 100℃)
+Heating time control	0～3.5h
+Tubular heater power 	4kW
+Voltage	AC220V±10%
+Studio size	410×240×310mm
+Dimensions	490×290×410mm
+Weight	25kg
+FBT-9 Automatic Specific Surface Area Meter (Blaine Method)
+EN 196-6, comparable to: ASTM C204 | AASHTO T153 | BS 4359:2
+This product is suitable for measuring the surface area per gram of solid material.
+Main technical parameters and specifications:
+Voltage	200V±10%
+Timing range	0.1s<T<999.9s
+Timing accuracy	<0.2s
+Measurement accuracy	＜1%
+Temperature range	8~34℃
+Breathable cylinder inner cavity diameter	Φ12.7mm
+Sample height of breathable cylinder inner cavity	15mm
+Number of holes in perforated plate	35
+Perforated plate hole diameter	Φ1.0mm
+Perforated plate thickness	1mm
+Outer dimension 	430×500×280mm
+Weight	8kg
+Vicat Instrument
+EN 196-3 | EN 480-2 | EN 13279-2 (gypsum) | ASTM C191 | AASHTO T131 
+Main technical parameters and specifications:
+The total weight of the sliding part	300±1g
+Standard consistency test rod	1 piece, effective length 50±1mm, diameterΦ10±0.05mm
+Initial setting test needle	2 pieces, effective length 50±1mm, diameterΦ1.13±0.05mm.
+Final setting test needle	1 piece, effective length 30±1mm, diameterΦ1.13±0.05mm
+Weight	4.5kg
+Ⅷ.GEOTECHNICAL SAND AND GRAVEL TESTING SERIES
+Ⅷ.GEOTECHNICAL SAND AND GRAVEL TESTING SERIES	130
+LDSL-III Coarse-grained Soil Vertical Seepage Deformation Meter (slope type)	131
+LDST-300 Coarse-grained Soil Constant Head Permeameter	132
+LD-08 Vibration Compaction Molding Machine	133
+SHM-200 Concrete/Rock Specimen Grinding Machine	134
+DQ-1 Automatic Rock, Concrete and Masonry Saw	135
+JZ-2D Multifunctional Electric Compaction Instrument	136
+DL Series Multifunctional Hydraulic Demoulding Machine	137
+ZBSX-92A Triple Motion Sieve Shaker	138
+LG-100D Digital Display Combined Soil Liquid-plastic Limit Tester	139
+SD-II Sand Equivalent Tester	140
+LDSL-III Coarse-grained Soil Vertical Seepage Deformation Meter (slope type)
+The purpose of this test is to determine the permeability coefficient of the sample when the seepage water passes through the coarse-grained soil, the critical slope of the fine particles gradually lost with the seepage (piping) and the failure slope (flowing soil) when the soil body floats as a whole.
+This test is applicable to disturbed coarse-grained soil samples and undisturbed coarse-grained soil samples.
+Main technical parameters and specifications:
+Test tube specification 	Φ300×600mm
+Test tube height	600mm
+Gauge height	3000mm
+Pressure measuring hole spacing 	250mm
+Loading equipment	Leverage pressure
+Water supply bucket	140×140×140mm
+Water storage bucket	200×400×450mm
+Voltage	AC 220V
+Dimension	1400×600×1900mm
+Weight	250kg
+LDST-300 Coarse-grained Soil Constant Head Permeameter
+LDST-300 Coarse-grained Soil Constant Head Permeameter is used to measure the permeability coefficient of coarse-grained soil and graded crushed stone with the maximum particle size not greater than 75mm. 
+Main technical parameters and specifications:
+Water supply tank volume	80L
+Inner diameter of metal cylinder 	300mm
+Metal cylinder height	500mm
+Metal cylinder wall thickness	10mm
+Number of pressure measuring tubes	5 PCS
+Inner diameter of pressure measuring tube	6mm
+Pressure measuring tube scale division value	1mm
+Pressure measuring hole spacing 	50mm
+Seepage hole diameter	16mm
+Inner diameter of overflow pipe	16mm
+Permeable plate aperture	3.5mm
+Weight	150kg
+LD-08 Vibration Compaction Molding Machine
+This product is used to manufacture various test pieces for inorganic binder stabilized pellets, including cylindrical test pieces for testing unconfined compression, strength, indirect tensile strength and compressive modulus of resilience, and for testing Beam specimens for temperature shrinkage coefficient, dry shrinkage coefficient, flexural strength and flexural modulus of resilience tests.
+Main technical parameters and specifications:
+Vibration motor power	4kW
+Lifting motor power	0.75kW
+Static pressure	1900 ~3100N
+(recommended to 2500)
+Exciting force	Adjust from 6800 to 11000N
+Vibration frequency	28~30Hz
+Forming trial mold	3 PCS
+Voltage	AC380V±10%
+Dimensions	1820×950×2170mm
+Controller size	550×345×940mm
+Weight	1100kg
+SHM-200 Concrete/Rock Specimen Grinding Machine
+ASTM D4543 | EN 12390-2
+SHM-200 double-end grinding stone machine is the main equipment for making standard samples of non-metallic solids such as rock ore and concrete for mechanical testing. This machine works together with the coring machine and stone cutting machine produced by our factory to process the high-precision cube or cylinder test samples you need. This product is suitable for colleges and universities, water conservancy and hydropower, address minerals, transportation, construction and other  departments.
+This stone grinding machine is composed of machine base, workbench, grinding power head, variable speed transmission system, electric control device and other parts. The whole machine is easy to operate and the  automatic feeding performance is stable.
+Main technical parameters and specifications:
+Workbench motor power	0.55kW
+Speed	1450rpm
+Grinding power head power	1.1kW,2units
+Speed	2750rpm
+Grinding wheel diameter	Φ200mm
+Grindable sample specifications
+(normally factory-equipped with a fixture for grinding 50-150mm)	A:Block
+50×50×50~150×150×150mm
+B:Cylinder
+50~150mm
+Specimen precision	A:Flatness
+Tolerance±0.05mm within 50mm
+B:Smoothness
+(according to machining roughness standard) Ra3.2
+DQ-1 Automatic Rock, Concrete and Masonry Saw
+ASTM D4543
+This equipment is widely used in petroleum, geology, metallurgy, coal, exploration and cutting of refractory materials. This concrete cutting  machine is beautiful in appearance, compact in structure, high in automation, fully sealed, low in noise, and easy to use and operate. Over the past few years, it has extensively absorbed user opinions and met various technical indicators to make it stand out as a new type of technical equipment.
+Main technical parameters and specifications:
+Model	DQ-1
+Cutting range	DQ-1 double knives (blade diameter 500mm) can cut cylindrical cores with a diameter of 18mm~200mm, and original rock samples of 180mm×180mm×350mm. For refractory materials such as sandstone,high-magnesia bricks, and corundum bricks, the cutting hardness is below grade 9.The distance between the two blades is adjustable, respectively 25, 50, 75, 100, 125mm.
+The saw blade of the automatic dual-knife rock core sample dual-purpose machine	Inner diameter:5cm,
+Outer diameter:50cm
+JRg600 diamond 	Φ600×5×50mm
+A set of attachments	2cm, 3cm, 5cm each
+Cutting line speed	40mm/s
+Main motor power	4kW, 1420 rpm
+Longitudinal motor power 	0.75kW
+Dimensions	1500×830×1350mm
+JRg60Q diamond cutter 	Φ500×4.5×50mm
+Weight	700kg
+JZ-2D Multifunctional Electric Compaction Instrument
+EN 13286-2 | ASTM D698, D1557, D1883 | AASHTO T99, T180, T193
+The machine can be used for both heavy compaction test and light compaction test. The machine is automatically controlled by a high-stability electronic counter, with high test accuracy, automatic working process, stable and reliable work. This machine is easy to use and is a commonly used instrument for road geotechnical tests.
+Main technical parameters and specifications:
+Model	JZ-20(Ministry standard)	JZ-20(National standard)
+Hammer weight	Heavy compaction: 4.5kg
+Light compaction: 2.5kg	Heavy compaction: 4.5kg
+Light compaction: 2.5kg
+Hammer down high	Heavy compaction: 457mm
+Light compaction: 305mm	Heavy compaction: 457mm
+Light compaction: 305mm
+Hammer face diameter	Φ50mm	Φ50mm
+Test tube specification	Φ152×Φ100	Φ152×Φ102
+Hammer speed	30times/min	30times/min
+Set the number of hammering	Between 0~99 times	Between 0~99 times
+Motor parameters	1440r/min	1440r/min
+Motor Power	250W	250W
+Voltage	AC380V±10%	AC380V±10%
+DL Series Multifunctional Hydraulic Demoulding Machine
+This product is mainly suitable for the stripping of test pieces of various compaction instruments, suitable for various test molds with diameters of Ф50mm, Ф100mm, Ф101.6mm, Ф150mm, Ф152mm, and heights within 230mm.This machine is used together with "multifunctional electric compaction instrument", "Marshall compaction instrument" and "light manual compaction instrument" to demould the specimen.
+Main technical parameters and specifications:
+Model	Model	DL-200	DL-300
+Maximum release force	Maximum release force	200KN	300KN
+Release rate	Release rate	130mm/min	130mm/min
+Maximum demoulding height	Maximum demoulding height	230mm	230mm
+Voltage/Motor power	Voltage/Motor power	380V/0.75KW	380V/0.75KW
+Oil pump rated pressure	Oil pump rated pressure	20MPa	20MPa
+Motor rated speed	Motor rated speed	1500r/min	1500r/min
+Dimensions	Dimensions	480×520×1230mm	480×520×1230mm
+Compression mold test	Compression mold test	Ф150×230mm Ф100×180mm
+Ф50×130mm	Ф150×230mm
+Ф100×180mm
+Light and heavy compaction instrument test mold 	Ф152×170mm,Ф100×127mm	Ф152×170mm,Ф100×127mm
+Marshall test mold	Ф101.6×87mm	Ф101.6×87mm
+ZBSX-92A Triple Motion Sieve Shaker
+EN 932-5 | ISO 3310-1
+The machine is suitable for screening and analyzing materials in laboratories and laboratories in geology, metallurgy, chemical industry,  construction, grinding wheel manufacturing,cement and other departments. The 15kg aggregate is charged twice, and the grading work can be completed after starting for five minutes each time.
+Main technical parameters and specifications:
+Sieve diameter	200/300mm
+Sieve stack height	440mm
+Screen seat vibration amplitude	8mm
+Shaking times of sieve	221times/min
+Shock times	147times/min
+Radius of gyration	12.5mm
+Power supply	AC380V±10%,0.37kW
+Motor revolution 	1400times/min
+Dimensions	600×400×800mm
+Total weight	100kg
+LG-100D Digital Display Combined Soil Liquid-plastic Limit Tester
+CEN ISO/TS 17892-12 | CEN ISO/TS 17892-06 | NF P94-052-1
+This instrument is used to measure the liquid limit and plastic limit of soil, and provide reliable data for dividing soil types, calculating natural consistency and plasticity index. This product is used for engineering design and construction in highways, railways, water conservancy and electric power, metallurgy, construction and other departments. The instrument has two cone weight standards of 100 grams and 76 grams for users to choose.
+Main technical parameters and specifications:
+Maximum range	20mm
+Resolution 	0.1mm
+Measurement of non-linear error	Better than 2%
+Contact indication sensitivity 	>10M
+Cone weight	100/76g
+(Can be customized upon request)
+Cone angle	30±2°
+(Can be customized upon request)
+Measuring time	≈5s
+Power supply	AC200V±10%
+Continuous working time	8 hours
+Dimensions	240×158×320mm
+SD-II Sand Equivalent Tester
+EN 933-8 | NF XP18-598 | UNI 8520-15 | UNE 83131 | CNR N.27
+It is suitable for  asphalt mixtures and cement concrete. Natural sand, artificial sand, stone chips , the maximum particle size of the aggregate is not more than 4.75mm, and the content of cohesive soil or impurities contained in the  fine aggregate is measured to evaluate the cleanliness of the aggregate, and the sand equivalent is represented by SE.
+Main technical parameters and specifications:
+Voltage	220V
+Oscillation frequency	 175-180 times per minute
+Rated power 	180W
+Amplitude	203mm
+Dimensions	560×320×360mm
+Counterweight piston 	1000±5g
+Cylindrical plastic test tube	Cylindrical plastic test tube
+Inner diameter	32±0.25mm
+Height	420±0.25mm
+Outer diameter of flushing tube	6±0.25mm
+Inner diameter	4±0.2mm
+Ⅸ.MORTAR TESTING SERIES
+Ⅸ.MORTAR TESTING SERIES	141
+UJZ-15 Mortar Mixer	142
+SS-1.5 Mortar Permeameter	143
+UJZ-15 Mortar Mixer
+This product is suitable for mixing mortar, and is generally applicable to construction units, universities and construction research units.
+Main technical parameters and specifications:
+Model 	UJZ-15
+Feed capacity	28L
+Output capacity 	15L
+Mixing drum speed (counterclockwise)	60±2r/min
+Stirring blade speed (clockwise)	80±4r/min
+Working gap between mixing blade and mixing drum	5±0.5mm
+Motor speed  
+(synchronous speed)	1440r/min
+Motor power 	1.5kW
+Voltage	AC380V±10%, 50Hz
+Dimensions	800×600×900mm
+Weight	2100kg
+SS-1.5 Mortar Permeameter
+The impermeability of mortar refers to the ability of mortar to resist the penetration of water or other liquid media under pressure.
+SS-1.5 mortar permeability tester can be used to measure the impermeability of waterproof mortar, to conduct a comparison test between the mortar mixed with waterproof agent and the reference mortar, and to test the water permeability of other waterproof materials.
+The SS-1.5 mortar penetration tester produced by our factory is suitable for the inspection, research and teaching of the anti-seepage performance of mortar by engineering quality supervision and inspection departments at all levels, construction unit laboratories, scientific research units, and colleges and universities.
+Main technical parameters and specifications:
+Model 	SS-1.5
+Allowable maximum working pressure	1.5MPa
+Working mode	Automatic voltage regulation and manual voltage regulation
+The number of test pieces that can be used at the same time	6
+The inner diameter of upper mouth of test mold 	Φ70mm
+The inner diameter of lower mouth of test mold 	Φ80mm
+Mold height	30mm
+Piston pump plunger diameter 	Φ10mm
+Piston pump stroke	10mm
+Plunger pump reciprocating frequency 	130 times/min
+Piston pump flow	0.1L/min
+Motor power 	90W
+Motor speed	1340r/min
+Voltage	AC380V±10%, 50Hz
+Dimensions	750×560×750mm
+Weight	120kg
+Ⅹ.SCIENTIFIC RESEARCH PRODUCT SERIES
+Ⅹ.SCIENTIFIC RESEARCH PRODUCT SERIES	145
+LDGD-80 Temperature And Humidity Climate Chambers (Reach-in Type)	146
+CSX-280 Switch Socket Humidity Test Chamber	148
+101 Series Drying Ovens Forced Ventilation	149
+SX2 Type Muffle Furnace	151
+SX2 Series Muffle Furnace	152
+DW Series Horizontal Low Temperature Chamber	153
+DW-40 Vertical Low Temperature Chamber	154
+HBY-1 Type Damp Heat Test Chamber	155
+401A Type Aging Test Chamber	156
+LDGD-80 Temperature And Humidity Climate Chambers (Reach-in Type)
+Programmable constant temperature and humidity test chamber, also known as simulated environmental test chamber and high and low temperature alternating humidity and heat test chamber. This equipment is simulated high and low temperature and hot and humid environment, widely used to determine the adaptability of electric and electronic products to high and low temperature and hot and humid environment (especially the changes in the electrical and mechanical properties of the product), can also be used to check the ability of the specimen to withstand certain corrosion.
+Features:
+The components selected for this product are highly reliable and of high quality to ensure the reliability, stability and accuracy of the product performance.
+Main technical parameters and specifications:
+Temperature range	-40°C~+150°C
+(temperature at the time of purchase)
+Humidity range	20%~98%RH
+Temperature and humidity control accuracy	±1.0°C; ±2%RH
+Inner box size(W×D×H)	400×400×550mm
+Power supply	220V
+Temperature and humidity sub-surface uniformity	±2.0℃; ±3.0%RH
+*Note: The above performance data should be measured after 30 minutes of temperature stabilization after working.
+*Note: The above performance data, need to distance from the test area of each wall 1/6 position test amount, and need to work after the temperature and humidity stability after 30 minutes measurement.	*Note: The above performance data should be measured after 30 minutes of temperature stabilization after working.
+*Note: The above performance data, need to distance from the test area of each wall 1/6 position test amount, and need to work after the temperature and humidity stability after 30 minutes measurement.
+CSX-280 Switch Socket Humidity Test Chamber
+ The equipment is mainly used for temperature and humidity testing of switches and sockets of electronic products.
+Main technical parameters and specifications:
+Voltage	220V
+Heating power	500W
+Cooling power	138W
+Control temperature	40℃±2℃
+Humidity	93±3%RH
+Workshop size	550×550×800mm
+Dimensions	650×700×1650mm
+Weight	200kg
+101 Series Drying Ovens Forced Ventilation
+EN 932-5 | EN 1097-5 | BS 1924 :1| BS 1377 :1, 1924 :1 | UNE 103300 | 
+ASTM C127, C136, D558, D559, D560, D698, D1557, D1559
+The maximum working temperature of the drying oven is 250℃, which is suitable for various specimens for baking, drying, heat treatment and other heating experiments, but the volatile items cannot be placed into the drying oven to avoid causing explosion.
+Features:
+This drying oven has precise structure, sensitive temperature control and easy operation.
+Main technical parameters and specifications:
+Model	Operating
+temperature	Total power	Voltage	Studio dimensions	Overall dimensions	Weight
+101-1A	Room temperature~
+250±1℃	2.5kW	220V	450×350×450mm	750×500×720mm	65kg
+101-2A	Room temperature~
+250±1℃	3.2kW	220V	550×450×550mm	850×570×810mm	86kg
+101-3A	Room temperature~
+250±1℃	6kW	220V	600×500×750mm	970×650×1020mm	123kg
+101-4A	Room temperature~
+250±1℃	6kW	380V with zero wire	800×800×1000mm	1170×950×1310mm	204kg
+101-5A	Room temperature~
+250±1℃	12kW	380V with zero wire	1000×1000×1200mm	1370×1150×1500mm	280kg
+SX2 Type Muffle Furnace
+EN 12697-1 clause C | EN 13108 | EN 196-2, 196-21, 459-2 | EN 1367-5
+This resistor is of periodic operation type, with silicon-molybdenum rods as heating elements,  and the rated temperature of the furnace is 1600°C. It is used for high-temperature heating such as sintering,dissolution,and analysis of metals and ceramics in laboratories, industrial and mining enterprises, and scientific research units.
+This resistance furnace needs to be used in conjunction with KSY temperature controller and double platinum rhodium thermocouple, so as to measure, indicate and automatically control the temperature of the electric furnace.
+Main technical parameters and specifications:                                     
+Model	SX2-8-16	SX2-12-16
+Rated power 	8kW	12kW
+Rated voltage	220V	380V
+Rated temperature 	1600℃	1600℃
+Empty furnace temperature rise time 	≤220min	≤250min
+Studio size	150×300×120mm	200×400×160mm
+Overall dimensions	820×670×780mm	905×730×835mm
+Weight	350kg	400kg
+SX2 Series Muffle Furnace
+EN 12697-1 clause C | EN 13108 | EN 196-2, 196-21, 459-2 | EN 1367-5
+This series of resistance furnaces are cycle operation type, for laboratories, industrial and  mining  enterprises, scientific research and other units for elemental analysis and determination and general small steel quenching, annealing, tempering and other heat treatment heating with. In addition, its rated temperature of 1300 ℃ high-temperature box resistance furnace, can be used as alloy steel heat treatment and metal sintering, dissolution, analysis and other high-temperature heating.
+Main technical parameters and specifications:                                
+Model 	SX2-2.5-10	SX2-4-10	SX2-8-10	SX2-12-10
+Rated power	2.5kW	4kW	8kW	12kW
+Rated voltage 	220V	220V	380V	380V
+Rated temperature 	1000℃	1000℃	1000℃	1000℃
+Studio size 	120×200×80mm	200×300×120mm	250×400×160mm	300×500×200mm
+Overall dimensions	380×380×420mm	490×490×540mm	610×540×550mm	710×610×560mm
+Weight	145kg	158kg	163kg	185kg
+DW Series Horizontal Low Temperature Chamber
+DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.
+This product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.
+Features:
+This product has high cooling efficiency and low noise.
+Main technical parameters and specifications:
+Model	DW-25	DW-40	DW-60
+Temperature control range 	-25℃ ~ room temperature	-40℃ ~ room temperature	-60℃ ~ room temperature
+Compressor power 	200W	230W	250W
+Voltage	220V	220V	220V
+Dimension of working chamber 	800×400×650mm	880×405×600mm	600×500×650mm
+Dimension	940×550×850mm	1020×560×800mm	750×650×850mm
+Weight 	120kg	140kg	160kg
+DW-40 Vertical Low Temperature Chamber
+DW-40 high and low temperature test chamber refrigeration using the United States Danfoss brand-name compressor, stainless steel liner. Insulation layer made of imported raw materials foam, good insulation effect, power saving,the latest design of five evaporation pipeline, with uniform temperature,prevent leakage and other characteristics.This product is widely used in building materials, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.
+Features:
+1.The overall structure is strong, beautiful shape, good corrosion resistance;
+2.The temperature and humidity meter adopts setting, displaying double digital display, which  has the advantages of high resolution, intuition, easy adjustment and high control accuracy.
+Main technical parameters and specifications:
+Temperature control range	-40℃～room temperature
+Compressor power	2000W
+Voltage	AC220V±10%
+Studio size	500×550×600mm
+Dimension 	820×780×1650mm
+Weight	180kg
+HBY-1 Type Damp Heat Test Chamber
+The heat and humidity test chamber mainly simulates the changes in temperature and humidity in the climatic environment to observe the reliable state of storage and operation of products in high and low temperature, dry and humid environments. It is mainly used by scientific research units and testing units.
+Features:
+1.The overall structure is strong, beautiful shape, good corrosion resistance.
+2.The temperature and humidity meter adopts setting, displaying double digital display,which  has the advantages of high resolution, intuition, easy adjustment and high control accuracy.
+Main technical parameters and specifications:
+Voltage 	AC220±10%
+Heating power 	500W
+Cooling power	138W
+Control temperature	20～60±2℃
+Humidity	45～80±5%RH
+Working chamber size 	600×500×600mm
+Dimension 	700×650×1500mm
+Weight	185kg
+401A Type Aging Test Chamber
+This product is suitable for scientific research units and factories for plastic materials (rubber, plastic), electrical insulation and other materials aging test.
+Features:
+1.Sensitive temperature control and good temperature uniformity.
+2.Large effective space and stable performance.
+Main technical parameters and specifications:
+Control temperature 	Room temperature ～200℃
+Temperature controller accuracy 	±1℃
+Turntable speed 	11～12r/min
+ Heating power	2200W
+Power supply voltage	AC220V±10%
+Working chamber size	450×450×500mm
+Overall dimension 	780×660×1160mm
+Weight 	100kg
