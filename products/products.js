@@ -1,7 +1,7 @@
 (function() {
     // 等待数据加载
     if (!window.ludaData) {
-        console.error('Data not found! Make sure ../../data/data.js is loaded.');
+        console.error('Data not found! Make sure /data/data.js is loaded.');
         return;
     }
 
@@ -78,7 +78,7 @@
             : dev.description;
 
         html += `
-            <a href="../product-detail/index.html?id=${dev.id}" class="product-card-link">
+            <a href="/product-detail/index.html?id=${dev.id}" class="product-card-link">
                 <div class="product-card">
                     <div class="product-thumb">
                         ${thumbnailHtml}
