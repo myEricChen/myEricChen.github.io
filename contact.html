@@ -1,3 +1,11 @@
+<!--
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2026-02-25 10:48:17
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2026-02-28 16:17:01
+ * @FilePath: \myEricChen.github.io\contact.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -145,25 +153,30 @@
             <h2 class="section-title">Send Us a Message</h2>
             <p class="section-subtitle">We'll get back to you within 24 hours.</p>
             <div class="message-form-container">
-                <form id="contact-form" class="contact-form">
-                    <!-- 重要: 请将下方 action 替换为您的 Formspree 真实 endpoint -->
-                    <!-- 注册地址: https://formspree.io/ -->
-                    <input type="hidden" name="_replyto" value="%email%"> <!-- 由 JS 动态填充或忽略 -->
+                <!-- 修改 action 为您的邮箱 -->
+                <form action="https://formsubmit.io/send/chen@ludatest.com" method="POST" class="contact-form">
+                    <!-- 隐藏字段：邮件主题 -->
                     <input type="hidden" name="_subject" value="New message from Luda website">
+                    <!-- 隐藏字段：提交后跳转的感谢页（请先创建 thank-you.html） -->
+                    <input type="hidden" name="_next" value="https://www.ludatest.com/thank-you.html">
+                    <!-- 隐藏字段：防止垃圾邮件（可选） -->
+                    <input type="hidden" name="_captcha" value="true">
+        
                     <div class="form-group">
                         <label for="name">Your Name *</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
-                        <label for="email">Your Email</label>
-                        <input type="email" id="email" name="email">
+                        <label for="email">Your Email *</label>
+                        <!-- 使用 _replyto 让您可以直接回复用户 -->
+                        <input type="email" id="email" name="_replyto" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Message *</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
-                    <div id="form-status" class="form-status"></div>
+                    <!-- 移除了原生的状态显示，因为 FormSubmit 会自动跳转 -->
                 </form>
                 <div class="message-info">
                     <h3>Why Contact Us?</h3>
