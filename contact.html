@@ -141,24 +141,23 @@
             <h2 class="section-title">Send Us a Message</h2>
             <p class="section-subtitle">We'll get back to you within 24 hours.</p>
             <div class="message-form-container">
-                <!-- 👇 重要：请将下方的 FORM_ID 替换为您的实际表单 ID（例如 abcd-1234-efgh） -->
-                <form action="https://submit-form.com/6LgD1nY1K" method="POST" class="contact-form">
+                <!-- FormSubmit 端点：直接指向您的邮箱 -->
+                <form action="https://formsubmit.io/send/chen@ludatest.com" method="POST" class="contact-form">
+                    <!-- 隐藏字段：邮件主题 -->
+                    <input type="hidden" name="_subject" value="New message from Luda website">
                     <!-- 隐藏字段：提交后跳转到感谢页（请确保该页面存在） -->
-                    <input type="hidden" name="_redirect" value="https://www.ludatest.com/thank-you.html">
-                    
-                    <!-- 可选：自定义邮件主题（如果不设置，默认为 "New submission"） -->
-                    <input type="hidden" name="_email.subject" value="New message from Luda website">
-                    
-                    <!-- 可选：开启简单的垃圾邮件防护（Formspark 内置 Botpoison，一般无需额外设置） -->
-        
+                    <input type="hidden" name="_next" value="https://www.ludatest.com/thank-you.html">
+                    <!-- 隐藏字段：开启简单的验证码（可选） -->
+                    <input type="hidden" name="_captcha" value="true">
+
                     <div class="form-group">
                         <label for="name">Your Name *</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Your Email *</label>
-                        <!-- Formspark 会自动将 email 字段识别为发件人地址，便于您直接回复 -->
-                        <input type="email" id="email" name="email" required>
+                        <!-- 使用 _replyto 字段，方便您直接回复用户 -->
+                        <input type="email" id="email" name="_replyto" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Message *</label>
