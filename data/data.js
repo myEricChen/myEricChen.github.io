@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-07 09:00:42
+ * @LastEditTime: 2026-03-07 09:33:14
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -63,12 +63,6 @@ window.ludaData = {
       name: "Geotechnical & Aggregate Testing Equipment Series",
       description: "Soil, sand, rock physical/mechanical testing for geotechnical engineering.",
       icon: "/assets/series/geotechnical-instrument-icon.jpg"
-    },
-    {
-      id: "Mortar",
-      name: "Mortar Testing Equipment Series",
-      description: "",
-      icon: ""
     }
   ],
 
@@ -9648,7 +9642,7 @@ window.ludaData = {
       "id": "P131",
       "name": "Mortar Mixer",
       "model": "UJZ-15",
-      "category": "Mortar Testing Equipment Series",
+      "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/UJZ-15.png",
       "image": "myImages/UJZ-15-Image.png",
       "description": "This product is suitable for mixing mortar, and is generally applicable to construction units, universities and construction research units.",
@@ -9705,7 +9699,7 @@ window.ludaData = {
       "id": "P132",
       "name": "Mortar Permeamete",
       "model": "SS-1.5",
-      "category": "Mortar Testing Equipment Series",
+      "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/SS-1.5.png",
       "image": "myImages/SS-1.5-Image.png",
       "description": "The impermeability of mortar refers to the ability of mortar to resist the penetration of water or other liquid media under pressure.\nSS-1.5 mortar permeability tester can be used to measure the impermeability of waterproof mortar, to conduct a comparison test between the mortar mixed with waterproof agent and the reference mortar, and to test the water permeability of other waterproof materials.\nThe SS-1.5 mortar penetration tester produced by our factory is suitable for the inspection, research and teaching of the anti-seepage performance of mortar by engineering quality supervision and inspection departments at all levels, construction unit laboratories, scientific research units, and colleges and universities.",

@@ -77,6 +77,25 @@
             ? dev.description.substring(0, 120) + '…' 
             : dev.description;
 
+        // 处理标准显示 - 每个标准带背景标签
+        let standardsHtml = '';
+        if (dev.standards && dev.standards.length > 0) {
+            const displayCount = 2; // 最多显示前2个标准
+            const displayStandards = dev.standards.slice(0, displayCount);
+            const remainingCount = dev.standards.length - displayCount;
+
+            // 生成每个标准的标签
+            const badgeHtml = displayStandards.map(std => 
+                `<span class="standard-badge">${std}</span>`
+            ).join('');
+
+            // 如果有剩余标准，添加一个计数标签
+            const remainingHtml = remainingCount > 0 
+                ? `<span class="standard-badge remaining">+${remainingCount}</span>` 
+                : '';
+
+            standardsHtml = `<div class="product-standards">${badgeHtml}${remainingHtml}</div>`;
+        }
         html += `
             <a href="/product-detail.html?id=${dev.id}" class="product-card-link">
                 <div class="product-card">
@@ -90,7 +109,7 @@
                         <div class="product-meta">
                             ${dev.hasVideo ? '<span><i class="fas fa-video"></i> Video</span>' : ''}
                             ${dev.isNew ? '<span style="color:#b34b00;"><i class="fas fa-star"></i> New</span>' : ''}
-                            <span><i class="fas fa-tag"></i> ${dev.id}</span>
+                            ${standardsHtml}   <!-- 标准标签区域 -->
                         </div>
                     </div>
                 </div>

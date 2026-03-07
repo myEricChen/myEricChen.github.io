@@ -382,3 +382,27 @@ footer {
         width: 280px;
     }
 }
+
+/* 标准标签 */
+.product-standards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.standard-badge {
+    background: #ededed;
+    color: #1f4973;
+    padding: 4px 10px;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.standard-badge.remaining {
+    background: transparent;
+    color: #1f4973;
+}
