@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-07 09:33:14
+ * @LastEditTime: 2026-03-07 14:02:55
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -69,6 +69,99 @@ window.ludaData = {
   // 所有设备数据（仅列出大型试验机系列作为示例，实际可扩展）
   devices: [
     {
+      "id": "M022",
+      "name": "Digital Display Universal Material Testing Machine",
+      "model": "WE-1000B",
+      "category": "Hydraulic Universal Testing Маchine Series",
+      "thumbnail": "/assets/images/WE-1000B（出口）.png",
+      "image": "myImages/WE-100B-Image.png",
+      "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
+      "features": [],
+      "standards": [
+        "EN ISO 6892-1",
+        "ISO 7500",
+        "EN 10002",
+        "EN 10080",
+        "EN 15630-1",
+        "ASTM A370",
+        "EN 15630-3",
+        "EN ISO 7438",
+        "EN ISO 15630-1",
+        "ASTM A615",
+        "ASTM A615M"
+      ],
+      "specifications": [
+        {
+          "label": "Load Capacity (kN)",
+          "value": "1000"
+        },
+        {
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "100～1000"
+        },
+        {
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
+        },
+        {
+          "label": "Tensile Vertical Test Space (mm)",
+          "value": "690"
+        },
+        {
+          "label": "Compression Vertical Test Space (mm)",
+          "value": "620"
+        },
+        {
+          "label": "Flat specimen clamping thickness(mm)",
+          "value": "0～15"
+        },
+        {
+          "label": "Round specimen clamping diameter(mm)",
+          "value": "20～40, 40～60"
+        },
+        {
+          "label": "Piston Stroke (mm)",
+          "value": "180"
+        },
+        {
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ220(Upper) Φ230(Lower)"
+        },
+        {
+          "label": "Horizontal Test Space (mm)",
+          "value": "450"
+        },
+        {
+          "label": "Piston Maximum Speed (mm/min)",
+          "value": "100"
+        },
+        {
+          "label": "Cross Head Maximum Speed (mm/min)",
+          "value": "240"
+        },
+        {
+          "label": "Power of Motors (kW)",
+          "value": "1.8"
+        },
+        {
+          "label": "Main Unit Dimensions (mm)",
+          "value": "945×630×2100"
+        },
+        {
+          "label": "Control Cabinet Dimensions (mm)",
+          "value": "700×520×1630"
+        },
+        {
+          "label": "Overall weight(kg)",
+          "value": "2000"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
       "id": "P001",
       "name": "Shock Absorber Universal Material Testing Machine",
       "model": "WAW-600Pro",
@@ -96,27 +189,27 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force (KN)",
+          "label": "Load Capacity (kN)",
           "value": "600"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%FS"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "30～600"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "670"
         },
         {
-          "label": "Circular Sample clamping diameter (mm)",
+          "label": "Cylinder Sample Diameter Range (mm) (mm)",
           "value": "Φ13~Φ26,Φ26~Φ40"
         },
         {
-          "label": "Flat Sample clamping diameter (mm)",
+          "label": "Plate Sample Thickness Range (mm)",
           "value": "0~15"
         },
         {
@@ -181,27 +274,27 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force (KN)",
+          "label": "Load Capacity (kN)",
           "value": "1000"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%FS"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "50～1000"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "690"
         },
         {
-          "label": "Circular Sample clamping diameter (mm)",
+          "label": "Cylinder Sample Diameter Range (mm) (mm)",
           "value": "Φ14~Φ45"
         },
         {
-          "label": "Flat Sample clamping diameter (mm)",
+          "label": "Plate Sample Thickness Range (mm)",
           "value": "0~40"
         },
         {
@@ -266,23 +359,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force (KN)",
+          "label": "Load Capacity (kN)",
           "value": "600"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "30～600"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "1050"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "950"
         },
         {
@@ -290,23 +383,23 @@ window.ludaData = {
           "value": "Φ12~Φ16"
         },
         {
-          "label": "Working piston stroke (mm)",
+          "label": "Piston stroke (mm)",
           "value": "200"
         },
         {
-          "label": "Upper/lower pressure plate size (mm)",
-          "value": "Φ220×Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ220(Upper) Φ230(Lower)"
         },
         {
-          "label": "Tabletop rising speed (mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Moving beam lifting speed (mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Distance between two pillars (mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "450"
         },
         {
@@ -314,11 +407,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Host size (mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "1050×710×2910"
         },
         {
-          "label": "Dimensions of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "700×520×1630"
         },
         {
@@ -359,23 +452,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force (KN)",
+          "label": "Load Capacity (kN)",
           "value": "1000"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "50～1000"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "1050"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "950"
         },
         {
@@ -383,23 +476,23 @@ window.ludaData = {
           "value": "Φ12~Φ16"
         },
         {
-          "label": "Working piston stroke (mm)",
+          "label": "Piston stroke (mm)",
           "value": "200"
         },
         {
-          "label": "Upper/lower pressure plate size (mm)",
-          "value": "Φ220×Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ220(Upper) Φ230(Lower)"
         },
         {
-          "label": "Tabletop rising speed (mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Moving beam lifting speed (mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Distance between two pillars (mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "450"
         },
         {
@@ -407,11 +500,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Host size (mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "1050×710×2910"
         },
         {
-          "label": "Dimensions of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "700×520×1630"
         },
         {
@@ -448,7 +541,7 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "600"
         },
         {
@@ -468,12 +561,12 @@ window.ludaData = {
           "value": "950"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "180"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ223×Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ223(Upper) Φ230(Lower)"
         },
         {
           "label": "Distance between two pillars in tension and",
@@ -484,23 +577,23 @@ window.ludaData = {
           "value": "510"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "60"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "2.1"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "890×590×2700"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "1000×700×850"
         },
         {
@@ -537,7 +630,7 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "1000"
         },
         {
@@ -557,12 +650,12 @@ window.ludaData = {
           "value": "950"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "180"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ223×Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ223(Upper) Φ230(Lower)"
         },
         {
           "label": "Distance between two pillars in tension and",
@@ -573,23 +666,23 @@ window.ludaData = {
           "value": "510"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "60"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "2.1"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "890×590×2700"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "1000×700×850"
         },
         {
@@ -634,23 +727,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "100"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "5～100"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "480"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "480"
         },
         {
@@ -662,7 +755,7 @@ window.ludaData = {
           "value": "10-20"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "180"
         },
         {
@@ -682,15 +775,15 @@ window.ludaData = {
           "value": "380"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "2.7"
         },
         {
@@ -698,11 +791,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "730×600×1750"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "700×520×1630"
         },
         {
@@ -747,23 +840,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "300"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "15～300"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "540"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "480"
         },
         {
@@ -775,7 +868,7 @@ window.ludaData = {
           "value": "10-20 、20-32"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "180"
         },
         {
@@ -791,15 +884,15 @@ window.ludaData = {
           "value": "400"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "2.7"
         },
         {
@@ -807,11 +900,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "730×600×1840"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "700×520×1630"
         },
         {
@@ -856,23 +949,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "600"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "30～600"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "690"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "620"
         },
         {
@@ -884,7 +977,7 @@ window.ludaData = {
           "value": "13-26 、26-40"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "180"
         },
         {
@@ -900,15 +993,15 @@ window.ludaData = {
           "value": "400"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "2.7"
         },
         {
@@ -916,11 +1009,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "890×590×2070"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "700×520×1630"
         },
         {
@@ -965,23 +1058,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "1000"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "50～1000"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "690"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "620"
         },
         {
@@ -993,7 +1086,7 @@ window.ludaData = {
           "value": "14-32 、30-50"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "180"
         },
         {
@@ -1009,15 +1102,15 @@ window.ludaData = {
           "value": "450"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "2.7"
         },
         {
@@ -1025,11 +1118,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "945×635×2100"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "700×520×1630"
         },
         {
@@ -1074,23 +1167,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "2000"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "100～2000"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "790"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "720"
         },
         {
@@ -1102,7 +1195,7 @@ window.ludaData = {
           "value": "20-40、40-60"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "250"
         },
         {
@@ -1118,15 +1211,15 @@ window.ludaData = {
           "value": "570"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "3.7"
         },
         {
@@ -1134,11 +1227,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "1200×800×2940"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "700×520×1630"
         },
         {
@@ -1186,23 +1279,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "100"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "10～100"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 1"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "480"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "480"
         },
         {
@@ -1214,7 +1307,7 @@ window.ludaData = {
           "value": "10-20"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "120"
         },
         {
@@ -1234,11 +1327,11 @@ window.ludaData = {
           "value": "420"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": ""
         },
         {
@@ -1246,7 +1339,7 @@ window.ludaData = {
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "1.3"
         },
         {
@@ -1254,11 +1347,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "720×550×1660"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "600×550×1400"
         },
         {
@@ -1306,23 +1399,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "300"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "30～300"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 1"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "480"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "480"
         },
         {
@@ -1334,7 +1427,7 @@ window.ludaData = {
           "value": "10-20、20-32"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "120"
         },
         {
@@ -1354,11 +1447,11 @@ window.ludaData = {
           "value": "420"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": ""
         },
         {
@@ -1366,7 +1459,7 @@ window.ludaData = {
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "1.3"
         },
         {
@@ -1374,11 +1467,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "730×600×1840"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "600×550×1400"
         },
         {
@@ -1426,23 +1519,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "600"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "60～600"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 1"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "690"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "620"
         },
         {
@@ -1454,7 +1547,7 @@ window.ludaData = {
           "value": "13-26、26-40"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "170"
         },
         {
@@ -1474,11 +1567,11 @@ window.ludaData = {
           "value": "510"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": ""
         },
         {
@@ -1486,7 +1579,7 @@ window.ludaData = {
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "2.1"
         },
         {
@@ -1494,11 +1587,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "820×600×2000"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "600×550×1400"
         },
         {
@@ -1546,23 +1639,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "1000"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "100～1000"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 1"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "690"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "620"
         },
         {
@@ -1574,7 +1667,7 @@ window.ludaData = {
           "value": "14-32、30-50"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "170"
         },
         {
@@ -1594,11 +1687,11 @@ window.ludaData = {
           "value": "510"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": ""
         },
         {
@@ -1606,7 +1699,7 @@ window.ludaData = {
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "2.1"
         },
         {
@@ -1614,11 +1707,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "940×650×2080"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "600×550×1400"
         },
         {
@@ -1666,23 +1759,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "2000"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10%～100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "200～2000"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 1"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "695"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "605"
         },
         {
@@ -1694,7 +1787,7 @@ window.ludaData = {
           "value": "20-40、40-70"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "180"
         },
         {
@@ -1714,11 +1807,11 @@ window.ludaData = {
           "value": "610"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": ""
         },
         {
@@ -1726,7 +1819,7 @@ window.ludaData = {
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "3.55"
         },
         {
@@ -1734,11 +1827,11 @@ window.ludaData = {
           "value": "AC380V±10%,50-60Hz"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "1200×800×2685"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "600×550×1400"
         },
         {
@@ -1754,10 +1847,10 @@ window.ludaData = {
     {
       "id": "P017",
       "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW- 100B",
+      "model": "WEW-100B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WEW-100B.png",
-      "image": "myImages/WEW- 100B-Image.png",
+      "image": "myImages/WEW-100B-Image.png",
       "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
       "features": [
         "The machine adopts high precision displacement sensor, the data is accurate.",
@@ -1779,23 +1872,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "100"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "10～100"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "480"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "480"
         },
         {
@@ -1807,35 +1900,35 @@ window.ludaData = {
           "value": "10-20"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "120"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ176/Φ176"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ176(Upper) Φ176(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "420"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(Kw)",
+          "label": "Power of Motors (kW)",
           "value": "1.2"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "730×550×1660"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "1000×700×850"
         },
         {
@@ -1851,10 +1944,10 @@ window.ludaData = {
     {
       "id": "P018",
       "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW- 300B",
+      "model": "WEW-300B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WEW-300B.png",
-      "image": "myImages/WEW- 300B-Image.png",
+      "image": "myImages/WEW-300B-Image.png",
       "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
       "features": [
         "The machine adopts high precision displacement sensor, the data is accurate.",
@@ -1876,23 +1969,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "300"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "30～300"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "480"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "480"
         },
         {
@@ -1904,35 +1997,35 @@ window.ludaData = {
           "value": "10-20、20-32"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "120"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ180/Φ180"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ180(Upper) Φ180(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "420"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(Kw)",
+          "label": "Power of Motors (kW)",
           "value": "1.2"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "730×600×1840"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "1000×700×850"
         },
         {
@@ -1948,10 +2041,10 @@ window.ludaData = {
     {
       "id": "P019",
       "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW- 600B",
+      "model": "WEW-600B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WEW-600B.png",
-      "image": "myImages/WEW- 600B-Image.png",
+      "image": "myImages/WEW-600B-Image.png",
       "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
       "features": [
         "The machine adopts high precision displacement sensor, the data is accurate.",
@@ -1973,23 +2066,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "600"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "60～600"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "690"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "620"
         },
         {
@@ -2001,35 +2094,35 @@ window.ludaData = {
           "value": "13-26、26-40"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "170"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ220/Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ220(Upper) Φ230(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "510"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(Kw)",
+          "label": "Power of Motors (kW)",
           "value": "1.8"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "820×600×2000"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "1000×700×850"
         },
         {
@@ -2045,10 +2138,10 @@ window.ludaData = {
     {
       "id": "P020",
       "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW- 1000B",
+      "model": "WEW-1000B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WEW-1000B.png",
-      "image": "myImages/WEW- 1000B-Image.png",
+      "image": "myImages/WEW-1000B-Image.png",
       "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
       "features": [
         "The machine adopts high precision displacement sensor, the data is accurate.",
@@ -2070,23 +2163,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "1000"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "100～1000"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "690"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "620"
         },
         {
@@ -2098,35 +2191,35 @@ window.ludaData = {
           "value": "14-32、30-50"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "170"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ220/Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ220(Upper) Φ230(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "510"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(Kw)",
+          "label": "Power of Motors (kW)",
           "value": "1.8"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "940×650×2080"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "1000×700×850"
         },
         {
@@ -2142,10 +2235,10 @@ window.ludaData = {
     {
       "id": "P021",
       "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW- 2000B",
+      "model": "WEW-2000B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WEW-2000B.png",
-      "image": "myImages/WEW- 2000B-Image.png",
+      "image": "myImages/WEW-2000B-Image.png",
       "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
       "features": [
         "The machine adopts high precision displacement sensor, the data is accurate.",
@@ -2167,23 +2260,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "2000"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "200～2000"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "790"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "720"
         },
         {
@@ -2195,35 +2288,35 @@ window.ludaData = {
           "value": "20-40、40-60"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "180"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ220/Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ220(Upper) Φ230(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "610"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(Kw)",
+          "label": "Power of Motors (kW)",
           "value": "3.55"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "1200×800×2940"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "1000×700×850"
         },
         {
@@ -2239,10 +2332,10 @@ window.ludaData = {
     {
       "id": "P022",
       "name": "Digital Display Universal Material Testing Machine",
-      "model": "WE- 100B",
+      "model": "WE-100B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WE-100B.png",
-      "image": "myImages/WE- 100B-Image.png",
+      "image": "myImages/WE-100B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -2260,23 +2353,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "100"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "10～100"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "480"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "480"
         },
         {
@@ -2288,35 +2381,35 @@ window.ludaData = {
           "value": "10～20"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "120"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ176×Φ176"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ176(Upper) Φ176(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "420"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "1.3"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "730×550×1660"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "530×500×1270"
         },
         {
@@ -2332,10 +2425,10 @@ window.ludaData = {
     {
       "id": "P023",
       "name": "Digital Display Universal Material Testing Machine",
-      "model": "WE- 300B",
+      "model": "WE-300B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WE-300B.png",
-      "image": "myImages/WE- 300B-Image.png",
+      "image": "myImages/WE-300B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -2353,23 +2446,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "300"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "30～300"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "480"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "480"
         },
         {
@@ -2381,35 +2474,35 @@ window.ludaData = {
           "value": "10～20、20～32"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "120"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ180×Φ180"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ180(Upper) Φ180(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "420"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "1.3"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "730×600×1840"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "530×500×1270"
         },
         {
@@ -2425,10 +2518,10 @@ window.ludaData = {
     {
       "id": "P024",
       "name": "Digital Display Universal Material Testing Machine",
-      "model": "WE- 600B",
+      "model": "WE-600B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WE-600B.png",
-      "image": "myImages/WE- 600B-Image.png",
+      "image": "myImages/WE-600B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -2446,23 +2539,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "600"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "60～600"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "690"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "620"
         },
         {
@@ -2474,35 +2567,35 @@ window.ludaData = {
           "value": "13～26、26～40"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "170"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ220×Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ220(Upper) Φ230(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "510"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "1.8"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "820×600×2000"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "530×500×1270"
         },
         {
@@ -2518,10 +2611,10 @@ window.ludaData = {
     {
       "id": "P025",
       "name": "Digital Display Universal Material Testing Machine",
-      "model": "WE- 1000B",
+      "model": "WE-1000B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WE-1000B.png",
-      "image": "myImages/WE- 1000B-Image.png",
+      "image": "myImages/WE-1000B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -2539,23 +2632,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "1000"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "100～1000"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "690"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "620"
         },
         {
@@ -2567,35 +2660,35 @@ window.ludaData = {
           "value": "14～32、30～50"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "170"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ220×Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ220(Upper) Φ230(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "510"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "1.8"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "940×650×2080"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "530×500×1270"
         },
         {
@@ -2611,10 +2704,10 @@ window.ludaData = {
     {
       "id": "P026",
       "name": "Digital Display Universal Material Testing Machine",
-      "model": "WE- 2000B",
+      "model": "WE-2000B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WE-2000B.png",
-      "image": "myImages/WE- 2000B-Image.png",
+      "image": "myImages/WE-2000B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -2632,23 +2725,23 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force(KN)",
+          "label": "Load Capacity (kN)",
           "value": "2000"
         },
         {
-          "label": "Range and measurement range(KN)",
+          "label": "Effective Load Measurement Range (kN)",
           "value": "200～2000"
         },
         {
-          "label": "Relative error of value",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "695"
         },
         {
-          "label": "Compressed Space (mm)",
+          "label": "Compression Vertical Test Space (mm)",
           "value": "605"
         },
         {
@@ -2660,35 +2753,35 @@ window.ludaData = {
           "value": "20～40、40～70"
         },
         {
-          "label": "Working piston stroke(mm)",
+          "label": "Piston Stroke (mm)",
           "value": "180"
         },
         {
-          "label": "Upper and lower platen size(mm)",
-          "value": "Φ220×Φ230"
+          "label": "Compression Platen dimension (mm)",
+          "value": "Φ220(Upper) Φ230(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and compression space(mm)",
+          "label": "Horizontal Test Space (mm)",
           "value": "610"
         },
         {
-          "label": "Maximum rise speed of table plate(mm/min)",
+          "label": "Piston Maximum Speed (mm/min)",
           "value": "100"
         },
         {
-          "label": "Maximum lifting speed of moving beam(mm/min)",
+          "label": "Cross Head Maximum Speed (mm/min)",
           "value": "240"
         },
         {
-          "label": "Total motor power(kW)",
+          "label": "Power of Motors (kW)",
           "value": "3.55"
         },
         {
-          "label": "Main external dimensions(mm)",
+          "label": "Main Unit Dimensions (mm)",
           "value": "1200×800×2685"
         },
         {
-          "label": "Dimension of force measuring cabinet(mm)",
+          "label": "Control Cabinet Dimensions (mm)",
           "value": "530×500×1270"
         },
         {
@@ -2716,12 +2809,12 @@ window.ludaData = {
       "standards": [],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "100KN"
+          "label": "Load Capacity (kN)",
+          "value": "100"
         },
         {
           "label": "Accuracy grade",
-          "value": "Level 1 (can be customized to 0.5 on request)"
+          "value": "±1% (can be customized to 0.5 on request)"
         },
         {
           "label": "Test force measurement range",
@@ -2796,8 +2889,8 @@ window.ludaData = {
           "value": "400mm"
         },
         {
-          "label": "Host size",
-          "value": "1000 × 800 × 2200 (mm)"
+          "label": "Main Unit Dimensions (mm)",
+          "value": "1000×800×2200"
         },
         {
           "label": "Power supply",
@@ -2828,12 +2921,12 @@ window.ludaData = {
       "standards": [],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "50KN"
+          "label": "Load Capacity (kN)",
+          "value": "50"
         },
         {
           "label": "Accuracy grade",
-          "value": "Level 1 (can be customized to 0.5 on request)"
+          "value": "±1% (can be customized to 0.5 on request)"
         },
         {
           "label": "Test force measurement range",
@@ -2908,8 +3001,8 @@ window.ludaData = {
           "value": "400mm"
         },
         {
-          "label": "Host size",
-          "value": "900 × 500 × 1900 (mm)"
+          "label": "Main Unit Dimensions (mm)",
+          "value": "900×500×1900"
         },
         {
           "label": "Power supply",
@@ -2940,12 +3033,12 @@ window.ludaData = {
       "standards": [],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "10KN"
+          "label": "Load Capacity (kN)",
+          "value": "10"
         },
         {
           "label": "Accuracy grade",
-          "value": "Level 1 (can be customized to 0.5 on request)"
+          "value": "±1% (can be customized to 0.5 on request)"
         },
         {
           "label": "Test force measurement range",
@@ -3020,8 +3113,8 @@ window.ludaData = {
           "value": "400mm"
         },
         {
-          "label": "Host size",
-          "value": "800 × 450 × 1600 (mm)"
+          "label": "Main Unit Dimensions (mm)",
+          "value": "800×450×1600"
         },
         {
           "label": "Power supply",
@@ -3052,12 +3145,12 @@ window.ludaData = {
       "standards": [],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "20KN"
+          "label": "Load Capacity (kN)",
+          "value": "20"
         },
         {
           "label": "Accuracy grade",
-          "value": "Level 1 (can be customized to 0.5 on request)"
+          "value": "±1% (can be customized to 0.5 on request)"
         },
         {
           "label": "Test force measurement range",
@@ -3132,8 +3225,8 @@ window.ludaData = {
           "value": "400mm"
         },
         {
-          "label": "Host size",
-          "value": "800 × 450 × 1600 (mm)"
+          "label": "Main Unit Dimensions (mm)",
+          "value": "800×450×1600"
         },
         {
           "label": "Power supply",
@@ -3170,7 +3263,7 @@ window.ludaData = {
         },
         {
           "label": "Accuracy grade",
-          "value": "Level 1 (can be customized to 0.5 on request)"
+          "value": "±1% (can be customized to 0.5 on request)"
         },
         {
           "label": "Test force measurement range",
@@ -3264,7 +3357,7 @@ window.ludaData = {
         },
         {
           "label": "Accuracy grade",
-          "value": "Level 1"
+          "value": "±1%"
         },
         {
           "label": "Relative error of the test force value",
@@ -3322,7 +3415,7 @@ window.ludaData = {
         },
         {
           "label": "Accuracy level",
-          "value": "Level 1"
+          "value": "±1%"
         },
         {
           "label": "Test force resolution",
@@ -3411,19 +3504,19 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "2000kN"
+          "label": "Load Capacity (kN)",
+          "value": "2000"
         },
         {
           "label": "Measuring accuracy range",
           "value": "10% ~ 100% FS(no classification in the whole process)"
         },
         {
-          "label": "Indication accuracy",
-          "value": "≦±1%"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Lo ading rate",
+          "label": "Loading rate",
           "value": "0.3～0.8MPa"
         },
         {
@@ -3431,24 +3524,24 @@ window.ludaData = {
           "value": "±5%"
         },
         {
-          "label": "Upper/lower bearing plate size",
-          "value": "Φ380/Φ280mm"
+          "label": "Upper And Lower Platen Dimension (mm)",
+          "value": "Φ380(Upper) Φ280(Lower)"
         },
         {
-          "label": "Distance between upper and lower platens",
+          "label": "Vertical Test Spaces",
           "value": "330mm"
         },
         {
-          "label": "Test space",
+          "label": "Horizontal Test space",
           "value": "400mm"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "100mm"
+          "label": "Piston Stroke (mm)",
+          "value": "100"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ320mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ320"
         },
         {
           "label": "Displacement rate control relative error",
@@ -3463,20 +3556,20 @@ window.ludaData = {
           "value": "0.02%～2%FS/s"
         },
         {
-          "label": "Oil maximum pressure",
-          "value": "25MPa"
+          "label": "Hydraulic Pump Rated Pressure (MPa)",
+          "value": "25"
         },
         {
-          "label": "Machine power",
+          "label": "Power",
           "value": "1.8kW"
         },
         {
-          "label": "Controller size",
-          "value": "900×700×900 mm"
+          "label": "Control Cabinet Dimensions (mm)",
+          "value": "900×700×900"
         },
         {
-          "label": "Host size",
-          "value": "850×840×1500mm"
+          "label": "Main Unit Dimensions (mm)",
+          "value": "850×840×1500"
         },
         {
           "label": "Weight",
@@ -3515,20 +3608,20 @@ window.ludaData = {
           "value": "0.3～1.0,1.0 or above can be entered manually"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10% to 100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "200～2000"
         },
         {
-          "label": "Accuracy of the load indication",
-          "value": "Better than ±1% of indicated value"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Distance between upper and lower platen (mm)",
+          "label": "Vertical Test Space (mm)",
           "value": "320"
         },
         {
           "label": "Pressure plate size(mm)",
-          "value": "Φ300×Φ300"
+          "value": "Φ300(Upper) Φ300(Lower)"
         },
         {
           "label": "Piston stroke (mm)",
@@ -3539,7 +3632,7 @@ window.ludaData = {
           "value": "Φ250"
         },
         {
-          "label": "Oil pressure (MPa)",
+          "label": "Hydraulic Pump Rated Pressure (MPa)",
           "value": "40"
         },
         {
@@ -3600,16 +3693,16 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "2000KN"
+          "label": "Load Capacity (kN)",
+          "value": "2000"
         },
         {
-          "label": "Measurement accuracy range",
-          "value": "5%- 100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "100~2000"
         },
         {
-          "label": "Indication accuracy",
-          "value": "≤±0.5%"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
           "label": "Loading rate",
@@ -3620,24 +3713,24 @@ window.ludaData = {
           "value": "±5%"
         },
         {
-          "label": "Distance between upper and lower platen",
-          "value": "330mm"
+          "label": "Vertical Test Space (mm)",
+          "value": "330"
         },
         {
-          "label": "Upper and lower bearing plate diameter",
-          "value": "Φ280/Φ320mm"
+          "label": "Upper And Lower Platen Dimension (mm)",
+          "value": "Φ280(Upper) Φ320(Lower)"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "120mm"
+          "label": "Piston Stroke (mm)",
+          "value": "120"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ250mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ250"
         },
         {
-          "label": "Oil maximum pressure",
-          "value": "40MPa"
+          "label": "Hydraulic Pump Rated Pressure (MPa)",
+          "value": "40"
         },
         {
           "label": "Dimensions",
@@ -3685,16 +3778,16 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "3000KN"
+          "label": "Load Capacity (kN)",
+          "value": "3000"
         },
         {
-          "label": "Measurement accuracy range",
-          "value": "5%- 100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "150~3000"
         },
         {
-          "label": "Indication accuracy",
-          "value": "≤±0.5%"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
           "label": "Loading rate",
@@ -3705,24 +3798,24 @@ window.ludaData = {
           "value": "±5%"
         },
         {
-          "label": "Distance between upper and lower platen",
+          "label": "Vertical Test Space (mm)",
           "value": "330mm"
         },
         {
-          "label": "Upper and lower bearing plate diameter",
-          "value": "Φ280/Φ320mm"
+          "label": "Upper And Lower Platen Dimension (mm)",
+          "value": "Φ280(Upper) Φ320(Lower)"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "120mm"
+          "label": "Piston Stroke (mm)",
+          "value": "120"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ310mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ310"
         },
         {
-          "label": "Oil maximum pressure",
-          "value": "40MPa"
+          "label": "Hydraulic Pump Rated Pressure (MPa)",
+          "value": "40"
         },
         {
           "label": "Dimensions",
@@ -3767,39 +3860,39 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Test force",
-          "value": "2000kN"
+          "label": "Load Capacity (kN)",
+          "value": "2000"
         },
         {
           "label": "Loading rate",
           "value": "0.3～1.0MPa,1.0 or above can be entered manually"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10% to 100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "200～2000"
         },
         {
-          "label": "Accuracy of the load indication",
-          "value": "Better than ±1% of indicated value"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Distance between upper and lower platen",
+          "label": "Vertical Test Space (mm)",
           "value": "320mm"
         },
         {
-          "label": "Pressure plate size",
-          "value": "260×260mm"
+          "label": "Upper And Lower Platen Dimension (mm)",
+          "value": "Φ260(Upper) Φ260(Lower)"
         },
         {
           "label": "Piston stroke",
           "value": "50mm"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ250mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ250"
         },
         {
-          "label": "Oil pressure",
+          "label": "Hydraulic Pump Rated Pressure (MPa)",
           "value": "40MPa"
         },
         {
@@ -3811,12 +3904,12 @@ window.ludaData = {
           "value": "AC380V±10%, 50-60Hz"
         },
         {
-          "label": "Main unit dimensions",
-          "value": "580×500×1400mm"
+          "label": "Main Unit Dimensions (mm)",
+          "value": "580×500×1400"
         },
         {
-          "label": "Overall dimension of control cabinet",
-          "value": "560×550×1310mm"
+          "label": "Control Cabinet Dimensions (mm)",
+          "value": "560×550×1310"
         },
         {
           "label": "Weight",
@@ -3857,40 +3950,40 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Test force",
-          "value": "3000kN"
+          "label": "Load Capacity (kN)",
+          "value": "3000"
         },
         {
           "label": "Loading rate",
           "value": "0.3～1.0MPa,1.0 or above can be entered manually"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10% to 100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "300～3000"
         },
         {
-          "label": "Accuracy of the load indication",
-          "value": "Better than ±1% of indicated value"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Distance between upper and lower platen",
+          "label": "Vertical Test Space (mm)",
           "value": "320mm"
         },
         {
-          "label": "Pressure plate size",
-          "value": "320×320mm"
+          "label": "Upper And Lower Platen Dimension (mm)",
+          "value": "Φ320(Upper) Φ320(Lower)"
         },
         {
           "label": "Piston stroke",
           "value": "50mm"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ310mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ310"
         },
         {
-          "label": "Oil pressure",
-          "value": "40MPa"
+          "label": "Hydraulic Pump Rated Pressure (MPa)",
+          "value": "40"
         },
         {
           "label": "Total power",
@@ -3901,12 +3994,12 @@ window.ludaData = {
           "value": "AC380V±10%, 50-60Hz"
         },
         {
-          "label": "Main unit dimensions",
-          "value": "550×650×1750mm"
+          "label": "Main Unit Dimensions (mm)",
+          "value": "550×650×1750"
         },
         {
-          "label": "Overall dimension of control cabinet",
-          "value": "560×550×1310mm"
+          "label": "Control Cabinet Dimensions (mm)",
+          "value": "560×550×1310"
         },
         {
           "label": "Weight",
@@ -3948,36 +4041,36 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Test force",
-          "value": "2000kN"
+          "label": "Load Capacity (kN)",
+          "value": "2000"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10% ~100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "200～2000"
         },
         {
-          "label": "Accuracy of load indication",
-          "value": "Better than  ±1% of indicated value"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "The  distance  between the  upper  and  lower platen",
-          "value": "320mm"
+          "label": "Vertical Test Space (mm)",
+          "value": "320"
         },
         {
-          "label": "Pressure plate size",
-          "value": "260×260mm"
+          "label": "Upper And Lower Platen Dimension (mm)",
+          "value": "Φ260(Upper) Φ260(Lower)"
         },
         {
           "label": "Piston stroke",
           "value": "50mm"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ250mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ250"
         },
         {
-          "label": "Oil pressure",
-          "value": "40MPa"
+          "label": "Hydraulic Pump Rated Pressure (MPa)",
+          "value": "40"
         },
         {
           "label": "Total power",
@@ -3988,12 +4081,12 @@ window.ludaData = {
           "value": "AC380V,50-60Hz"
         },
         {
-          "label": "Main unit dimensions",
-          "value": "580×500×1400mm"
+          "label": "Main Unit Dimensions (mm)",
+          "value": "580×500×1400"
         },
         {
-          "label": "Overall dimension of control cabinet",
-          "value": "510×540×1470mm"
+          "label": "Control Cabinet Dimensions (mm)",
+          "value": "510×540×1470"
         },
         {
           "label": "Weight",
@@ -4035,36 +4128,36 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Test force",
-          "value": "3000kN"
+          "label": "Load Capacity (kN)",
+          "value": "3000"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10% ~100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "300～3000"
         },
         {
-          "label": "Accuracy of load indication",
-          "value": "Better than  ±1% of indicated value"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "The  distance  between the  upper  and  lower platen",
-          "value": "330mm"
+          "label": "Vertical Test Space (mm)",
+          "value": "330"
         },
         {
-          "label": "Pressure plate size",
-          "value": "320×320mm"
+          "label": "Upper And Lower Platen Dimension (mm)",
+          "value": "Φ320(Upper) Φ320(Lower)"
         },
         {
           "label": "Piston stroke",
           "value": "50mm"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ310mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ310"
         },
         {
-          "label": "Oil pressure",
-          "value": "40MPa"
+          "label": "Hydraulic Pump Rated Pressure (MPa)",
+          "value": "40"
         },
         {
           "label": "Total power",
@@ -4075,12 +4168,12 @@ window.ludaData = {
           "value": "AC380V,50-60Hz"
         },
         {
-          "label": "Main unit dimensions",
-          "value": "550×560×1750mm"
+          "label": "Main Unit Dimensions (mm)",
+          "value": "550×560×1750"
         },
         {
-          "label": "Overall dimension of control cabinet",
-          "value": "510×540×1470mm"
+          "label": "Control Cabinet Dimensions (mm)",
+          "value": "510×540×1470"
         },
         {
           "label": "Weight",
@@ -4122,24 +4215,24 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Test force",
-          "value": "2000kN"
+          "label": "Load Capacity (kN)",
+          "value": "2000"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10%~100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "200～2000"
         },
         {
-          "label": "Accuracy of load indication",
-          "value": "Better than ±1% of indicated value"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "50mm"
+          "label": "Piston Stroke (mm)",
+          "value": "50"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ250mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ250"
         },
         {
           "label": "Hydraulic pump rated pressure",
@@ -4150,8 +4243,8 @@ window.ludaData = {
           "value": "320mm"
         },
         {
-          "label": "Pressure plate size",
-          "value": "260×260mm"
+          "label": "Upper And Lower Platen Dimension (mm)",
+          "value": "Φ260(Upper) Φ260(Lower)"
         },
         {
           "label": "Total power",
@@ -4208,8 +4301,8 @@ window.ludaData = {
           "value": ""
         },
         {
-          "label": "Maximum test force",
-          "value": "300kN"
+          "label": "Compressive Load Capacity (kN)",
+          "value": "300"
         },
         {
           "label": "Constant loading rate",
@@ -4224,16 +4317,16 @@ window.ludaData = {
           "value": "Φ120mm"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "90mm"
+          "label": "Piston Stroke (mm)",
+          "value": "90"
         },
         {
           "label": "Flexural strength test",
           "value": ""
         },
         {
-          "label": "Maximum test force",
-          "value": "10kN"
+          "label": "Flexural Load Capacity (kN)",
+          "value": "10"
         },
         {
           "label": "Constant loading rate",
@@ -4248,8 +4341,8 @@ window.ludaData = {
           "value": "100mm"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "70mm"
+          "label": "Piston Stroke (mm)",
+          "value": "70"
         },
         {
           "label": "Indication relative error (accuracy)",
@@ -4320,8 +4413,8 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "300kN"
+          "label": "Load Capacity (kN)",
+          "value": "300"
         },
         {
           "label": "Constant loading rate",
@@ -4336,8 +4429,8 @@ window.ludaData = {
           "value": "Φ120mm"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "90mm"
+          "label": "Piston Stroke (mm)",
+          "value": "90"
         },
         {
           "label": "Indication relative error (accuracy)",
@@ -4410,8 +4503,8 @@ window.ludaData = {
           "value": ""
         },
         {
-          "label": "Maximum test force",
-          "value": "300kN"
+          "label": "Compressive Load Capacity (kN)",
+          "value": "300"
         },
         {
           "label": "Constant loading rate",
@@ -4426,16 +4519,16 @@ window.ludaData = {
           "value": "Φ120mm"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "90mm"
+          "label": "Piston Stroke (mm)",
+          "value": "90"
         },
         {
           "label": "Flexural strength test",
           "value": ""
         },
         {
-          "label": "Maximum test force",
-          "value": "10kN"
+          "label": "Flexural Load Capacity (kN)",
+          "value": "10"
         },
         {
           "label": "Constant loading rate",
@@ -4450,8 +4543,8 @@ window.ludaData = {
           "value": "100mm"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "70mm"
+          "label": "Piston Stroke (mm)",
+          "value": "70"
         },
         {
           "label": "Indication relative error (accuracy)",
@@ -4519,16 +4612,16 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "300kN"
+          "label": "Load Capacity (kN)",
+          "value": "300"
         },
         {
-          "label": "Measurement accuracy range",
-          "value": "10%~ 100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "30~300"
         },
         {
-          "label": "Indication accuracy",
-          "value": "≦±1%"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
           "label": "Loading rate",
@@ -4543,16 +4636,16 @@ window.ludaData = {
           "value": "Φ120mm"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "90mm"
+          "label": "Piston Stroke (mm)",
+          "value": "90"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ140mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ140"
         },
         {
-          "label": "Oil maximum pressure",
-          "value": "31.5MPa"
+          "label": "Hydraulic Pump Rated Pressure (MPa)",
+          "value": "31.5"
         },
         {
           "label": "Power supply voltage",
@@ -4599,8 +4692,8 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "300kN"
+          "label": "Load Capacity (kN)",
+          "value": "300"
         },
         {
           "label": "Indication relative error (accuracy)",
@@ -4615,7 +4708,7 @@ window.ludaData = {
           "value": "Φ140mm"
         },
         {
-          "label": "Maximum distance between upper and lower platen",
+          "label": "Vertical Test Space (mm)",
           "value": "190mm"
         },
         {
@@ -4671,8 +4764,8 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "300kN"
+          "label": "Load Capacity (kN)",
+          "value": "300"
         },
         {
           "label": "Indication relative error (accuracy)",
@@ -4703,7 +4796,7 @@ window.ludaData = {
           "value": "Φ160mm"
         },
         {
-          "label": "Maximum distance between upper and lower platen",
+          "label": "Vertical Test Space (mm)",
           "value": "230mm"
         },
         {
@@ -4754,8 +4847,8 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force",
-          "value": "1000kN"
+          "label": "Load Capacity (kN)",
+          "value": "1000"
         },
         {
           "label": "Rigid adjustment block",
@@ -4766,20 +4859,20 @@ window.ludaData = {
           "value": "500×500×50mm"
         },
         {
-          "label": "Effective measurement range",
-          "value": "10%-100%"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "100～1000"
         },
         {
-          "label": "Accuracy of load indication",
-          "value": "better than ±1%/±0.5% of indication"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Piston maximum stroke",
-          "value": "250mm"
+          "label": "Piston Stroke (mm)",
+          "value": "250"
         },
         {
-          "label": "Piston diameter",
-          "value": "Φ210mm"
+          "label": "Piston diameter (mm)",
+          "value": "Φ210"
         },
         {
           "label": "Hydraulic pump rated pressure",
@@ -4802,8 +4895,8 @@ window.ludaData = {
           "value": "1400×1200×1400mm"
         },
         {
-          "label": "Overall dimension of control cabinet",
-          "value": "1200×700×900mm"
+          "label": "Control Cabinet Dimensions (mm)",
+          "value": "1200×700×900"
         },
         {
           "label": "Weight",
@@ -4820,7 +4913,7 @@ window.ludaData = {
       "name": "Static Load Sleeper Testing Machine",
       "model": "TSY-500",
       "category": "Large Testing Machine Series",
-      "thumbnail": "/assets/images/TSY-500.png",
+      "thumbnail": "/assets/images/TSY-500轨枕.png",
       "image": "myImages/TSY-500-Image.png",
       "description": "The static load sleeper testing machine is a device for testing the static load crack resistance test of concrete sleepers (Type I sleepers, Type II sleepers, Type III sleepers, fork sleepers, bridge sleepers, wide sleepers, etc.).",
       "features": [
@@ -4843,7 +4936,7 @@ window.ludaData = {
           "value": "500kN"
         },
         {
-          "label": "Load Indication Accuracy",
+          "label": "Load Measurement Accuracy",
           "value": "±1%"
         },
         {
@@ -4859,8 +4952,8 @@ window.ludaData = {
           "value": "180s"
         },
         {
-          "label": "Piston Maximum Stroke",
-          "value": "250mm"
+          "label": "Piston Stroke (mm)",
+          "value": "250"
         },
         {
           "label": "Adjustable Under-rail Loading Distance",
@@ -4871,11 +4964,11 @@ window.ludaData = {
           "value": "600, 1500mm"
         },
         {
-          "label": "Test space",
+          "label": "Vertical Test space",
           "value": "Distance between Upper and Lower Supports :430 mm"
         },
         {
-          "label": "Test space",
+          "label": "Horizontal Test space",
           "value": "Distance between Four Columns: 820, 900mm"
         },
         {
@@ -4940,16 +5033,16 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum Test Force",
-          "value": "300kN"
+          "label": "Load Capacity (kN)",
+          "value": "300"
         },
         {
-          "label": "Effective Measurement Range",
-          "value": "10%~100%(no classification in the whole process)"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "30～300"
         },
         {
-          "label": "Load Indication Accuracy",
-          "value": "Better than ±1% of indication"
+          "label": "Load Measurement Accuracy",
+          "value": "±1%"
         },
         {
           "label": "Load Resolution",
@@ -6296,27 +6389,27 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Maximum test force (KN)",
+          "label": "Load Capacity (kN)",
           "value": "600"
         },
         {
-          "label": "Effective measurement range",
-          "value": "5%～100%FS"
+          "label": "Effective Load Measurement Range (kN)",
+          "value": "30～600"
         },
         {
-          "label": "Accuracy of load indication value",
-          "value": "Level 0.5"
+          "label": "Load Measurement Accuracy",
+          "value": "±0.5%"
         },
         {
-          "label": "Stretching space (mm)",
+          "label": "Tensile Vertical Test Space (mm)",
           "value": "670"
         },
         {
-          "label": "Circular Sample clamping diameter (mm)",
+          "label": "Cylinder Sample Diameter Range (mm) (mm)",
           "value": "Φ13~Φ26,Φ26~Φ40"
         },
         {
-          "label": "Flat Sample clamping diameter (mm)",
+          "label": "Plate Sample Thickness Range (mm)",
           "value": "0~15"
         },
         {
