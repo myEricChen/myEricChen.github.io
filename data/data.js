@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-07 14:02:55
+ * @LastEditTime: 2026-03-07 17:04:12
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -569,11 +569,7 @@ window.ludaData = {
           "value": "Φ223(Upper) Φ230(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and",
-          "value": ""
-        },
-        {
-          "label": "compression space(mm)",
+          "label": "Distance between two pillars in tension and compression space(mm)",
           "value": "510"
         },
         {
@@ -658,11 +654,7 @@ window.ludaData = {
           "value": "Φ223(Upper) Φ230(Lower)"
         },
         {
-          "label": "Distance between two pillars in tension and",
-          "value": ""
-        },
-        {
-          "label": "compression space(mm)",
+          "label": "Distance between two pillars in tension and compression space(mm)",
           "value": "510"
         },
         {
@@ -768,10 +760,6 @@ window.ludaData = {
         },
         {
           "label": "Distance between the two columns of the pulling and pressing space(mm)",
-          "value": ""
-        },
-        {
-          "label": "",
           "value": "380"
         },
         {
@@ -1319,11 +1307,7 @@ window.ludaData = {
           "value": "Φ176"
         },
         {
-          "label": "Distance between two pillars in tension and",
-          "value": ""
-        },
-        {
-          "label": "compression space(mm)",
+          "label": "Distance between two pillars in tension and compression space(mm)",
           "value": "420"
         },
         {
@@ -1332,10 +1316,6 @@ window.ludaData = {
         },
         {
           "label": "Cross Head Maximum Speed (mm/min)",
-          "value": ""
-        },
-        {
-          "label": "",
           "value": "240"
         },
         {
@@ -1439,11 +1419,7 @@ window.ludaData = {
           "value": "Φ180"
         },
         {
-          "label": "Distance between two pillars in tension and",
-          "value": ""
-        },
-        {
-          "label": "compression space(mm)",
+          "label": "Distance between two pillars in tension and compression space(mm)",
           "value": "420"
         },
         {
@@ -1452,10 +1428,6 @@ window.ludaData = {
         },
         {
           "label": "Cross Head Maximum Speed (mm/min)",
-          "value": ""
-        },
-        {
-          "label": "",
           "value": "240"
         },
         {
@@ -1559,11 +1531,7 @@ window.ludaData = {
           "value": "Φ230"
         },
         {
-          "label": "Distance between two pillars in tension and",
-          "value": ""
-        },
-        {
-          "label": "compression space(mm)",
+          "label": "Distance between two pillars in tension and compression space(mm)",
           "value": "510"
         },
         {
@@ -1572,10 +1540,6 @@ window.ludaData = {
         },
         {
           "label": "Cross Head Maximum Speed (mm/min)",
-          "value": ""
-        },
-        {
-          "label": "",
           "value": "240"
         },
         {
@@ -1679,11 +1643,7 @@ window.ludaData = {
           "value": "Φ230"
         },
         {
-          "label": "Distance between two pillars in tension and",
-          "value": ""
-        },
-        {
-          "label": "compression space(mm)",
+          "label": "Distance between two pillars in tension and compression space(mm)",
           "value": "510"
         },
         {
@@ -1692,10 +1652,6 @@ window.ludaData = {
         },
         {
           "label": "Cross Head Maximum Speed (mm/min)",
-          "value": ""
-        },
-        {
-          "label": "",
           "value": "240"
         },
         {
@@ -1799,11 +1755,7 @@ window.ludaData = {
           "value": "Φ230"
         },
         {
-          "label": "Distance between two pillars in tension and",
-          "value": ""
-        },
-        {
-          "label": "compression space(mm)",
+          "label": "Distance between two pillars in tension and compression space(mm)",
           "value": "610"
         },
         {
@@ -1812,10 +1764,6 @@ window.ludaData = {
         },
         {
           "label": "Cross Head Maximum Speed (mm/min)",
-          "value": ""
-        },
-        {
-          "label": "",
           "value": "240"
         },
         {
@@ -2874,11 +2822,7 @@ window.ludaData = {
         },
         {
           "label": "Control accuracy of constant force, constant deformation and constant displacement",
-          "value": "Within ±1% of the set value when the set value is <10%FS;"
-        },
-        {
-          "label": "Within ±0.1% of the set value when the set value is ≥10%FS",
-          "value": ""
+          "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
         },
         {
           "label": "Effective tensile space (without jig)",
@@ -2986,11 +2930,7 @@ window.ludaData = {
         },
         {
           "label": "Control accuracy of constant force, constant deformation and constant displacement",
-          "value": "Within ±1% of the set value when the set value is <10%FS;"
-        },
-        {
-          "label": "Within ±0.1% of the set value when the set value is ≥10%FS",
-          "value": ""
+          "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
         },
         {
           "label": "Effective tensile space (without jig)",
@@ -3085,8 +3025,8 @@ window.ludaData = {
           "value": "0.02~5%FS/S"
         },
         {
-          "label": "Relative error of deformation control rate Within ±1% of the set value",
-          "value": ""
+          "label": "Relative error of deformation control rate",
+          "value": "Within ±1% of the set value"
         },
         {
           "label": "Cross-beam speed adjustment range",
@@ -3098,11 +3038,7 @@ window.ludaData = {
         },
         {
           "label": "Control accuracy of constant force, constant deformation and constant displacement",
-          "value": "Within ±1% of the set value when the set value is <10%FS;"
-        },
-        {
-          "label": "Within ±0.1% of the set value when the set value is ≥10%FS",
-          "value": ""
+          "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
         },
         {
           "label": "Effective tensile space (without jig)",
@@ -3197,8 +3133,8 @@ window.ludaData = {
           "value": "0.02~5%FS/S"
         },
         {
-          "label": "Relative error of deformation control rate Within ±1% of the set value",
-          "value": ""
+          "label": "Relative error of deformation control rate",
+          "value": "Within ±1% of the set value"
         },
         {
           "label": "Cross-beam speed adjustment range",
@@ -3210,11 +3146,7 @@ window.ludaData = {
         },
         {
           "label": "Control accuracy of constant force, constant deformation and constant displacement",
-          "value": "Within ±1% of the set value when the set value is <10%FS;"
-        },
-        {
-          "label": "Within ±0.1% of the set value when the set value is ≥10%FS",
-          "value": ""
+          "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
         },
         {
           "label": "Effective tensile space (without jig)",
@@ -3468,112 +3400,6 @@ window.ludaData = {
         {
           "label": "Weight About",
           "value": "90kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P034",
-      "name": "Constant Loading Pressure Testing Machine(Large Frame) Jinhua Type",
-      "model": "TSY-2000A",
-      "category": "Compression Testing Machine Series",
-      "thumbnail": "/assets/images/TSY-2000A.png",
-      "image": "myImages/TSY-2000A-Image.png",
-      "description": "This product is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.",
-      "features": [
-        "The hydraulic pump adopts an axial five-piston ultra-high pressure pump, which works smoothly and has low noise;",
-        "The control valve adopts high-precision digital micro-flow valve with high control precision;",
-        "The sensor adopts a pressure sensor, which has good reliability;",
-        "The principle of automatic loading is adopted to strengthen the control of the loading rate."
-      ],
-      "standards": [
-        "ASTM C39",
-        "BS 1610",
-        "NF P18-411",
-        "AASHTO T22",
-        "DIN 51220",
-        "BS 812-110",
-        "812-111",
-        "EN 772-1",
-        "ASTM C140",
-        "ASTM C1314",
-        "EN 13412"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "2000"
-        },
-        {
-          "label": "Measuring accuracy range",
-          "value": "10% ~ 100% FS(no classification in the whole process)"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Loading rate",
-          "value": "0.3～0.8MPa"
-        },
-        {
-          "label": "Loading rate accuracy",
-          "value": "±5%"
-        },
-        {
-          "label": "Upper And Lower Platen Dimension (mm)",
-          "value": "Φ380(Upper) Φ280(Lower)"
-        },
-        {
-          "label": "Vertical Test Spaces",
-          "value": "330mm"
-        },
-        {
-          "label": "Horizontal Test space",
-          "value": "400mm"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "100"
-        },
-        {
-          "label": "Piston diameter (mm)",
-          "value": "Φ320"
-        },
-        {
-          "label": "Displacement rate control relative error",
-          "value": "≦±1%"
-        },
-        {
-          "label": "Host structure Screw electric adjustment",
-          "value": ""
-        },
-        {
-          "label": "Test force loading speed",
-          "value": "0.02%～2%FS/s"
-        },
-        {
-          "label": "Hydraulic Pump Rated Pressure (MPa)",
-          "value": "25"
-        },
-        {
-          "label": "Power",
-          "value": "1.8kW"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "900×700×900"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "850×840×1500"
-        },
-        {
-          "label": "Weight",
-          "value": "1800kg"
         }
       ],
       "hasManual": false,
@@ -4357,11 +4183,7 @@ window.ludaData = {
           "value": "±0.1%"
         },
         {
-          "label": "The relative resolution of the force value",
-          "value": ""
-        },
-        {
-          "label": "display device of the test machine",
+          "label": "The relative resolution of the force value display device of the test machine",
           "value": "0.5%"
         },
         {
@@ -4445,8 +4267,8 @@ window.ludaData = {
           "value": "±0.1%"
         },
         {
-          "label": "The  relative  resolution of the force value display device of the test machin",
-          "value": "e 0.5%"
+          "label": "The  relative  resolution of the force value display device of the test machine",
+          "value": "0.5%"
         },
         {
           "label": "Zero drift",
@@ -4559,11 +4381,7 @@ window.ludaData = {
           "value": "±0.1%"
         },
         {
-          "label": "The relative resolution of the force value",
-          "value": ""
-        },
-        {
-          "label": "display device of the test machine",
+          "label": "The relative resolution of the force value display device of the test machine",
           "value": "0.5%"
         },
         {
@@ -4742,7 +4560,7 @@ window.ludaData = {
       "name": "Electro-hydraulic Flexural And Compression Testing Machine",
       "model": "TSY-300",
       "category": "Compression Testing Machine Series",
-      "thumbnail": "/assets/images/TSY-300.png",
+      "thumbnail": "/assets/images/TSY-300（抗折）.png",
       "image": "myImages/TSY-300-Image.png",
       "description": "This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.",
       "features": [
@@ -5458,11 +5276,7 @@ window.ludaData = {
       "specifications": [
         {
           "label": "Mould size",
-          "value": "300×300×(30~100)mm"
-        },
-        {
-          "label": "(Can be customized upon request)",
-          "value": ""
+          "value": "300×300×(30~100)mm (Can be customized upon request)"
         },
         {
           "label": "Trial car travel",
@@ -5791,11 +5605,7 @@ window.ludaData = {
         },
         {
           "label": "Power supply voltage",
-          "value": "Power supply, motor,voltage380V, heating part 220V"
-        },
-        {
-          "label": "(that is, the power supply part should be three-phase four-wire system, the total power supply should be 380V plus 220V neutral wire)",
-          "value": ""
+          "value": "380V, 3L1N"
         }
       ],
       "hasManual": false,
@@ -5982,11 +5792,7 @@ window.ludaData = {
           "value": "1±0.1mm"
         },
         {
-          "label": "Sample bottle size",
-          "value": ""
-        },
-        {
-          "label": "(opening diameter × bottle diameter × overal height)",
+          "label": "Sample bottle size (opening diameter × bottle diameter × overal height)",
           "value": "Φ31.75×Φ64×139.7 mm"
         },
         {
@@ -6362,2707 +6168,6 @@ window.ludaData = {
       "isNew": false
     },
     {
-      "id": "P073",
-      "name": "Shock Absorber Universal Material Testing Machine",
-      "model": "WAW-600Pro",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WAW-600Pro.png",
-      "image": "myImages/WAW-600Pro-Image.png",
-      "description": "This testing machine is mainly used for tensile, compression, bending and shear tests of metal materials, and meets the requirements of national standards such as ASTM E8 metal tensile test standard.",
-      "features": [
-        "The servo oil source control system used in this equipment can effectively reduce the equipment operation noise, reduce heat generation, extend the service life of the oil, and eliminate the need for cooling.",
-        "The shock absorption system of this equipment can effectively reduce the vibration during the use of the equipment, making the experimental process safer and more comfortable.",
-        "The screwless structure makes this equipment more rigid, more convenient for maintenance and lower failure rate compared to other universal testing machines."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "600"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "30～600"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±0.5%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "670"
-        },
-        {
-          "label": "Cylinder Sample Diameter Range (mm) (mm)",
-          "value": "Φ13~Φ26,Φ26~Φ40"
-        },
-        {
-          "label": "Plate Sample Thickness Range (mm)",
-          "value": "0~15"
-        },
-        {
-          "label": "Sample clamping width(mm)",
-          "value": "110"
-        },
-        {
-          "label": "Maximum rising speed (mm/min)",
-          "value": "350"
-        },
-        {
-          "label": "Maximum lowering speed (mm/min)",
-          "value": "500"
-        },
-        {
-          "label": "Motor power(kW)",
-          "value": "2.3"
-        },
-        {
-          "label": "Supply Voltage",
-          "value": "AC220V±10%,50-60Hz"
-        },
-        {
-          "label": "Dimensions of machine(mm)",
-          "value": "1440×580×2200"
-        },
-        {
-          "label": "Weight (kg)",
-          "value": "2350"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P074",
-      "name": "Concrete Fast Freeze-thaw Chamber",
-      "model": "TDRF-1",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/TDRF-1（连体）.png",
-      "image": "myImages/TDRF-1-Image.png",
-      "description": "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
-      "features": [],
-      "standards": [
-        "ASTM C666",
-        "AASHTO T161",
-        "PROCEDURE A"
-      ],
-      "specifications": [
-        {
-          "label": "Condenser cooling way：Air-cooling",
-          "value": ""
-        },
-        {
-          "label": "Number of test pieces ：28 PCS",
-          "value": ""
-        },
-        {
-          "label": "Specimen size：100×100×400mm,the temperature measuring parts are of the same size, and there are temperature measuring holes in the middle.",
-          "value": ""
-        },
-        {
-          "label": "Freezing end time/test piece center temperature：1.5～2.5h/-17±2℃（New standard -18±2℃）",
-          "value": ""
-        },
-        {
-          "label": "Melting end time/test piece center temperature：1.0～2.0h/8±2℃（New standard 5±2℃）",
-          "value": ""
-        },
-        {
-          "label": "Freeze-thaw cycle：2.5～4h,the melting time is not less than 1/4 freeze-thaw cycle.",
-          "value": ""
-        },
-        {
-          "label": "The temperature difference between the center and the surface of the specimen：＜28℃",
-          "value": ""
-        },
-        {
-          "label": "Number of cycles：The standard is 300 times, and the number of cycles can be adjusted.",
-          "value": ""
-        },
-        {
-          "label": "Temperature recorder：LCD touch screen controller",
-          "value": ""
-        },
-        {
-          "label": "Freeze-thaw cycle medium：-45°C antifreeze (1",
-          "value": "1 mixed with water)"
-        },
-        {
-          "label": "Amount of freeze-thaw cycle media charged：90kg",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator compressor：Complete inlet closure 8.5HP",
-          "value": ""
-        },
-        {
-          "label": "Specimen barrel size：115×115×490mm",
-          "value": ""
-        },
-        {
-          "label": "Heating power：9kW",
-          "value": ""
-        },
-        {
-          "label": "Maximum operating power：11kW",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC380V±10%",
-          "value": ""
-        },
-        {
-          "label": "Overall dimensions：1870×1370×1000mm",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P075",
-      "name": "Concrete Fast Freeze-thaw Chamber",
-      "model": "TDRF-2",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/TDRF-2（连体）.png",
-      "image": "myImages/TDRF-2-Image.png",
-      "description": "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
-      "features": [],
-      "standards": [
-        "ASTM C666",
-        "AASHTO T161",
-        "PROCEDURE A"
-      ],
-      "specifications": [
-        {
-          "label": "Condenser cooling way：Air-cooling",
-          "value": ""
-        },
-        {
-          "label": "Number of test pieces ：16 PCS",
-          "value": ""
-        },
-        {
-          "label": "Specimen size：100×100×400mm,the temperature measuring parts are of the same size, and there are temperature measuring holes in the middle.",
-          "value": ""
-        },
-        {
-          "label": "Freezing end time/test piece center temperature：1.5～2.5h/-17±2℃（New standard -18±2℃）",
-          "value": ""
-        },
-        {
-          "label": "Melting end time/test piece center temperature：1.0～2.0h/8±2℃（New standard 5±2℃）",
-          "value": ""
-        },
-        {
-          "label": "Freeze-thaw cycle：2.5～4h,the melting time is not less than 1/4 freeze-thaw cycle.",
-          "value": ""
-        },
-        {
-          "label": "The temperature difference between the center and the surface of the specimen：＜28℃",
-          "value": ""
-        },
-        {
-          "label": "Number of cycles：The standard is 300 times, and the number of cycles can be adjusted.",
-          "value": ""
-        },
-        {
-          "label": "Temperature recorder：LCD touch screen controller",
-          "value": ""
-        },
-        {
-          "label": "Freeze-thaw cycle medium：-45°C antifreeze (1",
-          "value": "1 mixed with water)"
-        },
-        {
-          "label": "Amount of freeze-thaw cycle media charged：60kg",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator compressor：Complete inlet closure 5HP",
-          "value": ""
-        },
-        {
-          "label": "Specimen barrel size：115×115×490mm",
-          "value": ""
-        },
-        {
-          "label": "Heating power：6kW",
-          "value": ""
-        },
-        {
-          "label": "Maximum operating power：8kW",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC380V±10%",
-          "value": ""
-        },
-        {
-          "label": "Overall dimensions：1870×1000×1000mm",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P076",
-      "name": "Concrete Fast Freeze-thaw Chamber",
-      "model": "TDRF-3",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/TDRF-3（连体）.png",
-      "image": "myImages/TDRF-3-Image.png",
-      "description": "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
-      "features": [],
-      "standards": [
-        "ASTM C666",
-        "AASHTO T161",
-        "PROCEDURE A"
-      ],
-      "specifications": [
-        {
-          "label": "Condenser cooling way：Air-cooling",
-          "value": ""
-        },
-        {
-          "label": "Number of test pieces ：10 PCS",
-          "value": ""
-        },
-        {
-          "label": "Specimen size：100×100×400mm,the temperature measuring parts are of the same size, and there are temperature measuring holes in the middle.",
-          "value": ""
-        },
-        {
-          "label": "Freezing end time/test piece center temperature：1.5～2.5h/-17±2℃（New standard -18±2℃）",
-          "value": ""
-        },
-        {
-          "label": "Melting end time/test piece center temperature：1.0～2.0h/8±2℃（New standard 5±2℃）",
-          "value": ""
-        },
-        {
-          "label": "Freeze-thaw cycle：2.5～4h,the melting time is not less than 1/4 freeze-thaw cycle.",
-          "value": ""
-        },
-        {
-          "label": "The temperature difference between the center and the surface of the specimen：＜28℃",
-          "value": ""
-        },
-        {
-          "label": "Number of cycles：The standard is 300 times, and the number of cycles can be adjusted.",
-          "value": ""
-        },
-        {
-          "label": "Temperature recorder：LCD touch screen controller",
-          "value": ""
-        },
-        {
-          "label": "Freeze-thaw cycle medium：-45°C antifreeze (1",
-          "value": "1 mixed with water)"
-        },
-        {
-          "label": "Amount of freeze-thaw cycle media charged：30kg",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator compressor：Complete inlet closure 3HP",
-          "value": ""
-        },
-        {
-          "label": "Specimen barrel size：115×115×490mm",
-          "value": ""
-        },
-        {
-          "label": "Heating power：4.5kW",
-          "value": ""
-        },
-        {
-          "label": "Maximum operating power：6kW",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC380V±10%",
-          "value": ""
-        },
-        {
-          "label": "Overall dimensions：1620×1000×1000mm",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P077",
-      "name": "Concrete Carbonation Test Chamber",
-      "model": "CCB-70A",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/CCB-70A.png",
-      "image": "myImages/CCB-70A-Image.png",
-      "description": "Our company participated in the drafting of CCB-70A concrete carbon ization test chamber and designated by the Building Materials Department.This equipment is a special apparatus for carbonation test of concretes.",
-      "features": [],
-      "standards": [
-        "ISO 1920-12"
-      ],
-      "specifications": [
-        {
-          "label": "Temperature control：20±2℃(adjust)",
-          "value": ""
-        },
-        {
-          "label": "Temperature control precision ：0.5℃",
-          "value": ""
-        },
-        {
-          "label": "Humidity control ：70±5%RH (40~70 adjust)",
-          "value": ""
-        },
-        {
-          "label": "CO2 concentration：20±3% (0~60,0~100 adjust,two ranges available)",
-          "value": ""
-        },
-        {
-          "label": "CO2 concentration resolution ：±1%",
-          "value": ""
-        },
-        {
-          "label": "CO2 concentration uniformity ：≦2%",
-          "value": ""
-        },
-        {
-          "label": "CO2 concentration precision  ：1%",
-          "value": ""
-        },
-        {
-          "label": "Heating power ：600W",
-          "value": ""
-        },
-        {
-          "label": "Refrigeration/Dehumidification power ：240W",
-          "value": ""
-        },
-        {
-          "label": "Humidification power ：1500W",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Studio size ：620×550×1230mm",
-          "value": ""
-        },
-        {
-          "label": "Overall dimensions：1100×710×1630mm",
-          "value": ""
-        },
-        {
-          "label": "Weigh：200kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P078",
-      "name": "Accelerated Concrete Curing Tank",
-      "model": "LDZY-400",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDZY-400.png",
-      "image": "myImages/LDZY-400-Image.png",
-      "description": "This product is a common equipment for the steam curing test of concrete specimens.The equipment is made of stainless steel inside and outside, touch screen operation display, automatic control, the test process is simple and convenient.",
-      "features": [],
-      "standards": [
-        "ASTM C684 Method C"
-      ],
-      "specifications": [
-        {
-          "label": "Specimen size with mold：195×195×175mm",
-          "value": ""
-        },
-        {
-          "label": "Box inner diameter：1000×750×640mm",
-          "value": ""
-        },
-        {
-          "label": "Overall dimensions：1560×850×900mm",
-          "value": ""
-        },
-        {
-          "label": "Number of specimen groups：8 groups (24 pieces in total)",
-          "value": ""
-        },
-        {
-          "label": "Temperature rise rate  ：≦15℃/h",
-          "value": ""
-        },
-        {
-          "label": "Heating power：4.0kW (new heating tube)",
-          "value": ""
-        },
-        {
-          "label": "Cooling power：0.5kW",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Frequency：50-60Hz",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P079",
-      "name": "Alkali-aggregate Test Chamber(Mortar-Bar Method and Accelerated Mortar-Bar Method)",
-      "model": "JKS",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/JKS.png",
-      "image": "myImages/JKS-Image.png",
-      "description": "Alkali-aggregate test chamber is designed and manufactured according to the national standard requirements for concrete long-term durability test.It is suitable for temperature control and time control of sand aggregate expansion test. The inner liner and shelf are made of stainless steel material.\nIt is suitable for conducting alkali-aggregate reaction test as to long-term durability of concretes in construction units,highway bridge engineering  units,and related research and quality inspection departments.",
-      "features": [],
-      "standards": [
-        "ASTM C1260",
-        "ASTM C1567"
-      ],
-      "specifications": [
-        {
-          "label": "Temperature control：Room temperature ~100℃(adjust)",
-          "value": ""
-        },
-        {
-          "label": "Temperature control precision ：±0.2℃",
-          "value": ""
-        },
-        {
-          "label": "Control time range：1~999min（99.9 days）",
-          "value": ""
-        },
-        {
-          "label": "Frequency：50-60Hz",
-          "value": ""
-        },
-        {
-          "label": "Control time precision ：±1min",
-          "value": ""
-        },
-        {
-          "label": "Heating power ：6kW",
-          "value": ""
-        },
-        {
-          "label": "Water pump power ：90W",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC380V±10%",
-          "value": ""
-        },
-        {
-          "label": "Studio size：650×550×600 (clear height 450mm)",
-          "value": ""
-        },
-        {
-          "label": "Overall dimensions：1010×680×800mm",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P080",
-      "name": "Constant Temperature and Humidity Curing Controller (high pressure atomization)",
-      "model": "LDWS-50",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWS-50（高压喷雾）.png",
-      "image": "myImages/LDWS-50-Image.png",
-      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature measurement accuracy ：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control：20±2℃",
-          "value": ""
-        },
-        {
-          "label": "Humidity control：≥95%RH",
-          "value": ""
-        },
-        {
-          "label": "Voltage：380V",
-          "value": ""
-        },
-        {
-          "label": "Supply frequency ：50-60Hz",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator power ：3000W",
-          "value": ""
-        },
-        {
-          "label": "Heater power ：9000W",
-          "value": ""
-        },
-        {
-          "label": "Maximum control area：50m3",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P081",
-      "name": "Constant Temperature and Humidity Curing Controller (high pressure atomization)",
-      "model": "LDWS-100",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWS-100（高压喷雾）.png",
-      "image": "myImages/LDWS-100-Image.png",
-      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature measurement accuracy ：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control：20±2℃",
-          "value": ""
-        },
-        {
-          "label": "Humidity control：≥95%RH",
-          "value": ""
-        },
-        {
-          "label": "Voltage：380V",
-          "value": ""
-        },
-        {
-          "label": "Supply frequency ：50-60Hz",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator power ：4000W",
-          "value": ""
-        },
-        {
-          "label": "Heater power ：9000W",
-          "value": ""
-        },
-        {
-          "label": "Maximum control area：100m3",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P082",
-      "name": "Constant Temperature And Humidity Curing Controller (ultrasonic atomization)",
-      "model": "LDWS-50",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWS-50（超声波喷雾）.png",
-      "image": "myImages/LDWS-50-Image.png",
-      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature measurement accuracy ：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control：20±2℃",
-          "value": ""
-        },
-        {
-          "label": "Humidity control：≥95%RH",
-          "value": ""
-        },
-        {
-          "label": "Voltage：380V",
-          "value": ""
-        },
-        {
-          "label": "Supply frequency ：50-60Hz",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator power ：3000W",
-          "value": ""
-        },
-        {
-          "label": "Heater power ：9000W",
-          "value": ""
-        },
-        {
-          "label": "Maximum control area：50m3",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P083",
-      "name": "Constant Temperature And Humidity Curing Controller (ultrasonic atomization)",
-      "model": "LDWS-100",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWS-100（超声波喷雾）.png",
-      "image": "myImages/LDWS-100-Image.png",
-      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature measurement accuracy ：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control：20±2℃",
-          "value": ""
-        },
-        {
-          "label": "Humidity control：≥95%RH",
-          "value": ""
-        },
-        {
-          "label": "Voltage：380V",
-          "value": ""
-        },
-        {
-          "label": "Supply frequency ：50-60Hz",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator power ：4000W",
-          "value": ""
-        },
-        {
-          "label": "Heater power ：9000W",
-          "value": ""
-        },
-        {
-          "label": "Maximum control area：100m3",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P084",
-      "name": "Constant Temperature And Humidity Control System",
-      "model": "LDWSA20",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWSA20.png",
-      "image": "myImages/LDWSA20-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and  relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of mortar, cement products and other samples.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature control：15～25±2℃(adjust)",
-          "value": ""
-        },
-        {
-          "label": "Temperature controller error：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Humidity control：50～80±5％RH(adjust)",
-          "value": ""
-        },
-        {
-          "label": "Maximum control area：10m2",
-          "value": ""
-        },
-        {
-          "label": "Heating power ：1500W",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator power ：1500W",
-          "value": ""
-        },
-        {
-          "label": "Dehumidification power：500W",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Wall-mounted controller installation size：450×200×550 mm",
-          "value": ""
-        },
-        {
-          "label": "Dimensions of 1.5 P air conditioner ：840×540×320mm",
-          "value": ""
-        },
-        {
-          "label": "Dimensions of dehumidifier：500×400×700mm",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P085",
-      "name": "Constant Temperature And Humidity Environment Control System",
-      "model": "LDHJ-50",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDHJ-50.png",
-      "image": "myImages/LDHJ-50-Image.png",
-      "description": "LDHJ-50 constant temperature and humidity environment control system is designed and  manufactured according to the national requirements for mortar chambers, cement chambers, insulation material chambers and other new standards,This product is suitable for cement factory and construction units, highway and bridge engineering units and relevant scientific research quality inspection departments of cement, concrete, cement products and other production and maintenance.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature controller error：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control：23±2℃(20-25±2℃ adjust)",
-          "value": ""
-        },
-        {
-          "label": "Humidity control：50%RH±5%(50%-70%RH±5% adjust)",
-          "value": ""
-        },
-        {
-          "label": "Voltage：380V",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator/Dehumidification power：2500W",
-          "value": ""
-        },
-        {
-          "label": "Heating power：4500W",
-          "value": ""
-        },
-        {
-          "label": "Control volume：50m³",
-          "value": ""
-        },
-        {
-          "label": "Weight：200kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P086",
-      "name": "Constant Temperature And Humidity Environment Control System",
-      "model": "LDHJ-100",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDHJ-100.png",
-      "image": "myImages/LDHJ-100-Image.png",
-      "description": "LDHJ-100 constant temperature and humidity environment control system is designed and  manufactured according to the national requirements for mortar chambers, cement chambers, insulation material chambers and other new standards,This product is suitable for cement factory and construction units, highway and bridge engineering units and relevant scientific research quality inspection departments of cement, concrete, cement products and other production and maintenance.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature controller error：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control：23±2℃(20-25±2℃ adjust)",
-          "value": ""
-        },
-        {
-          "label": "Humidity control：50%RH±5%(50%-70%RH±5% adjust)",
-          "value": ""
-        },
-        {
-          "label": "Voltage：380V",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator/Dehumidification power：4000W",
-          "value": ""
-        },
-        {
-          "label": "Heating power：7500W",
-          "value": ""
-        },
-        {
-          "label": "Control volume：100m³",
-          "value": ""
-        },
-        {
-          "label": "Weight：200kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P087",
-      "name": "Curing Room Three-piece Set",
-      "model": "BYS-3",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/BYS-3.png",
-      "image": "myImages/BYS-3-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature control instrument error ：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control：20±2℃",
-          "value": ""
-        },
-        {
-          "label": "Humidity control：≥95%",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Power frequency：50-60Hz",
-          "value": ""
-        },
-        {
-          "label": "Refrigerator power：1～4 thousand kcal(customer-provided window air conditioner)",
-          "value": ""
-        },
-        {
-          "label": "Heater power ：3000W",
-          "value": ""
-        },
-        {
-          "label": "Maximum humidity and temperature control area：15m2(according to the area can be designed separately)",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P088",
-      "name": "Concrete Impermeability Apparatus",
-      "model": "HP-4.0",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/HP-4.0.png",
-      "image": "myImages/HP-4.0-Image.png",
-      "description": "HP-4.0 automatic pressure regulating concrete impermeability instrument is used to measure the impermeability of concrete,which is used in construction enterprises, scientific research institutions, design departments and other units to engaged in the measurement and experimental research of concrete impermeability.It can also be used for building materials permeability measurement of quality inspection.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Working pressure：4MPa",
-          "value": ""
-        },
-        {
-          "label": "Working mode：Automatic pressurization",
-          "value": ""
-        },
-        {
-          "label": "Number of test specimens：6 PCS",
-          "value": ""
-        },
-        {
-          "label": "Inner diameter of the upper opening of the test mold：Φ175mm",
-          "value": ""
-        },
-        {
-          "label": "Inner diameter of the bottom of the test mold：Φ185mm",
-          "value": ""
-        },
-        {
-          "label": "Trial mold height：160mm",
-          "value": ""
-        },
-        {
-          "label": "Motor power：80W",
-          "value": ""
-        },
-        {
-          "label": "Motor speed：136r/min",
-          "value": ""
-        },
-        {
-          "label": "Plunger pump plunger diameter：Φ10mm",
-          "value": ""
-        },
-        {
-          "label": "Plunger pump reciprocating frequency：136 times/min",
-          "value": ""
-        },
-        {
-          "label": "Piston pump flow ：0.11L/min",
-          "value": ""
-        },
-        {
-          "label": "Supply voltage：AC380V±10%",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：1090×710×920mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：185kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P089",
-      "name": "Cement (Concrete) Fast Curing Chamber",
-      "model": "A-Type",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/A-Type.png",
-      "image": "myImages/A-Type-Image.png",
-      "description": "This product is suitable for the rapid cooking and maintenance of  concrete and construction units such as cement plants, building materials, and construction units.the liner and shelf are made of stainless steel  material.",
-      "features": [],
-      "standards": [
-        "EN 196-1",
-        "196-8",
-        "ISO 679",
-        "ASTM C109",
-        "C511"
-      ],
-      "specifications": [
-        {
-          "label": "Voltage：220V",
-          "value": ""
-        },
-        {
-          "label": "Internal temperature：Room temperature to 100℃,users need to control freely",
-          "value": ""
-        },
-        {
-          "label": "Electric heat tube heating power ：2000W(3 PCS)",
-          "value": ""
-        },
-        {
-          "label": "Studio size：750×550×530mm",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P090",
-      "name": "Direct-reading Concrete Air Content Tester",
-      "model": "CA-3",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/CA-3.png",
-      "image": "myImages/CA-3-Image.png",
-      "description": "This product is mainly used to measure the air content of new mixing concrete. It is suitable for ordinary concrete, flowing concrete, dry hard concrete, but is not suitable for light ingredient concrete.The product is designed according to ANS1/ASTM C231-78 standard, which is in line with international standards.The air content value can be read directly from the degree disk, and there is no need to query curve conversion.",
-      "features": [],
-      "standards": [
-        "EN 12350-7",
-        "ASTM C231 type B",
-        "AASHTO T152",
-        "DIN 1048"
-      ],
-      "specifications": [
-        {
-          "label": "Concrete mix particle size：≤40mm",
-          "value": ""
-        },
-        {
-          "label": "Maximum air content determination：8%",
-          "value": ""
-        },
-        {
-          "label": "Concrete measuring pot size：Volume 7L, inner diameter to height ratio is 1",
-          "value": "1"
-        },
-        {
-          "label": "Display instrument pressure value range：0.25MPa",
-          "value": ""
-        },
-        {
-          "label": "Display instrument dividing value：0.005MPa",
-          "value": ""
-        },
-        {
-          "label": "The amount of air content：8%",
-          "value": ""
-        },
-        {
-          "label": "The minimum reading：0.1%",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P091",
-      "name": "Imitation Japanese Concrete Air Content Tester",
-      "model": "HC-7L",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/HC-7L.png",
-      "image": "myImages/HC-7L-Image.png",
-      "description": "This product is mainly used to measure the air content in the concrete mixture.It is suitable for the determination of the air content in concrete mixtures having a slump with sub-aggregate diameter not exceeding 40mm and air content not exceeding 10%.\nThis  machine  has  the  advantages  of  easy  operation,accurate measurement and intuitive reading.",
-      "features": [],
-      "standards": [
-        "EN 12350-7",
-        "ASTM C231 type B",
-        "AASHTO T152",
-        "DIN 1048"
-      ],
-      "specifications": [
-        {
-          "label": "Measuring bowl volume：7L(its inner diameter and depth are equal)",
-          "value": ""
-        },
-        {
-          "label": "Air content range：≤ 40mm",
-          "value": ""
-        },
-        {
-          "label": "Maximum size of coarse aggregate to be used ：≤40mm",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P092",
-      "name": "Improved Concrete Air Content Tester",
-      "model": "GQC-1",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/GQC-1.png",
-      "image": "myImages/GQC-1-Image.png",
-      "description": "This product is suitable for the determination of the air content in concrete mixtures having a slump with sub-aggregate diameter not exceeding 40 mm and air content not exceeding 10%.",
-      "features": [],
-      "standards": [
-        "EN 12350-7",
-        "ASTM C231 type B",
-        "AASHTO T152",
-        "DIN 1048"
-      ],
-      "specifications": [
-        {
-          "label": "Measuring bowl volume ：7L(diameter 205mm, height 212mm)",
-          "value": ""
-        },
-        {
-          "label": "Air content range：≤ 10%",
-          "value": ""
-        },
-        {
-          "label": "Maximum size of coarse aggregate to be used：≤40mm",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P093",
-      "name": "Acme Penetrometer",
-      "model": "HG-1000",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/HG-1000.png",
-      "image": "myImages/HG-1000-Image.png",
-      "description": "This product is suitable for testing the setting time of various cements, admixtures and concrete mixtures with different concrete mix ratios under different temperature environments. The test mold is made of all-aluminum material, light in weight and easy to use.",
-      "features": [],
-      "standards": [
-        "ASTM C403",
-        "AASHTO T197"
-      ],
-      "specifications": [
-        {
-          "label": "Specimen mould upper calibre：Φ160mm",
-          "value": ""
-        },
-        {
-          "label": "Specimen mould lower calibre ：Φ150mm",
-          "value": ""
-        },
-        {
-          "label": "Test temperature ：20±2℃",
-          "value": ""
-        },
-        {
-          "label": "Maximum penetration force：1000N",
-          "value": ""
-        },
-        {
-          "label": "Minimum division value：0.1N",
-          "value": ""
-        },
-        {
-          "label": "Display value error：<±1%",
-          "value": ""
-        },
-        {
-          "label": "Penetration method：Manual",
-          "value": ""
-        },
-        {
-          "label": "Stylus area ：100, 50, 20mm²",
-          "value": ""
-        },
-        {
-          "label": "Voltage：220V",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P094",
-      "name": "Acme Dial Penetrometer",
-      "model": "HG-80",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/HG-80.png",
-      "image": "myImages/HG-80-Image.png",
-      "description": "This product is suitable for testing the setting time of various cements, admixtures and concrete mixtures with different concrete mix ratios under different temperature environments.",
-      "features": [],
-      "standards": [
-        "ASTM C403",
-        "AASHTO T197"
-      ],
-      "specifications": [
-        {
-          "label": "Display mode：Pointer",
-          "value": ""
-        },
-        {
-          "label": "Maximum measured value：1200N",
-          "value": ""
-        },
-        {
-          "label": "Specimen mould upper calibre ：Φ160mm",
-          "value": ""
-        },
-        {
-          "label": "Specimen mould lower calibre：Φ150mm",
-          "value": ""
-        },
-        {
-          "label": "Specimen mould height：150mm",
-          "value": ""
-        },
-        {
-          "label": "Penetration depth：25mm",
-          "value": ""
-        },
-        {
-          "label": "Minimum division value ：1N",
-          "value": ""
-        },
-        {
-          "label": "Indication error：±10N",
-          "value": ""
-        },
-        {
-          "label": "Stylus loading area：100,50,20mm2",
-          "value": ""
-        },
-        {
-          "label": "Penetration resistance：0.2～3.5MPa,3.5～20MPa, 20～28MPa",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：700×350×1000mm",
-          "value": ""
-        },
-        {
-          "label": "Packing size：730×360×1040mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：40kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P095",
-      "name": "Concrete Vibrator",
-      "model": "HZJ-0.5",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/HZJ-0.5.png",
-      "image": "myImages/HZJ-0.5-Image.png",
-      "description": "This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.",
-      "features": [],
-      "standards": [
-        "EN 12390-2",
-        "BS 1881:108"
-      ],
-      "specifications": [
-        {
-          "label": "Table size：500×500mm",
-          "value": ""
-        },
-        {
-          "label": "Vibration frequency ：2860 point/min",
-          "value": ""
-        },
-        {
-          "label": "Vibration amplitude：0.3-0.6mm",
-          "value": ""
-        },
-        {
-          "label": "Vibrator power ：0.55kW",
-          "value": ""
-        },
-        {
-          "label": "Load ：100kg",
-          "value": ""
-        },
-        {
-          "label": "Weight：35kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P096",
-      "name": "Concrete Vibrator",
-      "model": "HZJ-0.8",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/HZJ-0.8.png",
-      "image": "myImages/HZJ-0.8-Image.png",
-      "description": "This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.",
-      "features": [],
-      "standards": [
-        "EN 12390-2",
-        "BS 1881:108"
-      ],
-      "specifications": [
-        {
-          "label": "Table size：800×800mm",
-          "value": ""
-        },
-        {
-          "label": "Vibration frequency ：2860 point/min",
-          "value": ""
-        },
-        {
-          "label": "Vibration amplitude：0.3-0.6mm",
-          "value": ""
-        },
-        {
-          "label": "Vibrator power ：1.1kW",
-          "value": ""
-        },
-        {
-          "label": "Load ：150kg",
-          "value": ""
-        },
-        {
-          "label": "Weight：70kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P097",
-      "name": "Concrete Vibrator",
-      "model": "HZJ-1",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/HZJ-1.png",
-      "image": "myImages/HZJ-1-Image.png",
-      "description": "This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.",
-      "features": [],
-      "standards": [
-        "EN 12390-2",
-        "BS 1881:108"
-      ],
-      "specifications": [
-        {
-          "label": "Table size：1000×1000mm",
-          "value": ""
-        },
-        {
-          "label": "Vibration frequency ：2860 point/min",
-          "value": ""
-        },
-        {
-          "label": "Vibration amplitude：0.3-0.6mm",
-          "value": ""
-        },
-        {
-          "label": "Vibrator power ：1.5kW",
-          "value": ""
-        },
-        {
-          "label": "Load ：200kg",
-          "value": ""
-        },
-        {
-          "label": "Weight：100kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P098",
-      "name": "Single Shaft Concrete Mixer",
-      "model": "SJD-30",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/SJD-30.png",
-      "image": "myImages/SJD-30-Image.png",
-      "description": "This machine is suitable for construction scientific research units and construction companies and concrete component units. It can mix ordinary concrete and lightweight concrete, and can also be used in other industries to stir with different materials.",
-      "features": [],
-      "standards": [
-        "ASTM C192/C192M-02"
-      ],
-      "specifications": [
-        {
-          "label": "Wall thickness：6mm",
-          "value": ""
-        },
-        {
-          "label": "Feed capacity：48L",
-          "value": ""
-        },
-        {
-          "label": "Discharging capacity：30L",
-          "value": ""
-        },
-        {
-          "label": "Maximum discharge capacity ：33L",
-          "value": ""
-        },
-        {
-          "label": "Mixing time ：≤45s",
-          "value": ""
-        },
-        {
-          "label": "Stirring axis speed ：45r/min",
-          "value": ""
-        },
-        {
-          "label": "Electric power ：1.5kW",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC380V±10%",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：1130×400×900mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：160kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P099",
-      "name": "Single Shaft Concrete Mixer",
-      "model": "SJD-60",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/SJD-60.png",
-      "image": "myImages/SJD-60-Image.png",
-      "description": "This machine is suitable for construction scientific research units and construction companies and concrete component units. It can mix ordinary concrete and lightweight concrete, and can also be used in other industries to stir with different materials.",
-      "features": [],
-      "standards": [
-        "ASTM C192/C192M-02"
-      ],
-      "specifications": [
-        {
-          "label": "Wall thickness：6mm",
-          "value": ""
-        },
-        {
-          "label": "Feed capacity：96L",
-          "value": ""
-        },
-        {
-          "label": "Discharging capacity：60L",
-          "value": ""
-        },
-        {
-          "label": "Maximum discharge capacity ：66L",
-          "value": ""
-        },
-        {
-          "label": "Mixing time ：≤45s",
-          "value": ""
-        },
-        {
-          "label": "Stirring axis speed ：45r/min",
-          "value": ""
-        },
-        {
-          "label": "Electric power ：2.2kW",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC380V±10%",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：1520×530×1060mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：220kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P100",
-      "name": "Chloride Ion Fast Content Analyzer",
-      "model": "LDCL-B",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDCL-B.png",
-      "image": "myImages/LDCL-B-Image.png",
-      "description": "This product quickly determines the water-soluble chloride ion content of concrete, sand, gravel, cement, mixing water and other inorganic materials through the professional software and chemical anti-jamming reagents equipped.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Measurement range：50～999.99mV",
-          "value": ""
-        },
-        {
-          "label": "Electrode configuration：domestic 2 electrodes",
-          "value": ""
-        },
-        {
-          "label": "Electrical measurement range：1×10-2～5×10-5mol/L",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P101",
-      "name": "Concrete Pressure Secretion Instrument",
-      "model": "SY-2",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/SY-2.png",
-      "image": "myImages/SY-2-Image.png",
-      "description": "This device is used for concrete mixture with no more than 40mm compound pressure to be measured. It has the advantages of accurate measurement value, simple operation, small volume, and convenient molding.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "The maximum range of the pressure gauge：6MPa",
-          "value": ""
-        },
-        {
-          "label": "Cylinder inner diameter：125±0.02mm",
-          "value": ""
-        },
-        {
-          "label": "Cylinder body height：200±0.2mm",
-          "value": ""
-        },
-        {
-          "label": "Working piston diameter：125mm",
-          "value": ""
-        },
-        {
-          "label": "Screen aperture：0.335mm (50 mesh)",
-          "value": ""
-        },
-        {
-          "label": "Weight：20kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P102",
-      "name": "Constant Temperature Water Curing Box (vertical)",
-      "model": "HBY-30",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-30（立式）.png",
-      "image": "myImages/HBY-30-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1"
-      ],
-      "specifications": [
-        {
-          "label": "Temperature control：20±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control precision：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Compressor power：240W",
-          "value": ""
-        },
-        {
-          "label": "Heater power：1000W",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Maintenance box size：175×290×65mm (30 pieces)",
-          "value": ""
-        },
-        {
-          "label": "Test block size：40×40×160 mm(180 pieces)",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：800×670×1750mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：148kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P103",
-      "name": "Constant Temperature Water Curing Box (vertical)",
-      "model": "HBY-64",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-64（立式）.png",
-      "image": "myImages/HBY-64-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1"
-      ],
-      "specifications": [
-        {
-          "label": "Temperature control ：20±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control precision ：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Compressor power：240W",
-          "value": ""
-        },
-        {
-          "label": "Heater power：2000W",
-          "value": ""
-        },
-        {
-          "label": "Test block size：40×40×160mm (360 pieces)",
-          "value": ""
-        },
-        {
-          "label": "Maintenance box size：175×290×65mm (60 pieces)",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：1080×850×1880mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：350kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P104",
-      "name": "Constant Temperature Water Curing Box (horizontal)",
-      "model": "HBY-30",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-30（卧式）.png",
-      "image": "myImages/HBY-30-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1"
-      ],
-      "specifications": [
-        {
-          "label": "Temperature control ：20±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control precision ：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Compressor power：500W",
-          "value": ""
-        },
-        {
-          "label": "Heater power：1200W",
-          "value": ""
-        },
-        {
-          "label": "Maintenance box size：140×100×180mm (16 pieces)",
-          "value": ""
-        },
-        {
-          "label": "Test block size：40×40×160mm (96 pieces)",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：920×760×980mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：113kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P105",
-      "name": "constant temperature water curing box (horizontal)",
-      "model": "HBY-60",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-60（卧式）.png",
-      "image": "myImages/HBY-60-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1"
-      ],
-      "specifications": [
-        {
-          "label": "Temperature control ：20±1℃",
-          "value": ""
-        },
-        {
-          "label": "Temperature control precision ：±1℃",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Compressor power：1000W",
-          "value": ""
-        },
-        {
-          "label": "Heater power：2400W",
-          "value": ""
-        },
-        {
-          "label": "Maintenance box size：140×100×180mm（36 pieces）",
-          "value": ""
-        },
-        {
-          "label": "Test block size：40×40×160mm (216 pieces)",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：1760×755×980mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：350kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P106",
-      "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box (Glass door)",
-      "model": "HBY-40B",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-40B（玻璃门）.png",
-      "image": "myImages/HBY-40B-Image.png",
-      "description": "This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1",
-        "196-08",
-        "ISO 679",
-        "ASTM C109",
-        "C511"
-      ],
-      "specifications": [
-        {
-          "label": "Test temperature：20±1℃",
-          "value": ""
-        },
-        {
-          "label": "Control humidity ：≧95%RH",
-          "value": ""
-        },
-        {
-          "label": "Compressor power ：138W",
-          "value": ""
-        },
-        {
-          "label": "Heater power ：800W",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Number of trial molds placed：40×40×160 trial molds, 6 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "150×150×150 mold trial, 3 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "100×100×100 mold trial, 4 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "Studio size：570×550×1000mm",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：980×700×1350mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：110kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P107",
-      "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box(iron door)",
-      "model": "HBY-40B",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-40B（铁门）.png",
-      "image": "myImages/HBY-40B-Image.png",
-      "description": "This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1",
-        "196-08",
-        "ISO 679",
-        "ASTM C109",
-        "C511"
-      ],
-      "specifications": [
-        {
-          "label": "Test temperature：20±1℃",
-          "value": ""
-        },
-        {
-          "label": "Control humidity ：≧95%RH",
-          "value": ""
-        },
-        {
-          "label": "Compressor power ：138W",
-          "value": ""
-        },
-        {
-          "label": "Heater power ：800W",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Number of trial molds placed：40×40×160 trial molds, 6 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "150×150×150 mold trial, 3 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "100×100×100 mold trial, 4 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "Studio size：590×570×1180mm",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：1000×700×1530mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：122kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P108",
-      "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box",
-      "model": "HBY-60B",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-60B.png",
-      "image": "myImages/HBY-60B-Image.png",
-      "description": "This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1",
-        "196-08",
-        "ISO 679",
-        "ASTM C109",
-        "C511"
-      ],
-      "specifications": [
-        {
-          "label": "Test temperature：20±1℃",
-          "value": ""
-        },
-        {
-          "label": "Control humidity ：≧95%RH",
-          "value": ""
-        },
-        {
-          "label": "Compressor power ：500W",
-          "value": ""
-        },
-        {
-          "label": "Heater power ：800W",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Number of trial molds placed：40×40×160 trial molds, 6 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "150×150×150 mold trial, 3 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "100×100×100 mold trial, 4 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "Studio size：1180×550×1400mm",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：1650×680×1750mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：220kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P109",
-      "name": "Mixed Mortar Specimen Standard Curing Box",
-      "model": "HBY-30",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-30.png",
-      "image": "myImages/HBY-30-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1",
-        "196-08",
-        "ISO 679",
-        "ASTM C109",
-        "C511"
-      ],
-      "specifications": [
-        {
-          "label": "Temperature controller accuracy   20±1℃",
-          "value": ""
-        },
-        {
-          "label": "Control humidity  60-80%RH",
-          "value": ""
-        },
-        {
-          "label": "Voltage AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Compressor power  138W",
-          "value": ""
-        },
-        {
-          "label": "Heater power  500W",
-          "value": ""
-        },
-        {
-          "label": "Studio size 580×500×1180mm",
-          "value": ""
-        },
-        {
-          "label": "The internal specimen rack is equally divided into 6 grid sizes  580×490×180mm",
-          "value": ""
-        },
-        {
-          "label": "Dimensions 1000×700×1530 mm",
-          "value": ""
-        },
-        {
-          "label": "Weight 130kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P110",
-      "name": "Cement Mortar Mixer",
-      "model": "JJ-20F",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/JJ-20F.png",
-      "image": "myImages/JJ-20F-Image.png",
-      "description": "The instrument is mainly used to prepare cement mortar strength test samples for mixing.",
-      "features": [],
-      "standards": [
-        "EN 196-1",
-        "EN 196-3",
-        "EN 413-2",
-        "EN 459-2",
-        "EN 480-1",
-        "EN ISO 679",
-        "ASTM C305M",
-        "AASHTO T162"
-      ],
-      "specifications": [
-        {
-          "label": "Rotation Low speed：140 士 2 r/min",
-          "value": ""
-        },
-        {
-          "label": "Revolution Low speed： 62 士 2 r/min",
-          "value": ""
-        },
-        {
-          "label": "Rotation High speed：285 士 3 r/min",
-          "value": ""
-        },
-        {
-          "label": "Revolution High speed：125 士 3 r/min",
-          "value": ""
-        },
-        {
-          "label": "The movement track of the mixing blade in the mixing pot is the same as ISO679",
-          "value": ""
-        },
-        {
-          "label": "Width of mixing blade",
-          "value": "135mm"
-        },
-        {
-          "label": "Capacity",
-          "value": "5L"
-        },
-        {
-          "label": "The wall thickness",
-          "value": "1.5mm"
-        },
-        {
-          "label": "The working gap between the mixing blade and the mixing pot",
-          "value": "3mm ±1mm"
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Outer dimension (length×width×height)",
-          "value": "630×400×660mm"
-        },
-        {
-          "label": "Weight",
-          "value": "80kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P111",
-      "name": "Cement Mortar Vibrating Platform",
-      "model": "ZT-20F",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/ZT-20F.png",
-      "image": "myImages/ZT-20F-Image.png",
-      "description": "This instrument is suitable for preparing samples for strength testing of cement mortar.",
-      "features": [],
-      "standards": [
-        "EN 196-1",
-        "EN ISO 679"
-      ],
-      "specifications": [
-        {
-          "label": "The total mass of the table plate(including the arm,the die frame,etc.)：13.75±0.25kg",
-          "value": ""
-        },
-        {
-          "label": "The total weight of vibrating part：20±0.5kg",
-          "value": ""
-        },
-        {
-          "label": "Amplitude (falling distance)：15±0.3mm",
-          "value": ""
-        },
-        {
-          "label": "The time of 60 vibrations：60±2s",
-          "value": ""
-        },
-        {
-          "label": "Motor speed：60rpm",
-          "value": ""
-        },
-        {
-          "label": "Motor power：40W",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V",
-          "value": ""
-        },
-        {
-          "label": "Overall Dimensions：1152×482×510mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：87kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P112",
-      "name": "Electric Flexural Testing Machine (pointer type)",
-      "model": "DKZ-5000",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/DKZ-5000.png",
-      "image": "myImages/DKZ-5000-Image.png",
-      "description": "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Display method：Pointer",
-          "value": ""
-        },
-        {
-          "label": "Double lever output ratio (lower beam to arm distance ratio) (maximum)：50：1",
-          "value": ""
-        },
-        {
-          "label": "Maximum output：Double Leverage 5000N",
-          "value": ""
-        },
-        {
-          "label": "Loading speed：50N/s",
-          "value": ""
-        },
-        {
-          "label": "Loading roller and supporting roller diameter：Φ10mm",
-          "value": ""
-        },
-        {
-          "label": "Support roller pitch：100mm",
-          "value": ""
-        },
-        {
-          "label": "Lay frame spacing：46mm",
-          "value": ""
-        },
-        {
-          "label": "Lever inclination：>1/50°",
-          "value": ""
-        },
-        {
-          "label": "Dimensions (length x width x height)：1080×220×780mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：130kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P113",
-      "name": "Electric Flexural Testing Machine (pointer type)",
-      "model": "DKZ-6000",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/DKZ-6000（指针）.png",
-      "image": "myImages/DKZ-6000-Image.png",
-      "description": "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Display method：Pointer",
-          "value": ""
-        },
-        {
-          "label": "Double lever output ratio (lower beam to arm distance ratio) (maximum)：60：1",
-          "value": ""
-        },
-        {
-          "label": "Maximum output：Double Leverage 6000N",
-          "value": ""
-        },
-        {
-          "label": "Loading speed：50N/s",
-          "value": ""
-        },
-        {
-          "label": "Loading roller and supporting roller diameter：Φ10mm",
-          "value": ""
-        },
-        {
-          "label": "Support roller pitch：100mm",
-          "value": ""
-        },
-        {
-          "label": "Lay frame spacing：46mm",
-          "value": ""
-        },
-        {
-          "label": "Lever inclination：>1/50°",
-          "value": ""
-        },
-        {
-          "label": "Dimensions (length x width x height)：1180×220×800mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：135kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P114",
-      "name": "Electric Flexural Testing Machine (digital display)",
-      "model": "DKZ-6000",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/DKZ-6000（数显）.png",
-      "image": "myImages/DKZ-6000-Image.png",
-      "description": "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Maximum bending resistance：6000N",
-          "value": ""
-        },
-        {
-          "label": "Loading roller and supporting roller diameter：Φ10mm",
-          "value": ""
-        },
-        {
-          "label": "Support roller distance：100mm",
-          "value": ""
-        },
-        {
-          "label": "Lay frame spacing ：46mm",
-          "value": ""
-        },
-        {
-          "label": "Lever inclination ：>1/50°",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：1180×220×800mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：135kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P115",
-      "name": "Cement Mortar Flow Table",
-      "model": "NLD-3F",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/NLD-3F.png",
-      "image": "myImages/NLD-3F-Image.png",
-      "description": "It is mainly used for fluidity test of cement mortar sand.",
-      "features": [],
-      "standards": [
-        "EN 459-2",
-        "EN 1015-3",
-        "EN 13279-2",
-        "ASTM C230",
-        "BS 4551-1"
-      ],
-      "specifications": [
-        {
-          "label": "The total weight of the vibrating part：4.35±0.15kg",
-          "value": ""
-        },
-        {
-          "label": "Vibration fall distance：10±0.2mm(For ASTM C230, 12.7±0.2)",
-          "value": ""
-        },
-        {
-          "label": "Vibration frequency ：1Hz",
-          "value": ""
-        },
-        {
-          "label": "Vibration times：25 times",
-          "value": ""
-        },
-        {
-          "label": "Desktop parameters：Cast steel, hard chrome plated working surface",
-          "value": ""
-        },
-        {
-          "label": "Diameter ：Φ300±1mm(For ASTM C230, Φ254±1)",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：400×500×370mm",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Weight：25kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P116",
-      "name": "Cement Fineness Air Jet Sieving Analyzer (ordinary)",
-      "model": "FSY-150",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/FSY-150（普通）.png",
-      "image": "myImages/FSY-150-Image.png",
-      "description": "This equipment is widely used in cement fineness inspection and cement production control. It can also be used in powder fineness testing in other industries. It is a commonly used instrument in various cement quality inspection stations, cement factories and other units.",
-      "features": [],
-      "standards": [
-        "EN 933-10",
-        "ASTM C1891"
-      ],
-      "specifications": [
-        {
-          "label": "Sieve analysis test fineness：1~0.030mm",
-          "value": ""
-        },
-        {
-          "label": "Screening time automatic：0～999s (adjust)",
-          "value": ""
-        },
-        {
-          "label": "Working negative pressure：-4000~6000Pa",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Feeding ：10～25g",
-          "value": ""
-        },
-        {
-          "label": "Accessories：0.045 sieve, 0.08 sieve (optional)",
-          "value": ""
-        },
-        {
-          "label": "Noise：≤75dB",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：450×380×830mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：30kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P117",
-      "name": "Cement Fineness Air Jet Sieving Analyzer\n(environmental protection)",
-      "model": "FSY-150",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/FSY-150（环保）.png",
-      "image": "myImages/FSY-150-Image.png",
-      "description": "This equipment is widely used in cement fineness inspection and cement production control. It can also be used in powder fineness testing in other industries. It is a commonly used instrument in various cement quality inspection stations, cement factories and other units.",
-      "features": [],
-      "standards": [
-        "EN 933-10",
-        "ASTM C1891"
-      ],
-      "specifications": [
-        {
-          "label": "Sieve analysis test fineness：1~0.030mm",
-          "value": ""
-        },
-        {
-          "label": "Screening time automatic：0～999s (adjust)",
-          "value": ""
-        },
-        {
-          "label": "Working negative pressure：-4000~6000Pa",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Feeding ：10～25g",
-          "value": ""
-        },
-        {
-          "label": "Accessories：0.045 sieve, 0.08 sieve (optional)",
-          "value": ""
-        },
-        {
-          "label": "Noise：≤75dB",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：450×380×830mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：30kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P118",
-      "name": "Boiling Box",
-      "model": "FZ-31A",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/FZ-31A.png",
-      "image": "myImages/FZ-31A-Image.png",
-      "description": "This equipment is one of the commonly used equipment in cement production, construction, scientific research and testing units. \nThe equipment is made of stainless steel.",
-      "features": [],
-      "standards": [
-        "EN 196-3",
-        "UNE 80102",
-        "EN ISO 9597",
-        "BS 6463",
-        "NF P15-432"
-      ],
-      "specifications": [
-        {
-          "label": "Maximum boiling temperature：100℃",
-          "value": ""
-        },
-        {
-          "label": "Inner tank volume：31L",
-          "value": ""
-        },
-        {
-          "label": "Heating time：30±5min(20℃ to 100℃)",
-          "value": ""
-        },
-        {
-          "label": "Heating time control：0～3.5h",
-          "value": ""
-        },
-        {
-          "label": "Tubular heater power ：4kW",
-          "value": ""
-        },
-        {
-          "label": "Voltage：AC220V±10%",
-          "value": ""
-        },
-        {
-          "label": "Studio size：410×240×310mm",
-          "value": ""
-        },
-        {
-          "label": "Dimensions：490×290×410mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：25kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P119",
-      "name": "Automatic Specific Surface Area Meter (Blaine Method)",
-      "model": "FBT-9",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/FBT-9.png",
-      "image": "myImages/FBT-9-Image.png",
-      "description": "This product is suitable for measuring the surface area per gram of solid material.",
-      "features": [],
-      "standards": [
-        "EN 196-6",
-        "comparable to: ASTM C204",
-        "AASHTO T153",
-        "BS 4359:2"
-      ],
-      "specifications": [
-        {
-          "label": "Voltage：200V±10%",
-          "value": ""
-        },
-        {
-          "label": "Timing range：0.1s<T<999.9s",
-          "value": ""
-        },
-        {
-          "label": "Timing accuracy：<0.2s",
-          "value": ""
-        },
-        {
-          "label": "Measurement accuracy：＜1%",
-          "value": ""
-        },
-        {
-          "label": "Temperature range：8~34℃",
-          "value": ""
-        },
-        {
-          "label": "Breathable cylinder inner cavity diameter：Φ12.7mm",
-          "value": ""
-        },
-        {
-          "label": "Sample height of breathable cylinder inner cavity：15mm",
-          "value": ""
-        },
-        {
-          "label": "Number of holes in perforated plate：35",
-          "value": ""
-        },
-        {
-          "label": "Perforated plate hole diameter：Φ1.0mm",
-          "value": ""
-        },
-        {
-          "label": "Perforated plate thickness：1mm",
-          "value": ""
-        },
-        {
-          "label": "Outer dimension ：430×500×280mm",
-          "value": ""
-        },
-        {
-          "label": "Weight：8kg",
-          "value": ""
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
       "id": "P120",
       "name": "Coarse-grained Soil Vertical Seepage Deformation Meter (slope type)",
       "model": "LDSL-III",
@@ -9074,44 +6179,44 @@ window.ludaData = {
       "standards": [],
       "specifications": [
         {
-          "label": "Test tube specification ：Φ300×600mm",
-          "value": ""
+          "label": "Test tube specification",
+          "value": "Φ300×600mm"
         },
         {
-          "label": "Test tube height：600mm",
-          "value": ""
+          "label": "Test tube height",
+          "value": "600mm"
         },
         {
-          "label": "Gauge height：3000mm",
-          "value": ""
+          "label": "Gauge height",
+          "value": "3000mm"
         },
         {
-          "label": "Pressure measuring hole spacing ：250mm",
-          "value": ""
+          "label": "Pressure measuring hole spacing ",
+          "value": "250mm"
         },
         {
-          "label": "Loading equipment：Leverage pressure",
-          "value": ""
+          "label": "Loading equipment",
+          "value": "Leverage pressure"
         },
         {
-          "label": "Water supply bucket：140×140×140mm",
-          "value": ""
+          "label": "Water supply bucket",
+          "value": "140×140×140mm"
         },
         {
-          "label": "Water storage bucket：200×400×450mm",
-          "value": ""
+          "label": "Water storage bucket",
+          "value": "200×400×450mm"
         },
         {
-          "label": "Voltage：AC 220V",
-          "value": ""
+          "label": "Voltage",
+          "value": "AC 220V"
         },
         {
-          "label": "Dimension：1400×600×1900mm",
-          "value": ""
+          "label": "Dimension",
+          "value": "1400×600×1900mm"
         },
         {
-          "label": "Weight：250kg",
-          "value": ""
+          "label": "Weight",
+          "value": "250kg"
         }
       ],
       "hasManual": false,
@@ -9131,52 +6236,52 @@ window.ludaData = {
       "standards": [],
       "specifications": [
         {
-          "label": "Water supply tank volume：80L",
-          "value": ""
+          "label": "Water supply tank volume",
+          "value": "80L"
         },
         {
-          "label": "Inner diameter of metal cylinder ：300mm",
-          "value": ""
+          "label": "Inner diameter of metal cylinder ",
+          "value": "300mm"
         },
         {
-          "label": "Metal cylinder height：500mm",
-          "value": ""
+          "label": "Metal cylinder height",
+          "value": "500mm"
         },
         {
-          "label": "Metal cylinder wall thickness：10mm",
-          "value": ""
+          "label": "Metal cylinder wall thickness",
+          "value": "10mm"
         },
         {
-          "label": "Number of pressure measuring tubes：5 PCS",
-          "value": ""
+          "label": "Number of pressure measuring tubes",
+          "value": "5 PCS"
         },
         {
-          "label": "Inner diameter of pressure measuring tube：6mm",
-          "value": ""
+          "label": "Inner diameter of pressure measuring tube",
+          "value": "6mm"
         },
         {
-          "label": "Pressure measuring tube scale division value：1mm",
-          "value": ""
+          "label": "Pressure measuring tube scale division value",
+          "value": "1mm"
         },
         {
-          "label": "Pressure measuring hole spacing ：50mm",
-          "value": ""
+          "label": "Pressure measuring hole spacing ",
+          "value": "50mm"
         },
         {
-          "label": "Seepage hole diameter：16mm",
-          "value": ""
+          "label": "Seepage hole diameter",
+          "value": "16mm"
         },
         {
-          "label": "Inner diameter of overflow pipe：16mm",
-          "value": ""
+          "label": "Inner diameter of overflow pipe",
+          "value": "16mm"
         },
         {
-          "label": "Permeable plate aperture：3.5mm",
-          "value": ""
+          "label": "Permeable plate aperture",
+          "value": "3.5mm"
         },
         {
-          "label": "Weight：150kg",
-          "value": ""
+          "label": "Weight",
+          "value": "150kg"
         }
       ],
       "hasManual": false,
@@ -9196,48 +6301,44 @@ window.ludaData = {
       "standards": [],
       "specifications": [
         {
-          "label": "Vibration motor power 4kW",
-          "value": ""
+          "label": "Vibration motor power",
+          "value": "4kW"
         },
         {
-          "label": "Lifting motor power 0.75kW",
-          "value": ""
+          "label": "Lifting motor power",
+          "value": "0.75kW"
         },
         {
-          "label": "Static pressure 1900 ~3100N",
-          "value": ""
+          "label": "Static pressure",
+          "value": "1900~3100N (recommended to 2500)"
         },
         {
-          "label": "(recommended to 2500)",
-          "value": ""
+          "label": "Exciting force ",
+          "value": "Adjust from 6800 to 11000N"
         },
         {
-          "label": "Exciting force Adjust from 6800 to 11000N",
-          "value": ""
+          "label": "Vibration frequency",
+          "value": "28~30Hz"
         },
         {
-          "label": "Vibration frequency 28~30Hz",
-          "value": ""
+          "label": "Forming trial mold",
+          "value": "3 PCS"
         },
         {
-          "label": "Forming trial mold 3 PCS",
-          "value": ""
+          "label": "Voltage",
+          "value": "AC380V±10%"
         },
         {
-          "label": "Voltage AC380V±10%",
-          "value": ""
+          "label": "Dimensions",
+          "value": "1820×950×2170mm"
         },
         {
-          "label": "Dimensions 1820×950×2170mm",
-          "value": ""
+          "label": "Controller size",
+          "value": "550×345×940mm"
         },
         {
-          "label": "Controller size 550×345×940mm",
-          "value": ""
-        },
-        {
-          "label": "Weight 1100kg",
-          "value": ""
+          "label": "Weight",
+          "value": "1100kg"
         }
       ],
       "hasManual": false,
@@ -9260,41 +6361,33 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Workbench motor power：0.55kW",
-          "value": ""
+          "label": "Workbench motor power",
+          "value": "0.55kW"
         },
         {
-          "label": "Speed：1450rpm",
-          "value": ""
+          "label": "Speed",
+          "value": "1450rpm"
         },
         {
-          "label": "Grinding power head power：1.1kW,2units",
-          "value": ""
+          "label": "Grinding power head power",
+          "value": "1.1kW,2units"
         },
         {
-          "label": "Speed：2750rpm",
-          "value": ""
+          "label": "Speed",
+          "value": "2750rpm"
         },
         {
-          "label": "Grinding wheel diameter：Φ200mm",
-          "value": ""
+          "label": "Grinding wheel diameter",
+          "value": "Φ200mm"
         },
         {
-          "label": "Grindable sample specifications(normally factory-equipped with a fixture for grinding 50-150mm)：A",
-          "value": "Block 50×50×50~150×150×150mm"
+          "label": "Grindable sample specifications(normally factory-equipped with a fixture for grinding 50-150mm)",
+          "value": "a. Block 50×50×50~150×150×150mm; b. Cylinder 50~150mm",
         },
         {
-          "label": "B",
-          "value": "Cylinder 50~150mm"
+          "label": "Specimen precision",
+          "value": "a. Flatness Tolerance±0.05mm within 50mm; b. Smoothness (according to machining roughness standard) Ra3.2",
         },
-        {
-          "label": "Specimen precision：A",
-          "value": "Flatness Tolerance±0.05mm within 50mm"
-        },
-        {
-          "label": "B",
-          "value": "Smoothness (according to machining roughness standard) Ra3.2"
-        }
       ],
       "hasManual": false,
       "hasVideo": false,
@@ -9315,44 +6408,44 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Cutting range：DQ-1 double knives (blade diameter 500mm) can cut cylindrical cores with a diameter of 18mm~200mm, and original rock samples of 180mm×180mm×350mm. For refractory materials such as sandstone,high-magnesia bricks, and corundum bricks, the cutting hardness is below grade 9.The distance between the two blades is adjustable, respectively 25, 50, 75, 100, 125mm.",
-          "value": ""
+          "label": "Cutting range",
+          "value": "DQ-1 double knives (blade diameter 500mm) can cut cylindrical cores with a diameter of 18mm~200mm, and original rock samples of 180mm×180mm×350mm. For refractory materials such as sandstone,high-magnesia bricks, and corundum bricks, the cutting hardness is below grade 9.The distance between the two blades is adjustable, respectively 25, 50, 75, 100, 125mm.",
         },
         {
-          "label": "The saw blade of the automatic dual-knife rock core sample dual-purpose machine：Inner diameter",
-          "value": "5cm,Outer diameter:50cm"
+          "label": "The saw blade of the automatic dual-knife rock core sample dual-purpose machine",
+          "value": "Inner diameter 5cm, Outer diameter:50cm"
         },
         {
-          "label": "JRg600 diamond ：Φ600×5×50mm",
-          "value": ""
+          "label": "JRg600 diamond ",
+          "value": "Φ600×5×50mm"
         },
         {
-          "label": "A set of attachments：2cm, 3cm, 5cm each",
-          "value": ""
+          "label": "A set of attachments",
+          "value": "2cm, 3cm, 5cm each"
         },
         {
-          "label": "Cutting line speed：40mm/s",
-          "value": ""
+          "label": "Cutting line speed",
+          "value": "40mm/s"
         },
         {
-          "label": "Main motor power：4kW, 1420 rpm",
-          "value": ""
+          "label": "Main motor power",
+          "value": "4kW, 1420 rpm"
         },
         {
-          "label": "Longitudinal motor power ：0.75kW",
-          "value": ""
+          "label": "Longitudinal motor power ",
+          "value": "0.75kW"
         },
         {
-          "label": "Dimensions：1500×830×1350mm",
-          "value": ""
+          "label": "Dimensions",
+          "value": "1500×830×1350mm"
         },
         {
-          "label": "JRg60Q diamond cutter ：Φ500×4.5×50mm",
-          "value": ""
+          "label": "JRg60Q diamond cutter ",
+          "value": "Φ500×4.5×50mm"
         },
         {
-          "label": "Weight：700kg",
-          "value": ""
+          "label": "Weight",
+          "value": "700kg"
         }
       ],
       "hasManual": false,
@@ -9380,40 +6473,40 @@ window.ludaData = {
       ],
       "specifications": [
         {
-          "label": "Hammer weight：Heavy compaction",
-          "value": "4.5kg,Light compaction: 2.5kg"
+          "label": "Hammer weight",
+          "value": "Heavy compaction 4.5kg, Light compaction: 2.5kg"
         },
         {
-          "label": "Hammer down high：Heavy compaction",
-          "value": "457mm,Light compaction: 305mm"
+          "label": "Hammer down high",
+          "value": "Heavy compaction 457mm,Light compaction: 305mm"
         },
         {
-          "label": "Hammer face diameter：Φ50mm",
-          "value": ""
+          "label": "Hammer face diameter",
+          "value": "Φ50mm"
         },
         {
-          "label": "Test tube specification：either Φ152×Φ100 or Φ152×Φ102",
-          "value": ""
+          "label": "Test tube specification",
+          "value": "either Φ152×Φ100 or Φ152×Φ102"
         },
         {
-          "label": "Hammer speed：30times/min",
-          "value": ""
+          "label": "Hammer speed",
+          "value": "30times/min"
         },
         {
-          "label": "Set the number of hammering：Between 0~99 times",
-          "value": ""
+          "label": "Set the number of hammering",
+          "value": "Between 0~99 times"
         },
         {
-          "label": "Motor parameters：1440r/min",
-          "value": ""
+          "label": "Motor parameters",
+          "value": "1440r/min"
         },
         {
-          "label": "Motor Power：250W",
-          "value": ""
+          "label": "Motor Power",
+          "value": "250W"
         },
         {
-          "label": "Voltage：AC380V±10%",
-          "value": ""
+          "label": "Voltage",
+          "value": "AC380V±10%"
         }
       ],
       "hasManual": false,
@@ -9628,19 +6721,11 @@ window.ludaData = {
         },
         {
           "label": "Cone weight",
-          "value": "100/76g"
-        },
-        {
-          "label": "(Can be customized upon request)",
-          "value": ""
+          "value": "100/76g (Can be customized upon request)"
         },
         {
           "label": "Cone angle",
-          "value": "30±2°"
-        },
-        {
-          "label": "(Can be customized upon request)",
-          "value": ""
+          "value": "30±2° (Can be customized upon request)"
         },
         {
           "label": "Measuring time",
@@ -9879,32 +6964,28 @@ window.ludaData = {
       "standards": [],
       "specifications": [
         {
-          "label": "Temperature range：-40°C~+150°C",
-          "value": ""
+          "label": "Temperature range",
+          "value": "-40°C~+150°C"
         },
         {
-          "label": "(temperature at the time of purchase)",
-          "value": ""
+          "label": "Humidity range",
+          "value": "20%~98%RH"
         },
         {
-          "label": "Humidity range：20%~98%RH",
-          "value": ""
+          "label": "Temperature and humidity control accuracy",
+          "value": "±1.0°C; ±2%RH"
         },
         {
-          "label": "Temperature and humidity control accuracy：±1.0°C; ±2%RH",
-          "value": ""
+          "label": "Inner box size(W×D×H)",
+          "value": "400×400×550mm"
         },
         {
-          "label": "Inner box size(W×D×H)：400×400×550mm",
-          "value": ""
+          "label": "Power supply",
+          "value": "220V"
         },
         {
-          "label": "Power supply：220V",
-          "value": ""
-        },
-        {
-          "label": "Temperature and humidity sub-surface uniformity：±2.0℃; ±3.0%RH",
-          "value": ""
+          "label": "Temperature and humidity sub-surface uniformity",
+          "value": "±2.0℃; ±3.0%RH"
         },
         {
           "label": "*Note",
@@ -10795,36 +7876,2648 @@ window.ludaData = {
       "standards": [],
       "specifications": [
         {
-          "label": "Control temperature  Room temperature ～200℃",
+          "label": "Control temperature",
+          "value": "Room temperature ～200℃"
+        },
+        {
+          "label": "Temperature controller accuracy",
+          "value": "±1℃"
+        },
+        {
+          "label": "Turntable speed",
+          "value": "11～12r/min"
+        },
+        {
+          "label": "Heating power",
+          "value": "2200W"
+        },
+        {
+          "label": "Power supply voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Working chamber size",
+          "value": "450×450×500mm"
+        },
+        {
+          "label": "Overall dimension",
+          "value": "780×660×1160mm"
+        },
+        {
+          "label": "Weight",
+          "value": "100kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C001",
+      "name": "Concrete Fast Freeze-thaw Chamber",
+      "model": "TDRF-1",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/TDRF-1（连体）.png",
+      "image": "/assets/images/TDRF-1-Image.png",
+      "description": "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
+      "features": [],
+      "standards": [
+        "ASTM C666",
+        "AASHTO T161",
+        "PROCEDURE A"
+      ],
+      "specifications": [
+        {
+          "label": "Condenser cooling way",
+          "value": "Air-cooling"
+        },
+        {
+          "label": "Number of test pieces",
+          "value": "28 PCS"
+        },
+        {
+          "label": "Specimen size",
+          "value": "100×100×400mm,the temperature measuring parts are of the same size, and there are temperature measuring holes in the middle."
+        },
+        {
+          "label": "Freezing end time/test piece center temperature",
+          "value": "1.5～2.5h/-17±2℃（New standard -18±2℃）"
+        },
+        {
+          "label": "Melting end time/test piece center temperature",
+          "value": "1.0～2.0h/8±2℃（New standard 5±2℃）"
+        },
+        {
+          "label": "Freeze-thaw cycle",
+          "value": "2.5～4h,the melting time is not less than 1/4 freeze-thaw cycle."
+        },
+        {
+          "label": "The temperature difference between the center and the surface of the specimen",
+          "value": "＜28℃"
+        },
+        {
+          "label": "Number of cycles",
+          "value": "The standard is 300 times, and the number of cycles can be adjusted."
+        },
+        {
+          "label": "Temperature recorder",
+          "value": "LCD touch screen controller"
+        },
+        {
+          "label": "Freeze-thaw cycle medium",
+          "value": "-45°C antifreeze (1:1 mixed with water)"
+        },
+        {
+          "label": "Amount of freeze-thaw cycle media charged",
+          "value": "90kg"
+        },
+        {
+          "label": "Refrigerator compressor",
+          "value": "Complete inlet closure 8.5HP"
+        },
+        {
+          "label": "Specimen barrel size",
+          "value": "115×115×490mm"
+        },
+        {
+          "label": "Heating power",
+          "value": "9kW"
+        },
+        {
+          "label": "Maximum operating power",
+          "value": "11kW"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC380V±10%"
+        },
+        {
+          "label": "Overall dimensions",
+          "value": "1870×1370×1000mm"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C002",
+      "name": "Concrete Fast Freeze-thaw Chamber",
+      "model": "TDRF-2",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/TDRF-2（连体）.png",
+      "image": "/assets/images/TDRF-2-Image.png",
+      "description": "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
+      "features": [],
+      "standards": [
+        "ASTM C666",
+        "AASHTO T161",
+        "PROCEDURE A"
+      ],
+      "specifications": [
+        {
+          "label": "Condenser cooling way",
+          "value": "Air-cooling"
+        },
+        {
+          "label": "Number of test pieces",
+          "value": "16 PCS"
+        },
+        {
+          "label": "Specimen size",
+          "value": "100×100×400mm,the temperature measuring parts are of the same size, and there are temperature measuring holes in the middle."
+        },
+        {
+          "label": "Freezing end time/test piece center temperature",
+          "value": "1.5～2.5h/-17±2℃（New standard -18±2℃）"
+        },
+        {
+          "label": "Melting end time/test piece center temperature",
+          "value": "1.0～2.0h/8±2℃（New standard 5±2℃）"
+        },
+        {
+          "label": "Freeze-thaw cycle",
+          "value": "2.5～4h,the melting time is not less than 1/4 freeze-thaw cycle."
+        },
+        {
+          "label": "The temperature difference between the center and the surface of the specimen",
+          "value": "＜28℃"
+        },
+        {
+          "label": "Number of cycles",
+          "value": "The standard is 300 times, and the number of cycles can be adjusted."
+        },
+        {
+          "label": "Temperature recorder",
+          "value": "LCD touch screen controller"
+        },
+        {
+          "label": "Freeze-thaw cycle medium",
+          "value": "-45°C antifreeze (1:1 mixed with water)"
+        },
+        {
+          "label": "Amount of freeze-thaw cycle media charged",
+          "value": "60kg"
+        },
+        {
+          "label": "Refrigerator compressor",
+          "value": "Complete inlet closure 5HP"
+        },
+        {
+          "label": "Specimen barrel size",
+          "value": "115×115×490mm"
+        },
+        {
+          "label": "Heating power",
+          "value": "6kW"
+        },
+        {
+          "label": "Maximum operating power",
+          "value": "8kW"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC380V±10%"
+        },
+        {
+          "label": "Overall dimensions",
+          "value": "1870×1000×1000mm"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C003",
+      "name": "Concrete Fast Freeze-thaw Chamber",
+      "model": "TDRF-3",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/TDRF-3（连体）.png",
+      "image": "/assets/images/TDRF-3-Image.png",
+      "description": "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
+      "features": [],
+      "standards": [
+        "ASTM C666",
+        "AASHTO T161",
+        "PROCEDURE A"
+      ],
+      "specifications": [
+        {
+          "label": "Condenser cooling way",
+          "value": "Air-cooling"
+        },
+        {
+          "label": "Number of test pieces",
+          "value": "10 PCS"
+        },
+        {
+          "label": "Specimen size",
+          "value": "100×100×400mm,the temperature measuring parts are of the same size, and there are temperature measuring holes in the middle."
+        },
+        {
+          "label": "Freezing end time/test piece center temperature",
+          "value": "1.5～2.5h/-17±2℃（New standard -18±2℃）"
+        },
+        {
+          "label": "Melting end time/test piece center temperature",
+          "value": "1.0～2.0h/8±2℃（New standard 5±2℃）"
+        },
+        {
+          "label": "Freeze-thaw cycle",
+          "value": "2.5～4h,the melting time is not less than 1/4 freeze-thaw cycle."
+        },
+        {
+          "label": "The temperature difference between the center and the surface of the specimen",
+          "value": "＜28℃"
+        },
+        {
+          "label": "Number of cycles",
+          "value": "The standard is 300 times, and the number of cycles can be adjusted."
+        },
+        {
+          "label": "Temperature recorder",
+          "value": "LCD touch screen controller"
+        },
+        {
+          "label": "Freeze-thaw cycle medium",
+          "value": "-45°C antifreeze (1:1 mixed with water)"
+        },
+        {
+          "label": "Amount of freeze-thaw cycle media charged",
+          "value": "30kg"
+        },
+        {
+          "label": "Refrigerator compressor",
+          "value": "Complete inlet closure 3HP"
+        },
+        {
+          "label": "Specimen barrel size",
+          "value": "115×115×490mm"
+        },
+        {
+          "label": "Heating power",
+          "value": "4.5kW"
+        },
+        {
+          "label": "Maximum operating power",
+          "value": "6kW"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC380V±10%"
+        },
+        {
+          "label": "Overall dimensions",
+          "value": "1620×1000×1000mm"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C004",
+      "name": "Concrete Carbonation Test Chambe",
+      "model": "CCB-70A",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/CCB-70A.png",
+      "image": "/assets/images/CCB-70A-Image.png",
+      "description": "Our company participated in the drafting of CCB-70A concrete carbon ization test chamber and designated by the Building Materials Department.This equipment is a special apparatus for carbonation test of concretes.",
+      "features": [],
+      "standards": [
+        "ISO 1920-12"
+      ],
+      "specifications": [
+        {
+          "label": "Temperature control",
+          "value": "20±2℃(adjust)"
+        },
+        {
+          "label": "Temperature control precision",
+          "value": "0.5℃"
+        },
+        {
+          "label": "Humidity control",
+          "value": "70±5%RH (40~70 adjust)"
+        },
+        {
+          "label": "CO2 concentration",
+          "value": "20±3% (0~60,0~100 adjust,two ranges available)"
+        },
+        {
+          "label": "CO2 concentration resolution",
+          "value": "±1%"
+        },
+        {
+          "label": "CO2 concentration uniformity",
+          "value": "≦2%"
+        },
+        {
+          "label": "CO2 concentration precision",
+          "value": "1%"
+        },
+        {
+          "label": "Heating power",
+          "value": "600W"
+        },
+        {
+          "label": "Refrigeration/Dehumidification power",
+          "value": "240W"
+        },
+        {
+          "label": "Humidification power",
+          "value": "1500W"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Studio size",
+          "value": "620×550×1230mm"
+        },
+        {
+          "label": "Overall dimensions",
+          "value": "1100×710×1630mm"
+        },
+        {
+          "label": "Weigh",
+          "value": "200kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C005",
+      "name": "Accelerated Concrete Curing Tank",
+      "model": "LDZY-400",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/LDZY-400.png",
+      "image": "/assets/images/LDZY-400-Image.png",
+      "description": "This product is a common equipment for the steam curing test of concrete specimens.The equipment is made of stainless steel inside and outside, touch screen operation display, automatic control, the test process is simple and convenient.",
+      "features": [],
+      "standards": [
+        "ASTM C684 Method C"
+      ],
+      "specifications": [
+        {
+          "label": "Specimen size with mold",
+          "value": "195×195×175mm"
+        },
+        {
+          "label": "Box inner diameter",
+          "value": "1000×750×640mm"
+        },
+        {
+          "label": "Overall dimensions",
+          "value": "1560×850×900mm"
+        },
+        {
+          "label": "Number of specimen groups",
+          "value": "8 groups (24 pieces in total)"
+        },
+        {
+          "label": "Temperature rise rate",
+          "value": "≦15℃/h"
+        },
+        {
+          "label": "Heating power",
+          "value": "4.0kW (new heating tube)"
+        },
+        {
+          "label": "Cooling power",
+          "value": "0.5kW"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Frequency",
+          "value": "50-60Hz"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C006",
+      "name": "Alkali-aggregate Test Chamber(Mortar-Bar Method and Accelerated Mortar-Bar Method)",
+      "model": "JKS",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/JKS.png",
+      "image": "/assets/images/JKS-Image.png",
+      "description": "Alkali-aggregate test chamber is designed and manufactured according to the national standard requirements for concrete long-term durability test.It is suitable for temperature control and time control of sand aggregate expansion test. The inner liner and shelf are made of stainless steel material.\nIt is suitable for conducting alkali-aggregate reaction test as to long-term durability of concretes in construction units,highway bridge engineering  units,and related research and quality inspection departments.",
+      "features": [],
+      "standards": [
+        "ASTM C1260",
+        "ASTM C1567"
+      ],
+      "specifications": [
+        {
+          "label": "Temperature control",
+          "value": "Room temperature ~100℃(adjust)"
+        },
+        {
+          "label": "Temperature control precision",
+          "value": "±0.2℃"
+        },
+        {
+          "label": "Control time range",
+          "value": "1~999min（99.9 days）"
+        },
+        {
+          "label": "Frequency",
+          "value": "50-60Hz"
+        },
+        {
+          "label": "Control time precision",
+          "value": "±1min"
+        },
+        {
+          "label": "Heating power",
+          "value": "6kW"
+        },
+        {
+          "label": "Water pump power",
+          "value": "90W"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC380V±10%"
+        },
+        {
+          "label": "Studio size",
+          "value": "650×550×600 (clear height 450mm)"
+        },
+        {
+          "label": "Overall dimensions",
+          "value": "1010×680×800mm"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C007",
+      "name": "Constant Temperature and Humidity Curing Controller (high pressure atomization)",
+      "model": "LDWS-50",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/LDWS-50（高压喷雾）.png",
+      "image": "/assets/images/LDWS-50-Image.png",
+      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Temperature measurement accuracy",
+          "value": "±1℃"
+        },
+        {
+          "label": "Temperature control",
+          "value": "20±2℃"
+        },
+        {
+          "label": "Humidity control",
+          "value": "≥95%RH"
+        },
+        {
+          "label": "Voltage",
+          "value": "380V"
+        },
+        {
+          "label": "Supply frequency",
+          "value": "50-60Hz"
+        },
+        {
+          "label": "Refrigerator power",
+          "value": "3000W"
+        },
+        {
+          "label": "Heater power",
+          "value": "9000W"
+        },
+        {
+          "label": "Maximum control area",
+          "value": "50m3"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C008",
+      "name": "Constant Temperature and Humidity Curing Controller (high pressure atomization)",
+      "model": "LDWS-100",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/LDWS-100（高压喷雾）.png",
+      "image": "/assets/images/LDWS-100-Image.png",
+      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Temperature measurement accuracy",
+          "value": "±1℃"
+        },
+        {
+          "label": "Temperature control",
+          "value": "20±2℃"
+        },
+        {
+          "label": "Humidity control",
+          "value": "≥95%RH"
+        },
+        {
+          "label": "Voltage",
+          "value": "380V"
+        },
+        {
+          "label": "Supply frequency",
+          "value": "50-60Hz"
+        },
+        {
+          "label": "Refrigerator power",
+          "value": "4000W"
+        },
+        {
+          "label": "Heater power",
+          "value": "9000W"
+        },
+        {
+          "label": "Maximum control area",
+          "value": "100m3"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C009",
+      "name": "Constant Temperature And Humidity Curing Controller (ultrasonic atomization)",
+      "model": "LDWS-50",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/LDWS-50（超声波喷雾）.png",
+      "image": "/assets/images/LDWS-50-Image.png",
+      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Temperature measurement accuracy",
+          "value": "±1℃"
+        },
+        {
+          "label": "Temperature control",
+          "value": "20±2℃"
+        },
+        {
+          "label": "Humidity control",
+          "value": "≥95%RH"
+        },
+        {
+          "label": "Voltage",
+          "value": "380V"
+        },
+        {
+          "label": "Supply frequency",
+          "value": "50-60Hz"
+        },
+        {
+          "label": "Refrigerator power",
+          "value": "3000W"
+        },
+        {
+          "label": "Heater power",
+          "value": "9000W"
+        },
+        {
+          "label": "Maximum control area",
+          "value": "50m3"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C010",
+      "name": "Constant Temperature And Humidity Curing Controller (ultrasonic atomization)",
+      "model": "LDWS-100",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/LDWS-100（超声波喷雾）.png",
+      "image": "/assets/images/LDWS-100-Image.png",
+      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Temperature measurement accuracy",
+          "value": "±1℃"
+        },
+        {
+          "label": "Temperature control",
+          "value": "20±2℃"
+        },
+        {
+          "label": "Humidity control",
+          "value": "≥95%RH"
+        },
+        {
+          "label": "Voltage",
+          "value": "380V"
+        },
+        {
+          "label": "Supply frequency",
+          "value": "50-60Hz"
+        },
+        {
+          "label": "Refrigerator power",
+          "value": "4000W"
+        },
+        {
+          "label": "Heater power",
+          "value": "9000W"
+        },
+        {
+          "label": "Maximum control area",
+          "value": "100m3"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C011",
+      "name": "Constant Temperature And Humidity Control System",
+      "model": "LDWSA20",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/LDWSA20.png",
+      "image": "/assets/images/LDWSA20-Image.png",
+      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and  relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of mortar, cement products and other samples.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Temperature control",
+          "value": "15～25±2℃(adjust)"
+        },
+        {
+          "label": "Temperature controller error",
+          "value": "±1℃"
+        },
+        {
+          "label": "Humidity control",
+          "value": "50～80±5％RH(adjust)"
+        },
+        {
+          "label": "Maximum control area",
+          "value": "10m2"
+        },
+        {
+          "label": "Heating power",
+          "value": "1500W"
+        },
+        {
+          "label": "Refrigerator power",
+          "value": "1500W"
+        },
+        {
+          "label": "Dehumidification power",
+          "value": "500W"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Wall-mounted controller installation size",
+          "value": "450×200×550 mm"
+        },
+        {
+          "label": "Dimensions of 1.5 P air conditioner",
+          "value": "840×540×320mm"
+        },
+        {
+          "label": "Dimensions of dehumidifier",
+          "value": "500×400×700mm"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C012",
+      "name": "Constant Temperature And Humidity Environment Control System",
+      "model": "LDHJ-50",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/LDHJ-50.png",
+      "image": "/assets/images/LDHJ-50-Image.png",
+      "description": "LDHJ-50 constant temperature and humidity environment control system is designed and  manufactured according to the national requirements for mortar chambers, cement chambers, insulation material chambers and other new standards,This product is suitable for cement factory and construction units, highway and bridge engineering units and relevant scientific research quality inspection departments of cement, concrete, cement products and other production and maintenance.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Temperature controller error",
+          "value": "±1℃"
+        },
+        {
+          "label": "Temperature control",
+          "value": "23±2℃(20-25±2℃ adjust)"
+        },
+        {
+          "label": "Humidity control",
+          "value": "50%RH±5%(50%-70%RH±5% adjust)"
+        },
+        {
+          "label": "Voltage",
+          "value": "380V"
+        },
+        {
+          "label": "Refrigerator/Dehumidification power",
+          "value": "2500W"
+        },
+        {
+          "label": "Heating power",
+          "value": "4500W"
+        },
+        {
+          "label": "Control volume",
+          "value": "50m³"
+        },
+        {
+          "label": "Weight",
+          "value": "200kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C013",
+      "name": "Constant Temperature And Humidity Environment Control System",
+      "model": "LDHJ-100",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/LDHJ-100.png",
+      "image": "/assets/images/LDHJ-100-Image.png",
+      "description": "LDHJ-100 constant temperature and humidity environment control system is designed and  manufactured according to the national requirements for mortar chambers, cement chambers, insulation material chambers and other new standards,This product is suitable for cement factory and construction units, highway and bridge engineering units and relevant scientific research quality inspection departments of cement, concrete, cement products and other production and maintenance.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Temperature controller error",
+          "value": "±1℃"
+        },
+        {
+          "label": "Temperature control",
+          "value": "23±2℃(20-25±2℃ adjust)"
+        },
+        {
+          "label": "Humidity control",
+          "value": "50%RH±5%(50%-70%RH±5% adjust)"
+        },
+        {
+          "label": "Voltage",
+          "value": "380V"
+        },
+        {
+          "label": "Refrigerator/Dehumidification power",
+          "value": "4000W"
+        },
+        {
+          "label": "Heating power",
+          "value": "7500W"
+        },
+        {
+          "label": "Control volume",
+          "value": "100m³"
+        },
+        {
+          "label": "Weight",
+          "value": "200kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C014",
+      "name": "Curing Room Three-piece Set",
+      "model": "BYS-3",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/BYS-3.png",
+      "image": "/assets/images/BYS-3-Image.png",
+      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Temperature control instrument error",
+          "value": "±1℃"
+        },
+        {
+          "label": "Temperature control",
+          "value": "20±2℃"
+        },
+        {
+          "label": "Humidity control",
+          "value": "≥95%"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Power frequency",
+          "value": "50-60Hz"
+        },
+        {
+          "label": "Refrigerator power",
+          "value": "1～4 thousand kcal(customer-provided window air conditioner)"
+        },
+        {
+          "label": "Heater power",
+          "value": "3000W"
+        },
+        {
+          "label": "Maximum humidity and temperature control area",
+          "value": "15m2(according to the area can be designed separately)"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C015",
+      "name": "Concrete Impermeability Apparatus",
+      "model": "HP-4.0",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/HP-4.0.png",
+      "image": "/assets/images/HP-4.0-Image.png",
+      "description": "HP-4.0 automatic pressure regulating concrete impermeability instrument is used to measure the impermeability of concrete,which is used in construction enterprises, scientific research institutions, design departments and other units to engaged in the measurement and experimental research of concrete impermeability.It can also be used for building materials permeability measurement of quality inspection.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Working pressure",
+          "value": "4MPa"
+        },
+        {
+          "label": "Working mode",
+          "value": "Automatic pressurization"
+        },
+        {
+          "label": "Number of test specimens",
+          "value": "6 PCS"
+        },
+        {
+          "label": "Inner diameter of the upper opening of the test mold",
+          "value": "Φ175mm"
+        },
+        {
+          "label": "Inner diameter of the bottom of the test mold",
+          "value": "Φ185mm"
+        },
+        {
+          "label": "Trial mold height",
+          "value": "160mm"
+        },
+        {
+          "label": "Motor power",
+          "value": "80W"
+        },
+        {
+          "label": "Motor speed",
+          "value": "136r/min"
+        },
+        {
+          "label": "Plunger pump plunger diameter",
+          "value": "Φ10mm"
+        },
+        {
+          "label": "Plunger pump reciprocating frequency",
+          "value": "136 times/min"
+        },
+        {
+          "label": "Piston pump flow",
+          "value": "0.11L/min"
+        },
+        {
+          "label": "Supply voltage",
+          "value": "AC380V±10%"
+        },
+        {
+          "label": "Dimensions",
+          "value": "1090×710×920mm"
+        },
+        {
+          "label": "Weight",
+          "value": "185kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C016",
+      "name": "Cement (Concrete) Fast Curing Chamber",
+      "model": "A-Type",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/A-Type.png",
+      "image": "/assets/images/A-Type-Image.png",
+      "description": "This product is suitable for the rapid cooking and maintenance of  concrete and construction units such as cement plants, building materials, and construction units.the liner and shelf are made of stainless steel  material.",
+      "features": [],
+      "standards": [
+        "EN 196-1",
+        "196-8",
+        "ISO 679",
+        "ASTM C109",
+        "C511"
+      ],
+      "specifications": [
+        {
+          "label": "Voltage",
+          "value": "220V"
+        },
+        {
+          "label": "Internal temperature",
+          "value": "Room temperature to 100℃,users need to control freely"
+        },
+        {
+          "label": "Electric heat tube heating power",
+          "value": "2000W(3 PCS)"
+        },
+        {
+          "label": "Studio size",
+          "value": "750×550×530mm"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C017",
+      "name": "Direct-reading Concrete Air Content Tester",
+      "model": "CA-3",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/CA-3.png",
+      "image": "/assets/images/CA-3-Image.png",
+      "description": "This product is mainly used to measure the air content of new mixing concrete. It is suitable for ordinary concrete, flowing concrete, dry hard concrete, but is not suitable for light ingredient concrete.The product is designed according to ANS1/ASTM C231-78 standard, which is in line with international standards.The air content value can be read directly from the degree disk, and there is no need to query curve conversion.",
+      "features": [],
+      "standards": [
+        "EN 12350-7",
+        "ASTM C231 type B",
+        "AASHTO T152",
+        "DIN 1048"
+      ],
+      "specifications": [
+        {
+          "label": "Concrete mix particle size",
+          "value": "≤40mm"
+        },
+        {
+          "label": "Maximum air content determination",
+          "value": "8%"
+        },
+        {
+          "label": "Concrete measuring pot size",
+          "value": "Volume 7L, inner diameter to height ratio is 1:1"
+        },
+        {
+          "label": "Display instrument pressure value range",
+          "value": "0.25MPa"
+        },
+        {
+          "label": "Display instrument dividing value",
+          "value": "0.005MPa"
+        },
+        {
+          "label": "The amount of air content",
+          "value": "8%"
+        },
+        {
+          "label": "The minimum reading",
+          "value": "0.1%"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C018",
+      "name": "Imitation Japanese Concrete Air Content Tester",
+      "model": "HC-7L",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/HC-7L.png",
+      "image": "/assets/images/HC-7L-Image.png",
+      "description": "This product is mainly used to measure the air content in the concrete mixture.It is suitable for the determination of the air content in concrete mixtures having a slump with sub-aggregate diameter not exceeding 40mm and air content not exceeding 10%.\nThis  machine  has  the  advantages  of  easy  operation,accurate measurement and intuitive reading.",
+      "features": [],
+      "standards": [
+        "EN 12350-7",
+        "ASTM C231 type B",
+        "AASHTO T152",
+        "DIN 1048"
+      ],
+      "specifications": [
+        {
+          "label": "Measuring bowl volume",
+          "value": "7L(its inner diameter and depth are equal)"
+        },
+        {
+          "label": "Air content range",
+          "value": "≤ 40mm"
+        },
+        {
+          "label": "Maximum size of coarse aggregate to be used",
+          "value": "≤40mm"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C019",
+      "name": "Improved Concrete Air Content Tester",
+      "model": "GQC-1",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/GQC-1.png",
+      "image": "/assets/images/GQC-1-Image.png",
+      "description": "This product is suitable for the determination of the air content in concrete mixtures having a slump with sub-aggregate diameter not exceeding 40 mm and air content not exceeding 10%.",
+      "features": [],
+      "standards": [
+        "EN 12350-7",
+        "ASTM C231 type B",
+        "AASHTO T152",
+        "DIN 1048"
+      ],
+      "specifications": [
+        {
+          "label": "Measuring bowl volume",
+          "value": "7L(diameter 205mm, height 212mm)"
+        },
+        {
+          "label": "Air content range",
+          "value": "≤ 10%"
+        },
+        {
+          "label": "Maximum size of coarse aggregate to be used",
+          "value": "≤40mm"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C020",
+      "name": "Acme Penetrometer",
+      "model": "HG-1000",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/HG-1000.png",
+      "image": "/assets/images/HG-1000-Image.png",
+      "description": "This product is suitable for testing the setting time of various cements, admixtures and concrete mixtures with different concrete mix ratios under different temperature environments. The test mold is made of all-aluminum material, light in weight and easy to use.",
+      "features": [],
+      "standards": [
+        "ASTM C403",
+        "AASHTO T197"
+      ],
+      "specifications": [
+        {
+          "label": "Specimen mould upper calibre",
+          "value": "Φ160mm"
+        },
+        {
+          "label": "Specimen mould lower calibre",
+          "value": "Φ150mm"
+        },
+        {
+          "label": "Test temperature",
+          "value": "20±2℃"
+        },
+        {
+          "label": "Maximum penetration force",
+          "value": "1000N"
+        },
+        {
+          "label": "Minimum division value",
+          "value": "0.1N"
+        },
+        {
+          "label": "Display value error",
+          "value": "<±1%"
+        },
+        {
+          "label": "Penetration method",
+          "value": "Manual"
+        },
+        {
+          "label": "Stylus area",
+          "value": "100, 50, 20mm²"
+        },
+        {
+          "label": "Voltage",
+          "value": "220V"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C021",
+      "name": "Acme Dial Penetrometer",
+      "model": "HG-80",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/HG-80.png",
+      "image": "/assets/images/HG-80-Image.png",
+      "description": "This product is suitable for testing the setting time of various cements, admixtures and concrete mixtures with different concrete mix ratios under different temperature environments.",
+      "features": [],
+      "standards": [
+        "ASTM C403",
+        "AASHTO T197"
+      ],
+      "specifications": [
+        {
+          "label": "Display mode",
+          "value": "Pointer"
+        },
+        {
+          "label": "Maximum measured value",
+          "value": "1200N"
+        },
+        {
+          "label": "Specimen mould upper calibre",
+          "value": "Φ160mm"
+        },
+        {
+          "label": "Specimen mould lower calibre",
+          "value": "Φ150mm"
+        },
+        {
+          "label": "Specimen mould height",
+          "value": "150mm"
+        },
+        {
+          "label": "Penetration depth",
+          "value": "25mm"
+        },
+        {
+          "label": "Minimum division value",
+          "value": "1N"
+        },
+        {
+          "label": "Indication error",
+          "value": "±10N"
+        },
+        {
+          "label": "Stylus loading area",
+          "value": "100,50,20mm2"
+        },
+        {
+          "label": "Penetration resistance",
+          "value": "0.2～3.5MPa,3.5～20MPa, 20～28MPa"
+        },
+        {
+          "label": "Dimensions",
+          "value": "700×350×1000mm"
+        },
+        {
+          "label": "Packing size",
+          "value": "730×360×1040mm"
+        },
+        {
+          "label": "Weight",
+          "value": "40kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C022",
+      "name": "Concrete Vibrator",
+      "model": "HZJ-0.5",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/HZJ-0.5.png",
+      "image": "/assets/images/HZJ-0.5-Image.png",
+      "description": "This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.",
+      "features": [],
+      "standards": [
+        "EN 12390-2",
+        "BS 1881:108"
+      ],
+      "specifications": [
+        {
+          "label": "Table size",
+          "value": "500×500mm"
+        },
+        {
+          "label": "Vibration frequency",
+          "value": "2860 point/min"
+        },
+        {
+          "label": "Vibration amplitude",
+          "value": "0.3-0.6mm"
+        },
+        {
+          "label": "Vibrator power",
+          "value": "0.55kW"
+        },
+        {
+          "label": "Load",
+          "value": "100kg"
+        },
+        {
+          "label": "Weight",
+          "value": "35kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C023",
+      "name": "Concrete Vibrator",
+      "model": "HZJ-0.8",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/HZJ-0.8.png",
+      "image": "/assets/images/HZJ-0.8-Image.png",
+      "description": "This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.",
+      "features": [],
+      "standards": [
+        "EN 12390-2",
+        "BS 1881:108"
+      ],
+      "specifications": [
+        {
+          "label": "Table size",
+          "value": "800×800mm"
+        },
+        {
+          "label": "Vibration frequency",
+          "value": "2860 point/min"
+        },
+        {
+          "label": "Vibration amplitude",
+          "value": "0.3-0.6mm"
+        },
+        {
+          "label": "Vibrator power",
+          "value": "1.1kW"
+        },
+        {
+          "label": "Load",
+          "value": "150kg"
+        },
+        {
+          "label": "Weight",
+          "value": "70kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C024",
+      "name": "Concrete Vibrator",
+      "model": "HZJ-1",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/HZJ-1.png",
+      "image": "/assets/images/HZJ-1-Image.png",
+      "description": "This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.",
+      "features": [],
+      "standards": [
+        "EN 12390-2",
+        "BS 1881:108"
+      ],
+      "specifications": [
+        {
+          "label": "Table size",
+          "value": "1000×1000mm"
+        },
+        {
+          "label": "Vibration frequency",
+          "value": "2860 point/min"
+        },
+        {
+          "label": "Vibration amplitude",
+          "value": "0.3-0.6mm"
+        },
+        {
+          "label": "Vibrator power",
+          "value": "1.5kW"
+        },
+        {
+          "label": "Load",
+          "value": "200kg"
+        },
+        {
+          "label": "Weight",
+          "value": "100kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C025",
+      "name": "Single Shaft Concrete Mixer",
+      "model": "SJD-30",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/SJD-30.png",
+      "image": "/assets/images/SJD-30-Image.png",
+      "description": "This machine is suitable for construction scientific research units and construction companies and concrete component units. It can mix ordinary concrete and lightweight concrete, and can also be used in other industries to stir with different materials.",
+      "features": [],
+      "standards": [
+        "ASTM C192/C192M-02"
+      ],
+      "specifications": [
+        {
+          "label": "Wall thickness",
+          "value": "6mm"
+        },
+        {
+          "label": "Feed capacity",
+          "value": "48L"
+        },
+        {
+          "label": "Discharging capacity",
+          "value": "30L"
+        },
+        {
+          "label": "Maximum discharge capacity",
+          "value": "33L"
+        },
+        {
+          "label": "Mixing time",
+          "value": "≤45s"
+        },
+        {
+          "label": "Stirring axis speed",
+          "value": "45r/min"
+        },
+        {
+          "label": "Electric power",
+          "value": "1.5kW"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC380V±10%"
+        },
+        {
+          "label": "Dimensions",
+          "value": "1130×400×900mm"
+        },
+        {
+          "label": "Weight",
+          "value": "160kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C026",
+      "name": "Single Shaft Concrete Mixer",
+      "model": "SJD-60",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/SJD-60.png",
+      "image": "/assets/images/SJD-60-Image.png",
+      "description": "This machine is suitable for construction scientific research units and construction companies and concrete component units. It can mix ordinary concrete and lightweight concrete, and can also be used in other industries to stir with different materials.",
+      "features": [],
+      "standards": [
+        "ASTM C192/C192M-02"
+      ],
+      "specifications": [
+        {
+          "label": "Wall thickness",
+          "value": "6mm"
+        },
+        {
+          "label": "Feed capacity",
+          "value": "96L"
+        },
+        {
+          "label": "Discharging capacity",
+          "value": "60L"
+        },
+        {
+          "label": "Maximum discharge capacity",
+          "value": "66L"
+        },
+        {
+          "label": "Mixing time",
+          "value": "≤45s"
+        },
+        {
+          "label": "Stirring axis speed",
+          "value": "45r/min"
+        },
+        {
+          "label": "Electric power",
+          "value": "2.2kW"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC380V±10%"
+        },
+        {
+          "label": "Dimensions",
+          "value": "1520×530×1060mm"
+        },
+        {
+          "label": "Weight",
+          "value": "220kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C027",
+      "name": "Chloride Ion Fast Content Analyzer",
+      "model": "LDCL-B",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/LDCL-B.png",
+      "image": "/assets/images/LDCL-B-Image.png",
+      "description": "This product quickly determines the water-soluble chloride ion content of concrete, sand, gravel, cement, mixing water and other inorganic materials through the professional software and chemical anti-jamming reagents equipped.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Measurement range",
+          "value": "50～999.99mV"
+        },
+        {
+          "label": "Electrode configuration",
+          "value": "domestic 2 electrodes"
+        },
+        {
+          "label": "Electrical measurement range",
+          "value": "1×10-2～5×10-5mol/L"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "C028",
+      "name": "Concrete Pressure Secretion Instrument",
+      "model": "SY-2",
+      "category": "Concrete Testing Equipment Series",
+      "thumbnail": "/assets/images/SY-2.png",
+      "image": "/assets/images/SY-2-Image.png",
+      "description": "This device is used for concrete mixture with no more than 40mm compound pressure to be measured. It has the advantages of accurate measurement value, simple operation, small volume, and convenient molding.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "The maximum range of the pressure gauge",
+          "value": "6MPa"
+        },
+        {
+          "label": "Cylinder inner diameter",
+          "value": "125±0.02mm"
+        },
+        {
+          "label": "Cylinder body height",
+          "value": "200±0.2mm"
+        },
+        {
+          "label": "Working piston diameter",
+          "value": "125mm"
+        },
+        {
+          "label": "Screen aperture",
+          "value": "0.335mm (50 mesh)"
+        },
+        {
+          "label": "Weight",
+          "value": "20kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D001",
+      "name": "Constant Temperature Water Curing Box (vertical)",
+      "model": "HBY-30",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/HBY-30（立式）.png",
+      "image": "/assets/images/HBY-30-Image.png",
+      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [],
+      "standards": [
+        "EN 196-1"
+      ],
+      "specifications": [
+        {
+          "label": "Temperature control",
+          "value": "20±1℃"
+        },
+        {
+          "label": "Temperature control precision",
+          "value": "±1℃"
+        },
+        {
+          "label": "Compressor power",
+          "value": "240W"
+        },
+        {
+          "label": "Heater power",
+          "value": "1000W"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Maintenance box size",
+          "value": "175×290×65mm (30 pieces)"
+        },
+        {
+          "label": "Test block size",
+          "value": "40×40×160 mm(180 pieces)"
+        },
+        {
+          "label": "Dimensions",
+          "value": "800×670×1750mm"
+        },
+        {
+          "label": "Weight",
+          "value": "148kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D002",
+      "name": "Constant Temperature Water Curing Box (vertical)",
+      "model": "HBY-64",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/HBY-64（立式）.png",
+      "image": "/assets/images/HBY-64-Image.png",
+      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [],
+      "standards": [
+        "EN 196-1"
+      ],
+      "specifications": [
+        {
+          "label": "Temperature control",
+          "value": "20±1℃"
+        },
+        {
+          "label": "Temperature control precision",
+          "value": "±1℃"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Compressor power",
+          "value": "240W"
+        },
+        {
+          "label": "Heater power",
+          "value": "2000W"
+        },
+        {
+          "label": "Test block size",
+          "value": "40×40×160mm (360 pieces)"
+        },
+        {
+          "label": "Maintenance box size",
+          "value": "175×290×65mm (60 pieces)"
+        },
+        {
+          "label": "Dimensions",
+          "value": "1080×850×1880mm"
+        },
+        {
+          "label": "Weight",
+          "value": "350kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D003",
+      "name": "Constant Temperature Water Curing Box (horizontal)",
+      "model": "HBY-30",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/HBY-30（卧式）.png",
+      "image": "/assets/images/HBY-30-Image.png",
+      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [],
+      "standards": [
+        "EN 196-1"
+      ],
+      "specifications": [
+        {
+          "label": "Temperature control",
+          "value": "20±1℃"
+        },
+        {
+          "label": "Temperature control precision",
+          "value": "±1℃"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Compressor power",
+          "value": "500W"
+        },
+        {
+          "label": "Heater power",
+          "value": "1200W"
+        },
+        {
+          "label": "Maintenance box size",
+          "value": "140×100×180mm (16 pieces)"
+        },
+        {
+          "label": "Test block size",
+          "value": "40×40×160mm (96 pieces)"
+        },
+        {
+          "label": "Dimensions",
+          "value": "920×760×980mm"
+        },
+        {
+          "label": "Weight",
+          "value": "113kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D004",
+      "name": "constant temperature water curing box (horizontal)",
+      "model": "HBY-60",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/HBY-60（卧式）.png",
+      "image": "/assets/images/HBY-60-Image.png",
+      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [],
+      "standards": [
+        "EN 196-1"
+      ],
+      "specifications": [
+        {
+          "label": "Temperature control",
+          "value": "20±1℃"
+        },
+        {
+          "label": "Temperature control precision",
+          "value": "±1℃"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Compressor power",
+          "value": "1000W"
+        },
+        {
+          "label": "Heater power",
+          "value": "2400W"
+        },
+        {
+          "label": "Maintenance box size",
+          "value": "140×100×180mm（36 pieces）"
+        },
+        {
+          "label": "Test block size",
+          "value": "40×40×160mm (216 pieces)"
+        },
+        {
+          "label": "Dimensions",
+          "value": "1760×755×980mm"
+        },
+        {
+          "label": "Weight",
+          "value": "350kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D005",
+      "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box (Glass door)",
+      "model": "HBY-40B",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/HBY-40B（玻璃门）.png",
+      "image": "/assets/images/HBY-40B-Image.png",
+      "description": "This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [],
+      "standards": [
+        "EN 196-1",
+        "196-08",
+        "ISO 679",
+        "ASTM C109",
+        "C511"
+      ],
+      "specifications": [
+        {
+          "label": "Test temperature",
+          "value": "20±1℃"
+        },
+        {
+          "label": "Control humidity",
+          "value": "≧95%RH"
+        },
+        {
+          "label": "Compressor power",
+          "value": "138W"
+        },
+        {
+          "label": "Heater power",
+          "value": "800W"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Number of trial molds placed",
+          "value": "40×40×160 trial molds, 6 groups can be placed on each layer"
+        },
+        {
+          "label": "150×150×150 mold trial, 3 groups can be placed on each layer",
           "value": ""
         },
         {
-          "label": "Temperature controller accuracy  ±1℃",
+          "label": "100×100×100 mold trial, 4 groups can be placed on each layer",
           "value": ""
         },
         {
-          "label": "Turntable speed  11～12r/min",
+          "label": "Studio size",
+          "value": "570×550×1000mm"
+        },
+        {
+          "label": "Dimensions",
+          "value": "980×700×1350mm"
+        },
+        {
+          "label": "Weight",
+          "value": "110kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D006",
+      "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box(iron door)",
+      "model": "HBY-40B",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/HBY-40B（铁门）.png",
+      "image": "/assets/images/HBY-40B-Image.png",
+      "description": "This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [],
+      "standards": [
+        "EN 196-1",
+        "196-08",
+        "ISO 679",
+        "ASTM C109",
+        "C511"
+      ],
+      "specifications": [
+        {
+          "label": "Test temperature",
+          "value": "20±1℃"
+        },
+        {
+          "label": "Control humidity",
+          "value": "≧95%RH"
+        },
+        {
+          "label": "Compressor power",
+          "value": "138W"
+        },
+        {
+          "label": "Heater power",
+          "value": "800W"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Number of trial molds placed",
+          "value": "40×40×160 trial molds, 6 groups can be placed on each layer"
+        },
+        {
+          "label": "150×150×150 mold trial, 3 groups can be placed on each layer",
           "value": ""
         },
         {
-          "label": "Heating power 2200W",
+          "label": "100×100×100 mold trial, 4 groups can be placed on each layer",
           "value": ""
         },
         {
-          "label": "Power supply voltage AC220V±10%",
+          "label": "Studio size",
+          "value": "590×570×1180mm"
+        },
+        {
+          "label": "Dimensions",
+          "value": "1000×700×1530mm"
+        },
+        {
+          "label": "Weight",
+          "value": "122kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D007",
+      "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box",
+      "model": "HBY-60B",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/HBY-60B.png",
+      "image": "/assets/images/HBY-60B-Image.png",
+      "description": "This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [],
+      "standards": [
+        "EN 196-1",
+        "196-08",
+        "ISO 679",
+        "ASTM C109",
+        "C511"
+      ],
+      "specifications": [
+        {
+          "label": "Test temperature",
+          "value": "20±1℃"
+        },
+        {
+          "label": "Control humidity",
+          "value": "≧95%RH"
+        },
+        {
+          "label": "Compressor power",
+          "value": "500W"
+        },
+        {
+          "label": "Heater power",
+          "value": "800W"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Number of trial molds placed",
+          "value": "40×40×160 trial molds, 6 groups can be placed on each layer"
+        },
+        {
+          "label": "150×150×150 mold trial, 3 groups can be placed on each layer",
           "value": ""
         },
         {
-          "label": "Working chamber size 450×450×500mm",
+          "label": "100×100×100 mold trial, 4 groups can be placed on each layer",
           "value": ""
         },
         {
-          "label": "Overall dimension  780×660×1160mm",
-          "value": ""
+          "label": "Studio size",
+          "value": "1180×550×1400mm"
         },
         {
-          "label": "Weight  100kg",
-          "value": ""
+          "label": "Dimensions",
+          "value": "1650×680×1750mm"
+        },
+        {
+          "label": "Weight",
+          "value": "220kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D008",
+      "name": "Mixed Mortar Specimen Standard Curing Box",
+      "model": "HBY-30",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/HBY-30.png",
+      "image": "/assets/images/HBY-30-Image.png",
+      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [],
+      "standards": [
+        "EN 196-1",
+        "196-08",
+        "ISO 679",
+        "ASTM C109",
+        "C511"
+      ],
+      "specifications": [
+        {
+          "label": "Temperature controller accuracy",
+          "value": "20±1℃"
+        },
+        {
+          "label": "Control humidity",
+          "value": "60-80%RH"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Compressor power",
+          "value": "138W"
+        },
+        {
+          "label": "Heater power",
+          "value": "500W"
+        },
+        {
+          "label": "Studio size",
+          "value": "580×500×1180mm"
+        },
+        {
+          "label": "The internal specimen rack is equally divided into 6 grid sizes",
+          "value": "580×490×180mm"
+        },
+        {
+          "label": "Dimensions",
+          "value": "1000×700×1530 mm"
+        },
+        {
+          "label": "Weight",
+          "value": "130kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D009",
+      "name": "Cement Mortar Mixer",
+      "model": "JJ-20F",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/JJ-20F.png",
+      "image": "/assets/images/JJ-20F-Image.png",
+      "description": "The instrument is mainly used to prepare cement mortar strength test samples for mixing.",
+      "features": [],
+      "standards": [
+        "EN 196-1",
+        "EN 196-3",
+        "EN 413-2",
+        "EN 459-2",
+        "EN 480-1",
+        "EN ISO 679",
+        "ASTM C305M",
+        "AASHTO T162"
+      ],
+      "specifications": [
+        {
+          "label": "Rotation Low speed",
+          "value": "140 ± 2 r/min"
+        },
+        {
+          "label": "Revolution Low speed",
+          "value": "62 ± 2 r/min"
+        },
+        {
+          "label": "Rotation High speed",
+          "value": "285 ± 3 r/min"
+        },
+        {
+          "label": "Revolution High speed",
+          "value": "125 ± 3 r/min"
+        },
+        {
+          "label": "Width of mixing blade",
+          "value": "135mm"
+        },
+        {
+          "label": "Capacity",
+          "value": "5L"
+        },
+        {
+          "label": "The wall thickness",
+          "value": "1.5mm"
+        },
+        {
+          "label": "The working gap between the mixing blade and the mixing pot",
+          "value": "3mm ±1mm"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Outer dimension (length×width×height)",
+          "value": "630×400×660mm"
+        },
+        {
+          "label": "Weight",
+          "value": "80kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D010",
+      "name": "Cement Mortar Vibrating Platform",
+      "model": "ZT-20F",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/ZT-20F.png",
+      "image": "/assets/images/ZT-20F-Image.png",
+      "description": "This instrument is suitable for preparing samples for strength testing of cement mortar.",
+      "features": [],
+      "standards": [
+        "EN 196-1",
+        "EN ISO 679"
+      ],
+      "specifications": [
+        {
+          "label": "The total mass of the table plate(including the arm,the die frame,etc.)",
+          "value": "13.75±0.25kg"
+        },
+        {
+          "label": "The total weight of vibrating part",
+          "value": "20±0.5kg"
+        },
+        {
+          "label": "Amplitude (falling distance)",
+          "value": "15±0.3mm"
+        },
+        {
+          "label": "The time of 60 vibrations",
+          "value": "60±2s"
+        },
+        {
+          "label": "Motor speed",
+          "value": "60rpm"
+        },
+        {
+          "label": "Motor power",
+          "value": "40W"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V"
+        },
+        {
+          "label": "Overall Dimensions",
+          "value": "1152×482×510mm"
+        },
+        {
+          "label": "Weight",
+          "value": "87kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D011",
+      "name": "Electric Flexural Testing Machine (pointer type)",
+      "model": "DKZ-5000",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/DKZ-5000.png",
+      "image": "/assets/images/DKZ-5000-Image.png",
+      "description": "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Display method",
+          "value": "Pointer"
+        },
+        {
+          "label": "Double lever output ratio (lower beam to arm distance ratio) (maximum)",
+          "value": "50:1"
+        },
+        {
+          "label": "Maximum output",
+          "value": "Double Leverage 5000N"
+        },
+        {
+          "label": "Loading speed",
+          "value": "50N/s"
+        },
+        {
+          "label": "Loading roller and supporting roller diameter",
+          "value": "Φ10mm"
+        },
+        {
+          "label": "Support roller pitch",
+          "value": "100mm"
+        },
+        {
+          "label": "Lay frame spacing",
+          "value": "46mm"
+        },
+        {
+          "label": "Lever inclination",
+          "value": ">1/50°"
+        },
+        {
+          "label": "Dimensions (length x width x height)",
+          "value": "1080×220×780mm"
+        },
+        {
+          "label": "Weight",
+          "value": "130kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D012",
+      "name": "Electric Flexural Testing Machine (pointer type)",
+      "model": "DKZ-6000",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/DKZ-6000（指针）.png",
+      "image": "/assets/images/DKZ-6000-Image.png",
+      "description": "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Display method",
+          "value": "Pointer"
+        },
+        {
+          "label": "Double lever output ratio (lower beam to arm distance ratio) (maximum)",
+          "value": "60:1"
+        },
+        {
+          "label": "Maximum output",
+          "value": "Double Leverage 6000N"
+        },
+        {
+          "label": "Loading speed",
+          "value": "50N/s"
+        },
+        {
+          "label": "Loading roller and supporting roller diameter",
+          "value": "Φ10mm"
+        },
+        {
+          "label": "Support roller pitch",
+          "value": "100mm"
+        },
+        {
+          "label": "Lay frame spacing",
+          "value": "46mm"
+        },
+        {
+          "label": "Lever inclination",
+          "value": ">1/50°"
+        },
+        {
+          "label": "Dimensions (length x width x height)",
+          "value": "1180×220×800mm"
+        },
+        {
+          "label": "Weight",
+          "value": "135kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D013",
+      "name": "Electric Flexural Testing Machine (digital display)",
+      "model": "DKZ-6000",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/DKZ-6000（数显）.png",
+      "image": "/assets/images/DKZ-6000-Image.png",
+      "description": "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Maximum bending resistance",
+          "value": "6000N"
+        },
+        {
+          "label": "Loading roller and supporting roller diameter",
+          "value": "Φ10mm"
+        },
+        {
+          "label": "Support roller distance",
+          "value": "100mm"
+        },
+        {
+          "label": "Lay frame spacing",
+          "value": "46mm"
+        },
+        {
+          "label": "Lever inclination",
+          "value": ">1/50°"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Dimensions",
+          "value": "1180×220×800mm"
+        },
+        {
+          "label": "Weight",
+          "value": "135kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D014",
+      "name": "Cement Mortar Flow Table",
+      "model": "NLD-3F",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/NLD-3F.png",
+      "image": "/assets/images/NLD-3F-Image.png",
+      "description": "It is mainly used for fluidity test of cement mortar sand.",
+      "features": [],
+      "standards": [
+        "EN 459-2",
+        "EN 1015-3",
+        "EN 13279-2",
+        "ASTM C230",
+        "BS 4551-1"
+      ],
+      "specifications": [
+        {
+          "label": "The total weight of the vibrating part",
+          "value": "4.35±0.15kg"
+        },
+        {
+          "label": "Vibration fall distance",
+          "value": "10±0.2mm(For ASTM C230, 12.7±0.2)"
+        },
+        {
+          "label": "Vibration frequency",
+          "value": "1Hz"
+        },
+        {
+          "label": "Vibration times",
+          "value": "25 times"
+        },
+        {
+          "label": "Desktop parameters",
+          "value": "Cast steel, hard chrome plated working surface"
+        },
+        {
+          "label": "Diameter",
+          "value": "Φ300±1mm(For ASTM C230, Φ254±1)"
+        },
+        {
+          "label": "Dimensions",
+          "value": "400×500×370mm"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Weight",
+          "value": "25kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D015",
+      "name": "Cement Fineness Air Jet Sieving Analyzer (ordinary)",
+      "model": "FSY-150",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/FSY-150（普通）.png",
+      "image": "/assets/images/FSY-150-Image.png",
+      "description": "This equipment is widely used in cement fineness inspection and cement production control. It can also be used in powder fineness testing in other industries. It is a commonly used instrument in various cement quality inspection stations, cement factories and other units.",
+      "features": [],
+      "standards": [
+        "EN 933-10",
+        "ASTM C1891"
+      ],
+      "specifications": [
+        {
+          "label": "Sieve analysis test fineness",
+          "value": "1~0.030mm"
+        },
+        {
+          "label": "Screening time automatic",
+          "value": "0～999s (adjust)"
+        },
+        {
+          "label": "Working negative pressure",
+          "value": "-4000~6000Pa"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Feeding",
+          "value": "10～25g"
+        },
+        {
+          "label": "Accessories",
+          "value": "0.045 sieve, 0.08 sieve (optional)"
+        },
+        {
+          "label": "Noise",
+          "value": "≤75dB"
+        },
+        {
+          "label": "Dimensions",
+          "value": "450×380×830mm"
+        },
+        {
+          "label": "Weight",
+          "value": "30kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D016",
+      "name": "Cement Fineness Air Jet Sieving Analyzer (environmental protection)",
+      "model": "FSY-150",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/FSY-150（环保）.png",
+      "image": "/assets/images/FSY-150-Image.png",
+      "description": "This equipment is widely used in cement fineness inspection and cement production control. It can also be used in powder fineness testing in other industries. It is a commonly used instrument in various cement quality inspection stations, cement factories and other units.",
+      "features": [],
+      "standards": [
+        "EN 933-10",
+        "ASTM C1891"
+      ],
+      "specifications": [
+        {
+          "label": "Sieve analysis test fineness",
+          "value": "1~0.030mm"
+        },
+        {
+          "label": "Screening time automatic",
+          "value": "0～999s (adjust)"
+        },
+        {
+          "label": "Working negative pressure",
+          "value": "-4000~6000Pa"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Feeding",
+          "value": "10～25g"
+        },
+        {
+          "label": "Accessories",
+          "value": "0.045 sieve, 0.08 sieve (optional)"
+        },
+        {
+          "label": "Noise",
+          "value": "≤75dB"
+        },
+        {
+          "label": "Dimensions",
+          "value": "450×380×830mm"
+        },
+        {
+          "label": "Weight",
+          "value": "30kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D017",
+      "name": "Boiling Box",
+      "model": "FZ-31A",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/FZ-31A.png",
+      "image": "/assets/images/FZ-31A-Image.png",
+      "description": "This equipment is one of the commonly used equipment in cement production, construction, scientific research and testing units. \nThe equipment is made of stainless steel.",
+      "features": [],
+      "standards": [
+        "EN 196-3",
+        "UNE 80102",
+        "EN ISO 9597",
+        "BS 6463",
+        "NF P15-432"
+      ],
+      "specifications": [
+        {
+          "label": "Maximum boiling temperature",
+          "value": "100℃"
+        },
+        {
+          "label": "Inner tank volume",
+          "value": "31L"
+        },
+        {
+          "label": "Heating time",
+          "value": "30±5min(20℃ to 100℃)"
+        },
+        {
+          "label": "Heating time control",
+          "value": "0～3.5h"
+        },
+        {
+          "label": "Tubular heater power",
+          "value": "4kW"
+        },
+        {
+          "label": "Voltage",
+          "value": "AC220V±10%"
+        },
+        {
+          "label": "Studio size",
+          "value": "410×240×310mm"
+        },
+        {
+          "label": "Dimensions",
+          "value": "490×290×410mm"
+        },
+        {
+          "label": "Weight",
+          "value": "25kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "D018",
+      "name": "Automatic Specific Surface Area Meter (Blaine Method)",
+      "model": "FBT-9",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/FBT-9.png",
+      "image": "/assets/images/FBT-9-Image.png",
+      "description": "This product is suitable for measuring the surface area per gram of solid material.",
+      "features": [],
+      "standards": [
+        "EN 196-6",
+        "comparable to: ASTM C204",
+        "AASHTO T153",
+        "BS 4359:2"
+      ],
+      "specifications": [
+        {
+          "label": "Voltage",
+          "value": "200V±10%"
+        },
+        {
+          "label": "Timing range",
+          "value": "0.1s<T<999.9s"
+        },
+        {
+          "label": "Timing accuracy",
+          "value": "<0.2s"
+        },
+        {
+          "label": "Measurement accuracy",
+          "value": "＜1%"
+        },
+        {
+          "label": "Temperature range",
+          "value": "8~34℃"
+        },
+        {
+          "label": "Breathable cylinder inner cavity diameter",
+          "value": "Φ12.7mm"
+        },
+        {
+          "label": "Sample height of breathable cylinder inner cavity",
+          "value": "15mm"
+        },
+        {
+          "label": "Number of holes in perforated plate",
+          "value": "35"
+        },
+        {
+          "label": "Perforated plate hole diameter",
+          "value": "Φ1.0mm"
+        },
+        {
+          "label": "Perforated plate thickness",
+          "value": "1mm"
+        },
+        {
+          "label": "Outer dimension",
+          "value": "430×500×280mm"
+        },
+        {
+          "label": "Weight",
+          "value": "8kg"
         }
       ],
       "hasManual": false,
