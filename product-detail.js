@@ -12,7 +12,7 @@
     if (dropdown) {
         let html = '';
         categories.forEach(cat => {
-            html += `<a href="../products.html?category=${cat.id}">${cat.name}</a>`;
+            html += `<a href="/products.html?category=${cat.id}">${cat.name}</a>`;
         });
         dropdown.innerHTML = html;
     }
@@ -47,6 +47,16 @@
     function renderProductDetail(product) {
         const container = document.getElementById('product-detail-container');
         
+        // 处理标准列表（新增）
+        const standardsHtml = product.standards && product.standards.length > 0 ? `
+            <div class="product-standards">
+                <h3>Applicable Standards</h3>
+                <ul class="standards-list">
+                    ${product.standards.map(std => `<li>${std}</li>`).join('')}
+                </ul>
+            </div>
+        ` : '';
+
         // 处理特点列表（如果为空则隐藏该部分）
         const featuresHtml = product.features && product.features.length > 0 ? `
             <div class="product-features">
@@ -78,29 +88,24 @@
         if (product.hasVideo) badgesHtml += '<span class="badge badge-video"><i class="fas fa-video"></i> Video Available</span>';
         if (product.hasManual) badgesHtml += '<span class="badge badge-manual"><i class="fas fa-file-pdf"></i> Manual</span>';
 
-        // 图片处理（主图和缩略图相同，可扩展多图）
-        const imagePath = product.image || product.thumbnail || '';
+        // 主图使用 thumbnail 字段
+        const thumbnailPath = product.thumbnail || '';
 
         const html = `
             <div class="product-header">
                 <div class="product-gallery">
                     <div class="product-main-image">
-                        ${imagePath ? `<img src="${imagePath}" alt="${product.name}" id="main-image">` : '<i class="fas fa-cogs" style="font-size: 10rem; display: flex; justify-content: center; align-items: center; height: 300px;"></i>'}
+                        ${thumbnailPath ? `<img src="${thumbnailPath}" alt="${product.name}" id="main-image">` : '<i class="fas fa-cogs" style="font-size: 10rem; display: flex; justify-content: center; align-items: center; height: 300px;"></i>'}
                     </div>
-                    ${product.thumbnail && product.thumbnail !== product.image ? `
-                        <div class="product-thumbnail" onclick="document.getElementById('main-image').src='${product.thumbnail}'">
-                            <img src="${product.thumbnail}" alt="thumbnail" style="width:100%; height:100%; object-fit:cover;">
-                        </div>
-                    ` : ''}
                 </div>
                 <div class="product-info-header">
-                    <span class="product-category">${product.category.replace('Luda ', '')}</span>
                     <h1 class="product-title">${product.name}</h1>
                     <div class="product-model">Model: ${product.model}</div>
                     ${badgesHtml ? `<div class="product-badges">${badgesHtml}</div>` : ''}
                     <div class="product-description">${product.description}</div>
                 </div>
             </div>
+            ${standardsHtml}
             ${featuresHtml}
             ${specsHtml}
         `;

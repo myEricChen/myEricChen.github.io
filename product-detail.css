@@ -73,31 +73,46 @@ header {
 .dropdown {
     position: relative;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;                  /* 右对齐，菜单向左展开 */
+    left: auto;                 /* 取消左对齐 */
     background-color: white;
     min-width: 280px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     border-radius: 8px;
     padding: 12px 0;
     z-index: 10;
-    max-height: 400px;
-    overflow-y: auto;
+    
+    /* 移除高度限制和滚动 */
+    max-height: none;
+    overflow-y: visible;
+    
+    /* 多列布局 */
+    column-count: 3;            /* 根据分类数量可调整 */
+    column-gap: 20px;
+    width: 600px;               /* 固定宽度，确保三列完整 */
+    max-width: 90vw;            /* 小屏时不超过视口宽度 */
 }
+
+/* 防止分类项跨列 */
+.dropdown-content a {
+    display: block;
+    padding: 8px 20px;
+    color: #1e3a5f;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background 0.2s;
+    break-inside: avoid-column;  /* 防止被列分割 */
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.dropdown-content a {
-    color: #1e3a5f;
-    padding: 8px 20px;
-    text-decoration: none;
-    display: block;
-    font-size: 0.95rem;
-    transition: background 0.2s;
-}
+
 .dropdown-content a:hover {
     background-color: #f5f5f5;
     color: #d71920;
@@ -163,15 +178,27 @@ header {
 }
 .product-main-image {
     width: 100%;
-    height: auto;
+    height: 300px;               /* 固定高度 */
     border-radius: 20px;
-    background: #f0f4fa;
+    background: #f0f4fa;         /* 与卡片背景色一致 */
     overflow: hidden;
+    display: flex;                /* 确保内部居中（可选，object-fit 已居中） */
+    align-items: center;
+    justify-content: center;
 }
+
 .product-main-image img {
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: contain;          /* 保持比例完整显示，多余背景色填充 */
+    display: block;
+}
+
+/* 移动端缩小高度 */
+@media (max-width: 640px) {
+    .product-main-image {
+        height: 200px;
+    }
 }
 .product-thumbnail {
     width: 100px;
@@ -206,7 +233,7 @@ header {
     line-height: 1.2;
 }
 .product-model {
-    font-family: monospace;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: #ecf2f9;
     padding: 6px 16px;
     border-radius: 30px;
@@ -381,4 +408,45 @@ footer {
     .features-list { grid-template-columns: 1fr; }
     .specs-table td { display: block; width: 100%; }
     .specs-table td:first-child { width: 100%; }
+}
+
+/* 响应式：根据屏幕宽度调整列数 */
+@media (max-width: 900px) {
+    .dropdown-content {
+        column-count: 2;        /* 中屏2列 */
+        width: 450px;
+    }
+}
+@media (max-width: 600px) {
+    .dropdown-content {
+        column-count: 1;        /* 小屏1列 */
+        width: 280px;
+    }
+}
+
+/* 标准列表 */
+.product-standards {
+    margin: 30px 0;
+}
+.product-standards h3 {
+    font-size: 1.5rem;
+    color: #0a2647;
+    margin-bottom: 20px;
+    border-left: 6px solid #d71920;
+    padding-left: 15px;
+}
+.standards-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.standards-list li {
+    background: #eef2f6;
+    color: #1f4973;
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
 }

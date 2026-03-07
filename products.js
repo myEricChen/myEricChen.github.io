@@ -84,7 +84,6 @@
                         ${thumbnailHtml}
                     </div>
                     <div class="product-info">
-                        <span class="product-category-badge">${dev.category.replace('Luda ', '')}</span>
                         <h3 class="product-title">${dev.name}</h3>
                         <span class="product-model">${dev.model}</span>
                         <p class="product-desc">${shortDesc}</p>

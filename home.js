@@ -1,3 +1,11 @@
+/*
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2026-02-25 10:52:28
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2026-03-07 08:11:54
+ * @FilePath: \myEricChen.github.io\home.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 (function() {
     if (!window.ludaData) {
         console.error('Data not found! Make sure /data/data.js is loaded.');
@@ -12,7 +20,7 @@
         let html = '';
         categories.forEach(cat => {
             // 链接到产品页并传递分类ID，产品页需解析参数
-            html += `<a href="/products/index.html?category=${cat.id}">${cat.name}</a>`;
+            html += `<a href="/products.html?category=${cat.id}">${cat.name}</a>`;
         });
         dropdown.innerHTML = html;
     }
@@ -24,7 +32,7 @@
         categories.forEach(cat => {
             // 使用 icon 字段作为图片源，若图片加载失败则显示默认图标
             html += `
-                <a href="/products/index.html?category=${cat.id}" class="category-card">
+                <a href="/products.html?category=${cat.id}" class="category-card">
                     <img src="${cat.icon}" alt="${cat.name}" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="category-icon" style="display: none;"><i class="fas fa-cogs"></i></div>
                     <h3>${cat.name}</h3>
