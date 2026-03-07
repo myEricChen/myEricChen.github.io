@@ -109,8 +109,10 @@ header {
     break-inside: avoid-column;  /* 防止被列分割 */
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+@media (hover: hover) {
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
 }
 
 .dropdown-content a:hover {
@@ -325,7 +327,8 @@ header {
 .specs-table td:first-child {
     font-weight: 600;
     color: #0a2647;
-    width: 200px;
+    width: 300px;
+    max-width: 310px;
     background-color: #f8fafc;
 }
 .specs-table td:last-child {
@@ -449,4 +452,44 @@ footer {
     border-radius: 30px;
     font-size: 0.9rem;
     font-weight: 500;
+}
+
+@media (max-width: 640px) {
+    .product-detail {
+        padding: 20px;
+    }
+    .features-list {
+        grid-template-columns: 1fr;
+    }
+    
+    /* 重设表格为卡片式两列布局 */
+    .specs-table,
+    .specs-table tbody,
+    .specs-table tr,
+    .specs-table td {
+        display: block;
+    }
+    .specs-table tr {
+        margin-bottom: 15px;
+        border: 1px solid #eaeef5;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: white;
+    }
+    .specs-table td {
+        display: flex;
+        padding: 10px 15px;
+        border: none;
+        width: 100%;
+    }
+    .specs-table td:first-child {
+        width: 150px;                     /* 固定宽度 150px */
+        background-color: #f8fafc;
+        font-weight: 600;
+        border-right: 1px solid #eaeef5;
+    }
+    .specs-table td:last-child {
+        flex: 1;                           /* 占据剩余空间 */
+        background-color: white;
+    }
 }

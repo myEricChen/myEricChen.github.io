@@ -109,8 +109,10 @@ header {
     break-inside: avoid-column;  /* 防止被列分割 */
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+@media (hover: hover) {
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
 }
 
 .dropdown-content a:hover {
