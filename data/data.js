@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-09 10:36:47
+ * @LastEditTime: 2026-03-09 11:06:54
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -10494,6 +10494,320 @@ window.ludaData = {
         {
           "label": "Weight",
           "value": "8kg"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "E001",
+      "name": "Cement Mortar Mixer",
+      "model": "JJ-5",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/JJ-5.png",
+      "image": "/assets/images/JJ-5-Image.png",
+      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
+      "features": [
+        "Controlled by a dual-speed motor via a time program controller, it automatically completes the specified working cycle of \"slow rotation — stop — fast rotation\".",
+        "All-metal structure ensures stable testing performance."
+      ],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Low-speed rotation speed (r/min)",
+          "value": "140±5"
+        },
+        {
+          "label": "High-speed rotation speed (r/min)",
+          "value": "285±10"
+        },
+        {
+          "label": "Low-speed revolution speed (r/min)",
+          "value": "62±5"
+        },
+        {
+          "label": "High-speed revolution speed (r/min)",
+          "value": "125±10"
+        },
+        {
+          "label": "Width of mixing blade (mm)",
+          "value": "135"
+        },
+        {
+          "label": "Connection thread specification between mixing blade and mixing blade shaft",
+          "value": "M18×1.5"
+        },
+        {
+          "label": "Volume of mixing pot (L)",
+          "value": "5"
+        },
+        {
+          "label": "Wall thickness of mixing pot (mm)",
+          "value": "1.5"
+        },
+        {
+          "label": "Working gap between mixing blade and mixing pot (mm)",
+          "value": "3±1"
+        },
+        {
+          "label": "Power supply voltage",
+          "value": "AC380V±10%, 50Hz"
+        },
+        {
+          "label": "Overall dimensions (mm)",
+          "value": "550×300×700"
+        },
+        {
+          "label": "Weight (kg)",
+          "value": "85"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "E002",
+      "name": "Cement Paste Mixer",
+      "model": "NJ-160A",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/NJ-160A.png",
+      "image": "/assets/images/NJ-160A-Image.png",
+      "description": "This product is suitable for determining the standard consistency and setting time of cement, as well as for making soundness test blocks. It is an indispensable piece of equipment in laboratories of cement manufacturing plants, construction units, relevant universities, and research institutions.",
+      "features": [
+        "Controlled by a dual-speed motor via a time program controller, it automatically completes the specified working cycle of \"slow rotation — stop — fast rotation\".",
+        "All-metal structure ensures stable testing performance."
+      ],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Low-speed revolution speed (r/min)",
+          "value": "62±5"
+        },
+        {
+          "label": "High-speed revolution speed (r/min)",
+          "value": "125±10"
+        },
+        {
+          "label": "Low-speed rotation speed (r/min)",
+          "value": "140±5"
+        },
+        {
+          "label": "High-speed rotation speed (r/min)",
+          "value": "258±10"
+        },
+        {
+          "label": "Automatic control program time at low speed (s)",
+          "value": "120±3"
+        },
+        {
+          "label": "Automatic control program stop time (s)",
+          "value": "15"
+        },
+        {
+          "label": "Automatic control program time at high speed (s)",
+          "value": "120±3"
+        },
+        {
+          "label": "Connection thread specification between mixing blade and blade shaft",
+          "value": "M16×1"
+        },
+        {
+          "label": "Working gap between mixing blade and mixing pot (mm)",
+          "value": "2±1"
+        },
+        {
+          "label": "Width of mixing blade (mm)",
+          "value": "111"
+        },
+        {
+          "label": "Wall thickness of mixing pot (mm)",
+          "value": "1"
+        },
+        {
+          "label": "Dimensions of mixing pot (inner diameter × depth) (mm)",
+          "value": "Φ160×139"
+        },
+        {
+          "label": "Mixing volume (L)",
+          "value": "2.5"
+        },
+        {
+          "label": "Power supply voltage",
+          "value": "AC380V±10%, 50Hz"
+        },
+        {
+          "label": "Overall dimensions (mm)",
+          "value": "450×250×500"
+        },
+        {
+          "label": "Weight (kg)",
+          "value": "65"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "E003",
+      "name": "Cement Mortar Vibrating Platform",
+      "model": "ZT-96",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/ZT-96.png",
+      "image": "/assets/images/ZT-96-Image.png",
+      "description": "This product is suitable for the compaction and molding of cement mortar specimens during preparation. It is mainly used in cement plants, construction units, and relevant academic institutions for testing and experimentation.",
+      "features": [
+        "Composed of a vibrating component, a frame section, and an infrared counting control system;",
+        "Infrared counting automatic control, automatically stops at 60 counts per second, offering convenient operation and accurate counting;",
+        "Distance from the center of the table disc to the center of the arm shaft is 800mm."
+      ],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Drop distance (mm)",
+          "value": "15±0.3"
+        },
+        {
+          "label": "Vibration frequency",
+          "value": "60 times/60 seconds ±2 seconds"
+        },
+        {
+          "label": "Weight of vibrating part (kg)",
+          "value": "20±0.5"
+        },
+        {
+          "label": "Motor power (W)",
+          "value": "70"
+        },
+        {
+          "label": "Power supply voltage",
+          "value": "AC220V±10%, 50Hz"
+        },
+        {
+          "label": "Overall dimensions (mm)",
+          "value": "1010×300×460"
+        },
+        {
+          "label": "Weight (kg)",
+          "value": "65"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "E004",
+      "name": "Cement Mortar Flow Table",
+      "model": "NLD-3",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/NLD-3.png",
+      "image": "/assets/images/NLD-3-Image.png",
+      "description": "This product is suitable for determining the water requirement for cement mortar to achieve standard consistency by measuring its fluidity value.",
+      "features": [
+        "The tabletop is made of hard chrome-plated material, featuring a bright surface, elegant appearance, and excellent resistance to rust.",
+        "The controller offers high precision and is simple and convenient to operate."
+      ],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Vibration drop distance (mm)",
+          "value": "10±0.2"
+        },
+        {
+          "label": "Vibration frequency (Hz)",
+          "value": "1"
+        },
+        {
+          "label": "Number of vibrations (times)",
+          "value": "25"
+        },
+        {
+          "label": "Weight of vibrating part (kg)",
+          "value": "4.35±0.15"
+        },
+        {
+          "label": "Tabletop material",
+          "value": "Cast steel, working surface hard chrome-plated"
+        },
+        {
+          "label": "Tabletop diameter (mm)",
+          "value": "Φ300±1"
+        },
+        {
+          "label": "Overall dimensions (mm)",
+          "value": "200×300×280"
+        },
+        {
+          "label": "Weight (kg)",
+          "value": "25"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false
+    },
+    {
+      "id": "E005",
+      "name": "Cement Paste Mixer",
+      "model": "NJ-160F",
+      "category": "Cement Testing Equipment Series",
+      "thumbnail": "/assets/images/NJ-160F.png",
+      "image": "/assets/images/NJ-160F-Image.png",
+      "description": "The cement paste mixer is primarily used for determining the standard consistency and setting time of cement, as well as for preparing soundness test blocks.",
+      "features": [],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Low-speed revolution speed (r/min)",
+          "value": "62±2"
+        },
+        {
+          "label": "High-speed revolution speed (r/min)",
+          "value": "125±3"
+        },
+        {
+          "label": "Low-speed rotation speed (r/min)",
+          "value": "140±2"
+        },
+        {
+          "label": "High-speed rotation speed (r/min)",
+          "value": "258±3"
+        },
+        {
+          "label": "Connection thread specification between mixing blade and blade shaft",
+          "value": "M16×1"
+        },
+        {
+          "label": "Width of mixing blade (mm)",
+          "value": "111"
+        },
+        {
+          "label": "Wall thickness of mixing pot (mm)",
+          "value": "1"
+        },
+        {
+          "label": "Mixing volume (L)",
+          "value": "2.5"
+        },
+        {
+          "label": "Power supply voltage",
+          "value": "AC220V±10%, 50Hz"
+        },
+        {
+          "label": "Overall dimensions (mm)",
+          "value": "570×340×600"
+        },
+        {
+          "label": "Weight (kg)",
+          "value": "44"
         }
       ],
       "hasManual": false,
