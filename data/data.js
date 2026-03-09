@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-07 17:04:12
+ * @LastEditTime: 2026-03-09 10:36:47
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -2747,7 +2747,7 @@ window.ludaData = {
       "name": "Electronic Universal Material Testing Machine",
       "model": "WDW-100",
       "category": "Electromechanical Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WDW-20.png",
+      "thumbnail": "/assets/images/WDW-50.png",
       "image": "myImages/WDW-100-Image.png",
       "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
       "features": [
@@ -2855,7 +2855,7 @@ window.ludaData = {
       "name": "Electronic Universal Material Testing Machine",
       "model": "WDW-50",
       "category": "Electromechanical Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WDW-20.png",
+      "thumbnail": "/assets/images/WDW-50.png",
       "image": "myImages/WDW-50-Image.png",
       "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield  strength, tensile  strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
       "features": [
@@ -9715,15 +9715,7 @@ window.ludaData = {
         },
         {
           "label": "Number of trial molds placed",
-          "value": "40×40×160 trial molds, 6 groups can be placed on each layer"
-        },
-        {
-          "label": "150×150×150 mold trial, 3 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "100×100×100 mold trial, 4 groups can be placed on each layer",
-          "value": ""
+          "value": "40×40×160 trial molds, 6 groups can be placed on each layer; 150×150×150 mold trial, 3 groups can be placed on each layer; 100×100×100 mold trial, 4 groups can be placed on each layer"
         },
         {
           "label": "Studio size",
@@ -9782,15 +9774,7 @@ window.ludaData = {
         },
         {
           "label": "Number of trial molds placed",
-          "value": "40×40×160 trial molds, 6 groups can be placed on each layer"
-        },
-        {
-          "label": "150×150×150 mold trial, 3 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "100×100×100 mold trial, 4 groups can be placed on each layer",
-          "value": ""
+          "value": "40×40×160 trial molds, 6 groups can be placed on each layer; 150×150×150 mold trial, 3 groups can be placed on each layer; 100×100×100 mold trial, 4 groups can be placed on each layer"
         },
         {
           "label": "Studio size",
@@ -9849,15 +9833,7 @@ window.ludaData = {
         },
         {
           "label": "Number of trial molds placed",
-          "value": "40×40×160 trial molds, 6 groups can be placed on each layer"
-        },
-        {
-          "label": "150×150×150 mold trial, 3 groups can be placed on each layer",
-          "value": ""
-        },
-        {
-          "label": "100×100×100 mold trial, 4 groups can be placed on each layer",
-          "value": ""
+          "value": "40×40×160 trial molds, 6 groups can be placed on each layer; 150×150×150 mold trial, 3 groups can be placed on each layer; 100×100×100 mold trial, 4 groups can be placed on each layer"
         },
         {
           "label": "Studio size",
