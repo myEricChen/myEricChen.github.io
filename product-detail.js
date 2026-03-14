@@ -57,6 +57,16 @@
             </div>
         ` : '';
 
+        // ✅ 新增：处理定制化选项
+        const customizationHtml = product.customized && product.customized.length > 0 ? `
+            <div class="product-customization">
+                <h3>Customization Options</h3>
+                <ul class="features-list">
+                    ${product.customized.map(opt => `<li>${opt}</li>`).join('')}
+                </ul>
+            </div>
+        ` : '';
+
         // 处理特点列表（如果为空则隐藏该部分）
         const featuresHtml = product.features && product.features.length > 0 ? `
             <div class="product-features">
@@ -106,6 +116,7 @@
                 </div>
             </div>
             ${standardsHtml}
+             ${customizationHtml}
             ${featuresHtml}
             ${specsHtml}
         `;

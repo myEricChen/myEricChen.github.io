@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-14 14:14:25
+ * @LastEditTime: 2026-03-14 14:21:39
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -7420,7 +7420,7 @@ window.ludaData = {
     {
       "id": "D006",
       "name": "Cement and Concrete Curing Chamber",
-      "suffixName": "",
+      "suffixName": "18 triple cement molds",
       "model": "HBY-40B",
       "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/HBY-40B（铁门）.png",
