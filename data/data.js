@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-09 11:06:54
+ * @LastEditTime: 2026-03-14 10:52:39
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -71,6 +71,7 @@ window.ludaData = {
     {
       "id": "M022",
       "name": "Digital Display Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WE-1000B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WE-1000B（出口）.png",
@@ -159,11 +160,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P001",
       "name": "Shock Absorber Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WAW-600Pro",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WAW-600Pro.png",
@@ -244,11 +247,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P002",
       "name": "Shock Absorber Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WAW-1000Pro",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WAW-1000Pro.png",
@@ -329,12 +334,14 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P003",
       "name": "Electro-hydraulic Servo Steel Strand Special Testing Machine",
-      "model": "WAW-600GS",
+      "suffixName": "",
+      "model": "WAW-600G",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WAW-600GS.png",
       "image": "myImages/WAW-600GS-Image.png",
@@ -346,7 +353,6 @@ window.ludaData = {
         "With upper/lower pressure plate, to achieve tensile and compressive double space.",
         "Sensor adopts wheel and spoke sensor, high precision, stable rate, with reciprocity.",
         "Brand computer, with wireless keyboard and mouse, large display, sensitive operation.",
-        "Servo motor and radial piston pump, ultra-low decibel, oil temperature is not easy to rise, efficient and stable.",
         "Using double oil pumps and double motors to realize independent oil source and stable pressure supply."
       ],
       "standards": [
@@ -364,11 +370,11 @@ window.ludaData = {
         },
         {
           "label": "Effective Load Measurement Range (kN)",
-          "value": "30～600"
+          "value": "60～600"
         },
         {
           "label": "Load Measurement Accuracy",
-          "value": "±0.5%"
+          "value": "±1%"
         },
         {
           "label": "Tensile Vertical Test Space (mm)",
@@ -422,12 +428,14 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": ["Can be upgraded to Class 0.5% Accuracy Class", "Can be upgraded to Servo Motor Hydraulic System"]
     },
     {
       "id": "P004",
       "name": "Electro-hydraulic Servo Steel Strand Special Testing Machine",
-      "model": "WAW-1000GS",
+      "suffixName": "",
+      "model": "WAW-1000G",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WAW-1000GS.png",
       "image": "myImages/WAW-1000GS-Image.png",
@@ -439,7 +447,6 @@ window.ludaData = {
         "With upper/lower pressure plate, to achieve tensile and compressive double space.",
         "Sensor adopts wheel and spoke sensor, high precision, stable rate, with reciprocity.",
         "Brand computer, with wireless keyboard and mouse, large display, sensitive operation.",
-        "Servo motor and radial piston pump, ultra-low decibel, oil temperature is not easy to rise, efficient and stable.",
         "Using double oil pumps and double motors to realize independent oil source and stable pressure supply."
       ],
       "standards": [
@@ -457,11 +464,11 @@ window.ludaData = {
         },
         {
           "label": "Effective Load Measurement Range (kN)",
-          "value": "50～1000"
+          "value": "100～1000"
         },
         {
           "label": "Load Measurement Accuracy",
-          "value": "±0.5%"
+          "value": "±1%"
         },
         {
           "label": "Tensile Vertical Test Space (mm)",
@@ -515,182 +522,14 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P005",
-      "name": "Servo Steel Strand Special Testing Machine",
-      "model": "WAW-600G",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WAW-600G.png",
-      "image": "myImages/WAW-600G-Image.png",
-      "description": "WAW series electro-hydraulic servo steel strand special test machine is mainly used for the tensile test of steel strand, can do the tensile, compression and other tests  of  metal materials;  equipped  with  appropriate  fixtures,  can  also  be  used  to conduct the tensile, compression, bending and shear tests of non-metallic materials.",
-      "features": [
-        "The machine adopts high precision displacement sensor, accurate data.",
-        "Adopt high precision electronic extensometer, accurate and effective measurement of deformation value.",
-        "Adopt high-resolution acquisition system, fast data acquisition speed and high accuracy.",
-        "Hydraulic control adopts integrated oil servo control system, which can automatically lift,  automatically position,automatically set the mark, realize equal force, equal displacement and mixed control."
-      ],
-      "standards": [
-        "ASTM E8",
-        "UNI 7676 (Wire Strands)",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "600"
-        },
-        {
-          "label": "Measuring range and measuring range(KN)",
-          "value": "50-600"
-        },
-        {
-          "label": "Indication relative error",
-          "value": "±1%"
-        },
-        {
-          "label": "Maximum Tensile Test Space(mm)",
-          "value": "1050"
-        },
-        {
-          "label": "Maximum compression test space(mm)",
-          "value": "950"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "180"
-        },
-        {
-          "label": "Compression Platen dimension (mm)",
-          "value": "Φ223(Upper) Φ230(Lower)"
-        },
-        {
-          "label": "Distance between two pillars in tension and compression space(mm)",
-          "value": "510"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "60"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "2.1"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "890×590×2700"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "1000×700×850"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "3200"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P006",
-      "name": "Servo Steel Strand Special Testing Machine",
-      "model": "WAW-1000G",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WAW-1000G.png",
-      "image": "myImages/WAW-1000G-Image.png",
-      "description": "WAW series electro-hydraulic servo steel strand special test machine is mainly used for the tensile test of steel strand, can do the tensile, compression and other tests  of  metal materials;  equipped  with  appropriate  fixtures,  can  also  be  used  to conduct the tensile, compression, bending and shear tests of non-metallic materials.",
-      "features": [
-        "The machine adopts high precision displacement sensor, accurate data.",
-        "Adopt high precision electronic extensometer, accurate and effective measurement of deformation value.",
-        "Adopt high-resolution acquisition system, fast data acquisition speed and high accuracy.",
-        "Hydraulic control adopts integrated oil servo control system, which can automatically lift,  automatically position,automatically set the mark, realize equal force, equal displacement and mixed control."
-      ],
-      "standards": [
-        "ASTM E8",
-        "UNI 7676 (Wire Strands)",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "1000"
-        },
-        {
-          "label": "Measuring range and measuring range(KN)",
-          "value": "100-1000"
-        },
-        {
-          "label": "Indication relative error",
-          "value": "±1%"
-        },
-        {
-          "label": "Maximum Tensile Test Space(mm)",
-          "value": "1050"
-        },
-        {
-          "label": "Maximum compression test space(mm)",
-          "value": "950"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "180"
-        },
-        {
-          "label": "Compression Platen dimension (mm)",
-          "value": "Φ223(Upper) Φ230(Lower)"
-        },
-        {
-          "label": "Distance between two pillars in tension and compression space(mm)",
-          "value": "510"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "60"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "2.1"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "890×590×2700"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "1000×700×850"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "3200"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": ["Can be upgraded to Class 0.5% Accuracy Class", "Can be upgraded to Servo Motor Hydraulic System"]
     },
     {
       "id": "P007",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-100S",
+      "suffixName": "",
+      "model": "WAW-100B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WAW-100S.png",
       "image": "myImages/WAW-100S-Image.png",
@@ -724,11 +563,11 @@ window.ludaData = {
         },
         {
           "label": "Effective Load Measurement Range (kN)",
-          "value": "5～100"
+          "value": "10～100"
         },
         {
           "label": "Load Measurement Accuracy",
-          "value": "±0.5%"
+          "value": "±1%"
         },
         {
           "label": "Tensile Vertical Test Space (mm)",
@@ -794,12 +633,14 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": ["Can be upgraded to Class 0.5% Accuracy Class", "Can be upgraded to Servo Motor Hydraulic System"]
     },
     {
       "id": "P008",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-300S",
+      "suffixName": "",
+      "model": "WAW-300B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WAW-300S.png",
       "image": "myImages/WAW-300S-Image.png",
@@ -833,11 +674,11 @@ window.ludaData = {
         },
         {
           "label": "Effective Load Measurement Range (kN)",
-          "value": "15～300"
+          "value": "30～300"
         },
         {
           "label": "Load Measurement Accuracy",
-          "value": "±0.5%"
+          "value": "±1%"
         },
         {
           "label": "Tensile Vertical Test Space (mm)",
@@ -903,12 +744,14 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": ["Can be upgraded to Class 0.5% Accuracy Class", "Can be upgraded to Servo Motor Hydraulic System"]
     },
     {
       "id": "P009",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-600S",
+      "suffixName": "",
+      "model": "WAW-600B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WAW-600S.png",
       "image": "myImages/WAW-600S-Image.png",
@@ -942,11 +785,11 @@ window.ludaData = {
         },
         {
           "label": "Effective Load Measurement Range (kN)",
-          "value": "30～600"
+          "value": "60～600"
         },
         {
           "label": "Load Measurement Accuracy",
-          "value": "±0.5%"
+          "value": "±1%"
         },
         {
           "label": "Tensile Vertical Test Space (mm)",
@@ -1012,12 +855,14 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": ["Can be upgraded to Class 0.5% Accuracy Class", "Can be upgraded to Servo Motor Hydraulic System"]
     },
     {
       "id": "P010",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-1000S",
+      "suffixName": "",
+      "model": "WAW-1000B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WAW-1000S.png",
       "image": "myImages/WAW-1000S-Image.png",
@@ -1051,11 +896,11 @@ window.ludaData = {
         },
         {
           "label": "Effective Load Measurement Range (kN)",
-          "value": "50～1000"
+          "value": "100～1000"
         },
         {
           "label": "Load Measurement Accuracy",
-          "value": "±0.5%"
+          "value": "±1%"
         },
         {
           "label": "Tensile Vertical Test Space (mm)",
@@ -1121,12 +966,14 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": ["Can be upgraded to Class 0.5% Accuracy Class", "Can be upgraded to Servo Motor Hydraulic System"]
     },
     {
       "id": "P011",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-2000S",
+      "suffixName": "",
+      "model": "WAW-2000B",
       "category": "Hydraulic Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WAW-2000S.png",
       "image": "myImages/WAW-2000S-Image.png",
@@ -1160,11 +1007,11 @@ window.ludaData = {
         },
         {
           "label": "Effective Load Measurement Range (kN)",
-          "value": "100～2000"
+          "value": "200～2000"
         },
         {
           "label": "Load Measurement Accuracy",
-          "value": "±0.5%"
+          "value": "±1%"
         },
         {
           "label": "Tensile Vertical Test Space (mm)",
@@ -1230,1059 +1077,16 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P012",
-      "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-100B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WAW-100B.png",
-      "image": "myImages/WAW-100B-Image.png",
-      "description": "This product is suitable for metal, non-metal and composite materials,components of tensile,  compression, bending, shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision, simple operation,convenient,large data storage capacity and other advantages.",
-      "features": [
-        "The tester adopts four columns and two wire rod frame,\"well\"  structure, stronger steel,more stable.",
-        "The machine adopts three closed shields, effective protection against test  piece debris, high safety performance.",
-        "From the previous semi-circular jaws to triangular hydraulic jaws, so that the test piece clamping more tightly, not easy to loosen.",
-        "Standard with upper/lower pressure plate and bending support,can do compression, bending test, more functional, more comprehensive.",
-        "Oil cylinder is placed under, no oil leakage, stable operation.",
-        "Adopt high precision photoelectric encoder, higher displacement accuracy and more stable.",
-        "With windows system control software,automatic storage of data and automatic calculation of test results.",
-        "Servo measurement and control system, can achieve constant speed, constant loading, constant force value, more stable control.",
-        "The machine adopts high-precision digital servo valve to control loading, with higher precision and more stable data.",
-        "Oil source control cabinet design humanized, more ergonomic, more convenient operation."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "100"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "10～100"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "480"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "480"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0-15"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "10-20"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "120"
-        },
-        {
-          "label": "Upper pressure plate size(mm)",
-          "value": "Φ176"
-        },
-        {
-          "label": "Lower pressure plate size(mm)",
-          "value": "Φ176"
-        },
-        {
-          "label": "Distance between two pillars in tension and compression space(mm)",
-          "value": "420"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "1.3"
-        },
-        {
-          "label": "Supply Voltage",
-          "value": "AC380V±10%,50-60Hz"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "720×550×1660"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "600×550×1400"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "1600"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P013",
-      "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-300B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WAW-300B.png",
-      "image": "myImages/WAW-300B-Image.png",
-      "description": "This product is suitable for metal, non-metal and composite materials,components of tensile,  compression, bending, shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision, simple operation,convenient,large data storage capacity and other advantages.",
-      "features": [
-        "The tester adopts four columns and two wire rod frame,\"well\"  structure, stronger steel,more stable.",
-        "The machine adopts three closed shields, effective protection against test  piece debris, high safety performance.",
-        "From the previous semi-circular jaws to triangular hydraulic jaws, so that the test piece clamping more tightly, not easy to loosen.",
-        "Standard with upper/lower pressure plate and bending support,can do compression, bending test, more functional, more comprehensive.",
-        "Oil cylinder is placed under, no oil leakage, stable operation.",
-        "Adopt high precision photoelectric encoder, higher displacement accuracy and more stable.",
-        "With windows system control software,automatic storage of data and automatic calculation of test results.",
-        "Servo measurement and control system, can achieve constant speed, constant loading, constant force value, more stable control.",
-        "The machine adopts high-precision digital servo valve to control loading, with higher precision and more stable data.",
-        "Oil source control cabinet design humanized, more ergonomic, more convenient operation."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "300"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "30～300"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "480"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "480"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0-15"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "10-20、20-32"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "120"
-        },
-        {
-          "label": "Upper pressure plate size(mm)",
-          "value": "Φ180"
-        },
-        {
-          "label": "Lower pressure plate size(mm)",
-          "value": "Φ180"
-        },
-        {
-          "label": "Distance between two pillars in tension and compression space(mm)",
-          "value": "420"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "1.3"
-        },
-        {
-          "label": "Supply Voltage",
-          "value": "AC380V±10%,50-60Hz"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "730×600×1840"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "600×550×1400"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "1800"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P014",
-      "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-600B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WAW-600B.png",
-      "image": "myImages/WAW-600B-Image.png",
-      "description": "This product is suitable for metal, non-metal and composite materials,components of tensile,  compression, bending, shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision, simple operation,convenient,large data storage capacity and other advantages.",
-      "features": [
-        "The tester adopts four columns and two wire rod frame,\"well\"  structure, stronger steel,more stable.",
-        "The machine adopts three closed shields, effective protection against test  piece debris, high safety performance.",
-        "From the previous semi-circular jaws to triangular hydraulic jaws, so that the test piece clamping more tightly, not easy to loosen.",
-        "Standard with upper/lower pressure plate and bending support,can do compression, bending test, more functional, more comprehensive.",
-        "Oil cylinder is placed under, no oil leakage, stable operation.",
-        "Adopt high precision photoelectric encoder, higher displacement accuracy and more stable.",
-        "With windows system control software,automatic storage of data and automatic calculation of test results.",
-        "Servo measurement and control system, can achieve constant speed, constant loading, constant force value, more stable control.",
-        "The machine adopts high-precision digital servo valve to control loading, with higher precision and more stable data.",
-        "Oil source control cabinet design humanized, more ergonomic, more convenient operation."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "600"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "60～600"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "690"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "620"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0-15"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "13-26、26-40"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "170"
-        },
-        {
-          "label": "Upper pressure plate size(mm)",
-          "value": "Φ220"
-        },
-        {
-          "label": "Lower pressure plate size(mm)",
-          "value": "Φ230"
-        },
-        {
-          "label": "Distance between two pillars in tension and compression space(mm)",
-          "value": "510"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "2.1"
-        },
-        {
-          "label": "Supply Voltage",
-          "value": "AC380V±10%,50-60Hz"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "820×600×2000"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "600×550×1400"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "2400"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P015",
-      "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-1000B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WAW-1000B.png",
-      "image": "myImages/WAW-1000B-Image.png",
-      "description": "This product is suitable for metal, non-metal and composite materials,components of tensile,  compression, bending, shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision, simple operation,convenient,large data storage capacity and other advantages.",
-      "features": [
-        "The tester adopts four columns and two wire rod frame,\"well\"  structure, stronger steel,more stable.",
-        "The machine adopts three closed shields, effective protection against test  piece debris, high safety performance.",
-        "From the previous semi-circular jaws to triangular hydraulic jaws, so that the test piece clamping more tightly, not easy to loosen.",
-        "Standard with upper/lower pressure plate and bending support,can do compression, bending test, more functional, more comprehensive.",
-        "Oil cylinder is placed under, no oil leakage, stable operation.",
-        "Adopt high precision photoelectric encoder, higher displacement accuracy and more stable.",
-        "With windows system control software,automatic storage of data and automatic calculation of test results.",
-        "Servo measurement and control system, can achieve constant speed, constant loading, constant force value, more stable control.",
-        "The machine adopts high-precision digital servo valve to control loading, with higher precision and more stable data.",
-        "Oil source control cabinet design humanized, more ergonomic, more convenient operation."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "1000"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "100～1000"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "690"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "620"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0-40"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "14-32、30-50"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "170"
-        },
-        {
-          "label": "Upper pressure plate size(mm)",
-          "value": "Φ220"
-        },
-        {
-          "label": "Lower pressure plate size(mm)",
-          "value": "Φ230"
-        },
-        {
-          "label": "Distance between two pillars in tension and compression space(mm)",
-          "value": "510"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "2.1"
-        },
-        {
-          "label": "Supply Voltage",
-          "value": "AC380V±10%,50-60Hz"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "940×650×2080"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "600×550×1400"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "2400"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P016",
-      "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "model": "WAW-2000B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WAW-2000B.png",
-      "image": "myImages/WAW-2000B-Image.png",
-      "description": "This product is suitable for metal, non-metal and composite materials,components of tensile,  compression, bending, shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision, simple operation,convenient,large data storage capacity and other advantages.",
-      "features": [
-        "The tester adopts four columns and two wire rod frame,\"well\"  structure, stronger steel,more stable.",
-        "The machine adopts three closed shields, effective protection against test  piece debris, high safety performance.",
-        "From the previous semi-circular jaws to triangular hydraulic jaws, so that the test piece clamping more tightly, not easy to loosen.",
-        "Standard with upper/lower pressure plate and bending support,can do compression, bending test, more functional, more comprehensive.",
-        "Oil cylinder is placed under, no oil leakage, stable operation.",
-        "Adopt high precision photoelectric encoder, higher displacement accuracy and more stable.",
-        "With windows system control software,automatic storage of data and automatic calculation of test results.",
-        "Servo measurement and control system, can achieve constant speed, constant loading, constant force value, more stable control.",
-        "The machine adopts high-precision digital servo valve to control loading, with higher precision and more stable data.",
-        "Oil source control cabinet design humanized, more ergonomic, more convenient operation."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "2000"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "200～2000"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "695"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "605"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0-50"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "20-40、40-70"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "180"
-        },
-        {
-          "label": "Upper pressure plate size(mm)",
-          "value": "Φ220"
-        },
-        {
-          "label": "Lower pressure plate size(mm)",
-          "value": "Φ230"
-        },
-        {
-          "label": "Distance between two pillars in tension and compression space(mm)",
-          "value": "610"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "3.55"
-        },
-        {
-          "label": "Supply Voltage",
-          "value": "AC380V±10%,50-60Hz"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "1200×800×2685"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "600×550×1400"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "4000"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P017",
-      "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW-100B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WEW-100B.png",
-      "image": "myImages/WEW-100B-Image.png",
-      "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
-      "features": [
-        "The machine adopts high precision displacement sensor, the data is accurate.",
-        "Adopt high resolution collection system,fast data collection speed,high accuracy.",
-        "Adopt the design of hydraulic manual loading, computer display, main body and force meter subposition, easy operation and smooth force addition."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "100"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "10～100"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "480"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "480"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0- 15"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "10-20"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "120"
-        },
-        {
-          "label": "Compression Platen dimension (mm)",
-          "value": "Φ176(Upper) Φ176(Lower)"
-        },
-        {
-          "label": "Horizontal Test Space (mm)",
-          "value": "420"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "1.2"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "730×550×1660"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "1000×700×850"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "1600"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P018",
-      "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW-300B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WEW-300B.png",
-      "image": "myImages/WEW-300B-Image.png",
-      "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
-      "features": [
-        "The machine adopts high precision displacement sensor, the data is accurate.",
-        "Adopt high resolution collection system,fast data collection speed,high accuracy.",
-        "Adopt the design of hydraulic manual loading, computer display, main body and force meter subposition, easy operation and smooth force addition."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "300"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "30～300"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "480"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "480"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0- 15"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "10-20、20-32"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "120"
-        },
-        {
-          "label": "Compression Platen dimension (mm)",
-          "value": "Φ180(Upper) Φ180(Lower)"
-        },
-        {
-          "label": "Horizontal Test Space (mm)",
-          "value": "420"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "1.2"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "730×600×1840"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "1000×700×850"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "1800"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P019",
-      "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW-600B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WEW-600B.png",
-      "image": "myImages/WEW-600B-Image.png",
-      "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
-      "features": [
-        "The machine adopts high precision displacement sensor, the data is accurate.",
-        "Adopt high resolution collection system,fast data collection speed,high accuracy.",
-        "Adopt the design of hydraulic manual loading, computer display, main body and force meter subposition, easy operation and smooth force addition."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "600"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "60～600"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "690"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "620"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0- 15"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "13-26、26-40"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "170"
-        },
-        {
-          "label": "Compression Platen dimension (mm)",
-          "value": "Φ220(Upper) Φ230(Lower)"
-        },
-        {
-          "label": "Horizontal Test Space (mm)",
-          "value": "510"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "1.8"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "820×600×2000"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "1000×700×850"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "2100"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P020",
-      "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW-1000B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WEW-1000B.png",
-      "image": "myImages/WEW-1000B-Image.png",
-      "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
-      "features": [
-        "The machine adopts high precision displacement sensor, the data is accurate.",
-        "Adopt high resolution collection system,fast data collection speed,high accuracy.",
-        "Adopt the design of hydraulic manual loading, computer display, main body and force meter subposition, easy operation and smooth force addition."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "1000"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "100～1000"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "690"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "620"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0- 40"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "14-32、30-50"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "170"
-        },
-        {
-          "label": "Compression Platen dimension (mm)",
-          "value": "Φ220(Upper) Φ230(Lower)"
-        },
-        {
-          "label": "Horizontal Test Space (mm)",
-          "value": "510"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "1.8"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "940×650×2080"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "1000×700×850"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "2400"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P021",
-      "name": "Screen Display Universal Material Testing Machine",
-      "model": "WEW-2000B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WEW-2000B.png",
-      "image": "myImages/WEW-2000B-Image.png",
-      "description": "The tester adopts the design of hydraulic force, computer display, main body  and force meter subposition, with easy operation, stable and reliable work, high test  accuracy, smooth force and other characteristics. The equipment is suitable for metal, cement, concrete, plastic and other materials tensile, compression, bending, shear test.",
-      "features": [
-        "The machine adopts high precision displacement sensor, the data is accurate.",
-        "Adopt high resolution collection system,fast data collection speed,high accuracy.",
-        "Adopt the design of hydraulic manual loading, computer display, main body and force meter subposition, easy operation and smooth force addition."
-      ],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "2000"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "200～2000"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "790"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "720"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0- 40"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "20-40、40-60"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "180"
-        },
-        {
-          "label": "Compression Platen dimension (mm)",
-          "value": "Φ220(Upper) Φ230(Lower)"
-        },
-        {
-          "label": "Horizontal Test Space (mm)",
-          "value": "610"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "3.55"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "1200×800×2940"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "1000×700×850"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "4000"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": ["Can be upgraded to Class 0.5% Accuracy Class", "Can be upgraded to Servo Motor Hydraulic System"]
     },
     {
       "id": "P022",
       "name": "Digital Display Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WE-100B",
       "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WE-100B.png",
+      "thumbnail": "/assets/images/WE-1000B（出口）.png",
       "image": "myImages/WE-100B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
@@ -2334,11 +1138,11 @@ window.ludaData = {
         },
         {
           "label": "Compression Platen dimension (mm)",
-          "value": "Φ176(Upper) Φ176(Lower)"
+          "value": "Φ180(Upper) Φ180(Lower)"
         },
         {
           "label": "Horizontal Test Space (mm)",
-          "value": "420"
+          "value": "380"
         },
         {
           "label": "Piston Maximum Speed (mm/min)",
@@ -2350,11 +1154,11 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "1.3"
+          "value": "2.7"
         },
         {
           "label": "Main Unit Dimensions (mm)",
-          "value": "730×550×1660"
+          "value": "730×600×1750"
         },
         {
           "label": "Control Cabinet Dimensions (mm)",
@@ -2362,20 +1166,22 @@ window.ludaData = {
         },
         {
           "label": "Overall weight(kg)",
-          "value": "1600"
+          "value": "1500"
         }
       ],
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P023",
       "name": "Digital Display Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WE-300B",
       "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WE-300B.png",
+      "thumbnail": "/assets/images/WE-1000B（出口）.png",
       "image": "myImages/WE-300B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
@@ -2407,7 +1213,7 @@ window.ludaData = {
         },
         {
           "label": "Tensile Vertical Test Space (mm)",
-          "value": "480"
+          "value": "540"
         },
         {
           "label": "Compression Vertical Test Space (mm)",
@@ -2423,7 +1229,7 @@ window.ludaData = {
         },
         {
           "label": "Piston Stroke (mm)",
-          "value": "120"
+          "value": "180"
         },
         {
           "label": "Compression Platen dimension (mm)",
@@ -2431,7 +1237,7 @@ window.ludaData = {
         },
         {
           "label": "Horizontal Test Space (mm)",
-          "value": "420"
+          "value": "400"
         },
         {
           "label": "Piston Maximum Speed (mm/min)",
@@ -2443,7 +1249,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "1.3"
+          "value": "2.7"
         },
         {
           "label": "Main Unit Dimensions (mm)",
@@ -2455,20 +1261,22 @@ window.ludaData = {
         },
         {
           "label": "Overall weight(kg)",
-          "value": "1800"
+          "value": "1700"
         }
       ],
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P024",
       "name": "Digital Display Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WE-600B",
       "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WE-600B.png",
+      "thumbnail": "/assets/images/WE-1000B（出口）.png",
       "image": "myImages/WE-600B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
@@ -2516,15 +1324,15 @@ window.ludaData = {
         },
         {
           "label": "Piston Stroke (mm)",
-          "value": "170"
+          "value": "180"
         },
         {
           "label": "Compression Platen dimension (mm)",
-          "value": "Φ220(Upper) Φ230(Lower)"
+          "value": "Φ180(Upper) Φ180(Lower)"
         },
         {
           "label": "Horizontal Test Space (mm)",
-          "value": "510"
+          "value": "400"
         },
         {
           "label": "Piston Maximum Speed (mm/min)",
@@ -2536,11 +1344,11 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "1.8"
+          "value": "2.7"
         },
         {
           "label": "Main Unit Dimensions (mm)",
-          "value": "820×600×2000"
+          "value": "890×590×2070"
         },
         {
           "label": "Control Cabinet Dimensions (mm)",
@@ -2548,20 +1356,22 @@ window.ludaData = {
         },
         {
           "label": "Overall weight(kg)",
-          "value": "2100"
+          "value": "2400"
         }
       ],
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P025",
       "name": "Digital Display Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WE-1000B",
       "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WE-1000B.png",
+      "thumbnail": "/assets/images/WE-1000B（出口）.png",
       "image": "myImages/WE-1000B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
@@ -2609,7 +1419,7 @@ window.ludaData = {
         },
         {
           "label": "Piston Stroke (mm)",
-          "value": "170"
+          "value": "180"
         },
         {
           "label": "Compression Platen dimension (mm)",
@@ -2617,7 +1427,7 @@ window.ludaData = {
         },
         {
           "label": "Horizontal Test Space (mm)",
-          "value": "510"
+          "value": "450"
         },
         {
           "label": "Piston Maximum Speed (mm/min)",
@@ -2629,11 +1439,11 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "1.8"
+          "value": "2.7"
         },
         {
           "label": "Main Unit Dimensions (mm)",
-          "value": "940×650×2080"
+          "value": "945×635×2100"
         },
         {
           "label": "Control Cabinet Dimensions (mm)",
@@ -2641,20 +1451,22 @@ window.ludaData = {
         },
         {
           "label": "Overall weight(kg)",
-          "value": "2400"
+          "value": "2800"
         }
       ],
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P026",
       "name": "Digital Display Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WE-2000B",
       "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WE-2000B.png",
+      "thumbnail": "/assets/images/WE-1000B（出口）.png",
       "image": "myImages/WE-2000B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
@@ -2686,23 +1498,23 @@ window.ludaData = {
         },
         {
           "label": "Tensile Vertical Test Space (mm)",
-          "value": "695"
+          "value": "790"
         },
         {
           "label": "Compression Vertical Test Space (mm)",
-          "value": "605"
+          "value": "720"
         },
         {
           "label": "Flat specimen clamping thickness(mm)",
-          "value": "0～50"
+          "value": "0～40"
         },
         {
           "label": "Round specimen clamping diameter(mm)",
-          "value": "20～40、40～70"
+          "value": "20～40、40～60"
         },
         {
           "label": "Piston Stroke (mm)",
-          "value": "180"
+          "value": "250"
         },
         {
           "label": "Compression Platen dimension (mm)",
@@ -2710,7 +1522,7 @@ window.ludaData = {
         },
         {
           "label": "Horizontal Test Space (mm)",
-          "value": "610"
+          "value": "570"
         },
         {
           "label": "Piston Maximum Speed (mm/min)",
@@ -2722,11 +1534,11 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "3.55"
+          "value": "3.7"
         },
         {
           "label": "Main Unit Dimensions (mm)",
-          "value": "1200×800×2685"
+          "value": "1200×800×2940"
         },
         {
           "label": "Control Cabinet Dimensions (mm)",
@@ -2734,17 +1546,19 @@ window.ludaData = {
         },
         {
           "label": "Overall weight(kg)",
-          "value": "4000"
+          "value": "3500"
         }
       ],
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P027",
       "name": "Electronic Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WDW-100",
       "category": "Electromechanical Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WDW-50.png",
@@ -2848,11 +1662,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P028",
       "name": "Electronic Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WDW-50",
       "category": "Electromechanical Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WDW-50.png",
@@ -2956,11 +1772,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P029",
       "name": "Electronic Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WDW-10",
       "category": "Electromechanical Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WDW-20.png",
@@ -3064,11 +1882,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P030",
       "name": "Electronic Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WDW-20",
       "category": "Electromechanical Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WDW-20.png",
@@ -3172,11 +1992,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P031",
       "name": "Electronic Universal Material Testing Machine",
+      "suffixName": "",
       "model": "WDW-5",
       "category": "Electromechanical Universal Testing Маchine Series",
       "thumbnail": "/assets/images/WDW-5.png",
@@ -3261,155 +2083,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P032",
-      "name": "Electronic Universal Material Testing Machine",
-      "model": "WDW-S10",
-      "category": "Electromechanical Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WDW-S10.png",
-      "image": "myImages/WDW-S10-Image.png",
-      "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield  strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
-      "features": [
-        "Single-arm design, cementitious sand special models.",
-        "Safety position and experimental position height arbitrary lock.",
-        "Automatic protection when exceeding the maximum load, software limit and electronic limit double protection.",
-        "One button automatic operation, full touch screen control,can realize positioning and automatic return."
-      ],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Control mode",
-          "value": "On-screen control"
-        },
-        {
-          "label": "Maximum load",
-          "value": "10KN"
-        },
-        {
-          "label": "Accuracy grade",
-          "value": "±1%"
-        },
-        {
-          "label": "Relative error of the test force value",
-          "value": "Within ±1%"
-        },
-        {
-          "label": "Test force resolution",
-          "value": "1/±300000 of the test force"
-        },
-        {
-          "label": "Deformation measurement range",
-          "value": "0.5%-100%FS"
-        },
-        {
-          "label": "Cross-beam speed adjustment range",
-          "value": "0.01～500mm/min"
-        },
-        {
-          "label": "Effective tensile space",
-          "value": "800mm"
-        },
-        {
-          "label": "Effective test width",
-          "value": "100mm"
-        },
-        {
-          "label": "Power supply",
-          "value": "220V±10%,0.4kW"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P033",
-      "name": "Electronic Universal Material Testing Machine(Special model for cement mortar)",
-      "model": "WDW-S05",
-      "category": "Electromechanical Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WDW-S05.png",
-      "image": "myImages/WDW-S05-Image.png",
-      "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile  strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
-      "features": [
-        "Single-arm design, cementitious sand special models.",
-        "Safety position and experimental position height arbitrary lock.",
-        "Automatic protection when exceeding the maximum load, software limit and electronic limit double protection.",
-        "One button automatic operation,full touch screen control,can realize positioning and automatic return."
-      ],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Maximum load",
-          "value": "5kN"
-        },
-        {
-          "label": "Accuracy level",
-          "value": "±1%"
-        },
-        {
-          "label": "Test force resolution",
-          "value": "500,000 yards"
-        },
-        {
-          "label": "Displacement measurement accuracy",
-          "value": "within ±1% of the indication value"
-        },
-        {
-          "label": "Deformation measurement accuracy",
-          "value": "within ±1% of the indication value"
-        },
-        {
-          "label": "Test bench control",
-          "value": "Full touch screen control, capable of positioning and automatic return"
-        },
-        {
-          "label": "Overload protection",
-          "value": "Automatic protection when the maximum load is exceeded"
-        },
-        {
-          "label": "Test force measurement range",
-          "value": "1%~100%FS"
-        },
-        {
-          "label": "Deformation measurement range",
-          "value": "1%~100% FS"
-        },
-        {
-          "label": "Effective stretching space",
-          "value": "800mm"
-        },
-        {
-          "label": "Effective test width",
-          "value": "100mm"
-        },
-        {
-          "label": "Speed range",
-          "value": "5-500mm/min"
-        },
-        {
-          "label": "Machine dimensions",
-          "value": "500×450×1350mm"
-        },
-        {
-          "label": "Power supply",
-          "value": "220V,50-60Hz"
-        },
-        {
-          "label": "Weight About",
-          "value": "90kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P035",
       "name": "Constant Loading Pressure Testing Machine",
+      "suffixName": "",
       "model": "YAW-2000H",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/YAW-2000H.png",
@@ -3485,11 +2165,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P036",
       "name": "Constant Loading Pressure Testing Machine(Automatic) White Machine",
+      "suffixName": "",
       "model": "YAW-2000S",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/YAW-2000S.png",
@@ -3570,11 +2252,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P037",
       "name": "Constant Loading Pressure Testing Machine(Automatic) White Machine",
+      "suffixName": "",
       "model": "YAW-3000S",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/YAW-3000S.png",
@@ -3655,11 +2339,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P038",
       "name": "Constant Loading Pressure Testing Machine(Automatic)",
+      "suffixName": "",
       "model": "TSY-2000A",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/TSY-2000A.png",
@@ -3745,11 +2431,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P039",
       "name": "Constant Loading Pressure Testing Machine(Automatic)",
+      "suffixName": "",
       "model": "TSY-3000A",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/TSY-3000A.png",
@@ -3835,11 +2523,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P040",
       "name": "Electro-hydraulic Pressure Testing Machine(Electric Screw)",
+      "suffixName": "",
       "model": "TSY-2000B",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/TSY-2000B.png",
@@ -3922,11 +2612,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P041",
       "name": "Electro-hydraulic Pressure Testing Machine(Electric Screw)",
+      "suffixName": "",
       "model": "TSY-3000B",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/TSY-3000B.png",
@@ -4009,11 +2701,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P042",
       "name": "Electro-Hydraulic Pressure Testing Machine",
+      "suffixName": "",
       "model": "TSY-2000",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/TSY-2000.png",
@@ -4092,11 +2786,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P043",
       "name": "Constant Load Cement Flexural And Compressive Testing Machine",
+      "suffixName": "",
       "model": "YAW-300.10S",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/YAW-300.10S.png",
@@ -4206,11 +2902,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P044",
       "name": "Constant Loading Pressure Testing Machine",
+      "suffixName": "",
       "model": "YAW-300S",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/YAW-300S.png",
@@ -4290,11 +2988,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P045",
       "name": "Constant Load Cement Flexural Compression Testing Machine",
+      "suffixName": "",
       "model": "YZH-300.10",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/YZH-300.10.png",
@@ -4400,11 +3100,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P046",
       "name": "Constant Loading Pressure Testing Machine",
+      "suffixName": "",
       "model": "YAW-300",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/YAW-300.png",
@@ -4481,11 +3183,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P047",
       "name": "Electro-hydraulic Compression Testing Machine",
+      "suffixName": "",
       "model": "TSY-300",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/TSY-300.png",
@@ -4553,99 +3257,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P048",
-      "name": "Electro-hydraulic Flexural And Compression Testing Machine",
-      "model": "TSY-300",
-      "category": "Compression Testing Machine Series",
-      "thumbnail": "/assets/images/TSY-300（抗折）.png",
-      "image": "myImages/TSY-300-Image.png",
-      "description": "This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.",
-      "features": [
-        "It can automatically adjust the parallelism of the pressure-bearing surface between the test piece and the pressure plate, so that the test piece is evenly stressed;",
-        "There is a sealing device between the piston and the oil cylinder to prevent oil leakage;",
-        "Equipped with a safety valve, which can overflow when overloaded and play a role of safety protection;",
-        "The test data is automatically processed and the test report is printed out."
-      ],
-      "standards": [
-        "EN 196-1",
-        "EN 933-5",
-        "EN 1015-11",
-        "ISO 679",
-        "ASTM C109",
-        "C348",
-        "C349",
-        "C1194",
-        "BS 4550"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "300"
-        },
-        {
-          "label": "Indication relative error (accuracy)",
-          "value": "±1%"
-        },
-        {
-          "label": "Hydraulic pump rated pressure",
-          "value": "31.5MPa"
-        },
-        {
-          "label": "Anti-folding roller diameter",
-          "value": "Φ30mm"
-        },
-        {
-          "label": "Distance between upper and lower anti-folding rollers",
-          "value": "165mm"
-        },
-        {
-          "label": "Center distance between two upper anti-folding rollers",
-          "value": "150mm"
-        },
-        {
-          "label": "Center distance between two anti-folding rollers",
-          "value": "450mm"
-        },
-        {
-          "label": "Pressure plate diameter",
-          "value": "Φ160mm"
-        },
-        {
-          "label": "Vertical Test Space (mm)",
-          "value": "230mm"
-        },
-        {
-          "label": "Piston diameter and maximum stroke",
-          "value": "Φ140*90mm"
-        },
-        {
-          "label": "Motor power",
-          "value": "0.55kW"
-        },
-        {
-          "label": "Power supply voltage",
-          "value": "AC380V±10%"
-        },
-        {
-          "label": "Dimensions",
-          "value": "890×600×1450mm"
-        },
-        {
-          "label": "Weight",
-          "value": "400kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P049",
       "name": "Constant Load Manhole Cover Special Pressure Testing Machine",
+      "suffixName": "",
       "model": "TSY-1000S",
       "category": "Compression Testing Machine Series",
       "thumbnail": "/assets/images/TSY-1000S.png",
@@ -4724,11 +3342,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P050",
       "name": "Static Load Sleeper Testing Machine",
+      "suffixName": "",
       "model": "TSY-500",
       "category": "Large Testing Machine Series",
       "thumbnail": "/assets/images/TSY-500轨枕.png",
@@ -4825,11 +3445,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P051",
       "name": "Microcomputer Controlled Tensile Stress Relaxation Testing Machine",
+      "suffixName": "",
       "model": "LDCJ-300",
       "category": "Large Testing Machine Series",
       "thumbnail": "/assets/images/LDCJ-300.png",
@@ -4898,11 +3520,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P052",
       "name": "Steel Pipe Bending Test Machine",
+      "suffixName": "",
       "model": "LDGW-60C",
       "category": "Large Testing Machine Series",
       "thumbnail": "/assets/images/LDGW-60C.png",
@@ -4955,11 +3579,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P053",
       "name": "Vertical Steel Bar Bending and Rebending Testing Machine",
+      "suffixName": "",
       "model": "LDWQ-40D",
       "category": "Large Testing Machine Series",
       "thumbnail": "/assets/images/LDWQ-40D.png",
@@ -5029,74 +3655,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P054",
-      "name": "Steel Bar Bending Machine",
-      "model": "GW-40C",
-      "category": "Large Testing Machine Series",
-      "thumbnail": "/assets/images/GW-40C.png",
-      "image": "myImages/GW-40C-Image.png",
-      "description": "GW-40C steel bar bending machine is a test equipment for bending and reverse bending of steel bars in the plane. It is suitable for steel mills, construction units, working condition  enterprises, traffic quality inspection and other industries.It is suitable for steel mills,  construction units, working condition enterprises, traffic quality  inspection and other industries.",
-      "features": [
-        "The working disc can be set for forward bending and reverse bending;",
-        "Operation panel dual display device;",
-        "There are safety devices such as protective covers on the host;",
-        "Manual forward and reverse bending is possible;",
-        "Once an abnormal state occurs, it can be cleared and stopped."
-      ],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Steel Bending Diameter",
-          "value": "Φ6~Φ40mm"
-        },
-        {
-          "label": "Reinforcement Positive Bending Angle",
-          "value": "0~180° (arbitrary setting)"
-        },
-        {
-          "label": "Bar Reverse Bending Angle",
-          "value": "0~20° (arbitrary setting)"
-        },
-        {
-          "label": "Working Disc Rotation Speed",
-          "value": "<3.7r/min"
-        },
-        {
-          "label": "Roll Center Distance",
-          "value": "165mm"
-        },
-        {
-          "label": "Positive bending core",
-          "value": "4×Φ6 、4×Φ8、4×Φ10(5×Φ8)、4×Φ12、4×Φ14、4×Φ16、4×Φ18、4×Φ20(5×Φ16)、4×Φ22、4×Φ25、5×Φ28、5×Φ32、5×Φ36、5×Φ40mm"
-        },
-        {
-          "label": "Reverse bending core",
-          "value": "5×Φ6、5×Φ10、5×Φ12、5×Φ14、5×Φ18、5×Φ22、5×Φ25、6×Φ28、6×Φ32mm"
-        },
-        {
-          "label": "Power Supply",
-          "value": "AC380V±10% ,1.5kW"
-        },
-        {
-          "label": "Dimensions",
-          "value": "1050×740×1170mm"
-        },
-        {
-          "label": "Weight",
-          "value": "750kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P055",
       "name": "Automatic Bolt Torque Tension Testing Machine",
+      "suffixName": "",
       "model": "LD-JZ500D",
       "category": "Large Testing Machine Series",
       "thumbnail": "/assets/images/LD-JZ500D.png",
@@ -5143,70 +3708,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P056",
-      "name": "Asphalt Mixture Rotary Compactor",
-      "model": "LDSY-3",
-      "category": "Asphalt and bitumen Testing Equipment Series",
-      "thumbnail": "/assets/images/LDSY-3.png",
-      "image": "myImages/LDSY-3-Image.png",
-      "description": "The asphalt mixture gyratory compactor is a kind of simulating the volume and properties of the actual pavement material, under the conditions of constant pressure,fixed compaction angle and fixed compaction speed, the hot- mix asphalt mixture cylinder test is carried out by  kneading method,compaction molding equipment for piece production.",
-      "features": [
-        "This machine adopts imported accessories,under the given compaction pressure and rotation compaction angle,it can operate safely and reliably,and the experimental data is accurate and reliable."
-      ],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Mould size",
-          "value": "Diameter 100mm,150mm,Height250mm"
-        },
-        {
-          "label": "Forming height",
-          "value": "50-150mm"
-        },
-        {
-          "label": "Compaction pressure",
-          "value": "100~ 1000kPa (adjustable)"
-        },
-        {
-          "label": "Number of rotations",
-          "value": "1~999 times (adjustable)"
-        },
-        {
-          "label": "Rotation rate",
-          "value": "30 rpm/ min"
-        },
-        {
-          "label": "Rotation angle",
-          "value": "0.5°~2.0° (adjustable)"
-        },
-        {
-          "label": "Power",
-          "value": "2150W"
-        },
-        {
-          "label": "Power supply",
-          "value": "380V"
-        },
-        {
-          "label": "Size",
-          "value": "900×900×1900mm"
-        },
-        {
-          "label": "Weight",
-          "value": "450kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P057",
       "name": "Asphalt Content Analyzer (combustion method)",
+      "suffixName": "",
       "model": "LDRS-6",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/LDRS-6.png",
@@ -5253,11 +3761,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P058",
       "name": "Asphalt Roller Compactor",
+      "suffixName": "",
       "model": "LDCX-1",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/LDCX-1.png",
@@ -5310,11 +3820,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P059",
       "name": "Automatic Single Wheel Tracking Apparatus",
+      "suffixName": "",
       "model": "LDCZ-5",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/LDCZ-5.png",
@@ -5370,79 +3882,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "P060",
-      "name": "Intelligent Asphalt Ductilometer",
-      "model": "SYD-4508G",
-      "category": "Asphalt and bitumen Testing Equipment Series",
-      "thumbnail": "/assets/images/SYD-4508G.png",
-      "image": "myImages/SYD-4508G-Image.png",
-      "description": "This instrument measures the length of petroleum asphalt when it is stretched to break at a certain speed under specified conditions and temperature. This equipment is a multi-purpose asphalt testing instrument that integrates asphalt ductility, asphalt force ductility, and asphalt elastic recovery capacity testing.",
-      "features": [
-        "The air-conditioning water pump and the main machine are designed separately on the ground, and the stretching process is stable and synchronous, without shaking, and the speed is uniform, which improves the test accuracy;",
-        "It adopts industrial control touch screen, and has two recording methods: wireless remote control recording and instrument touch screen recording, which are convenient for users to choose and use."
-      ],
-      "standards": [
-        "EN 13398",
-        "AASHTO  T300",
-        "AASHTO  T301",
-        "EN 13589",
-        "ASTM D113",
-        "D6084",
-        "AASHTO T51"
-      ],
-      "specifications": [
-        {
-          "label": "Working power supply",
-          "value": "AC220V±10%, 50-60Hz"
-        },
-        {
-          "label": "Measuring range",
-          "value": "1.5m (±10mm)"
-        },
-        {
-          "label": "Heating method",
-          "value": "Electric heater heating"
-        },
-        {
-          "label": "Heating power",
-          "value": "3500W"
-        },
-        {
-          "label": "Bath liquid circulation",
-          "value": "Shielded cold and hot balance pressurized  circulation system"
-        },
-        {
-          "label": "Temperature control range",
-          "value": "Adjustable from 2℃ to 50 ℃, digital display, temperature display resolution 0.01"
-        },
-        {
-          "label": "Temperature control accuracy",
-          "value": "±0.1° C"
-        },
-        {
-          "label": "Tensile speed",
-          "value": "10mm/min, 50mm/min two gears"
-        },
-        {
-          "label": "Measurement accuracy",
-          "value": "±1mm"
-        },
-        {
-          "label": "Extensibility display",
-          "value": "Real-time display on industrial touch screen"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P061",
       "name": "Intelligent Asphalt Ductilometer",
+      "suffixName": "",
       "model": "STYD-3",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/STYD-3.png",
@@ -5489,11 +3935,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P062",
       "name": "Asphalt Mixture CBR/Marshall Stability Tester",
+      "suffixName": "",
       "model": "LD-5B",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/LD-5B.png",
@@ -5552,11 +4000,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P063",
       "name": "Automatic Laboratory Bituminous Mixers",
+      "suffixName": "",
       "model": "LDHB-20",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/LDHB-20.png",
@@ -5611,11 +4061,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P064",
       "name": "Asphalt Wax Content Tester",
+      "suffixName": "",
       "model": "LDL-2",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/LDL-2.png",
@@ -5666,11 +4118,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P065",
       "name": "Rotating Shelf Thin Film Oven (TFOT)",
+      "suffixName": "",
       "model": "82 Type",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/82 Type.png",
@@ -5739,11 +4193,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P066",
       "name": "Rolling Thin-Film Oven (RTFOT)",
+      "suffixName": "",
       "model": "85 Type",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/85 Type.png",
@@ -5827,11 +4283,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P067",
       "name": "Overflow Water Bath",
+      "suffixName": "",
       "model": "CF-C",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/CF-C.png",
@@ -5878,11 +4336,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P068",
       "name": "Water Bath",
+      "suffixName": "",
       "model": "TC-20",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/TC-20恒温.png",
@@ -5925,11 +4385,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P069",
       "name": "Low Temperature Water Bath",
+      "suffixName": "",
       "model": "TC-20",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/TC-20低温.png",
@@ -5970,11 +4432,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P070",
       "name": "Low Temperature Water Bath",
+      "suffixName": "",
       "model": "THD-0506",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/THD-0506.png",
@@ -6015,11 +4479,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P071",
       "name": "Computer Asphalt Softening Point Tester",
+      "suffixName": "",
       "model": "LD-2000",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/LD-2000.png",
@@ -6107,11 +4573,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P072",
       "name": "Computer Automatic Asphalt Penetrometer",
+      "suffixName": "",
       "model": "IV-2000",
       "category": "Asphalt and bitumen Testing Equipment Series",
       "thumbnail": "/assets/images/IV-2000.png",
@@ -6165,11 +4633,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P120",
       "name": "Coarse-grained Soil Vertical Seepage Deformation Meter (slope type)",
+      "suffixName": "",
       "model": "LDSL-III",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/LDSL-III.png",
@@ -6222,11 +4692,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P121",
       "name": "Coarse-grained Soil Constant Head Permeameter",
+      "suffixName": "",
       "model": "LDST-300",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/LDST-300.png",
@@ -6287,11 +4759,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P122",
       "name": "Vibration Compaction Molding Machine",
+      "suffixName": "",
       "model": "LD-08",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/LD-08.png",
@@ -6344,11 +4818,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P123",
       "name": "Concrete/Rock Specimen Grinding Machine",
+      "suffixName": "",
       "model": "SHM-200",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/SHM-200.png",
@@ -6392,11 +4868,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P124",
       "name": "Automatic Rock, Concrete and Masonry Saw",
+      "suffixName": "",
       "model": "DQ-1",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/DQ-1.png",
@@ -6451,11 +4929,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P125",
       "name": "Multifunctional Electric Compaction Instrument",
+      "suffixName": "",
       "model": "JZ-2D",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/JZ-2D（部标）.png",
@@ -6512,11 +4992,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P126",
       "name": "Multifunctional Hydraulic Demoulding Machine",
+      "suffixName": "",
       "model": "DL-200",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/DL-200.png",
@@ -6569,11 +5051,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P127",
       "name": "Multifunctional Hydraulic Demoulding Machine",
+      "suffixName": "",
       "model": "DL-300",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/DL-300.png",
@@ -6626,11 +5110,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P128",
       "name": "Triple Motion Sieve Shaker",
+      "suffixName": "",
       "model": "ZBSX-92A",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/ZBSX-92A.png",
@@ -6686,11 +5172,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P129",
       "name": "Digital Display Combined Soil Liquid-plastic Limit Tester",
+      "suffixName": "",
       "model": "LG-100D",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/LG-100D.png",
@@ -6747,11 +5235,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P130",
       "name": "Sand Equivalent Tester",
+      "suffixName": "",
       "model": "SD-II",
       "category": "Geotechnical & Aggregate Testing Equipment Series",
       "thumbnail": "/assets/images/SD-II（双管）.png",
@@ -6814,11 +5304,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P131",
       "name": "Mortar Mixer",
+      "suffixName": "",
       "model": "UJZ-15",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/UJZ-15.png",
@@ -6871,11 +5363,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P132",
       "name": "Mortar Permeamete",
+      "suffixName": "",
       "model": "SS-1.5",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/SS-1.5.png",
@@ -6948,11 +5442,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P133",
       "name": "Temperature And Humidity Climate Chambers (Reach-in Type)",
+      "suffixName": "",
       "model": "LDGD-80",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/LDGD-80.png",
@@ -6999,11 +5495,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P134",
       "name": "Switch Socket Humidity Test Chamber",
+      "suffixName": "",
       "model": "CSX-280",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/CSX-280.png",
@@ -7048,11 +5546,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P135",
       "name": "Drying Ovens Forced Ventilation",
+      "suffixName": "",
       "model": "101-1A",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/101-1A.png",
@@ -7106,11 +5606,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P136",
       "name": "Drying Ovens Forced Ventilation",
+      "suffixName": "",
       "model": "101-2A",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/101-2A.png",
@@ -7164,11 +5666,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P137",
       "name": "Drying Ovens Forced Ventilation",
+      "suffixName": "",
       "model": "101-3A",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/101-3A.png",
@@ -7222,11 +5726,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P138",
       "name": "Drying Ovens Forced Ventilation",
+      "suffixName": "",
       "model": "101-4A",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/101-4A.png",
@@ -7280,11 +5786,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P139",
       "name": "Drying Ovens Forced Ventilation",
+      "suffixName": "",
       "model": "101-5A",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/101-5A.png",
@@ -7338,11 +5846,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P140",
       "name": "Muffle Furnace",
+      "suffixName": "",
       "model": "SX2-8-16",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/SX2-8-16.png",
@@ -7390,11 +5900,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P141",
       "name": "Muffle Furnace",
+      "suffixName": "",
       "model": "SX2-12-16",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/SX2-12-16.png",
@@ -7442,11 +5954,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P142",
       "name": "Muffle Furnace",
+      "suffixName": "",
       "model": "SX2-2.5-10",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/SX2-2.5-10.png",
@@ -7490,11 +6004,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P143",
       "name": "Muffle Furnace",
+      "suffixName": "",
       "model": "SX2-4-10",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/SX2-4-10.png",
@@ -7538,11 +6054,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P144",
       "name": "Muffle Furnace",
+      "suffixName": "",
       "model": "SX2-8-10",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/SX2-8-10.png",
@@ -7586,11 +6104,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P145",
       "name": "Muffle Furnace",
+      "suffixName": "",
       "model": "SX2-12-10",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/SX2-12-10.png",
@@ -7634,11 +6154,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P146",
       "name": "Horizontal Low Temperature Chamber",
+      "suffixName": "",
       "model": "DW-25",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/DW-25（卧式）.png",
@@ -7677,11 +6199,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P147",
       "name": "Horizontal Low Temperature Chamber",
+      "suffixName": "",
       "model": "DW-40",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/DW-40（卧式）.png",
@@ -7720,11 +6244,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P148",
       "name": "Horizontal Low Temperature Chamber",
+      "suffixName": "",
       "model": "DW-60",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/DW-60（卧式）.png",
@@ -7763,11 +6289,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P149",
       "name": "Vertical Low Temperature Chamber",
+      "suffixName": "",
       "model": "DW-40",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/DW-40（立式）.png",
@@ -7807,11 +6335,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P150",
       "name": "Damp Heat Test Chamber",
+      "suffixName": "",
       "model": "HBY-1",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/HBY-1.png",
@@ -7859,11 +6389,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "P151",
       "name": "Aging Test Chamber",
+      "suffixName": "",
       "model": "401A",
       "category": "General Laboratory Equipment Series",
       "thumbnail": "/assets/images/401A.png",
@@ -7911,11 +6443,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C001",
       "name": "Concrete Fast Freeze-thaw Chamber",
+      "suffixName": "",
       "model": "TDRF-1",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/TDRF-1（连体）.png",
@@ -8000,11 +6534,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C002",
       "name": "Concrete Fast Freeze-thaw Chamber",
+      "suffixName": "",
       "model": "TDRF-2",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/TDRF-2（连体）.png",
@@ -8089,11 +6625,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C003",
       "name": "Concrete Fast Freeze-thaw Chamber",
+      "suffixName": "",
       "model": "TDRF-3",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/TDRF-3（连体）.png",
@@ -8178,11 +6716,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C004",
       "name": "Concrete Carbonation Test Chambe",
+      "suffixName": "",
       "model": "CCB-70A",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/CCB-70A.png",
@@ -8253,11 +6793,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C005",
       "name": "Accelerated Concrete Curing Tank",
+      "suffixName": "",
       "model": "LDZY-400",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/LDZY-400.png",
@@ -8308,11 +6850,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C006",
       "name": "Alkali-aggregate Test Chamber(Mortar-Bar Method and Accelerated Mortar-Bar Method)",
+      "suffixName": "",
       "model": "JKS",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/JKS.png",
@@ -8368,415 +6912,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C007",
-      "name": "Constant Temperature and Humidity Curing Controller (high pressure atomization)",
-      "model": "LDWS-50",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWS-50（高压喷雾）.png",
-      "image": "/assets/images/LDWS-50-Image.png",
-      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature measurement accuracy",
-          "value": "±1℃"
-        },
-        {
-          "label": "Temperature control",
-          "value": "20±2℃"
-        },
-        {
-          "label": "Humidity control",
-          "value": "≥95%RH"
-        },
-        {
-          "label": "Voltage",
-          "value": "380V"
-        },
-        {
-          "label": "Supply frequency",
-          "value": "50-60Hz"
-        },
-        {
-          "label": "Refrigerator power",
-          "value": "3000W"
-        },
-        {
-          "label": "Heater power",
-          "value": "9000W"
-        },
-        {
-          "label": "Maximum control area",
-          "value": "50m3"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C008",
-      "name": "Constant Temperature and Humidity Curing Controller (high pressure atomization)",
-      "model": "LDWS-100",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWS-100（高压喷雾）.png",
-      "image": "/assets/images/LDWS-100-Image.png",
-      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature measurement accuracy",
-          "value": "±1℃"
-        },
-        {
-          "label": "Temperature control",
-          "value": "20±2℃"
-        },
-        {
-          "label": "Humidity control",
-          "value": "≥95%RH"
-        },
-        {
-          "label": "Voltage",
-          "value": "380V"
-        },
-        {
-          "label": "Supply frequency",
-          "value": "50-60Hz"
-        },
-        {
-          "label": "Refrigerator power",
-          "value": "4000W"
-        },
-        {
-          "label": "Heater power",
-          "value": "9000W"
-        },
-        {
-          "label": "Maximum control area",
-          "value": "100m3"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C009",
-      "name": "Constant Temperature And Humidity Curing Controller (ultrasonic atomization)",
-      "model": "LDWS-50",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWS-50（超声波喷雾）.png",
-      "image": "/assets/images/LDWS-50-Image.png",
-      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature measurement accuracy",
-          "value": "±1℃"
-        },
-        {
-          "label": "Temperature control",
-          "value": "20±2℃"
-        },
-        {
-          "label": "Humidity control",
-          "value": "≥95%RH"
-        },
-        {
-          "label": "Voltage",
-          "value": "380V"
-        },
-        {
-          "label": "Supply frequency",
-          "value": "50-60Hz"
-        },
-        {
-          "label": "Refrigerator power",
-          "value": "3000W"
-        },
-        {
-          "label": "Heater power",
-          "value": "9000W"
-        },
-        {
-          "label": "Maximum control area",
-          "value": "50m3"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C010",
-      "name": "Constant Temperature And Humidity Curing Controller (ultrasonic atomization)",
-      "model": "LDWS-100",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWS-100（超声波喷雾）.png",
-      "image": "/assets/images/LDWS-100-Image.png",
-      "description": "This product is suitable for the maintenance of large quantities of concrete,cement products and other test pieces in various laboratories,which integrates refrigeration,heating and humidification functions in one.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature measurement accuracy",
-          "value": "±1℃"
-        },
-        {
-          "label": "Temperature control",
-          "value": "20±2℃"
-        },
-        {
-          "label": "Humidity control",
-          "value": "≥95%RH"
-        },
-        {
-          "label": "Voltage",
-          "value": "380V"
-        },
-        {
-          "label": "Supply frequency",
-          "value": "50-60Hz"
-        },
-        {
-          "label": "Refrigerator power",
-          "value": "4000W"
-        },
-        {
-          "label": "Heater power",
-          "value": "9000W"
-        },
-        {
-          "label": "Maximum control area",
-          "value": "100m3"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C011",
-      "name": "Constant Temperature And Humidity Control System",
-      "model": "LDWSA20",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDWSA20.png",
-      "image": "/assets/images/LDWSA20-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and  relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of mortar, cement products and other samples.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature control",
-          "value": "15～25±2℃(adjust)"
-        },
-        {
-          "label": "Temperature controller error",
-          "value": "±1℃"
-        },
-        {
-          "label": "Humidity control",
-          "value": "50～80±5％RH(adjust)"
-        },
-        {
-          "label": "Maximum control area",
-          "value": "10m2"
-        },
-        {
-          "label": "Heating power",
-          "value": "1500W"
-        },
-        {
-          "label": "Refrigerator power",
-          "value": "1500W"
-        },
-        {
-          "label": "Dehumidification power",
-          "value": "500W"
-        },
-        {
-          "label": "Voltage",
-          "value": "AC220V±10%"
-        },
-        {
-          "label": "Wall-mounted controller installation size",
-          "value": "450×200×550 mm"
-        },
-        {
-          "label": "Dimensions of 1.5 P air conditioner",
-          "value": "840×540×320mm"
-        },
-        {
-          "label": "Dimensions of dehumidifier",
-          "value": "500×400×700mm"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C012",
-      "name": "Constant Temperature And Humidity Environment Control System",
-      "model": "LDHJ-50",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDHJ-50.png",
-      "image": "/assets/images/LDHJ-50-Image.png",
-      "description": "LDHJ-50 constant temperature and humidity environment control system is designed and  manufactured according to the national requirements for mortar chambers, cement chambers, insulation material chambers and other new standards,This product is suitable for cement factory and construction units, highway and bridge engineering units and relevant scientific research quality inspection departments of cement, concrete, cement products and other production and maintenance.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature controller error",
-          "value": "±1℃"
-        },
-        {
-          "label": "Temperature control",
-          "value": "23±2℃(20-25±2℃ adjust)"
-        },
-        {
-          "label": "Humidity control",
-          "value": "50%RH±5%(50%-70%RH±5% adjust)"
-        },
-        {
-          "label": "Voltage",
-          "value": "380V"
-        },
-        {
-          "label": "Refrigerator/Dehumidification power",
-          "value": "2500W"
-        },
-        {
-          "label": "Heating power",
-          "value": "4500W"
-        },
-        {
-          "label": "Control volume",
-          "value": "50m³"
-        },
-        {
-          "label": "Weight",
-          "value": "200kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C013",
-      "name": "Constant Temperature And Humidity Environment Control System",
-      "model": "LDHJ-100",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/LDHJ-100.png",
-      "image": "/assets/images/LDHJ-100-Image.png",
-      "description": "LDHJ-100 constant temperature and humidity environment control system is designed and  manufactured according to the national requirements for mortar chambers, cement chambers, insulation material chambers and other new standards,This product is suitable for cement factory and construction units, highway and bridge engineering units and relevant scientific research quality inspection departments of cement, concrete, cement products and other production and maintenance.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature controller error",
-          "value": "±1℃"
-        },
-        {
-          "label": "Temperature control",
-          "value": "23±2℃(20-25±2℃ adjust)"
-        },
-        {
-          "label": "Humidity control",
-          "value": "50%RH±5%(50%-70%RH±5% adjust)"
-        },
-        {
-          "label": "Voltage",
-          "value": "380V"
-        },
-        {
-          "label": "Refrigerator/Dehumidification power",
-          "value": "4000W"
-        },
-        {
-          "label": "Heating power",
-          "value": "7500W"
-        },
-        {
-          "label": "Control volume",
-          "value": "100m³"
-        },
-        {
-          "label": "Weight",
-          "value": "200kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C014",
-      "name": "Curing Room Three-piece Set",
-      "model": "BYS-3",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/BYS-3.png",
-      "image": "/assets/images/BYS-3-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Temperature control instrument error",
-          "value": "±1℃"
-        },
-        {
-          "label": "Temperature control",
-          "value": "20±2℃"
-        },
-        {
-          "label": "Humidity control",
-          "value": "≥95%"
-        },
-        {
-          "label": "Voltage",
-          "value": "AC220V±10%"
-        },
-        {
-          "label": "Power frequency",
-          "value": "50-60Hz"
-        },
-        {
-          "label": "Refrigerator power",
-          "value": "1～4 thousand kcal(customer-provided window air conditioner)"
-        },
-        {
-          "label": "Heater power",
-          "value": "3000W"
-        },
-        {
-          "label": "Maximum humidity and temperature control area",
-          "value": "15m2(according to the area can be designed separately)"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C015",
       "name": "Concrete Impermeability Apparatus",
+      "suffixName": "",
       "model": "HP-4.0",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/HP-4.0.png",
@@ -8845,11 +6987,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C016",
       "name": "Cement (Concrete) Fast Curing Chamber",
+      "suffixName": "",
       "model": "A-Type",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/A-Type.png",
@@ -8884,11 +7028,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C017",
       "name": "Direct-reading Concrete Air Content Tester",
+      "suffixName": "",
       "model": "CA-3",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/CA-3.png",
@@ -8934,79 +7080,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C018",
-      "name": "Imitation Japanese Concrete Air Content Tester",
-      "model": "HC-7L",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/HC-7L.png",
-      "image": "/assets/images/HC-7L-Image.png",
-      "description": "This product is mainly used to measure the air content in the concrete mixture.It is suitable for the determination of the air content in concrete mixtures having a slump with sub-aggregate diameter not exceeding 40mm and air content not exceeding 10%.\nThis  machine  has  the  advantages  of  easy  operation,accurate measurement and intuitive reading.",
-      "features": [],
-      "standards": [
-        "EN 12350-7",
-        "ASTM C231 type B",
-        "AASHTO T152",
-        "DIN 1048"
-      ],
-      "specifications": [
-        {
-          "label": "Measuring bowl volume",
-          "value": "7L(its inner diameter and depth are equal)"
-        },
-        {
-          "label": "Air content range",
-          "value": "≤ 40mm"
-        },
-        {
-          "label": "Maximum size of coarse aggregate to be used",
-          "value": "≤40mm"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "C019",
-      "name": "Improved Concrete Air Content Tester",
-      "model": "GQC-1",
-      "category": "Concrete Testing Equipment Series",
-      "thumbnail": "/assets/images/GQC-1.png",
-      "image": "/assets/images/GQC-1-Image.png",
-      "description": "This product is suitable for the determination of the air content in concrete mixtures having a slump with sub-aggregate diameter not exceeding 40 mm and air content not exceeding 10%.",
-      "features": [],
-      "standards": [
-        "EN 12350-7",
-        "ASTM C231 type B",
-        "AASHTO T152",
-        "DIN 1048"
-      ],
-      "specifications": [
-        {
-          "label": "Measuring bowl volume",
-          "value": "7L(diameter 205mm, height 212mm)"
-        },
-        {
-          "label": "Air content range",
-          "value": "≤ 10%"
-        },
-        {
-          "label": "Maximum size of coarse aggregate to be used",
-          "value": "≤40mm"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C020",
       "name": "Acme Penetrometer",
+      "suffixName": "",
       "model": "HG-1000",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/HG-1000.png",
@@ -9058,11 +7138,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C021",
       "name": "Acme Dial Penetrometer",
+      "suffixName": "",
       "model": "HG-80",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/HG-80.png",
@@ -9130,11 +7212,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C022",
       "name": "Concrete Vibrator",
+      "suffixName": "",
       "model": "HZJ-0.5",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/HZJ-0.5.png",
@@ -9174,11 +7258,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C023",
       "name": "Concrete Vibrator",
+      "suffixName": "",
       "model": "HZJ-0.8",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/HZJ-0.8.png",
@@ -9218,11 +7304,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C024",
       "name": "Concrete Vibrator",
+      "suffixName": "",
       "model": "HZJ-1",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/HZJ-1.png",
@@ -9262,11 +7350,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C025",
       "name": "Single Shaft Concrete Mixer",
+      "suffixName": "",
       "model": "SJD-30",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/SJD-30.png",
@@ -9321,11 +7411,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C026",
       "name": "Single Shaft Concrete Mixer",
+      "suffixName": "",
       "model": "SJD-60",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/SJD-60.png",
@@ -9380,11 +7472,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C027",
       "name": "Chloride Ion Fast Content Analyzer",
+      "suffixName": "",
       "model": "LDCL-B",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/LDCL-B.png",
@@ -9413,11 +7507,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "C028",
       "name": "Concrete Pressure Secretion Instrument",
+      "suffixName": "",
       "model": "SY-2",
       "category": "Concrete Testing Equipment Series",
       "thumbnail": "/assets/images/SY-2.png",
@@ -9454,11 +7550,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D001",
       "name": "Constant Temperature Water Curing Box (vertical)",
+      "suffixName": "",
       "model": "HBY-30",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/HBY-30（立式）.png",
@@ -9509,11 +7607,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D002",
       "name": "Constant Temperature Water Curing Box (vertical)",
+      "suffixName": "",
       "model": "HBY-64",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/HBY-64（立式）.png",
@@ -9564,180 +7664,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "D003",
-      "name": "Constant Temperature Water Curing Box (horizontal)",
-      "model": "HBY-30",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-30（卧式）.png",
-      "image": "/assets/images/HBY-30-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1"
-      ],
-      "specifications": [
-        {
-          "label": "Temperature control",
-          "value": "20±1℃"
-        },
-        {
-          "label": "Temperature control precision",
-          "value": "±1℃"
-        },
-        {
-          "label": "Voltage",
-          "value": "AC220V±10%"
-        },
-        {
-          "label": "Compressor power",
-          "value": "500W"
-        },
-        {
-          "label": "Heater power",
-          "value": "1200W"
-        },
-        {
-          "label": "Maintenance box size",
-          "value": "140×100×180mm (16 pieces)"
-        },
-        {
-          "label": "Test block size",
-          "value": "40×40×160mm (96 pieces)"
-        },
-        {
-          "label": "Dimensions",
-          "value": "920×760×980mm"
-        },
-        {
-          "label": "Weight",
-          "value": "113kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "D004",
-      "name": "constant temperature water curing box (horizontal)",
-      "model": "HBY-60",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-60（卧式）.png",
-      "image": "/assets/images/HBY-60-Image.png",
-      "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1"
-      ],
-      "specifications": [
-        {
-          "label": "Temperature control",
-          "value": "20±1℃"
-        },
-        {
-          "label": "Temperature control precision",
-          "value": "±1℃"
-        },
-        {
-          "label": "Voltage",
-          "value": "AC220V±10%"
-        },
-        {
-          "label": "Compressor power",
-          "value": "1000W"
-        },
-        {
-          "label": "Heater power",
-          "value": "2400W"
-        },
-        {
-          "label": "Maintenance box size",
-          "value": "140×100×180mm（36 pieces）"
-        },
-        {
-          "label": "Test block size",
-          "value": "40×40×160mm (216 pieces)"
-        },
-        {
-          "label": "Dimensions",
-          "value": "1760×755×980mm"
-        },
-        {
-          "label": "Weight",
-          "value": "350kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "D005",
-      "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box (Glass door)",
-      "model": "HBY-40B",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-40B（玻璃门）.png",
-      "image": "/assets/images/HBY-40B-Image.png",
-      "description": "This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1",
-        "196-08",
-        "ISO 679",
-        "ASTM C109",
-        "C511"
-      ],
-      "specifications": [
-        {
-          "label": "Test temperature",
-          "value": "20±1℃"
-        },
-        {
-          "label": "Control humidity",
-          "value": "≧95%RH"
-        },
-        {
-          "label": "Compressor power",
-          "value": "138W"
-        },
-        {
-          "label": "Heater power",
-          "value": "800W"
-        },
-        {
-          "label": "Voltage",
-          "value": "AC220V±10%"
-        },
-        {
-          "label": "Number of trial molds placed",
-          "value": "40×40×160 trial molds, 6 groups can be placed on each layer; 150×150×150 mold trial, 3 groups can be placed on each layer; 100×100×100 mold trial, 4 groups can be placed on each layer"
-        },
-        {
-          "label": "Studio size",
-          "value": "570×550×1000mm"
-        },
-        {
-          "label": "Dimensions",
-          "value": "980×700×1350mm"
-        },
-        {
-          "label": "Weight",
-          "value": "110kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D006",
       "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box(iron door)",
+      "suffixName": "",
       "model": "HBY-40B",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/HBY-40B（铁门）.png",
@@ -9792,70 +7725,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "D007",
-      "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box",
-      "model": "HBY-60B",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/HBY-60B.png",
-      "image": "/assets/images/HBY-60B-Image.png",
-      "description": "This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
-      "features": [],
-      "standards": [
-        "EN 196-1",
-        "196-08",
-        "ISO 679",
-        "ASTM C109",
-        "C511"
-      ],
-      "specifications": [
-        {
-          "label": "Test temperature",
-          "value": "20±1℃"
-        },
-        {
-          "label": "Control humidity",
-          "value": "≧95%RH"
-        },
-        {
-          "label": "Compressor power",
-          "value": "500W"
-        },
-        {
-          "label": "Heater power",
-          "value": "800W"
-        },
-        {
-          "label": "Voltage",
-          "value": "AC220V±10%"
-        },
-        {
-          "label": "Number of trial molds placed",
-          "value": "40×40×160 trial molds, 6 groups can be placed on each layer; 150×150×150 mold trial, 3 groups can be placed on each layer; 100×100×100 mold trial, 4 groups can be placed on each layer"
-        },
-        {
-          "label": "Studio size",
-          "value": "1180×550×1400mm"
-        },
-        {
-          "label": "Dimensions",
-          "value": "1650×680×1750mm"
-        },
-        {
-          "label": "Weight",
-          "value": "220kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D008",
       "name": "Mixed Mortar Specimen Standard Curing Box",
+      "suffixName": "",
       "model": "HBY-30",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/HBY-30.png",
@@ -9910,11 +7786,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D009",
       "name": "Cement Mortar Mixer",
+      "suffixName": "",
       "model": "JJ-20F",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/JJ-20F.png",
@@ -9980,11 +7858,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D010",
       "name": "Cement Mortar Vibrating Platform",
+      "suffixName": "",
       "model": "ZT-20F",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/ZT-20F.png",
@@ -10036,11 +7916,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D011",
       "name": "Electric Flexural Testing Machine (pointer type)",
+      "suffixName": "",
       "model": "DKZ-5000",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/DKZ-5000.png",
@@ -10093,68 +7975,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "D012",
-      "name": "Electric Flexural Testing Machine (pointer type)",
-      "model": "DKZ-6000",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/DKZ-6000（指针）.png",
-      "image": "/assets/images/DKZ-6000-Image.png",
-      "description": "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Display method",
-          "value": "Pointer"
-        },
-        {
-          "label": "Double lever output ratio (lower beam to arm distance ratio) (maximum)",
-          "value": "60:1"
-        },
-        {
-          "label": "Maximum output",
-          "value": "Double Leverage 6000N"
-        },
-        {
-          "label": "Loading speed",
-          "value": "50N/s"
-        },
-        {
-          "label": "Loading roller and supporting roller diameter",
-          "value": "Φ10mm"
-        },
-        {
-          "label": "Support roller pitch",
-          "value": "100mm"
-        },
-        {
-          "label": "Lay frame spacing",
-          "value": "46mm"
-        },
-        {
-          "label": "Lever inclination",
-          "value": ">1/50°"
-        },
-        {
-          "label": "Dimensions (length x width x height)",
-          "value": "1180×220×800mm"
-        },
-        {
-          "label": "Weight",
-          "value": "135kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D013",
       "name": "Electric Flexural Testing Machine (digital display)",
+      "suffixName": "",
       "model": "DKZ-6000",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/DKZ-6000（数显）.png",
@@ -10199,11 +8026,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D014",
       "name": "Cement Mortar Flow Table",
+      "suffixName": "",
       "model": "NLD-3F",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/NLD-3F.png",
@@ -10258,11 +8087,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D015",
       "name": "Cement Fineness Air Jet Sieving Analyzer (ordinary)",
+      "suffixName": "",
       "model": "FSY-150",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/FSY-150（普通）.png",
@@ -10314,67 +8145,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
-    },
-    {
-      "id": "D016",
-      "name": "Cement Fineness Air Jet Sieving Analyzer (environmental protection)",
-      "model": "FSY-150",
-      "category": "Cement Testing Equipment Series",
-      "thumbnail": "/assets/images/FSY-150（环保）.png",
-      "image": "/assets/images/FSY-150-Image.png",
-      "description": "This equipment is widely used in cement fineness inspection and cement production control. It can also be used in powder fineness testing in other industries. It is a commonly used instrument in various cement quality inspection stations, cement factories and other units.",
-      "features": [],
-      "standards": [
-        "EN 933-10",
-        "ASTM C1891"
-      ],
-      "specifications": [
-        {
-          "label": "Sieve analysis test fineness",
-          "value": "1~0.030mm"
-        },
-        {
-          "label": "Screening time automatic",
-          "value": "0～999s (adjust)"
-        },
-        {
-          "label": "Working negative pressure",
-          "value": "-4000~6000Pa"
-        },
-        {
-          "label": "Voltage",
-          "value": "AC220V±10%"
-        },
-        {
-          "label": "Feeding",
-          "value": "10～25g"
-        },
-        {
-          "label": "Accessories",
-          "value": "0.045 sieve, 0.08 sieve (optional)"
-        },
-        {
-          "label": "Noise",
-          "value": "≤75dB"
-        },
-        {
-          "label": "Dimensions",
-          "value": "450×380×830mm"
-        },
-        {
-          "label": "Weight",
-          "value": "30kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D017",
       "name": "Boiling Box",
+      "suffixName": "",
       "model": "FZ-31A",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/FZ-31A.png",
@@ -10429,11 +8206,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "D018",
       "name": "Automatic Specific Surface Area Meter (Blaine Method)",
+      "suffixName": "",
       "model": "FBT-9",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/FBT-9.png",
@@ -10499,11 +8278,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "E001",
       "name": "Cement Mortar Mixer",
+      "suffixName": "",
       "model": "JJ-5",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/JJ-5.png",
@@ -10567,11 +8348,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "E002",
       "name": "Cement Paste Mixer",
+      "suffixName": "",
       "model": "NJ-160A",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/NJ-160A.png",
@@ -10651,11 +8434,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "E003",
       "name": "Cement Mortar Vibrating Platform",
+      "suffixName": "",
       "model": "ZT-96",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/ZT-96.png",
@@ -10700,11 +8485,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "E004",
       "name": "Cement Mortar Flow Table",
+      "suffixName": "",
       "model": "NLD-3",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/NLD-3.png",
@@ -10752,11 +8539,13 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     },
     {
       "id": "E005",
       "name": "Cement Paste Mixer",
+      "suffixName": "",
       "model": "NJ-160F",
       "category": "Cement Testing Equipment Series",
       "thumbnail": "/assets/images/NJ-160F.png",
@@ -10813,7 +8602,8 @@ window.ludaData = {
       "hasManual": false,
       "hasVideo": false,
       "hasCAD": false,
-      "isNew": false
+      "isNew": false,
+      "customized": []
     }
   ]
 };
