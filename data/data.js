@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-14 14:07:06
+ * @LastEditTime: 2026-03-14 14:14:25
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -605,7 +605,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "2.7"
+          "value": "1.2"
         },
         {
           "label": "Supply Voltage",
@@ -715,7 +715,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "2.7"
+          "value": "1.2"
         },
         {
           "label": "Supply Voltage",
@@ -825,7 +825,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "2.7"
+          "value": "1.8"
         },
         {
           "label": "Supply Voltage",
@@ -935,7 +935,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "2.7"
+          "value": "1.8"
         },
         {
           "label": "Supply Voltage",
@@ -1045,7 +1045,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "3.7"
+          "value": "3.55"
         },
         {
           "label": "Supply Voltage",
@@ -1143,7 +1143,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "2.7"
+          "value": "1.3"
         },
         {
           "label": "Main Unit Dimensions (mm)",
@@ -1237,7 +1237,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "2.7"
+          "value": "1.3"
         },
         {
           "label": "Main Unit Dimensions (mm)",
@@ -1331,7 +1331,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "2.7"
+          "value": "1.8"
         },
         {
           "label": "Main Unit Dimensions (mm)",
@@ -1425,7 +1425,7 @@ window.ludaData = {
         },
         {
           "label": "Power of Motors (kW)",
-          "value": "3.7"
+          "value": "1.8"
         },
         {
           "label": "Main Unit Dimensions (mm)",
