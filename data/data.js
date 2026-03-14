@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-14 10:52:39
+ * @LastEditTime: 2026-03-14 13:58:44
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -12,57 +12,57 @@ window.ludaData = {
   categories: [
     {
       id: "tensile",
-      name: "Electromechanical Universal Testing Маchine Series",
+      name: "Electromechanical Universal Testing Маchines",
       description: "High-precision electronic universal testers for plastics, rubber, textiles, metals, etc.",
       icon: "/assets/series/electronic-tensile-machine-icon.jpg"
     },
     {
       id: "universal",
-      name: "Hydraulic Universal Testing Маchine Series",
+      name: "Hydraulic Universal Testing Маchines",
       description: "Multi-functional equipment for tension, compression, bending, shear on metals & non-metals.",
       icon: "/assets/series/universal-testing-machine-icon.png"
     },
     {
-      id: "pressure",
-      name: "Compression Testing Machine Series",
-      description: "Hydraulic/electric pressure testers for concrete, brick, rock compressive strength.",
-      icon: "/assets/series/pressure-machine-icon.jpg"
-    },
-    {
       id: "large_machine",
-      name: "Large Testing Machine Series",
+      name: "Large-scale Special Testing Machine",
       description: "Special machines: torsion, creep, fatigue, impact, and custom solutions.",
       icon: "/assets/series/large-testing-machine-icon.jpg"
     },
     {
       id: "research",
-      name: "General Laboratory Equipment Series",
+      name: "General Laboratory Equipments",
       description: "High-stability precision instruments for universities and research institutes.",
       icon: "/assets/series/research-product-icon.png"
     },
     {
       id: "concrete",
-      name: "Concrete Testing Equipment Series",
+      name: "Concrete Testing Equipments",
       description: "Full process concrete testing: mixing, curing, strength, etc.",
-      icon: "/assets/series/concrete-test-icon.jpg"
+      icon: "/assets/series/concrete-test-icon.png"
     },
     {
       id: "cement",
-      name: "Cement Testing Equipment Series",
-      description: "Cement consistency, setting time, soundness, strength testers.",
+      name: "Cement & Mortar Testing Equipments",
+      description: "Cement & mortar consistency, setting time, soundness, strength testers.",
       icon: "/assets/series/cement-instrument-icon.png"
     },
     {
       id: "asphalt",
-      name: "Asphalt and bitumen Testing Equipment Series",
-      description: "Penetration, softening point, ductility, Marshall stability testers.",
+      name: "Asphalt Testing Equipments",
+      description:  "Marshall stability, wheel tracking, gyratory compaction, asphalt content, and mixture performance testers.",
       icon: "/assets/series/asphalt-instrument-icon.png"
     },
     {
+      id: "bitumen",
+      name: "Bitumen (Asphalt Binder) Testing Equipments",
+      description: "Penetration, softening point, ductility, viscosity, aging, and wax content testers.",
+      icon: "/assets/series/bitumen-instrument-icon.png"
+    },
+    {
       id: "geotechnical",
-      name: "Geotechnical & Aggregate Testing Equipment Series",
+      name: "Geotechnical & Aggregate Testing Equipments",
       description: "Soil, sand, rock physical/mechanical testing for geotechnical engineering.",
-      icon: "/assets/series/geotechnical-instrument-icon.jpg"
+      icon: "/assets/series/geotechnical-instrument-icon.png"
     }
   ],
 
@@ -71,11 +71,10 @@ window.ludaData = {
     {
       "id": "M022",
       "name": "Digital Display Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "1000kN",
       "model": "WE-1000B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WE-1000B（出口）.png",
-      "image": "myImages/WE-100B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -165,12 +164,11 @@ window.ludaData = {
     },
     {
       "id": "P001",
-      "name": "Shock Absorber Universal Material Testing Machine",
-      "suffixName": "",
+      "name": "Shock Absorber Universal Testing Machine",
+      "suffixName": "600kN",
       "model": "WAW-600Pro",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WAW-600Pro.png",
-      "image": "myImages/WAW-600Pro-Image.png",
       "description": "This testing machine is mainly used for tensile, compression, bending and shear tests of metal materials, and meets the requirements of national standards such as ASTM E8 metal tensile test standard.",
       "features": [
         "The servo oil source control system used in this equipment can effectively reduce the equipment operation noise, reduce heat generation, extend the service life of the oil, and eliminate the need for cooling.",
@@ -252,12 +250,11 @@ window.ludaData = {
     },
     {
       "id": "P002",
-      "name": "Shock Absorber Universal Material Testing Machine",
-      "suffixName": "",
+      "name": "Shock Absorber Universal Testing Machine",
+      "suffixName": "1000kN",
       "model": "WAW-1000Pro",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WAW-1000Pro.png",
-      "image": "myImages/WAW-1000Pro-Image.png",
       "description": "This testing machine is mainly used for tensile, compression, bending and shear tests of metal materials, and meets the requirements of national standards such as ASTM E8 metal tensile test standard.",
       "features": [
         "The servo oil source control system used in this equipment can effectively reduce the equipment operation noise, reduce heat generation, extend the service life of the oil, and eliminate the need for cooling.",
@@ -340,11 +337,10 @@ window.ludaData = {
     {
       "id": "P003",
       "name": "Electro-hydraulic Servo Steel Strand Special Testing Machine",
-      "suffixName": "",
+      "suffixName": "600kN",
       "model": "WAW-600G",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WAW-600GS.png",
-      "image": "myImages/WAW-600GS-Image.png",
       "description": "This  product  is  suitable  for  tensile  test  of  steel  strand,  also  can  be  used  for tensile, compression, shear and other tests of metal and non-metal materials.",
       "features": [
         "The frame adopts gantry frame structure, super strong steel.",
@@ -434,11 +430,10 @@ window.ludaData = {
     {
       "id": "P004",
       "name": "Electro-hydraulic Servo Steel Strand Special Testing Machine",
-      "suffixName": "",
+      "suffixName": "1000kN",
       "model": "WAW-1000G",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WAW-1000GS.png",
-      "image": "myImages/WAW-1000GS-Image.png",
       "description": "This  product  is  suitable  for  tensile  test  of  steel  strand,  also  can  be  used  for tensile, compression, shear and other tests of metal and non-metal materials.",
       "features": [
         "The frame adopts gantry frame structure, super strong steel.",
@@ -528,11 +523,10 @@ window.ludaData = {
     {
       "id": "P007",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "100kN",
       "model": "WAW-100B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WAW-100S.png",
-      "image": "myImages/WAW-100S-Image.png",
       "description": "This product is suitable for metal, non-metal and composite materials,components of tensile, compression,bending,shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision,  simple operation, convenient, large data storage capacity and other advantages.",
       "features": [
         "The machine adopts high precision pressure displacement sensor, with high sensitive digital valve, fast response speed, high resolution.",
@@ -639,11 +633,10 @@ window.ludaData = {
     {
       "id": "P008",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "300kN",
       "model": "WAW-300B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WAW-300S.png",
-      "image": "myImages/WAW-300S-Image.png",
       "description": "This product is suitable for metal, non-metal and composite materials,components of tensile, compression,bending,shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision,  simple operation, convenient, large data storage capacity and other advantages.",
       "features": [
         "The machine adopts high precision pressure displacement sensor, with high sensitive digital valve, fast response speed, high resolution.",
@@ -750,11 +743,10 @@ window.ludaData = {
     {
       "id": "P009",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "600kN",
       "model": "WAW-600B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WAW-600S.png",
-      "image": "myImages/WAW-600S-Image.png",
       "description": "This product is suitable for metal, non-metal and composite materials,components of tensile, compression,bending,shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision,  simple operation, convenient, large data storage capacity and other advantages.",
       "features": [
         "The machine adopts high precision pressure displacement sensor, with high sensitive digital valve, fast response speed, high resolution.",
@@ -861,11 +853,10 @@ window.ludaData = {
     {
       "id": "P010",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "1000kN",
       "model": "WAW-1000B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WAW-1000S.png",
-      "image": "myImages/WAW-1000S-Image.png",
       "description": "This product is suitable for metal, non-metal and composite materials,components of tensile, compression,bending,shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision,  simple operation, convenient, large data storage capacity and other advantages.",
       "features": [
         "The machine adopts high precision pressure displacement sensor, with high sensitive digital valve, fast response speed, high resolution.",
@@ -972,11 +963,10 @@ window.ludaData = {
     {
       "id": "P011",
       "name": "Electro-hydraulic Servo Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "2000kN",
       "model": "WAW-2000B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WAW-2000S.png",
-      "image": "myImages/WAW-2000S-Image.png",
       "description": "This product is suitable for metal, non-metal and composite materials,components of tensile, compression,bending,shear and other mechanical properties testing.The product adopts the under-mounted cylinder, microcomputer control, electro-hydraulic servo, with high precision,  simple operation, convenient, large data storage capacity and other advantages.",
       "features": [
         "The machine adopts high precision pressure displacement sensor, with high sensitive digital valve, fast response speed, high resolution.",
@@ -1083,11 +1073,10 @@ window.ludaData = {
     {
       "id": "P022",
       "name": "Digital Display Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "100kN",
       "model": "WE-100B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WE-1000B（出口）.png",
-      "image": "myImages/WE-100B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -1178,11 +1167,10 @@ window.ludaData = {
     {
       "id": "P023",
       "name": "Digital Display Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "300kN",
       "model": "WE-300B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WE-1000B（出口）.png",
-      "image": "myImages/WE-300B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -1273,11 +1261,10 @@ window.ludaData = {
     {
       "id": "P024",
       "name": "Digital Display Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "600kN",
       "model": "WE-600B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WE-1000B（出口）.png",
-      "image": "myImages/WE-600B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -1366,108 +1353,12 @@ window.ludaData = {
       "customized": []
     },
     {
-      "id": "P025",
-      "name": "Digital Display Universal Material Testing Machine",
-      "suffixName": "",
-      "model": "WE-1000B",
-      "category": "Hydraulic Universal Testing Маchine Series",
-      "thumbnail": "/assets/images/WE-1000B（出口）.png",
-      "image": "myImages/WE-1000B-Image.png",
-      "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
-      "features": [],
-      "standards": [
-        "EN ISO 6892-1",
-        "ISO 7500",
-        "EN 10002",
-        "EN 10080",
-        "EN 15630-1",
-        "ASTM A370",
-        "EN 15630-3",
-        "EN ISO 7438",
-        "EN ISO 15630-1",
-        "ASTM A615",
-        "ASTM A615M"
-      ],
-      "specifications": [
-        {
-          "label": "Load Capacity (kN)",
-          "value": "1000"
-        },
-        {
-          "label": "Effective Load Measurement Range (kN)",
-          "value": "100～1000"
-        },
-        {
-          "label": "Load Measurement Accuracy",
-          "value": "±1%"
-        },
-        {
-          "label": "Tensile Vertical Test Space (mm)",
-          "value": "690"
-        },
-        {
-          "label": "Compression Vertical Test Space (mm)",
-          "value": "620"
-        },
-        {
-          "label": "Flat specimen clamping thickness(mm)",
-          "value": "0～40"
-        },
-        {
-          "label": "Round specimen clamping diameter(mm)",
-          "value": "14～32、30～50"
-        },
-        {
-          "label": "Piston Stroke (mm)",
-          "value": "180"
-        },
-        {
-          "label": "Compression Platen dimension (mm)",
-          "value": "Φ220(Upper) Φ230(Lower)"
-        },
-        {
-          "label": "Horizontal Test Space (mm)",
-          "value": "450"
-        },
-        {
-          "label": "Piston Maximum Speed (mm/min)",
-          "value": "100"
-        },
-        {
-          "label": "Cross Head Maximum Speed (mm/min)",
-          "value": "240"
-        },
-        {
-          "label": "Power of Motors (kW)",
-          "value": "2.7"
-        },
-        {
-          "label": "Main Unit Dimensions (mm)",
-          "value": "945×635×2100"
-        },
-        {
-          "label": "Control Cabinet Dimensions (mm)",
-          "value": "530×500×1270"
-        },
-        {
-          "label": "Overall weight(kg)",
-          "value": "2800"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false,
-      "customized": []
-    },
-    {
       "id": "P026",
       "name": "Digital Display Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "2000kN",
       "model": "WE-2000B",
-      "category": "Hydraulic Universal Testing Маchine Series",
+      "category": "Hydraulic Universal Testing Маchines",
       "thumbnail": "/assets/images/WE-1000B（出口）.png",
-      "image": "myImages/WE-2000B-Image.png",
       "description": "The testing machine is also known as tensile machine, is powered by hydraulic pressure,  mainly suitable for doing metal material tensile, compression and other tests, equipped with appropriate fixtures, can also be used to conduct non-metallic materials tensile, compression,  bending and shear test to test the mechanical properties of materials, in the materials industry, metallurgy, non-ferrous metallurgy,building materials, machinery industry, transportation, etc. have a wide range of applications.",
       "features": [],
       "standards": [
@@ -1558,11 +1449,10 @@ window.ludaData = {
     {
       "id": "P027",
       "name": "Electronic Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "100kN",
       "model": "WDW-100",
-      "category": "Electromechanical Universal Testing Маchine Series",
+      "category": "Electromechanical Universal Testing Маchines",
       "thumbnail": "/assets/images/WDW-50.png",
-      "image": "myImages/WDW-100-Image.png",
       "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
       "features": [
         "Safety position and experimental position height arbitrary lock.",
@@ -1668,11 +1558,10 @@ window.ludaData = {
     {
       "id": "P028",
       "name": "Electronic Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "50kN",
       "model": "WDW-50",
-      "category": "Electromechanical Universal Testing Маchine Series",
+      "category": "Electromechanical Universal Testing Маchines",
       "thumbnail": "/assets/images/WDW-50.png",
-      "image": "myImages/WDW-50-Image.png",
       "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield  strength, tensile  strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
       "features": [
         "Safety position and experimental position height arbitrary lock.",
@@ -1778,11 +1667,10 @@ window.ludaData = {
     {
       "id": "P029",
       "name": "Electronic Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "10kN",
       "model": "WDW-10",
-      "category": "Electromechanical Universal Testing Маchine Series",
+      "category": "Electromechanical Universal Testing Маchines",
       "thumbnail": "/assets/images/WDW-20.png",
-      "image": "myImages/WDW-10-Image.png",
       "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
       "features": [
         "Safety position and experimental position height arbitrary lock.",
@@ -1888,11 +1776,10 @@ window.ludaData = {
     {
       "id": "P030",
       "name": "Electronic Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "20kN",
       "model": "WDW-20",
-      "category": "Electromechanical Universal Testing Маchine Series",
+      "category": "Electromechanical Universal Testing Маchines",
       "thumbnail": "/assets/images/WDW-20.png",
-      "image": "myImages/WDW-20-Image.png",
       "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
       "features": [
         "Safety position and experimental position height arbitrary lock.",
@@ -1998,11 +1885,10 @@ window.ludaData = {
     {
       "id": "P031",
       "name": "Electronic Universal Material Testing Machine",
-      "suffixName": "",
+      "suffixName": "5kN",
       "model": "WDW-5",
-      "category": "Electromechanical Universal Testing Маchine Series",
+      "category": "Electromechanical Universal Testing Маchines",
       "thumbnail": "/assets/images/WDW-5.png",
-      "image": "myImages/WDW-5-Image.png",
       "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
       "features": [
         "Safety position and experimental position height arbitrary lock.",
@@ -2088,12 +1974,11 @@ window.ludaData = {
     },
     {
       "id": "P035",
-      "name": "Constant Loading Pressure Testing Machine",
-      "suffixName": "",
+      "name": "Servo-controlled Pressure Testing Machine",
+      "suffixName": "2000kN EN Model",
       "model": "YAW-2000H",
-      "category": "Compression Testing Machine Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/YAW-2000H.png",
-      "image": "myImages/YAW-2000H-Image.png",
       "description": "This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials. The product conforms to ISO, ASTM and other standards.",
       "features": [],
       "standards": [
@@ -2170,12 +2055,11 @@ window.ludaData = {
     },
     {
       "id": "P036",
-      "name": "Constant Loading Pressure Testing Machine(Automatic) White Machine",
-      "suffixName": "",
+      "name": "Servo-controlled Pressure Testing Machine",
+      "suffixName": "2000kN EN Model",
       "model": "YAW-2000S",
-      "category": "Compression Testing Machine Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/YAW-2000S.png",
-      "image": "myImages/YAW-2000S-Image.png",
       "description": "This product is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.",
       "features": [
         "The frame adopts the whole machine casting frame structure;",
@@ -2257,12 +2141,11 @@ window.ludaData = {
     },
     {
       "id": "P037",
-      "name": "Constant Loading Pressure Testing Machine(Automatic) White Machine",
-      "suffixName": "",
+      "name": "Servo-controlled Pressure Testing Machine",
+      "suffixName": "3000kN EN Model",
       "model": "YAW-3000S",
-      "category": "Compression Testing Machine Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/YAW-3000S.png",
-      "image": "myImages/YAW-3000S-Image.png",
       "description": "This product is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.",
       "features": [
         "The frame adopts the whole machine casting frame structure;",
@@ -2344,12 +2227,11 @@ window.ludaData = {
     },
     {
       "id": "P038",
-      "name": "Constant Loading Pressure Testing Machine(Automatic)",
-      "suffixName": "",
+      "name": "Servo-controlled Pressure Testing Machine",
+      "suffixName": "2000kN",
       "model": "TSY-2000A",
-      "category": "Compression Testing Machine Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/TSY-2000A.png",
-      "image": "myImages/TSY-2000A-Image.png",
       "description": "This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials. The product conforms to ISO, ASTM and other standards.",
       "features": [
         "The hydraulic pump adopts an axial five-piston ultra-high pressure pump, which works smoothly and has low noise;",
@@ -2436,12 +2318,11 @@ window.ludaData = {
     },
     {
       "id": "P039",
-      "name": "Constant Loading Pressure Testing Machine(Automatic)",
-      "suffixName": "",
+      "name": "Servo-controlled Pressure Testing Machine",
+      "suffixName": "3000kN",
       "model": "TSY-3000A",
-      "category": "Compression Testing Machine Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/TSY-3000A.png",
-      "image": "myImages/TSY-3000A-Image.png",
       "description": "This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials. The product conforms to ISO, ASTM and other standards.",
       "features": [
         "The hydraulic pump adopts an axial five-piston ultra-high pressure pump, which works smoothly and has low noise;",
@@ -2528,12 +2409,11 @@ window.ludaData = {
     },
     {
       "id": "P040",
-      "name": "Electro-hydraulic Pressure Testing Machine(Electric Screw)",
-      "suffixName": "",
+      "name": "Digital Display Compression Testing Machine",
+      "suffixName": "2000kN",
       "model": "TSY-2000B",
-      "category": "Compression Testing Machine Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/TSY-2000B.png",
-      "image": "myImages/TSY-2000B-Image.png",
       "description": "This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.",
       "features": [
         "With load digital display function;",
@@ -2617,12 +2497,11 @@ window.ludaData = {
     },
     {
       "id": "P041",
-      "name": "Electro-hydraulic Pressure Testing Machine(Electric Screw)",
-      "suffixName": "",
+      "name": "Digital Display Compression Testing Machine",
+      "suffixName": "3000kN",
       "model": "TSY-3000B",
-      "category": "Compression Testing Machine Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/TSY-3000B.png",
-      "image": "myImages/TSY-3000B-Image.png",
       "description": "This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.",
       "features": [
         "With load digital display function;",
@@ -2706,12 +2585,11 @@ window.ludaData = {
     },
     {
       "id": "P042",
-      "name": "Electro-Hydraulic Pressure Testing Machine",
-      "suffixName": "",
+      "name": "Digital Display Compression Testing Machine",
+      "suffixName": "2000kN",
       "model": "TSY-2000",
-      "category": "Compression Testing Machine Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/TSY-2000.png",
-      "image": "myImages/TSY-2000-Image.png",
       "description": "This testing machine is mainly used for the compressive strength test of building materials such as brick, cement mortar and concrete, and can also be used for the mechanical performance test of other materials.",
       "features": [
         "With load digital display function;",
@@ -2791,13 +2669,12 @@ window.ludaData = {
     },
     {
       "id": "P043",
-      "name": "Constant Load Cement Flexural And Compressive Testing Machine",
+      "name": "Servo-controlled Cement Flexural And Compressive Testing Machine",
       "suffixName": "",
       "model": "YAW-300.10S",
-      "category": "Compression Testing Machine Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/YAW-300.10S.png",
-      "image": "myImages/YAW-300.10S-Image.png",
-      "description": "YAW-300·10S Constant Load Cement Flexural and Compressive Testing Machine is a new generation of servo press independently developed and produced by Zhejiang Luda. With strong technology and production capacity, our company was honored to be invited to participate in the preparation of new standards for all-in-one machines. This  testing  machine  is an essential testing instrument for building materials,construction engineering, quality supervision, metrology testing, scientific research institutions and other units.",
+      "description": "YAW-300·10S Servo-controlled Cement Flexural And Compressive Testing Machine is a new generation of servo press independently developed and produced by Zhejiang Luda. With strong technology and production capacity, our company was honored to be invited to participate in the preparation of new standards for all-in-one machines. This  testing  machine  is an essential testing instrument for building materials,construction engineering, quality supervision, metrology testing, scientific research institutions and other units.",
       "features": [
         "The whole machine adopts physical and chemical board countertop, and the frame adopts static surface electroplating, which is easy to clean and beautiful;",
         "The anti-bending part adopts electric oil cylinder, which has high precision, stable control, accurate displacement and force value;",
@@ -2907,13 +2784,12 @@ window.ludaData = {
     },
     {
       "id": "P044",
-      "name": "Constant Loading Pressure Testing Machine",
-      "suffixName": "",
+      "name": "Servo-controlled Pressure Testing Machine",
+      "suffixName": "300kN",
       "model": "YAW-300S",
-      "category": "Compression Testing Machine Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/YAW-300S.png",
-      "image": "myImages/YAW-300S-Image.png",
-      "description": "YAW-300S Constant Load Cement Flexural and Compressive Testing Machine is a new generation of servo press independently developed and produced by Zhejiang Luda. With strong technology and production capacity, our company was honored to be invited to participate in the preparation of new standards for all-in-one machines. This  testing  machine is an essential testing instrument for building materials,construction engineering, quality supervision, metrology testing, scientific research institutions and other units.",
+      "description": "YAW-300S Servo-controlled Cement Compressive Testing Machine is a new generation of servo press independently developed and produced by Zhejiang Luda. With strong technology and production capacity, our company was honored to be invited to participate in the preparation of new standards for all-in-one machines. This  testing  machine is an essential testing instrument for building materials,construction engineering, quality supervision, metrology testing, scientific research institutions and other units.",
       "features": [
         "Imported servo motor is used to control the oil source;",
         "High-precision servo flow valve;",
@@ -2993,13 +2869,12 @@ window.ludaData = {
     },
     {
       "id": "P045",
-      "name": "Constant Load Cement Flexural Compression Testing Machine",
+      "name": "Servo-controlled Cement Flexural Compression Testing Machine",
       "suffixName": "",
       "model": "YZH-300.10",
-      "category": "Compression Testing Machine Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/YZH-300.10.png",
-      "image": "myImages/YZH-300·10-Image.png",
-      "description": "YZH-300·10 constant load cement flexural and compressive testing machine is a pressure testing machine that integrates cement flexural and compressive resistance jointly  developed  by  Zhejiang  Luda  Machinery  Instrument  Co.,  Ltd.  and  Zhejiang University of Technology\nThis product adopts anti-bending and anti-compression double oil cylinders to realize the test of cement compressive strength and cement flexural strength respectively.",
+      "description": "YZH-300·10 Servo-controlled Cement Flexural And Compressive Testing Machine is a pressure testing machine that integrates cement flexural and compressive resistance jointly  developed  by  Zhejiang  Luda  Machinery  Instrument  Co.,  Ltd.  and  Zhejiang University of Technology\nThis product adopts anti-bending and anti-compression double oil cylinders to realize the test of cement compressive strength and cement flexural strength respectively.",
       "features": [
         "Using high-precision digital micro-valve, can realize loading rate loading;",
         "With the force closed-loop control function, it can realize the loading of the load stress rate;",
@@ -3105,12 +2980,11 @@ window.ludaData = {
     },
     {
       "id": "P046",
-      "name": "Constant Loading Pressure Testing Machine",
-      "suffixName": "",
+      "name": "Servo-controlled Pressure Testing Machine",
+      "suffixName": "300kN",
       "model": "YAW-300",
-      "category": "Compression Testing Machine Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/YAW-300.png",
-      "image": "myImages/YAW-300-Image.png",
       "description": "This product is suitable for the compressive strength test of brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other  materials.",
       "features": [
         "The working oil cylinder and the working piston adopt precision couplings, embedded with composite sealing rings to achieve the best sealing state;",
@@ -3188,12 +3062,11 @@ window.ludaData = {
     },
     {
       "id": "P047",
-      "name": "Electro-hydraulic Compression Testing Machine",
-      "suffixName": "",
+      "name": "Digital Display Compression Testing Machine",
+      "suffixName": "300kN",
       "model": "TSY-300",
-      "category": "Compression Testing Machine Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/TSY-300.png",
-      "image": "myImages/TSY-300-Image.png",
       "description": "This  product  is suitable for the compressive strength test of  brick, stone, cement, concrete and other materials, and can also be used for the compressive performance test of other materials.",
       "features": [
         "It can automatically adjust the parallelism of the pressure-bearing surface between the test piece and the pressure plate, so that the test piece is evenly stressed;",
@@ -3262,12 +3135,11 @@ window.ludaData = {
     },
     {
       "id": "P049",
-      "name": "Constant Load Manhole Cover Special Pressure Testing Machine",
-      "suffixName": "",
+      "name": "Servo-controlled Manhole Cover Special Pressure Testing Machine",
+      "suffixName": "1000kN",
       "model": "TSY-1000S",
-      "category": "Compression Testing Machine Series",
+      "category": "Large-scale Special Testing Machine",
       "thumbnail": "/assets/images/TSY-1000S.png",
-      "image": "myImages/TSY-1000S-Image.png",
       "description": "TSY series manhole cover pressure testing machine is a scientific and technological achievement of cooperation between our company and the Institute of Fluid Transmission and Control of Zhejiang University of Technology.\nThe testing machine is mainly used for testing manhole cover load bearing test and residual deformation test, and can also be used for mechanical performance tests of other materials.",
       "features": [
         "This machine adopts high-precision deformation and high-resolution acquisition system;",
@@ -3348,11 +3220,10 @@ window.ludaData = {
     {
       "id": "P050",
       "name": "Static Load Sleeper Testing Machine",
-      "suffixName": "",
+      "suffixName": "500kN",
       "model": "TSY-500",
-      "category": "Large Testing Machine Series",
+      "category": "Large-scale Special Testing Machine",
       "thumbnail": "/assets/images/TSY-500轨枕.png",
-      "image": "myImages/TSY-500-Image.png",
       "description": "The static load sleeper testing machine is a device for testing the static load crack resistance test of concrete sleepers (Type I sleepers, Type II sleepers, Type III sleepers, fork sleepers, bridge sleepers, wide sleepers, etc.).",
       "features": [
         "The force measurement of this machine adopts high-precision load sensor, microcomputer program control, electro-hydraulic proportional hydraulic loading system and other technologies;",
@@ -3450,12 +3321,11 @@ window.ludaData = {
     },
     {
       "id": "P051",
-      "name": "Microcomputer Controlled Tensile Stress Relaxation Testing Machine",
-      "suffixName": "",
+      "name": "Servo-controlled Strand Tensile Relaxation Testing Machine",
+      "suffixName": "300kN",
       "model": "LDCJ-300",
-      "category": "Large Testing Machine Series",
+      "category": "Large-scale Special Testing Machine",
       "thumbnail": "/assets/images/LDCJ-300.png",
-      "image": "myImages/LDCJ-300-Image.png",
       "description": "This product is suitable for  testing equipment for measuring the relaxation properties of metal   materials at room temperature.",
       "features": [
         "The host machine is of horizontal structure with moderate height and easy operation. The load-bearing pedestal is a welded structure with high rigidity and light weight;",
@@ -3525,12 +3395,11 @@ window.ludaData = {
     },
     {
       "id": "P052",
-      "name": "Steel Pipe Bending Test Machine",
+      "name": "Metal Pipe Bending Test Machine",
       "suffixName": "",
       "model": "LDGW-60C",
-      "category": "Large Testing Machine Series",
+      "category": "Large-scale Special Testing Machine",
       "thumbnail": "/assets/images/LDGW-60C.png",
-      "image": "myImages/LDGW-60C-Image.png",
       "description": "LDGW-60C steel pipe bending testing machine has the characteristics of compact structure, simple operation, intuitive display of bending angle, easy maintenance, stable operation, safety, and low noise. It is a special equipment for cold bending test of steel pipes.This equipment is an ideal test equipment for steel mills and construction units to test the bending performance and reverse bending performance of steel pipes.",
       "features": [],
       "standards": [],
@@ -3584,12 +3453,11 @@ window.ludaData = {
     },
     {
       "id": "P053",
-      "name": "Vertical Steel Bar Bending and Rebending Testing Machine",
-      "suffixName": "",
+      "name": "Metal Bending and Rebending Testing Machine",
+      "suffixName": "For Metal Rebar, Sheets and Pipe",
       "model": "LDWQ-40D",
-      "category": "Large Testing Machine Series",
+      "category": "Large-scale Special Testing Machine",
       "thumbnail": "/assets/images/LDWQ-40D.png",
-      "image": "myImages/LDWQ-40D-Image.png",
       "description": "The steel bar bending test machine is a special equipment for cold bending test and plane  reverse bending test of steel bars.It is mainly used in the quality inspection department of  metallurgy and construction engineering, and can also be used in the bending performance  inspection of construction raw materials and steel bar welding points. Commonly used equipment for performance testing and research.",
       "features": [
         "Vertical closed integrated fuselage design, silent oil pump hydraulic system;",
@@ -3660,12 +3528,11 @@ window.ludaData = {
     },
     {
       "id": "P055",
-      "name": "Automatic Bolt Torque Tension Testing Machine",
+      "name": "Servo-controlled Bolt Torque Tension Testing Machine",
       "suffixName": "",
       "model": "LD-JZ500D",
-      "category": "Large Testing Machine Series",
+      "category": "Large-scale Special Testing Machine",
       "thumbnail": "/assets/images/LD-JZ500D.png",
-      "image": "myImages/LD-JZ500D-Image.png",
       "description": "It can detect, display and print the axial force and torque of 7/16 inch non-standard bolts.\nIt can be equipped with a special torsional shear wrench, and can also detect the axial force (pre tightening force) after the shear-type high-strength bolt connection pair 7/16 is twisted off (this wrench needs special order).",
       "features": [
         "This product has the function of parameter backup and recovery, automatic calibration function, and the monitoring of peak value is also set according to the detection requirements of high-strength bolts.",
@@ -3713,12 +3580,11 @@ window.ludaData = {
     },
     {
       "id": "P057",
-      "name": "Asphalt Content Analyzer (combustion method)",
-      "suffixName": "",
+      "name": "Asphalt Content Analyzer",
+      "suffixName": "combustion method",
       "model": "LDRS-6",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Asphalt Testing Equipments",
       "thumbnail": "/assets/images/LDRS-6.png",
-      "image": "myImages/LDRS-6-Image.png",
       "description": "This product uses the combustion method to determine the asphalt content.The product adopts a high-precision measurement and control system and is used with an imported  balance.It can quickly, accurately, safely and reliably measure the asphalt content, and can meet the requirements of mass continuous production of  mixing plants and road supervision   and inspection, thereby ensuring the quality of road construction.",
       "features": [
         "The product adopts a high-precision measurement and control system and is used with an  imported balance.It can quickly, accurately, safely and reliably measure the asphalt content,   and can meet the requirements of  mass continuous production of mixing plants and road  supervision and inspection, thereby ensuring the quality of road construction."
@@ -3766,12 +3632,11 @@ window.ludaData = {
     },
     {
       "id": "P058",
-      "name": "Asphalt Roller Compactor",
+      "name": "Asphalt Slab Roller Compactor",
       "suffixName": "",
       "model": "LDCX-1",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Asphalt Testing Equipments",
       "thumbnail": "/assets/images/LDCX-1.png",
-      "image": "myImages/LDCX-1-Image.png",
       "description": "This machine is mainly used for roll forming of asphalt mixture tests in rutting tests. It is also suitable for using the rolling method to make samples of other physical and mechanical properties of asphalt mixtures.",
       "features": [
         "This machine integrates machinery, electricity and hydraulic pressure. Compared with similar  products, it has the characteristics of small size, high degree of automation, strong function and convenient operation.",
@@ -3825,12 +3690,11 @@ window.ludaData = {
     },
     {
       "id": "P059",
-      "name": "Automatic Single Wheel Tracking Apparatus",
-      "suffixName": "",
+      "name": "Hot Mix Asphalt Wheel Tracker",
+      "suffixName": "Single Wheel",
       "model": "LDCZ-5",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Asphalt Testing Equipments",
       "thumbnail": "/assets/images/LDCZ-5.png",
-      "image": "myImages/LDCZ-5-Image.png",
       "description": "The automatic rutting tester is mainly used to measure the high-temperature anti- rutting ability of  asphalt mixture, and it is used for the high-temperature stability test of asphalt mixture design.",
       "features": [
         "This machine adopts the rutting tester produced by international contemporary technology,  which has reliable performance, high measurement and control precision, and convenient   operation; it can be used for water immersion experiments."
@@ -3887,12 +3751,11 @@ window.ludaData = {
     },
     {
       "id": "P061",
-      "name": "Intelligent Asphalt Ductilometer",
+      "name": "Bitumen Ductilometer",
       "suffixName": "",
       "model": "STYD-3",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Bitumen (Asphalt Binder) Testing Equipments",
       "thumbnail": "/assets/images/STYD-3.png",
-      "image": "myImages/STYD-3-Image.png",
       "description": "This instrument is suitable for measuring the elongation of viscous petroleum,viscous shale asphalt,wax liquid, asphalt, liquid asphalt residue after distillation and asphalt emulsion fluid   evaporation residue,etc.It is widely used in production, road construction and scientific research departments.",
       "features": [
         "The inner box of this machine is made of imported stainless steel bending, and the inner tank  is equipped with a set of 3000-3500 watt  heating tube, a 1100 watt refrigerator and a set  of  cold tube, and a permanent magnet low-speed synchronous motor is used to drive the gearbox. The rod pulls the slide,optionally extending at a rate of 50mm/min±2.5mm/min."
@@ -3940,12 +3803,11 @@ window.ludaData = {
     },
     {
       "id": "P062",
-      "name": "Asphalt Mixture CBR/Marshall Stability Tester",
-      "suffixName": "",
+      "name": "Asphalt Marshall Stability Tester",
+      "suffixName": "30kN for ø101.6mm specimens",
       "model": "LD-5B",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Asphalt Testing Equipments",
       "thumbnail": "/assets/images/LD-5B.png",
-      "image": "myImages/LD-5B-Image.png",
       "description": "The automatic asphalt mixture stability tester is used to measure the ultimate pressure value and vertical deformation of the asphalt mixture specimen when the pressure reaches the failure point. It is a commonly used testing equipment for asphalt mix ratio design and asphalt pavement construction quality inspection.",
       "features": [
         "This machine adopts ARM core processor, high-precision load sensor,high-precision   displacement sensor, and high measurement and control precision."
@@ -4005,12 +3867,11 @@ window.ludaData = {
     },
     {
       "id": "P063",
-      "name": "Automatic Laboratory Bituminous Mixers",
-      "suffixName": "",
+      "name": "Laboratory Planetary Mixers",
+      "suffixName": "20L",
       "model": "LDHB-20",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Asphalt Testing Equipments",
       "thumbnail": "/assets/images/LDHB-20.png",
-      "image": "myImages/LDHB-20-Image.png",
       "description": "The vertical fully automatic mixture mixer is a mixing machine commonly used in the preparation of asphalt, sand and gravel mixture, cement and sand and gravel mixture  samples.",
       "features": [
         "This machine adopts intelligent control instruments, automatic temperature control,  the  temperature of the heating pot can be set arbitrarily from room temperature to 200 ℃, and the stirring time is controlled by a timer, which can be set arbitrarily within the range of 1 to 999 seconds."
@@ -4069,9 +3930,8 @@ window.ludaData = {
       "name": "Asphalt Wax Content Tester",
       "suffixName": "",
       "model": "LDL-2",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Bitumen (Asphalt Binder) Testing Equipments",
       "thumbnail": "/assets/images/LDL-2.png",
-      "image": "myImages/LDL-2-Image.png",
       "description": "This product is suitable for determining the wax content in petroleum asphalt, the wax content  of  petroleum asphalt produced from the vacuum residue of natural crude oil, and the wax   content of road petroleum asphalt.This equipment is a commonly used asphalt wax content detection equipment in the petrochemical, construction, and road construction industries.",
       "features": [
         "The temperature controller of this machine adopts a digital temperature controller with high precision, clear temperature display, and convenient setting of temperature control points. The instrument can be used for analysis tests of three samples at a time, and the test efficiency is high."
@@ -4126,9 +3986,8 @@ window.ludaData = {
       "name": "Rotating Shelf Thin Film Oven (TFOT)",
       "suffixName": "",
       "model": "82 Type",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Bitumen (Asphalt Binder) Testing Equipments",
       "thumbnail": "/assets/images/82 Type.png",
-      "image": "myImages/82 Type-Image.png",
       "description": "This product is mainly used for asphalt film heating test. \nExplosives are strictly forbidden to be heated in the box to avoid explosion.",
       "features": [
         "The  temperature  controller  of  this  machine  adopts  an  anti-integral  saturation circuit, which greatly improves the temperature fluctuation performance .",
@@ -4201,9 +4060,8 @@ window.ludaData = {
       "name": "Rolling Thin-Film Oven (RTFOT)",
       "suffixName": "",
       "model": "85 Type",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Bitumen (Asphalt Binder) Testing Equipments",
       "thumbnail": "/assets/images/85 Type.png",
-      "image": "myImages/85 Type-Image.png",
       "description": "The instrument is suitable for measuring the performance change of semi-solid asphalt under the action of heating and air,and can check the aging performance of asphalt in a short time.",
       "features": [
         "The controller adopts integral saturation circuit, digital display temperature and time control,   and the temperature time can be adjusted according to requirements.",
@@ -4288,12 +4146,11 @@ window.ludaData = {
     },
     {
       "id": "P067",
-      "name": "Overflow Water Bath",
-      "suffixName": "",
+      "name": "Marshall Overflow Water Bath",
+      "suffixName": "ambient ~ 60℃",
       "model": "CF-C",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Asphalt Testing Equipments",
       "thumbnail": "/assets/images/CF-C.png",
-      "image": "myImages/CF-C-Image.png",
       "description": "CF-C constant temperature overflow water tank is developed according to the asphalt mixture density test method in the test regulations, and has functions such as automatic constant temperature. This product is widely used in scientific research departments such as chemical industry and physical performance testing.",
       "features": [],
       "standards": [
@@ -4342,11 +4199,10 @@ window.ludaData = {
     {
       "id": "P068",
       "name": "Water Bath",
-      "suffixName": "",
+      "suffixName": "ambient ~ 100℃",
       "model": "TC-20",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Bitumen (Asphalt Binder) Testing Equipments",
       "thumbnail": "/assets/images/TC-20恒温.png",
-      "image": "myImages/TC-20-Image.png",
       "description": "The machine creates a constant temperature environment in the box by controlling the temperature change. The constant temperature water bath has a wide range of applications and is suitable for scientific laboratories such as biology, chemistry, physics, plants, and chemicals.",
       "features": [
         "The shell of this machine is made of steel plate,the shell is sprayed with high-temperature spray paint, and the inner tank is made of imported stainless steel material,with exquisite  workmanship,more reasonable structure and more convenient use."
@@ -4391,11 +4247,10 @@ window.ludaData = {
     {
       "id": "P069",
       "name": "Low Temperature Water Bath",
-      "suffixName": "",
+      "suffixName": "50L -6℃~60℃",
       "model": "TC-20",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Bitumen (Asphalt Binder) Testing Equipments",
       "thumbnail": "/assets/images/TC-20低温.png",
-      "image": "myImages/TC-20-Image.png",
       "description": "Low temperature constant temperature bath is one of the commonly used equipment  in  laboratories.It is widely used in petroleum,chemical industry,metallurgy, medicine,biochemical  property testing,chemical analysis research departments, colleges and universities,factory laboratories and metrology quality inspection departments.It also provides a maintenance  environment with controlled heat and cold and uniform and constant temperature.",
       "features": [],
       "standards": [],
@@ -4438,11 +4293,10 @@ window.ludaData = {
     {
       "id": "P070",
       "name": "Low Temperature Water Bath",
-      "suffixName": "",
+      "suffixName": "15L -6℃~60℃",
       "model": "THD-0506",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Bitumen (Asphalt Binder) Testing Equipments",
       "thumbnail": "/assets/images/THD-0506.png",
-      "image": "myImages/THD-0506-Image.png",
       "description": "Low temperature constant temperature bath is one of the commonly used equipment  in  laboratories.It is widely used in petroleum,chemical industry,metallurgy, medicine,biochemical  property testing,chemical analysis research departments, colleges and universities,factory laboratories and metrology quality inspection departments.It also provides a maintenance  environment with controlled heat and cold and uniform and constant temperature.",
       "features": [],
       "standards": [],
@@ -4484,12 +4338,11 @@ window.ludaData = {
     },
     {
       "id": "P071",
-      "name": "Computer Asphalt Softening Point Tester",
-      "suffixName": "",
+      "name": "Automatic Softening Point Tester",
+      "suffixName": "Ring and Ball Tester",
       "model": "LD-2000",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Bitumen (Asphalt Binder) Testing Equipments",
       "thumbnail": "/assets/images/LD-2000.png",
-      "image": "myImages/LD-2000-Image.png",
       "description": "This product is suitable for the determination of the softening point of road petroleum asphalt, coal asphalt, liquid petroleum asphalt, etc., and is generally applicable to road, bridge construction and other industries.",
       "features": [
         "The heating speed of the machine is controlled by PID plus fuzzy logic algorithm, and the temperature rises linearly."
@@ -4578,12 +4431,11 @@ window.ludaData = {
     },
     {
       "id": "P072",
-      "name": "Computer Automatic Asphalt Penetrometer",
+      "name": "Automatic Penetrometer",
       "suffixName": "",
       "model": "IV-2000",
-      "category": "Asphalt and bitumen Testing Equipment Series",
+      "category": "Bitumen (Asphalt Binder) Testing Equipments",
       "thumbnail": "/assets/images/IV-2000.png",
-      "image": "myImages/IV-2000-Image.png",
       "description": "This product is suitable for measuring the penetration of viscous petroleum asphalt, viscous shale asphalt, liquid petroleum asphalt, road petroleum asphalt and modified asphalt, liquid petroleum asphalt distillation or emulsified asphalt residue after evaporation, generally suitable for road, municipal,chemical, scientific research and other departments engaged in  the measurement and research of asphalt performance indicators.",
       "features": [
         "This machine adopts the fine-tuning technology up and down of the microscope, which is very convenient to align the needle up and down. It is equipped with the most advanced digital temperature sensor, and the temperature measurement is more accurate."
@@ -4641,9 +4493,8 @@ window.ludaData = {
       "name": "Coarse-grained Soil Vertical Seepage Deformation Meter (slope type)",
       "suffixName": "",
       "model": "LDSL-III",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/LDSL-III.png",
-      "image": "myImages/LDSL-III-Image.png",
       "description": "The purpose of this test is to determine the permeability coefficient of the sample when the seepage water passes through the coarse-grained soil, the critical slope of the fine particles gradually lost with the seepage (piping) and the failure slope (flowing soil) when the soil body floats as a whole.\nThis test is applicable to disturbed coarse-grained soil samples and undisturbed coarse-grained soil samples.",
       "features": [],
       "standards": [],
@@ -4700,9 +4551,8 @@ window.ludaData = {
       "name": "Coarse-grained Soil Constant Head Permeameter",
       "suffixName": "",
       "model": "LDST-300",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/LDST-300.png",
-      "image": "myImages/LDST-300-Image.png",
       "description": "LDST-300 Coarse-grained Soil Constant Head Permeameter is used to measure the permeability coefficient of coarse-grained soil and graded crushed stone with the maximum particle size not greater than 75mm.",
       "features": [],
       "standards": [],
@@ -4767,9 +4617,8 @@ window.ludaData = {
       "name": "Vibration Compaction Molding Machine",
       "suffixName": "",
       "model": "LD-08",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/LD-08.png",
-      "image": "myImages/LD-08-Image.png",
       "description": "This product is used to manufacture various test pieces for inorganic binder stabilized pellets, including cylindrical test pieces for testing unconfined compression, strength, indirect tensile strength and compressive modulus of resilience, and for testing Beam specimens for temperature shrinkage coefficient, dry shrinkage coefficient, flexural strength and flexural modulus of resilience tests.",
       "features": [],
       "standards": [],
@@ -4826,9 +4675,8 @@ window.ludaData = {
       "name": "Concrete/Rock Specimen Grinding Machine",
       "suffixName": "",
       "model": "SHM-200",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/SHM-200.png",
-      "image": "myImages/SHM-200-Image.png",
       "description": "SHM-200 double-end grinding stone machine is the main equipment for making standard samples of non-metallic solids such as rock ore and concrete for mechanical testing. This machine works together with the coring machine and stone cutting machine produced by our factory to process the high-precision cube or cylinder test samples you need. This product is suitable for colleges and universities, water conservancy and hydropower, address minerals, transportation, construction and other  departments.\nThis stone grinding machine is composed of machine base, workbench, grinding power head, variable speed transmission system, electric control device and other parts. The whole machine is easy to operate and the  automatic feeding performance is stable.",
       "features": [],
       "standards": [
@@ -4876,9 +4724,8 @@ window.ludaData = {
       "name": "Automatic Rock, Concrete and Masonry Saw",
       "suffixName": "",
       "model": "DQ-1",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/DQ-1.png",
-      "image": "myImages/DQ-1-Image.png",
       "description": "This equipment is widely used in petroleum, geology, metallurgy, coal, exploration and cutting of refractory materials. This concrete cutting  machine is beautiful in appearance, compact in structure, high in automation, fully sealed, low in noise, and easy to use and operate. Over the past few years, it has extensively absorbed user opinions and met various technical indicators to make it stand out as a new type of technical equipment.",
       "features": [],
       "standards": [
@@ -4937,9 +4784,8 @@ window.ludaData = {
       "name": "Multifunctional Electric Compaction Instrument",
       "suffixName": "",
       "model": "JZ-2D",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/JZ-2D（部标）.png",
-      "image": "myImages/JZ-2D-Image.png",
       "description": "The machine can be used for both heavy compaction test and light compaction test. The machine is automatically controlled by a high-stability electronic counter, with high test accuracy, automatic working process, stable and reliable work. This machine is easy to use and is a commonly used instrument for road geotechnical tests.",
       "features": [],
       "standards": [
@@ -5000,9 +4846,8 @@ window.ludaData = {
       "name": "Multifunctional Hydraulic Demoulding Machine",
       "suffixName": "",
       "model": "DL-200",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/DL-200.png",
-      "image": "myImages/DL-200-Image.png",
       "description": "This product is mainly suitable for the stripping of test pieces of various compaction instruments, suitable for various test molds with diameters of Ф50mm, Ф100mm, Ф101.6mm, Ф150mm, Ф152mm, and heights within 230mm.This machine is used together with \"multifunctional electric compaction instrument\", \"Marshall compaction instrument\" and \"light manual compaction instrument\" to demould the specimen.",
       "features": [],
       "standards": [],
@@ -5059,9 +4904,8 @@ window.ludaData = {
       "name": "Multifunctional Hydraulic Demoulding Machine",
       "suffixName": "",
       "model": "DL-300",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/DL-300.png",
-      "image": "myImages/DL-300-Image.png",
       "description": "This product is mainly suitable for the stripping of test pieces of various compaction instruments, suitable for various test molds with diameters of Ф50mm, Ф100mm, Ф101.6mm, Ф150mm, Ф152mm, and heights within 230mm.This machine is used together with \"multifunctional electric compaction instrument\", \"Marshall compaction instrument\" and \"light manual compaction instrument\" to demould the specimen.",
       "features": [],
       "standards": [],
@@ -5118,9 +4962,8 @@ window.ludaData = {
       "name": "Triple Motion Sieve Shaker",
       "suffixName": "",
       "model": "ZBSX-92A",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/ZBSX-92A.png",
-      "image": "myImages/ZBSX-92A-Image.png",
       "description": "The machine is suitable for screening and analyzing materials in laboratories and laboratories in geology, metallurgy, chemical industry,  construction, grinding wheel manufacturing,cement and other departments. The 15kg aggregate is charged twice, and the grading work can be completed after starting for five minutes each time.",
       "features": [],
       "standards": [
@@ -5180,9 +5023,8 @@ window.ludaData = {
       "name": "Digital Display Combined Soil Liquid-plastic Limit Tester",
       "suffixName": "",
       "model": "LG-100D",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/LG-100D.png",
-      "image": "myImages/LG-100D-Image.png",
       "description": "This instrument is used to measure the liquid limit and plastic limit of soil, and provide reliable data for dividing soil types, calculating natural consistency and plasticity index. This product is used for engineering design and construction in highways, railways, water conservancy and electric power, metallurgy, construction and other departments. The instrument has two cone weight standards of 100 grams and 76 grams for users to choose.",
       "features": [],
       "standards": [
@@ -5243,9 +5085,8 @@ window.ludaData = {
       "name": "Sand Equivalent Tester",
       "suffixName": "",
       "model": "SD-II",
-      "category": "Geotechnical & Aggregate Testing Equipment Series",
+      "category": "Geotechnical & Aggregate Testing Equipments",
       "thumbnail": "/assets/images/SD-II（双管）.png",
-      "image": "myImages/SD-II-Image.png",
       "description": "It is suitable for  asphalt mixtures and cement concrete. Natural sand, artificial sand, stone chips , the maximum particle size of the aggregate is not more than 4.75mm, and the content of cohesive soil or impurities contained in the  fine aggregate is measured to evaluate the cleanliness of the aggregate, and the sand equivalent is represented by SE.",
       "features": [],
       "standards": [
@@ -5312,9 +5153,8 @@ window.ludaData = {
       "name": "Mortar Mixer",
       "suffixName": "",
       "model": "UJZ-15",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/UJZ-15.png",
-      "image": "myImages/UJZ-15-Image.png",
       "description": "This product is suitable for mixing mortar, and is generally applicable to construction units, universities and construction research units.",
       "features": [],
       "standards": [],
@@ -5371,9 +5211,8 @@ window.ludaData = {
       "name": "Mortar Permeamete",
       "suffixName": "",
       "model": "SS-1.5",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/SS-1.5.png",
-      "image": "myImages/SS-1.5-Image.png",
       "description": "The impermeability of mortar refers to the ability of mortar to resist the penetration of water or other liquid media under pressure.\nSS-1.5 mortar permeability tester can be used to measure the impermeability of waterproof mortar, to conduct a comparison test between the mortar mixed with waterproof agent and the reference mortar, and to test the water permeability of other waterproof materials.\nThe SS-1.5 mortar penetration tester produced by our factory is suitable for the inspection, research and teaching of the anti-seepage performance of mortar by engineering quality supervision and inspection departments at all levels, construction unit laboratories, scientific research units, and colleges and universities.",
       "features": [],
       "standards": [],
@@ -5447,12 +5286,11 @@ window.ludaData = {
     },
     {
       "id": "P133",
-      "name": "Temperature And Humidity Climate Chambers (Reach-in Type)",
-      "suffixName": "",
+      "name": "Temperature And Humidity Climate Chambers",
+      "suffixName": "80L",
       "model": "LDGD-80",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/LDGD-80.png",
-      "image": "myImages/LDGD-80-Image.png",
       "description": "Programmable constant temperature and humidity test chamber, also known as simulated environmental test chamber and high and low temperature alternating humidity and heat test chamber. This equipment is simulated high and low temperature and hot and humid environment, widely used to determine the adaptability of electric and electronic products to high and low temperature and hot and humid environment (especially the changes in the electrical and mechanical properties of the product), can also be used to check the ability of the specimen to withstand certain corrosion.",
       "features": [
         "he components selected for this product are highly reliable and of high quality to ensure the reliability, stability and accuracy of the product performance."
@@ -5499,64 +5337,12 @@ window.ludaData = {
       "customized": []
     },
     {
-      "id": "P134",
-      "name": "Switch Socket Humidity Test Chamber",
-      "suffixName": "",
-      "model": "CSX-280",
-      "category": "General Laboratory Equipment Series",
-      "thumbnail": "/assets/images/CSX-280.png",
-      "image": "myImages/CSX-280-Image.png",
-      "description": "The equipment is mainly used for temperature and humidity testing of switches and sockets of electronic products.",
-      "features": [],
-      "standards": [],
-      "specifications": [
-        {
-          "label": "Voltage",
-          "value": "220V"
-        },
-        {
-          "label": "Heating power",
-          "value": "500W"
-        },
-        {
-          "label": "Cooling power",
-          "value": "138W"
-        },
-        {
-          "label": "Control temperature",
-          "value": "40℃±2℃"
-        },
-        {
-          "label": "Humidity",
-          "value": "93±3%RH"
-        },
-        {
-          "label": "Workshop size",
-          "value": "550×550×800mm"
-        },
-        {
-          "label": "Dimensions",
-          "value": "650×700×1650mm"
-        },
-        {
-          "label": "Weight",
-          "value": "200kg"
-        }
-      ],
-      "hasManual": false,
-      "hasVideo": false,
-      "hasCAD": false,
-      "isNew": false,
-      "customized": []
-    },
-    {
       "id": "P135",
-      "name": "Drying Ovens Forced Ventilation",
-      "suffixName": "",
+      "name": "Drying and Heating Chamber with Forced Convection",
+      "suffixName": "70L",
       "model": "101-1A",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/101-1A.png",
-      "image": "myImages/101-1A-Image.png",
       "description": "The maximum working temperature of the drying oven is 250℃, which is suitable for various specimens for baking, drying, heat treatment and other heating experiments, but the volatile items cannot be placed into the drying oven to avoid causing explosion.",
       "features": [
         "This drying oven has precise structure, sensitive temperature control and easy operation."
@@ -5611,12 +5397,11 @@ window.ludaData = {
     },
     {
       "id": "P136",
-      "name": "Drying Ovens Forced Ventilation",
-      "suffixName": "",
+      "name": "Drying and Heating Chamber with Forced Convection",
+      "suffixName": "135L",
       "model": "101-2A",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/101-2A.png",
-      "image": "myImages/101-2A-Image.png",
       "description": "The maximum working temperature of the drying oven is 250℃, which is suitable for various specimens for baking, drying, heat treatment and other heating experiments, but the volatile items cannot be placed into the drying oven to avoid causing explosion.",
       "features": [
         "This drying oven has precise structure, sensitive temperature control and easy operation."
@@ -5671,12 +5456,11 @@ window.ludaData = {
     },
     {
       "id": "P137",
-      "name": "Drying Ovens Forced Ventilation",
-      "suffixName": "",
+      "name": "Drying and Heating Chamber with Forced Convection",
+      "suffixName": "225L",
       "model": "101-3A",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/101-3A.png",
-      "image": "myImages/101-3A-Image.png",
       "description": "The maximum working temperature of the drying oven is 250℃, which is suitable for various specimens for baking, drying, heat treatment and other heating experiments, but the volatile items cannot be placed into the drying oven to avoid causing explosion.",
       "features": [
         "This drying oven has precise structure, sensitive temperature control and easy operation."
@@ -5731,12 +5515,11 @@ window.ludaData = {
     },
     {
       "id": "P138",
-      "name": "Drying Ovens Forced Ventilation",
-      "suffixName": "",
+      "name": "Drying and Heating Chamber with Forced Convection",
+      "suffixName": "640L",
       "model": "101-4A",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/101-4A.png",
-      "image": "myImages/101-4A-Image.png",
       "description": "The maximum working temperature of the drying oven is 250℃, which is suitable for various specimens for baking, drying, heat treatment and other heating experiments, but the volatile items cannot be placed into the drying oven to avoid causing explosion.",
       "features": [
         "This drying oven has precise structure, sensitive temperature control and easy operation."
@@ -5791,12 +5574,11 @@ window.ludaData = {
     },
     {
       "id": "P139",
-      "name": "Drying Ovens Forced Ventilation",
-      "suffixName": "",
+      "name": "Drying and Heating Chamber with Forced Convection",
+      "suffixName": "1200L",
       "model": "101-5A",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/101-5A.png",
-      "image": "myImages/101-5A-Image.png",
       "description": "The maximum working temperature of the drying oven is 250℃, which is suitable for various specimens for baking, drying, heat treatment and other heating experiments, but the volatile items cannot be placed into the drying oven to avoid causing explosion.",
       "features": [
         "This drying oven has precise structure, sensitive temperature control and easy operation."
@@ -5852,11 +5634,10 @@ window.ludaData = {
     {
       "id": "P140",
       "name": "Muffle Furnace",
-      "suffixName": "",
+      "suffixName": "5.4L Max 1600℃",
       "model": "SX2-8-16",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/SX2-8-16.png",
-      "image": "myImages/SX2-8-16-Image.png",
       "description": "This resistor is of periodic operation type, with silicon-molybdenum rods as heating elements,  and the rated temperature of the furnace is 1600°C. It is used for high-temperature heating such as sintering,dissolution,and analysis of metals and ceramics in laboratories, industrial and mining enterprises, and scientific research units.\nThis resistance furnace needs to be used in conjunction with KSY temperature controller and double platinum rhodium thermocouple, so as to measure, indicate and automatically control the temperature of the electric furnace.",
       "features": [],
       "standards": [
@@ -5906,11 +5687,10 @@ window.ludaData = {
     {
       "id": "P141",
       "name": "Muffle Furnace",
-      "suffixName": "",
+      "suffixName": "12L Max 1600℃",
       "model": "SX2-12-16",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/SX2-12-16.png",
-      "image": "myImages/SX2-12-16-Image.png",
       "description": "This resistor is of periodic operation type, with silicon-molybdenum rods as heating elements,  and the rated temperature of the furnace is 1600°C. It is used for high-temperature heating such as sintering,dissolution,and analysis of metals and ceramics in laboratories, industrial and mining enterprises, and scientific research units.\nThis resistance furnace needs to be used in conjunction with KSY temperature controller and double platinum rhodium thermocouple, so as to measure, indicate and automatically control the temperature of the electric furnace.",
       "features": [],
       "standards": [
@@ -5960,11 +5740,10 @@ window.ludaData = {
     {
       "id": "P142",
       "name": "Muffle Furnace",
-      "suffixName": "",
+      "suffixName": "1.9L Max 1000℃",
       "model": "SX2-2.5-10",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/SX2-2.5-10.png",
-      "image": "myImages/SX2-2.5-10-Image.png",
       "description": "This series of resistance furnaces are cycle operation type, for laboratories, industrial and  mining  enterprises, scientific research and other units for elemental analysis and determination and general small steel quenching, annealing, tempering and other heat treatment heating with. In addition, its rated temperature of 1300 ℃ high-temperature box resistance furnace, can be used as alloy steel heat treatment and metal sintering, dissolution, analysis and other high-temperature heating.",
       "features": [],
       "standards": [
@@ -6010,11 +5789,10 @@ window.ludaData = {
     {
       "id": "P143",
       "name": "Muffle Furnace",
-      "suffixName": "",
+      "suffixName": "7.2L Max 1000℃",
       "model": "SX2-4-10",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/SX2-4-10.png",
-      "image": "myImages/SX2-4-10-Image.png",
       "description": "This series of resistance furnaces are cycle operation type, for laboratories, industrial and  mining  enterprises, scientific research and other units for elemental analysis and determination and general small steel quenching, annealing, tempering and other heat treatment heating with. In addition, its rated temperature of 1300 ℃ high-temperature box resistance furnace, can be used as alloy steel heat treatment and metal sintering, dissolution, analysis and other high-temperature heating.",
       "features": [],
       "standards": [
@@ -6060,11 +5838,10 @@ window.ludaData = {
     {
       "id": "P144",
       "name": "Muffle Furnace",
-      "suffixName": "",
+      "suffixName": "16L Max 1000℃",
       "model": "SX2-8-10",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/SX2-8-10.png",
-      "image": "myImages/SX2-8-10-Image.png",
       "description": "This series of resistance furnaces are cycle operation type, for laboratories, industrial and  mining  enterprises, scientific research and other units for elemental analysis and determination and general small steel quenching, annealing, tempering and other heat treatment heating with. In addition, its rated temperature of 1300 ℃ high-temperature box resistance furnace, can be used as alloy steel heat treatment and metal sintering, dissolution, analysis and other high-temperature heating.",
       "features": [],
       "standards": [
@@ -6110,11 +5887,10 @@ window.ludaData = {
     {
       "id": "P145",
       "name": "Muffle Furnace",
-      "suffixName": "",
+      "suffixName": "30L Max 1000℃",
       "model": "SX2-12-10",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/SX2-12-10.png",
-      "image": "myImages/SX2-12-10-Image.png",
       "description": "This series of resistance furnaces are cycle operation type, for laboratories, industrial and  mining  enterprises, scientific research and other units for elemental analysis and determination and general small steel quenching, annealing, tempering and other heat treatment heating with. In addition, its rated temperature of 1300 ℃ high-temperature box resistance furnace, can be used as alloy steel heat treatment and metal sintering, dissolution, analysis and other high-temperature heating.",
       "features": [],
       "standards": [
@@ -6160,11 +5936,10 @@ window.ludaData = {
     {
       "id": "P146",
       "name": "Horizontal Low Temperature Chamber",
-      "suffixName": "",
+      "suffixName": "208L -25℃",
       "model": "DW-25",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/DW-25（卧式）.png",
-      "image": "myImages/DW-25-Image.png",
       "description": "DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.\nThis product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
       "features": [
         "This product has high cooling efficiency and low noise."
@@ -6205,11 +5980,10 @@ window.ludaData = {
     {
       "id": "P147",
       "name": "Horizontal Low Temperature Chamber",
-      "suffixName": "",
+      "suffixName": "213L -40℃",
       "model": "DW-40",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/DW-40（卧式）.png",
-      "image": "myImages/DW-40-Image.png",
       "description": "DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.\nThis product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
       "features": [
         "This product has high cooling efficiency and low noise."
@@ -6250,11 +6024,10 @@ window.ludaData = {
     {
       "id": "P148",
       "name": "Horizontal Low Temperature Chamber",
-      "suffixName": "",
+      "suffixName": "195L -60℃",
       "model": "DW-60",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/DW-60（卧式）.png",
-      "image": "myImages/DW-60-Image.png",
       "description": "DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.\nThis product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
       "features": [
         "This product has high cooling efficiency and low noise."
@@ -6295,11 +6068,10 @@ window.ludaData = {
     {
       "id": "P149",
       "name": "Vertical Low Temperature Chamber",
-      "suffixName": "",
+      "suffixName": "165L -40℃",
       "model": "DW-40",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/DW-40（立式）.png",
-      "image": "myImages/DW-40-Image.png",
       "description": "DW-40 high and low temperature test chamber refrigeration using the United States Danfoss brand-name compressor, stainless steel liner. Insulation layer made of imported raw materials foam, good insulation effect, power saving,the latest design of five evaporation pipeline, with uniform temperature,prevent leakage and other characteristics.This product is widely used in building materials, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
       "features": [
         "The overall structure is strong, beautiful shape, good corrosion resistance;",
@@ -6343,9 +6115,8 @@ window.ludaData = {
       "name": "Damp Heat Test Chamber",
       "suffixName": "",
       "model": "HBY-1",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/HBY-1.png",
-      "image": "myImages/HBY-1-Image.png",
       "description": "The heat and humidity test chamber mainly simulates the changes in temperature and humidity in the climatic environment to observe the reliable state of storage and operation of products in high and low temperature, dry and humid environments. It is mainly used by scientific research units and testing units.",
       "features": [
         "The overall structure is strong, beautiful shape, good corrosion resistance.",
@@ -6397,9 +6168,8 @@ window.ludaData = {
       "name": "Aging Test Chamber",
       "suffixName": "",
       "model": "401A",
-      "category": "General Laboratory Equipment Series",
+      "category": "General Laboratory Equipments",
       "thumbnail": "/assets/images/401A.png",
-      "image": "myImages/401A-Image.png",
       "description": "This product is suitable for scientific research units and factories for plastic materials (rubber, plastic), electrical insulation and other materials aging test.",
       "features": [
         "Sensitive temperature control and good temperature uniformity.",
@@ -6449,11 +6219,10 @@ window.ludaData = {
     {
       "id": "C001",
       "name": "Concrete Fast Freeze-thaw Chamber",
-      "suffixName": "",
+      "suffixName": "28 PCS",
       "model": "TDRF-1",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/TDRF-1（连体）.png",
-      "image": "/assets/images/TDRF-1-Image.png",
       "description": "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
       "features": [],
       "standards": [
@@ -6540,11 +6309,10 @@ window.ludaData = {
     {
       "id": "C002",
       "name": "Concrete Fast Freeze-thaw Chamber",
-      "suffixName": "",
+      "suffixName": "16 PCS",
       "model": "TDRF-2",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/TDRF-2（连体）.png",
-      "image": "/assets/images/TDRF-2-Image.png",
       "description": "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
       "features": [],
       "standards": [
@@ -6631,11 +6399,10 @@ window.ludaData = {
     {
       "id": "C003",
       "name": "Concrete Fast Freeze-thaw Chamber",
-      "suffixName": "",
+      "suffixName": "10 PCS",
       "model": "TDRF-3",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/TDRF-3（连体）.png",
-      "image": "/assets/images/TDRF-3-Image.png",
       "description": "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
       "features": [],
       "standards": [
@@ -6724,9 +6491,8 @@ window.ludaData = {
       "name": "Concrete Carbonation Test Chambe",
       "suffixName": "",
       "model": "CCB-70A",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/CCB-70A.png",
-      "image": "/assets/images/CCB-70A-Image.png",
       "description": "Our company participated in the drafting of CCB-70A concrete carbon ization test chamber and designated by the Building Materials Department.This equipment is a special apparatus for carbonation test of concretes.",
       "features": [],
       "standards": [
@@ -6801,9 +6567,8 @@ window.ludaData = {
       "name": "Accelerated Concrete Curing Tank",
       "suffixName": "",
       "model": "LDZY-400",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/LDZY-400.png",
-      "image": "/assets/images/LDZY-400-Image.png",
       "description": "This product is a common equipment for the steam curing test of concrete specimens.The equipment is made of stainless steel inside and outside, touch screen operation display, automatic control, the test process is simple and convenient.",
       "features": [],
       "standards": [
@@ -6855,12 +6620,11 @@ window.ludaData = {
     },
     {
       "id": "C006",
-      "name": "Alkali-aggregate Test Chamber(Mortar-Bar Method and Accelerated Mortar-Bar Method)",
-      "suffixName": "",
+      "name": "Alkali-aggregate Test Chamber",
+      "suffixName": "Mortar-Bar Method and Accelerated Mortar-Bar Method",
       "model": "JKS",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/JKS.png",
-      "image": "/assets/images/JKS-Image.png",
       "description": "Alkali-aggregate test chamber is designed and manufactured according to the national standard requirements for concrete long-term durability test.It is suitable for temperature control and time control of sand aggregate expansion test. The inner liner and shelf are made of stainless steel material.\nIt is suitable for conducting alkali-aggregate reaction test as to long-term durability of concretes in construction units,highway bridge engineering  units,and related research and quality inspection departments.",
       "features": [],
       "standards": [
@@ -6920,9 +6684,8 @@ window.ludaData = {
       "name": "Concrete Impermeability Apparatus",
       "suffixName": "",
       "model": "HP-4.0",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/HP-4.0.png",
-      "image": "/assets/images/HP-4.0-Image.png",
       "description": "HP-4.0 automatic pressure regulating concrete impermeability instrument is used to measure the impermeability of concrete,which is used in construction enterprises, scientific research institutions, design departments and other units to engaged in the measurement and experimental research of concrete impermeability.It can also be used for building materials permeability measurement of quality inspection.",
       "features": [],
       "standards": [],
@@ -6992,12 +6755,11 @@ window.ludaData = {
     },
     {
       "id": "C016",
-      "name": "Cement (Concrete) Fast Curing Chamber",
+      "name": "Fast Curing Chamber",
       "suffixName": "",
       "model": "A-Type",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/A-Type.png",
-      "image": "/assets/images/A-Type-Image.png",
       "description": "This product is suitable for the rapid cooking and maintenance of  concrete and construction units such as cement plants, building materials, and construction units.the liner and shelf are made of stainless steel  material.",
       "features": [],
       "standards": [
@@ -7033,12 +6795,11 @@ window.ludaData = {
     },
     {
       "id": "C017",
-      "name": "Direct-reading Concrete Air Content Tester",
+      "name": "Direct-reading Concrete Air Meter",
       "suffixName": "",
       "model": "CA-3",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/CA-3.png",
-      "image": "/assets/images/CA-3-Image.png",
       "description": "This product is mainly used to measure the air content of new mixing concrete. It is suitable for ordinary concrete, flowing concrete, dry hard concrete, but is not suitable for light ingredient concrete.The product is designed according to ANS1/ASTM C231-78 standard, which is in line with international standards.The air content value can be read directly from the degree disk, and there is no need to query curve conversion.",
       "features": [],
       "standards": [
@@ -7088,9 +6849,8 @@ window.ludaData = {
       "name": "Acme Penetrometer",
       "suffixName": "",
       "model": "HG-1000",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/HG-1000.png",
-      "image": "/assets/images/HG-1000-Image.png",
       "description": "This product is suitable for testing the setting time of various cements, admixtures and concrete mixtures with different concrete mix ratios under different temperature environments. The test mold is made of all-aluminum material, light in weight and easy to use.",
       "features": [],
       "standards": [
@@ -7146,9 +6906,8 @@ window.ludaData = {
       "name": "Acme Dial Penetrometer",
       "suffixName": "",
       "model": "HG-80",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/HG-80.png",
-      "image": "/assets/images/HG-80-Image.png",
       "description": "This product is suitable for testing the setting time of various cements, admixtures and concrete mixtures with different concrete mix ratios under different temperature environments.",
       "features": [],
       "standards": [
@@ -7218,11 +6977,10 @@ window.ludaData = {
     {
       "id": "C022",
       "name": "Concrete Vibrator",
-      "suffixName": "",
+      "suffixName": "500×500mm",
       "model": "HZJ-0.5",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/HZJ-0.5.png",
-      "image": "/assets/images/HZJ-0.5-Image.png",
       "description": "This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.",
       "features": [],
       "standards": [
@@ -7264,11 +7022,10 @@ window.ludaData = {
     {
       "id": "C023",
       "name": "Concrete Vibrator",
-      "suffixName": "",
+      "suffixName": "800×800mm",
       "model": "HZJ-0.8",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/HZJ-0.8.png",
-      "image": "/assets/images/HZJ-0.8-Image.png",
       "description": "This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.",
       "features": [],
       "standards": [
@@ -7310,11 +7067,10 @@ window.ludaData = {
     {
       "id": "C024",
       "name": "Concrete Vibrator",
-      "suffixName": "",
+      "suffixName": "1000×1000mm",
       "model": "HZJ-1",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/HZJ-1.png",
-      "image": "/assets/images/HZJ-1-Image.png",
       "description": "This product is suitable for the laboratory on-site construction site as a test piece forming and the prefabricated component factory to vibrate various concrete components such as slabs, columns and beams.",
       "features": [],
       "standards": [
@@ -7356,11 +7112,10 @@ window.ludaData = {
     {
       "id": "C025",
       "name": "Single Shaft Concrete Mixer",
-      "suffixName": "",
+      "suffixName": "30L",
       "model": "SJD-30",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/SJD-30.png",
-      "image": "/assets/images/SJD-30-Image.png",
       "description": "This machine is suitable for construction scientific research units and construction companies and concrete component units. It can mix ordinary concrete and lightweight concrete, and can also be used in other industries to stir with different materials.",
       "features": [],
       "standards": [
@@ -7417,11 +7172,10 @@ window.ludaData = {
     {
       "id": "C026",
       "name": "Single Shaft Concrete Mixer",
-      "suffixName": "",
+      "suffixName": "60L",
       "model": "SJD-60",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/SJD-60.png",
-      "image": "/assets/images/SJD-60-Image.png",
       "description": "This machine is suitable for construction scientific research units and construction companies and concrete component units. It can mix ordinary concrete and lightweight concrete, and can also be used in other industries to stir with different materials.",
       "features": [],
       "standards": [
@@ -7480,9 +7234,8 @@ window.ludaData = {
       "name": "Chloride Ion Fast Content Analyzer",
       "suffixName": "",
       "model": "LDCL-B",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/LDCL-B.png",
-      "image": "/assets/images/LDCL-B-Image.png",
       "description": "This product quickly determines the water-soluble chloride ion content of concrete, sand, gravel, cement, mixing water and other inorganic materials through the professional software and chemical anti-jamming reagents equipped.",
       "features": [],
       "standards": [],
@@ -7515,9 +7268,8 @@ window.ludaData = {
       "name": "Concrete Pressure Secretion Instrument",
       "suffixName": "",
       "model": "SY-2",
-      "category": "Concrete Testing Equipment Series",
+      "category": "Concrete Testing Equipments",
       "thumbnail": "/assets/images/SY-2.png",
-      "image": "/assets/images/SY-2-Image.png",
       "description": "This device is used for concrete mixture with no more than 40mm compound pressure to be measured. It has the advantages of accurate measurement value, simple operation, small volume, and convenient molding.",
       "features": [],
       "standards": [],
@@ -7555,12 +7307,11 @@ window.ludaData = {
     },
     {
       "id": "D001",
-      "name": "Constant Temperature Water Curing Box (vertical)",
-      "suffixName": "",
+      "name": "Cement Water Curing Box",
+      "suffixName": "180 PCS",
       "model": "HBY-30",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/HBY-30（立式）.png",
-      "image": "/assets/images/HBY-30-Image.png",
       "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
       "features": [],
       "standards": [
@@ -7612,12 +7363,11 @@ window.ludaData = {
     },
     {
       "id": "D002",
-      "name": "Constant Temperature Water Curing Box (vertical)",
-      "suffixName": "",
+      "name": "Cement Water Curing Box",
+      "suffixName": "360 PCS",
       "model": "HBY-64",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/HBY-64（立式）.png",
-      "image": "/assets/images/HBY-64-Image.png",
       "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
       "features": [],
       "standards": [
@@ -7669,12 +7419,11 @@ window.ludaData = {
     },
     {
       "id": "D006",
-      "name": "Cement (Concrete) Constant Temperature And Humidity Curing Box(iron door)",
+      "name": "Cement and Concrete Curing Chamber",
       "suffixName": "",
       "model": "HBY-40B",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/HBY-40B（铁门）.png",
-      "image": "/assets/images/HBY-40B-Image.png",
       "description": "This product is designed and manufactured according to the national standard maintenance requirements for cement, concrete and cement products, etc. The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
       "features": [],
       "standards": [
@@ -7733,9 +7482,8 @@ window.ludaData = {
       "name": "Mixed Mortar Specimen Standard Curing Box",
       "suffixName": "",
       "model": "HBY-30",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/HBY-30.png",
-      "image": "/assets/images/HBY-30-Image.png",
       "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
       "features": [],
       "standards": [
@@ -7794,9 +7542,8 @@ window.ludaData = {
       "name": "Cement Mortar Mixer",
       "suffixName": "",
       "model": "JJ-20F",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/JJ-20F.png",
-      "image": "/assets/images/JJ-20F-Image.png",
       "description": "The instrument is mainly used to prepare cement mortar strength test samples for mixing.",
       "features": [],
       "standards": [
@@ -7866,9 +7613,8 @@ window.ludaData = {
       "name": "Cement Mortar Vibrating Platform",
       "suffixName": "",
       "model": "ZT-20F",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/ZT-20F.png",
-      "image": "/assets/images/ZT-20F-Image.png",
       "description": "This instrument is suitable for preparing samples for strength testing of cement mortar.",
       "features": [],
       "standards": [
@@ -7922,11 +7668,10 @@ window.ludaData = {
     {
       "id": "D011",
       "name": "Electric Flexural Testing Machine (pointer type)",
-      "suffixName": "",
+      "suffixName": "5000N",
       "model": "DKZ-5000",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/DKZ-5000.png",
-      "image": "/assets/images/DKZ-5000-Image.png",
       "description": "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
       "features": [],
       "standards": [],
@@ -7981,11 +7726,10 @@ window.ludaData = {
     {
       "id": "D013",
       "name": "Electric Flexural Testing Machine (digital display)",
-      "suffixName": "",
+      "suffixName": "6000N",
       "model": "DKZ-6000",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/DKZ-6000（数显）.png",
-      "image": "/assets/images/DKZ-6000-Image.png",
       "description": "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
       "features": [],
       "standards": [],
@@ -8034,9 +7778,8 @@ window.ludaData = {
       "name": "Cement Mortar Flow Table",
       "suffixName": "",
       "model": "NLD-3F",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/NLD-3F.png",
-      "image": "/assets/images/NLD-3F-Image.png",
       "description": "It is mainly used for fluidity test of cement mortar sand.",
       "features": [],
       "standards": [
@@ -8092,12 +7835,11 @@ window.ludaData = {
     },
     {
       "id": "D015",
-      "name": "Cement Fineness Air Jet Sieving Analyzer (ordinary)",
+      "name": "Cement Fineness Air Jet Sieving Analyzer",
       "suffixName": "",
       "model": "FSY-150",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/FSY-150（普通）.png",
-      "image": "/assets/images/FSY-150-Image.png",
       "description": "This equipment is widely used in cement fineness inspection and cement production control. It can also be used in powder fineness testing in other industries. It is a commonly used instrument in various cement quality inspection stations, cement factories and other units.",
       "features": [],
       "standards": [
@@ -8153,9 +7895,8 @@ window.ludaData = {
       "name": "Boiling Box",
       "suffixName": "",
       "model": "FZ-31A",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/FZ-31A.png",
-      "image": "/assets/images/FZ-31A-Image.png",
       "description": "This equipment is one of the commonly used equipment in cement production, construction, scientific research and testing units. \nThe equipment is made of stainless steel.",
       "features": [],
       "standards": [
@@ -8211,12 +7952,11 @@ window.ludaData = {
     },
     {
       "id": "D018",
-      "name": "Automatic Specific Surface Area Meter (Blaine Method)",
-      "suffixName": "",
+      "name": "Automatic Specific Surface Area Meter",
+      "suffixName": "Blaine Method",
       "model": "FBT-9",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/FBT-9.png",
-      "image": "/assets/images/FBT-9-Image.png",
       "description": "This product is suitable for measuring the surface area per gram of solid material.",
       "features": [],
       "standards": [
@@ -8286,9 +8026,8 @@ window.ludaData = {
       "name": "Cement Mortar Mixer",
       "suffixName": "",
       "model": "JJ-5",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/JJ-5.png",
-      "image": "/assets/images/JJ-5-Image.png",
       "description": "The product is suitable for cement plant, construction units, highway and bridge engineering units and relevant scientific research and quality inspection departments to perform standard maintenance on the strength and setting time of cement,concrete and cement product samples.",
       "features": [
         "Controlled by a dual-speed motor via a time program controller, it automatically completes the specified working cycle of \"slow rotation — stop — fast rotation\".",
@@ -8356,9 +8095,8 @@ window.ludaData = {
       "name": "Cement Paste Mixer",
       "suffixName": "",
       "model": "NJ-160A",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/NJ-160A.png",
-      "image": "/assets/images/NJ-160A-Image.png",
       "description": "This product is suitable for determining the standard consistency and setting time of cement, as well as for making soundness test blocks. It is an indispensable piece of equipment in laboratories of cement manufacturing plants, construction units, relevant universities, and research institutions.",
       "features": [
         "Controlled by a dual-speed motor via a time program controller, it automatically completes the specified working cycle of \"slow rotation — stop — fast rotation\".",
@@ -8442,9 +8180,8 @@ window.ludaData = {
       "name": "Cement Mortar Vibrating Platform",
       "suffixName": "",
       "model": "ZT-96",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/ZT-96.png",
-      "image": "/assets/images/ZT-96-Image.png",
       "description": "This product is suitable for the compaction and molding of cement mortar specimens during preparation. It is mainly used in cement plants, construction units, and relevant academic institutions for testing and experimentation.",
       "features": [
         "Composed of a vibrating component, a frame section, and an infrared counting control system;",
@@ -8493,9 +8230,8 @@ window.ludaData = {
       "name": "Cement Mortar Flow Table",
       "suffixName": "",
       "model": "NLD-3",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/NLD-3.png",
-      "image": "/assets/images/NLD-3-Image.png",
       "description": "This product is suitable for determining the water requirement for cement mortar to achieve standard consistency by measuring its fluidity value.",
       "features": [
         "The tabletop is made of hard chrome-plated material, featuring a bright surface, elegant appearance, and excellent resistance to rust.",
@@ -8547,9 +8283,8 @@ window.ludaData = {
       "name": "Cement Paste Mixer",
       "suffixName": "",
       "model": "NJ-160F",
-      "category": "Cement Testing Equipment Series",
+      "category": "Cement & Mortar Testing Equipments",
       "thumbnail": "/assets/images/NJ-160F.png",
-      "image": "/assets/images/NJ-160F-Image.png",
       "description": "The cement paste mixer is primarily used for determining the standard consistency and setting time of cement, as well as for preparing soundness test blocks.",
       "features": [],
       "standards": [],

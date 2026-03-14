@@ -103,7 +103,7 @@
                         ${thumbnailHtml}
                     </div>
                     <div class="product-info">
-                        <h3 class="product-title">${dev.name}</h3>
+                        <h3 class="product-title">${dev.name}${dev.suffixName ? ' (' + dev.suffixName + ')' : ''}</h3>
                         <span class="product-model">${dev.model}</span>
                         <p class="product-desc">${shortDesc}</p>
                         <div class="product-meta">
