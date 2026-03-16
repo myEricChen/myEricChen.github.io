@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-14 14:21:39
+ * @LastEditTime: 2026-03-16 15:34:32
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -1545,7 +1545,7 @@ window.ludaData = {
           "value": "220V±10%, 2000W"
         },
         {
-          "label": "Host weight",
+          "label": "Mainframe weight",
           "value": "About 760kg"
         }
       ],
@@ -1654,7 +1654,7 @@ window.ludaData = {
           "value": "220V±10%, 750W"
         },
         {
-          "label": "Host weight About",
+          "label": "Mainframe weight About",
           "value": "230kg"
         }
       ],
@@ -1763,7 +1763,7 @@ window.ludaData = {
           "value": "220V±10%, 400W"
         },
         {
-          "label": "Host weight About",
+          "label": "Mainframe weight About",
           "value": "190kg"
         }
       ],
@@ -1872,7 +1872,7 @@ window.ludaData = {
           "value": "220V±10%, 400W"
         },
         {
-          "label": "Host weight About",
+          "label": "Mainframe weight About",
           "value": "190kg"
         }
       ],
@@ -3281,7 +3281,7 @@ window.ludaData = {
           "value": "Distance between Four Columns: 820, 900mm"
         },
         {
-          "label": "Host Dimensions",
+          "label": "Mainframe Dimensions",
           "value": "1720×990×2266mm"
         },
         {
@@ -3328,7 +3328,7 @@ window.ludaData = {
       "thumbnail": "/assets/images/LDCJ-300.png",
       "description": "This product is suitable for  testing equipment for measuring the relaxation properties of metal   materials at room temperature.",
       "features": [
-        "The host machine is of horizontal structure with moderate height and easy operation. The load-bearing pedestal is a welded structure with high rigidity and light weight;",
+        "The machine is of horizontal structure with moderate height and easy operation. The load-bearing pedestal is a welded structure with high rigidity and light weight;",
         "The universal  prestressed through-hole jack is adopted, which has strong versatility and is suitable for prestressing. Applicable to tensioning Ovam clip group, anchor DM type heading anchor and LEM type cold casting anchor;",
         "The piston of the working jack is double-acting, which can realize quick return;",
         "Using a high-flow high-pressure pump, the loading speed can be controlled by a manual valve;",
@@ -3600,7 +3600,7 @@ window.ludaData = {
           "value": "360mm×400mm×300mm"
         },
         {
-          "label": "Host working voltage",
+          "label": "Mainframe working voltage",
           "value": "380V±10V,8000W"
         },
         {
@@ -8332,6 +8332,156 @@ window.ludaData = {
         {
           "label": "Weight (kg)",
           "value": "44"
+        }
+      ],
+      "hasManual": false,
+      "hasVideo": false,
+      "hasCAD": false,
+      "isNew": false,
+      "customized": []
+    },
+    {
+      "id": "E027",
+      "name": "Electronic Universal Material Testing Machine with Environmental Chambers",
+      "suffixName": "50kN",
+      "model": "WDW-T50",
+      "category": "Electromechanical Universal Testing Маchines",
+      "thumbnail": "/assets/images/WDW-T50.png",
+      "description": "This product is suitable for testing and analyzing the mechanical properties of various metals, non-metals and composite materials, and can obtain test data such as maximum test force value, fracture force value, yield strength, upper and lower yield strength, tensile strength,  compressive strength, elongation at break, tensile modulus of elasticity and bending modulus of elasticity of test materials.",
+      "features": [
+        "For Testing at Non-Ambient Temperatures",
+        "Safety position and experimental position height arbitrary lock.",
+        "Automatic protection when exceeding the maximum load,software limit and electronic limit double protection."
+      ],
+      "standards": [],
+      "specifications": [
+        {
+          "label": "Load Capacity (kN)",
+          "value": "50 (can be customized to other capacities on request)"
+        },
+        {
+          "label": "Accuracy grade",
+          "value": "±1% (can be customized to 0.5 on request)"
+        },
+        {
+          "label": "Test force measurement range",
+          "value": "1% to 100% FS throughout the whole process without sub-grade"
+        },
+        {
+          "label": "Relative error of the test force value",
+          "value": "±1% or less"
+        },
+        {
+          "label": "Test force resolution",
+          "value": "1/±300000 of the maximum test force throughout the resolution remains unchanged"
+        },
+        {
+          "label": "Deformation measurement range",
+          "value": "0.2%～100%FS"
+        },
+        {
+          "label": "Relative error of deformation value",
+          "value": "Within ±0.5% of the indicated value"
+        },
+        {
+          "label": "Deformation resolution",
+          "value": "1/±300000 of the maximum deformation"
+        },
+        {
+          "label": "Relative error of displacement value",
+          "value": "Within ±0.5% of the displayed value"
+        },
+        {
+          "label": "Displacement resolution",
+          "value": "0.025µm"
+        },
+        {
+          "label": "Force control rate adjustment range",
+          "value": "0.01~5%FS/S"
+        },
+        {
+          "label": "Relative error of force-controlled rate",
+          "value": "Within ±1% of the set value"
+        },
+        {
+          "label": "Deformation rate adjustment range",
+          "value": "0.02~5%FS/S"
+        },
+        {
+          "label": "Relative error of deformation control rate",
+          "value": "Within ±1% of the set value"
+        },
+        {
+          "label": "Cross-beam speed adjustment range",
+          "value": "0.01～500mm/min"
+        },
+        {
+          "label": "Control range of constant force, constant deformation and constant displacement",
+          "value": "0.5%～100%FS"
+        },
+        {
+          "label": "Control accuracy of constant force, constant deformation and constant displacement",
+          "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
+        },
+        {
+          "label": "Effective tensile space (without jig)",
+          "value": "1200mm"
+        },
+        {
+          "label": "Effective test width",
+          "value": "500mm"
+        },
+        {
+          "label": "Main Unit Dimensions (mm)",
+          "value": "900×500×2300"
+        },
+        {
+          "label": "Power supply for main unit",
+          "value": "220V±10%, 2000W"
+        },
+        {
+          "label": "Mainframe weight",
+          "value": "About 300kg"
+        },
+        {
+          "label": "Belows Are Technical Parameters of Environmental Chamber",
+          "value": "Temperature measured at the specimen (steel) over a 50 mm (2 in) gauge length. Not applicable within 15°C of ambient"
+        },
+        {
+          "label": "Temperature Range",
+          "value": "-40℃ — +150℃"
+        },
+        {
+          "label": "Cooling Time",
+          "value": "less than 40 min"
+        },
+        {
+          "label": "Heating Time",
+          "value": "less than 70 min"
+        },
+        {
+          "label": "Temperature Gradient",
+          "value": "≤2℃"
+        },
+        {
+          "label": "Temperature Fluctuation",
+          "value": "≤1℃"
+        },
+        {
+          "label": "Temperature Deviation",
+          "value": "±2℃"
+        },
+        {
+          "label": "Temperature Controller Display Accuracy",
+          "value": "≤0.1℃"
+        },
+        {
+          "label": "Chamber Internal Dimensions (D × W × H mm)",
+          "value": "240×200×600"
+        },
+        {
+          "label": "Power Supply for environmental chamber",
+          "value": "AC220V±10%,50-60Hz"
         }
       ],
       "hasManual": false,
