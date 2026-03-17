@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-16 15:34:32
+ * @LastEditTime: 2026-03-17 15:00:24
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -1465,76 +1465,48 @@ window.ludaData = {
           "value": "100"
         },
         {
-          "label": "Accuracy grade",
+          "label": "Load Measurement Accuracy",
           "value": "±1% (can be customized to 0.5 on request)"
         },
         {
-          "label": "Test force measurement range",
-          "value": "1% to 100% FS throughout the whole process without sub-grade"
+          "label": "Load Measurement Range",
+          "value": "1% to 100% FS"
         },
         {
-          "label": "Relative error of the test force value",
-          "value": "±1% or less"
+          "label": "Vertical Test Space (without jig)",
+          "value": "800mm"
         },
         {
-          "label": "Test force resolution",
-          "value": "1/±300000 of the maximum test force throughout the resolution remains unchanged"
+          "label": "Horizontal Test Space",
+          "value": "400mm"
+        },
+        {
+          "label": "Crosshead Speed Range",
+          "value": "0.01～500mm/min"
+        },
+        {
+          "label": "Position Control Resolution",
+          "value": "0.025µm"
+        },
+        {
+          "label": "Displacement Measurement Accuracy",
+          "value": "Within ±0.5%"
         },
         {
           "label": "Deformation measurement range",
           "value": "0.2%～100%FS"
         },
         {
-          "label": "Relative error of deformation value",
-          "value": "Within ±0.5% of the indicated value"
+          "label": "Deformation Measurement Accuracy",
+          "value": "Within ±0.5%"
         },
         {
-          "label": "Deformation resolution",
-          "value": "1/±300000 of the maximum deformation"
+          "label": "Testing Speed Range",
+          "value": "0.5% ～ 100%FS"
         },
         {
-          "label": "Relative error of displacement value",
-          "value": "Within ±0.5% of the displayed value"
-        },
-        {
-          "label": "Displacement resolution",
-          "value": "0.025µm"
-        },
-        {
-          "label": "Force control rate adjustment range",
-          "value": "0.01~5%FS/S"
-        },
-        {
-          "label": "Relative error of force-controlled rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Deformation rate adjustment range",
-          "value": "0.02~5%FS/S"
-        },
-        {
-          "label": "Relative error of deformation control rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Cross-beam speed adjustment range",
-          "value": "0.01～500mm/min"
-        },
-        {
-          "label": "Control range of constant force, constant deformation and constant displacement",
-          "value": "0.5%～100%FS"
-        },
-        {
-          "label": "Control accuracy of constant force, constant deformation and constant displacement",
+          "label": "Testing Speed Accuracy",
           "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
-        },
-        {
-          "label": "Effective tensile space (without jig)",
-          "value": "800mm"
-        },
-        {
-          "label": "Effective test width",
-          "value": "400mm"
         },
         {
           "label": "Main Unit Dimensions (mm)",
@@ -1574,77 +1546,50 @@ window.ludaData = {
           "value": "50"
         },
         {
-          "label": "Accuracy grade",
+          "label": "Load Measurement Accuracy",
           "value": "±1% (can be customized to 0.5 on request)"
         },
         {
-          "label": "Test force measurement range",
-          "value": "1% to 100% FS throughout the whole process without sub-grade"
+          "label": "Load Measurement Range",
+          "value": "1% to 100% FS"
         },
         {
-          "label": "Relative error of the test force value",
-          "value": "±1% or less"
+          "label": "Vertical Test Space (without jig)",
+          "value": "800mm"
         },
         {
-          "label": "Test force resolution",
-          "value": "1/±300000 of the maximum test force throughout the resolution remains unchanged"
+          "label": "Horizontal Test Space",
+          "value": "400mm"
+        },
+        {
+          "label": "Crosshead Speed Range",
+          "value": "0.01～500mm/min"
+        },
+        {
+          "label": "Position Control Resolution",
+          "value": "0.025µm"
+        },
+        {
+          "label": "Displacement Measurement Accuracy",
+          "value": "Within ±0.5%"
         },
         {
           "label": "Deformation measurement range",
           "value": "0.2%～100%FS"
         },
         {
-          "label": "Relative error of deformation value",
-          "value": "Within ±0.5% of the indicated value"
+          "label": "Deformation Measurement Accuracy",
+          "value": "Within ±0.5%"
         },
         {
-          "label": "Deformation resolution",
-          "value": "1/±300000 of the maximum deformation"
+          "label": "Testing Speed Range",
+          "value": "0.5% ～ 100%FS"
         },
         {
-          "label": "Relative error of displacement value",
-          "value": "Within ±0.5% of the displayed value"
-        },
-        {
-          "label": "Displacement resolution",
-          "value": "0.025µm"
-        },
-        {
-          "label": "Force control rate adjustment range",
-          "value": "0.01~5%FS/S"
-        },
-        {
-          "label": "Relative error of force-controlled rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Deformation rate adjustment range",
-          "value": "0.02~5%FS/S"
-        },
-        {
-          "label": "Relative error of deformation control rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Cross-beam speed adjustment range",
-          "value": "0.01～500mm/min"
-        },
-        {
-          "label": "Control range of constant force, constant deformation and constant displacement",
-          "value": "0.5%～100%FS"
-        },
-        {
-          "label": "Control accuracy of constant force, constant deformation and constant displacement",
+          "label": "Testing Speed Accuracy",
           "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
         },
-        {
-          "label": "Effective tensile space (without jig)",
-          "value": "800mm"
-        },
-        {
-          "label": "Effective test width",
-          "value": "400mm"
-        },
+
         {
           "label": "Main Unit Dimensions (mm)",
           "value": "900×500×1900"
@@ -1683,77 +1628,50 @@ window.ludaData = {
           "value": "10"
         },
         {
-          "label": "Accuracy grade",
+          "label": "Load Measurement Accuracy",
           "value": "±1% (can be customized to 0.5 on request)"
         },
         {
-          "label": "Test force measurement range",
-          "value": "1% to 100% FS throughout the whole process without sub-grade"
+          "label": "Load Measurement Range",
+          "value": "1% to 100% FS"
         },
         {
-          "label": "Relative error of the test force value",
-          "value": "±1% or less"
+          "label": "Vertical Test Space (without jig)",
+          "value": "800mm"
         },
         {
-          "label": "Test force resolution",
-          "value": "1/±300000 of the maximum test force throughout the resolution remains unchanged"
+          "label": "Horizontal Test Space",
+          "value": "400mm"
+        },
+        {
+          "label": "Crosshead Speed Range",
+          "value": "0.01～500mm/min"
+        },
+        {
+          "label": "Position Control Resolution",
+          "value": "0.025µm"
+        },
+        {
+          "label": "Displacement Measurement Accuracy",
+          "value": "Within ±0.5%"
         },
         {
           "label": "Deformation measurement range",
           "value": "0.2%～100%FS"
         },
         {
-          "label": "Relative error of deformation value",
-          "value": "Within ±0.5% of the indicated value"
+          "label": "Deformation Measurement Accuracy",
+          "value": "Within ±0.5%"
+        }, 
+        {
+          "label": "Testing Speed Range",
+          "value": "0.5% ～ 100%FS"
         },
         {
-          "label": "Deformation resolution",
-          "value": "1/±300000 of the maximum deformation"
-        },
-        {
-          "label": "Relative error of displacement value",
-          "value": "Within ±0.5% of the displayed value"
-        },
-        {
-          "label": "Displacement resolution",
-          "value": "0.025µm"
-        },
-        {
-          "label": "Force control rate adjustment range",
-          "value": "0.01~5%FS/S"
-        },
-        {
-          "label": "Relative error of force-controlled rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Deformation rate adjustment range",
-          "value": "0.02~5%FS/S"
-        },
-        {
-          "label": "Relative error of deformation control rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Cross-beam speed adjustment range",
-          "value": "0.01～500mm/min"
-        },
-        {
-          "label": "Control range of constant force, constant deformation and constant displacement",
-          "value": "0.5%～100%FS"
-        },
-        {
-          "label": "Control accuracy of constant force, constant deformation and constant displacement",
+          "label": "Testing Speed Accuracy",
           "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
         },
-        {
-          "label": "Effective tensile space (without jig)",
-          "value": "800mm"
-        },
-        {
-          "label": "Effective test width",
-          "value": "400mm"
-        },
+
         {
           "label": "Main Unit Dimensions (mm)",
           "value": "800×450×1600"
@@ -1792,77 +1710,50 @@ window.ludaData = {
           "value": "20"
         },
         {
-          "label": "Accuracy grade",
+          "label": "Load Measurement Accuracy",
           "value": "±1% (can be customized to 0.5 on request)"
         },
         {
-          "label": "Test force measurement range",
-          "value": "1% to 100% FS throughout the whole process without sub-grade"
+          "label": "Load Measurement Range",
+          "value": "1% to 100% FS"
         },
         {
-          "label": "Relative error of the test force value",
-          "value": "±1% or less"
+          "label": "Vertical Test Space (without jig)",
+          "value": "800mm"
         },
         {
-          "label": "Test force resolution",
-          "value": "1/±300000 of the maximum test force throughout the resolution remains unchanged"
+          "label": "Horizontal Test Space",
+          "value": "400mm"
+        },
+        {
+          "label": "Crosshead Speed Range",
+          "value": "0.01～500mm/min"
+        },
+        {
+          "label": "Position Control Resolution",
+          "value": "0.025µm"
+        },
+        {
+          "label": "Displacement Measurement Accuracy",
+          "value": "Within ±0.5%"
         },
         {
           "label": "Deformation measurement range",
           "value": "0.2%～100%FS"
         },
         {
-          "label": "Relative error of deformation value",
-          "value": "Within ±0.5% of the indicated value"
+          "label": "Deformation Measurement Accuracy",
+          "value": "Within ±0.5%"
         },
         {
-          "label": "Deformation resolution",
-          "value": "1/±300000 of the maximum deformation"
+          "label": "Testing Speed Range",
+          "value": "0.5% ～ 100%FS"
         },
         {
-          "label": "Relative error of displacement value",
-          "value": "Within ±0.5% of the displayed value"
-        },
-        {
-          "label": "Displacement resolution",
-          "value": "0.025µm"
-        },
-        {
-          "label": "Force control rate adjustment range",
-          "value": "0.01~5%FS/S"
-        },
-        {
-          "label": "Relative error of force-controlled rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Deformation rate adjustment range",
-          "value": "0.02~5%FS/S"
-        },
-        {
-          "label": "Relative error of deformation control rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Cross-beam speed adjustment range",
-          "value": "0.01～500mm/min"
-        },
-        {
-          "label": "Control range of constant force, constant deformation and constant displacement",
-          "value": "0.5%～100%FS"
-        },
-        {
-          "label": "Control accuracy of constant force, constant deformation and constant displacement",
+          "label": "Testing Speed Accuracy",
           "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
         },
-        {
-          "label": "Effective tensile space (without jig)",
-          "value": "800mm"
-        },
-        {
-          "label": "Effective test width",
-          "value": "400mm"
-        },
+
         {
           "label": "Main Unit Dimensions (mm)",
           "value": "800×450×1600"
@@ -1902,56 +1793,40 @@ window.ludaData = {
           "value": "5KN"
         },
         {
-          "label": "Accuracy grade",
+          "label": "Load Measurement Accuracy",
           "value": "±1% (can be customized to 0.5 on request)"
         },
         {
-          "label": "Test force measurement range",
-          "value": "1% to 100% FS throughout the whole process without sub-grade"
+          "label": "Load Measurement Range",
+          "value": "1% to 100% FS"
         },
         {
-          "label": "Relative error of the test force value",
-          "value": "Within ±1%"
-        },
-        {
-          "label": "Test force resolution",
-          "value": "1/±300000 of the test force"
-        },
-        {
-          "label": "Displacement resolution",
-          "value": "0.025µm"
-        },
-        {
-          "label": "Relative error of displacement value",
-          "value": "±1% of the indicated value"
-        },
-        {
-          "label": "Force control rate adjustment range",
-          "value": "0.01~5%FS/S"
-        },
-        {
-          "label": "Relative error of force control rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Deformation resolving power",
-          "value": "1/±300000 of the maximum deformation"
-        },
-        {
-          "label": "Relative error of deformation value",
-          "value": "±1% of the displayed value"
-        },
-        {
-          "label": "Cross-beam speed adjustment range",
-          "value": "0.01～500mm/min"
-        },
-        {
-          "label": "Effective tensile space",
+          "label": "Vertical Test Space (without jig)",
           "value": "800mm"
         },
         {
-          "label": "Effective test width",
+          "label": "Horizontal Test Space",
           "value": "100mm"
+        },
+        {
+          "label": "Crosshead Speed Range",
+          "value": "0.01～500mm/min"
+        },
+        {
+          "label": "Position Control Resolution",
+          "value": "0.025µm"
+        },
+        {
+          "label": "Displacement Measurement Accuracy",
+          "value": "Within ±1%"
+        },
+        {
+          "label": "Deformation measurement range",
+          "value": "0.2%～100%FS"
+        },
+        {
+          "label": "Deformation Measurement Accuracy",
+          "value": "±1% of the displayed value"
         },
         {
           "label": "Power supply",
@@ -8360,76 +8235,48 @@ window.ludaData = {
           "value": "50 (can be customized to other capacities on request)"
         },
         {
-          "label": "Accuracy grade",
+          "label": "Load Measurement Accuracy",
           "value": "±1% (can be customized to 0.5 on request)"
         },
         {
-          "label": "Test force measurement range",
-          "value": "1% to 100% FS throughout the whole process without sub-grade"
+          "label": "Load Measurement Range",
+          "value": "1% to 100% FS"
         },
         {
-          "label": "Relative error of the test force value",
-          "value": "±1% or less"
+          "label": "Vertical Test Space (without jig)",
+          "value": "1200mm"
         },
         {
-          "label": "Test force resolution",
-          "value": "1/±300000 of the maximum test force throughout the resolution remains unchanged"
+          "label": "Horizontal Test Space",
+          "value": "500mm"
+        },
+        {
+          "label": "Crosshead Speed Range",
+          "value": "0.01～500mm/min"
+        },
+        {
+          "label": "Position Control Resolution",
+          "value": "0.025µm"
+        },
+        {
+          "label": "Displacement Measurement Accuracy",
+          "value": "Within ±0.5%"
         },
         {
           "label": "Deformation measurement range",
           "value": "0.2%～100%FS"
         },
         {
-          "label": "Relative error of deformation value",
-          "value": "Within ±0.5% of the indicated value"
+          "label": "Deformation Measurement Accuracy",
+          "value": "Within ±0.5%"
         },
         {
-          "label": "Deformation resolution",
-          "value": "1/±300000 of the maximum deformation"
+          "label": "Testing Speed Range",
+          "value": "0.5% ～ 100%FS"
         },
         {
-          "label": "Relative error of displacement value",
-          "value": "Within ±0.5% of the displayed value"
-        },
-        {
-          "label": "Displacement resolution",
-          "value": "0.025µm"
-        },
-        {
-          "label": "Force control rate adjustment range",
-          "value": "0.01~5%FS/S"
-        },
-        {
-          "label": "Relative error of force-controlled rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Deformation rate adjustment range",
-          "value": "0.02~5%FS/S"
-        },
-        {
-          "label": "Relative error of deformation control rate",
-          "value": "Within ±1% of the set value"
-        },
-        {
-          "label": "Cross-beam speed adjustment range",
-          "value": "0.01～500mm/min"
-        },
-        {
-          "label": "Control range of constant force, constant deformation and constant displacement",
-          "value": "0.5%～100%FS"
-        },
-        {
-          "label": "Control accuracy of constant force, constant deformation and constant displacement",
+          "label": "Testing Speed Accuracy",
           "value": "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
-        },
-        {
-          "label": "Effective tensile space (without jig)",
-          "value": "1200mm"
-        },
-        {
-          "label": "Effective test width",
-          "value": "500mm"
         },
         {
           "label": "Main Unit Dimensions (mm)",
