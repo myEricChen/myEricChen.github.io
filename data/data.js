@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-17 15:00:24
+ * @LastEditTime: 2026-03-20 13:05:51
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -1458,7 +1458,7 @@ window.ludaData = {
         "Safety position and experimental position height arbitrary lock.",
         "Automatic protection when exceeding the maximum load,software limit and electronic limit double protection."
       ],
-      "standards": [],
+      "standards": ["ASTM E83", "BS 3846", "ISO 9513", "EN 10002-4"],
       "specifications": [
         {
           "label": "Load Capacity (kN)",
@@ -1525,7 +1525,12 @@ window.ludaData = {
       "hasVideo": false,
       "hasCAD": false,
       "isNew": false,
-      "customized": []
+      "customized": [
+        "Customizable test space",
+        "Extensometer can be installed for precise strain measurement",
+        "Compatible with various load cells for different force ranges",
+        "Easy-Interchangeable grips for different test"
+      ]
     },
     {
       "id": "P028",
@@ -1539,7 +1544,7 @@ window.ludaData = {
         "Safety position and experimental position height arbitrary lock.",
         "Automatic protection when exceeding the maximum load, software limit and electronic limit double protection."
       ],
-      "standards": [],
+      "standards": ["ASTM E83", "BS 3846", "ISO 9513", "EN 10002-4"],
       "specifications": [
         {
           "label": "Load Capacity (kN)",
@@ -1607,7 +1612,12 @@ window.ludaData = {
       "hasVideo": false,
       "hasCAD": false,
       "isNew": false,
-      "customized": []
+      "customized": [
+        "Customizable test space",
+        "Extensometer can be installed for precise strain measurement",
+        "Compatible with various load cells for different force ranges",
+        "Easy-Interchangeable grips for different test"
+      ]
     },
     {
       "id": "P029",
@@ -1621,7 +1631,7 @@ window.ludaData = {
         "Safety position and experimental position height arbitrary lock.",
         "Automatic protection when exceeding the maximum load, software limit and electronic limit double protection."
       ],
-      "standards": [],
+      "standards": ["ASTM E83", "BS 3846", "ISO 9513", "EN 10002-4"],
       "specifications": [
         {
           "label": "Load Capacity (kN)",
@@ -1689,7 +1699,12 @@ window.ludaData = {
       "hasVideo": false,
       "hasCAD": false,
       "isNew": false,
-      "customized": []
+      "customized": [
+        "Customizable test space",
+        "Extensometer can be installed for precise strain measurement",
+        "Compatible with various load cells for different force ranges",
+        "Easy-Interchangeable grips for different test"
+      ]
     },
     {
       "id": "P030",
@@ -1703,7 +1718,7 @@ window.ludaData = {
         "Safety position and experimental position height arbitrary lock.",
         "Automatic protection when exceeding the maximum load, software limit and electronic limit double protection."
       ],
-      "standards": [],
+      "standards": ["ASTM E83", "BS 3846", "ISO 9513", "EN 10002-4"],
       "specifications": [
         {
           "label": "Load Capacity (kN)",
@@ -1771,7 +1786,12 @@ window.ludaData = {
       "hasVideo": false,
       "hasCAD": false,
       "isNew": false,
-      "customized": []
+      "customized": [
+        "Customizable test space",
+        "Extensometer can be installed for precise strain measurement",
+        "Compatible with various load cells for different force ranges",
+        "Easy-Interchangeable grips for different test"
+      ]
     },
     {
       "id": "P031",
@@ -1786,7 +1806,7 @@ window.ludaData = {
         "Automatic protection when exceeding the maximum load, software limit and electronic limit double protection.",
         "Microcomputer control, real-time display of  graphs, automatic generation of reports."
       ],
-      "standards": [],
+      "standards": ["ASTM E83", "BS 3846", "ISO 9513", "EN 10002-4"],
       "specifications": [
         {
           "label": "Maximum load",
@@ -1845,7 +1865,12 @@ window.ludaData = {
       "hasVideo": false,
       "hasCAD": false,
       "isNew": false,
-      "customized": []
+      "customized": [
+        "Customizable test space",
+        "Extensometer can be installed for precise strain measurement",
+        "Compatible with various load cells for different force ranges",
+        "Easy-Interchangeable grips for different test"
+      ]
     },
     {
       "id": "P035",
@@ -8228,7 +8253,7 @@ window.ludaData = {
         "Safety position and experimental position height arbitrary lock.",
         "Automatic protection when exceeding the maximum load,software limit and electronic limit double protection."
       ],
-      "standards": [],
+      "standards": ["ASTM E83", "BS 3846", "ISO 9513", "EN 10002-4"],
       "specifications": [
         {
           "label": "Load Capacity (kN)",
@@ -8335,7 +8360,13 @@ window.ludaData = {
       "hasVideo": false,
       "hasCAD": false,
       "isNew": false,
-      "customized": []
+      "customized": [
+        "Temperature range and dimensions of climate chamber can be customized",
+        "Customizable test space",
+        "Extensometer can be installed for precise strain measurement",
+        "Compatible with various load cells for different force ranges",
+        "Easy-Interchangeable grips for different test"
+      ]
     }
   ]
 };
