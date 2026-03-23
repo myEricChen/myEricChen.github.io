@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-20 13:05:51
+ * @LastEditTime: 2026-03-23 16:42:51
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -30,37 +30,37 @@ window.ludaData = {
     },
     {
       id: "research",
-      name: "General Laboratory Equipments",
+      name: "General Equipment",
       description: "High-stability precision instruments for universities and research institutes.",
       icon: "/assets/series/research-product-icon.jpg"
     },
     {
       id: "concrete",
-      name: "Concrete Testing Equipments",
+      name: "Concrete Testing",
       description: "Full process concrete testing: mixing, curing, strength, etc.",
       icon: "/assets/series/concrete-test-icon.jpg"
     },
     {
       id: "cement",
-      name: "Cement & Mortar Testing Equipments",
+      name: "Cement & Mortar Testing",
       description: "Cement & mortar consistency, setting time, soundness, strength testers.",
       icon: "/assets/series/cement-instrument-icon.jpg"
     },
     {
       id: "asphalt",
-      name: "Asphalt Testing Equipments",
+      name: "Asphalt Testing",
       description:  "Marshall stability, wheel tracking, gyratory compaction, asphalt content, and mixture performance testers.",
       icon: "/assets/series/asphalt-instrument-icon.jpg"
     },
     {
       id: "bitumen",
-      name: "Bitumen (Asphalt Binder) Testing Equipments",
+      name: "Bitumen (Asphalt Binder) Testing",
       description: "Penetration, softening point, ductility, viscosity, aging, and wax content testers.",
       icon: "/assets/series/bitumen-instrument-icon.jpg"
     },
     {
       id: "geotechnical",
-      name: "Geotechnical & Aggregate Testing Equipments",
+      name: "Geotechnical & Aggregate Testing",
       description: "Soil, sand, rock physical/mechanical testing for geotechnical engineering.",
       icon: "/assets/series/geotechnical-instrument-icon.jpg"
     }
