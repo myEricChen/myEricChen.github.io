@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-22 10:43:50
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-24 13:58:29
+ * @LastEditTime: 2026-03-25 08:12:56
  * @FilePath: \EngWebsite\data\data.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -1874,7 +1874,7 @@ window.ludaData = {
     },
     {
       "id": "P035",
-      "name": "Servo-controlled Pressure Testing Machine",
+      "name": "Servo-controlled Compression Testing Machine",
       "suffixName": "2000kN EN Model",
       "model": "YAW-2000H",
       "category": "Concrete Testing",
@@ -1911,7 +1911,7 @@ window.ludaData = {
           "value": "320"
         },
         {
-          "label": "Pressure plate size(mm)",
+          "label": "Compression plate size(mm)",
           "value": "Φ300(Upper) Φ300(Lower)"
         },
         {
@@ -1955,7 +1955,7 @@ window.ludaData = {
     },
     {
       "id": "P036",
-      "name": "Servo-controlled Pressure Testing Machine",
+      "name": "Servo-controlled Compression Testing Machine",
       "suffixName": "2000kN EN Model",
       "model": "YAW-2000S",
       "category": "Concrete Testing",
@@ -2041,7 +2041,7 @@ window.ludaData = {
     },
     {
       "id": "P037",
-      "name": "Servo-controlled Pressure Testing Machine",
+      "name": "Servo-controlled Compression Testing Machine",
       "suffixName": "3000kN EN Model",
       "model": "YAW-3000S",
       "category": "Concrete Testing",
@@ -2127,7 +2127,7 @@ window.ludaData = {
     },
     {
       "id": "P038",
-      "name": "Servo-controlled Pressure Testing Machine",
+      "name": "Servo-controlled Compression Testing Machine",
       "suffixName": "2000kN",
       "model": "TSY-2000A",
       "category": "Concrete Testing",
@@ -2218,7 +2218,7 @@ window.ludaData = {
     },
     {
       "id": "P039",
-      "name": "Servo-controlled Pressure Testing Machine",
+      "name": "Servo-controlled Compression Testing Machine",
       "suffixName": "3000kN",
       "model": "TSY-3000A",
       "category": "Concrete Testing",
@@ -2612,7 +2612,7 @@ window.ludaData = {
           "value": "185mm"
         },
         {
-          "label": "Pressure plate diameter",
+          "label": "Compression plate diameter",
           "value": "Φ120mm"
         },
         {
@@ -2684,7 +2684,7 @@ window.ludaData = {
     },
     {
       "id": "P044",
-      "name": "Servo-controlled Pressure Testing Machine",
+      "name": "Servo-controlled Compression Testing Machine",
       "suffixName": "300kN",
       "model": "YAW-300S",
       "category": "Cement & Mortar Testing",
@@ -2721,7 +2721,7 @@ window.ludaData = {
           "value": "185mm"
         },
         {
-          "label": "Pressure plate diameter",
+          "label": "Compression plate diameter",
           "value": "Φ120mm"
         },
         {
@@ -2812,7 +2812,7 @@ window.ludaData = {
           "value": "190mm"
         },
         {
-          "label": "Pressure plate diameter",
+          "label": "Compression plate diameter",
           "value": "Φ120mm"
         },
         {
@@ -2880,7 +2880,7 @@ window.ludaData = {
     },
     {
       "id": "P046",
-      "name": "Servo-controlled Pressure Testing Machine",
+      "name": "Servo-controlled Compression Testing Machine",
       "suffixName": "300kN",
       "model": "YAW-300",
       "category": "Cement & Mortar Testing",
@@ -2926,7 +2926,7 @@ window.ludaData = {
           "value": "180mm"
         },
         {
-          "label": "Pressure plate diameter",
+          "label": "Compression plate diameter",
           "value": "Φ120mm"
         },
         {
@@ -2999,7 +2999,7 @@ window.ludaData = {
           "value": "31.5MPa"
         },
         {
-          "label": "Pressure plate diameter",
+          "label": "Compression plate diameter",
           "value": "Φ140mm"
         },
         {
@@ -3035,7 +3035,7 @@ window.ludaData = {
     },
     {
       "id": "P049",
-      "name": "Servo-controlled Manhole Cover Special Pressure Testing Machine",
+      "name": "Servo-controlled Manhole Cover Special Compression Testing Machine",
       "suffixName": "1000kN",
       "model": "TSY-1000S",
       "category": "Large-scale Special Testing Machine",
