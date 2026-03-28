@@ -1,0 +1,88 @@
+/* home-rtl.css – 用于阿拉伯语 RTL 布局的样式覆盖 */
+
+/* 全局文本方向 */
+body {
+    text-align: right;
+}
+
+/* 导航下拉菜单：右对齐改为左对齐（避免菜单超出左侧屏幕） */
+.dropdown-content {
+    right: auto !important;
+    left: 0 !important;
+}
+
+/* 右侧悬浮栏：移动到左侧 */
+.floating-bar {
+    right: auto !important;
+    left: 20px !important;
+}
+
+/* 产品分类卡片中的列表标记位置 */
+.advantage-item li {
+    padding-left: 0 !important;
+    padding-right: 1.2rem !important;
+}
+.advantage-item li::before {
+    left: auto !important;
+    right: 0 !important;
+}
+
+/* 产品特点列表（对勾图标） */
+.features-list li {
+    padding-left: 0 !important;
+    padding-right: 1.8rem !important;
+}
+.features-list li::before {
+    left: auto !important;
+    right: 0 !important;
+}
+
+/* 面包屑分隔符方向（改为反斜线，保持视觉习惯） */
+.breadcrumb a::after {
+    content: " > ";
+}
+@media (min-width: 641px) {
+    .breadcrumb a::after {
+        content: " < ";
+    }
+}
+/* 注：由于分隔符是 HTML 文本，这里只作为备选，实际更建议在 HTML 中根据语言动态修改分隔符，但此样式可覆盖部分情况 */
+
+/* 产品卡片的元数据布局（如有需要） */
+.product-meta {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+/* 按钮中的右箭头改为左箭头（如需） */
+.btn-primary .fa-arrow-right {
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+/* 分类卡片中图标的右箭头 */
+.category-card .fa-arrow-right {
+    transform: rotate(180deg);
+}
+
+/* 保持容器左右内边距一致（无需覆盖，但为了对称可保留） */
+.container {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* 手机端适配 */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* 新闻卡片、统计数字等原有布局已自动适应，无需额外覆盖 */

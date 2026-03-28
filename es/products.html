@@ -1,17 +1,17 @@
 <!--
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @Date: 2026-02-25 09:46:44
+ * @Date: 2026-02-22 10:47:58
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-09 14:38:07
- * @FilePath: \EngWebsite\pages\product-detail\index.html
+ * @LastEditTime: 2026-03-28 13:32:32
+ * @FilePath: \EngWebsite\pages\products\index.html
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luda Instruments – Product Detail</title>
+    <title>Luda Instruments – Equipment Series</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18002786940"></script>
     <script>
@@ -22,7 +22,7 @@
     gtag('config', 'AW-18002786940');
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/product-detail.css">
+    <link rel="stylesheet" href="/products.css">
 </head>
 <body>
     <!-- 右侧悬浮栏（与主页一致） -->
@@ -35,41 +35,54 @@
 
     <header>
         <div class="container navbar">
-            <a>       </a>
             <div class="logo">
+                <a>       </a>
+                <!-- 实际图片请替换为 /assets/images/logo.png -->
                 <img src="/assets/icon/LudaLogo.png" alt="Luda Instruments" class="logo-img">
                 <div class="logo-text">
                     <h1>LUDA INSTRUMENTS</h1>
-                    <span>Construction Materials Testing Equipment Manufacturer</span>
+                    <span>Fabricante de equipos de prueba de materiales de construcción</span>
                 </div>
             </div>
             <div class="nav-links">
-                <a href="/index.html">Home</a>
+                <a href="index.html" class="active">Inicio</a>
                 <div class="dropdown">
-                    <a href="/products.html" class="dropbtn">Equipment series <i class="fas fa-chevron-down"></i></a>
+                    <a href="/es/products.html" class="dropbtn">Serie de equipos <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-content" id="dropdown-menu">
                         <!-- 动态生成分类列表 -->
                     </div>
                 </div>
-                <a href="/contact.html">Contact</a>
+                <a href="/es/contact.html">Contacto</a>
+                <!-- 语言切换器 -->
+                <div class="lang-switcher">
+                    <button class="lang-btn">🌐 Idioma</button>
+                    <div class="lang-dropdown">
+                        <a href="/en/index.html">English</a>
+                        <a href="/es/index.html">Español</a>
+                        <a href="/fr/index.html">Français</a>
+                        <a href="/ar/index.html">العربية</a>
+                    </div>
+                </div>
                 <a>       </a>
             </div>
         </div>
     </header>
 
     <main class="container">
-        <!-- 面包屑导航 -->
-        <div class="breadcrumb">
-            <a href="/index.html">Home</a> > 
-            <a href="/products.html">Equipment series</a> > 
-            <a href="#" id="breadcrumb-category"></a> > 
-            <span id="breadcrumb-product">Loading...</span>
+        <!-- 面包屑导航和当前分类标题 -->
+        <div class="category-header">
+            <div class="breadcrumb">
+                <a href="/es/index.html">Inicio</a> > 
+                <a href="/es/index.html">Serie de equipos</a> > 
+                <span id="current-category-name">Cargando...</span>
+            </div>
+            <h2 id="category-title" class="page-title">Cargando...</h2>
+            <p id="category-description" class="category-description"></p>
         </div>
 
-        <!-- 产品详情区域 -->
-        <div class="product-detail" id="product-detail-container">
-            <!-- 动态生成产品详情 -->
-            <div class="loading">Loading product information...</div>
+        <!-- 设备卡片网格 -->
+        <div id="products-container" class="products-grid">
+            <!-- 动态生成设备卡片 -->
         </div>
     </main>
 
@@ -77,23 +90,23 @@
         <div class="container">
             <div class="footer-main">
                 <div class="footer-brand">
-                    <strong>Luda Test</strong> · since 1996
+                    <strong>Luda Test</strong> · desde 1996
                 </div>
                 <div class="footer-contacts">
                     <div class="contact-person">
-                        <span class="person-name">Eric Chen<br>Sales Engineer & Supervisor</span>
+                        <span class="person-name">Eric Chen<br>Ingeniero de ventas y supervisor</span>
                         <a class="contact-phone">📞 +86 182 5802 1911</a>
                         <a href="https://wa.me/8618258021911" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 182 5802 1911</a>
                         <a href="mailto:chen@ludatest.com" class="contact-email">✉️ chen@ludatest.com</a>
                     </div>
                     <div class="contact-person">
-                        <span class="person-name">Candy<br>Sales Manager on Asia</span>
+                        <span class="person-name">Candy<br>Gerente de ventas en Asia</span>
                         <a class="contact-phone">📞 +86 152 5753 5953</a>
                         <a href="https://wa.me/8615257535953" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 152 5753 5953</a>
                         <a href="mailto:candy@ludatest.com" class="contact-email">✉️ Candy@ludatest.com</a>
                     </div>
                     <div class="contact-person">
-                        <span class="person-name">Angela<br>Sales Manager on LATAM</span>
+                        <span class="person-name">Angela<br>Gerente de ventas en LATAM</span>
                         <a class="contact-phone">📞 +86 150 5875 2078</a>
                         <a href="https://wa.me/8615058752078" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 150 5875 2078</a>
                         <a href="mailto:angela@ludatest.com" class="contact-email">✉️ Angela@ludatest.com</a>
@@ -101,13 +114,13 @@
                 </div>
             </div>
             <div class="footer-copyright">
-                © 2025 Luda Test. All specifications are subject to change without notice.
+                © 2025 Luda Test. Todas las especificaciones están sujetas a cambios sin previo aviso.
             </div>
         </div>
     </footer>
 
-    <script src="/data/data.js"></script>
-    <script src="/product-detail.js"></script>
+    <script src="/data/data-es.js"></script>
+    <script src="/products.js"></script>
     <script src="/common.js"></script>
 </body>
 </html>

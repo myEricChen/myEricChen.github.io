@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luda Instruments – Pruebas de precisión de materiales</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18002786940"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-18002786940');
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <!-- 右侧悬浮栏 -->
+    <div class="floating-bar">
+        <a href="https://wa.me/8618258021911" target="_blank" class="floating-item"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.tiktok.com/@ludamachinery_cn" target="_blank" class="floating-item"><i class="fab fa-tiktok"></i></a>
+        <a href="mailto:chen@ludatest.com" class="floating-item"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+8618258021911" class="floating-item"><i class="fas fa-phone-alt"></i></a>
+    </div>
+
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <a>       </a>
+                <!-- 实际图片请替换为 /assets/images/logo.png -->
+                <img src="/assets/icon/LudaLogo.png" alt="Luda Instruments" class="logo-img">
+                <div class="logo-text">
+                    <h1>LUDA INSTRUMENTS</h1>
+                    <span>Fabricante de equipos de prueba de materiales de construcción</span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Inicio</a>
+                <div class="dropdown">
+                    <a href="/es/products.html" class="dropbtn">Serie de equipos <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content" id="dropdown-menu">
+                        <!-- 动态生成分类列表 -->
+                    </div>
+                </div>
+                <a href="/es/contact.html">Contacto</a>
+                <!-- 语言切换器 -->
+                <div class="lang-switcher">
+                    <button class="lang-btn">🌐 Idioma</button>
+                    <div class="lang-dropdown">
+                        <a href="/en/index.html">English</a>
+                        <a href="/es/index.html">Español</a>
+                        <a href="/fr/index.html">Français</a>
+                        <a href="/ar/index.html">العربية</a>
+                    </div>
+                </div>
+                <a>       </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner 轮播 -->
+        <section class="hero-slider">
+            <div class="slide" style="background-image: url('/assets/banners/banner2.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content container">
+                    <h2>Máquina de pruebas <br>de alta precisión</h2>
+                    <div class="divider"></div>
+                    <p>Diseñada para precisión y repetibilidad – desde probadores universales hasta cámaras climáticas, confiable en laboratorios de todo el mundo.</p>
+                    <a href="/es/products.html?category=tensile" class="btn btn-primary">Descubrir <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('/assets/banners/banner1.png');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content container">
+                    <h2>Red global de ventas <br>y distribución</h2>
+                    <div class="divider"></div>
+                    <p>Con socios en más de 40 países, Luda ofrece soluciones de prueba confiables y soporte local donde sea que su proyecto lo lleve.</p>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('/assets/banners/banner3.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content container">
+                    <h2>Servicio postventa integral</h2>
+                    <div class="divider"></div>
+                    <p>Instalación, calibración, formación y repuestos. Nuestro equipo de servicio global asegura que su equipo funcione al máximo rendimiento.</p>
+                    <a href="/es/contact.html" class="btn btn-primary">Más información <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- 轮播控制点 (简单实现) -->
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </section>
+
+        <!-- 统计数字 (不变) -->
+        <section class="stats-section container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <i class="fas fa-flask"></i>
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Productos de prueba</div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-history"></i>
+                    <div class="stat-number">30+</div>
+                    <div class="stat-label">Años de experiencia</div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Clientes internacionales</div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-flask"></i>
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Patentes emitidas</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 简介 (不变) -->
+        <section class="about-section container">
+            <h2 class="section-title">Por qué elegir Luda Instruments</h2>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <i class="fas fa-industry"></i>
+                    <h3>Ventaja de escala</h3>
+                    <ul>
+                        <li>30 años dedicados a la I+D y fabricación de máquinas de prueba.</li>
+                        <li>La fábrica cubre 20 000 m², con 12 000 m² de espacio de taller.</li>
+                        <li>Proceso integrado de una sola parada: instrumentos de laboratorio, chapa, mecanizado, software, montaje y control de calidad.</li>
+                        <li>Más de 100 tipos de productos que cubren hormigón, mortero, acero, áridos, cemento, asfalto y más.</li>
+                    </ul>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Ventajas técnicas</h3>
+                    <ul>
+                        <li>Unidad de redacción de las normas nacionales chinas de prueba de materiales de construcción.</li>
+                        <li>Más de 50 patentes nacionales, capacidades de I+D de cadena completa.</li>
+                    </ul>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Ventaja de calidad</h3>
+                    <ul>
+                        <li>Una estricta inspección de calidad previa a la entrega garantiza la calidad.</li>
+                        <li>Más de 30 años de experiencia – el ingeniero jefe y los gerentes de taller aportan cada uno 30 años de experiencia.</li>
+                        <li>Cada máquina se somete a un control de calidad de proceso completo, desde la chapa hasta el montaje final.</li>
+                    </ul>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-headset"></i>
+                    <h3>Ventajas del servicio</h3>
+                    <ul>
+                        <li>Sistema postventa integral para un soporte sin preocupaciones.</li>
+                        <li>Servicio al cliente en línea 24/7, respuesta rápida a sus necesidades.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 产品系列 (带缩略图) -->
+        <section class="product-range container">
+            <h2 class="section-title">Gama de productos</h2>
+            <p class="section-subtitle">Explore nuestra amplia gama de equipos de prueba, clasificados por materiales</p>
+            <div class="categories-grid" id="categories-container">
+                <!-- 动态生成 -->
+            </div>
+        </section>
+
+        <!-- News 区域 (保留) -->
+        <section class="news-section container">
+            <h2 class="section-title">Noticias y eventos</h2>
+            <p class="section-subtitle">Últimas noticias de la industria, desarrollos y próximas ferias comerciales.</p>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="/assets/newsAndEvents/arablab.jpg" alt="News">
+                    <div class="news-content">
+                        <span class="news-category news">Noticias</span>
+                        <h3>Exposición Arab Lab septiembre 2025</h3>
+                        <p>Únase a nosotros en la exposición Arab Lab en Dubái del 22 al 24 de septiembre de 2025. Visite nuestro stand para descubrir las últimas innovaciones en pruebas de materiales de construcción y conocer a nuestros expertos.</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="/assets/newsAndEvents/customerVisit.png" alt="Global clients">
+                    <div class="news-content">
+                        <span class="news-category live">En vivo</span>
+                        <h3>Nuestra red global de clientes</h3>
+                        <p>Descubra dónde se utilizan los instrumentos Luda en este momento. Más de 3,000 laboratorios activos en más de 80 países confían en nuestras soluciones de prueba – desde plantas de hormigón hasta universidades de investigación. El mapa se actualiza en tiempo real.</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="/assets/newsAndEvents/PhilConstruct.jpg" alt="News">
+                    <div class="news-content">
+                        <span class="news-category news">Noticias</span>
+                        <h3>Exposición Philconstruct 2024</h3>
+                        <p>Reúnase con nosotros en Arab Lab 2024 en Manila, del 10 al 12 de noviembre. Experimente el futuro de las pruebas de materiales de construcción de primera mano y conéctese con nuestros especialistas.</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="/assets/newsAndEvents/VietnamExhibition2.jpg" alt="News">
+                    <div class="news-content">
+                        <span class="news-category news">Noticias</span>
+                        <h3>Exposición de Cemento y Hormigón Vietnam</h3>
+                        <p>En una reciente exposición industrial, realizamos una presentación en profundidad a representantes de la Asociación Vietnamita de Hormigón y Cemento y otros distinguidos invitados. La sesión mostró nuestras últimas innovaciones en tecnologías de prueba de hormigón y cemento, enfatizando cómo nuestro equipo mejora el control de calidad, la eficiencia de la investigación y el cumplimiento de las normas internacionales. La presentación generó animados debates y abrió puertas para futuras colaboraciones con actores clave de la industria en Vietnam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <strong>Luda Test</strong> · desde 1996
+                </div>
+                <div class="footer-contacts">
+                    <div class="contact-person">
+                        <span class="person-name">Eric Chen<br>Ingeniero de ventas y supervisor</span>
+                        <a class="contact-phone">📞 +86 182 5802 1911</a>
+                        <a href="https://wa.me/8618258021911" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 182 5802 1911</a>
+                        <a href="mailto:chen@ludatest.com" class="contact-email">✉️ chen@ludatest.com</a>
+                    </div>
+                    <div class="contact-person">
+                        <span class="person-name">Candy<br>Gerente de ventas en Asia</span>
+                        <a class="contact-phone">📞 +86 152 5753 5953</a>
+                        <a href="https://wa.me/8615257535953" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 152 5753 5953</a>
+                        <a href="mailto:candy@ludatest.com" class="contact-email">✉️ Candy@ludatest.com</a>
+                    </div>
+                    <div class="contact-person">
+                        <span class="person-name">Angela<br>Gerente de ventas en LATAM</span>
+                        <a class="contact-phone">📞 +86 150 5875 2078</a>
+                        <a href="https://wa.me/8615058752078" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 150 5875 2078</a>
+                        <a href="mailto:angela@ludatest.com" class="contact-email">✉️ Angela@ludatest.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                © 2025 Luda Test. Todas las especificaciones están sujetas a cambios sin previo aviso.
+            </div>
+        </div>
+    </footer>
+
+    <script src="/data/data-es.js"></script>
+    <script src="/home.js"></script>
+    <script src="/common.js"></script>
+</body>
+</html>

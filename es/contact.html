@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,19 +30,32 @@
         <div class="container navbar">
             <div class="logo">
                 <a>       </a>
+                <!-- 实际图片请替换为 /assets/images/logo.png -->
                 <img src="/assets/icon/LudaLogo.png" alt="Luda Instruments" class="logo-img">
                 <div class="logo-text">
                     <h1>LUDA INSTRUMENTS</h1>
-                    <span>Construction Materials Testing Equipment Manufacturer</span>
+                    <span>Fabricante de equipos de prueba de materiales de construcción</span>
                 </div>
             </div>
             <div class="nav-links">
-                <a href="/index.html">Home</a>
+                <a href="index.html" class="active">Inicio</a>
                 <div class="dropdown">
-                    <a href="/products.html" class="dropbtn">Equipment series <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content" id="dropdown-menu"></div>
+                    <a href="/es/products.html" class="dropbtn">Serie de equipos <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content" id="dropdown-menu">
+                        <!-- 动态生成分类列表 -->
+                    </div>
                 </div>
-                <a href="/contact.html" class="active">Contact</a>
+                <a href="/es/contact.html">Contacto</a>
+                <!-- 语言切换器 -->
+                <div class="lang-switcher">
+                    <button class="lang-btn">🌐 Idioma</button>
+                    <div class="lang-dropdown">
+                        <a href="/en/index.html">English</a>
+                        <a href="/es/index.html">Español</a>
+                        <a href="/fr/index.html">Français</a>
+                        <a href="/ar/index.html">العربية</a>
+                    </div>
+                </div>
                 <a>       </a>
             </div>
         </div>
@@ -51,8 +64,8 @@
     <main>
         <!-- 页面标题 -->
         <section class="page-header container">
-            <h1 class="page-title">Contact Us</h1>
-            <p class="page-subtitle">Get in touch with our team for inquiries, support, or partnership opportunities.</p>
+            <h1 class="page-title">Contáctenos</h1>
+            <p class="page-subtitle">Comuníquese con nuestro equipo para consultas, soporte u oportunidades de asociación.</p>
         </section>
 
         <!-- 联系信息 + 地图 -->
@@ -60,33 +73,33 @@
             <div class="contact-grid">
                 <!-- 左侧公司信息 -->
                 <div class="company-info">
-                    <h2>Luda Instruments Headquarters</h2>
+                    <h2>Sede de Luda Instruments</h2>
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <strong>Address</strong><br>
+                            <strong>Dirección</strong><br>
                             2PQV+HX5, Shangyu District, Shaoxing, <br>Zhejiang, China, 312368
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-phone-alt"></i>
                         <div>
-                            <strong>General Inquiries</strong><br>
+                            <strong>Consultas generales</strong><br>
                             +86 182 5802 1911
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <strong>Email</strong><br>
+                            <strong>Correo electrónico</strong><br>
                             chen@ludatest.com
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-clock"></i>
                         <div>
-                            <strong>Office Hours</strong><br>
-                            Monday – Friday, 8:00 AM – 5:00 PM (GMT+8)
+                            <strong>Horario de oficina</strong><br>
+                            Lunes – viernes, 8:00 – 17:00 (GMT+8)
                         </div>
                     </div>
                 </div>
@@ -101,21 +114,21 @@
                         allowfullscreen="" 
                         loading="lazy">
                     </iframe>
-                    <p class="map-note">* Map shows approximate location. For detailed directions, please contact us.</p>
+                    <p class="map-note">* El mapa muestra la ubicación aproximada. Para indicaciones detalladas, contáctenos.</p>
                 </div>
             </div>
         </section>
 
         <!-- 销售代表卡片 -->
         <section class="sales-representatives container">
-            <h2 class="section-title">Our Sales Team</h2>
-            <p class="section-subtitle">Reach out directly to the person responsible for your region</p>
+            <h2 class="section-title">Nuestro equipo de ventas</h2>
+            <p class="section-subtitle">Comuníquese directamente con la persona responsable de su región</p>
             <div class="sales-grid">
                 <div class="sales-card">
                     <div class="sales-avatar"><i class="fas fa-user-tie"></i></div>
                     <h3>Eric Chen</h3>
-                    <p class="sales-title">Sales Engineer & Supervisor</p>
-                    <p class="sales-region">Global · General Inquiries</p>
+                    <p class="sales-title">Ingeniero de ventas y supervisor</p>
+                    <p class="sales-region">Global · Consultas generales</p>
                     <div class="sales-contact">
                         <a><i class="fas fa-phone"></i> +86 182 5802 1911</a>
                         <a href="mailto:chen@ludatest.com"><i class="fas fa-envelope"></i> chen@ludatest.com</a>
@@ -125,8 +138,8 @@
                 <div class="sales-card">
                     <div class="sales-avatar"><i class="fas fa-user-tie"></i></div>
                     <h3>Candy</h3>
-                    <p class="sales-title">Sales Manager – Asia</p>
-                    <p class="sales-region">Asia Pacific</p>
+                    <p class="sales-title">Gerente de ventas – Asia</p>
+                    <p class="sales-region">Asia Pacífico</p>
                     <div class="sales-contact">
                         <a><i class="fas fa-phone"></i> +86 152 5753 5953</a>
                         <a href="mailto:candy@ludatest.com"><i class="fas fa-envelope"></i> candy@ludatest.com</a>
@@ -136,8 +149,8 @@
                 <div class="sales-card">
                     <div class="sales-avatar"><i class="fas fa-user-tie"></i></div>
                     <h3>Angela</h3>
-                    <p class="sales-title">Sales Manager – LATAM</p>
-                    <p class="sales-region">Latin America</p>
+                    <p class="sales-title">Gerente de ventas – LATAM</p>
+                    <p class="sales-region">América Latina</p>
                     <div class="sales-contact">
                         <a><i class="fas fa-phone"></i> +86 150 5875 2078</a>
                         <a href="mailto:angela@ludatest.com"><i class="fas fa-envelope"></i> angela@ludatest.com</a>
@@ -149,8 +162,8 @@
 
         <!-- ✅ 全新设计的留言表单 -->
         <section class="message-section container">
-            <h2 class="section-title">Send Us a Message</h2>
-            <p class="section-subtitle">We'll get back to you within 24 hours.</p>
+            <h2 class="section-title">Envíenos un mensaje</h2>
+            <p class="section-subtitle">Le responderemos dentro de las 24 horas.</p>
             <div class="message-form-container">
                 <!-- 👇 重要：请将下方的 FORM_ID 替换为您的实际表单 ID（例如 abcd-1234-efgh） -->
                 <form action="https://submit-form.com/6LgD1nY1K" method="POST" class="contact-form">
@@ -163,50 +176,50 @@
                     <!-- 可选：开启简单的垃圾邮件防护（Formspark 内置 Botpoison，一般无需额外设置） -->
         
                     <div class="form-group">
-                        <label for="name">Your Name *</label>
+                        <label for="name">Su nombre *</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
-                        <label for="email">Your Email *</label>
+                        <label for="email">Su correo electrónico *</label>
                         <!-- Formspark 会自动将 email 字段识别为发件人地址，便于您直接回复 -->
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">Message *</label>
+                        <label for="message">Mensaje *</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
                 </form>
                 <div class="message-info">
-                    <h3>Why Contact Us?</h3>
-                    <p>Whether you have a question about our products, need technical support, or are interested in becoming a distributor, our team is ready to assist you.</p>
-                    <p>You can also reach us directly via phone or email at the numbers above.</p>
+                    <h3>¿Por qué contactarnos?</h3>
+                    <p>Ya sea que tenga una pregunta sobre nuestros productos, necesite soporte técnico o esté interesado en convertirse en distribuidor, nuestro equipo está listo para ayudarlo.</p>
+                    <p>También puede comunicarse directamente con nosotros por teléfono o correo electrónico en los números anteriores.</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+     <footer>
         <div class="container">
             <div class="footer-main">
                 <div class="footer-brand">
-                    <strong>Luda Test</strong> · since 1996
+                    <strong>Luda Test</strong> · desde 1996
                 </div>
                 <div class="footer-contacts">
                     <div class="contact-person">
-                        <span class="person-name">Eric Chen<br>Sales Engineer & Supervisor</span>
+                        <span class="person-name">Eric Chen<br>Ingeniero de ventas y supervisor</span>
                         <a class="contact-phone">📞 +86 182 5802 1911</a>
                         <a href="https://wa.me/8618258021911" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 182 5802 1911</a>
                         <a href="mailto:chen@ludatest.com" class="contact-email">✉️ chen@ludatest.com</a>
                     </div>
                     <div class="contact-person">
-                        <span class="person-name">Candy<br>Sales Manager on Asia</span>
+                        <span class="person-name">Candy<br>Gerente de ventas en Asia</span>
                         <a class="contact-phone">📞 +86 152 5753 5953</a>
                         <a href="https://wa.me/8615257535953" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 152 5753 5953</a>
                         <a href="mailto:candy@ludatest.com" class="contact-email">✉️ Candy@ludatest.com</a>
                     </div>
                     <div class="contact-person">
-                        <span class="person-name">Angela<br>Sales Manager on LATAM</span>
+                        <span class="person-name">Angela<br>Gerente de ventas en LATAM</span>
                         <a class="contact-phone">📞 +86 150 5875 2078</a>
                         <a href="https://wa.me/8615058752078" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 150 5875 2078</a>
                         <a href="mailto:angela@ludatest.com" class="contact-email">✉️ Angela@ludatest.com</a>
@@ -214,12 +227,13 @@
                 </div>
             </div>
             <div class="footer-copyright">
-                © 2025 Luda Test. All specifications are subject to change without notice.
+                © 2025 Luda Test. Todas las especificaciones están sujetas a cambios sin previo aviso.
             </div>
         </div>
     </footer>
 
-    <script src="/data/data.js"></script>
+
+    <script src="/data/data-es.js"></script>
     <script src="/contact.js"></script>
     <script src="/common.js"></script>
 </body>

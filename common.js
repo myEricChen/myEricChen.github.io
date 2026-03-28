@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-03-07 14:16:46
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-07 14:18:04
+ * @LastEditTime: 2026-03-28 13:55:46
  * @FilePath: \myEricChen.github.io\common.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -40,3 +40,29 @@
         });
     });
 })();
+
+
+/**
+ * 更新语言切换器链接，使其指向当前页面的对应语言版本（保留查询参数和哈希）
+ */
+function updateLanguageSwitcher() {
+    // 获取当前页面的完整路径（包含查询参数和哈希）
+    const fullPath = window.location.pathname + window.location.search + window.location.hash;
+    // 移除开头的语言前缀（例如 /fr/products.html?category=xxx -> /products.html?category=xxx）
+    const pathWithoutLang = fullPath.replace(/^\/[a-z]{2}\//, '/');
+    const langLinks = document.querySelectorAll('.lang-dropdown a');
+    const langCodes = ['en', 'es', 'fr', 'ar'];
+
+    langLinks.forEach((link, index) => {
+        if (langCodes[index]) {
+            link.href = `/${langCodes[index]}${pathWithoutLang}`;
+        }
+    });
+}
+
+// 页面加载完成后执行
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', updateLanguageSwitcher);
+} else {
+    updateLanguageSwitcher();
+}
