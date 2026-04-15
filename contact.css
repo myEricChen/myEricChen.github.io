@@ -316,3 +316,156 @@ html[dir="rtl"] .lang-dropdown {
     right: auto;
     left: 0;
 }
+
+/* 搜索模态框遮罩层 */
+.search-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+.search-modal-container {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.search-modal-box {
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    overflow: hidden;
+    animation: fadeInUp 0.2s ease;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.search-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background: #f8fafc;
+    border-bottom: 1px solid #eaeef5;
+}
+.search-modal-header h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0a2647;
+    margin: 0;
+}
+.search-modal-close {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #8ca3b9;
+    transition: color 0.2s;
+    line-height: 1;
+}
+.search-modal-close:hover {
+    color: #d71920;
+}
+.search-modal-body {
+    padding: 30px 25px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.search-modal-body input {
+    flex: 1;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    border: 1px solid #d0ddee;
+    border-radius: 60px;
+    outline: none;
+    transition: border-color 0.2s;
+    font-family: inherit;
+}
+.search-modal-body input:focus {
+    border-color: #d71920;
+    box-shadow: 0 0 0 3px rgba(215,25,32,0.1);
+}
+.search-modal-body button {
+    background: #d71920;
+    color: white;
+    border: none;
+    padding: 0 28px;
+    border-radius: 60px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.search-modal-body button:hover {
+    background: #b0141a;
+}
+.search-modal-footer {
+    padding: 15px 25px;
+    background: #f8fafc;
+    border-top: 1px solid #eaeef5;
+    text-align: center;
+    color: #6d8ba0;
+    font-size: 0.85rem;
+}
+@media (max-width: 640px) {
+    .search-modal-body {
+        flex-direction: column;
+    }
+    .search-modal-body button {
+        padding: 12px;
+        justify-content: center;
+    }
+}
+
+/* 搜索模态框内布局调整 */
+.search-modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.search-lang-select {
+    padding: 14px 12px;
+    border: 1px solid #d0ddee;
+    border-radius: 60px;
+    background: white;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+}
+.search-lang-select:focus {
+    border-color: #d71920;
+}
+.search-modal-body input {
+    flex: 2;
+    min-width: 200px;
+}
+.search-modal-body button {
+    flex-shrink: 0;
+}
+@media (max-width: 640px) {
+    .search-modal-body {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .search-lang-select {
+        width: 100%;
+    }
+}

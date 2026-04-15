@@ -1,0 +1,42 @@
+/* search.css - 搜索结果页独有样式 */
+
+.search-results-header {
+    margin: 40px 0 20px;
+    text-align: center;
+}
+.search-results-header h1 {
+    font-size: 2rem;
+    color: #0a2647;
+}
+.search-results-header p {
+    color: #4f6f8f;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.no-results {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+    border-radius: 20px;
+    margin: 40px auto;
+    max-width: 600px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+    border: 1px solid #eaeef5;
+}
+.no-results i {
+    font-size: 4rem;
+    color: #d71920;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+.no-results p {
+    margin-bottom: 20px;
+}
+.no-results a {
+    color: #d71920;
+    text-decoration: none;
+    font-weight: 600;
+}
+.products-grid {
+    margin-top: 20px;
+}
