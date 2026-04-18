@@ -41,13 +41,29 @@
     document.getElementById('breadcrumb-category').href = `/products.html?category=${category ? category.id : ''}`;
     document.getElementById('breadcrumb-product').textContent = product.name;
 
+    // ========== 新增：动态设置 meta description ==========
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (!metaDesc) {
+        metaDesc = document.createElement('meta');
+        metaDesc.name = 'description';
+        document.head.appendChild(metaDesc);
+    }
+    // 取产品描述的前150个字符，确保不超过搜索引擎限制
+    let descText = product.description || '';
+    if (descText.length > 150) {
+        descText = descText.substring(0, 150) + '...';
+    }
+    metaDesc.setAttribute('content', descText);
+    // 也可以同时设置页面标题（可选）
+    document.title = `${product.name} | Luda Instruments`;
+
     // 6. 渲染产品详情
     renderProductDetail(product);
 
     function renderProductDetail(product) {
         const container = document.getElementById('product-detail-container');
         
-        // 处理标准列表（新增）
+        // 处理标准列表
         const standardsHtml = product.standards && product.standards.length > 0 ? `
             <div class="product-standards">
                 <h3>Applicable Standards</h3>
@@ -57,7 +73,7 @@
             </div>
         ` : '';
 
-        // ✅ 新增：处理定制化选项
+        // 处理定制化选项
         const customizationHtml = product.customized && product.customized.length > 0 ? `
             <div class="product-customization">
                 <h3>Customization Options</h3>
@@ -67,7 +83,7 @@
             </div>
         ` : '';
 
-        // 处理特点列表（如果为空则隐藏该部分）
+        // 处理特点列表
         const featuresHtml = product.features && product.features.length > 0 ? `
             <div class="product-features">
                 <h3>Key Features</h3>
@@ -116,7 +132,7 @@
                 </div>
             </div>
             ${standardsHtml}
-             ${customizationHtml}
+            ${customizationHtml}
             ${featuresHtml}
             ${specsHtml}
         `;

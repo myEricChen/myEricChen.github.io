@@ -41,6 +41,57 @@
     document.getElementById('breadcrumb-category').href = `/ar/products.html?category=${category ? category.id : ''}`;
     document.getElementById('breadcrumb-product').textContent = product.name;
 
+    // 新增部分，标题和描述
+    document.title = `${product.name} | ${category ? category.name : product.category} | Luda Instruments`;
+
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (!metaDesc) {
+        metaDesc = document.createElement('meta');
+        metaDesc.name = 'description';
+        document.head.appendChild(metaDesc);
+    }
+    let desc = product.description;
+    if (desc.length > 150) desc = desc.substring(0, 150) + '...';
+    metaDesc.setAttribute('content', desc);
+
+    // ========== 新增：Product Schema (JSON-LD) ==========
+    function addProductSchema(product) {
+        // 移除已有的同类型脚本（避免重复）
+        const existingScript = document.querySelector('script[type="application/ld+json"].product-schema');
+        if (existingScript) existingScript.remove();
+
+        const schema = {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": product.name + (product.suffixName ? ' ' + product.suffixName : ''),
+            "model": product.model,
+            "description": product.description.substring(0, 200),
+            "brand": {
+                "@type": "Brand",
+                "name": "Luda Test"
+            },
+            "image": product.thumbnail || product.image || '',
+            "offers": {
+                "@type": "Offer",
+                "availability": "https://schema.org/InStock"
+            }
+        };
+        // 如果有标准列表，作为附加属性
+        if (product.standards && product.standards.length > 0) {
+            schema.additionalProperty = product.standards.map(std => ({
+                "@type": "PropertyValue",
+                "name": "Standard",
+                "value": std
+            }));
+        }
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.className = 'product-schema';
+        script.textContent = JSON.stringify(schema);
+        document.head.appendChild(script);
+    }
+    addProductSchema(product);
+    
     // 6. 渲染产品详情
     renderProductDetail(product);
 

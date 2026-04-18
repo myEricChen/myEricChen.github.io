@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-03-07 14:16:46
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-04-15 15:23:34
+ * @LastEditTime: 2026-04-18 12:56:44
  * @FilePath: \myEricChen.github.io\common.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -41,6 +41,65 @@
     });
 })();
 
+// ========== 动态生成 hreflang 标签 ==========
+(function() {
+    // 支持的语言列表
+    const languages = ['en', 'es', 'fr', 'ar'];
+    // 获取当前页面的完整路径（不包含域名）
+    let currentPath = window.location.pathname;
+    
+    // 如果当前路径不以 /语言/ 开头，则默认作为英文处理（例如根目录重定向页面）
+    let currentLang = 'en';
+    for (let lang of languages) {
+        if (currentPath.startsWith('/' + lang + '/')) {
+            currentLang = lang;
+            break;
+        }
+    }
+    
+    // 基础 URL（请替换为您的实际域名）
+    const baseUrl = 'https://www.ludatest.com';
+    
+    // 为每种语言生成对应的 URL
+    languages.forEach(lang => {
+        let targetPath = currentPath;
+        if (lang === currentLang) {
+            // 当前语言：路径不变（已包含语言前缀）
+            targetPath = currentPath;
+        } else {
+            // 其他语言：替换路径中的语言前缀
+            if (currentPath.startsWith('/' + currentLang + '/')) {
+                targetPath = currentPath.replace('/' + currentLang + '/', '/' + lang + '/');
+            } else {
+                // 如果当前路径没有语言前缀（如首页根目录重定向），则直接添加语言前缀
+                targetPath = '/' + lang + currentPath;
+            }
+        }
+        // 确保路径末尾没有多余的斜杠（除了根目录）
+        if (targetPath !== '/' && targetPath.endsWith('/')) {
+            targetPath = targetPath.slice(0, -1);
+        }
+        
+        const link = document.createElement('link');
+        link.rel = 'alternate';
+        link.hreflang = lang;
+        link.href = baseUrl + targetPath;
+        document.head.appendChild(link);
+    });
+    
+    // 添加 x-default（默认语言，通常指向英文版）
+    let defaultPath = currentPath;
+    if (currentPath.startsWith('/' + currentLang + '/')) {
+        defaultPath = currentPath.replace('/' + currentLang + '/', '/en/');
+    } else {
+        defaultPath = '/en' + currentPath;
+    }
+    const xDefaultLink = document.createElement('link');
+    xDefaultLink.rel = 'alternate';
+    xDefaultLink.hreflang = 'x-default';
+    xDefaultLink.href = baseUrl + defaultPath;
+    document.head.appendChild(xDefaultLink);
+})();
 
 /**
  * 更新语言切换器链接，使其指向当前页面的对应语言版本（保留查询参数和哈希）

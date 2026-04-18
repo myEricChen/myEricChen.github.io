@@ -41,6 +41,51 @@
     document.getElementById('breadcrumb-category').href = `/en/products.html?category=${category ? category.id : ''}`;
     document.getElementById('breadcrumb-product').textContent = product.name;
 
+    // 新增部分：标题和描述
+    document.title = `${product.name} | ${product.category} | Luda Instruments`;
+
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (!metaDesc) {
+        metaDesc = document.createElement('meta');
+        metaDesc.name = 'description';
+        document.head.appendChild(metaDesc);
+    }
+    let desc = product.description;
+    if (desc.length > 150) desc = desc.substring(0, 150) + '...';
+    metaDesc.setAttribute('content', desc);
+
+    // ========== 新增：面包屑结构化数据 (BreadcrumbList) ==========
+    function addBreadcrumbSchema(category) {
+        // 移除已有的同类型脚本（避免重复）
+        const existingScript = document.querySelector('script[type="application/ld+json"].breadcrumb');
+        if (existingScript) existingScript.remove();
+
+        const lang = window.location.pathname.split('/')[1] || 'en';
+        const breadcrumbSchema = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": `https://www.ludatest.com/${lang}/index.html`
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": category.name,
+                    "item": window.location.href  // 当前页面完整 URL
+                }
+            ]
+        };
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.className = 'breadcrumb';
+        script.textContent = JSON.stringify(breadcrumbSchema);
+        document.head.appendChild(script);
+    }
+    addBreadcrumbSchema(product);
     // 6. 渲染产品详情
     renderProductDetail(product);
 

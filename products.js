@@ -64,10 +64,52 @@
         return;
     }
 
+    
+    // 设置 meta description
+    let metaDesc = document.querySelector('meta[name="description"]');
+    if (!metaDesc) {
+        metaDesc = document.createElement('meta');
+        metaDesc.name = 'description';
+        document.head.appendChild(metaDesc);
+    }
+    metaDesc.setAttribute('content', currentCategory.description || 'Browse our construction materials testing equipment series.');
     // 更新页面标题和描述
     document.getElementById('category-title').textContent = currentCategory.name;
     document.getElementById('category-description').textContent = currentCategory.description;
     document.getElementById('current-category-name').textContent = currentCategory.name;
+
+
+    // ========== 新增：面包屑结构化数据 ==========
+    function addBreadcrumbSchema(category) {
+        // 移除已有的同类型脚本（避免重复）
+        const existingScript = document.querySelector('script[type="application/ld+json"].breadcrumb');
+        if (existingScript) existingScript.remove();
+
+        const breadcrumbSchema = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": `https://www.ludatest.com/${lang}/index.html`
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": category.name,
+                    "item": window.location.href
+                }
+            ]
+        };
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.className = 'breadcrumb';
+        script.textContent = JSON.stringify(breadcrumbSchema);
+        document.head.appendChild(script);
+    }
+    addBreadcrumbSchema(currentCategory);
 
     // 4. 过滤出属于该分类的设备
     const currentcategoryId = currentCategory.id;
