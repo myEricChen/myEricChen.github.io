@@ -22,7 +22,7 @@
             "@type": "Organization",
             "name": "Luda Instruments",
             "url": "https://www.ludatest.com",
-            "logo": "https://www.ludatest.com/assets/icon/LudaLogo.png",
+            "logo": "https://www.ludatest.com/assets/icon/LudaLogo.webp",
             "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+86 182 5802 1911",
@@ -58,7 +58,7 @@
             <div class="logo">
                 <a>       </a>
                 <!-- 实际图片请替换为 /assets/images/logo.png -->
-                <img src="/assets/icon/LudaLogo.png" alt="Luda Instruments" class="logo-img">
+                <img src="/assets/icon/LudaLogo.webp" alt="Luda Instruments" class="logo-img">
                 <div class="logo-text">
                     <h1>LUDA INSTRUMENTS</h1>
                     <span>Construction Materials Testing Equipment Manufacturer</span>
@@ -91,7 +91,12 @@
     <main>
         <!-- Banner 轮播 -->
         <section class="hero-slider">
-            <div class="slide" style="background-image: url('/assets/banners/banner2.jpg');">
+            <div class="slide active">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="/assets/banners/banner2-mobile.webp" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="/assets/banners/banner2.webp" type="image/webp">
+                    <img class="slide-bg-img" src="/assets/banners/banner2.jpg" alt="High‑Precision Testing Machine" fetchpriority="high">
+                </picture>
                 <div class="slide-overlay"></div>
                 <div class="slide-content container">
                     <h2>High‑Precision <br>Testing Machine</h2>
@@ -100,7 +105,12 @@
                     <a href="/en/products.html?category=tensile" class="btn btn-primary">Discover <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('/assets/banners/banner1.png');">
+            <div class="slide">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="/assets/banners/banner1-mobile.webp" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="/assets/banners/banner1.webp" type="image/webp">
+                    <img class="slide-bg-img" src="/assets/banners/banner1.png" alt="Global Sales & Distributor Network">
+                </picture>
                 <div class="slide-overlay"></div>
                 <div class="slide-content container">
                     <h2>Global Sales <br>& Distributor Network</h2>
@@ -108,7 +118,12 @@
                     <p>With partners in over 40 countries, Luda delivers reliable testing solutions and local support wherever your project takes you.</p>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('/assets/banners/banner3.jpg');">
+            <div class="slide">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="/assets/banners/banner3-mobile.webp" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="/assets/banners/banner3.webp" type="image/webp">
+                    <img class="slide-bg-img" src="/assets/banners/banner3.jpg" alt="Comprehensive After‑Sales Service">
+                </picture>
                 <div class="slide-overlay"></div>
                 <div class="slide-content container">
                     <h2>Comprehensive After‑Sales Service</h2>
@@ -117,7 +132,6 @@
                     <a href="/en/contact.html" class="btn btn-primary">Learn more <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
-            <!-- 轮播控制点 (简单实现) -->
             <div class="slider-dots">
                 <span class="dot active" data-slide="0"></span>
                 <span class="dot" data-slide="1"></span>
@@ -208,7 +222,7 @@
             <p class="section-subtitle">Latest industry news and developments and upcoming trade shows and events.</p>
             <div class="news-grid">
                 <div class="news-card">
-                    <img src="/assets/newsAndEvents/arablab.jpg" alt="News">
+                    <img src="/assets/newsAndEvents/arablab.jpg" alt="News" loading="lazy">
                     <div class="news-content">
                         <span class="news-category news">News</span>
                         <h3>Arab Lab Exhibition September 2025</h3>
@@ -216,7 +230,7 @@
                     </div>
                 </div>
                 <div class="news-card">
-                    <img src="/assets/newsAndEvents/customerVisit.png" alt="Global clients">
+                    <img src="/assets/newsAndEvents/customerVisit.webp" alt="Global clients" loading="lazy">
                     <div class="news-content">
                         <span class="news-category live">Live</span>
                         <h3>Our Global Customer Network</h3>
@@ -224,7 +238,7 @@
                     </div>
                 </div>
                 <div class="news-card">
-                    <img src="/assets/newsAndEvents/PhilConstruct.jpg" alt="News">
+                    <img src="/assets/newsAndEvents/PhilConstruct.jpg" alt="News" loading="lazy">
                     <div class="news-content">
                         <span class="news-category news">News</span>
                         <h3>Philconstruct  Exhibition 2024</h3>
@@ -232,7 +246,7 @@
                     </div>
                 </div>
                 <div class="news-card">
-                    <img src="/assets/newsAndEvents/VietnamExhibition2.jpg" alt="News">
+                    <img src="/assets/newsAndEvents/VietnamExhibition2.jpg" alt="News" loading="lazy">
                     <div class="news-content">
                         <span class="news-category news">News</span>
                         <h3>Cement and Concrete EXPO Vietnam</h3>
@@ -276,7 +290,7 @@
         </div>
     </footer>
 
-    <script src="/data/data-en.js"></script>
+    <script src="/data/categories-en.js"></script>
     <script src="/home.js"></script>
     <script src="/common.js"></script>
 </body>

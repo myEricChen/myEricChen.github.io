@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-25 10:52:28
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-28 13:04:02
+ * @LastEditTime: 2026-04-20 10:28:06
  * @FilePath: \myEricChen.github.io\home.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -48,7 +48,7 @@
         categories.forEach(cat => {
             html += `
                 <a href="/${lang}/products.html?category=${cat.id}" class="category-card">
-                    <img src="${cat.icon}" alt="${cat.name}" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="${cat.icon}" alt="${cat.name}" loading="lazy" onerror="this.onerror=null; this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="category-icon" style="display: none;"><i class="fas fa-cogs"></i></div>
                     <h3>${cat.name}</h3>
                     <p>${cat.description}</p>

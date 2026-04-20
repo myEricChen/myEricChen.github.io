@@ -127,31 +127,7 @@ header {
     margin: 20px 0;
 }
 
-/* Hero Slider */
-.hero-slider {
-    height: 600px;
-    position: relative;
-    color: white;
-    margin-bottom: 60px;
-}
-.slide {
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-.slide-overlay {
-    position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0,0,0,0.5);
-}
-.slide-content {
-    position: relative;
-    z-index: 2;
-    max-width: 600px;
-}
+
 .slide-content h2 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -551,49 +527,7 @@ footer {
     color: #d71920;
 }
 
-/* 轮播样式增强 */
-.hero-slider {
-    position: relative;
-    height: 600px;
-    overflow: hidden;
-}
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 1s ease;
-    display: flex;
-    align-items: center;
-}
-.slide.active {
-    opacity: 1;
-    z-index: 1;
-}
-.slider-dots {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 15px;
-    z-index: 2;
-}
-.dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: rgba(255,255,255,0.5);
-    cursor: pointer;
-    transition: background 0.2s;
-}
-.dot.active {
-    background-color: #d71920;
-}
+
 
 /* 产品卡片缩略图 */
 .category-card img {
@@ -973,4 +907,98 @@ html[dir="rtl"] .lang-dropdown {
     .search-lang-select {
         width: 100%;
     }
+}
+
+/* ========== 轮播图样式（优化版） ========== */
+.hero-slider {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 内容左对齐 */
+}
+
+.slide.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+.slide-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.slide-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin-left: 60px; /* 与 .container 的内边距对齐，保证文字在内容区内 */
+    margin: 0 auto;          /* 水平居中 */
+    color: #ffffff;          /* 确保字体为白色 */
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .hero-slider {
+        height: 400px;
+    }
+    .slide-content {
+        margin-left: 30px;
+        max-width: 80%;
+    }
+    .slide-content h2 {
+        font-size: 2.2rem;
+    }
+    .slide-content p {
+        font-size: 1rem;
+    }
+}
+
+/* 轮播控制点 */
+.slider-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    z-index: 3;
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.dot.active {
+    background-color: #d71920;
 }

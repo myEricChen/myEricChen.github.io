@@ -22,7 +22,7 @@
             "@type": "Organization",
             "name": "Luda Instruments",
             "url": "https://www.ludatest.com",
-            "logo": "https://www.ludatest.com/assets/icon/LudaLogo.png",
+            "logo": "https://www.ludatest.com/assets/icon/LudaLogo.webp",
             "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+86 182 5802 1911",
@@ -58,7 +58,7 @@
             <div class="logo">
                 <a>       </a>
                 <!-- 实际图片请替换为 /assets/images/logo.png -->
-                <img src="/assets/icon/LudaLogo.png" alt="Luda Instruments" class="logo-img">
+                <img src="/assets/icon/LudaLogo.webp" alt="Luda Instruments" class="logo-img">
                 <div class="logo-text">
                     <h1>LUDA INSTRUMENTS</h1>
                     <span>Fabricante de equipos de prueba de materiales de construcción</span>
@@ -91,7 +91,12 @@
     <main>
         <!-- Banner 轮播 -->
         <section class="hero-slider">
-            <div class="slide" style="background-image: url('/assets/banners/banner2.jpg');">
+            <div class="slide">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="/assets/banners/banner2-mobile.webp" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="/assets/banners/banner2.webp" type="image/webp">
+                    <img class="slide-bg-img" src="/assets/banners/banner2.jpg" alt="High‑Precision Testing Machine" fetchpriority="high">
+                </picture>
                 <div class="slide-overlay"></div>
                 <div class="slide-content container">
                     <h2>Máquina de pruebas <br>de alta precisión</h2>
@@ -100,7 +105,12 @@
                     <a href="/es/products.html?category=tensile" class="btn btn-primary">Descubrir <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('/assets/banners/banner1.png');">
+            <div class="slide">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="/assets/banners/banner1-mobile.webp" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="/assets/banners/banner1.webp" type="image/webp">
+                    <img class="slide-bg-img" src="/assets/banners/banner1.jpg" alt="High‑Precision Testing Machine" fetchpriority="high">
+                </picture>
                 <div class="slide-overlay"></div>
                 <div class="slide-content container">
                     <h2>Red global de ventas <br>y distribución</h2>
@@ -108,7 +118,12 @@
                     <p>Con socios en más de 40 países, Luda ofrece soluciones de prueba confiables y soporte local donde sea que su proyecto lo lleve.</p>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('/assets/banners/banner3.jpg');">
+            <div class="slide">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="/assets/banners/banner3-mobile.webp" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="/assets/banners/banner3.webp" type="image/webp">
+                    <img class="slide-bg-img" src="/assets/banners/banner3.jpg" alt="High‑Precision Testing Machine" fetchpriority="high">
+                </picture>
                 <div class="slide-overlay"></div>
                 <div class="slide-content container">
                     <h2>Servicio postventa integral</h2>
@@ -208,7 +223,7 @@
             <p class="section-subtitle">Últimas noticias de la industria, desarrollos y próximas ferias comerciales.</p>
             <div class="news-grid">
                 <div class="news-card">
-                    <img src="/assets/newsAndEvents/arablab.jpg" alt="News">
+                    <img src="/assets/newsAndEvents/arablab.jpg" alt="News" loading="lazy">
                     <div class="news-content">
                         <span class="news-category news">Noticias</span>
                         <h3>Exposición Arab Lab septiembre 2025</h3>
@@ -216,7 +231,7 @@
                     </div>
                 </div>
                 <div class="news-card">
-                    <img src="/assets/newsAndEvents/customerVisit.png" alt="Global clients">
+                    <img src="/assets/newsAndEvents/customerVisit.webp" alt="Global clients" loading="lazy">
                     <div class="news-content">
                         <span class="news-category live">En vivo</span>
                         <h3>Nuestra red global de clientes</h3>
@@ -224,7 +239,7 @@
                     </div>
                 </div>
                 <div class="news-card">
-                    <img src="/assets/newsAndEvents/PhilConstruct.jpg" alt="News">
+                    <img src="/assets/newsAndEvents/PhilConstruct.jpg" alt="News" loading="lazy">
                     <div class="news-content">
                         <span class="news-category news">Noticias</span>
                         <h3>Exposición Philconstruct 2024</h3>
@@ -232,7 +247,7 @@
                     </div>
                 </div>
                 <div class="news-card">
-                    <img src="/assets/newsAndEvents/VietnamExhibition2.jpg" alt="News">
+                    <img src="/assets/newsAndEvents/VietnamExhibition2.jpg" alt="News" loading="lazy">
                     <div class="news-content">
                         <span class="news-category news">Noticias</span>
                         <h3>Exposición de Cemento y Hormigón Vietnam</h3>
@@ -276,7 +291,7 @@
         </div>
     </footer>
 
-    <script src="/data/data-es.js"></script>
+    <script src="/data/categories-es.js"></script>
     <script src="/home.js"></script>
     <script src="/common.js"></script>
 </body>
