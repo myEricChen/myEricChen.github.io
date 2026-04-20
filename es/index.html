@@ -14,8 +14,460 @@
 
     gtag('config', 'AW-18002786940');
     </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/home.css">
+    <!-- 内联关键 CSS -->
+    <style>
+        /* 重置与基础 - 首屏必需 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e2b37;
+    line-height: 1.6;
+}
+
+/* 容器：控制内容宽度并居中 */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+/* 头部导航 */
+header {
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,20,40,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+}
+
+.logo-text h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #d71920;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.logo-text span {
+    font-size: 0.9rem;
+    color: #4a6f8e;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.nav-links a, .dropbtn, .lang-btn {
+    text-decoration: none;
+    font-weight: 500;
+    color: #1e3a5f;
+    font-size: 1.1rem;
+    transition: 0.2s;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover, .nav-links a.active, .dropdown:hover .dropbtn, .lang-btn:hover {
+    border-bottom-color: #d71920;
+    color: #d71920;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.lang-switcher {
+    position: relative;
+    display: inline-block;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* 右侧悬浮栏 */
+.floating-bar {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 999;
+}
+
+.floating-item {
+    width: 50px;
+    height: 50px;
+    background-color: #d71920;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background 0.2s, transform 0.2s;
+}
+
+.floating-item:hover {
+    background-color: #b0141a;
+    transform: scale(1.1);
+}
+
+/* 按钮 */
+.btn {
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #d71920;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #b0141a;
+}
+
+/* 通用标题 */
+.section-title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #0a2647;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #4a6f8e;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
+}
+
+.divider {
+    width: 100px;
+    height: 4px;
+    background-color: #d71920;
+    margin: 20px 0;
+}
+
+/* 轮播图 */
+.hero-slider {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.slide.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+.slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.slide-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.slide-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    color: #ffffff;
+}
+
+.slide-content h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.slide-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    z-index: 3;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.dot.active {
+    background-color: #d71920;
+}
+
+/* 统计数字 */
+.stats-section {
+    margin: 80px auto;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.stat-item i {
+    font-size: 3rem;
+    color: #d71920;
+    margin-bottom: 15px;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0a2647;
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    color: #4a6f8e;
+    font-weight: 500;
+}
+
+/* 优势网格 */
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.advantage-item {
+    background: white;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+    border: 1px solid #eaeef5;
+}
+
+.advantage-item i {
+    font-size: 2.5rem;
+    color: #d71920;
+    margin-bottom: 20px;
+}
+
+.advantage-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #0a2647;
+}
+
+.advantage-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.advantage-item li {
+    padding-left: 1.2rem;
+    position: relative;
+    margin-bottom: 10px;
+    color: #4f6f8f;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.advantage-item li::before {
+    content: "•";
+    color: #d71920;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* 产品分类网格 */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.category-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #eaeef5;
+}
+
+.category-icon {
+    width: 80px;
+    height: 80px;
+    background: #f0f4fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 2.5rem;
+    color: #d71920;
+}
+
+.category-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #0a2647;
+}
+
+.category-card p {
+    font-size: 0.95rem;
+    color: #4f6f8f;
+    margin: 0;
+}
+
+/* 响应式 - 仅首屏关键部分 */
+@media (max-width: 1024px) {
+    .stats-grid,
+    .categories-grid,
+    .advantages-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 30px;
+    }
+    .hero-slider {
+        height: 400px;
+    }
+    .slide-content {
+        margin-left: 30px;
+        max-width: 80%;
+    }
+    .slide-content h2 {
+        font-size: 2.2rem;
+    }
+    .slide-content p {
+        font-size: 1rem;
+    }
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 640px) {
+    .stats-grid,
+    .categories-grid,
+    .advantages-grid {
+        grid-template-columns: 1fr;
+    }
+    .hero-slider {
+        height: 400px;
+    }
+    .slide-content h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+    </style>
+    <!-- 异步加载完整 home.css -->
+    <link rel="preload" href="/home.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/home.css"></noscript>
+    <!-- 异步加载 FontAwesome -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
+    <!-- 内联关键 CSS 结束 -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -92,10 +544,7 @@
         <!-- Banner 轮播 -->
         <section class="hero-slider">
             <div class="slide">
-                <picture>
-                    <source srcset="/assets/banners/banner2.webp" type="image/webp">
-                    <img class="slide-bg-img" src="/assets/banners/banner2.jpg" alt="High‑Precision Testing Machine" fetchpriority="high">
-                </picture>
+                <div class="slide-bg" data-desktop="/assets/banners/banner2.webp" data-mobile="/assets/banners/banner2-mobile.webp"></div>
                 <div class="slide-overlay"></div>
                 <div class="slide-content container">
                     <h2>Máquina de pruebas <br>de alta precisión</h2>
@@ -105,10 +554,7 @@
                 </div>
             </div>
             <div class="slide">
-                <picture>
-                    <source srcset="/assets/banners/banner1.webp" type="image/webp">
-                    <img class="slide-bg-img" src="/assets/banners/banner1.jpg" alt="High‑Precision Testing Machine" fetchpriority="high">
-                </picture>
+                <div class="slide-bg" data-desktop="/assets/banners/banner1.webp" data-mobile="/assets/banners/banner1-mobile.webp"></div>
                 <div class="slide-overlay"></div>
                 <div class="slide-content container">
                     <h2>Red global de ventas <br>y distribución</h2>
@@ -117,10 +563,7 @@
                 </div>
             </div>
             <div class="slide">
-                <picture>
-                    <source srcset="/assets/banners/banner3.webp" type="image/webp">
-                    <img class="slide-bg-img" src="/assets/banners/banner3.jpg" alt="High‑Precision Testing Machine" fetchpriority="high">
-                </picture>
+                <div class="slide-bg" data-desktop="/assets/banners/banner3.webp" data-mobile="/assets/banners/banner3-mobile.webp"></div>
                 <div class="slide-overlay"></div>
                 <div class="slide-content container">
                     <h2>Servicio postventa integral</h2>
