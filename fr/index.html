@@ -550,7 +550,7 @@ header {
                     <h2>Machine d'essai <br>haute précision</h2>
                     <div class="divider"></div>
                     <p>Conçue pour la précision et la répétabilité – des testeurs universels aux chambres climatiques, approuvée par les laboratoires du monde entier.</p>
-                    <a href="/fr/products.html?category=tensile" class="btn btn-primary">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    <a href="javascript:void(0);" class="btn btn-primary" id="downloadCatalogBtn">Télécharger le Catalogue <i class="fas fa-download"></i></a>
                 </div>
             </div>
             <div class="slide">
@@ -648,6 +648,14 @@ header {
             </div>
         </section>
 
+
+        <!-- 建议加在 advantages-grid 和 product-range 之间 -->
+        <div class="cta-banner" style="background: #0a2647; border-radius: 20px; padding: 40px; text-align: center; margin: 60px 0; color: white;">
+            <h3 style="color: white; margin-bottom: 15px;">Prêt à moderniser votre laboratoire ?</h3>
+            <p style="margin-bottom: 25px;">Obtenez des spécifications détaillées et le meilleur prix pour vos projets.</p>
+            <a href="/fr/contact.html" class="btn btn-primary" style="background-color: #d71920;">Demander un Devis →</a>
+        </div>
+
         <!-- 产品系列 (带缩略图) -->
         <section class="product-range container">
             <h2 class="section-title">Gamme de produits</h2>
@@ -730,6 +738,46 @@ header {
             </div>
         </div>
     </footer>
+
+    <!-- 下载目录模态框 -->
+    <div id="catalogModal" class="modal-overlay" style="display: none;">
+        <div class="modal-container">
+            <div class="modal-box">
+                <div class="modal-header">
+                    <h3>Télécharger le Catalogue</h3>
+                    <button class="modal-close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form id="catalogForm" action="https://submit-form.com/6LgD1nY1K" method="POST">
+                        <input type="hidden" name="_redirect" value="https://www.ludatest.com/thank-you.html">
+                        <input type="hidden" name="_email.subject" value="Catalog Download Request from Website">
+                        
+                        <div class="form-group">
+                            <label for="modal_name">Nom complet *</label>
+                            <input type="text" id="modal_name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="modal_email">Adresse e-mail *</label>
+                            <input type="email" id="modal_email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="modal_company">Nom de l'entreprise</label>
+                            <input type="text" id="modal_company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="modal_country">Pays</label>
+                            <input type="text" id="modal_country" name="country">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Envoyer et Télécharger →</button>
+                    </form>
+                    <div id="catalogFormStatus" style="margin-top: 15px; text-align: center; font-size: 0.9rem;"></div>
+                </div>
+                <div class="modal-footer">
+                    <p>Nous vous enverrons le catalogue par e-mail immédiatement. Pas de spam, désabonnez-vous à tout moment.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="/data/categories-fr.js"></script>
     <script src="/home.js"></script>

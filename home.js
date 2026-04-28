@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-02-25 10:52:28
  * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-04-20 13:11:02
+ * @LastEditTime: 2026-04-28 10:33:08
  * @FilePath: \myEricChen.github.io\home.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -99,3 +99,77 @@ document.querySelectorAll('.slide-bg').forEach(el => {
     el.style.setProperty('--desktop-bg', `url(${desktop})`);
     el.style.setProperty('--mobile-bg', `url(${mobile})`);
 });
+
+// ========== Download Catalog 模态框功能（Lead Magnet）==========
+(function() {
+    const modal = document.getElementById('catalogModal');
+    const openBtn = document.getElementById('downloadCatalogBtn');
+    if (!modal || !openBtn) return; // 如果没有对应元素，不执行
+
+    const closeBtn = modal.querySelector('.modal-close');
+    const form = document.getElementById('catalogForm');
+    const statusDiv = document.getElementById('catalogFormStatus');
+
+    // 打开模态框
+    openBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    });
+
+    // 关闭模态框（点击 X）
+    if (closeBtn) {
+        closeBtn.addEventListener('click', function() {
+            modal.style.display = 'none';
+            document.body.style.overflow = '';
+            if (statusDiv) statusDiv.innerHTML = '';
+        });
+    }
+
+    // 点击模态框背景关闭
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = '';
+            if (statusDiv) statusDiv.innerHTML = '';
+        }
+    });
+
+    // 表单提交处理（AJAX 方式，避免页面跳转）
+    if (form) {
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const submitBtn = form.querySelector('button[type="submit"]');
+            if (!submitBtn) return;
+            const originalText = submitBtn.innerText;
+            submitBtn.disabled = true;
+            submitBtn.innerText = 'Sending...';
+
+            const formData = new FormData(form);
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (response.ok) {
+                    if (statusDiv) statusDiv.innerHTML = '<span style="color: green;">✓ Catalog sent! Please check your email (including spam folder).</span>';
+                    form.reset();
+                    // 3 秒后自动关闭模态框
+                    setTimeout(() => {
+                        modal.style.display = 'none';
+                        document.body.style.overflow = '';
+                        if (statusDiv) statusDiv.innerHTML = '';
+                    }, 3000);
+                } else {
+                    throw new Error('Submission failed');
+                }
+            } catch (error) {
+                if (statusDiv) statusDiv.innerHTML = '<span style="color: red;">❌ Oops! Something went wrong. Please try again or contact us directly.</span>';
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.innerText = originalText;
+            }
+        });
+    }
+})();

@@ -551,7 +551,7 @@ header {
                     <h2>آلة اختبار <br>عالية الدقة</h2>
                     <div class="divider"></div>
                     <p>مصممة للدقة والتكرار – من أجهزة الاختبار العامة إلى غرف المناخ، موثوقة في مختبرات العالم.</p>
-                    <a href="/ar/products.html?category=tensile" class="btn btn-primary">اكتشف <i class="fas fa-arrow-right"></i></a>
+                    <a href="javascript:void(0);" class="btn btn-primary" id="downloadCatalogBtn">تحميل الكتالوج <i class="fas fa-download"></i></a>
                 </div>
             </div>
             <div class="slide">
@@ -649,6 +649,14 @@ header {
             </div>
         </section>
 
+
+        <!-- 建议加在 advantages-grid 和 product-range 之间 -->
+        <div class="cta-banner" style="background: #0a2647; border-radius: 20px; padding: 40px; text-align: center; margin: 60px 0; color: white;" dir="rtl">
+            <h3 style="color: white; margin-bottom: 15px;">هل أنت مستعد لتطوير مختبرك؟</h3>
+            <p style="margin-bottom: 25px;">احصل على مواصفات مفصلة وأفضل سعر لمشاريعك.</p>
+            <a href="/ar/contact.html" class="btn btn-primary" style="background-color: #d71920;">طلب عرض سعر ←</a>
+        </div>
+
         <!-- 产品系列 (带缩略图) -->
         <section class="product-range container">
             <h2 class="section-title">مجموعة المنتجات</h2>
@@ -732,6 +740,46 @@ header {
         </div>
     </footer>
 
+
+    <!-- 下载目录模态框 -->
+    <div id="catalogModal" class="modal-overlay" style="display: none;" dir="rtl">
+        <div class="modal-container">
+            <div class="modal-box">
+                <div class="modal-header">
+                    <h3>تحميل الكتالوج</h3>
+                    <button class="modal-close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form id="catalogForm" action="https://submit-form.com/6LgD1nY1K" method="POST">
+                        <input type="hidden" name="_redirect" value="https://www.ludatest.com/thank-you.html">
+                        <input type="hidden" name="_email.subject" value="Catalog Download Request from Website">
+                        
+                        <div class="form-group">
+                            <label for="modal_name">الاسم الكامل *</label>
+                            <input type="text" id="modal_name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="modal_email">البريد الإلكتروني *</label>
+                            <input type="email" id="modal_email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="modal_company">اسم الشركة</label>
+                            <input type="text" id="modal_company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="modal_country">الدولة</label>
+                            <input type="text" id="modal_country" name="country">
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">إرسال وتحميل ←</button>
+                    </form>
+                    <div id="catalogFormStatus" style="margin-top: 15px; text-align: center; font-size: 0.9rem;"></div>
+                </div>
+                <div class="modal-footer">
+                    <p>سنرسل الكتالوج إلى بريدك الإلكتروني فورًا. لا بريد مزعج، يمكنك إلغاء الاشتراك في أي وقت.</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="/data/categories-ar.js"></script>
     <script src="/home.js"></script>
     <script src="/common.js"></script>
