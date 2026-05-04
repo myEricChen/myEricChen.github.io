@@ -1,6 +1,106 @@
 window.ludaData = window.ludaData || {};
 window.ludaData.devices = [
     {
+      id: "F113",
+      name: "Electronic Universal Material Testing Machine",
+      suffixName: "200kN",
+      model: "WDW-200",
+      category: "tensile",
+      thumbnail: "/assets/images/WDW-200.png",
+      description: "This product is suitable for mechanical property testing and analytical research on various metals, non-metals, and composite materials. It can determine the following test data: maximum test force, fracture force, yield strength, upper and lower yield strengths, tensile strength, compressive strength, elongation at break, tensile modulus of elasticity, flexural modulus of elasticity, and other test parameters.",
+      features: [
+        "Safety position and experimental position height arbitrary lock.",
+        "Automatic protection when exceeding the maximum load, software limit and electronic limit double protection."
+      ],
+      customized: [
+        "Customizable test space",
+        "Extensometer can be installed for precise strain measurement",
+        "Compatible with various load cells for different force ranges",
+        "Easy-Interchangeable grips for different test"
+      ],
+      standards: [          
+        "ASTM E83",
+        "BS 3846",
+        "ISO 9513",
+        "EN 10002-4"
+      ],
+      specifications: [
+        {
+          label: "Load Capacity",
+          value: "200kN"
+        },
+        {
+          label: "Load Measurement Accuracy",
+          value: "±1% (can be customized to 0.5 on request)"
+        },
+        {
+          label: "Load Measurement Range",
+          value: "1% to 100% FS"
+        },
+        {
+          label: "Vertical Test Space (without jig)",
+          value: "800mm"
+        },
+        {
+          label: "Horizontal Test Space",
+          value: "400mm"
+        },
+        {
+          label: "Crosshead Speed Range",
+          value: "0.001 – 200 mm/min"
+        },
+        {
+          label: "Displacement Measurement Accuracy",
+          value: "Within ±1% of indicated value"
+        },
+        {
+          label: "Deformation Measurement Accuracy",
+          value: "Within ±1% of indicated value"
+        },
+        {
+          label: "Position Control Resolution",
+          value: "0.025µm"
+        },
+        {
+          label: "Displacement Measurement Accuracy",
+          value: "Within ±0.5%"
+        },
+        {
+          label: "Deformation Measurement Range",
+          value: "0.2%～100%FS"
+        },
+        {
+          label: "Deformation Measurement Accuracy",
+          value: "Within ±0.5%"
+        },
+        {
+          label: "Testing Speed Range",
+          value: "0.5% ～ 100%FS"
+        },
+        {
+          label: "Testing Speed Accuracy",
+          value: "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS"
+        },
+
+        {
+          label: "Power Supply",
+          value: "AC 220V±10%, 2kW"
+        },
+        {
+          label: "Overall Dimensions",
+          value: "1000×800×2200mm (W×D×H) "
+        },
+        {
+          label: "Mainframe Weight",
+          value: "1000kg"
+        }
+      ],
+      hasManual: null,
+      hasVideo: null,
+      hasCAD: null,
+      isNew: null
+    },
+    {
         id: "M022",
         name: "Digital Display Universal Material Testing Machine",
         suffixName: "1000kN",
@@ -1457,7 +1557,7 @@ window.ludaData.devices = [
             value: "Within ±0.5%"
           },
           {
-            label: "Deformation measurement range",
+            label: "Deformation Measurement Range",
             value: "0.2%～100%FS"
           },
           {
@@ -1548,7 +1648,7 @@ window.ludaData.devices = [
             value: "Within ±0.5%"
           },
           {
-            label: "Deformation measurement range",
+            label: "Deformation Measurement Range",
             value: "0.2%～100%FS"
           },
           {
@@ -1639,7 +1739,7 @@ window.ludaData.devices = [
             value: "Within ±0.5%"
           },
           {
-            label: "Deformation measurement range",
+            label: "Deformation Measurement Range",
             value: "0.2%～100%FS"
           },
           {
@@ -1730,7 +1830,7 @@ window.ludaData.devices = [
             value: "Within ±0.5%"
           },
           {
-            label: "Deformation measurement range",
+            label: "Deformation Measurement Range",
             value: "0.2%～100%FS"
           },
           {
@@ -1822,7 +1922,7 @@ window.ludaData.devices = [
             value: "Within ±1%"
           },
           {
-            label: "Deformation measurement range",
+            label: "Deformation Measurement Range",
             value: "0.2%～100%FS"
           },
           {
@@ -8275,7 +8375,7 @@ window.ludaData.devices = [
             value: "Within ±0.5%"
           },
           {
-            label: "Deformation measurement range",
+            label: "Deformation Measurement Range",
             value: "0.2%～100%FS"
           },
           {
@@ -8347,5 +8447,529 @@ window.ludaData.devices = [
         hasVideo: false,
         hasCAD: false,
         isNew: false
+      },
+      {
+        id: "F111",
+        name: "Automatic Falling Head Permeameter",
+        suffixName: "for Fine-Grained Soil, 5 cells Capacity",
+        model: "LDBS-5",
+        category: "geotechnical",
+        thumbnail: "/assets/images/LDBS-5.png",
+        description: "This permeability apparatus is a laboratory instrument used to determine the coefficient of permeability of fine-grained soils, such as clay-like or silty soils. The soil specimen is confined within the permeameter, which is connected to a water-filled manometer tube. Before testing, the sample must be fully saturated with water. The instrument will then automatically measures the rate at which the water level falls in the tube as water passes through the test specimen.",
+        features: ["This apparatus is applicable to silt, silty clay, clay, and environmental soils."],
+        customized: ["Soil sample diameter and Soil sample height can be customized"],
+        standards: ["CEN ISO/TS 17892-11"],
+        specifications: [
+          {
+            label: "Soil sample diameter",
+            value: "61.8 mm, can be customized"
+          },
+          {
+            label: "Soil sample height, namely permeation distance",
+            value: "40 mm, can be customized"
+          },
+          {
+            label: "Cross-sectional area of the glass tube",
+            value: "0.785 cm²"
+          },
+          {
+            label: "Permeation head range",
+            value: "0–2000 mm"
+          },
+          {
+            label: "Permeation head resolution",
+            value: "1mm"
+          },
+          {
+            label: "Permeation head Accuracy error",
+            value: "0.3% of full scale"
+          },
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "F112",
+        name: "Falling Weight Impact Tester",
+        suffixName: "Plastic Impact Testing",
+        model: "LDLC-3",
+        category: "large_machine",
+        thumbnail: "/assets/images/LDLC-3.png",
+        description: "This product is suitable for falling weight impact tests on various types of plates and pipes.",
+        features: [],
+        customized: [],
+        standards: ["ISO 3127"],
+        specifications: [
+          {
+            label: "Workbench travel (mm)",
+            value: "0 – 400"
+          },
+          {
+            label: "Hammer heads",
+            value: "d25, d90"
+          },
+          {
+            label: "Impact height (mm)",
+            value: "0 – 2000"
+          },
+          {
+            label: "Height positioning error (mm)",
+            value: "±5"
+          },
+          {
+            label: "Power supply",
+            value: "AC 380V ±10%, 5A, 50Hz"
+          },
+          {
+            label: "Overall dimensions (mm)",
+            value: "800 × 800 × 3600"
+          },
+          {
+            label: "Total weight (kg)",
+            value: "300"
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "F114",
+        name: "Automatic Concrete Creep Tester",
+        suffixName: "500kN",
+        model: "LDXB-500",
+        category: "concrete",
+        thumbnail: null,
+        description: "This equipment is used to determine the compressive creep deformation of concrete specimens over time under long-term constant axial pressure. It is suitable for testing the creep properties of concrete materials and structures, and meets the requirements for long-term performance research of engineering materials.",
+        features: [],
+        customized: [],
+        standards: [],
+        specifications: [
+          {
+            label: "Maximum Test Force",
+            value: "500 kN"
+          },
+          {
+            label: "Measuring Range",
+            value: "0 ~ 500 kN"
+          },
+          {
+            label: "Relative Pressure Error",
+            value: "≤ ±1%"
+          },
+          {
+            label: "Spring Height",
+            value: "300 mm"
+          },
+          {
+            label: "Compression Stroke",
+            value: "Approx. 50 mm at full load (≥ 20 mm)"
+          },
+          {
+            label: "Applicable Specimen",
+            value: "Dimensions 100 × 100 × 400 mm, 150 × 150 × 450 mm, 200 × 200 × 600 mm"
+          },
+          {
+            label: "Frame Dimensions",
+            value: "630 × 630 × 2800 mm"
+          },
+          {
+            label: "Power Supply",
+            value: "AC 380 V with neutral, ±10%, 50 Hz ±2 Hz"
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "E028",
+        name: "Test Sieves",
+        suffixName: "Frame and Mesh made from Stainless steel",
+        model: null,
+        category: "geotechnical",
+        thumbnail: "/assets/images/普通筛.png",
+        description: "These durable, corrosion-resistant sieves feature stainless steel woven wire mesh and frames, meeting International Specifications. Perforated plates (square or round holes) are also available in tinned steel.\nAvailable diameters: 200, 250, 300, 315, 400, 450 mm and 8\", 12\". Each sieve has its aperture size and unique serial number clearly marked on the label for easy identification and traceability. Customer can ask for a certificate of conformity for each sieve.",
+        features: [],
+        customized: [
+          "The frame diameter, height, and mesh aperture size are all customizable."
+        ],
+        standards: ["EN 933-2", "ISO 3310-1", "ISO 3310-2", "ISO 565", "ASTM E 11", "BS410", "NF X11-504", "UNI 2331", "UNI 2333", "DIN 4187-1", "UNE 7050"],
+        specifications: [
+          {
+            label: "Frame Diameter",
+            value: "From 200mm to 450mm, according to customer needs"
+          },
+          {
+            label: "Mesh Opening Size",
+            value: "From #325 to 3\" , according to customer needs"
+          },
+          {
+            label: "Mesh type",
+            value: "Woven, Square Hole or Round Hole, according to customer needs"
+          },
+          {
+            label: "Height",
+            value: "50mm, 2\" or 4\", according to customer needs"
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "E029",
+        name: "Test Sieve",
+        suffixName: "Frame made from Brass and Mesh made from Stainless steel",
+        model: null,
+        category: "geotechnical",
+        thumbnail: "/assets/images/黄铜筛.png",
+        description: "These durable, corrosion-resistant sieves feature stainless steel woven wire mesh and wear-resistant brass frames, meeting international specifications. Available in 8\" diameter. Each sieve has its aperture size and unique serial number clearly marked on the label for easy identification and traceability. A certificate of conformity is available upon request for each sieve.",
+        features: [],
+        customized: [
+          "The mesh aperture size are customizable."
+        ],
+        standards: ["ASTM E11", "EN 933-2", "ISO 3310-1", "ISO 3310-2", "ISO 565", "BS410", "NF X11-504", "UNI 2331", "UNI 2333", "DIN 4187-1", "UNE 7050"],
+        specifications: [
+          {
+            label: "Frame Diameter",
+            value: "8\""
+          },
+          {
+            label: "Mesh Opening Size",
+            value: "From #325 to 3\" , according to customer needs"
+          },
+          {
+            label: "Mesh type",
+            value: "Woven, even for large opening meshes"
+          },
+          {
+            label: "Height",
+            value: "2\""
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "E030",
+        name: "Vicat Apparatus",
+        suffixName: "Manual",
+        model: "ISO",
+        category: "cement",
+        thumbnail: "/assets/images/ISO.png",
+        description: "This product is designed for testing the standard consistency water demand and setting time of cement paste. It is widely used in cement plants, construction and building companies, highway and bridge engineering projects, as well as research and quality control laboratories.",
+        features: [],
+        customized: [],
+        standards: ["EN 196-3", "EN 480-2", "EN 13279-2", "ASTM C191", "AASHTO T131"],
+        specifications: [
+          {
+            label: "Total weight of sliding parts (g)",
+            value: "300±1"
+          },
+          {
+            label: "Maximum stroke of sliding parts (mm)",
+            value: "70"
+          },
+          {
+            label: "Number of standard consistency test rods (pcs)",
+            value: "1"
+          },
+          {
+            label: "Effective length of standard consistency test rod (mm)",
+            value: "50±1"
+          },
+          {
+            label: "Diameter of standard consistency test rod (mm)",
+            value: "Φ10±0.05"
+          },
+          {
+            label: "Number of initial setting test needles (pcs)",
+            value: "2"
+          },
+          {
+            label: "Effective length of initial setting test needle (mm)",
+            value: "50±1"
+          },
+          {
+            label: "Diameter of initial setting test needle (mm)",
+            value: "Φ1.13±0.05"
+          },
+          {
+            label: "Number of final setting test needle (pcs)",
+            value: "1"
+          },
+          {
+            label: "Effective length of final setting test needle (mm)",
+            value: "30±1"
+          },
+          {
+            label: "Diameter of final setting test needle (mm)",
+            value: "Φ1.13±0.05"
+          },
+          {
+            label: "Overall dimensions (mm)",
+            value: "170*110*300"
+          },
+          {
+            label: "Weight (kg)",
+            value: "3.8"
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "E031",
+        name: "Three Gang Mould",
+        suffixName: "For Prisms 40X40X160mm, Made from Cast iron",
+        model: "40*40*160",
+        category: "cement",
+        thumbnail: "/assets/images/水泥胶砂试模.png",
+        description: "Made from special steel,dimensions as per standard requirement.",
+        features: [],
+        customized: [],
+        standards: ["EN 196-1", "EN ISO 679", "ASTM C438", "NF P15-415"],
+        specifications: [
+          {
+            label: "Sample Size",
+            value: "40*40*160mm"
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "E032",
+        name: "Single Gang Mould",
+        suffixName: "(For Cube with 150mm Side, Made from Cast iron)",
+        model: "150*150*150",
+        category: "concrete",
+        thumbnail: "/assets/images/150试模.png",
+        description: "Made from special steel,dimensions as per standard requirement.",
+        features: [],
+        customized: [],
+        standards: ["EN 12390-1", "BS 1881:108", "ASTM C192", "C39", "AASHTO T23", "T126", "NF P18-400"],
+        specifications: [
+          {
+            label: "Sample Size",
+            value: "150*150*150mm"
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "E033",
+        name: "Three Gang Mould",
+        suffixName: "For Cube with 100mm Side, Made from Cast iron",
+        model: "100*100*100",
+        category: "concrete",
+        thumbnail: "/assets/images/100三联试模.png",
+        description: "Made from special steel,dimensions as per standard requirement.",
+        features: [],
+        customized: [],
+        standards: ["EN 12390-1", "BS 1881:108", "ASTM C192", "C39", "AASHTO T23", "T126", "NF P18-400"],
+        specifications: [
+          {
+            label: "Sample size",
+            value: "100*100*100mm"
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "E034",
+        name: "Mud Test Kit",
+        suffixName: null,
+        model: "ANY-1",
+        category: "cement",
+        thumbnail: "/assets/images/ANY-1.png",
+        description: "The mud test kit is a drilling fluid testing tool set consisting of a mud balance, a mud viscometer and a mud sand content meter, mainly used to measure the density, viscosity, and sand content of the mud.",
+        features: [],
+        customized: [],
+        standards: ["ASTM D4381", "API 13B-2"],
+        specifications: [
+          {
+            label: "Balance",
+            value: ""
+          },
+          {
+            label: "Measuring range (g/cm³)",
+            value: "0.96–3"
+          },
+          {
+            label: "Scale division (g/cm³)",
+            value: "0.01"
+          },
+          {
+            label: "Mud cup capacity (cm³)",
+            value: "140"
+          },
+          {
+            label: "Overall dimensions (mm)",
+            value: "500*100*100"
+          },
+          {
+            label: "Viscometer",
+            value: ""
+          },
+          {
+            label: "Flow tube",
+            value: "Aperture φ5mm, length 100mm"
+          },
+          {
+            label: "Measuring cup",
+            value: "One end has a capacity of 500ml, the other end 200ml"
+          },
+          {
+            label: "Sand content meter",
+            value: ""
+          },
+          {
+            label: "Scale",
+            value: "Below 15%, each small division represents 0.5%;Between 15% and 30%, each small division represents 1%"
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
+      },
+      {
+        id: "E035",
+        name: "Electro-hydraulic Servo Universal Material Testing Machine With Side-Action Grips",
+        suffixName: "1000kN",
+        model: "WAW-1000PT",
+        category: "universal",
+        thumbnail: "/assets/images/WAW-1000PT.png",
+        description: "Microcomputer-controlled electro-hydraulic servo tensile testing machine. Equipped with flat push forced grips, rational rigid backlash-free structure — no deformation under prolonged high loads. Specimen clamping is positioned at the lower section for easy operation. <br>hydraulic side-acting grips offer an innovative approach for high-capacity testing, delivering superior gripping performance, ease of use, and enhanced operator safety compared to conventional grip designs. ",
+        features: [
+          "These advanced grips apply a constant clamping force perpendicular to the test direction, which remains independent of the tensile load applied to the specimen.",
+          "The machine adopts high precision pressure displacement sensor, with high sensitive digital valve, fast response speed, high resolution.",
+          "Hydraulic control adopts integrated oil servo control system, easy to operate, stable and reliable.",
+          "With intelligent prompting working state,servo automatic compensation, positioning, pressure-holding and other functions.",
+          "The test space can be adjusted at will by changind oil flow to piston, and different test pieces can be tested.",
+          "With maximum load peak hold function, overload protection and position over-limit protection, safer to use.",
+          "With automatic data storage and automatic calculation and printing of all test results."
+        ],
+        customized: [],
+        standards: [
+          "EN ISO 6892-1",
+          "ISO 7500",
+          "EN 10002",
+          "EN 10080",
+          "EN 15630-1",
+          "ASTM A370",
+          "EN 15630-3",
+          "EN ISO 7438",
+          "EN ISO 15630-1",
+          "ASTM A615",
+          "ASTM A615M"
+        ],
+        specifications: [
+          {
+            label: "Load Capacity (kN)",
+            value: "1000"
+          },
+          {
+            label: "Effective Load Measurement Range (kN)",
+            value: "50～1000"
+          },
+          {
+            label: "Load Measurement Accuracy",
+            value: "±0.5%"
+          },
+          {
+            label: "Tensile Vertical Test Space (mm)",
+            value: "≥780"
+          },
+          {
+            label: "Compression Vertical Test Space (mm)",
+            value: "≥700"
+          },
+          {
+            label: "Horizontal Test Space (mm)",
+            value: "625"
+          },
+          {
+            label: "Round Specimen Clamping diameter(mm)",
+            value: "Φ14~Φ50"
+          },
+          {
+            label: "Flat Specimen Clamping thickness(mm)",
+            value: "2~40"
+          },
+          {
+            label: "Piston Stroke (mm)",
+            value: "≥730"
+          },
+          {
+            label: "Maximum Piston Ascending Speed (mm/min)",
+            value: "200"
+          },
+          {
+            label: "Maximum Piston Descending Speed (mm/min)",
+            value: "300"
+          },
+          {
+            label: "Platen Dimensions (mm)",
+            value: "300 × 200"
+          },
+
+          {
+            label: "Coaxiality of Testing Machine",
+            value: "<5%"
+          },
+
+          {
+            label: "Relative Error of Displacement Indication",
+            value: "Within ±0.5%"
+          },
+          {
+            label: "Relative Error of Deformation Indication",
+            value: "Within ±0.5%"
+          },
+          {
+            label: "Deformation (Extensometer) Measurement Range",
+            value: "1%~100% FS"
+          },
+          {
+            label: "Test Loading Rate Range (kN/min)",
+            value: "0.2~20"
+          },
+          {
+            label: "Main Frame Dimensions(mm)",
+            value: "1200 (L) × 900 (W) × 3440 (H)"
+          },
+          {
+            label: "Weight of Main Frame (kg)",
+            value: "Approx. 5500"
+          },
+          {
+            label: "Power Supply",
+            value: "380±10V, 50-60Hz, can be customized to 220V"
+          }
+        ],
+        hasManual: null,
+        hasVideo: null,
+        hasCAD: null,
+        isNew: null
       }
 ];
