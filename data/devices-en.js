@@ -2849,7 +2849,7 @@ window.ludaData.devices = [
         model: "YZH-300.10",
         category: "cement",
         thumbnail: "/assets/images/YZH-300.10.png",
-        description: "YZH-300·10 Servo-controlled Cement Flexural And Compressive Testing Machine is a pressure testing machine that integrates cement flexural and compressive resistance jointly  developed  by  Zhejiang  Luda  Machinery  Instrument  Co.,  Ltd.  and  Zhejiang University of Technology\nThis product adopts anti-bending and anti-compression double oil cylinders to realize the test of cement compressive strength and cement flexural strength respectively.",
+        description: "YZH-300·10 Servo-controlled Cement Flexural And Compressive Testing Machine is a pressure testing machine that integrates cement flexural and compressive resistance jointly  developed  by  Zhejiang  Luda  Machinery  Instrument  Co.,  Ltd.  and  Zhejiang University of Technology<br>This product adopts anti-bending and anti-compression double oil cylinders to realize the test of cement compressive strength and cement flexural strength respectively.",
         features: [
           "Using high-precision digital micro-valve, can realize loading rate loading;",
           "With the force closed-loop control function, it can realize the loading of the load stress rate;",
@@ -3115,7 +3115,7 @@ window.ludaData.devices = [
         model: "TSY-1000S",
         category: "large_machine",
         thumbnail: "/assets/images/TSY-1000S.png",
-        description: "TSY series manhole cover pressure testing machine is a scientific and technological achievement of cooperation between our company and the Institute of Fluid Transmission and Control of Zhejiang University of Technology.\nThe testing machine is mainly used for testing manhole cover load bearing test and residual deformation test, and can also be used for mechanical performance tests of other materials.",
+        description: "TSY series manhole cover pressure testing machine is a scientific and technological achievement of cooperation between our company and the Institute of Fluid Transmission and Control of Zhejiang University of Technology.<br>The testing machine is mainly used for testing manhole cover load bearing test and residual deformation test, and can also be used for mechanical performance tests of other materials.",
         features: [
           "This machine adopts high-precision deformation and high-resolution acquisition system;",
           "Hydraulic control adopts integrated oil circuit servo control system;",
@@ -3508,7 +3508,7 @@ window.ludaData.devices = [
         model: "LD-JZ500D",
         category: "large_machine",
         thumbnail: "/assets/images/LD-JZ500D.png",
-        description: "It can detect, display and print the axial force and torque of 7/16 inch non-standard bolts.\nIt can be equipped with a special torsional shear wrench, and can also detect the axial force (pre tightening force) after the shear-type high-strength bolt connection pair 7/16 is twisted off (this wrench needs special order).",
+        description: "It can detect, display and print the axial force and torque of 7/16 inch non-standard bolts.<br>It can be equipped with a special torsional shear wrench, and can also detect the axial force (pre tightening force) after the shear-type high-strength bolt connection pair 7/16 is twisted off (this wrench needs special order).",
         features: [
           "This product has the function of parameter backup and recovery, automatic calibration function, and the monitoring of peak value is also set according to the detection requirements of high-strength bolts.",
           "In order to meet the needs of users, the instrument is equipped with a network interface connected to the computer, which can transmit data to the computer and upload the data, and print out the report after further processing."
@@ -3963,7 +3963,7 @@ window.ludaData.devices = [
         model: "82 Type",
         category: "bitumen",
         thumbnail: "/assets/images/82 Type.png",
-        description: "This product is mainly used for asphalt film heating test. \nExplosives are strictly forbidden to be heated in the box to avoid explosion.",
+        description: "This product is mainly used for asphalt film heating test. <br>Explosives are strictly forbidden to be heated in the box to avoid explosion.",
         features: [
           "The  temperature  controller  of  this  machine  adopts  an  anti-integral  saturation circuit, which greatly improves the temperature fluctuation performance .",
           "Dual-purpose: After the workbench is disassembled, it can be  used as a drying box."
@@ -4470,7 +4470,7 @@ window.ludaData.devices = [
         model: "LDSL-III",
         category: "geotechnical",
         thumbnail: "/assets/images/LDSL-III.png",
-        description: "The purpose of this test is to determine the permeability coefficient of the sample when the seepage water passes through the coarse-grained soil, the critical slope of the fine particles gradually lost with the seepage (piping) and the failure slope (flowing soil) when the soil body floats as a whole.\nThis test is applicable to disturbed coarse-grained soil samples and undisturbed coarse-grained soil samples.",
+        description: "The purpose of this test is to determine the permeability coefficient of the sample when the seepage water passes through the coarse-grained soil, the critical slope of the fine particles gradually lost with the seepage (piping) and the failure slope (flowing soil) when the soil body floats as a whole.<br>This test is applicable to disturbed coarse-grained soil samples and undisturbed coarse-grained soil samples.",
         features: [],
         customized: [],
         standards: [],
@@ -4652,7 +4652,7 @@ window.ludaData.devices = [
         model: "SHM-200",
         category: "geotechnical",
         thumbnail: "/assets/images/SHM-200.png",
-        description: "SHM-200 double-end grinding stone machine is the main equipment for making standard samples of non-metallic solids such as rock ore and concrete for mechanical testing. This machine works together with the coring machine and stone cutting machine produced by our factory to process the high-precision cube or cylinder test samples you need. This product is suitable for colleges and universities, water conservancy and hydropower, address minerals, transportation, construction and other  departments.\nThis stone grinding machine is composed of machine base, workbench, grinding power head, variable speed transmission system, electric control device and other parts. The whole machine is easy to operate and the  automatic feeding performance is stable.",
+        description: "SHM-200 double-end grinding stone machine is the main equipment for making standard samples of non-metallic solids such as rock ore and concrete for mechanical testing. This machine works together with the coring machine and stone cutting machine produced by our factory to process the high-precision cube or cylinder test samples you need. This product is suitable for colleges and universities, water conservancy and hydropower, address minerals, transportation, construction and other  departments.<br>This stone grinding machine is composed of machine base, workbench, grinding power head, variable speed transmission system, electric control device and other parts. The whole machine is easy to operate and the  automatic feeding performance is stable.",
         features: [],
         customized: [],
         standards: [
@@ -5188,7 +5188,7 @@ window.ludaData.devices = [
         model: "SS-1.5",
         category: "cement",
         thumbnail: "/assets/images/SS-1.5.png",
-        description: "The impermeability of mortar refers to the ability of mortar to resist the penetration of water or other liquid media under pressure.\nSS-1.5 mortar permeability tester can be used to measure the impermeability of waterproof mortar, to conduct a comparison test between the mortar mixed with waterproof agent and the reference mortar, and to test the water permeability of other waterproof materials.\nThe SS-1.5 mortar penetration tester produced by our factory is suitable for the inspection, research and teaching of the anti-seepage performance of mortar by engineering quality supervision and inspection departments at all levels, construction unit laboratories, scientific research units, and colleges and universities.",
+        description: "The impermeability of mortar refers to the ability of mortar to resist the penetration of water or other liquid media under pressure.<br>SS-1.5 mortar permeability tester can be used to measure the impermeability of waterproof mortar, to conduct a comparison test between the mortar mixed with waterproof agent and the reference mortar, and to test the water permeability of other waterproof materials.<br>The SS-1.5 mortar penetration tester produced by our factory is suitable for the inspection, research and teaching of the anti-seepage performance of mortar by engineering quality supervision and inspection departments at all levels, construction unit laboratories, scientific research units, and colleges and universities.",
         features: [],
         customized: [],
         standards: [],
@@ -5613,7 +5613,7 @@ window.ludaData.devices = [
         model: "SX2-8-16",
         category: "research",
         thumbnail: "/assets/images/SX2-8-16.png",
-        description: "This resistor is of periodic operation type, with silicon-molybdenum rods as heating elements,  and the rated temperature of the furnace is 1600°C. It is used for high-temperature heating such as sintering,dissolution,and analysis of metals and ceramics in laboratories, industrial and mining enterprises, and scientific research units.\nThis resistance furnace needs to be used in conjunction with KSY temperature controller and double platinum rhodium thermocouple, so as to measure, indicate and automatically control the temperature of the electric furnace.",
+        description: "This resistor is of periodic operation type, with silicon-molybdenum rods as heating elements,  and the rated temperature of the furnace is 1600°C. It is used for high-temperature heating such as sintering,dissolution,and analysis of metals and ceramics in laboratories, industrial and mining enterprises, and scientific research units.<br>This resistance furnace needs to be used in conjunction with KSY temperature controller and double platinum rhodium thermocouple, so as to measure, indicate and automatically control the temperature of the electric furnace.",
         features: [],
         customized: [],
         standards: [
@@ -5666,7 +5666,7 @@ window.ludaData.devices = [
         model: "SX2-12-16",
         category: "research",
         thumbnail: "/assets/images/SX2-12-16.png",
-        description: "This resistor is of periodic operation type, with silicon-molybdenum rods as heating elements,  and the rated temperature of the furnace is 1600°C. It is used for high-temperature heating such as sintering,dissolution,and analysis of metals and ceramics in laboratories, industrial and mining enterprises, and scientific research units.\nThis resistance furnace needs to be used in conjunction with KSY temperature controller and double platinum rhodium thermocouple, so as to measure, indicate and automatically control the temperature of the electric furnace.",
+        description: "This resistor is of periodic operation type, with silicon-molybdenum rods as heating elements,  and the rated temperature of the furnace is 1600°C. It is used for high-temperature heating such as sintering,dissolution,and analysis of metals and ceramics in laboratories, industrial and mining enterprises, and scientific research units.<br>This resistance furnace needs to be used in conjunction with KSY temperature controller and double platinum rhodium thermocouple, so as to measure, indicate and automatically control the temperature of the electric furnace.",
         features: [],
         customized: [],
         standards: [
@@ -5915,7 +5915,7 @@ window.ludaData.devices = [
         model: "DW-25",
         category: "research",
         thumbnail: "/assets/images/DW-25（卧式）.png",
-        description: "DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.\nThis product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
+        description: "DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.<br>This product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
         features: [
           "This product has high cooling efficiency and low noise."
         ],
@@ -5959,7 +5959,7 @@ window.ludaData.devices = [
         model: "DW-40",
         category: "research",
         thumbnail: "/assets/images/DW-40（卧式）.png",
-        description: "DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.\nThis product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
+        description: "DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.<br>This product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
         features: [
           "This product has high cooling efficiency and low noise."
         ],
@@ -6003,7 +6003,7 @@ window.ludaData.devices = [
         model: "DW-60",
         category: "research",
         thumbnail: "/assets/images/DW-60（卧式）.png",
-        description: "DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.\nThis product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
+        description: "DW Series Horizontal low temperature test chamber refrigeration using brand compressor, stainless steel liner, insulation layer made of imported raw materials foam,good insulation effect, power saving,design five evaporation pipeline, with uniform temperature, prevent leakage and other characteristics.<br>This product is widely used in construction, medicine, electronics, scientific research and other departments to do high and low temperature test, aging test.",
         features: [
           "This product has high cooling efficiency and low noise."
         ],
@@ -6198,7 +6198,7 @@ window.ludaData.devices = [
         model: "TDRF-1",
         category: "concrete",
         thumbnail: "/assets/images/TDRF-1（连体）.png",
-        description: "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
+        description: "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.<br>This product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
         features: [],
         customized: [],
         standards: [
@@ -6288,7 +6288,7 @@ window.ludaData.devices = [
         model: "TDRF-2",
         category: "concrete",
         thumbnail: "/assets/images/TDRF-2（连体）.png",
-        description: "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
+        description: "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.<br>This product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
         features: [],
         customized: [],
         standards: [
@@ -6378,7 +6378,7 @@ window.ludaData.devices = [
         model: "TDRF-3",
         category: "concrete",
         thumbnail: "/assets/images/TDRF-3（连体）.png",
-        description: "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.\nThis product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
+        description: "Our company is the standard drafting unit of Building Materials Department of TDRF concrete fast freeze-thaw chamber (device),and participated in the formulation of the standard of apparatus for resistance to freeze-thaw test of concrete of National Building Materials Academy.<br>This product is suitable for freeze-thaw tests on concrete, building bricks,ceramic bricks and other building materials.",
         features: [],
         customized: [],
         standards: [
@@ -6600,7 +6600,7 @@ window.ludaData.devices = [
         model: "JKS",
         category: "concrete",
         thumbnail: "/assets/images/JKS.png",
-        description: "Alkali-aggregate test chamber is designed and manufactured according to the national standard requirements for concrete long-term durability test.It is suitable for temperature control and time control of sand aggregate expansion test. The inner liner and shelf are made of stainless steel material.\nIt is suitable for conducting alkali-aggregate reaction test as to long-term durability of concretes in construction units,highway bridge engineering  units,and related research and quality inspection departments.",
+        description: "Alkali-aggregate test chamber is designed and manufactured according to the national standard requirements for concrete long-term durability test.It is suitable for temperature control and time control of sand aggregate expansion test. The inner liner and shelf are made of stainless steel material.<br>It is suitable for conducting alkali-aggregate reaction test as to long-term durability of concretes in construction units,highway bridge engineering  units,and related research and quality inspection departments.",
         features: [],
         customized: [],
         standards: [
@@ -7872,7 +7872,7 @@ window.ludaData.devices = [
         model: "FZ-31A",
         category: "cement",
         thumbnail: "/assets/images/FZ-31A.png",
-        description: "This equipment is one of the commonly used equipment in cement production, construction, scientific research and testing units. \nThe equipment is made of stainless steel.",
+        description: "This equipment is one of the commonly used equipment in cement production, construction, scientific research and testing units. <br>The equipment is made of stainless steel.",
         features: [],
         customized: [],
         standards: [
@@ -8469,7 +8469,7 @@ window.ludaData.devices = [
             value: "40 mm, can be customized"
           },
           {
-            label: "Cross-sectional area of the glass tube",
+            label: "Cross-sectional area of the standpipe",
             value: "0.785 cm²"
           },
           {
@@ -8593,7 +8593,7 @@ window.ludaData.devices = [
         model: null,
         category: "geotechnical",
         thumbnail: "/assets/images/普通筛.png",
-        description: "These durable, corrosion-resistant sieves feature stainless steel woven wire mesh and frames, meeting International Specifications. Perforated plates (square or round holes) are also available in tinned steel.\nAvailable diameters: 200, 250, 300, 315, 400, 450 mm and 8\", 12\". Each sieve has its aperture size and unique serial number clearly marked on the label for easy identification and traceability. Customer can ask for a certificate of conformity for each sieve.",
+        description: "These durable, corrosion-resistant sieves feature stainless steel woven wire mesh and frames, meeting International Specifications. Perforated plates (square or round holes) are also available in tinned steel.<br>Available diameters: 200, 250, 300, 315, 400, 450 mm and 8\", 12\". Each sieve has its aperture size and unique serial number clearly marked on the label for easy identification and traceability. Customer can ask for a certificate of conformity for each sieve.",
         features: [],
         customized: [
           "The frame diameter, height, and mesh aperture size are all customizable."
