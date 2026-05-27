@@ -136,10 +136,11 @@
             ? `<img src="${dev.thumbnail}" alt="${dev.name}" onerror="this.onerror=null; this.parentElement.innerHTML='<i class=\'fas fa-cogs\'></i>';">`
             : `<i class="fas fa-cogs"></i>`;
         
-        // 简短描述
-        const shortDesc = dev.description.length > 120 
-            ? dev.description.substring(0, 120) + '…' 
-            : dev.description;
+        // 简短描述（添加空值保护）
+        const descText = dev.description ? String(dev.description) : '';
+        const shortDesc = descText.length > 120 
+            ? descText.substring(0, 120) + '…' 
+            : descText;
 
         // 处理标准显示
         let standardsHtml = '';
