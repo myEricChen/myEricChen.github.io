@@ -3,10 +3,15 @@ window.ludaData.devices = [
 
     {
         "id": "M022",
+
+          "sortWeight": 1,
+
         "name": "Máquina universal de ensayo de materiales con pantalla digital",
         "suffixName": "1000 kN",
         "model": "WE-1000B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WE-1000B（出口）.png",
         "description": "La máquina de ensayo, también conocida como máquina de tracción, funciona con presión hidráulica y es principalmente adecuada para realizar ensayos de tracción, compresión y otros ensayos en materiales metálicos. Equipada con los accesorios adecuados, también se puede utilizar para realizar ensayos de tracción, compresión, flexión y cizallamiento en materiales no metálicos para evaluar sus propiedades mecánicas. Tiene una amplia gama de aplicaciones en la industria de materiales, metalurgia, metalurgia no ferrosa, materiales de construcción, industria de maquinaria, transporte, etc.",
         "features": [],
@@ -97,10 +102,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P001",
+
+          "sortWeight": 2,
+
         "name": "Máquina universal de ensayo de amortiguadores",
         "suffixName": "600 kN",
         "model": "WAW-600Pro",
         "category": "universal",
+
+          "subcategory": "special-purpose",
         "thumbnail": "/assets/images/WAW-600Pro.png",
         "description": "Esta máquina de ensayo se utiliza principalmente para ensayos de tracción, compresión, flexión y cizallamiento de materiales metálicos, y cumple con los requisitos de las normas nacionales, como la norma ASTM E8 para ensayos de tracción de metales.",
         "features": [
@@ -183,10 +193,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P002",
+
+          "sortWeight": 3,
+
         "name": "Máquina universal de ensayo de amortiguadores",
         "suffixName": "1000 kN",
         "model": "WAW-1000Pro",
         "category": "universal",
+
+          "subcategory": "special-purpose",
         "thumbnail": "/assets/images/WAW-1000Pro.png",
         "description": "Esta máquina de ensayo se utiliza principalmente para ensayos de tracción, compresión, flexión y cizallamiento de materiales metálicos, y cumple con los requisitos de las normas nacionales, como la norma ASTM E8 para ensayos de tracción de metales.",
         "features": [
@@ -269,10 +284,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P003",
+
+          "sortWeight": 4,
+
         "name": "Máquina de ensayo especial para cables de acero servoaccionada electrohidráulica",
         "suffixName": "600 kN",
         "model": "WAW-600G",
         "category": "universal",
+
+          "subcategory": "special-purpose",
         "thumbnail": "/assets/images/WAW-600GS.png",
         "description": "Este producto es adecuado para el ensayo de tracción de cables de acero, y también puede utilizarse para ensayos de tracción, compresión, cizallamiento y otros ensayos de materiales metálicos y no metálicos.",
         "features": [
@@ -365,10 +385,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P004",
+
+          "sortWeight": 5,
+
         "name": "Máquina de ensayo especial para cables de acero servoaccionada electrohidráulica",
         "suffixName": "1000 kN",
         "model": "WAW-1000G",
         "category": "universal",
+
+          "subcategory": "special-purpose",
         "thumbnail": "/assets/images/WAW-1000GS.png",
         "description": "Este producto es adecuado para el ensayo de tracción de cables de acero, y también puede utilizarse para ensayos de tracción, compresión, cizallamiento y otros ensayos de materiales metálicos y no metálicos.",
         "features": [
@@ -461,10 +486,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P007",
+
+          "sortWeight": 6,
+
         "name": "Máquina universal de ensayo de materiales servohidráulica",
         "suffixName": "100 kN",
         "model": "WAW-100B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WAW-100S.png",
         "description": "Este producto es adecuado para pruebas de propiedades mecánicas de metales, materiales no metálicos y compuestos, así como de componentes, sometiéndolos a ensayos de tracción, compresión, flexión, cizallamiento y otras. El producto incorpora un cilindro de montaje inferior, control por microcomputadora y servomotor electrohidráulico, ofreciendo alta precisión, funcionamiento sencillo, comodidad, gran capacidad de almacenamiento de datos y otras ventajas.",
         "features": [
@@ -574,10 +604,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P008",
+
+          "sortWeight": 7,
+
         "name": "Máquina universal de ensayo de materiales servohidráulica",
         "suffixName": "300 kN",
         "model": "WAW-300B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WAW-300S.png",
         "description": "Este producto es adecuado para pruebas de propiedades mecánicas de metales, materiales no metálicos y compuestos, así como de componentes, sometiéndolos a ensayos de tracción, compresión, flexión, cizallamiento y otras. El producto incorpora un cilindro de montaje inferior, control por microcomputadora y servomotor electrohidráulico, ofreciendo alta precisión, funcionamiento sencillo, comodidad, gran capacidad de almacenamiento de datos y otras ventajas.",
         "features": [
@@ -687,10 +722,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P009",
+
+          "sortWeight": 8,
+
         "name": "Máquina universal de ensayo de materiales servohidráulica",
         "suffixName": "600 kN",
         "model": "WAW-600B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WAW-600S.png",
         "description": "Este producto es adecuado para pruebas de propiedades mecánicas de metales, materiales no metálicos y compuestos, así como de componentes, sometiéndolos a ensayos de tracción, compresión, flexión, cizallamiento y otras. El producto incorpora un cilindro de montaje inferior, control por microcomputadora y servomotor electrohidráulico, ofreciendo alta precisión, funcionamiento sencillo, comodidad, gran capacidad de almacenamiento de datos y otras ventajas.",
         "features": [
@@ -800,10 +840,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P010",
+
+          "sortWeight": 9,
+
         "name": "Máquina universal de ensayo de materiales servohidráulica",
         "suffixName": "1000 kN",
         "model": "WAW-1000B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WAW-1000S.png",
         "description": "Este producto es adecuado para pruebas de propiedades mecánicas de metales, materiales no metálicos y compuestos, así como de componentes, sometiéndolos a ensayos de tracción, compresión, flexión, cizallamiento y otras. El producto incorpora un cilindro de montaje inferior, control por microcomputadora y servomotor electrohidráulico, ofreciendo alta precisión, funcionamiento sencillo, comodidad, gran capacidad de almacenamiento de datos y otras ventajas.",
         "features": [
@@ -913,10 +958,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P011",
+
+          "sortWeight": 10,
+
         "name": "Máquina universal de ensayo de materiales servohidráulica",
         "suffixName": "2000 kN",
         "model": "WAW-2000B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WAW-2000S.png",
         "description": "Este producto es adecuado para pruebas de propiedades mecánicas de metales, materiales no metálicos y compuestos, así como de componentes, sometiéndolos a ensayos de tracción, compresión, flexión, cizallamiento y otras. El producto incorpora un cilindro de montaje inferior, control por microcomputadora y servomotor electrohidráulico, ofreciendo alta precisión, funcionamiento sencillo, comodidad, gran capacidad de almacenamiento de datos y otras ventajas.",
         "features": [
@@ -1026,10 +1076,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P022",
+
+          "sortWeight": 11,
+
         "name": "Máquina universal de ensayo de materiales con pantalla digital",
         "suffixName": "100 kN",
         "model": "WE-100B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WE-1000B（出口）.png",
         "description": "La máquina de ensayo, también conocida como máquina de tracción, funciona con presión hidráulica y es principalmente adecuada para realizar ensayos de tracción, compresión y otros ensayos en materiales metálicos. Equipada con los accesorios adecuados, también se puede utilizar para realizar ensayos de tracción, compresión, flexión y cizallamiento en materiales no metálicos para evaluar sus propiedades mecánicas. Tiene una amplia gama de aplicaciones en la industria de materiales, metalurgia, metalurgia no ferrosa, materiales de construcción, industria de maquinaria, transporte, etc.",
         "features": [],
@@ -1120,10 +1175,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P023",
+
+          "sortWeight": 12,
+
         "name": "Máquina universal de ensayo de materiales con pantalla digital",
         "suffixName": "300 kN",
         "model": "WE-300B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WE-1000B（出口）.png",
         "description": "La máquina de ensayo, también conocida como máquina de tracción, funciona con presión hidráulica y es principalmente adecuada para realizar ensayos de tracción, compresión y otros ensayos en materiales metálicos. Equipada con los accesorios adecuados, también se puede utilizar para realizar ensayos de tracción, compresión, flexión y cizallamiento en materiales no metálicos para evaluar sus propiedades mecánicas. Tiene una amplia gama de aplicaciones en la industria de materiales, metalurgia, metalurgia no ferrosa, materiales de construcción, industria de maquinaria, transporte, etc.",
         "features": [],
@@ -1214,10 +1274,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P024",
+
+          "sortWeight": 13,
+
         "name": "Máquina universal de ensayo de materiales con pantalla digital",
         "suffixName": "600 kN",
         "model": "WE-600B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WE-1000B（出口）.png",
         "description": "La máquina de ensayo, también conocida como máquina de tracción, funciona con presión hidráulica y es principalmente adecuada para realizar ensayos de tracción, compresión y otros ensayos en materiales metálicos. Equipada con los accesorios adecuados, también se puede utilizar para realizar ensayos de tracción, compresión, flexión y cizallamiento en materiales no metálicos para evaluar sus propiedades mecánicas. Tiene una amplia gama de aplicaciones en la industria de materiales, metalurgia, metalurgia no ferrosa, materiales de construcción, industria de maquinaria, transporte, etc.",
         "features": [],
@@ -1308,10 +1373,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P026",
+
+          "sortWeight": 14,
+
         "name": "Máquina universal de ensayo de materiales con pantalla digital",
         "suffixName": "2000 kN",
         "model": "WE-2000B",
         "category": "universal",
+
+          "subcategory": "hydraulic-utm",
         "thumbnail": "/assets/images/WE-1000B（出口）.png",
         "description": "La máquina de ensayo, también conocida como máquina de tracción, funciona con presión hidráulica y es principalmente adecuada para realizar ensayos de tracción, compresión y otros ensayos en materiales metálicos. Equipada con los accesorios adecuados, también se puede utilizar para realizar ensayos de tracción, compresión, flexión y cizallamiento en materiales no metálicos para evaluar sus propiedades mecánicas. Tiene una amplia gama de aplicaciones en la industria de materiales, metalurgia, metalurgia no ferrosa, materiales de construcción, industria de maquinaria, transporte, etc.",
         "features": [],
@@ -1402,10 +1472,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P027",
+
+          "sortWeight": 2,
+
         "name": "Máquina electrónica universal de ensayo de materiales",
         "suffixName": "100 kN",
         "model": "WDW-100",
         "category": "tensile",
+
+          "subcategory": "electromechanical-tensile",
         "thumbnail": "/assets/images/WDW-50.png",
         "description": "Este producto es adecuado para probar y analizar las propiedades mecánicas de diversos metales, no metales y materiales compuestos, y puede obtener datos de prueba tales como el valor máximo de fuerza de prueba, el valor de fuerza de fractura, el límite elástico, el límite elástico superior e inferior, la resistencia a la tracción, la resistencia a la compresión, el alargamiento a la rotura, el módulo de elasticidad a la tracción y el módulo de elasticidad a la flexión de los materiales de prueba.",
         "features": [
@@ -1493,10 +1568,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P028",
+
+          "sortWeight": 3,
+
         "name": "Máquina electrónica universal de ensayo de materiales",
         "suffixName": "50 kN",
         "model": "WDW-50",
         "category": "tensile",
+
+          "subcategory": "electromechanical-tensile",
         "thumbnail": "/assets/images/WDW-50.png",
         "description": "Este producto es adecuado para probar y analizar las propiedades mecánicas de diversos metales, no metales y materiales compuestos, y puede obtener datos de prueba tales como el valor máximo de fuerza de prueba, el valor de fuerza de fractura, el límite elástico, el límite elástico superior e inferior, la resistencia a la tracción, la resistencia a la compresión, el alargamiento a la rotura, el módulo de elasticidad a la tracción y el módulo de elasticidad a la flexión de los materiales de prueba.",
         "features": [
@@ -1584,10 +1664,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P029",
+
+          "sortWeight": 4,
+
         "name": "Máquina electrónica universal de ensayo de materiales",
         "suffixName": "10 kN",
         "model": "WDW-10",
         "category": "tensile",
+
+          "subcategory": "electromechanical-tensile",
         "thumbnail": "/assets/images/WDW-20.png",
         "description": "Este producto es adecuado para probar y analizar las propiedades mecánicas de diversos metales, no metales y materiales compuestos, y puede obtener datos de prueba tales como el valor máximo de fuerza de prueba, el valor de fuerza de fractura, el límite elástico, el límite elástico superior e inferior, la resistencia a la tracción, la resistencia a la compresión, el alargamiento a la rotura, el módulo de elasticidad a la tracción y el módulo de elasticidad a la flexión de los materiales de prueba.",
         "features": [
@@ -1675,10 +1760,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P030",
+
+          "sortWeight": 5,
+
         "name": "Máquina electrónica universal de ensayo de materiales",
         "suffixName": "20 kN",
         "model": "WDW-20",
         "category": "tensile",
+
+          "subcategory": "electromechanical-tensile",
         "thumbnail": "/assets/images/WDW-20.png",
         "description": "Este producto es adecuado para probar y analizar las propiedades mecánicas de diversos metales, no metales y materiales compuestos, y puede obtener datos de prueba tales como el valor máximo de fuerza de prueba, el valor de fuerza de fractura, el límite elástico, el límite elástico superior e inferior, la resistencia a la tracción, la resistencia a la compresión, el alargamiento a la rotura, el módulo de elasticidad a la tracción y el módulo de elasticidad a la flexión de los materiales de prueba.",
         "features": [
@@ -1766,10 +1856,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P031",
+
+          "sortWeight": 6,
+
         "name": "Máquina electrónica universal de ensayo de materiales",
         "suffixName": "5 kN",
         "model": "WDW-5",
         "category": "tensile",
+
+          "subcategory": "electromechanical-tensile",
         "thumbnail": "/assets/images/WDW-5.png",
         "description": "Este producto es adecuado para probar y analizar las propiedades mecánicas de diversos metales, no metales y materiales compuestos, y puede obtener datos de prueba tales como el valor máximo de fuerza de prueba, el valor de fuerza de fractura, el límite elástico, el límite elástico superior e inferior, la resistencia a la tracción, la resistencia a la compresión, el alargamiento a la rotura, el módulo de elasticidad a la tracción y el módulo de elasticidad a la flexión de los materiales de prueba.",
         "features": [
@@ -1850,10 +1945,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P035",
+
+          "sortWeight": 1,
+
         "name": "Máquina de ensayo de compresión controlada por servomotor",
         "suffixName": "Modelo EN de 2000 kN",
         "model": "YAW-2000H",
         "category": "concrete",
+
+          "subcategory": "compression",
         "thumbnail": "/assets/images/YAW-2000H.png",
         "description": "Este producto es adecuado para el ensayo de resistencia a la compresión de ladrillo, piedra, cemento, hormigón y otros materiales, y también puede utilizarse para el ensayo de rendimiento a compresión de otros materiales. El producto cumple con las normas ISO, ASTM y otras.",
         "features": [],
@@ -1931,10 +2031,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P036",
+
+          "sortWeight": 2,
+
         "name": "Máquina de ensayo de compresión controlada por servomotor",
         "suffixName": "Modelo EN de 2000 kN",
         "model": "YAW-2000S",
         "category": "concrete",
+
+          "subcategory": "compression",
         "thumbnail": "/assets/images/YAW-2000S.png",
         "description": "Este producto es adecuado para el ensayo de resistencia a la compresión de ladrillos, piedra, cemento, hormigón y otros materiales, y también puede utilizarse para el ensayo de rendimiento a la compresión de otros materiales.",
         "features": [
@@ -2017,10 +2122,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P037",
+
+          "sortWeight": 3,
+
         "name": "Máquina de ensayo de compresión controlada por servomotor",
         "suffixName": "Modelo EN de 3000 kN",
         "model": "YAW-3000S",
         "category": "concrete",
+
+          "subcategory": "compression",
         "thumbnail": "/assets/images/YAW-3000S.png",
         "description": "Este producto es adecuado para el ensayo de resistencia a la compresión de ladrillos, piedra, cemento, hormigón y otros materiales, y también puede utilizarse para el ensayo de rendimiento a la compresión de otros materiales.",
         "features": [
@@ -2103,10 +2213,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P038",
+
+          "sortWeight": 4,
+
         "name": "Máquina de ensayo de compresión controlada por servomotor",
         "suffixName": "2000 kN",
         "model": "TSY-2000A",
         "category": "concrete",
+
+          "subcategory": "compression",
         "thumbnail": "/assets/images/TSY-2000A.png",
         "description": "Este producto es adecuado para el ensayo de resistencia a la compresión de ladrillo, piedra, cemento, hormigón y otros materiales, y también puede utilizarse para el ensayo de rendimiento a compresión de otros materiales. El producto cumple con las normas ISO, ASTM y otras.",
         "features": [
@@ -2194,10 +2309,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P039",
+
+          "sortWeight": 5,
+
         "name": "Máquina de ensayo de compresión controlada por servomotor",
         "suffixName": "3000 kN",
         "model": "TSY-3000A",
         "category": "concrete",
+
+          "subcategory": "compression",
         "thumbnail": "/assets/images/TSY-3000A.png",
         "description": "Este producto es adecuado para el ensayo de resistencia a la compresión de ladrillo, piedra, cemento, hormigón y otros materiales, y también puede utilizarse para el ensayo de rendimiento a compresión de otros materiales. El producto cumple con las normas ISO, ASTM y otras.",
         "features": [
@@ -2285,10 +2405,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P040",
+
+          "sortWeight": 6,
+
         "name": "Máquina de prueba de compresión con pantalla digital",
         "suffixName": "2000 kN",
         "model": "TSY-2000B",
         "category": "concrete",
+
+          "subcategory": "compression",
         "thumbnail": "/assets/images/TSY-2000B.png",
         "description": "Este producto es adecuado para el ensayo de resistencia a la compresión de ladrillos, piedra, cemento, hormigón y otros materiales, y también puede utilizarse para el ensayo de rendimiento a la compresión de otros materiales.",
         "features": [
@@ -2373,10 +2498,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P041",
+
+          "sortWeight": 7,
+
         "name": "Máquina de prueba de compresión con pantalla digital",
         "suffixName": "3000 kN",
         "model": "TSY-3000B",
         "category": "concrete",
+
+          "subcategory": "compression",
         "thumbnail": "/assets/images/TSY-3000B.png",
         "description": "Este producto es adecuado para el ensayo de resistencia a la compresión de ladrillos, piedra, cemento, hormigón y otros materiales, y también puede utilizarse para el ensayo de rendimiento a la compresión de otros materiales.",
         "features": [
@@ -2461,10 +2591,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P042",
+
+          "sortWeight": 8,
+
         "name": "Máquina de prueba de compresión con pantalla digital",
         "suffixName": "2000 kN",
         "model": "TSY-2000",
         "category": "concrete",
+
+          "subcategory": "compression",
         "thumbnail": "/assets/images/TSY-2000.png",
         "description": "Esta máquina de ensayo se utiliza principalmente para la prueba de resistencia a la compresión de materiales de construcción como ladrillos, mortero de cemento y hormigón, y también puede utilizarse para la prueba de rendimiento mecánico de otros materiales.",
         "features": [
@@ -2545,10 +2680,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P043",
+
+          "sortWeight": 1,
+
         "name": "Máquina de ensayo de flexión y compresión de cemento con control servo.",
         "suffixName": "",
         "model": "YAW-300.10S",
         "category": "cement",
+
+          "subcategory": "strength-testing",
         "thumbnail": "/assets/images/YAW-300.10S.png",
         "description": "La máquina de ensayo de flexión y compresión de cemento YAW-300·10S, controlada por servomotor, es una prensa servo de nueva generación desarrollada y fabricada de forma independiente por Zhejiang Luda. Gracias a su sólida tecnología y capacidad de producción, nuestra empresa tuvo el honor de participar en la elaboración de nuevas normas para máquinas multifuncionales. Esta máquina de ensayo es un instrumento esencial para materiales de construcción, ingeniería de la construcción, control de calidad, ensayos metrológicos, instituciones de investigación científica y otros sectores.",
         "features": [
@@ -2660,10 +2800,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P044",
+
+          "sortWeight": 2,
+
         "name": "Máquina de ensayo de compresión controlada por servomotor",
         "suffixName": "300 kN",
         "model": "YAW-300S",
         "category": "cement",
+
+          "subcategory": "strength-testing",
         "thumbnail": "/assets/images/YAW-300S.png",
         "description": "La máquina de ensayo de compresión de cemento servocontrolada YAW-300S es una prensa servo de nueva generación desarrollada y fabricada de forma independiente por Zhejiang Luda. Gracias a su sólida tecnología y capacidad de producción, nuestra empresa tuvo el honor de participar en la elaboración de nuevas normas para máquinas multifuncionales. Esta máquina de ensayo es un instrumento esencial para materiales de construcción, ingeniería de la construcción, control de calidad, ensayos metrológicos, instituciones de investigación científica y otros sectores.",
         "features": [
@@ -2745,10 +2890,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P045",
+
+          "sortWeight": 3,
+
         "name": "Máquina de ensayo de compresión por flexión de cemento con control servo.",
         "suffixName": "",
         "model": "YZH-300.10",
         "category": "cement",
+
+          "subcategory": "strength-testing",
         "thumbnail": "/assets/images/YZH-300.10.png",
         "description": "La máquina de ensayo de flexión y compresión de cemento con servocontrol YZH-300·10 es una máquina de ensayo de presión que integra la resistencia a la flexión y a la compresión del cemento, desarrollada conjuntamente por Zhejiang Luda Machinery Instrument Co., Ltd. y la Universidad Tecnológica de Zhejiang. Este producto adopta cilindros hidráulicos dobles anti-flexión y anti-compresión para realizar el ensayo de la resistencia a la compresión y la resistencia a la flexión del cemento, respectivamente.",
         "features": [
@@ -2856,10 +3006,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P046",
+
+          "sortWeight": 4,
+
         "name": "Máquina de ensayo de compresión controlada por servomotor",
         "suffixName": "300 kN",
         "model": "YAW-300",
         "category": "cement",
+
+          "subcategory": "strength-testing",
         "thumbnail": "/assets/images/YAW-300.png",
         "description": "Este producto es adecuado para el ensayo de resistencia a la compresión de ladrillos, piedra, cemento, hormigón y otros materiales, y también puede utilizarse para el ensayo de rendimiento a la compresión de otros materiales.",
         "features": [
@@ -2938,10 +3093,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P047",
+
+          "sortWeight": 5,
+
         "name": "Máquina de prueba de compresión con pantalla digital",
         "suffixName": "300 kN",
         "model": "TSY-300",
         "category": "cement",
+
+          "subcategory": "strength-testing",
         "thumbnail": "/assets/images/TSY-300.png",
         "description": "Este producto es adecuado para el ensayo de resistencia a la compresión de ladrillos, piedra, cemento, hormigón y otros materiales, y también puede utilizarse para el ensayo de rendimiento a la compresión de otros materiales.",
         "features": [
@@ -3011,10 +3171,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P049",
+
+          "sortWeight": 1,
+
         "name": "Máquina especial de ensayo de compresión para tapas de alcantarilla controlada por servomotor",
         "suffixName": "1000 kN",
         "model": "TSY-1000S",
         "category": "large_machine",
+
+          "subcategory": "structural-compression",
         "thumbnail": "/assets/images/TSY-1000S.png",
         "description": "La máquina de ensayo de presión para tapas de alcantarilla de la serie TSY es un logro científico y tecnológico fruto de la colaboración entre nuestra empresa y el Instituto de Transmisión y Control de Fluidos de la Universidad Tecnológica de Zhejiang. Esta máquina se utiliza principalmente para realizar pruebas de resistencia a la carga y deformación residual en tapas de alcantarilla, y también puede emplearse para ensayos de rendimiento mecánico de otros materiales.",
         "features": [
@@ -3095,10 +3260,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P050",
+
+          "sortWeight": 2,
+
         "name": "Máquina de prueba de carga estática para traviesas",
         "suffixName": "500 kN",
         "model": "TSY-500",
         "category": "large_machine",
+
+          "subcategory": "structural-compression",
         "thumbnail": "/assets/images/TSY-500轨枕.png",
         "description": "La máquina de ensayo de carga estática para traviesas es un dispositivo para realizar pruebas de resistencia a la fisuración bajo carga estática en traviesas de hormigón (traviesas tipo I, traviesas tipo II, traviesas tipo III, traviesas de horquilla, traviesas de puente, traviesas anchas, etc.).",
         "features": [
@@ -3197,10 +3367,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P051",
+
+          "sortWeight": 3,
+
         "name": "Máquina de ensayo de relajación de tracción de filamentos controlada por servomotor",
         "suffixName": "300 kN",
         "model": "LDCJ-300",
         "category": "large_machine",
+
+          "subcategory": "tension-relaxation",
         "thumbnail": "/assets/images/LDCJ-300.png",
         "description": "Este producto es adecuado para equipos de prueba destinados a medir las propiedades de relajación de materiales metálicos a temperatura ambiente.",
         "features": [
@@ -3271,10 +3446,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P052",
+
+          "sortWeight": 4,
+
         "name": "Máquina de prueba de doblado de tubos metálicos",
         "suffixName": "",
         "model": "LDGW-60C",
         "category": "large_machine",
+
+          "subcategory": "bending-impact",
         "thumbnail": "/assets/images/LDGW-60C.png",
         "description": "La máquina de ensayo de doblado de tubos de acero LDGW-60C se caracteriza por su estructura compacta, funcionamiento sencillo, visualización intuitiva del ángulo de doblado, fácil mantenimiento, estabilidad operativa, seguridad y bajo nivel de ruido. Es un equipo especializado para el ensayo de doblado en frío de tubos de acero. Este equipo es ideal para que las acerías y las empresas constructoras evalúen el rendimiento de doblado y el rendimiento de doblado inverso de los tubos de acero.",
         "features": [],
@@ -3329,10 +3509,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P053",
+
+          "sortWeight": 5,
+
         "name": "Máquina de ensayo de doblado y redoblado de metales",
         "suffixName": "Para barras de refuerzo, láminas y tuberías metálicas",
         "model": "LDWQ-40D",
         "category": "large_machine",
+
+          "subcategory": "bending-impact",
         "thumbnail": "/assets/images/LDWQ-40D.png",
         "description": "La máquina de ensayo de flexión de barras de acero es un equipo especializado para ensayos de flexión en frío y flexión inversa plana de barras de acero. Se utiliza principalmente en el departamento de control de calidad de la metalurgia y la ingeniería de la construcción, y también puede emplearse en la inspección del comportamiento de flexión de materias primas de construcción y puntos de soldadura de barras de acero. Es un equipo de uso común para ensayos e investigación de rendimiento.",
         "features": [
@@ -3404,10 +3589,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P055",
+
+          "sortWeight": 6,
+
         "name": "Máquina de ensayo de tensión y par de apriete de pernos controlada por servomotor",
         "suffixName": "",
         "model": "LD-JZ500D",
         "category": "large_machine",
+
+          "subcategory": "tension-relaxation",
         "thumbnail": "/assets/images/LD-JZ500D.png",
         "description": "Puede detectar, mostrar e imprimir la fuerza axial y el par de apriete de pernos no estándar de 7/16 de pulgada. Se puede equipar con una llave de corte torsional especial y también puede detectar la fuerza axial (fuerza de preapriete) después de desenroscar el par de pernos de alta resistencia de tipo corte de 7/16 de pulgada (esta llave requiere un pedido especial).",
         "features": [
@@ -3456,10 +3646,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P057",
+
+          "sortWeight": 1,
+
         "name": "Analizador de contenido de asfalto",
         "suffixName": "método de combustión",
         "model": "LDRS-6",
         "category": "asphalt",
+
+          "subcategory": "composition",
         "thumbnail": "/assets/images/LDRS-6.png",
         "description": "Este producto utiliza el método de combustión para determinar el contenido de asfalto. Incorpora un sistema de medición y control de alta precisión y se utiliza con una balanza importada. Permite medir el contenido de asfalto de forma rápida, precisa, segura y fiable, y cumple con los requisitos de producción continua en masa de plantas de mezcla y supervisión e inspección de carreteras, garantizando así la calidad de la construcción vial.",
         "features": [
@@ -3508,10 +3703,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P058",
+
+          "sortWeight": 2,
+
         "name": "Compactadora de losas de asfalto",
         "suffixName": "",
         "model": "LDCX-1",
         "category": "asphalt",
+
+          "subcategory": "sample-preparation",
         "thumbnail": "/assets/images/LDCX-1.png",
         "description": "Esta máquina se utiliza principalmente para el conformado por rodillos de muestras de mezclas asfálticas en ensayos de rodadura. También es adecuada para emplear el método de laminado para elaborar muestras de otras propiedades físicas y mecánicas de las mezclas asfálticas.",
         "features": [
@@ -3566,10 +3766,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P059",
+
+          "sortWeight": 3,
+
         "name": "Rastreador de ruedas de mezcla asfáltica en caliente",
         "suffixName": "Rueda simple",
         "model": "LDCZ-5",
         "category": "asphalt",
+
+          "subcategory": "mix-performance",
         "thumbnail": "/assets/images/LDCZ-5.png",
         "description": "El probador automático de deformación permanente se utiliza principalmente para medir la capacidad antideformación permanente a altas temperaturas de la mezcla asfáltica, y se emplea para la prueba de estabilidad a altas temperaturas del dise?o de la mezcla asfáltica.",
         "features": [
@@ -3627,10 +3832,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P061",
+
+          "sortWeight": 1,
+
         "name": "Ductilómetro de betún",
         "suffixName": "",
         "model": "STYD-3",
         "category": "bitumen",
+
+          "subcategory": "ductility",
         "thumbnail": "/assets/images/STYD-3.png",
         "description": "Este instrumento es adecuado para medir la elongación de petróleo viscoso, asfalto de esquisto viscoso, cera líquida, asfalto, residuo de asfalto líquido después de la destilación y residuo de evaporación de fluido de emulsión asfáltica, etc. Se utiliza ampliamente en departamentos de producción, construcción de carreteras e investigación científica.",
         "features": [
@@ -3679,10 +3889,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P062",
+
+          "sortWeight": 4,
+
         "name": "Probador de estabilidad Marshall para asfalto",
         "suffixName": "30 kN para muestras de ?101,6 mm",
         "model": "LD-5B",
         "category": "asphalt",
+
+          "subcategory": "mix-design",
         "thumbnail": "/assets/images/LD-5B.png",
         "description": "El probador automático de estabilidad de mezclas asfálticas se utiliza para medir la presión máxima y la deformación vertical de la muestra de mezcla asfáltica cuando la presión alcanza el punto de falla. Es un equipo de prueba comúnmente utilizado para el dise?o de la proporción de la mezcla asfáltica y la inspección de la calidad de la construcción de pavimentos asfálticos.",
         "features": [
@@ -3743,10 +3958,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P063",
+
+          "sortWeight": 5,
+
         "name": "Mezcladores planetarios de laboratorio",
         "suffixName": "20 litros",
         "model": "LDHB-20",
         "category": "asphalt",
+
+          "subcategory": "sample-preparation",
         "thumbnail": "/assets/images/LDHB-20.png",
         "description": "La mezcladora vertical totalmente automática es una máquina mezcladora que se utiliza habitualmente en la preparación de muestras de asfalto, mezcla de arena y grava, cemento y mezcla de arena y grava.",
         "features": [
@@ -3803,10 +4023,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P064",
+
+          "sortWeight": 2,
+
         "name": "Analizador de contenido de cera de asfalto",
         "suffixName": "",
         "model": "LDL-2",
         "category": "bitumen",
+
+          "subcategory": "viscosity-density",
         "thumbnail": "/assets/images/LDL-2.png",
         "description": "Este producto es adecuado para determinar el contenido de cera en el asfalto de petróleo, el contenido de cera del asfalto de petróleo producido a partir del residuo de vacío del petróleo crudo natural y el contenido de cera del asfalto de petróleo para carreteras. Este equipo es un equipo de detección de contenido de cera de asfalto de uso común en las industrias petroquímica, de la construcción y de la construcción de carreteras.",
         "features": [
@@ -3859,10 +4084,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P065",
+
+          "sortWeight": 3,
+
         "name": "Horno de película delgada con estante giratorio (TFOT)",
         "suffixName": "",
         "model": "82 Type",
         "category": "bitumen",
+
+          "subcategory": "aging",
         "thumbnail": "/assets/images/82 Type.png",
         "description": "Este producto se utiliza principalmente para pruebas de calentamiento de películas asfálticas. Está estrictamente prohibido calentar explosivos dentro de la caja para evitar explosiones.",
         "features": [
@@ -3933,10 +4163,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P066",
+
+          "sortWeight": 4,
+
         "name": "Horno de película delgada rotatorio (RTFOT)",
         "suffixName": "",
         "model": "85 Type",
         "category": "bitumen",
+
+          "subcategory": "aging",
         "thumbnail": "/assets/images/85 Type.png",
         "description": "Este instrumento es adecuado para medir la variación del rendimiento del asfalto semisólido bajo la acción del calor y el aire, y permite comprobar el comportamiento de envejecimiento del asfalto en poco tiempo.",
         "features": [
@@ -4022,10 +4257,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P067",
+
+          "sortWeight": 6,
+
         "name": "Ba?o de agua con rebosadero Marshall",
         "suffixName": "temperatura ambiente ~ 60℃",
         "model": "CF-C",
         "category": "asphalt",
+
+          "subcategory": "mix-design",
         "thumbnail": "/assets/images/CF-C.png",
         "description": "El tanque de rebose de temperatura constante CF-C se ha desarrollado de acuerdo con el método de ensayo de densidad de mezcla asfáltica establecido en la normativa, e incorpora funciones como el control automático de la temperatura. Este producto se utiliza ampliamente en departamentos de investigación científica, como la industria química y los ensayos de rendimiento físico.",
         "features": [],
@@ -4074,10 +4314,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P068",
+
+          "sortWeight": 5,
+
         "name": "Baño de agua",
         "suffixName": "temperatura ambiente ~ 100℃",
         "model": "TC-20",
         "category": "bitumen",
+
+          "subcategory": "water-baths",
         "thumbnail": "/assets/images/TC-20恒温.png",
         "description": "La máquina crea un ambiente de temperatura constante dentro de la caja mediante el control de la variación de temperatura. El ba?o de agua a temperatura constante tiene una amplia gama de aplicaciones y es adecuado para laboratorios científicos como los de biología, química, física, botánica y química.",
         "features": [
@@ -4122,10 +4367,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P069",
+
+          "sortWeight": 6,
+
         "name": "Ba?o de agua a baja temperatura",
         "suffixName": "50 L -6 ℃ ~ 60 ℃",
         "model": "TC-20",
         "category": "bitumen",
+
+          "subcategory": "water-baths",
         "thumbnail": "/assets/images/TC-20低温.png",
         "description": "El ba?o termostático de baja temperatura constante es uno de los equipos más utilizados en laboratorios. Se emplea ampliamente en la industria petrolera, química, metalúrgica, médica, en pruebas de propiedades bioquímicas, en departamentos de investigación de análisis químico, en colegios y universidades, en laboratorios de fábricas y en departamentos de inspección de calidad metrológica. Además, proporciona un entorno de mantenimiento con calor y frío controlados y una temperatura uniforme y constante.",
         "features": [],
@@ -4168,10 +4418,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P070",
+
+          "sortWeight": 7,
+
         "name": "Ba?o de agua a baja temperatura",
         "suffixName": "15 L -6 ℃ ~ 60 ℃",
         "model": "THD-0506",
         "category": "bitumen",
+
+          "subcategory": "water-baths",
         "thumbnail": "/assets/images/THD-0506.png",
         "description": "El ba?o termostático de baja temperatura constante es uno de los equipos más utilizados en laboratorios. Se emplea ampliamente en la industria petrolera, química, metalúrgica, médica, en pruebas de propiedades bioquímicas, en departamentos de investigación de análisis químico, en colegios y universidades, en laboratorios de fábricas y en departamentos de inspección de calidad metrológica. Además, proporciona un entorno de mantenimiento con calor y frío controlados y una temperatura uniforme y constante.",
         "features": [],
@@ -4214,10 +4469,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P071",
+
+          "sortWeight": 8,
+
         "name": "Probador automático del punto de reblandecimiento",
         "suffixName": "Probador de anillos y bolas",
         "model": "LD-2000",
         "category": "bitumen",
+
+          "subcategory": "penetration-rheology",
         "thumbnail": "/assets/images/LD-2000.png",
         "description": "Este producto es adecuado para determinar el punto de reblandecimiento del asfalto de petróleo para carreteras, asfalto de carbón, asfalto líquido de petróleo, etc., y es aplicable en general a la construcción de carreteras, puentes y otras industrias.",
         "features": [
@@ -4307,10 +4567,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P072",
+
+          "sortWeight": 9,
+
         "name": "Penetrómetro automático",
         "suffixName": "",
         "model": "IV-2000",
         "category": "bitumen",
+
+          "subcategory": "penetration-rheology",
         "thumbnail": "/assets/images/IV-2000.png",
         "description": "Este producto es adecuado para medir la penetración de asfalto de petróleo viscoso, asfalto de esquisto viscoso, asfalto de petróleo líquido, asfalto de petróleo para carreteras y asfalto modificado, destilación de asfalto de petróleo líquido o residuo de asfalto emulsionado después de la evaporación, y es generalmente adecuado para departamentos de carreteras, municipales, químicos, de investigación científica y otros que se dedican a la medición e investigación de indicadores de rendimiento del asfalto.",
         "features": [
@@ -4366,10 +4631,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P120",
+
+          "sortWeight": 1,
+
         "name": "Medidor de deformación por filtración vertical en suelos de grano grueso (tipo de pendiente)",
         "suffixName": "",
         "model": "LDSL-III",
         "category": "geotechnical",
+
+          "subcategory": "soil-permeability",
         "thumbnail": "/assets/images/LDSL-III.png",
         "description": "El objetivo de esta prueba es determinar el coeficiente de permeabilidad de la muestra cuando el agua de filtración atraviesa el suelo de grano grueso, la pendiente crítica de las partículas finas que se pierden gradualmente con la filtración (erosión por conductos) y la pendiente de falla (flujo de suelo) cuando el cuerpo de suelo flota como un todo. Esta prueba es aplicable a muestras de suelo de grano grueso alteradas y a muestras de suelo de grano grueso inalteradas.",
         "features": [],
@@ -4424,10 +4694,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P121",
+
+          "sortWeight": 2,
+
         "name": "Permeámetro de carga constante para suelos de grano grueso",
         "suffixName": "",
         "model": "LDST-300",
         "category": "geotechnical",
+
+          "subcategory": "soil-permeability",
         "thumbnail": "/assets/images/LDST-300.png",
         "description": "El permeámetro de carga constante para suelos de grano grueso LDST-300 se utiliza para medir el coeficiente de permeabilidad de suelos de grano grueso y piedra triturada clasificada con un tama?o máximo de partícula no superior a 75 mm.",
         "features": [],
@@ -4490,10 +4765,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P122",
+
+          "sortWeight": 3,
+
         "name": "Máquina de moldeo por compactación por vibración",
         "suffixName": "",
         "model": "LD-08",
         "category": "geotechnical",
+
+          "subcategory": "soil-compaction",
         "thumbnail": "/assets/images/LD-08.png",
         "description": "Este producto se utiliza para fabricar diversas piezas de ensayo para gránulos estabilizados con aglutinante inorgánico, incluidas piezas de ensayo cilíndricas para ensayar la compresión sin confinamiento, la resistencia, la resistencia a la tracción indirecta y el módulo de resiliencia a compresión, y para ensayar probetas de viga para ensayos de coeficiente de contracción térmica, coeficiente de contracción en seco, resistencia a la flexión y módulo de resiliencia a flexión.",
         "features": [],
@@ -4548,10 +4828,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P123",
+
+          "sortWeight": 4,
+
         "name": "Máquina rectificadora de muestras de hormigón/roca",
         "suffixName": "",
         "model": "SHM-200",
         "category": "geotechnical",
+
+          "subcategory": "rock-preparation",
         "thumbnail": "/assets/images/SHM-200.png",
         "description": "La máquina de molienda de doble extremo SHM-200 es el equipo principal para la elaboración de muestras estándar de sólidos no metálicos, como minerales y hormigón, para ensayos mecánicos. Esta máquina funciona junto con la perforadora y la cortadora de piedra fabricadas en nuestra planta para procesar las muestras de prueba cúbicas o cilíndricas de alta precisión que usted necesite. Este producto es adecuado para colegios y universidades, empresas de conservación de agua e hidroeléctricas, minería, transporte, construcción y otros sectores. Esta máquina de molienda de piedra se compone de una base, una mesa de trabajo, un cabezal de molienda, un sistema de transmisión de velocidad variable, un dispositivo de control eléctrico y otras partes. La máquina es fácil de operar y su alimentación automática es estable.",
         "features": [],
@@ -4597,10 +4882,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P124",
+
+          "sortWeight": 5,
+
         "name": "Sierra automática para roca, hormigón y mampostería",
         "suffixName": "",
         "model": "DQ-1",
         "category": "geotechnical",
+
+          "subcategory": "rock-preparation",
         "thumbnail": "/assets/images/DQ-1.png",
         "description": "Este equipo se utiliza ampliamente en la industria petrolera, geológica, metalúrgica, del carbón, en la exploración y en el corte de materiales refractarios. Esta máquina de corte de hormigón tiene un dise?o atractivo, una estructura compacta, un alto grado de automatización, está completamente sellada, es silenciosa y fácil de usar y operar. En los últimos a?os, ha incorporado numerosas opiniones de los usuarios y ha cumplido con diversos indicadores técnicos, lo que la ha posicionado como un nuevo tipo de equipo técnico.",
         "features": [],
@@ -4657,10 +4947,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P125",
+
+          "sortWeight": 6,
+
         "name": "Instrumento de compactación eléctrica multifuncional",
         "suffixName": "",
         "model": "JZ-2D",
         "category": "geotechnical",
+
+          "subcategory": "soil-compaction",
         "thumbnail": "/assets/images/JZ-2D（部标）.png",
         "description": "Esta máquina puede utilizarse tanto para ensayos de compactación pesada como ligera. Cuenta con un contador electrónico de alta estabilidad y control automático, lo que garantiza una gran precisión en las pruebas, un proceso de trabajo automático y un funcionamiento estable y fiable. Es fácil de usar y un instrumento de uso común en ensayos geotécnicos de carreteras.",
         "features": [],
@@ -4719,10 +5014,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P126",
+
+          "sortWeight": 7,
+
         "name": "Máquina desmoldeadora hidráulica multifuncional",
         "suffixName": "",
         "model": "DL-200",
         "category": "geotechnical",
+
+          "subcategory": "sample-preparation",
         "thumbnail": "/assets/images/DL-200.png",
         "description": "Este producto es especialmente adecuado para el desmoldeo de probetas de diversos instrumentos de compactación, apto para moldes de ensayo con diámetros de Ф50 mm, Ф100 mm, Ф101,6 mm, Ф150 mm, Ф152 mm y alturas de hasta 230 mm. Esta máquina se utiliza junto con el \"instrumento de compactación eléctrico multifuncional\", el \"instrumento de compactación Marshall\" y el \"instrumento de compactación manual ligero\" para desmoldar la muestra.",
         "features": [],
@@ -4777,10 +5077,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P127",
+
+          "sortWeight": 8,
+
         "name": "Máquina desmoldeadora hidráulica multifuncional",
         "suffixName": "",
         "model": "DL-300",
         "category": "geotechnical",
+
+          "subcategory": "sample-preparation",
         "thumbnail": "/assets/images/DL-300.png",
         "description": "Este producto es especialmente adecuado para el desmoldeo de probetas de diversos instrumentos de compactación, apto para moldes de ensayo con diámetros de Ф50 mm, Ф100 mm, Ф101,6 mm, Ф150 mm, Ф152 mm y alturas de hasta 230 mm. Esta máquina se utiliza junto con el \"instrumento de compactación eléctrico multifuncional\", el \"instrumento de compactación Marshall\" y el \"instrumento de compactación manual ligero\" para desmoldar la muestra.",
         "features": [],
@@ -4835,10 +5140,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P128",
+
+          "sortWeight": 9,
+
         "name": "Tamizador de triple movimiento",
         "suffixName": "",
         "model": "ZBSX-92A",
         "category": "geotechnical",
+
+          "subcategory": "soil-classification",
         "thumbnail": "/assets/images/ZBSX-92A.png",
         "description": "La máquina es adecuada para el cribado y análisis de materiales en laboratorios de geología, metalurgia, industria química, construcción, fabricación de muelas abrasivas, cemento y otros sectores. La carga de 15 kg de árido se realiza dos veces, y el trabajo de nivelación se completa tras cinco minutos de funcionamiento en cada ciclo.",
         "features": [],
@@ -4896,10 +5206,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P129",
+
+          "sortWeight": 10,
+
         "name": "Analizador de límites combinados de líquidos y plásticos para suelos con pantalla digital",
         "suffixName": "",
         "model": "LG-100D",
         "category": "geotechnical",
+
+          "subcategory": "soil-classification",
         "thumbnail": "/assets/images/LG-100D.png",
         "description": "Este instrumento se utiliza para medir el límite líquido y el límite plástico del suelo, y proporciona datos fiables para la clasificación de tipos de suelo, el cálculo de la consistencia natural y el índice de plasticidad. Este producto se emplea en el dise?o y la construcción de obras viales, ferroviarias, hidráulicas y eléctricas, metalúrgicas, de construcción y otros sectores. El instrumento cuenta con dos conos estándar de 100 y 76 gramos para que el usuario elija el que mejor se adapte a sus necesidades.",
         "features": [],
@@ -4958,10 +5273,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P130",
+
+          "sortWeight": 11,
+
         "name": "Probador de equivalente de arena",
         "suffixName": "",
         "model": "SD-II",
         "category": "geotechnical",
+
+          "subcategory": "soil-classification",
         "thumbnail": "/assets/images/SD-II（双管）.png",
         "description": "Es adecuado para mezclas asfálticas y hormigón de cemento. Arena natural, arena artificial, gravilla, el tama?o máximo de partícula del agregado no es superior a 4,75 mm, y se mide el contenido de suelo cohesivo o impurezas contenidas en el agregado fino para evaluar la limpieza del agregado, y el equivalente de arena se representa con SE.",
         "features": [],
@@ -5026,10 +5346,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P131",
+
+          "sortWeight": 6,
+
         "name": "Mezcladora de mortero",
         "suffixName": "",
         "model": "UJZ-15",
         "category": "cement",
+
+          "subcategory": "mixing-compaction",
         "thumbnail": "/assets/images/UJZ-15.png",
         "description": "Este producto es adecuado para la mezcla de mortero y, en general, es aplicable a empresas constructoras, universidades y centros de investigación en construcción.",
         "features": [],
@@ -5084,10 +5409,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P132",
+
+          "sortWeight": 7,
+
         "name": "Mortero permeado",
         "suffixName": "",
         "model": "SS-1.5",
         "category": "cement",
+
+          "subcategory": "physical-testing",
         "thumbnail": "/assets/images/SS-1.5.png",
         "description": "La impermeabilidad del mortero se refiere a su capacidad para resistir la penetración de agua u otros líquidos bajo presión. El medidor de permeabilidad de mortero SS-1.5 se puede utilizar para medir la impermeabilidad del mortero impermeable, realizar una prueba comparativa entre el mortero mezclado con un agente impermeabilizante y el mortero de referencia, y evaluar la permeabilidad al agua de otros materiales impermeables. El medidor de penetración de mortero SS-1.5, fabricado por nuestra empresa, es adecuado para la inspección, investigación y ense?anza del rendimiento antifiltración del mortero por parte de los departamentos de supervisión e inspección de calidad de ingeniería de todos los niveles, laboratorios de unidades de construcción, unidades de investigación científica y universidades.",
         "features": [],
@@ -5162,10 +5492,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P133",
+
+          "sortWeight": 1,
+
         "name": "Cámaras climáticas de temperatura y humedad",
         "suffixName": "80 litros",
         "model": "LDGD-80",
         "category": "research",
+
+          "subcategory": "environmental-chambers",
         "thumbnail": "/assets/images/LDGD-80.png",
         "description": "Cámara de ensayo programable de temperatura y humedad constantes, también conocida como cámara de ensayo ambiental simulada o cámara de ensayo de humedad y calor alternantes de alta y baja temperatura. Este equipo simula un entorno de alta y baja temperatura, cálido y húmedo, y se utiliza ampliamente para determinar la adaptabilidad de productos eléctricos y electrónicos a dichos entornos (especialmente los cambios en las propiedades eléctricas y mecánicas del producto). También puede utilizarse para comprobar la resistencia de la muestra a la corrosión.",
         "features": [
@@ -5214,10 +5549,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P135",
+
+          "sortWeight": 2,
+
         "name": "Cámara de secado y calentamiento con convección forzada",
         "suffixName": "70 litros",
         "model": "101-1A",
         "category": "research",
+
+          "subcategory": "drying-ovens",
         "thumbnail": "/assets/images/101-1A.png",
         "description": "La temperatura máxima de funcionamiento del horno de secado es de 250 ℃, lo que resulta adecuado para diversas muestras destinadas a horneado, secado, tratamiento térmico y otros experimentos de calentamiento, pero no se deben introducir elementos volátiles en el horno de secado para evitar explosiones.",
         "features": [
@@ -5273,10 +5613,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P136",
+
+          "sortWeight": 3,
+
         "name": "Cámara de secado y calentamiento con convección forzada",
         "suffixName": "135 litros",
         "model": "101-2A",
         "category": "research",
+
+          "subcategory": "drying-ovens",
         "thumbnail": "/assets/images/101-2A.png",
         "description": "La temperatura máxima de funcionamiento del horno de secado es de 250 ℃, lo que resulta adecuado para diversas muestras destinadas a horneado, secado, tratamiento térmico y otros experimentos de calentamiento, pero no se deben introducir elementos volátiles en el horno de secado para evitar explosiones.",
         "features": [
@@ -5332,10 +5677,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P137",
+
+          "sortWeight": 4,
+
         "name": "Cámara de secado y calentamiento con convección forzada",
         "suffixName": "225 litros",
         "model": "101-3A",
         "category": "research",
+
+          "subcategory": "drying-ovens",
         "thumbnail": "/assets/images/101-3A.png",
         "description": "La temperatura máxima de funcionamiento del horno de secado es de 250 ℃, lo que resulta adecuado para diversas muestras destinadas a horneado, secado, tratamiento térmico y otros experimentos de calentamiento, pero no se deben introducir elementos volátiles en el horno de secado para evitar explosiones.",
         "features": [
@@ -5391,10 +5741,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P138",
+
+          "sortWeight": 5,
+
         "name": "Cámara de secado y calentamiento con convección forzada",
         "suffixName": "640 litros",
         "model": "101-4A",
         "category": "research",
+
+          "subcategory": "drying-ovens",
         "thumbnail": "/assets/images/101-4A.png",
         "description": "La temperatura máxima de funcionamiento del horno de secado es de 250 ℃, lo que resulta adecuado para diversas muestras destinadas a horneado, secado, tratamiento térmico y otros experimentos de calentamiento, pero no se deben introducir elementos volátiles en el horno de secado para evitar explosiones.",
         "features": [
@@ -5450,10 +5805,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P139",
+
+          "sortWeight": 6,
+
         "name": "Cámara de secado y calentamiento con convección forzada",
         "suffixName": "1200 litros",
         "model": "101-5A",
         "category": "research",
+
+          "subcategory": "drying-ovens",
         "thumbnail": "/assets/images/101-5A.png",
         "description": "La temperatura máxima de funcionamiento del horno de secado es de 250 ℃, lo que resulta adecuado para diversas muestras destinadas a horneado, secado, tratamiento térmico y otros experimentos de calentamiento, pero no se deben introducir elementos volátiles en el horno de secado para evitar explosiones.",
         "features": [
@@ -5509,10 +5869,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P140",
+
+          "sortWeight": 7,
+
         "name": "Horno de mufla",
         "suffixName": "5,4 L Máx. 1600 ℃",
         "model": "SX2-8-16",
         "category": "research",
+
+          "subcategory": "furnaces",
         "thumbnail": "/assets/images/SX2-8-16.png",
         "description": "Este horno de resistencia es de funcionamiento periódico, con varillas de silicio-molibdeno como elementos calefactores, y su temperatura nominal es de 1600 °C. Se utiliza para calentamiento a altas temperaturas, como en procesos de sinterización, disolución y análisis de metales y cerámicas en laboratorios, empresas industriales y mineras, y centros de investigación científica. Este horno de resistencia requiere un controlador de temperatura KSY y un termopar doble de platino-rodio para medir, indicar y controlar automáticamente la temperatura del horno eléctrico.",
         "features": [],
@@ -5562,10 +5927,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P141",
+
+          "sortWeight": 8,
+
         "name": "Horno de mufla",
         "suffixName": "12 L Máx. 1600 ℃",
         "model": "SX2-12-16",
         "category": "research",
+
+          "subcategory": "furnaces",
         "thumbnail": "/assets/images/SX2-12-16.png",
         "description": "Este horno de resistencia es de funcionamiento periódico, con varillas de silicio-molibdeno como elementos calefactores, y su temperatura nominal es de 1600 °C. Se utiliza para calentamiento a altas temperaturas, como en procesos de sinterización, disolución y análisis de metales y cerámicas en laboratorios, empresas industriales y mineras, y centros de investigación científica. Este horno de resistencia requiere un controlador de temperatura KSY y un termopar doble de platino-rodio para medir, indicar y controlar automáticamente la temperatura del horno eléctrico.",
         "features": [],
@@ -5615,10 +5985,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P142",
+
+          "sortWeight": 9,
+
         "name": "Horno de mufla",
         "suffixName": "1,9 L Máx. 1000 ℃",
         "model": "SX2-2.5-10",
         "category": "research",
+
+          "subcategory": "furnaces",
         "thumbnail": "/assets/images/SX2-2.5-10.png",
         "description": "Esta serie de hornos de resistencia es de tipo cíclico y está dise?ada para laboratorios, empresas industriales y mineras, centros de investigación científica y otras unidades para el análisis y la determinación de elementos, así como para el temple, recocido, revenido y otros tratamientos térmicos generales de acero. Además, su horno de resistencia de caja de alta temperatura, con una temperatura nominal de 1300 ℃, puede utilizarse para el tratamiento térmico de aceros aleados y para el calentamiento a alta temperatura de sinterización, disolución y análisis de metales.",
         "features": [],
@@ -5664,10 +6039,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P143",
+
+          "sortWeight": 10,
+
         "name": "Horno de mufla",
         "suffixName": "7,2 L Máx. 1000 ℃",
         "model": "SX2-4-10",
         "category": "research",
+
+          "subcategory": "furnaces",
         "thumbnail": "/assets/images/SX2-4-10.png",
         "description": "Esta serie de hornos de resistencia es de tipo cíclico y está dise?ada para laboratorios, empresas industriales y mineras, centros de investigación científica y otras unidades para el análisis y la determinación de elementos, así como para el temple, recocido, revenido y otros tratamientos térmicos generales de acero. Además, su horno de resistencia de caja de alta temperatura, con una temperatura nominal de 1300 ℃, puede utilizarse para el tratamiento térmico de aceros aleados y para el calentamiento a alta temperatura de sinterización, disolución y análisis de metales.",
         "features": [],
@@ -5713,10 +6093,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P144",
+
+          "sortWeight": 11,
+
         "name": "Horno de mufla",
         "suffixName": "16 L Máx. 1000 ℃",
         "model": "SX2-8-10",
         "category": "research",
+
+          "subcategory": "furnaces",
         "thumbnail": "/assets/images/SX2-8-10.png",
         "description": "Esta serie de hornos de resistencia es de tipo cíclico y está dise?ada para laboratorios, empresas industriales y mineras, centros de investigación científica y otras unidades para el análisis y la determinación de elementos, así como para el temple, recocido, revenido y otros tratamientos térmicos generales de acero. Además, su horno de resistencia de caja de alta temperatura, con una temperatura nominal de 1300 ℃, puede utilizarse para el tratamiento térmico de aceros aleados y para el calentamiento a alta temperatura de sinterización, disolución y análisis de metales.",
         "features": [],
@@ -5762,10 +6147,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P145",
+
+          "sortWeight": 12,
+
         "name": "Horno de mufla",
         "suffixName": "30 L Máx. 1000 ℃",
         "model": "SX2-12-10",
         "category": "research",
+
+          "subcategory": "furnaces",
         "thumbnail": "/assets/images/SX2-12-10.png",
         "description": "Esta serie de hornos de resistencia es de tipo cíclico y está dise?ada para laboratorios, empresas industriales y mineras, centros de investigación científica y otras unidades para el análisis y la determinación de elementos, así como para el temple, recocido, revenido y otros tratamientos térmicos generales de acero. Además, su horno de resistencia de caja de alta temperatura, con una temperatura nominal de 1300 ℃, puede utilizarse para el tratamiento térmico de aceros aleados y para el calentamiento a alta temperatura de sinterización, disolución y análisis de metales.",
         "features": [],
@@ -5811,10 +6201,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P146",
+
+          "sortWeight": 13,
+
         "name": "Cámara horizontal de baja temperatura",
         "suffixName": "208 L -25 ℃",
         "model": "DW-25",
         "category": "research",
+
+          "subcategory": "environmental-chambers",
         "thumbnail": "/assets/images/DW-25（卧式）.png",
         "description": "La cámara de pruebas de baja temperatura horizontal de la serie DW utiliza un compresor de marca reconocida, revestimiento de acero inoxidable y una capa aislante de espuma fabricada con materias primas importadas. Ofrece un excelente aislamiento térmico, ahorro de energía y un dise?o con cinco conductos de evaporación para una temperatura uniforme y la prevención de fugas. Este producto se utiliza ampliamente en la construcción, la medicina, la electrónica, la investigación científica y otros sectores para realizar pruebas de alta y baja temperatura, así como pruebas de envejecimiento.",
         "features": [
@@ -5855,10 +6250,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P147",
+
+          "sortWeight": 14,
+
         "name": "Cámara horizontal de baja temperatura",
         "suffixName": "213 L -40 ℃",
         "model": "DW-40",
         "category": "research",
+
+          "subcategory": "environmental-chambers",
         "thumbnail": "/assets/images/DW-40（卧式）.png",
         "description": "La cámara de pruebas de baja temperatura horizontal de la serie DW utiliza un compresor de marca reconocida, revestimiento de acero inoxidable y una capa aislante de espuma fabricada con materias primas importadas. Ofrece un excelente aislamiento térmico, ahorro de energía y un dise?o con cinco conductos de evaporación para una temperatura uniforme y la prevención de fugas. Este producto se utiliza ampliamente en la construcción, la medicina, la electrónica, la investigación científica y otros sectores para realizar pruebas de alta y baja temperatura, así como pruebas de envejecimiento.",
         "features": [
@@ -5899,10 +6299,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P148",
+
+          "sortWeight": 15,
+
         "name": "Cámara horizontal de baja temperatura",
         "suffixName": "195 L -60 ℃",
         "model": "DW-60",
         "category": "research",
+
+          "subcategory": "environmental-chambers",
         "thumbnail": "/assets/images/DW-60（卧式）.png",
         "description": "La cámara de pruebas de baja temperatura horizontal de la serie DW utiliza un compresor de marca reconocida, revestimiento de acero inoxidable y una capa aislante de espuma fabricada con materias primas importadas. Ofrece un excelente aislamiento térmico, ahorro de energía y un dise?o con cinco conductos de evaporación para una temperatura uniforme y la prevención de fugas. Este producto se utiliza ampliamente en la construcción, la medicina, la electrónica, la investigación científica y otros sectores para realizar pruebas de alta y baja temperatura, así como pruebas de envejecimiento.",
         "features": [
@@ -5943,10 +6348,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P149",
+
+          "sortWeight": 16,
+
         "name": "Cámara vertical de baja temperatura",
         "suffixName": "165 L -40 ℃",
         "model": "DW-40",
         "category": "research",
+
+          "subcategory": "environmental-chambers",
         "thumbnail": "/assets/images/DW-40（立式）.png",
         "description": "La cámara de pruebas de alta y baja temperatura DW-40 utiliza un compresor de la marca estadounidense Danfoss y un revestimiento de acero inoxidable. La capa aislante, fabricada con espuma de materias primas importadas, ofrece un excelente aislamiento térmico y ahorro de energía. Su dise?o de cinco conductos de evaporación garantiza una temperatura uniforme y evita fugas. Este producto se utiliza ampliamente en los sectores de materiales de construcción, medicina, electrónica, investigación científica y otros para realizar pruebas de alta y baja temperatura y ensayos de envejecimiento.",
         "features": [
@@ -5988,10 +6398,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P150",
+
+          "sortWeight": 17,
+
         "name": "Cámara de prueba de calor húmedo",
         "suffixName": "",
         "model": "HBY-1",
         "category": "research",
+
+          "subcategory": "environmental-chambers",
         "thumbnail": "/assets/images/HBY-1.png",
         "description": "La cámara de pruebas de calor y humedad simula principalmente los cambios de temperatura y humedad del entorno climático para observar el estado de almacenamiento y funcionamiento fiable de los productos en ambientes de alta y baja temperatura, secos y húmedos. Es utilizada principalmente por unidades de investigación científica y unidades de ensayo.",
         "features": [
@@ -6041,10 +6456,15 @@ window.ludaData.devices = [
       },
       {
         "id": "P151",
+
+          "sortWeight": 18,
+
         "name": "Cámara de prueba de envejecimiento",
         "suffixName": "",
         "model": "401A",
         "category": "research",
+
+          "subcategory": "aging",
         "thumbnail": "/assets/images/401A.png",
         "description": "Este producto es adecuado para unidades de investigación científica y fábricas para pruebas de envejecimiento de materiales plásticos (caucho, plástico), aislamiento eléctrico y otros materiales.",
         "features": [
@@ -6094,10 +6514,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C001",
+
+          "sortWeight": 9,
+
         "name": "Cámara de congelación y descongelación rápida de hormigón",
         "suffixName": "28 PIEZAS",
         "model": "TDRF-1",
         "category": "concrete",
+
+          "subcategory": "durability",
         "thumbnail": "/assets/images/TDRF-1（连体）.png",
         "description": "Nuestra empresa es la unidad de redacción de estándares del Departamento de Materiales de Construcción de la cámara de congelación-descongelación rápida de hormigón TDRF (dispositivo), y participó en la formulación del estándar de aparatos para la prueba de resistencia a la congelación-descongelación del hormigón de la Academia Nacional de Materiales de Construcción. Este producto es adecuado para pruebas de congelación-descongelación en hormigón, ladrillos, ladrillos cerámicos y otros materiales de construcción.",
         "features": [],
@@ -6184,10 +6609,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C002",
+
+          "sortWeight": 10,
+
         "name": "Cámara de congelación y descongelación rápida de hormigón",
         "suffixName": "16 PIEZAS",
         "model": "TDRF-2",
         "category": "concrete",
+
+          "subcategory": "durability",
         "thumbnail": "/assets/images/TDRF-2（连体）.png",
         "description": "Nuestra empresa es la unidad de redacción de estándares del Departamento de Materiales de Construcción de la cámara de congelación-descongelación rápida de hormigón TDRF (dispositivo), y participó en la formulación del estándar de aparatos para la prueba de resistencia a la congelación-descongelación del hormigón de la Academia Nacional de Materiales de Construcción. Este producto es adecuado para pruebas de congelación-descongelación en hormigón, ladrillos, ladrillos cerámicos y otros materiales de construcción.",
         "features": [],
@@ -6274,10 +6704,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C003",
+
+          "sortWeight": 11,
+
         "name": "Cámara de congelación y descongelación rápida de hormigón",
         "suffixName": "10 unidades",
         "model": "TDRF-3",
         "category": "concrete",
+
+          "subcategory": "durability",
         "thumbnail": "/assets/images/TDRF-3（连体）.png",
         "description": "Nuestra empresa es la unidad de redacción de estándares del Departamento de Materiales de Construcción de la cámara de congelación-descongelación rápida de hormigón TDRF (dispositivo), y participó en la formulación del estándar de aparatos para la prueba de resistencia a la congelación-descongelación del hormigón de la Academia Nacional de Materiales de Construcción. Este producto es adecuado para pruebas de congelación-descongelación en hormigón, ladrillos, ladrillos cerámicos y otros materiales de construcción.",
         "features": [],
@@ -6364,10 +6799,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C004",
+
+          "sortWeight": 12,
+
         "name": "Ensayo de carbonatación del hormigón en cámara",
         "suffixName": "",
         "model": "CCB-70A",
         "category": "concrete",
+
+          "subcategory": "durability",
         "thumbnail": "/assets/images/CCB-70A.png",
         "description": "Nuestra empresa participó en el dise?o de la cámara de ensayo de carbonatación de hormigón CCB-70A, designada por el Departamento de Materiales de Construcción. Este equipo es un aparato especial para el ensayo de carbonatación de hormigones.",
         "features": [],
@@ -6440,10 +6880,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C005",
+
+          "sortWeight": 13,
+
         "name": "Tanque de curado acelerado de hormigón",
         "suffixName": "",
         "model": "LDZY-400",
         "category": "concrete",
+
+          "subcategory": "curing-specimens",
         "thumbnail": "/assets/images/LDZY-400.png",
         "description": "Este producto es un equipo común para la prueba de curado con vapor de muestras de hormigón. El equipo está fabricado en acero inoxidable por dentro y por fuera, cuenta con una pantalla táctil para su funcionamiento y control automático, lo que hace que el proceso de prueba sea sencillo y práctico.",
         "features": [],
@@ -6496,10 +6941,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C006",
+
+          "sortWeight": 14,
+
         "name": "Cámara de prueba de agregados alcalinos",
         "suffixName": "Método de barras de mortero y método acelerado de barras de mortero",
         "model": "JKS",
         "category": "concrete",
+
+          "subcategory": "durability",
         "thumbnail": "/assets/images/JKS.png",
         "description": "La cámara de ensayo de agregados alcalinos está dise?ada y fabricada según los requisitos de la norma nacional para el ensayo de durabilidad a largo plazo del hormigón. Es adecuada para el control de temperatura y tiempo en el ensayo de expansión de agregados de arena. El revestimiento interior y la plataforma están fabricados en acero inoxidable. Es idónea para realizar ensayos de reacción álcali-agregado para evaluar la durabilidad a largo plazo del hormigón en unidades de construcción, unidades de ingeniería de puentes de carreteras y departamentos de investigación e inspección de calidad relacionados.",
         "features": [],
@@ -6557,10 +7007,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C015",
+
+          "sortWeight": 15,
+
         "name": "Aparato de impermeabilidad del hormigón",
         "suffixName": "",
         "model": "HP-4.0",
         "category": "concrete",
+
+          "subcategory": "permeability",
         "thumbnail": "/assets/images/HP-4.0.png",
         "description": "El instrumento de impermeabilidad del hormigón con regulación automática de presión HP-4.0 se utiliza para medir la impermeabilidad del hormigón en empresas constructoras, instituciones de investigación científica, departamentos de dise?o y otras unidades dedicadas a la medición e investigación experimental de la impermeabilidad del hormigón. También se puede utilizar para la medición de la permeabilidad de los materiales de construcción en el control de calidad.",
         "features": [],
@@ -6631,10 +7086,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C016",
+
+          "sortWeight": 16,
+
         "name": "Cámara de curado rápido",
         "suffixName": "",
         "model": "A-Type",
         "category": "concrete",
+
+          "subcategory": "curing-specimens",
         "thumbnail": "/assets/images/A-Type.png",
         "description": "Este producto es adecuado para la cocción rápida y el mantenimiento de unidades de hormigón y construcción, como plantas de cemento, materiales de construcción y unidades de construcción. El revestimiento y el estante están hechos de material de acero inoxidable.",
         "features": [],
@@ -6671,10 +7131,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C017",
+
+          "sortWeight": 17,
+
         "name": "Medidor de aire de hormigón de lectura directa",
         "suffixName": "",
         "model": "CA-3",
         "category": "concrete",
+
+          "subcategory": "fresh-concrete",
         "thumbnail": "/assets/images/CA-3.png",
         "description": "Este producto se utiliza principalmente para medir el contenido de aire en hormigón recién mezclado. Es apto para hormigón ordinario, hormigón fluido y hormigón seco duro, pero no para hormigón con ingredientes ligeros. El producto está dise?ado según la norma ANS1/ASTM C231-78, que cumple con los estándares internacionales. El valor del contenido de aire se puede leer directamente en el disco graduado, sin necesidad de realizar conversiones de curvas.",
         "features": [],
@@ -6722,10 +7187,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C020",
+
+          "sortWeight": 18,
+
         "name": "Penetrómetro Acme",
         "suffixName": "",
         "model": "HG-1000",
         "category": "concrete",
+
+          "subcategory": "fresh-concrete",
         "thumbnail": "/assets/images/HG-1000.png",
         "description": "Este producto es ideal para probar el tiempo de fraguado de diversos cementos, aditivos y mezclas de concreto con diferentes proporciones y en distintos entornos de temperatura. El molde de prueba está fabricado completamente en aluminio, es ligero y fácil de usar.",
         "features": [],
@@ -6779,10 +7249,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C021",
+
+          "sortWeight": 19,
+
         "name": "Penetrómetro de esfera Acme",
         "suffixName": "",
         "model": "HG-80",
         "category": "concrete",
+
+          "subcategory": "fresh-concrete",
         "thumbnail": "/assets/images/HG-80.png",
         "description": "Este producto es adecuado para probar el tiempo de fraguado de diversos cementos, aditivos y mezclas de hormigón con diferentes proporciones de mezcla de hormigón en diferentes entornos de temperatura.",
         "features": [],
@@ -6852,10 +7327,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C022",
+
+          "sortWeight": 20,
+
         "name": "Vibrador de hormigón",
         "suffixName": "500×500 mm",
         "model": "HZJ-0.5",
         "category": "concrete",
+
+          "subcategory": "fresh-concrete",
         "thumbnail": "/assets/images/HZJ-0.5.png",
         "description": "Este producto es adecuado para su uso en laboratorios, en obras de construcción como pieza de prueba y en fábricas de componentes prefabricados para vibrar diversos componentes de hormigón, como losas, columnas y vigas.",
         "features": [],
@@ -6897,10 +7377,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C023",
+
+          "sortWeight": 21,
+
         "name": "Vibrador de hormigón",
         "suffixName": "800×800 mm",
         "model": "HZJ-0.8",
         "category": "concrete",
+
+          "subcategory": "fresh-concrete",
         "thumbnail": "/assets/images/HZJ-0.8.png",
         "description": "Este producto es adecuado para su uso en laboratorios, en obras de construcción como pieza de prueba y en fábricas de componentes prefabricados para vibrar diversos componentes de hormigón, como losas, columnas y vigas.",
         "features": [],
@@ -6942,10 +7427,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C024",
+
+          "sortWeight": 22,
+
         "name": "Vibrador de hormigón",
         "suffixName": "1000×1000 mm",
         "model": "HZJ-1",
         "category": "concrete",
+
+          "subcategory": "fresh-concrete",
         "thumbnail": "/assets/images/HZJ-1.png",
         "description": "Este producto es adecuado para su uso en laboratorios, en obras de construcción como pieza de prueba y en fábricas de componentes prefabricados para vibrar diversos componentes de hormigón, como losas, columnas y vigas.",
         "features": [],
@@ -6987,10 +7477,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C025",
+
+          "sortWeight": 23,
+
         "name": "Mezcladora de hormigón de un solo eje",
         "suffixName": "30 litros",
         "model": "SJD-30",
         "category": "concrete",
+
+          "subcategory": "fresh-concrete",
         "thumbnail": "/assets/images/SJD-30.png",
         "description": "Esta máquina es adecuada para unidades de investigación científica en construcción, empresas constructoras y fabricantes de componentes de hormigón. Puede mezclar hormigón ordinario y hormigón ligero, y también puede utilizarse en otras industrias para mezclar diferentes materiales.",
         "features": [],
@@ -7047,10 +7542,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C026",
+
+          "sortWeight": 24,
+
         "name": "Mezcladora de hormigón de un solo eje",
         "suffixName": "60 litros",
         "model": "SJD-60",
         "category": "concrete",
+
+          "subcategory": "fresh-concrete",
         "thumbnail": "/assets/images/SJD-60.png",
         "description": "Esta máquina es adecuada para unidades de investigación científica en construcción, empresas constructoras y fabricantes de componentes de hormigón. Puede mezclar hormigón ordinario y hormigón ligero, y también puede utilizarse en otras industrias para mezclar diferentes materiales.",
         "features": [],
@@ -7107,10 +7607,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C027",
+
+          "sortWeight": 25,
+
         "name": "Analizador rápido de contenido de iones cloruro",
         "suffixName": "",
         "model": "LDCL-B",
         "category": "concrete",
+
+          "subcategory": "permeability",
         "thumbnail": "/assets/images/LDCL-B.png",
         "description": "Este producto determina rápidamente el contenido de iones cloruro solubles en agua del hormigón, la arena, la grava, el cemento, el agua de mezcla y otros materiales inorgánicos mediante el software profesional y los reactivos químicos anti-bloqueo que incorpora.",
         "features": [],
@@ -7141,10 +7646,15 @@ window.ludaData.devices = [
       },
       {
         "id": "C028",
+
+          "sortWeight": 26,
+
         "name": "Instrumento de secreción de presión de hormigón",
         "suffixName": "",
         "model": "SY-2",
         "category": "concrete",
+
+          "subcategory": "permeability",
         "thumbnail": "/assets/images/SY-2.png",
         "description": "Este dispositivo se utiliza para medir mezclas de hormigón con una presión compuesta no superior a 40 mm. Ofrece las ventajas de una medición precisa, un funcionamiento sencillo, un tama?o compacto y un moldeado práctico.",
         "features": [],
@@ -7183,10 +7693,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D001",
+
+          "sortWeight": 8,
+
         "name": "Caja de curado de agua para cemento",
         "suffixName": "180 PIEZAS",
         "model": "HBY-30",
         "category": "cement",
+
+          "subcategory": "curing",
         "thumbnail": "/assets/images/HBY-30（立式）.png",
         "description": "El producto es adecuado para plantas de cemento, unidades de construcción, unidades de ingeniería de carreteras y puentes, y departamentos de investigación científica e inspección de calidad pertinentes para realizar el mantenimiento estándar de la resistencia y el tiempo de fraguado de muestras de cemento, hormigón y productos de cemento.",
         "features": [],
@@ -7239,10 +7754,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D002",
+
+          "sortWeight": 9,
+
         "name": "Caja de curado de agua para cemento",
         "suffixName": "360 PIEZAS",
         "model": "HBY-64",
         "category": "cement",
+
+          "subcategory": "curing",
         "thumbnail": "/assets/images/HBY-64（立式）.png",
         "description": "El producto es adecuado para plantas de cemento, unidades de construcción, unidades de ingeniería de carreteras y puentes, y departamentos de investigación científica e inspección de calidad pertinentes para realizar el mantenimiento estándar de la resistencia y el tiempo de fraguado de muestras de cemento, hormigón y productos de cemento.",
         "features": [],
@@ -7295,10 +7815,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D006",
+
+          "sortWeight": 10,
+
         "name": "Cámara de curado de cemento y hormigón",
         "suffixName": "18 moldes de cemento triples",
         "model": "HBY-40B",
         "category": "cement",
+
+          "subcategory": "curing",
         "thumbnail": "/assets/images/HBY-40B（铁门）.png",
         "description": "Este producto está dise?ado y fabricado de acuerdo con los requisitos de mantenimiento estándar nacionales para cemento, hormigón y productos de cemento, etc. El producto es adecuado para plantas de cemento, unidades de construcción, unidades de ingeniería de carreteras y puentes, y departamentos de investigación científica e inspección de calidad pertinentes para realizar el mantenimiento estándar de la resistencia y el tiempo de fraguado de muestras de cemento, hormigón y productos de cemento.",
         "features": [],
@@ -7355,10 +7880,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D008",
+
+          "sortWeight": 11,
+
         "name": "Caja de curado estándar para muestras de mortero mixto",
         "suffixName": "",
         "model": "HBY-30",
         "category": "cement",
+
+          "subcategory": "curing",
         "thumbnail": "/assets/images/HBY-30.png",
         "description": "El producto es adecuado para plantas de cemento, unidades de construcción, unidades de ingeniería de carreteras y puentes, y departamentos de investigación científica e inspección de calidad pertinentes para realizar el mantenimiento estándar de la resistencia y el tiempo de fraguado de muestras de cemento, hormigón y productos de cemento.",
         "features": [],
@@ -7415,10 +7945,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D009",
+
+          "sortWeight": 12,
+
         "name": "Mezcladora de mortero de cemento",
         "suffixName": "",
         "model": "JJ-20F",
         "category": "cement",
+
+          "subcategory": "mixing-compaction",
         "thumbnail": "/assets/images/JJ-20F.png",
         "description": "El instrumento se utiliza principalmente para preparar muestras para ensayos de resistencia de mortero de cemento antes de su mezcla.",
         "features": [],
@@ -7486,10 +8021,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D010",
+
+          "sortWeight": 13,
+
         "name": "Plataforma vibratoria de mortero de cemento",
         "suffixName": "",
         "model": "ZT-20F",
         "category": "cement",
+
+          "subcategory": "mixing-compaction",
         "thumbnail": "/assets/images/ZT-20F.png",
         "description": "Este instrumento es adecuado para preparar muestras para ensayos de resistencia de mortero de cemento.",
         "features": [],
@@ -7543,10 +8083,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D011",
+
+          "sortWeight": 14,
+
         "name": "Máquina eléctrica de ensayo de flexión (tipo puntero)",
         "suffixName": "5000N",
         "model": "DKZ-5000",
         "category": "cement",
+
+          "subcategory": "strength-testing",
         "thumbnail": "/assets/images/DKZ-5000.png",
         "description": "Esta máquina de ensayo se utiliza principalmente para comprobar la resistencia a la flexión del mortero de cemento de cocción suave en fábricas de cemento, unidades de construcción, centros de ense?anza superior y unidades de investigación científica, y también puede utilizarse para comprobar la resistencia a la flexión de otros materiales frágiles no metálicos.",
         "features": [],
@@ -7601,10 +8146,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D013",
+
+          "sortWeight": 15,
+
         "name": "Máquina eléctrica de ensayo de flexión (pantalla digital)",
         "suffixName": "6000N",
         "model": "DKZ-6000",
         "category": "cement",
+
+          "subcategory": "strength-testing",
         "thumbnail": "/assets/images/DKZ-6000（数显）.png",
         "description": "Esta máquina de ensayo se utiliza principalmente para comprobar la resistencia a la flexión del mortero de cemento de cocción suave en fábricas de cemento, unidades de construcción, centros de ense?anza superior y unidades de investigación científica, y también puede utilizarse para comprobar la resistencia a la flexión de otros materiales frágiles no metálicos.",
         "features": [],
@@ -7651,10 +8201,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D014",
+
+          "sortWeight": 16,
+
         "name": "Tabla de flujo de mortero de cemento",
         "suffixName": "",
         "model": "NLD-3F",
         "category": "cement",
+
+          "subcategory": "mixing-compaction",
         "thumbnail": "/assets/images/NLD-3F.png",
         "description": "Se utiliza principalmente para la prueba de fluidez de la arena del mortero de cemento.",
         "features": [],
@@ -7711,10 +8266,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D015",
+
+          "sortWeight": 17,
+
         "name": "Analizador de finura de cemento mediante tamizado por chorro de aire",
         "suffixName": "",
         "model": "FSY-150",
         "category": "cement",
+
+          "subcategory": "physical-testing",
         "thumbnail": "/assets/images/FSY-150（普通）.png",
         "description": "Este equipo se utiliza ampliamente en la inspección de finura del cemento y en el control de la producción. También puede emplearse en pruebas de finura de polvo en otras industrias. Es un instrumento de uso común en diversas estaciones de inspección de calidad del cemento, fábricas de cemento y otras unidades.",
         "features": [],
@@ -7768,10 +8328,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D017",
+
+          "sortWeight": 18,
+
         "name": "Caja de ebullición",
         "suffixName": "",
         "model": "FZ-31A",
         "category": "cement",
+
+          "subcategory": "physical-testing",
         "thumbnail": "/assets/images/FZ-31A.png",
         "description": "Este equipo es uno de los más utilizados en la producción de cemento, la construcción, la investigación científica y las unidades de ensayo. Está fabricado en acero inoxidable.",
         "features": [],
@@ -7828,10 +8393,15 @@ window.ludaData.devices = [
       },
       {
         "id": "D018",
+
+          "sortWeight": 19,
+
         "name": "Medidor automático de superficie específica",
         "suffixName": "Método Blaine",
         "model": "FBT-9",
         "category": "cement",
+
+          "subcategory": "physical-testing",
         "thumbnail": "/assets/images/FBT-9.png",
         "description": "Este producto es adecuado para medir la superficie por gramo de material sólido.",
         "features": [],
@@ -7899,10 +8469,15 @@ window.ludaData.devices = [
       },
       {
         "id": "E001",
+
+          "sortWeight": 20,
+
         "name": "Mezcladora de mortero de cemento",
         "suffixName": "",
         "model": "JJ-5",
         "category": "cement",
+
+          "subcategory": "mixing-compaction",
         "thumbnail": "/assets/images/JJ-5.png",
         "description": "El producto es adecuado para plantas de cemento, unidades de construcción, unidades de ingeniería de carreteras y puentes, y departamentos de investigación científica e inspección de calidad pertinentes para realizar el mantenimiento estándar de la resistencia y el tiempo de fraguado de muestras de cemento, hormigón y productos de cemento.",
         "features": [
@@ -7968,10 +8543,15 @@ window.ludaData.devices = [
       },
       {
         "id": "E002",
+
+          "sortWeight": 21,
+
         "name": "Mezcladora de pasta de cemento",
         "suffixName": "",
         "model": "NJ-160A",
         "category": "cement",
+
+          "subcategory": "mixing-compaction",
         "thumbnail": "/assets/images/NJ-160A.png",
         "description": "Este producto es idóneo para determinar la consistencia estándar y el tiempo de fraguado del cemento, así como para elaborar bloques de ensayo de solidez. Es un equipo indispensable en los laboratorios de plantas cementeras, empresas constructoras, universidades e instituciones de investigación.",
         "features": [
@@ -8053,10 +8633,15 @@ window.ludaData.devices = [
       },
       {
         "id": "E003",
+
+          "sortWeight": 22,
+
         "name": "Plataforma vibratoria de mortero de cemento",
         "suffixName": "",
         "model": "ZT-96",
         "category": "cement",
+
+          "subcategory": "mixing-compaction",
         "thumbnail": "/assets/images/ZT-96.png",
         "description": "Este producto es adecuado para la compactación y el moldeo de muestras de mortero de cemento durante su preparación. Se utiliza principalmente en plantas de cemento, empresas constructoras e instituciones académicas pertinentes para ensayos y experimentación.",
         "features": [
@@ -8103,10 +8688,15 @@ window.ludaData.devices = [
       },
       {
         "id": "E004",
+
+          "sortWeight": 23,
+
         "name": "Tabla de flujo de mortero de cemento",
         "suffixName": "",
         "model": "NLD-3",
         "category": "cement",
+
+          "subcategory": "mixing-compaction",
         "thumbnail": "/assets/images/NLD-3.png",
         "description": "Este producto es adecuado para determinar la cantidad de agua necesaria para que el mortero de cemento alcance la consistencia estándar, midiendo su valor de fluidez.",
         "features": [
@@ -8156,10 +8746,15 @@ window.ludaData.devices = [
       },
       {
         "id": "E005",
+
+          "sortWeight": 24,
+
         "name": "Mezcladora de pasta de cemento",
         "suffixName": "",
         "model": "NJ-160F",
         "category": "cement",
+
+          "subcategory": "mixing-compaction",
         "thumbnail": "/assets/images/NJ-160F.png",
         "description": "La mezcladora de pasta de cemento se utiliza principalmente para determinar la consistencia estándar y el tiempo de fraguado del cemento, así como para preparar bloques de prueba de solidez.",
         "features": [],
@@ -8218,10 +8813,15 @@ window.ludaData.devices = [
       },
       {
         "id": "E027",
+
+          "sortWeight": 7,
+
         "name": "Máquina electrónica universal de ensayo de materiales con cámaras ambientales",
         "suffixName": "50 kN",
         "model": "WDW-T50",
         "category": "tensile",
+
+          "subcategory": "electromechanical-tensile",
         "thumbnail": "/assets/images/WDW-T50.png",
         "description": "Este producto es adecuado para probar y analizar las propiedades mecánicas de diversos metales, no metales y materiales compuestos, y puede obtener datos de prueba tales como el valor máximo de fuerza de prueba, el valor de fuerza de fractura, el límite elástico, el límite elástico superior e inferior, la resistencia a la tracción, la resistencia a la compresión, el alargamiento a la rotura, el módulo de elasticidad a la tracción y el módulo de elasticidad a la flexión de los materiales de prueba.",
         "features": [

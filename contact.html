@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Luda Instruments for inquiries, technical support, or partnership opportunities. Reach our sales team by phone, email, or WhatsApp. Global support available 24/7.">
     <title>Luda Instruments – Contact Us</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18002786940"></script>
@@ -10,15 +11,15 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'AW-18002786940');
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/base.css">
     <link rel="stylesheet" href="/contact.css">
 </head>
+
 <body>
-    <!-- 右侧悬浮栏 (与主页一致) -->
+    <!-- 右侧悬浮栏（与主页一致） -->
     <div class="floating-bar">
         <a href="https://wa.me/8618258021911" target="_blank" class="floating-item"><i class="fab fa-whatsapp"></i></a>
         <a href="https://www.tiktok.com/@ludamachinery_cn" target="_blank" class="floating-item"><i class="fab fa-tiktok"></i></a>
@@ -30,7 +31,8 @@
         <div class="container navbar">
             <div class="logo">
                 <a>       </a>
-                <img src="/assets/icon/LudaLogo.png" alt="Luda Instruments" class="logo-img">
+                <!-- 实际图片请替换为 /assets/images/logo.png -->
+                <img src="/assets/icon/LudaLogo.webp" alt="Luda Instruments" class="logo-img">
                 <div class="logo-text">
                     <h1>LUDA INSTRUMENTS</h1>
                     <span>Construction Materials Testing Equipment Manufacturer</span>
@@ -40,7 +42,9 @@
                 <a href="/index.html">Home</a>
                 <div class="dropdown">
                     <a href="/products.html" class="dropbtn">Equipment series <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content" id="dropdown-menu"></div>
+                    <div class="dropdown-content" id="dropdown-menu">
+                        <!-- 动态生成分类列表 -->
+                    </div>
                 </div>
                 <a href="/contact.html" class="active">Contact</a>
                 <a>       </a>
@@ -93,12 +97,12 @@
 
                 <!-- 右侧地图占位 -->
                 <div class="map-placeholder">
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d480.22960130697044!2d120.744984!3d30.038893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344cfaf70b3f4969%3A0x7e6b8ddf5d04bbe9!2z5rWZ5rW05p6X5Yip5rKz5Yqg5Y2a5Y-r5YWs5Y-4!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s" 
-                        width="100%" 
-                        height="300" 
-                        style="border:0; border-radius: 20px;" 
-                        allowfullscreen="" 
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d480.22960130697044!2d120.744984!3d30.038893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344cfaf70b3f4969%3A0x7e6b8ddf5d04bbe9!2z5rWZ5rW05p6X5Yip5rKz5Yqg5Y2a5Y-r5YWs5Y-4!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s"
+                        width="100%"
+                        height="300"
+                        style="border:0; border-radius: 20px;"
+                        allowfullscreen=""
                         loading="lazy">
                     </iframe>
                     <p class="map-note">* Map shows approximate location. For detailed directions, please contact us.</p>
@@ -147,28 +151,21 @@
             </div>
         </section>
 
-        <!-- ✅ 全新设计的留言表单 -->
+        <!-- 留言表单 -->
         <section class="message-section container">
             <h2 class="section-title">Send Us a Message</h2>
             <p class="section-subtitle">We'll get back to you within 24 hours.</p>
             <div class="message-form-container">
-                <!-- 👇 重要：请将下方的 FORM_ID 替换为您的实际表单 ID（例如 abcd-1234-efgh） -->
                 <form action="https://submit-form.com/6LgD1nY1K" method="POST" class="contact-form">
-                    <!-- 隐藏字段：提交后跳转到感谢页（请确保该页面存在） -->
                     <input type="hidden" name="_redirect" value="https://www.ludatest.com/thank-you.html">
-                    
-                    <!-- 可选：自定义邮件主题（如果不设置，默认为 "New submission"） -->
                     <input type="hidden" name="_email.subject" value="New message from Luda website">
-                    
-                    <!-- 可选：开启简单的垃圾邮件防护（Formspark 内置 Botpoison，一般无需额外设置） -->
-        
+
                     <div class="form-group">
                         <label for="name">Your Name *</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Your Email *</label>
-                        <!-- Formspark 会自动将 email 字段识别为发件人地址，便于您直接回复 -->
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
@@ -219,7 +216,7 @@
         </div>
     </footer>
 
-    <script src="/data/data.js"></script>
+    <script src="/data/categories-en.js"></script>
     <script src="/contact.js"></script>
     <script src="/common.js"></script>
 </body>

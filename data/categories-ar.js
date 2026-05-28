@@ -4,54 +4,100 @@ window.ludaData.categories = [
         id: "tensile",
         name: "آلات اختبار عالمية كهروميكانيكية",
         description: "أجهزة اختبار عالمية إلكترونية عالية الدقة للبلاستيك والمطاط والمنسوجات والمعادن وغيرها.",
-        icon: "/assets/series/electronic-tensile-machine-icon.jpg"
-      },
+        icon: "/assets/series/electronic-tensile-machine-icon.jpg",
+        subcategories: [
+            { id: "electromechanical-tensile", name: "آلات اختبار عالمية إلكترونية", description: "آلات اختبار عالمية إلكترونية لاختبار الشد والضغط والانحناء للمواد." }
+        ]      },
       {
         id: "universal",
         name: "آلات اختبار عالمية هيدروليكية",
         description: "معدات متعددة الوظائف للشد والضغط والانحناء والقص للمعادن والمواد غير المعدنية.",
-        icon: "/assets/series/universal-testing-machine-icon.jpg"
-      },
+        icon: "/assets/series/universal-testing-machine-icon.jpg",
+        subcategories: [
+            { id: "hydraulic-utm", name: "آلات اختبار عالمية هيدروليكية", description: "معدات اختبار عالمية هيدروليكية لاختبار الشد والضغط والانحناء والقص للمعادن والمواد غير المعدنية." },
+            { id: "special-purpose", name: "آلات اختبار للأغراض الخاصة", description: "حلول اختبار متخصصة للأسلاك والكابلات الفولاذية والمراسي والمكونات." },
+            { id: "fatigue-testing", name: "آلات اختبار الكلال", description: "أنظمة اختبار ديناميكي والكلال لتقييم متانة المواد وعمرها الافتراضي." }
+        ]      },
       {
         id: "concrete",
         name: "اختبار الخرسانة",
         description: "عملية اختبار الخرسانة الكاملة: الخلط، المعالجة، قوة الضغط، إلخ.",
-        icon: "/assets/series/concrete-test-icon.jpg"
-      },
+        icon: "/assets/series/concrete-test-icon.jpg",
+        subcategories: [
+            { id: "compression", name: "آلات اختبار الضغط", description: "آلات اختبار الضغط لمكعبات الخرسانة والأسطوانات والكتل والطوب." },
+            { id: "fresh-concrete", name: "اختبار الخرسانة الطازجة", description: "معدات اختبار قابلية تشغيل الخرسانة الطازجة والهبوط ومحتوى الهواء والكثافة." },
+            { id: "durability", name: "اختبار المتانة والنفاذية", description: "أجهزة اختبار المتانة لمقاومة التجميد والذوبان واختراق الكلوريدات والكربنة." },
+            { id: "permeability", name: "اختبار النفاذية والكلوريد", description: "أنظمة اختبار النفاذية واختراق أيونات الكلوريد لتقييم متانة الخرسانة." },
+            { id: "curing-specimens", name: "المعالجة وتحضير العينات", description: "أحواض المعالجة، حمامات حرارية، قوالب ومعدات تحضير عينات الخرسانة." }
+        ]      },
       {
         id: "cement",
         name: "اختبار الأسمنت والملاط",
         description: "أجهزة لفحص قوام الأسمنت، وقت التصلب، الثبات، والمقاومة.",
-        icon: "/assets/series/cement-instrument-icon.jpg"
-      },
+        icon: "/assets/series/cement-instrument-icon.jpg",
+        subcategories: [
+            { id: "strength-testing", name: "اختبار قوة الأسمنت", description: "معدات اختبار قوة الأسمنت تشمل آلات الانحناء والضغط لعينات الملاط." },
+            { id: "mixing-compaction", name: "معدات الخلط والدمك", description: "خلاطات الأسمنت، مكابس الدمك، تحضير عينات الملاط وطاولة التدفق." },
+            { id: "curing", name: "غرف وصناديق المعالجة", description: "غرف وصناديق معالجة بتحكم بدرجة الحرارة والرطوبة لتخزين عينات الأسمنت." },
+            { id: "physical-testing", name: "معدات الاختبارات الفيزيائية", description: "معدات تحليل نعومة الأسمنت والكثافة والمساحة السطحية النوعية وتوزيع حجم الجسيمات." }
+        ]      },
       {
         id: "large_machine",
         name: "آلات اختبار خاصة كبيرة الحجم",
         description: "آلات خاصة: الالتواء، الزحف، الكلال، الصدمات، وحلول مخصصة.",
-        icon: "/assets/series/large-testing-machine-icon.jpg"
-      },
+        icon: "/assets/series/large-testing-machine-icon.jpg",
+        subcategories: [
+            { id: "structural-compression", name: "اختبار الضغط والقص الإنشائي", description: "أنظمة اختبار إنشائي واسعة النطاق للضغط والقص والانحناء لمواد البناء." },
+            { id: "tension-relaxation", name: "اختبار الشد والاسترخاء والعزم", description: "آلات متخصصة لاختبار الشد والاسترخاء والعزم للكابلات الفولاذية والمكونات الإنشائية." },
+            { id: "bending-impact", name: "اختبار الانحناء والصدم", description: "معدات اختبار الانحناء والصدم لتقييم الخواص الميكانيكية للمواد الإنشائية." },
+            { id: "reaction-frames", name: "إطارات رد الفعل وأنظمة التحميل", description: "إطارات رد فعل مخصصة، أنظمة تحميل متعددة القنوات، وتكوينات اختبار إنشائي." }
+        ]      },
       {
         id: "research",
         name: "معدات عامة للمختبرات",
         description: "أجهزة دقيقة عالية الاستقرار للجامعات ومعاهد البحوث.",
-        icon: "/assets/series/research-product-icon.jpg"
-      },
+        icon: "/assets/series/research-product-icon.jpg",
+        subcategories: [
+            { id: "environmental-chambers", name: "غرف بيئية ومناخية", description: "غرف بيئية لمحاكاة درجة الحرارة والرطوبة والصدمة الحرارية والمناخ." },
+            { id: "drying-ovens", name: "أفران تجفيف وتسخين", description: "أفران تجفيف دقيقة، خزانات تسخين، ومعدات تدوير هواء قسري لتكييف المواد." },
+            { id: "furnaces", name: "أفران دثرية", description: "أفران دثرية عالية الحرارة للحرق وفقدان الوزن بالحرق والمعالجة الحرارية." },
+            { id: "aging", name: "غرف التعتيق", description: "غرف تعتيق متسارع لاختبار متانة المواد والتعرض للأشعة فوق البنفسجية والدورات الحرارية." }
+        ]      },
       {
         id: "asphalt",
         name: "اختبار الأسفلت",
         description: "اختبارات ثبات مارشال، تتبع العجلات، الدمك الدوراني، محتوى الأسفلت، وأداء الخلطات.",
-        icon: "/assets/series/asphalt-instrument-icon.jpg"
-      },
+        icon: "/assets/series/asphalt-instrument-icon.jpg",
+        subcategories: [
+            { id: "mix-design", name: "تصميم الخلطات واختبار مارشال", description: "أجهزة ثبات مارشال ومعدات تصميم الخلطات للخرسانة الإسفلتية." },
+            { id: "mix-performance", name: "اختبار أداء الخلطات", description: "معدات تتبع العجلات والكلال والأداء لخلطات الإسفلت." },
+            { id: "composition", name: "تحليل تركيب الأسفلت", description: "أجهزة تحليل محتوى الإسفلت واستخلاص الرابط وأفران الاحتراق وتحليل التركيب." },
+            { id: "sample-preparation", name: "معدات تحضير العينات", description: "مكابس دوارة، مكابس قوالب، مكابس ألواح ومعدات تحضير عينات الإسفلت." }
+        ]      },
       {
         id: "bitumen",
         name: "اختبار البيتومين (رابط الأسفلت)",
         description: "أجهزة للاختراق، نقطة التليين، المطيلية، اللزوجة، الشيخوخة، ومحتوى الشمع.",
-        icon: "/assets/series/bitumen-instrument-icon.jpg"
-      },
+        icon: "/assets/series/bitumen-instrument-icon.jpg",
+        subcategories: [
+            { id: "penetration-rheology", name: "الاختراق ونقطة التليين", description: "أجهزة اختراق البيتومين ونقطة التليين ومعدات الريولوجيا لوصف الرابط." },
+            { id: "ductility", name: "اختبار المطيلية", description: "أجهزة مطيلية البيتومين لقياس خواص الاستطالة والتشوه للرابط." },
+            { id: "aging", name: "غرف التعتيق", description: "غرف تعتيق متسارع لاختبار متانة المواد والتعرض للأشعة فوق البنفسجية والدورات الحرارية." },
+            { id: "viscosity-density", name: "اللزوجة والكثافة", description: "معدات قياس لزوجة وكثافة البيتومين لتحليل الريولوجيا والثبات." },
+            { id: "water-baths", name: "حمامات مائية والتحكم بدرجة الحرارة", description: "حمامات مائية وحمامات حرارية ومنظمات حرارة دائرة لاختبار البيتومين." },
+            { id: "extraction", name: "الاستخلاص والطرد المركزي", description: "معدات استخلاص البيتومين وأجهزة طرد مركزي وأنظمة استعادة الرابط." }
+        ]      },
       {
         id: "geotechnical",
         name: "اختبارات التربة والركام",
         description: "اختبارات فيزيائية/ميكانيكية للتربة والرمل والصخور لهندسة التربة.",
-        icon: "/assets/series/geotechnical-instrument-icon.jpg"
-      }
+        icon: "/assets/series/geotechnical-instrument-icon.jpg",
+        subcategories: [
+            { id: "soil-permeability", name: "اختبار نفاذية التربة", description: "معدات اختبار نفاذية التربة والتوصيل الهيدروليكي للتقييم الجيوتقني." },
+            { id: "soil-compaction", name: "دمك التربة واختبار CBR", description: "أجهزة دمك التربة (بروكتور) واختبار نسبة تحميل كاليفورنيا (CBR)." },
+            { id: "soil-classification", name: "تصنيف التربة", description: "معدات تصنيف التربة لتحليل توزيع حجم الجسيمات وحدود أتربرغ والكثافة." },
+            { id: "rock-preparation", name: "تحضير عينات الصخور", description: "معدات قطع وصقل واستخراج لباب الصخور وتحضير عينات المختبر." },
+            { id: "in-situ", name: "معدات الاختبار الحقلي", description: "أجهزة اختبار حقلي للتحقيقات الجيوتقنية الميدانية تشمل قص الريشة واختراق التربة." },
+            { id: "sample-preparation", name: "معدات تحضير العينات", description: "مكابس دوارة، مكابس قوالب، مكابس ألواح ومعدات تحضير عينات الإسفلت." }
+        ]      }
 ];

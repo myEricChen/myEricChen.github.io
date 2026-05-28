@@ -31,19 +31,30 @@
         ar: 'لا توجد معدات مدرجة في هذه السلسلة حاليًا — تواصل معنا للحصول على حلول مخصصة.'
     };
 
-    // 1. 渲染下拉菜单（与主页相同，便于导航）
+    // 1. 渲染下拉菜单（分类列表 + 子类别）
     const dropdown = document.getElementById('dropdown-menu');
     if (dropdown) {
         let html = '';
         categories.forEach(cat => {
-            html += `<a href="/${lang}/products.html?category=${cat.id}">${cat.name}</a>`;
+            html += `<div class="dropdown-category">`;
+            html += `<a href="/${lang}/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
+            if (cat.subcategories && cat.subcategories.length > 0) {
+                html += `<div class="dropdown-sub-panel">`;
+                html += `<div class="dropdown-sub-header">${cat.name}</div>`;
+                cat.subcategories.forEach(sub => {
+                    html += `<a href="/${lang}/products.html?category=${cat.id}&subcategory=${sub.id}" class="dropdown-sub-link">${sub.name}</a>`;
+                });
+                html += `</div>`;
+            }
+            html += `</div>`;
         });
         dropdown.innerHTML = html;
     }
 
-    // 2. 获取 URL 参数 category
+    // 2. 获取 URL 参数 category 和 subcategory
     const urlParams = new URLSearchParams(window.location.search);
     const categoryId = urlParams.get('category');
+    const subcategoryId = urlParams.get('subcategory');
 
     // 如果未指定分类，默认显示第一个或提示？
     if (!categoryId) {
@@ -73,35 +84,63 @@
         document.head.appendChild(metaDesc);
     }
     metaDesc.setAttribute('content', currentCategory.description || 'Browse our construction materials testing equipment series.');
-    // 更新页面标题和描述
-    document.getElementById('category-title').textContent = currentCategory.name;
-    document.getElementById('category-description').textContent = currentCategory.description;
+    // 更新页面标题和描述（子类别时显示子类别名称和描述）
+    const subcategoryObj = subcategoryId && currentCategory.subcategories
+        ? (currentCategory.subcategories.find(s => s.id === subcategoryId) || null)
+        : null;
+    const subcategoryName = subcategoryObj ? subcategoryObj.name : null;
+    const subcategoryDesc = subcategoryObj ? subcategoryObj.description : null;
+    document.getElementById('category-title').textContent = subcategoryName || currentCategory.name;
+    document.getElementById('category-description').textContent = subcategoryDesc || currentCategory.description;
     document.getElementById('current-category-name').textContent = currentCategory.name;
 
+    // 面包屑：若有子类别，插入子类别层级
+    const breadcrumbEl = document.querySelector('.breadcrumb');
+    if (subcategoryName && breadcrumbEl) {
+        // 移除末尾的旧 span 和它前面的 >
+        const lastSpan = breadcrumbEl.querySelector('#current-category-name');
+        // 重建面包屑：Home > Equipment series > Category > Subcategory
+        breadcrumbEl.innerHTML = `
+            <a href="/${lang}/index.html">Home</a> >
+            <a href="/${lang}/products.html">Equipment series</a> >
+            <a href="/${lang}/products.html?category=${categoryId}">${currentCategory.name}</a> >
+            <span>${subcategoryName}</span>
+        `;
+    }
 
-    // ========== 新增：面包屑结构化数据 ==========
-    function addBreadcrumbSchema(category) {
-        // 移除已有的同类型脚本（避免重复）
+    // ========== 面包屑结构化数据 ==========
+    function addBreadcrumbSchema(category, subName) {
         const existingScript = document.querySelector('script[type="application/ld+json"].breadcrumb');
         if (existingScript) existingScript.remove();
+
+        const items = [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": `https://www.ludatest.com/${lang}/index.html`
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": category.name,
+                "item": `https://www.ludatest.com/${lang}/products.html?category=${category.id}`
+            }
+        ];
+
+        if (subName) {
+            items.push({
+                "@type": "ListItem",
+                "position": 3,
+                "name": subName,
+                "item": window.location.href
+            });
+        }
 
         const breadcrumbSchema = {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Home",
-                    "item": `https://www.ludatest.com/${lang}/index.html`
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": category.name,
-                    "item": window.location.href
-                }
-            ]
+            "itemListElement": items
         };
         const script = document.createElement('script');
         script.type = 'application/ld+json';
@@ -109,11 +148,15 @@
         script.textContent = JSON.stringify(breadcrumbSchema);
         document.head.appendChild(script);
     }
-    addBreadcrumbSchema(currentCategory);
+    addBreadcrumbSchema(currentCategory, subcategoryName);
 
-    // 4. 过滤出属于该分类的设备
+    // 4. 过滤出属于该分类（及子类别）的设备，按 sortWeight 排序
     const currentcategoryId = currentCategory.id;
-    const filteredDevices = devices.filter(dev => dev.category === currentcategoryId);
+    const filteredDevices = devices.filter(dev => {
+        if (dev.category !== currentcategoryId) return false;
+        if (subcategoryId) return dev.subcategory === subcategoryId;
+        return true;
+    }).sort((a, b) => (a.sortWeight || 999) - (b.sortWeight || 999));
 
     // 5. 渲染设备卡片
     const container = document.getElementById('products-container');
@@ -136,11 +179,11 @@
             ? `<img src="${dev.thumbnail}" alt="${dev.name}" onerror="this.onerror=null; this.parentElement.innerHTML='<i class=\'fas fa-cogs\'></i>';">`
             : `<i class="fas fa-cogs"></i>`;
         
-        // 简短描述（添加空值保护）
-        const descText = dev.description ? String(dev.description) : '';
-        const shortDesc = descText.length > 120 
-            ? descText.substring(0, 120) + '…' 
-            : descText;
+        // 简短描述
+        const desc = dev.description || '';
+        const shortDesc = desc.length > 120
+            ? desc.substring(0, 120) + '…'
+            : desc;
 
         // 处理标准显示
         let standardsHtml = '';

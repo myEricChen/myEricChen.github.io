@@ -7,12 +7,22 @@
 
     const { categories, devices } = window.ludaData;
 
-    // 1. 渲染下拉菜单
+    // 1. 渲染下拉菜单（分类 + 子类别）
     const dropdown = document.getElementById('dropdown-menu');
     if (dropdown) {
         let html = '';
         categories.forEach(cat => {
-            html += `<a href="/ar/products.html?category=${cat.id}">${cat.name}</a>`;
+            html += `<div class="dropdown-category">`;
+            html += `<a href="/ar/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
+            if (cat.subcategories && cat.subcategories.length > 0) {
+                html += `<div class="dropdown-sub-panel">`;
+                html += `<div class="dropdown-sub-header">${cat.name}</div>`;
+                cat.subcategories.forEach(sub => {
+                    html += `<a href="/ar/products.html?category=${cat.id}&subcategory=${sub.id}" class="dropdown-sub-link">${sub.name}</a>`;
+                });
+                html += `</div>`;
+            }
+            html += `</div>`;
         });
         dropdown.innerHTML = html;
     }
@@ -50,7 +60,7 @@
         metaDesc.name = 'description';
         document.head.appendChild(metaDesc);
     }
-    let desc = product.description;
+    let desc = product.description || '';
     if (desc.length > 150) desc = desc.substring(0, 150) + '...';
     metaDesc.setAttribute('content', desc);
 
@@ -65,7 +75,7 @@
             "@type": "Product",
             "name": product.name + (product.suffixName ? ' ' + product.suffixName : ''),
             "model": product.model,
-            "description": product.description.substring(0, 200),
+            "description": product.description ? product.description.substring(0, 200) : '',
             "brand": {
                 "@type": "Brand",
                 "name": "Luda Test"

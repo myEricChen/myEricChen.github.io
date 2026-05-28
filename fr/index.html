@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Luda Instruments – fabricant leader d'équipements d'essai de matériaux de construction. Machines d'essai universelles, pour béton, asphalte, ciment. Conformes aux normes ISO/ASTM. Plus de 30 ans d'expérience.">
-    <title>Luda Instruments – Essais de précision des matériaux</title>
+    <meta name="description" content="Luda Instruments – fabricant leader d'équipements d'essai de matériaux de construction. Machines d'essai universelles, pour béton, asphalte, ciment. Conforme aux normes ISO/ASTM. Plus de 30 ans d'expérience.">
+    <title>Luda Instruments – Tests de précision des matériaux</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18002786940"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'AW-18002786940');
     </script>
     <!-- 内联关键 CSS -->
@@ -460,9 +459,10 @@ header {
     }
 }
     </style>
-    <!-- 异步加载完整 home.css -->
+    <!-- 异步加载公共及首页样式 -->
+    <link rel="preload" href="/base.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="/home.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/home.css"></noscript>
+    <noscript><link rel="stylesheet" href="/base.css"><link rel="stylesheet" href="/home.css"></noscript>
     <!-- 异步加载 FontAwesome -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -494,8 +494,9 @@ header {
                 "streetAddress": "2PQV+HX5, Shangyu District"
             }
         }
-        </script>
+    </script>
 </head>
+
 <body>
     <!-- 右侧悬浮栏 -->
     <div class="floating-bar">
@@ -509,7 +510,6 @@ header {
         <div class="container navbar">
             <div class="logo">
                 <a>       </a>
-                <!-- 实际图片请替换为 /assets/images/logo.png -->
                 <img src="/assets/icon/LudaLogo.webp" alt="Luda Instruments" class="logo-img">
                 <div class="logo-text">
                     <h1>LUDA INSTRUMENTS</h1>
@@ -517,7 +517,7 @@ header {
                 </div>
             </div>
             <div class="nav-links">
-                <a href="index.html" class="active">Accueil</a>
+                <a href="/fr/index.html" class="active">Accueil</a>
                 <div class="dropdown">
                     <a href="/fr/products.html" class="dropbtn">Série d'équipements <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-content" id="dropdown-menu">
@@ -572,7 +572,6 @@ header {
                     <a href="/fr/contact.html" class="btn btn-primary" aria-label="Contact Luda Instruments for inquiries and support">En savoir plus <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
-            <!-- 轮播控制点 (简单实现) -->
             <div class="slider-dots">
                 <span class="dot active" data-slide="0"></span>
                 <span class="dot" data-slide="1"></span>
@@ -580,7 +579,7 @@ header {
             </div>
         </section>
 
-        <!-- 统计数字 (不变) -->
+        <!-- 统计数字 -->
         <section class="stats-section container">
             <div class="stats-grid">
                 <div class="stat-item">
@@ -606,7 +605,7 @@ header {
             </div>
         </section>
 
-        <!-- 简介 (不变) -->
+        <!-- 简介 -->
         <section class="about-section container">
             <h2 class="section-title">Pourquoi choisir Luda Instruments</h2>
             <div class="advantages-grid">
@@ -648,15 +647,14 @@ header {
             </div>
         </section>
 
-
-        <!-- 建议加在 advantages-grid 和 product-range 之间 -->
+        <!-- CTA -->
         <div class="cta-banner" style="background: #0a2647; border-radius: 20px; padding: 40px; text-align: center; margin: 60px 0; color: white;">
             <h3 style="color: white; margin-bottom: 15px;">Prêt à moderniser votre laboratoire ?</h3>
             <p style="margin-bottom: 25px;">Obtenez des spécifications détaillées et le meilleur prix pour vos projets.</p>
             <a href="/fr/contact.html" class="btn btn-primary" style="background-color: #d71920;">Demander un Devis →</a>
         </div>
 
-        <!-- 产品系列 (带缩略图) -->
+        <!-- 产品系列 -->
         <section class="product-range container">
             <h2 class="section-title">Gamme de produits</h2>
             <p class="section-subtitle">Parcourez notre large gamme d'équipements d'essai, classés par matériaux</p>
@@ -665,7 +663,7 @@ header {
             </div>
         </section>
 
-        <!-- News 区域 (保留) -->
+        <!-- News 区域 -->
         <section class="news-section container">
             <h2 class="section-title">Actualités et événements</h2>
             <p class="section-subtitle">Dernières nouvelles du secteur, développements et salons à venir.</p>
@@ -710,23 +708,23 @@ header {
         <div class="container">
             <div class="footer-main">
                 <div class="footer-brand">
-                    <strong>Luda Test</strong> · depuis 1996
+                    <strong>Luda Test</strong> · since 1996
                 </div>
                 <div class="footer-contacts">
                     <div class="contact-person">
-                        <span class="person-name">Eric Chen<br>Ingénieur commercial et superviseur</span>
+                        <span class="person-name">Eric Chen<br>Ingénieur Commercial et Superviseur</span>
                         <a class="contact-phone">📞 +86 182 5802 1911</a>
                         <a href="https://wa.me/8618258021911" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 182 5802 1911</a>
                         <a href="mailto:chen@ludatest.com" class="contact-email">✉️ chen@ludatest.com</a>
                     </div>
                     <div class="contact-person">
-                        <span class="person-name">Candy<br>Responsable commercial Asie</span>
+                        <span class="person-name">Candy<br>Directrice des Ventes en Asie</span>
                         <a class="contact-phone">📞 +86 152 5753 5953</a>
                         <a href="https://wa.me/8615257535953" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 152 5753 5953</a>
                         <a href="mailto:candy@ludatest.com" class="contact-email">✉️ Candy@ludatest.com</a>
                     </div>
                     <div class="contact-person">
-                        <span class="person-name">Angela<br>Responsable commercial Amérique latine</span>
+                        <span class="person-name">Angela<br>Directrice des Ventes en Amérique Latine</span>
                         <a class="contact-phone">📞 +86 150 5875 2078</a>
                         <a href="https://wa.me/8615058752078" class="contact-phone"><i class="fab fa-whatsapp"></i> +86 150 5875 2078</a>
                         <a href="mailto:angela@ludatest.com" class="contact-email">✉️ Angela@ludatest.com</a>
@@ -734,7 +732,7 @@ header {
                 </div>
             </div>
             <div class="footer-copyright">
-                © 2025 Luda Test. Toutes les spécifications peuvent être modifiées sans préavis.
+                © 2025 Luda Test. Toutes les spécifications sont sujettes à modification sans préavis.
             </div>
         </div>
     </footer>
@@ -751,17 +749,17 @@ header {
                     <form id="catalogForm" action="https://submit-form.com/6LgD1nY1K" method="POST" target="_blank">
                         <input type="hidden" name="_redirect" value="https://www.ludatest.com/thank-you.html">
                         <input type="hidden" name="_email.subject" value="Catalog Download Request from Website">
-                        
+
                         <div class="form-group">
-                            <label for="modal_name">Nom complet *</label>
+                            <label for="modal_name">Nom Complet *</label>
                             <input type="text" id="modal_name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="modal_email">Adresse e-mail *</label>
+                            <label for="modal_email">Adresse E-mail *</label>
                             <input type="email" id="modal_email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="modal_company">Nom de l'entreprise</label>
+                            <label for="modal_company">Nom de l'Entreprise</label>
                             <input type="text" id="modal_company" name="company">
                         </div>
                         <div class="form-group">

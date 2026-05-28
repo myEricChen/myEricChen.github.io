@@ -1,17 +1,10 @@
-<!--
- * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @Date: 2026-04-14 16:56:28
- * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-04-20 11:03:00
- * @FilePath: \myEricChen.github.io\en\search.html
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Results - Luda Instruments</title>
+    <meta name="description" content="">
+    <title>نتائج البحث - لودا إنسترومنتس</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18002786940"></script>
     <script>
@@ -21,12 +14,13 @@
     gtag('config', 'AW-18002786940');
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/base.css">
+    <link rel="stylesheet" href="/products.css"><link rel="stylesheet" href="/search.css">
     <link rel="stylesheet" href="/home-rtl.css" media="screen">
-    <link rel="stylesheet" href="/products.css">
-    <link rel="stylesheet" href="/search.css">
 </head>
+
 <body>
+    <!-- 右侧悬浮栏 -->
     <div class="floating-bar">
         <a href="https://wa.me/8618258021911" target="_blank" class="floating-item"><i class="fab fa-whatsapp"></i></a>
         <a href="https://www.tiktok.com/@ludamachinery_cn" target="_blank" class="floating-item"><i class="fab fa-tiktok"></i></a>
@@ -38,7 +32,6 @@
         <div class="container navbar">
             <div class="logo">
                 <a>       </a>
-                <!-- 实际图片请替换为 /assets/images/logo.png -->
                 <img src="/assets/icon/LudaLogo.webp" alt="Luda Instruments" class="logo-img">
                 <div class="logo-text">
                     <h1>LUDA INSTRUMENTS</h1>
@@ -46,7 +39,7 @@
                 </div>
             </div>
             <div class="nav-links">
-                <a href="index.html" class="active">الرئيسية</a>
+                <a href="/ar/index.html">الرئيسية</a>
                 <div class="dropdown">
                     <a href="/ar/products.html" class="dropbtn">سلسلة المعدات <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-content" id="dropdown-menu">
@@ -58,10 +51,10 @@
                 <div class="lang-switcher">
                     <button class="lang-btn">🌐 اللغة</button>
                     <div class="lang-dropdown">
-                        <a href="/en/index.html">English</a>
-                        <a href="/es/index.html">Español</a>
-                        <a href="/fr/index.html">Français</a>
-                        <a href="/ar/index.html">العربية</a>
+                        <a href="/en/search.html">English</a>
+                        <a href="/es/search.html">Español</a>
+                        <a href="/fr/search.html">Français</a>
+                        <a href="/ar/search.html">العربية</a>
                     </div>
                 </div>
                 <a>       </a>
@@ -71,11 +64,11 @@
 
     <main class="container">
         <div class="search-results-header">
-            <h1>Search Results</h1>
+            <h1>نتائج البحث</h1>
             <p id="search-query-info"></p>
         </div>
         <div id="search-results-container" class="products-grid">
-            <div class="loading">Loading...</div>
+            <div class="loading">جار التحميل...</div>
         </div>
     </main>
 

@@ -65,13 +65,23 @@
     const searchHeader = document.querySelector('.search-results-header h1');
     if (searchHeader) searchHeader.textContent = t.searchTitle;
 
-    // 渲染下拉菜单（设备系列）
+    // 渲染下拉菜单（分类 + 子类别）
     if (window.ludaData && window.ludaData.categories) {
         const dropdownMenu = document.getElementById('dropdown-menu');
         if (dropdownMenu) {
             let html = '';
             window.ludaData.categories.forEach(cat => {
-                html += `<a href="/${lang}/products.html?category=${cat.id}">${cat.name}</a>`;
+                html += `<div class="dropdown-category">`;
+                html += `<a href="/${lang}/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
+                if (cat.subcategories && cat.subcategories.length > 0) {
+                    html += `<div class="dropdown-sub-panel">`;
+                    html += `<div class="dropdown-sub-header">${cat.name}</div>`;
+                    cat.subcategories.forEach(sub => {
+                        html += `<a href="/${lang}/products.html?category=${cat.id}&subcategory=${sub.id}" class="dropdown-sub-link">${sub.name}</a>`;
+                    });
+                    html += `</div>`;
+                }
+                html += `</div>`;
             });
             dropdownMenu.innerHTML = html;
         }
@@ -113,7 +123,7 @@
             
             results.push({ dev, weight });
         });
-        results.sort((a, b) => b.weight - a.weight);
+        results.sort((a, b) => b.weight - a.weight || (a.dev.sortWeight || 999) - (b.dev.sortWeight || 999));
         return results.map(item => item.dev);
     }
 
@@ -137,7 +147,8 @@
         const thumbnailHtml = dev.thumbnail 
             ? `<img src="${dev.thumbnail}" alt="${dev.name}" onerror="this.onerror=null; this.parentElement.innerHTML='<i class=\'fas fa-cogs\'></i>';">`
             : `<i class="fas fa-cogs"></i>`;
-        const shortDesc = dev.description.length > 120 ? dev.description.substring(0, 120) + '…' : dev.description;
+        const desc = dev.description || '';
+        const shortDesc = desc.length > 120 ? desc.substring(0, 120) + '…' : desc;
 
         let standardsHtml = '';
         if (dev.standards && dev.standards.length > 0) {

@@ -30,13 +30,22 @@
 
     const lang = getCurrentLang();
 
-    // 渲染导航下拉菜单
+    // 渲染导航下拉菜单（分类 + 子类别）
     const dropdown = document.getElementById('dropdown-menu');
     if (dropdown) {
         let html = '';
         categories.forEach(cat => {
-            // 构建带语言前缀的产品页链接
-            html += `<a href="/${lang}/products.html?category=${cat.id}">${cat.name}</a>`;
+            html += `<div class="dropdown-category">`;
+            html += `<a href="/${lang}/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
+            if (cat.subcategories && cat.subcategories.length > 0) {
+                html += `<div class="dropdown-sub-panel">`;
+                html += `<div class="dropdown-sub-header">${cat.name}</div>`;
+                cat.subcategories.forEach(sub => {
+                    html += `<a href="/${lang}/products.html?category=${cat.id}&subcategory=${sub.id}" class="dropdown-sub-link">${sub.name}</a>`;
+                });
+                html += `</div>`;
+            }
+            html += `</div>`;
         });
         dropdown.innerHTML = html;
     }

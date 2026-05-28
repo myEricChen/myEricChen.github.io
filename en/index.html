@@ -11,7 +11,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'AW-18002786940');
     </script>
     <!-- 内联关键 CSS -->
@@ -460,9 +459,10 @@ header {
     }
 }
     </style>
-    <!-- 异步加载完整 home.css -->
+    <!-- 异步加载公共及首页样式 -->
+    <link rel="preload" href="/base.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="/home.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/home.css"></noscript>
+    <noscript><link rel="stylesheet" href="/base.css"><link rel="stylesheet" href="/home.css"></noscript>
     <!-- 异步加载 FontAwesome -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -494,8 +494,9 @@ header {
                 "streetAddress": "2PQV+HX5, Shangyu District"
             }
         }
-        </script>
+    </script>
 </head>
+
 <body>
     <!-- 右侧悬浮栏 -->
     <div class="floating-bar">
@@ -509,7 +510,6 @@ header {
         <div class="container navbar">
             <div class="logo">
                 <a>       </a>
-                <!-- 实际图片请替换为 /assets/images/logo.png -->
                 <img src="/assets/icon/LudaLogo.webp" alt="Luda Instruments" class="logo-img">
                 <div class="logo-text">
                     <h1>LUDA INSTRUMENTS</h1>
@@ -517,7 +517,7 @@ header {
                 </div>
             </div>
             <div class="nav-links">
-                <a href="index.html" class="active">Home</a>
+                <a href="/en/index.html" class="active">Home</a>
                 <div class="dropdown">
                     <a href="/en/products.html" class="dropbtn">Equipment series <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-content" id="dropdown-menu">
@@ -579,7 +579,7 @@ header {
             </div>
         </section>
 
-        <!-- 统计数字 (不变) -->
+        <!-- 统计数字 -->
         <section class="stats-section container">
             <div class="stats-grid">
                 <div class="stat-item">
@@ -605,7 +605,7 @@ header {
             </div>
         </section>
 
-        <!-- 简介 (不变) -->
+        <!-- 简介 -->
         <section class="about-section container">
             <h2 class="section-title">Why Choose Luda Instruments</h2>
             <div class="advantages-grid">
@@ -647,14 +647,14 @@ header {
             </div>
         </section>
 
-        <!-- 建议加在 advantages-grid 和 product-range 之间 -->
+        <!-- CTA -->
         <div class="cta-banner" style="background: #0a2647; border-radius: 20px; padding: 40px; text-align: center; margin: 60px 0; color: white;">
             <h3 style="color: white; margin-bottom: 15px;">Ready to upgrade your lab?</h3>
             <p style="margin-bottom: 25px;">Get detailed specifications & best price for your projects.</p>
             <a href="/en/contact.html" class="btn btn-primary" style="background-color: #d71920;">Request a Quote →</a>
         </div>
 
-        <!-- 产品系列 (带缩略图) -->
+        <!-- 产品系列 -->
         <section class="product-range container">
             <h2 class="section-title">Product Range</h2>
             <p class="section-subtitle">Browse our extensive range of testing equipment, sorted by materials</p>
@@ -663,7 +663,7 @@ header {
             </div>
         </section>
 
-        <!-- News 区域 (保留) -->
+        <!-- News 区域 -->
         <section class="news-section container">
             <h2 class="section-title">News and Events</h2>
             <p class="section-subtitle">Latest industry news and developments and upcoming trade shows and events.</p>
@@ -749,7 +749,7 @@ header {
                     <form id="catalogForm" action="https://submit-form.com/6LgD1nY1K" method="POST" target="_blank">
                         <input type="hidden" name="_redirect" value="https://www.ludatest.com/thank-you.html">
                         <input type="hidden" name="_email.subject" value="Catalog Download Request from Website">
-                        
+
                         <div class="form-group">
                             <label for="modal_name">Full Name *</label>
                             <input type="text" id="modal_name" name="name" required>
@@ -776,6 +776,7 @@ header {
             </div>
         </div>
     </div>
+
     <script src="/data/categories-en.js"></script>
     <script src="/home.js"></script>
     <script src="/common.js"></script>

@@ -7,12 +7,22 @@
 
     const { categories, devices } = window.ludaData;
 
-    // 1. 渲染下拉菜单
+    // 1. 渲染下拉菜单（分类 + 子类别）
     const dropdown = document.getElementById('dropdown-menu');
     if (dropdown) {
         let html = '';
         categories.forEach(cat => {
-            html += `<a href="/products.html?category=${cat.id}">${cat.name}</a>`;
+            html += `<div class="dropdown-category">`;
+            html += `<a href="/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
+            if (cat.subcategories && cat.subcategories.length > 0) {
+                html += `<div class="dropdown-sub-panel">`;
+                html += `<div class="dropdown-sub-header">${cat.name}</div>`;
+                cat.subcategories.forEach(sub => {
+                    html += `<a href="/products.html?category=${cat.id}&subcategory=${sub.id}" class="dropdown-sub-link">${sub.name}</a>`;
+                });
+                html += `</div>`;
+            }
+            html += `</div>`;
         });
         dropdown.innerHTML = html;
     }
@@ -56,6 +66,39 @@
     metaDesc.setAttribute('content', descText);
     // 也可以同时设置页面标题（可选）
     document.title = `${product.name} | Luda Instruments`;
+
+    // ========== Product 结构化数据 (Schema.org) ==========
+    function addProductSchema(product) {
+        const existingScript = document.querySelector('script[type="application/ld+json"].product-schema');
+        if (existingScript) existingScript.remove();
+
+        const productSchema = {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": product.name,
+            "description": product.description ? product.description.substring(0, 200) : '',
+            "model": product.model,
+            "category": category ? category.name : product.category,
+            "brand": {
+                "@type": "Brand",
+                "name": "Luda Instruments"
+            },
+            "image": product.thumbnail || '',
+            "offers": {
+                "@type": "Offer",
+                "availability": "https://schema.org/InStock",
+                "price": "Contact for price",
+                "priceCurrency": "USD"
+            }
+        };
+
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.className = 'product-schema';
+        script.textContent = JSON.stringify(productSchema);
+        document.head.appendChild(script);
+    }
+    addProductSchema(product);
 
     // 6. 渲染产品详情
     renderProductDetail(product);

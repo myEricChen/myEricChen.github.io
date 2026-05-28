@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{lang}}"{{dir}}>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/base.css">
+    <style>
+        .thank-you-container {
+            text-align: center;
+            padding: 100px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .thank-you-container h1 {
+            color: #d71920;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .thank-you-container p {
+            font-size: 1.2rem;
+            color: #4f6f8f;
+            margin-bottom: 30px;
+        }
+        .thank-you-container a {
+            color: #d71920;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <h1>{{thank_you_title}}</h1>
+        <p>{{thank_you_message}}</p>
+        <p><a href="{{home_path}}">{{thank_you_return}}</a></p>
+    </div>
+</body>
+</html>

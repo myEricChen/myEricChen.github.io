@@ -1,16 +1,9 @@
-<!--
- * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @Date: 2026-04-14 16:56:28
- * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-04-20 10:53:42
- * @FilePath: \myEricChen.github.io\en\search.html
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
     <title>Search Results - Luda Instruments</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18002786940"></script>
@@ -21,11 +14,12 @@
     gtag('config', 'AW-18002786940');
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/home.css">
-    <link rel="stylesheet" href="/products.css">
-    <link rel="stylesheet" href="/search.css">
+    <link rel="stylesheet" href="/base.css">
+    <link rel="stylesheet" href="/products.css"><link rel="stylesheet" href="/search.css">
 </head>
+
 <body>
+    <!-- 右侧悬浮栏 -->
     <div class="floating-bar">
         <a href="https://wa.me/8618258021911" target="_blank" class="floating-item"><i class="fab fa-whatsapp"></i></a>
         <a href="https://www.tiktok.com/@ludamachinery_cn" target="_blank" class="floating-item"><i class="fab fa-tiktok"></i></a>
@@ -36,6 +30,7 @@
     <header>
         <div class="container navbar">
             <div class="logo">
+                <a>       </a>
                 <img src="/assets/icon/LudaLogo.webp" alt="Luda Instruments" class="logo-img">
                 <div class="logo-text">
                     <h1>LUDA INSTRUMENTS</h1>
@@ -46,9 +41,12 @@
                 <a href="/en/index.html">Home</a>
                 <div class="dropdown">
                     <a href="/en/products.html" class="dropbtn">Equipment series <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content" id="dropdown-menu"></div>
+                    <div class="dropdown-content" id="dropdown-menu">
+                        <!-- 动态生成分类列表 -->
+                    </div>
                 </div>
                 <a href="/en/contact.html">Contact</a>
+                <!-- 语言切换器 -->
                 <div class="lang-switcher">
                     <button class="lang-btn">🌐 Language</button>
                     <div class="lang-dropdown">
@@ -76,7 +74,9 @@
     <footer>
         <div class="container">
             <div class="footer-main">
-                <div class="footer-brand"><strong>Luda Test</strong> · since 1996</div>
+                <div class="footer-brand">
+                    <strong>Luda Test</strong> · since 1996
+                </div>
                 <div class="footer-contacts">
                     <div class="contact-person">
                         <span class="person-name">Eric Chen<br>Sales Engineer & Supervisor</span>
@@ -98,7 +98,9 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-copyright">© 2025 Luda Test. All specifications are subject to change without notice.</div>
+            <div class="footer-copyright">
+                © 2025 Luda Test. All specifications are subject to change without notice.
+            </div>
         </div>
     </footer>
 

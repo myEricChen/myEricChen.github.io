@@ -38,6 +38,25 @@
         dropdownContent.addEventListener('click', function(e) {
             e.stopPropagation();
         });
+
+        // 触摸设备：点击分类标题切换子面板显示
+        const categoryTitles = dropdownContent.querySelectorAll('.dropdown-category-title');
+        categoryTitles.forEach(title => {
+            title.addEventListener('click', function(e) {
+                const parent = this.closest('.dropdown-category');
+                if (!parent) return;
+                const subPanel = parent.querySelector('.dropdown-sub-panel');
+                if (!subPanel) return; // 无子类别，正常导航
+                e.preventDefault();
+                e.stopPropagation();
+                // 关闭其他已打开的子面板
+                const allPanels = dropdownContent.querySelectorAll('.dropdown-sub-panel.visible');
+                allPanels.forEach(p => {
+                    if (p !== subPanel) p.classList.remove('visible');
+                });
+                subPanel.classList.toggle('visible');
+            });
+        });
     });
 })();
 
