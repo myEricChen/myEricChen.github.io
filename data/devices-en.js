@@ -3789,7 +3789,7 @@ window.ludaData.devices = [
     ],
     specifications: [
       {
-        label: "Mould size",
+        label: "Mold size",
         value: "300×300×(30~100)mm (Can be customized upon request)"
       },
       {
@@ -9277,7 +9277,7 @@ window.ludaData.devices = [
     id: "E031",
 
       sortWeight: 26,
-    name: "Three Gang Mould",
+    name: "Three Gang Mold",
     suffixName: "For Prisms 40X40X160mm, Made from Cast iron",
     model: "40*40*160",
     category: "cement",
@@ -9308,7 +9308,7 @@ window.ludaData.devices = [
     id: "E032",
 
       sortWeight: 28,
-    name: "Single Gang Mould",
+    name: "Single Gang Mold",
     suffixName: "(For Cube with 150mm Side, Made from Cast iron)",
     model: "150*150*150",
     category: "concrete",
@@ -9342,7 +9342,7 @@ window.ludaData.devices = [
     id: "E033",
 
       sortWeight: 29,
-    name: "Three Gang Mould",
+    name: "Three Gang Mold",
     suffixName: "For Cube with 100mm Side, Made from Cast iron",
     model: "100*100*100",
     category: "concrete",
