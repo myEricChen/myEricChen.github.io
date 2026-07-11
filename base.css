@@ -188,7 +188,7 @@ header {
 
 /* 桌面端：hover 交互 */
 @media (hover: hover) {
-    .dropdown-category:hover .dropdown-sub-panel {
+    .dropdown-category:hover + .dropdown-sub-panel {
         display: block;
     }
     .dropdown:hover .dropdown-content {

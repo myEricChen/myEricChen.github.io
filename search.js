@@ -73,6 +73,7 @@
             window.ludaData.categories.forEach(cat => {
                 html += `<div class="dropdown-category">`;
                 html += `<a href="/${lang}/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
+                html += `</div>`;
                 if (cat.subcategories && cat.subcategories.length > 0) {
                     html += `<div class="dropdown-sub-panel">`;
                     html += `<div class="dropdown-sub-header">${cat.name}</div>`;
@@ -81,7 +82,6 @@
                     });
                     html += `</div>`;
                 }
-                html += `</div>`;
             });
             dropdownMenu.innerHTML = html;
         }

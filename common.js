@@ -45,8 +45,8 @@
             title.addEventListener('click', function(e) {
                 const parent = this.closest('.dropdown-category');
                 if (!parent) return;
-                const subPanel = parent.querySelector('.dropdown-sub-panel');
-                if (!subPanel) return; // 无子类别，正常导航
+                const subPanel = parent.nextElementSibling;
+                if (!subPanel || !subPanel.classList.contains('dropdown-sub-panel')) return; // 无子类别，正常导航
                 e.preventDefault();
                 e.stopPropagation();
                 // 关闭其他已打开的子面板
