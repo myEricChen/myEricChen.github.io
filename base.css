@@ -186,14 +186,9 @@ header {
     color: #d71920;
 }
 
-/* 桌面端：hover 交互 */
+/* 桌面端：JS 全权控制下拉菜单显隐 */
 @media (hover: hover) {
-    .dropdown-category:hover .dropdown-sub-panel {
-        display: block;
-    }
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
+    /* 此规则已由 JS 替代 */
 }
 
 /* 触摸端：通过 JS 切换子面板 */

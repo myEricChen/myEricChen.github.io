@@ -1,8 +1,8 @@
 /*
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2026-03-07 14:16:46
- * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-04-18 12:56:44
+ * @LastEditors: myEricChen chenzjupoi@gmail.com
+ * @LastEditTime: 2026-07-13 09:32:25
  * @FilePath: \myEricChen.github.io\common.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -45,8 +45,8 @@
             title.addEventListener('click', function(e) {
                 const parent = this.closest('.dropdown-category');
                 if (!parent) return;
-                const subPanel = parent.querySelector('.dropdown-sub-panel');
-                if (!subPanel) return; // 无子类别，正常导航
+                const subPanel = parent.nextElementSibling;
+                if (!subPanel || !subPanel.classList.contains('dropdown-sub-panel')) return; // 无子类别，正常导航
                 e.preventDefault();
                 e.stopPropagation();
                 // 关闭其他已打开的子面板
@@ -256,4 +256,90 @@ if (document.readyState === 'loading') {
         });
         floatingBar.appendChild(searchBtn);
     }
+})();
+
+// ========== 桌面端：下拉菜单显隐 + 子面板延迟消失 ==========
+(function() {
+    // 仅在桌面 hover 设备执行
+    if (!window.matchMedia('(hover: hover)').matches) return;
+
+    const dropdown = document.querySelector('.dropdown');
+    const dropdownContent = document.querySelector('.dropdown-content');
+    if (!dropdown || !dropdownContent) return;
+
+    let hideContentTimer = null;
+    let subPanelHideTimer = null;
+
+    // 显示整个下拉菜单
+    function showContent() {
+        clearTimeout(hideContentTimer);
+        dropdownContent.style.display = 'block';
+    }
+
+    // 延迟隐藏整个下拉菜单
+    function scheduleHideContent() {
+        clearTimeout(hideContentTimer);
+        hideContentTimer = setTimeout(() => {
+            dropdownContent.style.display = '';
+            // 同时重置所有子面板
+            dropdownContent.querySelectorAll('.dropdown-sub-panel').forEach(p => {
+                p.style.display = '';
+                p.style.minHeight = '';
+            });
+        }, 400);
+    }
+
+    // 鼠标进入导航按钮 → 显示菜单
+    dropdown.addEventListener('mouseenter', showContent);
+
+    // 鼠标离开导航按钮 → 延迟隐藏（可能即将进入菜单区域）
+    dropdown.addEventListener('mouseleave', scheduleHideContent);
+
+    // 鼠标进入菜单内容 → 保持显示
+    dropdownContent.addEventListener('mouseenter', showContent);
+
+    // 鼠标离开菜单内容 → 延迟隐藏
+    dropdownContent.addEventListener('mouseleave', function(e) {
+        const related = e.relatedTarget;
+        // 如果去往子面板（DOM 子元素），不隐藏
+        if (related && dropdownContent.contains(related)) return;
+        scheduleHideContent();
+    });
+
+    // 子面板 hover 处理
+    document.querySelectorAll('.dropdown-category').forEach(cat => {
+        const panel = cat.nextElementSibling;
+        if (!panel || !panel.classList.contains('dropdown-sub-panel')) return;
+
+        // 鼠标进入分类 → 显示对应子面板，隐藏其他
+        cat.addEventListener('mouseenter', function() {
+            showContent();
+            clearTimeout(subPanelHideTimer);
+            // 子面板撑满整个菜单高度，确保鼠标水平移动即可进入
+            panel.style.minHeight = dropdownContent.offsetHeight + 'px';
+            dropdownContent.querySelectorAll('.dropdown-sub-panel').forEach(p => {
+                p.style.display = (p !== panel) ? 'none' : 'block';
+            });
+        });
+
+        // 鼠标离开分类 → 延迟隐藏子面板
+        cat.addEventListener('mouseleave', function() {
+            subPanelHideTimer = setTimeout(() => {
+                panel.style.display = 'none';
+            }, 400);
+        });
+
+        // 鼠标进入子面板 → 取消延迟，保持显示
+        panel.addEventListener('mouseenter', function() {
+            showContent();
+            clearTimeout(subPanelHideTimer);
+            this.style.display = 'block';
+        });
+
+        // 鼠标离开子面板 → 直接隐藏
+        panel.addEventListener('mouseleave', function() {
+            clearTimeout(subPanelHideTimer);
+            this.style.display = 'none';
+        });
+    });
 })();
