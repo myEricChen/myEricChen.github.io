@@ -1,34 +1,83 @@
-<!--
- * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @Date: 2026-02-25 10:52:28
- * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2026-03-28 11:37:37
- * @FilePath: \myEricChen.github.io\index.html
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Luda Instruments</title>
-    <script>
-        // 获取浏览器语言（例如 'en-US', 'fr-FR', 'es-ES', 'ar-SA'）
-        var userLang = navigator.language || navigator.userLanguage;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luda Instruments – Construction Materials Testing Equipment Manufacturer</title>
+    <meta name="description" content="Luda Instruments – leading manufacturer of construction materials testing equipment. Universal testers, concrete, asphalt, cement testing machines. ISO/ASTM compliant. 30+ years experience.">
 
-        // 根据语言前缀决定跳转路径
+    <!-- Canonical: English is the default language -->
+    <link rel="canonical" href="https://www.ludatest.com/en/index.html">
+
+    <!-- hreflang: tells search engines about all language versions -->
+    <link rel="alternate" hreflang="en" href="https://www.ludatest.com/en/index.html">
+    <link rel="alternate" hreflang="es" href="https://www.ludatest.com/es/index.html">
+    <link rel="alternate" hreflang="fr" href="https://www.ludatest.com/fr/index.html">
+    <link rel="alternate" hreflang="ar" href="https://www.ludatest.com/ar/index.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.ludatest.com/en/index.html">
+
+    <!-- Open Graph: controls how the link looks when shared on social media -->
+    <meta property="og:title" content="Luda Instruments – Precision Material Testing Equipment">
+    <meta property="og:description" content="Leading manufacturer of construction materials testing equipment. Universal testers, concrete, asphalt, cement, geotechnical testing machines. ISO/ASTM compliant.">
+    <meta property="og:image" content="https://www.ludatest.com/assets/icon/LudaLogo.webp">
+    <meta property="og:url" content="https://www.ludatest.com/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Structured Data: helps search engines understand the business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Luda Instruments",
+        "url": "https://www.ludatest.com",
+        "logo": "https://www.ludatest.com/assets/icon/LudaLogo.webp",
+        "description": "Leading manufacturer of construction materials testing equipment with 30+ years experience.",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+86 182 5802 1911",
+            "contactType": "customer service",
+            "email": "chen@ludatest.com",
+            "availableLanguage": ["English", "Spanish", "French", "Arabic"]
+        },
+        "sameAs": [
+            "https://www.tiktok.com/@ludamachinery_cn",
+            "https://wa.me/8618258021911"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "CN",
+            "addressRegion": "Zhejiang",
+            "addressLocality": "Shaoxing",
+            "streetAddress": "2PQV+HX5, Shangyu District"
+        }
+    }
+    </script>
+
+    <!-- Non-JS fallback: redirect crawlers and users without JavaScript -->
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=/en/index.html">
+    </noscript>
+
+    <!-- Browser language detection for real users (fast, no history entry) -->
+    <script>
+        var userLang = navigator.language || navigator.userLanguage;
         var langMap = {
             'fr': '/fr/index.html',
             'es': '/es/index.html',
             'ar': '/ar/index.html'
         };
-        var langCode = userLang.split('-')[0]; // 取前两位
+        var langCode = userLang.split('-')[0];
         var targetUrl = langMap[langCode] || '/en/index.html';
-
-        // 执行跳转
         window.location.replace(targetUrl);
     </script>
 </head>
 <body>
-    <p>Redirecting...</p>
+    <h1>Luda Instruments</h1>
+    <p>Construction materials testing equipment manufacturer since 1996.</p>
+    <p><a href="/en/index.html">Enter English site</a></p>
+    <p><a href="/es/index.html">Sitio en español</a></p>
+    <p><a href="/fr/index.html">Site en français</a></p>
+    <p><a href="/ar/index.html">الموقع بالعربية</a></p>
 </body>
 </html>
