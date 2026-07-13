@@ -289,6 +289,12 @@ if (document.readyState === 'loading') {
     }
 })();
 
+// ========== 自动渲染导航下拉菜单（所有页面共享） ==========
+(function() {
+    if (!window.ludaData || !window.ludaData.categories) return;
+    renderDropdownMenu(window.ludaData.categories, getCurrentLang());
+})();
+
 // ========== 桌面端：下拉菜单显隐 + 子面板延迟消失 ==========
 (function() {
     // 仅在桌面 hover 设备执行
@@ -373,10 +379,4 @@ if (document.readyState === 'loading') {
             this.style.display = 'none';
         });
     });
-})();
-
-// ========== 自动渲染导航下拉菜单（所有页面共享） ==========
-(function() {
-    if (!window.ludaData || !window.ludaData.categories) return;
-    renderDropdownMenu(window.ludaData.categories, getCurrentLang());
 })();

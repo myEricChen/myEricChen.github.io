@@ -24,6 +24,11 @@
         return;
     }
 
+    // Merge detail data (specifications, features, customized) from detail file
+    if (window.ludaData.deviceDetails && window.ludaData.deviceDetails[productId]) {
+        Object.assign(product, window.ludaData.deviceDetails[productId]);
+    }
+
     // 4. 查找所属分类（用于面包屑）
     const category = categories.find(c => c.id === product.category);
     
