@@ -11,34 +11,41 @@ except ImportError:
     print("请安装 json5: pip install json5")
     exit(1)
 
-def parse_js_data(js_path):
-    """从 JS 文件中提取 window.ludaData 对象，返回 categories 和 devices"""
+def parse_js_file(js_path):
+    """从 JS 文件中提取数据数组（支持 window.ludaData.xxx = [...] 格式）"""
     content = Path(js_path).read_text(encoding='utf-8')
-    # 查找 window.ludaData = { ... } 或直接 { ... }
-    match = re.search(r'window\.ludaData\s*=\s*({[\s\S]*?});?\s*$', content)
+    match = re.search(r'window\.ludaData(?:\.(\w+))?\s*=\s*(\[[\s\S]*?\]);?\s*$', content)
     if not match:
-        # 尝试直接找最外层大括号
-        match = re.search(r'({[\s\S]*})', content)
-    if not match:
-        raise ValueError("无法找到 ludaData 对象")
-    obj_str = match.group(1)
-    # 清理尾随逗号
-    obj_str = re.sub(r',\s*}', '}', obj_str)
-    obj_str = re.sub(r',\s*]', ']', obj_str)
-    try:
+        match = re.search(r'window\.ludaData\s*=\s*(\{[\s\S]*?\});?\s*$', content)
+        if not match:
+            match = re.search(r'(\[[\s\S]*?\])', content)
+        if not match:
+            raise ValueError(f"无法找到数据对象: {js_path}")
+        obj_str = match.group(1)
+        obj_str = re.sub(r',\s*}', '}', obj_str)
+        obj_str = re.sub(r',\s*]', ']', obj_str)
         data = json5.loads(obj_str)
-    except Exception as e:
-        print("解析失败，请检查 JS 文件格式")
-        raise e
-    return data.get('categories', []), data.get('devices', [])
+        return data.get('categories', []), data.get('devices', [])
+    key = match.group(1)
+    arr_str = match.group(2)
+    arr_str = re.sub(r',\s*]', ']', arr_str)
+    arr = json5.loads(arr_str)
+    return (key, arr)
 
-def generate_sitemap(categories, devices, base_url='https://www.ludatest.com', languages=['en', 'es', 'fr', 'ar'], lastmod='2025-04-18'):
+
+def parse_js_data(categories_path, devices_path):
+    """从 categories 和 devices JS 文件中提取数据"""
+    cat_key, categories = parse_js_file(categories_path)
+    dev_key, devices = parse_js_file(devices_path)
+    return categories, devices
+
+def generate_sitemap(categories, devices, base_url='https://www.ludatest.com', languages=['en', 'es', 'fr', 'ar'], lastmod='2026-07-13'):
     """生成 sitemap.xml 内容"""
     lines = []
     lines.append('<?xml version="1.0" encoding="UTF-8"?>')
     lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">')
-    
-    # 首页（每个语言）
+
+    # 首页（每个语言，含 hreflang）
     for lang in languages:
         lines.append(f'''
     <url>
@@ -52,7 +59,17 @@ def generate_sitemap(categories, devices, base_url='https://www.ludatest.com', l
         <xhtml:link rel="alternate" hreflang="x-default" href="{base_url}/en/index.html"/>
     </url>
     ''')
-    
+
+    # 产品系列总页（每个语言）
+    for lang in languages:
+        lines.append(f'''
+    <url>
+        <loc>{base_url}/{lang}/products.html</loc>
+        <lastmod>{lastmod}</lastmod>
+        <priority>0.9</priority>
+    </url>
+    ''')
+
     # 产品系列页（每个分类，每个语言）
     for cat in categories:
         cat_id = cat.get('id')
@@ -62,10 +79,11 @@ def generate_sitemap(categories, devices, base_url='https://www.ludatest.com', l
             lines.append(f'''
     <url>
         <loc>{base_url}/{lang}/products.html?category={cat_id}</loc>
+        <lastmod>{lastmod}</lastmod>
         <priority>0.9</priority>
     </url>
     ''')
-    
+
     # 产品详情页（每个设备，每个语言）
     for dev in devices:
         dev_id = dev.get('id')
@@ -75,27 +93,30 @@ def generate_sitemap(categories, devices, base_url='https://www.ludatest.com', l
             lines.append(f'''
     <url>
         <loc>{base_url}/{lang}/product-detail.html?id={dev_id}</loc>
+        <lastmod>{lastmod}</lastmod>
         <priority>0.8</priority>
     </url>
     ''')
-    
+
     # 联系页面（每个语言）
     for lang in languages:
         lines.append(f'''
     <url>
         <loc>{base_url}/{lang}/contact.html</loc>
+        <lastmod>{lastmod}</lastmod>
         <priority>0.7</priority>
     </url>
     ''')
-    
+
     lines.append('</urlset>')
     return '\n'.join(lines)
 
 def main():
-    js_file = r'd:\projects_files\PythonProjects\GithubPages\myEricChen.github.io\data\data-en.js'   # 根据实际路径调整
+    categories_path = r'd:\projects_files\PythonProjects\GithubPages\myEricChen.github.io\data\categories-en.js'
+    devices_path = r'd:\projects_files\PythonProjects\GithubPages\myEricChen.github.io\data\devices-en.js'
     output_file = 'sitemap.xml'
     try:
-        categories, devices = parse_js_data(js_file)
+        categories, devices = parse_js_data(categories_path, devices_path)
         print(f"找到 {len(categories)} 个分类，{len(devices)} 个产品")
         sitemap_content = generate_sitemap(categories, devices)
         Path(output_file).write_text(sitemap_content, encoding='utf-8')

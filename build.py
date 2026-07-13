@@ -126,6 +126,13 @@ def build_subs(translations, lang, page_type, lang_prefix, current_page):
     title = t.get(title_key, 'Luda Instruments')
     meta_description = t.get(desc_key, '')
 
+    # Canonical URL
+    canonical_filename = 'index.html' if page_type == 'home' else f'{page_type.replace("_", "-")}.html'
+    if lang_prefix:
+        canonical_url = f'https://www.ludatest.com{lang_prefix}/{canonical_filename}'
+    else:
+        canonical_url = f'https://www.ludatest.com/en/{canonical_filename}'
+
     return {
         # Language attributes
         'lang': lang,
@@ -136,6 +143,7 @@ def build_subs(translations, lang, page_type, lang_prefix, current_page):
         # Page metadata
         'title': title,
         'meta_description': meta_description,
+        'canonical_url': canonical_url,
 
         # Navigation
         'tagline': t['tagline'],
