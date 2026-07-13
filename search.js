@@ -1,13 +1,5 @@
 (function() {
     // 获取当前语言（用于链接和翻译）
-    function getCurrentLang() {
-        const path = window.location.pathname;
-        const match = path.match(/^\/([a-z]{2})\//);
-        if (match && ['en', 'fr', 'es', 'ar'].includes(match[1])) {
-            return match[1];
-        }
-        return 'en';
-    }
     const lang = getCurrentLang();
 
     // 多语言文本映射
@@ -64,28 +56,6 @@
     document.title = `${t.searchTitle} - Luda Instruments`;
     const searchHeader = document.querySelector('.search-results-header h1');
     if (searchHeader) searchHeader.textContent = t.searchTitle;
-
-    // 渲染下拉菜单（分类 + 子类别）
-    if (window.ludaData && window.ludaData.categories) {
-        const dropdownMenu = document.getElementById('dropdown-menu');
-        if (dropdownMenu) {
-            let html = '';
-            window.ludaData.categories.forEach(cat => {
-                html += `<div class="dropdown-category">`;
-                html += `<a href="/${lang}/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
-                html += `</div>`;
-                if (cat.subcategories && cat.subcategories.length > 0) {
-                    html += `<div class="dropdown-sub-panel">`;
-                    html += `<div class="dropdown-sub-header">${cat.name}</div>`;
-                    cat.subcategories.forEach(sub => {
-                        html += `<a href="/${lang}/products.html?category=${cat.id}&subcategory=${sub.id}" class="dropdown-sub-link">${sub.name}</a>`;
-                    });
-                    html += `</div>`;
-                }
-            });
-            dropdownMenu.innerHTML = html;
-        }
-    }
 
     if (!window.ludaData || !window.ludaData.devices) {
         console.error('Data not found!');

@@ -6,21 +6,6 @@
     }
 
     const { categories, devices } = window.ludaData;
-
-    /**
-     * 从当前页面 URL 中提取语言代码（如 'en', 'fr', 'es', 'ar'）
-     * 假设 URL 格式为 /语言代码/...，例如 /en/products.html
-     * 若无法提取，默认返回 'en'
-     */
-    function getCurrentLang() {
-        const path = window.location.pathname;
-        const match = path.match(/^\/([a-z]{2})\//);
-        if (match && ['en', 'fr', 'es', 'ar'].includes(match[1])) {
-            return match[1];
-        }
-        return 'en'; // 默认语言
-    }
-
     const lang = getCurrentLang();
 
     // 多语言无设备提示
@@ -31,27 +16,7 @@
         ar: 'لا توجد معدات مدرجة في هذه السلسلة حاليًا — تواصل معنا للحصول على حلول مخصصة.'
     };
 
-    // 1. 渲染下拉菜单（分类列表 + 子类别）
-    const dropdown = document.getElementById('dropdown-menu');
-    if (dropdown) {
-        let html = '';
-        categories.forEach(cat => {
-            html += `<div class="dropdown-category">`;
-            html += `<a href="/${lang}/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
-            html += `</div>`;
-            if (cat.subcategories && cat.subcategories.length > 0) {
-                html += `<div class="dropdown-sub-panel">`;
-                html += `<div class="dropdown-sub-header">${cat.name}</div>`;
-                cat.subcategories.forEach(sub => {
-                    html += `<a href="/${lang}/products.html?category=${cat.id}&subcategory=${sub.id}" class="dropdown-sub-link">${sub.name}</a>`;
-                });
-                html += `</div>`;
-            }
-        });
-        dropdown.innerHTML = html;
-    }
-
-    // 2. 获取 URL 参数 category 和 subcategory
+    // 1. 获取 URL 参数 category 和 subcategory
     const urlParams = new URLSearchParams(window.location.search);
     const categoryId = urlParams.get('category');
     const subcategoryId = urlParams.get('subcategory');
@@ -67,7 +32,7 @@
         }
     }
 
-    // 3. 查找当前分类信息
+    // 2. 查找当前分类信息
     const currentCategory = categories.find(c => c.id === categoryId);
     if (!currentCategory) {
         document.getElementById('category-title').textContent = 'Category not found';
@@ -150,7 +115,7 @@
     }
     addBreadcrumbSchema(currentCategory, subcategoryName);
 
-    // 4. 过滤出属于该分类（及子类别）的设备，按 sortWeight 排序
+    // 3. 过滤出属于该分类（及子类别）的设备，按 sortWeight 排序
     const currentcategoryId = currentCategory.id;
     const filteredDevices = devices.filter(dev => {
         if (dev.category !== currentcategoryId) return false;
@@ -158,7 +123,7 @@
         return true;
     }).sort((a, b) => (a.sortWeight || 999) - (b.sortWeight || 999));
 
-    // 5. 渲染设备卡片
+    // 4. 渲染设备卡片
     const container = document.getElementById('products-container');
     if (!container) return;
 

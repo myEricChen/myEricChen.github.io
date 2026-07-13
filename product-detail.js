@@ -6,28 +6,9 @@
     }
 
     const { categories, devices } = window.ludaData;
+    const lang = getCurrentLang();
 
-    // 1. 渲染下拉菜单（分类 + 子类别）
-    const dropdown = document.getElementById('dropdown-menu');
-    if (dropdown) {
-        let html = '';
-        categories.forEach(cat => {
-            html += `<div class="dropdown-category">`;
-            html += `<a href="/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
-            html += `</div>`;
-            if (cat.subcategories && cat.subcategories.length > 0) {
-                html += `<div class="dropdown-sub-panel">`;
-                html += `<div class="dropdown-sub-header">${cat.name}</div>`;
-                cat.subcategories.forEach(sub => {
-                    html += `<a href="/products.html?category=${cat.id}&subcategory=${sub.id}" class="dropdown-sub-link">${sub.name}</a>`;
-                });
-                html += `</div>`;
-            }
-        });
-        dropdown.innerHTML = html;
-    }
-
-    // 2. 获取 URL 参数 id
+    // 1. 获取 URL 参数 id
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get('id');
 
@@ -43,12 +24,12 @@
         return;
     }
 
-    // 4. 查找所属分类（用于面包屑）
-    const category = categories.find(c => c.name === product.category);
-    
-    // 5. 更新面包屑
+    // 2. 查找所属分类（用于面包屑）
+    const category = categories.find(c => c.id === product.category);
+
+    // 3. 更新面包屑
     document.getElementById('breadcrumb-category').textContent = category ? category.name : product.category;
-    document.getElementById('breadcrumb-category').href = `/products.html?category=${category ? category.id : ''}`;
+    document.getElementById('breadcrumb-category').href = '/' + lang + '/products.html?category=' + (category ? category.id : '');
     document.getElementById('breadcrumb-product').textContent = product.name;
 
     // ========== 新增：动态设置 meta description ==========

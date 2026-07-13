@@ -13,44 +13,9 @@
     }
 
     const { categories } = window.ludaData;
-
-    /**
-     * 从当前页面 URL 中提取语言代码（如 'en', 'fr', 'es', 'ar'）
-     * 假设 URL 格式为 /语言代码/...，例如 /en/index.html
-     * 若无法提取，默认返回 'en'
-     */
-    function getCurrentLang() {
-        const path = window.location.pathname;
-        const match = path.match(/^\/([a-z]{2})\//);
-        if (match && ['en', 'fr', 'es', 'ar'].includes(match[1])) {
-            return match[1];
-        }
-        return 'en'; // 默认语言
-    }
-
     const lang = getCurrentLang();
 
-    // 1. 渲染下拉菜单（分类列表 + 子类别）
-    const dropdown = document.getElementById('dropdown-menu');
-    if (dropdown) {
-        let html = '';
-        categories.forEach(cat => {
-            html += `<div class="dropdown-category">`;
-            html += `<a href="/${lang}/products.html?category=${cat.id}" class="dropdown-category-title">${cat.name} <span class="dropdown-arrow">›</span></a>`;
-            html += `</div>`;
-            if (cat.subcategories && cat.subcategories.length > 0) {
-                html += `<div class="dropdown-sub-panel">`;
-                html += `<div class="dropdown-sub-header">${cat.name}</div>`;
-                cat.subcategories.forEach(sub => {
-                    html += `<a href="/${lang}/products.html?category=${cat.id}&subcategory=${sub.id}" class="dropdown-sub-link">${sub.name}</a>`;
-                });
-                html += `</div>`;
-            }
-        });
-        dropdown.innerHTML = html;
-    }
-
-    // 2. 渲染产品分类卡片（首页产品系列）
+    // 1. 渲染产品分类卡片（首页产品系列）
     const container = document.getElementById('categories-container');
     if (container && categories.length) {
         let html = '';
@@ -67,7 +32,7 @@
         container.innerHTML = html;
     }
 
-    // 3. Banner 轮播控制（无需修改，因为轮播逻辑不依赖路径）
+    // 2. Banner 轮播控制
     const slides = document.querySelectorAll('.slide');
     const dots = document.querySelectorAll('.dot');
     let currentSlide = 0;

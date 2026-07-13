@@ -6,6 +6,37 @@
  * @FilePath: \myEricChen.github.io\common.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
+// ========== 共享函数：从 URL 路径提取当前语言 ==========
+function getCurrentLang() {
+    const path = window.location.pathname;
+    const match = path.match(/^\/([a-z]{2})\//);
+    if (match && ['en', 'fr', 'es', 'ar'].includes(match[1])) {
+        return match[1];
+    }
+    return 'en';
+}
+
+// ========== 共享函数：渲染导航下拉菜单 ==========
+function renderDropdownMenu(categories, lang) {
+    const dropdown = document.getElementById('dropdown-menu');
+    if (!dropdown) return;
+    let html = '';
+    categories.forEach(function(cat) {
+        html += '<div class="dropdown-category">';
+        html += '<a href="/' + lang + '/products.html?category=' + cat.id + '" class="dropdown-category-title">' + cat.name + ' <span class="dropdown-arrow">›</span></a>';
+        html += '</div>';
+        if (cat.subcategories && cat.subcategories.length > 0) {
+            html += '<div class="dropdown-sub-panel">';
+            html += '<div class="dropdown-sub-header">' + cat.name + '</div>';
+            cat.subcategories.forEach(function(sub) {
+                html += '<a href="/' + lang + '/products.html?category=' + cat.id + '&subcategory=' + sub.id + '" class="dropdown-sub-link">' + sub.name + '</a>';
+            });
+            html += '</div>';
+        }
+    });
+    dropdown.innerHTML = html;
+}
+
 // 公共功能：移动端下拉菜单处理
 (function() {
     // 判断是否为触摸设备
@@ -342,4 +373,10 @@ if (document.readyState === 'loading') {
             this.style.display = 'none';
         });
     });
+})();
+
+// ========== 自动渲染导航下拉菜单（所有页面共享） ==========
+(function() {
+    if (!window.ludaData || !window.ludaData.categories) return;
+    renderDropdownMenu(window.ludaData.categories, getCurrentLang());
 })();
