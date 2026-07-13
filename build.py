@@ -133,6 +133,10 @@ def build_subs(translations, lang, page_type, lang_prefix, current_page):
     else:
         canonical_url = f'https://www.ludatest.com/en/{canonical_filename}'
 
+    # Open Graph locale
+    locale_map = {'en': 'en_US', 'es': 'es_ES', 'fr': 'fr_FR', 'ar': 'ar_SA'}
+    og_locale = locale_map.get(lang, 'en_US')
+
     return {
         # Language attributes
         'lang': lang,
@@ -144,6 +148,7 @@ def build_subs(translations, lang, page_type, lang_prefix, current_page):
         'title': title,
         'meta_description': meta_description,
         'canonical_url': canonical_url,
+        'og_locale': og_locale,
 
         # Navigation
         'tagline': t['tagline'],
