@@ -359,7 +359,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%,50-60Hz"
+            "value": "AC380V±10%,50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -460,7 +460,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%,50-60Hz"
+            "value": "AC380V±10%,50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -578,7 +578,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%,50-60Hz"
+            "value": "AC380V±10%,50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -696,7 +696,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%,50-60Hz"
+            "value": "AC380V±10%,50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -814,7 +814,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%,50-60Hz"
+            "value": "AC380V±10%,50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -932,7 +932,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%,50-60Hz"
+            "value": "AC380V±10%,50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -1050,7 +1050,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%,50-60Hz"
+            "value": "AC380V±10%,50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -2286,7 +2286,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Fuente de alimentación",
-            "value": "AC380V±10%, 50-60Hz"
+            "value": "AC380V±10%, 50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -2382,7 +2382,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Fuente de alimentación",
-            "value": "AC380V±10%, 50-60Hz"
+            "value": "AC380V±10%, 50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -2475,7 +2475,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Fuente de alimentación",
-            "value": "AC380V,50-60Hz"
+            "value": "AC380V,50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -2568,7 +2568,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Fuente de alimentación",
-            "value": "AC380V,50-60Hz"
+            "value": "AC380V,50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones de la unidad principal (mm)",
@@ -2661,7 +2661,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%, 50-60Hz"
+            "value": "AC380V±10%, 50-60Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones generales",
@@ -2987,7 +2987,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Fuente de alimentación",
-            "value": "380V(±10%),0.55kW"
+            "value": "380V(±10%),0.55kW (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones",
@@ -3074,7 +3074,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%, 0.55kW"
+            "value": "AC380V±10%, 0.55kW (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones",
@@ -3152,7 +3152,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones",
@@ -3237,7 +3237,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones del mainframe",
@@ -3356,7 +3356,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje de la fuente de alimentación",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           }
         ],
         "hasManual": false,
@@ -3566,7 +3566,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Fuente de alimentación",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Potencia nominal",
@@ -3672,7 +3672,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje de funcionamiento del ordenador central",
-            "value": "380V±10V,8000W"
+            "value": "380V±10V,8000W (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Voltaje de funcionamiento del instrumento",
@@ -3755,7 +3755,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "380V±10%"
+            "value": "380V±10% (Personalizable a otro voltaje/frecuencia)"
           }
         ],
         "hasManual": false,
@@ -4012,7 +4012,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "380V, 3L1N"
+            "value": "380V, 3L1N (Personalizable a otro voltaje/frecuencia)"
           }
         ],
         "hasManual": false,
@@ -4805,7 +4805,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones",
@@ -5003,7 +5003,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           }
         ],
         "hasManual": false,
@@ -5042,7 +5042,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje/Potencia del motor",
-            "value": "380V/0.75KW"
+            "value": "380V/0.75KW (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Presión nominal de la bomba de aceite",
@@ -5105,7 +5105,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje/Potencia del motor",
-            "value": "380V/0.75KW"
+            "value": "380V/0.75KW (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Presión nominal de la bomba de aceite",
@@ -5183,7 +5183,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Fuente de alimentación",
-            "value": "AC380V±10%,0.37kW"
+            "value": "AC380V±10%,0.37kW (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Revolución del motor",
@@ -5390,7 +5390,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%, 50Hz"
+            "value": "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones",
@@ -5473,7 +5473,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%, 50Hz"
+            "value": "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones",
@@ -5782,7 +5782,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "380V with zero wire"
+            "value": "380V with zero wire (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones del estudio",
@@ -5846,7 +5846,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "380V with zero wire"
+            "value": "380V with zero wire (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones del estudio",
@@ -5954,7 +5954,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión nominal",
-            "value": "380V"
+            "value": "380V (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Temperatura nominal",
@@ -6120,7 +6120,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión nominal",
-            "value": "380V"
+            "value": "380V (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Temperatura nominal",
@@ -6174,7 +6174,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión nominal",
-            "value": "380V"
+            "value": "380V (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Temperatura nominal",
@@ -6594,7 +6594,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones generales",
@@ -6689,7 +6689,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones generales",
@@ -6784,7 +6784,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones generales",
@@ -6988,7 +6988,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Tama?o de estudio",
@@ -7067,7 +7067,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones",
@@ -7523,7 +7523,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones",
@@ -7588,7 +7588,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Voltaje",
-            "value": "AC380V±10%"
+            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones",
@@ -8524,7 +8524,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%, 50Hz"
+            "value": "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones generales (mm)",
@@ -8614,7 +8614,7 @@ window.ludaData.devices = [
           },
           {
             "label": "Tensión de alimentación",
-            "value": "AC380V±10%, 50Hz"
+            "value": "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)"
           },
           {
             "label": "Dimensiones generales (mm)",

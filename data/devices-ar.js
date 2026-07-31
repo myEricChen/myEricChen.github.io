@@ -362,7 +362,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد التغذية",
-            value: "AC380V±10%,50-60Hz"
+            value: "AC380V±10%,50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -463,7 +463,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد التغذية",
-            value: "AC380V±10%,50-60Hz"
+            value: "AC380V±10%,50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -581,7 +581,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد التغذية",
-            value: "AC380V±10%,50-60Hz"
+            value: "AC380V±10%,50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -699,7 +699,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد التغذية",
-            value: "AC380V±10%,50-60Hz"
+            value: "AC380V±10%,50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -817,7 +817,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد التغذية",
-            value: "AC380V±10%,50-60Hz"
+            value: "AC380V±10%,50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -935,7 +935,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد التغذية",
-            value: "AC380V±10%,50-60Hz"
+            value: "AC380V±10%,50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -1053,7 +1053,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد التغذية",
-            value: "AC380V±10%,50-60Hz"
+            value: "AC380V±10%,50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -2286,7 +2286,7 @@ window.ludaData.devices = [
           },
           {
             label: "مزود الطاقة",
-            value: "AC380V±10%, 50-60Hz"
+            value: "AC380V±10%, 50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -2382,7 +2382,7 @@ window.ludaData.devices = [
           },
           {
             label: "مزود الطاقة",
-            value: "AC380V±10%, 50-60Hz"
+            value: "AC380V±10%, 50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -2475,7 +2475,7 @@ window.ludaData.devices = [
           },
           {
             label: "مزود الطاقة",
-            value: "AC380V,50-60Hz"
+            value: "AC380V,50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -2568,7 +2568,7 @@ window.ludaData.devices = [
           },
           {
             label: "مزود الطاقة",
-            value: "AC380V,50-60Hz"
+            value: "AC380V,50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الوحدة الرئيسية (مم)",
@@ -2661,7 +2661,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد مصدر الطاقة",
-            value: "AC380V±10%, 50-60Hz"
+            value: "AC380V±10%, 50-60Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "الأبعاد الكلية",
@@ -2987,7 +2987,7 @@ window.ludaData.devices = [
           },
           {
             label: "مزود الطاقة",
-            value: "380V(±10%),0.55kW"
+            value: "380V(±10%),0.55kW (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد",
@@ -3074,7 +3074,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد مصدر الطاقة",
-            value: "AC380V±10%, 0.55kW"
+            value: "AC380V±10%, 0.55kW (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد",
@@ -3152,7 +3152,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد مصدر الطاقة",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد",
@@ -3237,7 +3237,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد مصدر الطاقة",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الحاسوب المركزي",
@@ -3356,7 +3356,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد مصدر الطاقة",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           }
         ],
         hasManual: false,
@@ -3566,7 +3566,7 @@ window.ludaData.devices = [
           },
           {
             label: "مزود الطاقة",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "القدرة المقدرة",
@@ -3672,7 +3672,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد تشغيل الحاسوب المركزي",
-            value: "380V±10V,8000W"
+            value: "380V±10V,8000W (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "جهد تشغيل الجهاز",
@@ -3755,7 +3755,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "380V±10%"
+            value: "380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           }
         ],
         hasManual: false,
@@ -4012,7 +4012,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد مصدر الطاقة",
-            value: "380V, 3L1N"
+            value: "380V, 3L1N (قابل للتخصيص لجهد/تردد آخر)"
           }
         ],
         hasManual: false,
@@ -4805,7 +4805,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد",
@@ -5003,7 +5003,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           }
         ],
         hasManual: false,
@@ -5042,7 +5042,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد/طاقة المحرك",
-            value: "380V/0.75KW"
+            value: "380V/0.75KW (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "ضغط التشغيل المقنن لمضخة الزيت",
@@ -5105,7 +5105,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد/طاقة المحرك",
-            value: "380V/0.75KW"
+            value: "380V/0.75KW (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "ضغط التشغيل المقنن لمضخة الزيت",
@@ -5183,7 +5183,7 @@ window.ludaData.devices = [
           },
           {
             label: "مزود الطاقة",
-            value: "AC380V±10%,0.37kW"
+            value: "AC380V±10%,0.37kW (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "ثورة المحركات",
@@ -5390,7 +5390,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%, 50Hz"
+            value: "AC380V±10%, 50Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد",
@@ -5473,7 +5473,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%, 50Hz"
+            value: "AC380V±10%, 50Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد",
@@ -5782,7 +5782,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "380V with zero wire"
+            value: "380V with zero wire (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الاستوديو",
@@ -5846,7 +5846,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "380V with zero wire"
+            value: "380V with zero wire (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد الاستوديو",
@@ -5954,7 +5954,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد المقنن",
-            value: "380V"
+            value: "380V (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "درجة الحرارة المقدرة",
@@ -6120,7 +6120,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد المقنن",
-            value: "380V"
+            value: "380V (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "درجة الحرارة المقدرة",
@@ -6174,7 +6174,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد المقنن",
-            value: "380V"
+            value: "380V (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "درجة الحرارة المقدرة",
@@ -6594,7 +6594,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "الأبعاد الكلية",
@@ -6689,7 +6689,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "الأبعاد الكلية",
@@ -6784,7 +6784,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "الأبعاد الكلية",
@@ -6988,7 +6988,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "حجم الاستوديو",
@@ -7067,7 +7067,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد التغذية",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد",
@@ -7523,7 +7523,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد",
@@ -7588,7 +7588,7 @@ window.ludaData.devices = [
           },
           {
             label: "الجهد االكهربى",
-            value: "AC380V±10%"
+            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "أبعاد",
@@ -8524,7 +8524,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد مصدر الطاقة",
-            value: "AC380V±10%, 50Hz"
+            value: "AC380V±10%, 50Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "الأبعاد الكلية (مم)",
@@ -8614,7 +8614,7 @@ window.ludaData.devices = [
           },
           {
             label: "جهد مصدر الطاقة",
-            value: "AC380V±10%, 50Hz"
+            value: "AC380V±10%, 50Hz (قابل للتخصيص لجهد/تردد آخر)"
           },
           {
             label: "الأبعاد الكلية (مم)",
