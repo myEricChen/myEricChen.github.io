@@ -77,7 +77,7 @@ window.ludaData.deviceDetails = {
         value: "1000×800×2200mm (W×D×H)",
       },
       {
-        label: "Mainframe Weight",
+        label: "Main Frame Weight",
         value: "1000kg",
       },
     ],
@@ -105,11 +105,11 @@ window.ludaData.deviceDetails = {
         value: "620",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0～15",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "20～40, 40～60",
       },
       {
@@ -137,7 +137,7 @@ window.ludaData.deviceDetails = {
         value: "1.8",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "945×630×2100",
       },
       {
@@ -145,7 +145,7 @@ window.ludaData.deviceDetails = {
         value: "700×520×1630",
       },
       {
-        label: "Overall weight(kg)",
+        label: "Weight (kg)",
         value: "2000",
       },
     ],
@@ -174,7 +174,7 @@ window.ludaData.deviceDetails = {
         value: "670",
       },
       {
-        label: "Cylinder Sample Diameter Range (mm) (mm)",
+        label: "Cylinder Sample Diameter Range (mm)",
         value: "Φ13~Φ26,Φ26~Φ40",
       },
       {
@@ -182,7 +182,7 @@ window.ludaData.deviceDetails = {
         value: "0~15",
       },
       {
-        label: "Sample clamping width(mm)",
+        label: "Sample clamping width ((mm)",
         value: "110",
       },
       {
@@ -194,7 +194,7 @@ window.ludaData.deviceDetails = {
         value: "500",
       },
       {
-        label: "Motor power(kW)",
+        label: "Motor power ((kW)",
         value: "2.3",
       },
       {
@@ -202,7 +202,7 @@ window.ludaData.deviceDetails = {
         value: "AC220V±10%,50-60Hz",
       },
       {
-        label: "Dimensions of machine(mm)",
+        label: "Dimensions of machine ((mm)",
         value: "1440×580×2200",
       },
       {
@@ -235,7 +235,7 @@ window.ludaData.deviceDetails = {
         value: "690",
       },
       {
-        label: "Cylinder Sample Diameter Range (mm) (mm)",
+        label: "Cylinder Sample Diameter Range (mm)",
         value: "Φ14~Φ45",
       },
       {
@@ -243,7 +243,7 @@ window.ludaData.deviceDetails = {
         value: "0~40",
       },
       {
-        label: "Sample clamping width(mm)",
+        label: "Sample clamping width ((mm)",
         value: "110",
       },
       {
@@ -255,7 +255,7 @@ window.ludaData.deviceDetails = {
         value: "500",
       },
       {
-        label: "Motor power(kW)",
+        label: "Motor power ((kW)",
         value: "2.3",
       },
       {
@@ -263,7 +263,7 @@ window.ludaData.deviceDetails = {
         value: "AC220V±10%,50-60Hz",
       },
       {
-        label: "Dimensions of machine(mm)",
+        label: "Dimensions of machine ((mm)",
         value: "1570×970×2280",
       },
       {
@@ -336,7 +336,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10%,50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "1050×710×2910",
       },
       {
@@ -413,7 +413,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10%,50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "1050×710×2910",
       },
       {
@@ -462,11 +462,11 @@ window.ludaData.deviceDetails = {
         value: "480",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0-15",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "10-20",
       },
       {
@@ -474,15 +474,15 @@ window.ludaData.deviceDetails = {
         value: "180",
       },
       {
-        label: "Upper pressure plate size(mm)",
+        label: "Upper pressure plate size ((mm)",
         value: "Φ180",
       },
       {
-        label: "Lower pressure plate size(mm)",
+        label: "Lower pressure plate size ((mm)",
         value: "Φ180",
       },
       {
-        label: "Distance between the two columns of the pulling and pressing space(mm)",
+        label: "Distance between the two columns of the tension and compression space (mm)",
         value: "380",
       },
       {
@@ -502,7 +502,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10%,50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "730×600×1750",
       },
       {
@@ -510,7 +510,7 @@ window.ludaData.deviceDetails = {
         value: "700×520×1630",
       },
       {
-        label: "Weight(kg)",
+        label: "Weight ((kg)",
         value: "1500",
       },
     ],
@@ -551,11 +551,11 @@ window.ludaData.deviceDetails = {
         value: "480",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0-15",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "10-20 、20-32",
       },
       {
@@ -563,15 +563,15 @@ window.ludaData.deviceDetails = {
         value: "180",
       },
       {
-        label: "Upper pressure plate size(mm)",
+        label: "Upper pressure plate size ((mm)",
         value: "Φ180",
       },
       {
-        label: "Lower pressure plate size(mm)",
+        label: "Lower pressure plate size ((mm)",
         value: "Φ180",
       },
       {
-        label: "Distance between the two columns of the pulling and pressing space(mm)",
+        label: "Distance between the two columns of the tension and compression space (mm)",
         value: "400",
       },
       {
@@ -591,7 +591,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10%,50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "730×600×1840",
       },
       {
@@ -599,7 +599,7 @@ window.ludaData.deviceDetails = {
         value: "700×520×1630",
       },
       {
-        label: "Weight(kg)",
+        label: "Weight ((kg)",
         value: "1700",
       },
     ],
@@ -640,11 +640,11 @@ window.ludaData.deviceDetails = {
         value: "620",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0-15",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "13-26 、26-40",
       },
       {
@@ -652,15 +652,15 @@ window.ludaData.deviceDetails = {
         value: "180",
       },
       {
-        label: "Upper pressure plate size(mm)",
+        label: "Upper pressure plate size ((mm)",
         value: "Φ180",
       },
       {
-        label: "Lower pressure plate size(mm)",
+        label: "Lower pressure plate size ((mm)",
         value: "Φ180",
       },
       {
-        label: "Distance between the two columns of the pulling and pressing space(mm)",
+        label: "Distance between the two columns of the tension and compression space (mm)",
         value: "400",
       },
       {
@@ -680,7 +680,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10%,50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "890×590×2070",
       },
       {
@@ -688,7 +688,7 @@ window.ludaData.deviceDetails = {
         value: "700×520×1630",
       },
       {
-        label: "Weight(kg)",
+        label: "Weight ((kg)",
         value: "2400",
       },
     ],
@@ -729,11 +729,11 @@ window.ludaData.deviceDetails = {
         value: "620",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0-15",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "14-32 、30-50",
       },
       {
@@ -741,15 +741,15 @@ window.ludaData.deviceDetails = {
         value: "180",
       },
       {
-        label: "Upper pressure plate size(mm)",
+        label: "Upper pressure plate size ((mm)",
         value: "Φ220",
       },
       {
-        label: "Lower pressure plate size(mm)",
+        label: "Lower pressure plate size ((mm)",
         value: "Φ230",
       },
       {
-        label: "Distance between the two columns of the pulling and pressing space(mm)",
+        label: "Distance between the two columns of the tension and compression space (mm)",
         value: "450",
       },
       {
@@ -769,7 +769,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10%,50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "945×635×2100",
       },
       {
@@ -777,7 +777,7 @@ window.ludaData.deviceDetails = {
         value: "700×520×1630",
       },
       {
-        label: "Weight(kg)",
+        label: "Weight ((kg)",
         value: "2800",
       },
     ],
@@ -818,11 +818,11 @@ window.ludaData.deviceDetails = {
         value: "720",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0-40",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "20-40、40-60",
       },
       {
@@ -830,15 +830,15 @@ window.ludaData.deviceDetails = {
         value: "250",
       },
       {
-        label: "Upper pressure plate size(mm)",
+        label: "Upper pressure plate size ((mm)",
         value: "Φ220",
       },
       {
-        label: "Lower pressure plate size(mm)",
+        label: "Lower pressure plate size ((mm)",
         value: "Φ230",
       },
       {
-        label: "Distance between the two columns of the pulling and pressing space(mm)",
+        label: "Distance between the two columns of the tension and compression space (mm)",
         value: "570",
       },
       {
@@ -858,7 +858,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10%,50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "1200×800×2940",
       },
       {
@@ -866,7 +866,7 @@ window.ludaData.deviceDetails = {
         value: "700×520×1630",
       },
       {
-        label: "Weight(kg)",
+        label: "Weight ((kg)",
         value: "3500",
       },
     ],
@@ -894,11 +894,11 @@ window.ludaData.deviceDetails = {
         value: "480",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0～15",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "10～20",
       },
       {
@@ -926,7 +926,7 @@ window.ludaData.deviceDetails = {
         value: "1.3",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "730×600×1750",
       },
       {
@@ -934,7 +934,7 @@ window.ludaData.deviceDetails = {
         value: "530×500×1270",
       },
       {
-        label: "Overall weight(kg)",
+        label: "Weight (kg)",
         value: "1500",
       },
     ],
@@ -962,11 +962,11 @@ window.ludaData.deviceDetails = {
         value: "480",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0～15",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "10～20、20～32",
       },
       {
@@ -994,7 +994,7 @@ window.ludaData.deviceDetails = {
         value: "1.3",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "730×600×1840",
       },
       {
@@ -1002,7 +1002,7 @@ window.ludaData.deviceDetails = {
         value: "530×500×1270",
       },
       {
-        label: "Overall weight(kg)",
+        label: "Weight (kg)",
         value: "1700",
       },
     ],
@@ -1030,11 +1030,11 @@ window.ludaData.deviceDetails = {
         value: "620",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0～15",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "13～26、26～40",
       },
       {
@@ -1062,7 +1062,7 @@ window.ludaData.deviceDetails = {
         value: "1.8",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "890×590×2070",
       },
       {
@@ -1070,7 +1070,7 @@ window.ludaData.deviceDetails = {
         value: "530×500×1270",
       },
       {
-        label: "Overall weight(kg)",
+        label: "Weight (kg)",
         value: "2400",
       },
     ],
@@ -1098,11 +1098,11 @@ window.ludaData.deviceDetails = {
         value: "720",
       },
       {
-        label: "Flat specimen clamping thickness(mm)",
+        label: "Flat specimen clamping thickness ((mm)",
         value: "0～40",
       },
       {
-        label: "Round specimen clamping diameter(mm)",
+        label: "Round specimen clamping diameter ((mm)",
         value: "20～40、40～60",
       },
       {
@@ -1130,7 +1130,7 @@ window.ludaData.deviceDetails = {
         value: "1.8",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "1200×800×2940",
       },
       {
@@ -1138,7 +1138,7 @@ window.ludaData.deviceDetails = {
         value: "530×500×1270",
       },
       {
-        label: "Overall weight(kg)",
+        label: "Weight (kg)",
         value: "3500",
       },
     ],
@@ -1204,7 +1204,7 @@ window.ludaData.deviceDetails = {
         value: "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "1000×800×2200",
       },
       {
@@ -1212,7 +1212,7 @@ window.ludaData.deviceDetails = {
         value: "220V±10%, 2000W",
       },
       {
-        label: "Mainframe weight",
+        label: "Main Frame Weight",
         value: "About 760kg",
       },
     ],
@@ -1278,7 +1278,7 @@ window.ludaData.deviceDetails = {
         value: "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "900×500×1900",
       },
       {
@@ -1286,7 +1286,7 @@ window.ludaData.deviceDetails = {
         value: "220V±10%, 750W",
       },
       {
-        label: "Mainframe weight About",
+        label: "Main Frame Weight (approx.)",
         value: "230kg",
       },
     ],
@@ -1352,7 +1352,7 @@ window.ludaData.deviceDetails = {
         value: "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "800×450×1600",
       },
       {
@@ -1360,7 +1360,7 @@ window.ludaData.deviceDetails = {
         value: "220V±10%, 400W",
       },
       {
-        label: "Mainframe weight About",
+        label: "Main Frame Weight (approx.)",
         value: "190kg",
       },
     ],
@@ -1426,7 +1426,7 @@ window.ludaData.deviceDetails = {
         value: "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "800×450×1600",
       },
       {
@@ -1434,7 +1434,7 @@ window.ludaData.deviceDetails = {
         value: "220V±10%, 400W",
       },
       {
-        label: "Mainframe weight About",
+        label: "Main Frame Weight (approx.)",
         value: "190kg",
       },
     ],
@@ -1454,7 +1454,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Maximum load",
-        value: "5KN",
+        value: "5 kN",
       },
       {
         label: "Load Measurement Accuracy",
@@ -1497,11 +1497,11 @@ window.ludaData.deviceDetails = {
         value: "220V±10%,0.4kW",
       },
       {
-        label: "Dimension of main machine",
+        label: "Main Frame Dimensions",
         value: "600×380×1500mm",
       },
       {
-        label: "Weight About",
+        label: "Weight (approx.)",
         value: "80kg",
       },
     ],
@@ -1529,7 +1529,7 @@ window.ludaData.deviceDetails = {
         value: "320",
       },
       {
-        label: "Compression plate size(mm)",
+        label: "Compression plate size ((mm)",
         value: "Φ300(Upper) Φ300(Lower)",
       },
       {
@@ -1553,7 +1553,7 @@ window.ludaData.deviceDetails = {
         value: "AC220V±10%, 60Hz",
       },
       {
-        label: "Main unit dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "580×500×1400",
       },
       {
@@ -1561,7 +1561,7 @@ window.ludaData.deviceDetails = {
         value: "560×550×1310",
       },
       {
-        label: "Weight(kg)",
+        label: "Weight ((kg)",
         value: "900",
       },
     ],
@@ -1617,7 +1617,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Dimensions",
-        value: "1100x510x1510mm",
+        value: "1100×510×1510mm",
       },
       {
         label: "Weight",
@@ -1676,7 +1676,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Dimensions",
-        value: "1250x550x1510mm",
+        value: "1250×550×1510mm",
       },
       {
         label: "Weight",
@@ -1737,7 +1737,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10%, 50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "580×500×1400",
       },
       {
@@ -1803,7 +1803,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10%, 50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "550×650×1750",
       },
       {
@@ -1867,7 +1867,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V,50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "580×500×1400",
       },
       {
@@ -1931,7 +1931,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V,50-60Hz (Customizable to other voltage/frequency)",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "550×560×1750",
       },
       {
@@ -2137,7 +2137,7 @@ window.ludaData.deviceDetails = {
         value: "±0.1%",
       },
       {
-        label: "The  relative  resolution of the force value display device of the test machine",
+        label: "The relative resolution of the force value display device of the test machine",
         value: "0.5%",
       },
       {
@@ -2411,7 +2411,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10% (Customizable to other voltage/frequency)",
       },
       {
-        label: "Mainframe Dimensions",
+        label: "Main Frame Dimensions",
         value: "1400×1200×1400mm",
       },
       {
@@ -2444,7 +2444,7 @@ window.ludaData.deviceDetails = {
         value: "±1%",
       },
       {
-        label: "Initial Load  after Placing the Sleeper",
+        label: "Initial Load after Placing the Sleeper",
         value: "<20kN",
       },
       {
@@ -2476,7 +2476,7 @@ window.ludaData.deviceDetails = {
         value: "Distance between Four Columns: 820, 900mm",
       },
       {
-        label: "Mainframe Dimensions",
+        label: "Main Frame Dimensions",
         value: "1720×990×2266mm",
       },
       {
@@ -2543,15 +2543,15 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Loading speed",
-        value: "0.01-40 mm/mincan be set arbitrarily",
+        value: "0.01-40 mm/min, can be set arbitrarily",
       },
       {
         label: "Screw Stroke",
         value: "100mm",
       },
       {
-        label: "Test  Space",
-        value: "2200mm(the maximum stretching distance  between the left and right chucks)",
+        label: "Test Space",
+        value: "2200 mm (maximum stretching distance between the left and right grips)",
       },
       {
         label: "Power Supply",
@@ -2602,11 +2602,11 @@ window.ludaData.deviceDetails = {
         value: "2kW",
       },
       {
-        label: "Machine Shape",
+        label: "Machine Dimensions",
         value: "1300×900×1200 (mm)",
       },
       {
-        label: "Machine Weight",
+        label: "Weight",
         value: "2000kg",
       },
     ],
@@ -2643,11 +2643,11 @@ window.ludaData.deviceDetails = {
         value: "＞600mm",
       },
       {
-        label: "Positive bending core",
+        label: "Positive bending mandrel",
         value: "Φ6、Φ8、Φ10、Φ12、Φ14、Φ16、Φ18、Φ20、Φ24、Φ32、Φ40、Φ48、Φ56、Φ64、Φ72、Φ80、Φ88、Φ100、Φ140、Φ160、Φ180、Φ200mm",
       },
       {
-        label: "Reverse bending core",
+        label: "Reverse bending mandrel",
         value: "Φ40、Φ50、Φ60、Φ70、Φ80、Φ84、Φ90、Φ100、Φ110、Φ125、Φ168、Φ192、Φ216、Φ240mm",
       },
       {
@@ -2659,11 +2659,11 @@ window.ludaData.deviceDetails = {
         value: "3000W",
       },
       {
-        label: "Machine Shape",
+        label: "Machine Dimensions",
         value: "1760×700×2160mm",
       },
       {
-        label: "Equipment Weight",
+        label: "Weight",
         value: "750kg",
       },
     ],
@@ -2688,7 +2688,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Indication Error",
-        value: "±1%kN",
+        value: "±1%",
       },
       {
         label: "Display Mode",
@@ -2710,7 +2710,7 @@ window.ludaData.deviceDetails = {
     ],
     specifications: [
       {
-        label: "Working room size",
+        label: "Working Chamber Size",
         value: "360mm×400mm×300mm",
       },
       {
@@ -2727,7 +2727,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Combustion chamber maximum operating temperature",
-        value: "800° C",
+        value: "800°C",
       },
       {
         label: "Maximum sample weight",
@@ -2788,7 +2788,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Rolling speed of roller",
-        value: "42±0.5 times/ min (one way)",
+        value: "42±0.5 times/min (one way)",
       },
       {
         label: "Test trolley movement distance",
@@ -2796,14 +2796,14 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Roller and rubber hardness (international standard hardness)",
-        value: "80IRHD±5IRHD(in 23℃)",
+        value: "80IRHD±5IRHD(in 23°C)",
       },
       {
         label: "Contact pressure between roller and test die",
         value: "0.7±0.03MPa (60° C), adjustable to 0.8-0.9MPa",
       },
       {
-        label: "Trial mold size",
+        label: "Test mold size",
         value: "300×300×50 (standard), which can be used for rutting test on specimens with a thickness of 30-100mm(Can be customized upon request)",
       },
       {
@@ -2815,8 +2815,8 @@ window.ludaData.deviceDetails = {
         value: "Usually 60min",
       },
       {
-        label: "The temperature control range in the incubator (can be set arbitrarily)",
-        value: "Room temperature 60℃, control accuracy ± 0.5℃",
+        label: "The temperature control range in the chamber (can be set arbitrarily)",
+        value: "Room temperature 60°C, control accuracy ± 0.5°C",
       },
       {
         label: "Overall dimensions of the whole machine",
@@ -2835,7 +2835,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Test temperature",
-        value: "2~50℃  (adjust by yourself according to actual needs)",
+        value: "2~50°C  (adjust by yourself according to actual needs)",
       },
       {
         label: "Heating power",
@@ -2878,7 +2878,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Relative Humidity",
-        value: "≤85%RH",
+        value: "≤85% RH",
       },
       {
         label: "Working power supply",
@@ -2909,7 +2909,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Heating pot temperature range",
-        value: "Room temperature~200 ℃ (arbitrary setting)",
+        value: "Room temperature~200 °C (arbitrary setting)",
       },
       {
         label: "Temperature control accuracy",
@@ -2996,7 +2996,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Usage Environment",
-        value: "Temperature 10~40℃, relative humidity ≤80%, no vibration and no corrosive or flammable gas",
+        value: "Temperature 10~40°C, relative humidity ≤80%, no vibration and no corrosive or flammable gas",
       },
       {
         label: "Working temperature",
@@ -3008,11 +3008,11 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Temperature range",
-        value: "50～200℃",
+        value: "50～200°C",
       },
       {
         label: "Temperature fluctuation",
-        value: "±1℃",
+        value: "±1°C",
       },
       {
         label: "Disc rack speed",
@@ -3023,7 +3023,7 @@ window.ludaData.deviceDetails = {
         value: "360mm",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "450×450×450mm",
       },
       {
@@ -3060,7 +3060,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Fan",
-        value: "Squirrel cage",
+        value: "Squirrel-cage fan",
       },
       {
         label: "Fan speed",
@@ -3075,12 +3075,12 @@ window.ludaData.deviceDetails = {
         value: "1±0.1mm",
       },
       {
-        label: "Sample bottle size (opening diameter × bottle diameter × overal height)",
+        label: "Sample bottle size (opening diameter × bottle diameter × overall height)",
         value: "Φ31.75×Φ64×139.7 mm",
       },
       {
-        label: "Rotary brick number",
-        value: "15±0.2r/ min",
+        label: "Rotary disc speed",
+        value: "15±0.2 r/min",
       },
       {
         label: "The number of sample bottles that can be loaded",
@@ -3095,7 +3095,7 @@ window.ludaData.deviceDetails = {
         value: "AC220V±10%",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "450×483×381mm",
       },
       {
@@ -3120,18 +3120,18 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Temperature range",
-        value: "Room temperature-60℃",
+        value: "Room temperature-60°C",
       },
       {
         label: "Temperature control accuracy",
-        value: "±0.1℃",
+        value: "±0.1°C",
       },
       {
         label: "Voltage",
         value: "220V",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "400×400×300mm",
       },
       {
@@ -3147,7 +3147,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Control temperature",
-        value: "Room temperature ~ 100 ℃",
+        value: "Room temperature ~ 100 °C",
       },
       {
         label: "Total power of electric heating tube",
@@ -3162,7 +3162,7 @@ window.ludaData.deviceDetails = {
         value: "AC220V±10%",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "600×300×210mm",
       },
       {
@@ -3179,7 +3179,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature range",
-        value: "-6.00~59.99℃",
+        value: "-6.00~59.99°C",
       },
       {
         label: "Fluctuation",
@@ -3195,7 +3195,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Pump flow",
-        value: "13L/mm3",
+        value: "13L/min",
       },
       {
         label: "Total power",
@@ -3211,7 +3211,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature range",
-        value: "-6.00~59.99℃",
+        value: "-6.00~59.99°C",
       },
       {
         label: "Fluctuation",
@@ -3227,7 +3227,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Pump flow",
-        value: "6L/mm³",
+        value: "6L/min",
       },
       {
         label: "Total power",
@@ -3258,15 +3258,15 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Temperature control rate",
-        value: "After three minutes: 5℃±0.5℃/min",
+        value: "After three minutes: 5°C±0.5°C/min",
       },
       {
         label: "Measurement accuracy",
-        value: "0.5℃",
+        value: "0.5°C",
       },
       {
         label: "Test room temperature",
-        value: "Less than 30 ° C and relatively stable, no air convection Heating rate",
+        value: "Less than 30°C and relatively stable, with no air convection",
       },
       {
         label: "Mixing method",
@@ -3317,7 +3317,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature setting",
-        value: "0-99.9℃ adjustable, display precision 0.1℃(factory setting is 25℃)",
+        value: "0-99.9°C adjustable, display precision 0.1°C(factory setting is 25°C)",
       },
       {
         label: "Time setting",
@@ -3325,7 +3325,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Temperature control range",
-        value: "10-60℃,accuracy ±0.5℃",
+        value: "10-60°C,accuracy ±0.5°C",
       },
       {
         label: "Total cone weight",
@@ -3352,11 +3352,11 @@ window.ludaData.deviceDetails = {
   P120: {
     specifications: [
       {
-        label: "Test tube specification",
+        label: "Test cylinder specification",
         value: "Φ300×600mm",
       },
       {
-        label: "Test tube height",
+        label: "Test cylinder height",
         value: "600mm",
       },
       {
@@ -3369,7 +3369,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Loading equipment",
-        value: "Leverage pressure",
+        value: "Lever loading",
       },
       {
         label: "Water supply bucket",
@@ -3468,7 +3468,7 @@ window.ludaData.deviceDetails = {
         value: "28~30Hz",
       },
       {
-        label: "Forming trial mold",
+        label: "Forming test mold",
         value: "3 PCS",
       },
       {
@@ -3501,7 +3501,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Grinding power head power",
-        value: "1.1kW,2units",
+        value: "1.1 kW, 2 units",
       },
       {
         label: "Speed",
@@ -3512,7 +3512,7 @@ window.ludaData.deviceDetails = {
         value: "Φ200mm",
       },
       {
-        label: "Grindable sample specifications(normally factory-equipped with a fixture for grinding 50-150mm)",
+        label: "Grindable sample specifications ((normally factory-equipped with a fixture for grinding 50-150mm)",
         value: "a. Block 50×50×50~150×150×150mm; b. Cylinder 50~150mm",
       },
       {
@@ -3572,7 +3572,7 @@ window.ludaData.deviceDetails = {
         value: "Heavy compaction 4.5kg, Light compaction: 2.5kg",
       },
       {
-        label: "Hammer down high",
+        label: "Hammer drop height",
         value: "Heavy compaction 457mm,Light compaction: 305mm",
       },
       {
@@ -3580,12 +3580,12 @@ window.ludaData.deviceDetails = {
         value: "Φ50mm",
       },
       {
-        label: "Test tube specification",
+        label: "Mold specification",
         value: "either Φ152×Φ100 or Φ152×Φ102",
       },
       {
         label: "Hammer speed",
-        value: "30times/min",
+        value: "30 times/min",
       },
       {
         label: "Set the number of hammering",
@@ -3608,20 +3608,20 @@ window.ludaData.deviceDetails = {
   P126: {
     specifications: [
       {
-        label: "Maximum release force",
-        value: "200KN",
+        label: "Maximum demolding force",
+        value: "200 kN",
       },
       {
-        label: "Release rate",
+        label: "Demolding rate",
         value: "130mm/min",
       },
       {
-        label: "Maximum demoulding height",
+        label: "Maximum demolding height",
         value: "230mm",
       },
       {
         label: "Voltage/Motor power",
-        value: "380V/0.75KW (Customizable to other voltage/frequency)",
+        value: "380V/0.75 kW (Customizable to other voltage/frequency)",
       },
       {
         label: "Oil pump rated pressure",
@@ -3636,7 +3636,7 @@ window.ludaData.deviceDetails = {
         value: "480×520×1230mm",
       },
       {
-        label: "Compression mold test",
+        label: "Compaction mold",
         value: "Ф150×230mm ,Ф100×180mm,Ф50×130mm",
       },
       {
@@ -3652,20 +3652,20 @@ window.ludaData.deviceDetails = {
   P127: {
     specifications: [
       {
-        label: "Maximum release force",
-        value: "300KN",
+        label: "Maximum demolding force",
+        value: "300 kN",
       },
       {
-        label: "Release rate",
+        label: "Demolding rate",
         value: "130mm/min",
       },
       {
-        label: "Maximum demoulding height",
+        label: "Maximum demolding height",
         value: "230mm",
       },
       {
         label: "Voltage/Motor power",
-        value: "380V/0.75KW (Customizable to other voltage/frequency)",
+        value: "380V/0.75 kW (Customizable to other voltage/frequency)",
       },
       {
         label: "Oil pump rated pressure",
@@ -3680,7 +3680,7 @@ window.ludaData.deviceDetails = {
         value: "480×520×1230mm",
       },
       {
-        label: "Compression mold test",
+        label: "Compaction mold",
         value: "Ф150×230mm,Ф100×180mm",
       },
       {
@@ -3704,16 +3704,16 @@ window.ludaData.deviceDetails = {
         value: "440mm",
       },
       {
-        label: "Screen seat vibration amplitude",
+        label: "Sieve seat vibration amplitude",
         value: "8mm",
       },
       {
-        label: "Shaking times of sieve",
-        value: "221times/min",
+        label: "Sieve shaking rate",
+        value: "221 times/min",
       },
       {
         label: "Shock times",
-        value: "147times/min",
+        value: "147 times/min",
       },
       {
         label: "Radius of gyration",
@@ -3725,14 +3725,14 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Motor revolution",
-        value: "1400times/min",
+        value: "1400 times/min",
       },
       {
         label: "Dimensions",
         value: "600×400×800mm",
       },
       {
-        label: "Total weight",
+        label: "Weight",
         value: "100kg",
       },
     ],
@@ -3753,7 +3753,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Contact indication sensitivity",
-        value: ">10M",
+        value: ">10 MΩ",
       },
       {
         label: "Cone weight",
@@ -3808,7 +3808,7 @@ window.ludaData.deviceDetails = {
         value: "1000±5g",
       },
       {
-        label: "Cylindrical plastic test tube",
+        label: "Cylindrical plastic test cylinder",
         value: "",
       },
       {
@@ -3948,14 +3948,14 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Humidity range",
-        value: "20%~98%RH",
+        value: "20%~98% RH",
       },
       {
         label: "Temperature and humidity control accuracy",
-        value: "±1.0°C; ±2%RH",
+        value: "±1.0°C; ±2% RH",
       },
       {
-        label: "Inner box size(W×D×H)",
+        label: "Inner box size ((W × D × H)",
         value: "400×400×550mm",
       },
       {
@@ -3963,8 +3963,8 @@ window.ludaData.deviceDetails = {
         value: "220V",
       },
       {
-        label: "Temperature and humidity sub-surface uniformity",
-        value: "±2.0℃; ±3.0%RH",
+        label: "Temperature and humidity surface uniformity",
+        value: "±2.0°C; ±3.0% RH",
       },
       {
         label: "*Note",
@@ -3983,7 +3983,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Operating Temperature",
-        value: "Room temperature~250±1℃",
+        value: "Room temperature~250±1°C",
       },
       {
         label: "Total power",
@@ -3994,7 +3994,7 @@ window.ludaData.deviceDetails = {
         value: "220V",
       },
       {
-        label: "Studio dimensions",
+        label: "Working chamber dimensions",
         value: "450×350×450mm",
       },
       {
@@ -4014,7 +4014,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Operating Temperature",
-        value: "Room temperature~250±1℃",
+        value: "Room temperature~250±1°C",
       },
       {
         label: "Total power",
@@ -4025,7 +4025,7 @@ window.ludaData.deviceDetails = {
         value: "220V",
       },
       {
-        label: "Studio dimensions",
+        label: "Working chamber dimensions",
         value: "550×450×550mm",
       },
       {
@@ -4045,7 +4045,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Operating Temperature",
-        value: "Room temperature~250±1℃",
+        value: "Room temperature~250±1°C",
       },
       {
         label: "Total power",
@@ -4056,7 +4056,7 @@ window.ludaData.deviceDetails = {
         value: "220V",
       },
       {
-        label: "Studio dimensions",
+        label: "Working chamber dimensions",
         value: "600×500×750mm",
       },
       {
@@ -4065,7 +4065,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Weight",
-        value: "123k",
+        value: "123kg",
       },
     ],
   },
@@ -4076,7 +4076,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Operating Temperature",
-        value: "Room temperature~250±1℃",
+        value: "Room temperature~250±1°C",
       },
       {
         label: "Total power",
@@ -4087,7 +4087,7 @@ window.ludaData.deviceDetails = {
         value: "380V with zero wire (Customizable to other voltage/frequency)",
       },
       {
-        label: "Studio dimensions",
+        label: "Working chamber dimensions",
         value: "800×800×1000mm",
       },
       {
@@ -4107,7 +4107,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Operating Temperature",
-        value: "Room temperature~250±1℃",
+        value: "Room temperature~250±1°C",
       },
       {
         label: "Total power",
@@ -4118,7 +4118,7 @@ window.ludaData.deviceDetails = {
         value: "380V with zero wire (Customizable to other voltage/frequency)",
       },
       {
-        label: "Studio dimensions",
+        label: "Working chamber dimensions",
         value: "1000×1000×1200mm",
       },
       {
@@ -4143,14 +4143,14 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Rated temperature",
-        value: "1600℃",
+        value: "1600°C",
       },
       {
         label: "Empty furnace temperature rise time",
         value: "≤220min",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "150×300×120mm",
       },
       {
@@ -4175,14 +4175,14 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Rated temperature",
-        value: "1600℃",
+        value: "1600°C",
       },
       {
         label: "Empty furnace temperature rise time",
         value: "≤250min",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "200×400×160mm",
       },
       {
@@ -4207,10 +4207,10 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Rated temperature",
-        value: "1000℃",
+        value: "1000°C",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "120×200×80mm",
       },
       {
@@ -4235,10 +4235,10 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Rated temperature",
-        value: "1000℃",
+        value: "1000°C",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "200×300×120mm",
       },
       {
@@ -4263,10 +4263,10 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Rated temperature",
-        value: "1000℃",
+        value: "1000°C",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "250×400×160mm",
       },
       {
@@ -4291,10 +4291,10 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Rated temperature",
-        value: "1000℃",
+        value: "1000°C",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "300×500×200mm",
       },
       {
@@ -4314,7 +4314,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature control range",
-        value: "-25℃ ~ room temperature",
+        value: "-25°C ~ room temperature",
       },
       {
         label: "Compressor power",
@@ -4345,7 +4345,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature control range",
-        value: "-40℃ ~ room temperature",
+        value: "-40°C ~ room temperature",
       },
       {
         label: "Compressor power",
@@ -4376,7 +4376,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature control range",
-        value: "-60℃ ~ room temperature",
+        value: "-60°C ~ room temperature",
       },
       {
         label: "Compressor power",
@@ -4408,7 +4408,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature control range",
-        value: "-40℃～room temperature",
+        value: "-40°C～room temperature",
       },
       {
         label: "Compressor power",
@@ -4419,7 +4419,7 @@ window.ludaData.deviceDetails = {
         value: "AC220V±10%",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "500×550×600mm",
       },
       {
@@ -4452,11 +4452,11 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Control temperature",
-        value: "20～60±2℃",
+        value: "20～60±2°C",
       },
       {
         label: "Humidity",
-        value: "45～80±5%RH",
+        value: "45～80±5% RH",
       },
       {
         label: "Working chamber size",
@@ -4480,11 +4480,11 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Control temperature",
-        value: "Room temperature ～200℃",
+        value: "Room temperature ～200°C",
       },
       {
         label: "Temperature controller accuracy",
-        value: "±1℃",
+        value: "±1°C",
       },
       {
         label: "Turntable speed",
@@ -4515,7 +4515,7 @@ window.ludaData.deviceDetails = {
   C001: {
     specifications: [
       {
-        label: "Condenser cooling way",
+        label: "Condenser cooling method",
         value: "Air-cooling",
       },
       {
@@ -4528,11 +4528,11 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Freezing end time/test piece center temperature",
-        value: "1.5～2.5h/-17±2℃（New standard -18±2℃）",
+        value: "1.5～2.5h/-17±2°C（New standard -18±2°C）",
       },
       {
         label: "Melting end time/test piece center temperature",
-        value: "1.0～2.0h/8±2℃（New standard 5±2℃）",
+        value: "1.0～2.0h/8±2°C（New standard 5±2°C）",
       },
       {
         label: "Freeze-thaw cycle",
@@ -4540,7 +4540,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "The temperature difference between the center and the surface of the specimen",
-        value: "＜28℃",
+        value: "＜28°C",
       },
       {
         label: "Number of cycles",
@@ -4559,8 +4559,8 @@ window.ludaData.deviceDetails = {
         value: "90kg",
       },
       {
-        label: "Refrigerator compressor",
-        value: "Complete inlet closure 8.5HP",
+        label: "Hermetic compressor",
+        value: "Hermetically sealed, 8.5 HP",
       },
       {
         label: "Specimen barrel size",
@@ -4587,7 +4587,7 @@ window.ludaData.deviceDetails = {
   C002: {
     specifications: [
       {
-        label: "Condenser cooling way",
+        label: "Condenser cooling method",
         value: "Air-cooling",
       },
       {
@@ -4600,11 +4600,11 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Freezing end time/test piece center temperature",
-        value: "1.5～2.5h/-17±2℃（New standard -18±2℃）",
+        value: "1.5～2.5h/-17±2°C（New standard -18±2°C）",
       },
       {
         label: "Melting end time/test piece center temperature",
-        value: "1.0～2.0h/8±2℃（New standard 5±2℃）",
+        value: "1.0～2.0h/8±2°C（New standard 5±2°C）",
       },
       {
         label: "Freeze-thaw cycle",
@@ -4612,7 +4612,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "The temperature difference between the center and the surface of the specimen",
-        value: "＜28℃",
+        value: "＜28°C",
       },
       {
         label: "Number of cycles",
@@ -4631,8 +4631,8 @@ window.ludaData.deviceDetails = {
         value: "60kg",
       },
       {
-        label: "Refrigerator compressor",
-        value: "Complete inlet closure 5HP",
+        label: "Hermetic compressor",
+        value: "Hermetically sealed, 5 HP",
       },
       {
         label: "Specimen barrel size",
@@ -4659,7 +4659,7 @@ window.ludaData.deviceDetails = {
   C003: {
     specifications: [
       {
-        label: "Condenser cooling way",
+        label: "Condenser cooling method",
         value: "Air-cooling",
       },
       {
@@ -4672,11 +4672,11 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Freezing end time/test piece center temperature",
-        value: "1.5～2.5h/-17±2℃（New standard -18±2℃）",
+        value: "1.5～2.5h/-17±2°C（New standard -18±2°C）",
       },
       {
         label: "Melting end time/test piece center temperature",
-        value: "1.0～2.0h/8±2℃（New standard 5±2℃）",
+        value: "1.0～2.0h/8±2°C（New standard 5±2°C）",
       },
       {
         label: "Freeze-thaw cycle",
@@ -4684,7 +4684,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "The temperature difference between the center and the surface of the specimen",
-        value: "＜28℃",
+        value: "＜28°C",
       },
       {
         label: "Number of cycles",
@@ -4703,8 +4703,8 @@ window.ludaData.deviceDetails = {
         value: "30kg",
       },
       {
-        label: "Refrigerator compressor",
-        value: "Complete inlet closure 3HP",
+        label: "Hermetic compressor",
+        value: "Hermetically sealed, 3 HP",
       },
       {
         label: "Specimen barrel size",
@@ -4732,15 +4732,15 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature control",
-        value: "20±2℃(adjust)",
+        value: "20±2°C(adjust)",
       },
       {
         label: "Temperature control precision",
-        value: "0.5℃",
+        value: "0.5°C",
       },
       {
         label: "Humidity control",
-        value: "70±5%RH (40~70 adjust)",
+        value: "70±5% RH (40~70 adjust)",
       },
       {
         label: "CO2 concentration",
@@ -4775,7 +4775,7 @@ window.ludaData.deviceDetails = {
         value: "AC220V±10%",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "620×550×1230mm",
       },
       {
@@ -4783,7 +4783,7 @@ window.ludaData.deviceDetails = {
         value: "1100×710×1630mm",
       },
       {
-        label: "Weigh",
+        label: "Weight",
         value: "200kg",
       },
     ],
@@ -4808,7 +4808,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Temperature rise rate",
-        value: "≦15℃/h",
+        value: "≦15°C/h",
       },
       {
         label: "Heating power",
@@ -4832,11 +4832,11 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature control",
-        value: "Room temperature ~100℃(adjust)",
+        value: "Room temperature ~100°C(adjust)",
       },
       {
         label: "Temperature control precision",
-        value: "±0.2℃",
+        value: "±0.2°C",
       },
       {
         label: "Control time range",
@@ -4863,7 +4863,7 @@ window.ludaData.deviceDetails = {
         value: "AC380V±10% (Customizable to other voltage/frequency)",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "650×550×600 (clear height 450mm)",
       },
       {
@@ -4895,7 +4895,7 @@ window.ludaData.deviceDetails = {
         value: "Φ185mm",
       },
       {
-        label: "Trial mold height",
+        label: "Test mold height",
         value: "160mm",
       },
       {
@@ -4940,14 +4940,14 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Internal temperature",
-        value: "Room temperature to 100℃,users need to control freely",
+        value: "Room temperature to 100°C,users need to control freely",
       },
       {
-        label: "Electric heat tube heating power",
+        label: "Electric heating tube power",
         value: "2000W(3 PCS)",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "750×550×530mm",
       },
     ],
@@ -4963,7 +4963,7 @@ window.ludaData.deviceDetails = {
         value: "8%",
       },
       {
-        label: "Concrete measuring pot size",
+        label: "Measuring container size",
         value: "Volume 7L, inner diameter to height ratio is 1:1",
       },
       {
@@ -4987,16 +4987,16 @@ window.ludaData.deviceDetails = {
   C020: {
     specifications: [
       {
-        label: "Specimen mould upper calibre",
+        label: "Specimen mold upper diameter",
         value: "Φ160mm",
       },
       {
-        label: "Specimen mould lower calibre",
+        label: "Specimen mold lower diameter",
         value: "Φ150mm",
       },
       {
         label: "Test temperature",
-        value: "20±2℃",
+        value: "20±2°C",
       },
       {
         label: "Maximum penetration force",
@@ -5035,15 +5035,15 @@ window.ludaData.deviceDetails = {
         value: "1200N",
       },
       {
-        label: "Specimen mould upper calibre",
+        label: "Specimen mold upper diameter",
         value: "Φ160mm",
       },
       {
-        label: "Specimen mould lower calibre",
+        label: "Specimen mold lower diameter",
         value: "Φ150mm",
       },
       {
-        label: "Specimen mould height",
+        label: "Specimen mold height",
         value: "150mm",
       },
       {
@@ -5060,7 +5060,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Stylus loading area",
-        value: "100,50,20mm2",
+        value: "100, 50, 20 mm²",
       },
       {
         label: "Penetration resistance",
@@ -5088,7 +5088,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Vibration frequency",
-        value: "2860 point/min",
+        value: "2860 times/min",
       },
       {
         label: "Vibration amplitude",
@@ -5116,7 +5116,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Vibration frequency",
-        value: "2860 point/min",
+        value: "2860 times/min",
       },
       {
         label: "Vibration amplitude",
@@ -5144,7 +5144,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Vibration frequency",
-        value: "2860 point/min",
+        value: "2860 times/min",
       },
       {
         label: "Vibration amplitude",
@@ -5175,7 +5175,7 @@ window.ludaData.deviceDetails = {
         value: "48L",
       },
       {
-        label: "Discharging capacity",
+        label: "Discharge capacity",
         value: "30L",
       },
       {
@@ -5219,7 +5219,7 @@ window.ludaData.deviceDetails = {
         value: "96L",
       },
       {
-        label: "Discharging capacity",
+        label: "Discharge capacity",
         value: "60L",
       },
       {
@@ -5291,7 +5291,7 @@ window.ludaData.deviceDetails = {
         value: "125mm",
       },
       {
-        label: "Screen aperture",
+        label: "Sieve aperture",
         value: "0.335mm (50 mesh)",
       },
       {
@@ -5304,11 +5304,11 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature control",
-        value: "20±1℃",
+        value: "20±1°C",
       },
       {
         label: "Temperature control precision",
-        value: "±1℃",
+        value: "±1°C",
       },
       {
         label: "Compressor power",
@@ -5344,11 +5344,11 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature control",
-        value: "20±1℃",
+        value: "20±1°C",
       },
       {
         label: "Temperature control precision",
-        value: "±1℃",
+        value: "±1°C",
       },
       {
         label: "Voltage",
@@ -5384,11 +5384,11 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Test temperature",
-        value: "20±1℃",
+        value: "20±1°C",
       },
       {
         label: "Control humidity",
-        value: "≧95%RH",
+        value: "≧95% RH",
       },
       {
         label: "Compressor power",
@@ -5407,7 +5407,7 @@ window.ludaData.deviceDetails = {
         value: "40×40×160 trial molds, 6 groups can be placed on each layer; 150×150×150 mold trial, 3 groups can be placed on each layer; 100×100×100 mold trial, 4 groups can be placed on each layer",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "590×570×1180mm",
       },
       {
@@ -5424,11 +5424,11 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Temperature controller accuracy",
-        value: "20±1℃",
+        value: "20±1°C",
       },
       {
         label: "Control humidity",
-        value: "60-80%RH",
+        value: "60-80% RH",
       },
       {
         label: "Voltage",
@@ -5443,7 +5443,7 @@ window.ludaData.deviceDetails = {
         value: "500W",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "580×500×1180mm",
       },
       {
@@ -5499,7 +5499,7 @@ window.ludaData.deviceDetails = {
         value: "AC220V±10%",
       },
       {
-        label: "Outer dimension (length×width×height)",
+        label: "Outer dimension (length × width × height)",
         value: "630×400×660mm",
       },
       {
@@ -5511,7 +5511,7 @@ window.ludaData.deviceDetails = {
   D010: {
     specifications: [
       {
-        label: "The total mass of the table plate(including the arm,the die frame,etc.)",
+        label: "The total mass of the table plate ((including the arm,the die frame,etc.)",
         value: "13.75±0.25kg",
       },
       {
@@ -5583,7 +5583,7 @@ window.ludaData.deviceDetails = {
         value: ">1/50°",
       },
       {
-        label: "Dimensions (length x width x height)",
+        label: "Dimensions (length × width × height)",
         value: "1080×220×780mm",
       },
       {
@@ -5647,7 +5647,7 @@ window.ludaData.deviceDetails = {
         value: "25 times",
       },
       {
-        label: "Desktop parameters",
+        label: "Tabletop parameters",
         value: "Cast steel, hard chrome plated working surface",
       },
       {
@@ -5675,7 +5675,7 @@ window.ludaData.deviceDetails = {
         value: "1~0.030mm",
       },
       {
-        label: "Screening time automatic",
+        label: "Automatic screening time",
         value: "0～999s (adjust)",
       },
       {
@@ -5712,7 +5712,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Maximum boiling temperature",
-        value: "100℃",
+        value: "100°C",
       },
       {
         label: "Inner tank volume",
@@ -5720,7 +5720,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Heating time",
-        value: "30±5min(20℃ to 100℃)",
+        value: "30±5min(20°C to 100°C)",
       },
       {
         label: "Heating time control",
@@ -5735,7 +5735,7 @@ window.ludaData.deviceDetails = {
         value: "AC220V±10%",
       },
       {
-        label: "Studio size",
+        label: "Working Chamber Size",
         value: "410×240×310mm",
       },
       {
@@ -5768,14 +5768,14 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Temperature range",
-        value: "8~34℃",
+        value: "8~34°C",
       },
       {
-        label: "Breathable cylinder inner cavity diameter",
+        label: "Permeable cell inner diameter",
         value: "Φ12.7mm",
       },
       {
-        label: "Sample height of breathable cylinder inner cavity",
+        label: "Sample height of permeable cell inner cavity",
         value: "15mm",
       },
       {
@@ -6116,7 +6116,7 @@ window.ludaData.deviceDetails = {
         value: "Within ±1% of the set value when the set value is <10%FS; Within ±0.1% of the set value when the set value is ≥10%FS",
       },
       {
-        label: "Main Unit Dimensions (mm)",
+        label: "Main Frame Dimensions (mm)",
         value: "900×500×2300",
       },
       {
@@ -6124,16 +6124,16 @@ window.ludaData.deviceDetails = {
         value: "220V±10%, 2000W",
       },
       {
-        label: "Mainframe weight",
+        label: "Main Frame Weight",
         value: "About 300kg",
       },
       {
-        label: "Belows Are Technical Parameters of Environmental Chamber",
+        label: "Below Are Technical Parameters of Environmental Chamber",
         value: "Temperature measured at the specimen (steel) over a 50 mm (2 in) gauge length. Not applicable within 15°C of ambient",
       },
       {
         label: "Temperature Range",
-        value: "-40℃ — +150℃",
+        value: "-40°C — +150°C",
       },
       {
         label: "Cooling Time",
@@ -6145,19 +6145,19 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Temperature Gradient",
-        value: "≤2℃",
+        value: "≤2°C",
       },
       {
         label: "Temperature Fluctuation",
-        value: "≤1℃",
+        value: "≤1°C",
       },
       {
         label: "Temperature Deviation",
-        value: "±2℃",
+        value: "±2°C",
       },
       {
         label: "Temperature Controller Display Accuracy",
-        value: "≤0.1℃",
+        value: "≤0.1°C",
       },
       {
         label: "Chamber Internal Dimensions (D × W × H mm)",
@@ -6198,7 +6198,7 @@ window.ludaData.deviceDetails = {
         value: "1mm",
       },
       {
-        label: "Permeation head Accuracy error",
+        label: "Permeation head accuracy error",
         value: "0.3% of full scale",
       },
     ],
@@ -6230,7 +6230,7 @@ window.ludaData.deviceDetails = {
         value: "800 × 800 × 3600",
       },
       {
-        label: "Total weight (kg)",
+        label: "Weight (kg)",
         value: "300",
       },
     ],
@@ -6352,7 +6352,7 @@ window.ludaData.deviceDetails = {
         value: "Φ1.13±0.05",
       },
       {
-        label: "Number of final setting test needle (pcs)",
+        label: "Number of final setting test needles (pcs)",
         value: "1",
       },
       {
@@ -6477,11 +6477,11 @@ window.ludaData.deviceDetails = {
         value: "625",
       },
       {
-        label: "Round Specimen Clamping diameter(mm)",
+        label: "Round Specimen Clamping diameter ((mm)",
         value: "Φ14~Φ50",
       },
       {
-        label: "Flat Specimen Clamping thickness(mm)",
+        label: "Flat Specimen Clamping thickness ((mm)",
         value: "2~40",
       },
       {
@@ -6501,7 +6501,7 @@ window.ludaData.deviceDetails = {
         value: "300 × 200",
       },
       {
-        label: "Coaxiality of Testing Machine",
+        label: "Machine coaxiality",
         value: "<5%",
       },
       {
@@ -6521,7 +6521,7 @@ window.ludaData.deviceDetails = {
         value: "0.2~20",
       },
       {
-        label: "Main Frame Dimensions(mm)",
+        label: "Main Frame Dimensions ((mm)",
         value: "1200 (L) × 900 (W) × 3440 (H)",
       },
       {
@@ -6649,7 +6649,7 @@ window.ludaData.deviceDetails = {
         value: "0.001 mm",
       },
       {
-        label: "Main machine overall dimensions (L×W×H)",
+        label: "Main machine overall dimensions (L × W × H)",
         value: "5000 × 1240 × 3200 mm",
       },
       {
@@ -6717,7 +6717,7 @@ window.ludaData.deviceDetails = {
         value: "0.001 mm",
       },
       {
-        label: "Main machine overall dimensions (L×W×H)",
+        label: "Main machine overall dimensions (L × W × H)",
         value: "6000 × 1750 × 4580 mm",
       },
       {
@@ -6785,7 +6785,7 @@ window.ludaData.deviceDetails = {
         value: "0.001 mm",
       },
       {
-        label: "Main machine overall dimensions (L×W×H)",
+        label: "Main machine overall dimensions (L × W × H)",
         value: "7850 × 2310 × 5220 mm",
       },
       {
@@ -7061,7 +7061,7 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "",
-        value: "152mmx 177mm",
+        value: "152mm × 177mm",
       },
     ],
   },
@@ -7071,19 +7071,19 @@ window.ludaData.deviceDetails = {
     ],
     specifications: [
       {
-        label: "1. Maximum load",
+        label: "Maximum load",
         value: "50kN",
       },
       {
-        label: "2. Loading speed",
+        label: "Loading speed",
         value: "1.0mm/min",
       },
       {
-        label: "3. Penetration rod",
+        label: "Penetration rod",
         value: "End face diameter Φ50mm, length 100mm",
       },
       {
-        label: "4. Test cylinder inner diameter",
+        label: "Test cylinder inner diameter",
         value: "Φ50mm, height 170mm",
       },
     ],
@@ -7092,11 +7092,11 @@ window.ludaData.deviceDetails = {
     specifications: [
       {
         label: "Hydraulic jack",
-        value: "100KN and ball seat",
+        value: "100 kN and ball seat",
       },
       {
         label: "Force gauge",
-        value: "60KN",
+        value: "60 kN",
       },
       {
         label: "Penetration rod",
@@ -7108,7 +7108,7 @@ window.ludaData.deviceDetails = {
       },
       {
         label: "Load plate",
-        value: "1.25kg/piece",
+        value: "1.25 kg per piece",
       },
     ],
   },

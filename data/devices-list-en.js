@@ -52,7 +52,7 @@ window.ludaData.devices = [
   {
     id: "P001",
     sortWeight: 2,
-    name: "Shock Absorber Universal Testing Machine",
+    name: "Shock-Absorbing Universal Testing Machine",
     suffixName: "600kN",
     model: "WAW-600Pro",
     category: "universal",
@@ -80,7 +80,7 @@ window.ludaData.devices = [
   {
     id: "P002",
     sortWeight: 3,
-    name: "Shock Absorber Universal Testing Machine",
+    name: "Shock-Absorbing Universal Testing Machine",
     suffixName: "1000kN",
     model: "WAW-1000Pro",
     category: "universal",
@@ -108,7 +108,7 @@ window.ludaData.devices = [
   {
     id: "P003",
     sortWeight: 4,
-    name: "Electro-hydraulic Servo Steel Strand Special Testing Machine",
+    name: "Electro-hydraulic Servo Steel Strand Testing Machine",
     suffixName: "600kN",
     model: "WAW-600G",
     category: "universal",
@@ -131,7 +131,7 @@ window.ludaData.devices = [
   {
     id: "P004",
     sortWeight: 5,
-    name: "Electro-hydraulic Servo Steel Strand Special Testing Machine",
+    name: "Electro-hydraulic Servo Steel Strand Testing Machine",
     suffixName: "1000kN",
     model: "WAW-1000G",
     category: "universal",
@@ -731,7 +731,7 @@ window.ludaData.devices = [
   {
     id: "P043",
     sortWeight: 1,
-    name: "Servo-controlled Cement Flexural And Compressive Testing Machine",
+    name: "Servo-controlled Cement Flexural and Compressive Testing Machine",
     suffixName: "",
     model: "YAW-300.10S",
     category: "cement",
@@ -783,7 +783,7 @@ window.ludaData.devices = [
   {
     id: "P045",
     sortWeight: 3,
-    name: "Servo-controlled Cement Flexural Compression Testing Machine",
+    name: "Servo-controlled Cement Flexural and Compressive Testing Machine",
     suffixName: "",
     model: "YZH-300.10",
     category: "cement",
@@ -1082,7 +1082,7 @@ window.ludaData.devices = [
   {
     id: "P063",
     sortWeight: 5,
-    name: "Laboratory Planetary Mixers",
+    name: "Laboratory Planetary Mixer",
     suffixName: "20L",
     model: "LDHB-20",
     category: "asphalt",
@@ -1281,7 +1281,7 @@ window.ludaData.devices = [
   {
     id: "P120",
     sortWeight: 1,
-    name: "Coarse-grained Soil Vertical Seepage Deformation Meter (slope type)",
+    name: "Coarse-grained Soil Vertical Seepage Deformation Meter (slope method)",
     suffixName: "",
     model: "LDSL-III",
     category: "geotechnical",
@@ -1390,7 +1390,7 @@ window.ludaData.devices = [
   {
     id: "P126",
     sortWeight: 7,
-    name: "Multifunctional Hydraulic Demoulding Machine",
+    name: "Multifunctional Hydraulic Demolding Machine",
     suffixName: "",
     model: "DL-200",
     category: "geotechnical",
@@ -1406,7 +1406,7 @@ window.ludaData.devices = [
   {
     id: "P127",
     sortWeight: 8,
-    name: "Multifunctional Hydraulic Demoulding Machine",
+    name: "Multifunctional Hydraulic Demolding Machine",
     suffixName: "",
     model: "DL-300",
     category: "geotechnical",
@@ -1441,7 +1441,7 @@ window.ludaData.devices = [
   {
     id: "P129",
     sortWeight: 10,
-    name: "Digital Display Combined Soil Liquid-plastic Limit Tester",
+    name: "Digital Display Combined Soil Liquid and Plastic Limit Tester",
     suffixName: "",
     model: "LG-100D",
     category: "geotechnical",
@@ -1499,7 +1499,7 @@ window.ludaData.devices = [
   {
     id: "P132",
     sortWeight: 7,
-    name: "Mortar Permeamete",
+    name: "Mortar Permeameter",
     suffixName: "",
     model: "SS-1.5",
     category: "cement",
@@ -1515,7 +1515,7 @@ window.ludaData.devices = [
   {
     id: "P133",
     sortWeight: 1,
-    name: "Temperature And Humidity Climate Chambers",
+    name: "Temperature and Humidity Climate Chamber",
     suffixName: "80L",
     model: "LDGD-80",
     category: "research",
@@ -1980,7 +1980,7 @@ window.ludaData.devices = [
   {
     id: "C004",
     sortWeight: 12,
-    name: "Concrete Carbonation Test Chambe",
+    name: "Concrete Carbonation Test Chamber",
     suffixName: "",
     model: "CCB-70A",
     category: "concrete",
@@ -2241,7 +2241,7 @@ window.ludaData.devices = [
   {
     id: "C028",
     sortWeight: 26,
-    name: "Concrete Pressure Secretion Instrument",
+    name: "Concrete Pressure Bleeding Instrument",
     suffixName: "",
     model: "SY-2",
     category: "concrete",
@@ -2816,7 +2816,7 @@ window.ludaData.devices = [
   {
     id: "E035",
     sortWeight: 15,
-    name: "Electro-hydraulic Servo Universal Material Testing Machine With Side-Action Grips",
+    name: "Electro-hydraulic Servo Universal Material Testing Machine with Side-Action Grips",
     suffixName: "1000kN",
     model: "WAW-1000PT",
     category: "universal",
@@ -3004,7 +3004,7 @@ window.ludaData.devices = [
   {
     id: "E037",
     sortWeight: 16,
-    name: "Sand pouring cylinder set",
+    name: "Sand Pouring Cylinder Set",
     suffixName: "150mm",
     model: null,
     category: "geotechnical",
@@ -3020,7 +3020,7 @@ window.ludaData.devices = [
   {
     id: "E038",
     sortWeight: 17,
-    name: "Sand pouring cylinder set",
+    name: "Sand Pouring Cylinder Set",
     suffixName: "100mm",
     model: null,
     category: "geotechnical",
@@ -3052,7 +3052,7 @@ window.ludaData.devices = [
   {
     id: "E040",
     sortWeight: 18,
-    name: "Sample splitter",
+    name: "Sample Splitter",
     suffixName: null,
     model: null,
     category: "geotechnical",
@@ -3068,7 +3068,7 @@ window.ludaData.devices = [
   {
     id: "E041",
     sortWeight: 19,
-    name: "CBR mold with base plate and collar",
+    name: "CBR Mold with Base Plate and Collar",
     suffixName: null,
     model: null,
     category: "geotechnical",
@@ -3084,7 +3084,7 @@ window.ludaData.devices = [
   {
     id: "E042",
     sortWeight: 20,
-    name: "CBR penetration plungerand loading frame",
+    name: "CBR Penetration Plunger and Loading Frame",
     suffixName: null,
     model: "CBR-1",
     category: "geotechnical",
