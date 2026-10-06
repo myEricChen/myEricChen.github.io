@@ -191,6 +191,9 @@
                         <label for="message">Message *</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
+                    <!-- 人机验证 (reCAPTCHA v2) —— 由 /form-guard.js 渲染 -->
+                    <div class="form-guard-captcha" data-fg-recaptcha></div>
+
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
                 <div class="message-info">
@@ -238,5 +241,6 @@
     <script src="/data/categories-en.js"></script>
     <script src="/common.js"></script>
     <script src="/contact.js"></script>
+    <script src="/form-guard.js"></script>
 </body>
 </html>

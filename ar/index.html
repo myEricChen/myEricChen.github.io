@@ -787,6 +787,9 @@ header {
                             <label for="modal_country">الدولة</label>
                             <input type="text" id="modal_country" name="country">
                         </div>
+                        <!-- 人机验证 (reCAPTCHA v2) —— 由 /form-guard.js 渲染 -->
+                        <div class="form-guard-captcha" data-fg-recaptcha></div>
+
                         <button type="submit" class="btn btn-primary" style="width: 100%;">إرسال وتحميل ←</button>
                     </form>
                     <div id="catalogFormStatus" style="margin-top: 15px; text-align: center; font-size: 0.9rem;"></div>
@@ -801,5 +804,6 @@ header {
     <script src="/data/categories-ar.js"></script>
     <script src="/common.js"></script>
     <script src="/home.js"></script>
+    <script src="/form-guard.js"></script>
 </body>
 </html>

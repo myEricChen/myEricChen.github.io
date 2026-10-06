@@ -714,3 +714,76 @@ html[dir="rtl"] .dropdown-arrow {
         padding: 0 20px;
     }
 }
+
+/* ==========================================================
+   表单防垃圾：reCAPTCHA 容器 + 校验提示
+   （由 /form-guard.js 使用）
+   ========================================================== */
+
+/* reCAPTCHA v2 勾选框容器。
+   min-height 预留 78px，避免脚本异步加载完成时页面发生跳动（CLS）。 */
+.form-guard-captcha {
+    margin: 4px 0 20px;
+    min-height: 78px;
+    display: flex;
+    align-items: center;
+}
+
+/* 目录下载模态框里的勾选框 */
+.modal-body .form-guard-captcha {
+    margin-top: 8px;
+}
+
+/* 校验提示 / 状态文案 */
+.fg-status {
+    display: none;
+    margin-top: 12px;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.fg-status.fg-warn {
+    display: block;
+    color: #b34b00;
+}
+
+.fg-status.fg-error {
+    display: block;
+    color: #d71920;
+}
+
+/* 未通过校验时的按钮态：临时禁用 */
+.btn.fg-disabled,
+.btn:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* 提交中：按钮文案已替换，避免重复点击触发 token 复用失败 */
+.btn.fg-sending {
+    opacity: 0.75;
+    cursor: progress;
+    pointer-events: none;
+}
+
+/* RTL（阿拉伯语）适配：勾选框与提示文案都应靠右 */
+html[dir="rtl"] .form-guard-captcha {
+    justify-content: flex-end;
+}
+
+html[dir="rtl"] .fg-status {
+    text-align: right;
+}
+
+/* 窄屏：reCAPTCHA v2 固定 304px 宽，在 320px 屏上会溢出，整体缩放 */
+@media (max-width: 360px) {
+    .form-guard-captcha {
+        transform: scale(0.88);
+        transform-origin: left center;
+    }
+    html[dir="rtl"] .form-guard-captcha {
+        transform-origin: right center;
+    }
+}
