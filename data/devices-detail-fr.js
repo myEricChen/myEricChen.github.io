@@ -437,50 +437,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  P120: {
-    specifications: [
-      {
-        label: "Spécifications du cylindre d'essai",
-        value: "Φ300×600mm",
-      },
-      {
-        label: "Hauteur du cylindre d'essai",
-        value: "600mm",
-      },
-      {
-        label: "Hauteur de jauge",
-        value: "3000mm",
-      },
-      {
-        label: "espacement des trous de mesure de pression",
-        value: "250mm",
-      },
-      {
-        label: "Équipement de chargement",
-        value: "Leverage pressure",
-      },
-      {
-        label: "Seau d'approvisionnement en eau",
-        value: "140×140×140mm",
-      },
-      {
-        label: "Seau de stockage d'eau",
-        value: "200×400×450mm",
-      },
-      {
-        label: "Tension",
-        value: "AC 220V",
-      },
-      {
-        label: "Dimension",
-        value: "1400×600×1900mm",
-      },
-      {
-        label: "Poids",
-        value: "250kg",
-      },
-    ],
-  },
   P133: {
     features: [
       "Les composants sélectionnés pour ce produit sont extrêmement fiables et de haute qualité afin de garantir la fiabilité, la stabilité et la précision des performances du produit.",
@@ -943,58 +899,6 @@ window.ludaData.deviceDetails = {
       {
         label: "consommation d'énergie de la machine",
         value: "No more than 2100W",
-      },
-    ],
-  },
-  P121: {
-    specifications: [
-      {
-        label: "volume du réservoir d'eau",
-        value: "80L",
-      },
-      {
-        label: "Diamètre intérieur du cylindre métallique",
-        value: "300mm",
-      },
-      {
-        label: "Hauteur du cylindre métallique",
-        value: "500mm",
-      },
-      {
-        label: "épaisseur de paroi du cylindre métallique",
-        value: "10mm",
-      },
-      {
-        label: "Nombre de tubes de mesure de pression",
-        value: "5 PCS",
-      },
-      {
-        label: "Diamètre intérieur du tube de mesure de pression",
-        value: "6mm",
-      },
-      {
-        label: "valeur de division de l'échelle du tube de mesure de pression",
-        value: "1mm",
-      },
-      {
-        label: "espacement des trous de mesure de pression",
-        value: "50mm",
-      },
-      {
-        label: "diamètre du trou d'infiltration",
-        value: "16mm",
-      },
-      {
-        label: "Diamètre intérieur du tuyau de trop-plein",
-        value: "16mm",
-      },
-      {
-        label: "Ouverture de la plaque perméable",
-        value: "3.5mm",
-      },
-      {
-        label: "Poids",
-        value: "150kg",
       },
     ],
   },
@@ -2406,6 +2310,7 @@ window.ludaData.deviceDetails = {
   },
   P068: {
     features: [
+      "Le bain peut également être utilisé pour les essais Marshall et pour des usages généraux de laboratoire.",
       "Le boîtier de cette machine est en tôle d'acier, recouvert d'une peinture haute température, et le réservoir intérieur est en acier inoxydable importé, avec une finition soignée, une structure plus rationnelle et une utilisation plus pratique.",
     ],
     specifications: [
@@ -2803,6 +2708,10 @@ window.ludaData.deviceDetails = {
     ],
   },
   P069: {
+    features: [
+      "Le bain peut également être utilisé pour les essais Marshall et pour des usages généraux de laboratoire.",
+      "Le boîtier de cette machine est en tôle d'acier, recouvert d'une peinture haute température, et le réservoir intérieur est en acier inoxydable importé, avec une finition soignée, une structure plus rationnelle et une utilisation plus pratique.",
+    ],
     specifications: [
       {
         label: "Plage de température",
@@ -2871,50 +2780,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Tension",
         value: "AC380V±10% (Personnalisable à d'autres tensions/fréquences)",
-      },
-    ],
-  },
-  P131: {
-    specifications: [
-      {
-        label: "Capacité d'alimentation",
-        value: "28L",
-      },
-      {
-        label: "Capacité de production",
-        value: "15L",
-      },
-      {
-        label: "Vitesse du tambour mélangeur (sens antihoraire)",
-        value: "60±2r/min",
-      },
-      {
-        label: "Vitesse de la lame d'agitation (sens horaire)",
-        value: "80±4r/min",
-      },
-      {
-        label: "Jeu de travail entre la lame de mélange et le tambour de mélange",
-        value: "5±0.5mm",
-      },
-      {
-        label: "Vitesse du moteur (vitesse synchrone)",
-        value: "1440r/min",
-      },
-      {
-        label: "Puissance du moteur",
-        value: "1.5kW",
-      },
-      {
-        label: "Tension",
-        value: "AC380V±10%, 50Hz (Personnalisable à d'autres tensions/fréquences)",
-      },
-      {
-        label: "Dimensions",
-        value: "800×600×900mm",
-      },
-      {
-        label: "Poids",
-        value: "2100kg",
       },
     ],
   },
@@ -3325,70 +3190,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Moule d'essai Marshall",
         value: "Ф101.6×87mm",
-      },
-    ],
-  },
-  P132: {
-    specifications: [
-      {
-        label: "Pression de service maximale admissible",
-        value: "1.5MPa",
-      },
-      {
-        label: "Mode de fonctionnement",
-        value: "Automatic voltage regulation and manual voltage regulation",
-      },
-      {
-        label: "Le nombre d'échantillons pouvant être utilisés simultanément",
-        value: "6",
-      },
-      {
-        label: "Diamètre intérieur de l'ouverture supérieure du moule d'essai",
-        value: "Φ70mm",
-      },
-      {
-        label: "Diamètre intérieur de l'ouverture inférieure du moule d'essai",
-        value: "Φ80mm",
-      },
-      {
-        label: "Hauteur du moule",
-        value: "30mm",
-      },
-      {
-        label: "diamètre du piston de la pompe",
-        value: "Φ10mm",
-      },
-      {
-        label: "course de la pompe à piston",
-        value: "10mm",
-      },
-      {
-        label: "fréquence de va-et-vient de la pompe à piston",
-        value: "130 times/min",
-      },
-      {
-        label: "débit de la pompe à piston",
-        value: "0.1L/min",
-      },
-      {
-        label: "Puissance du moteur",
-        value: "90W",
-      },
-      {
-        label: "vitesse du moteur",
-        value: "1340r/min",
-      },
-      {
-        label: "Tension",
-        value: "AC380V±10%, 50Hz (Personnalisable à d'autres tensions/fréquences)",
-      },
-      {
-        label: "Dimensions",
-        value: "750×560×750mm",
-      },
-      {
-        label: "Poids",
-        value: "120kg",
       },
     ],
   },
@@ -5541,66 +5342,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  C015: {
-    specifications: [
-      {
-        label: "Pression de service",
-        value: "4MPa",
-      },
-      {
-        label: "Mode de fonctionnement",
-        value: "Automatic pressurization",
-      },
-      {
-        label: "Nombre d'échantillons d'essai",
-        value: "6 PCS",
-      },
-      {
-        label: "Diamètre intérieur de l'ouverture supérieure du moule d'essai",
-        value: "Φ175mm",
-      },
-      {
-        label: "Diamètre intérieur du fond du moule d'essai",
-        value: "Φ185mm",
-      },
-      {
-        label: "Hauteur du moule d'essai",
-        value: "160mm",
-      },
-      {
-        label: "Puissance du moteur",
-        value: "80W",
-      },
-      {
-        label: "vitesse du moteur",
-        value: "136r/min",
-      },
-      {
-        label: "diamètre du piston de la pompe à piston",
-        value: "Φ10mm",
-      },
-      {
-        label: "fréquence de va-et-vient de la pompe à piston",
-        value: "136 times/min",
-      },
-      {
-        label: "débit de la pompe à piston",
-        value: "0.11L/min",
-      },
-      {
-        label: "Tension d'alimentation",
-        value: "AC380V±10% (Personnalisable à d'autres tensions/fréquences)",
-      },
-      {
-        label: "Dimensions",
-        value: "1090×710×920mm",
-      },
-      {
-        label: "Poids",
-        value: "185kg",
-      },
-    ],
-  },
   D013: {
     specifications: [
       {
@@ -5864,40 +5605,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E037: {
-    features: [],
-    customized: [],
-    specifications: [
-      {
-        label: "Diamètre du cylindre de stockage de sable",
-        value: "150mm",
-      },
-      {
-        label: "Volume du cylindre de stockage de sable",
-        value: "4771cm³",
-      },
-      {
-        label: "Diamètre de l'orifice d'écoulement du sable",
-        value: "15mm",
-      },
-      {
-        label: "Diamètre intérieur du réservoir d'étalonnage",
-        value: "150mm",
-      },
-      {
-        label: "Diamètre extérieur du réservoir d'étalonnage",
-        value: "200mm",
-      },
-      {
-        label: "Longueur du côté de la plaque de base",
-        value: "400mm",
-      },
-      {
-        label: "Profondeur de la plaque de base",
-        value: "50mm",
-      },
-    ],
-  },
   F115: {
     features: [],
     customized: [],
@@ -6068,40 +5775,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E038: {
-    features: [],
-    customized: [],
-    specifications: [
-      {
-        label: "Diamètre du cylindre de stockage de sable",
-        value: "100mm",
-      },
-      {
-        label: "Volume du cylindre de stockage de sable",
-        value: "2121cm³",
-      },
-      {
-        label: "Diamètre de l'orifice d'écoulement du sable",
-        value: "10mm",
-      },
-      {
-        label: "Diamètre intérieur du réservoir d'étalonnage",
-        value: "100mm",
-      },
-      {
-        label: "Diamètre extérieur du réservoir d'étalonnage",
-        value: "150mm",
-      },
-      {
-        label: "Longueur du côté de la plaque de base",
-        value: "350mm",
-      },
-      {
-        label: "Profondeur de la plaque de base",
-        value: "40mm",
-      },
-    ],
-  },
   F122: {
     features: [],
     customized: [],
@@ -6114,6 +5787,7 @@ window.ludaData.deviceDetails = {
   },
   P150: {
     features: [
+      "Il est principalement utilisé pour l'essai de retrait au séchage du ciment, du béton et du mortier.",
       "La structure générale est robuste, la forme est esthétique et la résistance à la corrosion est bonne.",
       "Le thermomètre-hygromètre est doté d'un affichage numérique double et présente les avantages suivants : haute résolution, intuitivité, facilité de réglage et grande précision de contrôle.",
     ],
@@ -6533,104 +6207,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E002: {
-    features: [
-      "Commandé par un moteur à double vitesse via un programmateur horaire, il effectue automatiquement le cycle de fonctionnement spécifié de « rotation lente — arrêt — rotation rapide ».",
-      "Sa structure entièrement métallique garantit des performances de test stables.",
-    ],
-    specifications: [
-      {
-        label: "Vitesse de rotation à basse vitesse (tr/min)",
-        value: "62±5",
-      },
-      {
-        label: "Vitesse de révolution à grande vitesse (tr/min)",
-        value: "125±10",
-      },
-      {
-        label: "Vitesse de rotation à basse vitesse (tr/min)",
-        value: "140±5",
-      },
-      {
-        label: "Vitesse de rotation à grande vitesse (tr/min)",
-        value: "258±10",
-      },
-      {
-        label: "Durée du programme de contrôle automatique à basse vitesse (s)",
-        value: "120±3",
-      },
-      {
-        label: "Durée d'arrêt du programme de contrôle automatique (s)",
-        value: "15",
-      },
-      {
-        label: "Durée du programme de contrôle automatique à haute vitesse (s)",
-        value: "120±3",
-      },
-      {
-        label: "Spécifications du filetage de raccordement entre la pale de mélange et l'arbre de la pale",
-        value: "M16×1",
-      },
-      {
-        label: "espace de travail entre la lame de mélange et le récipient de mélange (mm)",
-        value: "2±1",
-      },
-      {
-        label: "Largeur de la lame de mélange (mm)",
-        value: "111",
-      },
-      {
-        label: "Épaisseur de paroi du pot mélangeur (mm)",
-        value: "1",
-      },
-      {
-        label: "Dimensions du pot mélangeur (diamètre intérieur × profondeur) (mm)",
-        value: "Φ160×139",
-      },
-      {
-        label: "Volume de mélange (L)",
-        value: "2.5",
-      },
-      {
-        label: "tension d'alimentation",
-        value: "AC380V±10%, 50Hz (Personnalisable à d'autres tensions/fréquences)",
-      },
-      {
-        label: "Dimensions globales (mm)",
-        value: "450×250×500",
-      },
-      {
-        label: "Poids (kg)",
-        value: "65",
-      },
-    ],
-  },
-  E043: {
-    features: [],
-    customized: [],
-    specifications: [
-      {
-        label: "Vérin hydraulique",
-        value: "100 kN and ball seat",
-      },
-      {
-        label: "Jauge de force",
-        value: "60 kN",
-      },
-      {
-        label: "Tige de pénétration",
-        value: "D 50mm",
-      },
-      {
-        label: "Longueur",
-        value: "200mm",
-      },
-      {
-        label: "Plaque de charge",
-        value: "1.25 kg per piece",
-      },
-    ],
-  },
   C024: {
     specifications: [
       {
@@ -6846,74 +6422,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E005: {
-    specifications: [
-      {
-        label: "Vitesse de rotation à basse vitesse (tr/min)",
-        value: "62±2",
-      },
-      {
-        label: "Vitesse de révolution à grande vitesse (tr/min)",
-        value: "125±3",
-      },
-      {
-        label: "Vitesse de rotation à basse vitesse (tr/min)",
-        value: "140±2",
-      },
-      {
-        label: "Vitesse de rotation à grande vitesse (tr/min)",
-        value: "258±3",
-      },
-      {
-        label: "Spécifications du filetage de raccordement entre la pale de mélange et l'arbre de la pale",
-        value: "M16×1",
-      },
-      {
-        label: "Largeur de la lame de mélange (mm)",
-        value: "111",
-      },
-      {
-        label: "Épaisseur de paroi du pot mélangeur (mm)",
-        value: "1",
-      },
-      {
-        label: "Volume de mélange (L)",
-        value: "2.5",
-      },
-      {
-        label: "tension d'alimentation",
-        value: "AC220V±10%, 50Hz",
-      },
-      {
-        label: "Dimensions globales (mm)",
-        value: "570×340×600",
-      },
-      {
-        label: "Poids (kg)",
-        value: "44",
-      },
-    ],
-  },
-  C027: {
-    specifications: [
-      {
-        label: "Plage de mesure",
-        value: "50～999.99mV",
-      },
-      {
-        label: "Configuration des électrodes",
-        value: "domestic 2 electrodes",
-      },
-      {
-        label: "Plage de mesure électrique",
-        value: "1×10-2～5×10-5mol/L",
-      },
-      {
-        label: "Tension",
-        value: "AC220V±10%",
-      },
-    ],
-  },
   E030: {
     features: [],
     customized: [],
@@ -6969,34 +6477,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Poids (kg)",
         value: "3.8",
-      },
-    ],
-  },
-  C028: {
-    specifications: [
-      {
-        label: "Plage de mesure maximale du manomètre",
-        value: "6MPa",
-      },
-      {
-        label: "diamètre intérieur du cylindre",
-        value: "125±0.02mm",
-      },
-      {
-        label: "Hauteur du corps du cylindre",
-        value: "200±0.2mm",
-      },
-      {
-        label: "diamètre du piston de travail",
-        value: "125mm",
-      },
-      {
-        label: "Ouverture du tamis",
-        value: "0.335mm (50 mesh)",
-      },
-      {
-        label: "Poids",
-        value: "20kg",
       },
     ],
   },

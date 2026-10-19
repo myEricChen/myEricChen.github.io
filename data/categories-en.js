@@ -37,7 +37,6 @@ window.ludaData.categories = [
             { id: "compression", name: "Compression Testing Machines", description: "Compression testing machines for concrete cubes, cylinders, blocks, and masonry strength testing." },
             { id: "fresh-concrete", name: "Fresh Concrete Testing", description: "Equipment for fresh concrete workability, slump, air content, density, and consistency testing." },
             { id: "durability", name: "Durability & Permeability Testing", description: "Durability testers for freeze-thaw resistance, chloride penetration, carbonation, and sulfate attack." },
-            { id: "permeability", name: "Permeability & Chloride Testing", description: "Permeability and chloride ion penetration testing systems for concrete durability assessment." },
             { id: "curing-specimens", name: "Curing & Specimen Preparation", description: "Concrete curing tanks, temperature-controlled baths, molds, and specimen preparation equipment." }
         ]
       },

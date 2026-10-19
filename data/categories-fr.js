@@ -35,7 +35,6 @@ window.ludaData.categories = [
             { id: "compression", name: "Machines d'essai de compression", description: "Machines d'essai de compression pour cubes, cylindres, blocs et maçonnerie en béton." },
             { id: "fresh-concrete", name: "Essais du béton frais", description: "Équipements pour l'ouvrabilité du béton frais, affaissement, teneur en air et densité." },
             { id: "durability", name: "Essais de durabilité et perméabilité", description: "Appareils de durabilité pour résistance au gel-dégel, pénétration des chlorures et carbonatation." },
-            { id: "permeability", name: "Essais de perméabilité et chlorures", description: "Systèmes d'essai de perméabilité et de pénétration des ions chlorure pour le béton." },
             { id: "curing-specimens", name: "Cure et préparation des éprouvettes", description: "Bacs de cure, bains thermostatiques, moules et équipements de préparation d'éprouvettes." }
         ]      },
       {

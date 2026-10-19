@@ -437,50 +437,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  P120: {
-    specifications: [
-      {
-        label: "Especificación del cilindro de ensayo",
-        value: "Φ300×600mm",
-      },
-      {
-        label: "Altura del cilindro de ensayo",
-        value: "600mm",
-      },
-      {
-        label: "Altura del indicador",
-        value: "3000mm",
-      },
-      {
-        label: "Espaciado de los orificios de medición de presión",
-        value: "250mm",
-      },
-      {
-        label: "Equipo de carga",
-        value: "Leverage pressure",
-      },
-      {
-        label: "Cubo de suministro de agua",
-        value: "140×140×140mm",
-      },
-      {
-        label: "cubo para almacenar agua",
-        value: "200×400×450mm",
-      },
-      {
-        label: "Voltaje",
-        value: "AC 220V",
-      },
-      {
-        label: "Dimensión",
-        value: "1400×600×1900mm",
-      },
-      {
-        label: "Peso",
-        value: "250kg",
-      },
-    ],
-  },
   P133: {
     features: [
       "Los componentes seleccionados para este producto son altamente fiables y de alta calidad para garantizar la fiabilidad, la estabilidad y la precisión del rendimiento del producto.",
@@ -943,58 +899,6 @@ window.ludaData.deviceDetails = {
       {
         label: "consumo de energía de la máquina",
         value: "No more than 2100W",
-      },
-    ],
-  },
-  P121: {
-    specifications: [
-      {
-        label: "Volumen del tanque de suministro de agua",
-        value: "80L",
-      },
-      {
-        label: "Diámetro interior del cilindro metálico",
-        value: "300mm",
-      },
-      {
-        label: "Altura del cilindro metálico",
-        value: "500mm",
-      },
-      {
-        label: "Espesor de la pared del cilindro metálico",
-        value: "10mm",
-      },
-      {
-        label: "Número de tubos de medición de presión",
-        value: "5 PCS",
-      },
-      {
-        label: "Diámetro interior del tubo de medición de presión",
-        value: "6mm",
-      },
-      {
-        label: "Valor de división de la escala del tubo de medición de presión",
-        value: "1mm",
-      },
-      {
-        label: "Espaciado de los orificios de medición de presión",
-        value: "50mm",
-      },
-      {
-        label: "Diámetro del orificio de filtración",
-        value: "16mm",
-      },
-      {
-        label: "Diámetro interior del tubo de rebose",
-        value: "16mm",
-      },
-      {
-        label: "Abertura de placa permeable",
-        value: "3.5mm",
-      },
-      {
-        label: "Peso",
-        value: "150kg",
       },
     ],
   },
@@ -2406,6 +2310,7 @@ window.ludaData.deviceDetails = {
   },
   P068: {
     features: [
+      "El baño también puede utilizarse para ensayos Marshall y para fines generales de laboratorio.",
       "La carcasa de esta máquina está fabricada con chapa de acero, recubierta con pintura en aerosol resistente a altas temperaturas, y el depósito interior está hecho de acero inoxidable importado, con una mano de obra exquisita, una estructura más racional y un uso más cómodo.",
     ],
     specifications: [
@@ -2803,6 +2708,10 @@ window.ludaData.deviceDetails = {
     ],
   },
   P069: {
+    features: [
+      "El baño también puede utilizarse para ensayos Marshall y para fines generales de laboratorio.",
+      "La carcasa de esta máquina está fabricada con chapa de acero, recubierta con pintura en aerosol resistente a altas temperaturas, y el depósito interior está hecho de acero inoxidable importado, con una mano de obra exquisita, una estructura más racional y un uso más cómodo.",
+    ],
     specifications: [
       {
         label: "Rango de temperatura",
@@ -2871,50 +2780,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Voltaje",
         value: "AC380V±10% (Personalizable a otro voltaje/frecuencia)",
-      },
-    ],
-  },
-  P131: {
-    specifications: [
-      {
-        label: "Capacidad de alimentación",
-        value: "28L",
-      },
-      {
-        label: "Capacidad de salida",
-        value: "15L",
-      },
-      {
-        label: "Velocidad del tambor mezclador (en sentido antihorario)",
-        value: "60±2r/min",
-      },
-      {
-        label: "Velocidad de agitación de las palas (en sentido horario)",
-        value: "80±4r/min",
-      },
-      {
-        label: "Espacio de trabajo entre la pala mezcladora y el tambor mezclador.",
-        value: "5±0.5mm",
-      },
-      {
-        label: "Velocidad del motor (velocidad síncrona)",
-        value: "1440r/min",
-      },
-      {
-        label: "Potencia del motor",
-        value: "1.5kW",
-      },
-      {
-        label: "Voltaje",
-        value: "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)",
-      },
-      {
-        label: "Dimensiones",
-        value: "800×600×900mm",
-      },
-      {
-        label: "Peso",
-        value: "2100kg",
       },
     ],
   },
@@ -3325,70 +3190,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Molde de prueba Marshall",
         value: "Ф101.6×87mm",
-      },
-    ],
-  },
-  P132: {
-    specifications: [
-      {
-        label: "Presión máxima de trabajo admisible",
-        value: "1.5MPa",
-      },
-      {
-        label: "Modo de funcionamiento",
-        value: "Automatic voltage regulation and manual voltage regulation",
-      },
-      {
-        label: "Número de piezas de prueba que se pueden utilizar al mismo tiempo.",
-        value: "6",
-      },
-      {
-        label: "El diámetro interior de la boca superior del molde de prueba",
-        value: "Φ70mm",
-      },
-      {
-        label: "El diámetro interior de la boca inferior del molde de prueba",
-        value: "Φ80mm",
-      },
-      {
-        label: "Altura del molde",
-        value: "30mm",
-      },
-      {
-        label: "Diámetro del émbolo de la bomba de pistón",
-        value: "Φ10mm",
-      },
-      {
-        label: "Carrera de bombeo del pistón",
-        value: "10mm",
-      },
-      {
-        label: "Frecuencia de oscilación de la bomba de émbolo",
-        value: "130 times/min",
-      },
-      {
-        label: "Flujo de la bomba de pistón",
-        value: "0.1L/min",
-      },
-      {
-        label: "Potencia del motor",
-        value: "90W",
-      },
-      {
-        label: "Velocidad del motor",
-        value: "1340r/min",
-      },
-      {
-        label: "Voltaje",
-        value: "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)",
-      },
-      {
-        label: "Dimensiones",
-        value: "750×560×750mm",
-      },
-      {
-        label: "Peso",
-        value: "120kg",
       },
     ],
   },
@@ -5541,66 +5342,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  C015: {
-    specifications: [
-      {
-        label: "Presión de trabajo",
-        value: "4MPa",
-      },
-      {
-        label: "Modo de funcionamiento",
-        value: "Automatic pressurization",
-      },
-      {
-        label: "Número de muestras de prueba",
-        value: "6 PCS",
-      },
-      {
-        label: "Diámetro interior de la abertura superior del molde de prueba",
-        value: "Φ175mm",
-      },
-      {
-        label: "Diámetro interior de la parte inferior del molde de prueba",
-        value: "Φ185mm",
-      },
-      {
-        label: "Altura del molde de prueba",
-        value: "160mm",
-      },
-      {
-        label: "Potencia del motor",
-        value: "80W",
-      },
-      {
-        label: "Velocidad del motor",
-        value: "136r/min",
-      },
-      {
-        label: "Diámetro del émbolo de la bomba de émbolo",
-        value: "Φ10mm",
-      },
-      {
-        label: "Frecuencia de oscilación de la bomba de émbolo",
-        value: "136 times/min",
-      },
-      {
-        label: "Flujo de la bomba de pistón",
-        value: "0.11L/min",
-      },
-      {
-        label: "Tensión de alimentación",
-        value: "AC380V±10% (Personalizable a otro voltaje/frecuencia)",
-      },
-      {
-        label: "Dimensiones",
-        value: "1090×710×920mm",
-      },
-      {
-        label: "Peso",
-        value: "185kg",
-      },
-    ],
-  },
   D013: {
     specifications: [
       {
@@ -5864,40 +5605,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E037: {
-    features: [],
-    customized: [],
-    specifications: [
-      {
-        label: "Diámetro del cilindro de almacenamiento de arena",
-        value: "150mm",
-      },
-      {
-        label: "Volumen del cilindro de almacenamiento de arena",
-        value: "4771cm³",
-      },
-      {
-        label: "Diámetro del orificio de flujo de arena",
-        value: "15mm",
-      },
-      {
-        label: "Diámetro interior del tanque de calibración",
-        value: "150mm",
-      },
-      {
-        label: "Diámetro exterior del tanque de calibración",
-        value: "200mm",
-      },
-      {
-        label: "Longitud lateral de la placa base",
-        value: "400mm",
-      },
-      {
-        label: "Profundidad de la placa base",
-        value: "50mm",
-      },
-    ],
-  },
   F115: {
     features: [],
     customized: [],
@@ -6068,40 +5775,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E038: {
-    features: [],
-    customized: [],
-    specifications: [
-      {
-        label: "Diámetro del cilindro de almacenamiento de arena",
-        value: "100mm",
-      },
-      {
-        label: "Volumen del cilindro de almacenamiento de arena",
-        value: "2121cm³",
-      },
-      {
-        label: "Diámetro del orificio de flujo de arena",
-        value: "10mm",
-      },
-      {
-        label: "Diámetro interior del tanque de calibración",
-        value: "100mm",
-      },
-      {
-        label: "Diámetro exterior del tanque de calibración",
-        value: "150mm",
-      },
-      {
-        label: "Longitud lateral de la placa base",
-        value: "350mm",
-      },
-      {
-        label: "Profundidad de la placa base",
-        value: "40mm",
-      },
-    ],
-  },
   F122: {
     features: [],
     customized: [],
@@ -6114,6 +5787,7 @@ window.ludaData.deviceDetails = {
   },
   P150: {
     features: [
+      "Se utiliza principalmente para el ensayo de retracción por secado de cemento, hormigón y mortero.",
       "La estructura general es robusta, tiene una forma atractiva y ofrece buena resistencia a la corrosión.",
       "El medidor de temperatura y humedad adopta un sistema de ajuste y visualización con doble pantalla digital, que ofrece las ventajas de alta resolución, intuición, fácil ajuste y alta precisión de control.",
     ],
@@ -6533,104 +6207,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E002: {
-    features: [
-      "Controlado por un motor de doble velocidad mediante un programador horario, completa automáticamente el ciclo de trabajo especificado de \"rotación lenta - parada - rotación rápida\".",
-      "La estructura totalmente metálica garantiza un rendimiento de prueba estable.",
-    ],
-    specifications: [
-      {
-        label: "Velocidad de revolución a baja velocidad (r/min)",
-        value: "62±5",
-      },
-      {
-        label: "Velocidad de revolución a alta velocidad (r/min)",
-        value: "125±10",
-      },
-      {
-        label: "Velocidad de rotación a baja velocidad (r/min)",
-        value: "140±5",
-      },
-      {
-        label: "Velocidad de rotación de alta velocidad (r/min)",
-        value: "258±10",
-      },
-      {
-        label: "Tiempo del programa de control automático a baja velocidad (s)",
-        value: "120±3",
-      },
-      {
-        label: "Tiempo de parada del programa de control automático (s)",
-        value: "15",
-      },
-      {
-        label: "Tiempo del programa de control automático a alta velocidad (s)",
-        value: "120±3",
-      },
-      {
-        label: "Especificación de la rosca de conexión entre la pala mezcladora y el eje de la pala.",
-        value: "M16×1",
-      },
-      {
-        label: "Espacio de trabajo entre la pala mezcladora y el recipiente de mezcla (mm)",
-        value: "2±1",
-      },
-      {
-        label: "Ancho de la pala mezcladora (mm)",
-        value: "111",
-      },
-      {
-        label: "Espesor de la pared del recipiente de mezcla (mm)",
-        value: "1",
-      },
-      {
-        label: "Dimensiones del recipiente mezclador (diámetro interior × profundidad) (mm)",
-        value: "Φ160×139",
-      },
-      {
-        label: "Volumen de mezcla (L)",
-        value: "2.5",
-      },
-      {
-        label: "Tensión de alimentación",
-        value: "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)",
-      },
-      {
-        label: "Dimensiones generales (mm)",
-        value: "450×250×500",
-      },
-      {
-        label: "Peso (kg)",
-        value: "65",
-      },
-    ],
-  },
-  E043: {
-    features: [],
-    customized: [],
-    specifications: [
-      {
-        label: "Gato hidráulico",
-        value: "100 kN and ball seat",
-      },
-      {
-        label: "Manómetro de fuerza",
-        value: "60 kN",
-      },
-      {
-        label: "Varilla de penetración",
-        value: "D 50mm",
-      },
-      {
-        label: "Longitud",
-        value: "200mm",
-      },
-      {
-        label: "Placa de carga",
-        value: "1.25 kg per piece",
-      },
-    ],
-  },
   C024: {
     specifications: [
       {
@@ -6846,74 +6422,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E005: {
-    specifications: [
-      {
-        label: "Velocidad de revolución a baja velocidad (r/min)",
-        value: "62±2",
-      },
-      {
-        label: "Velocidad de revolución a alta velocidad (r/min)",
-        value: "125±3",
-      },
-      {
-        label: "Velocidad de rotación a baja velocidad (r/min)",
-        value: "140±2",
-      },
-      {
-        label: "Velocidad de rotación de alta velocidad (r/min)",
-        value: "258±3",
-      },
-      {
-        label: "Especificación de la rosca de conexión entre la pala mezcladora y el eje de la pala.",
-        value: "M16×1",
-      },
-      {
-        label: "Ancho de la pala mezcladora (mm)",
-        value: "111",
-      },
-      {
-        label: "Espesor de la pared del recipiente de mezcla (mm)",
-        value: "1",
-      },
-      {
-        label: "Volumen de mezcla (L)",
-        value: "2.5",
-      },
-      {
-        label: "Tensión de alimentación",
-        value: "AC220V±10%, 50Hz",
-      },
-      {
-        label: "Dimensiones generales (mm)",
-        value: "570×340×600",
-      },
-      {
-        label: "Peso (kg)",
-        value: "44",
-      },
-    ],
-  },
-  C027: {
-    specifications: [
-      {
-        label: "Rango de medición",
-        value: "50～999.99mV",
-      },
-      {
-        label: "Configuración de electrodos",
-        value: "domestic 2 electrodes",
-      },
-      {
-        label: "Rango de medición eléctrica",
-        value: "1×10-2～5×10-5mol/L",
-      },
-      {
-        label: "Voltaje",
-        value: "AC220V±10%",
-      },
-    ],
-  },
   E030: {
     features: [],
     customized: [],
@@ -6969,34 +6477,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Peso (kg)",
         value: "3.8",
-      },
-    ],
-  },
-  C028: {
-    specifications: [
-      {
-        label: "El rango máximo del manómetro",
-        value: "6MPa",
-      },
-      {
-        label: "Diámetro interior del cilindro",
-        value: "125±0.02mm",
-      },
-      {
-        label: "Altura del cuerpo del cilindro",
-        value: "200±0.2mm",
-      },
-      {
-        label: "Diámetro del pistón de trabajo",
-        value: "125mm",
-      },
-      {
-        label: "Apertura del tamiz",
-        value: "0.335mm (50 mesh)",
-      },
-      {
-        label: "Peso",
-        value: "20kg",
       },
     ],
   },

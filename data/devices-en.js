@@ -3525,7 +3525,11 @@ window.ludaData.devices = [
     description: "LDGW-60C steel pipe bending testing machine has the characteristics of compact structure, simple operation, intuitive display of bending angle, easy maintenance, stable operation, safety, and low noise. It is a special equipment for cold bending test of steel pipes.This equipment is an ideal test equipment for steel mills and construction units to test the bending performance and reverse bending performance of steel pipes.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "ISO 8491",
+      "ASTM A53",
+      "ASTM E290",
+    ],
     specifications: [
       {
         label: "Steel Pipe Outer Diameter",
@@ -4095,7 +4099,9 @@ window.ludaData.devices = [
       "The temperature controller of this machine adopts a digital temperature controller with high precision, clear temperature display, and convenient setting of temperature control points. The instrument can be used for analysis tests of three samples at a time, and the test efficiency is high."
     ],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 12606-1",
+    ],
     specifications: [
       {
         label: "Working power supply",
@@ -4678,139 +4684,7 @@ window.ludaData.devices = [
     hasCAD: false,
     isNew: false
   },
-  {
-    id: "P120",
-
-      sortWeight: 1,
-    name: "Coarse-grained Soil Vertical Seepage Deformation Meter (slope type)",
-    suffixName: "",
-    model: "LDSL-III",
-    category: "geotechnical",
-
-      subcategory: "soil-permeability",
-    thumbnail: "/assets/images/LDSL-III.png",
-    description: "The purpose of this test is to determine the permeability coefficient of the sample when the seepage water passes through the coarse-grained soil, the critical slope of the fine particles gradually lost with the seepage (piping) and the failure slope (flowing soil) when the soil body floats as a whole.<br>This test is applicable to disturbed coarse-grained soil samples and undisturbed coarse-grained soil samples.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
       {
-        label: "Test tube specification",
-        value: "Φ300×600mm"
-      },
-      {
-        label: "Test tube height",
-        value: "600mm"
-      },
-      {
-        label: "Gauge height",
-        value: "3000mm"
-      },
-      {
-        label: "Pressure measuring hole spacing",
-        value: "250mm"
-      },
-      {
-        label: "Loading equipment",
-        value: "Leverage pressure"
-      },
-      {
-        label: "Water supply bucket",
-        value: "140×140×140mm"
-      },
-      {
-        label: "Water storage bucket",
-        value: "200×400×450mm"
-      },
-      {
-        label: "Voltage",
-        value: "AC 220V"
-      },
-      {
-        label: "Dimension",
-        value: "1400×600×1900mm"
-      },
-      {
-        label: "Weight",
-        value: "250kg"
-      }
-    ],
-    hasManual: false,
-    hasVideo: false,
-    hasCAD: false,
-    isNew: false
-  },
-  {
-    id: "P121",
-
-      sortWeight: 2,
-    name: "Coarse-grained Soil Constant Head Permeameter",
-    suffixName: "",
-    model: "LDST-300",
-    category: "geotechnical",
-
-      subcategory: "soil-permeability",
-    thumbnail: "/assets/images/LDST-300.png",
-    description: "LDST-300 Coarse-grained Soil Constant Head Permeameter is used to measure the permeability coefficient of coarse-grained soil and graded crushed stone with the maximum particle size not greater than 75mm.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "Water supply tank volume",
-        value: "80L"
-      },
-      {
-        label: "Inner diameter of metal cylinder",
-        value: "300mm"
-      },
-      {
-        label: "Metal cylinder height",
-        value: "500mm"
-      },
-      {
-        label: "Metal cylinder wall thickness",
-        value: "10mm"
-      },
-      {
-        label: "Number of pressure measuring tubes",
-        value: "5 PCS"
-      },
-      {
-        label: "Inner diameter of pressure measuring tube",
-        value: "6mm"
-      },
-      {
-        label: "Pressure measuring tube scale division value",
-        value: "1mm"
-      },
-      {
-        label: "Pressure measuring hole spacing",
-        value: "50mm"
-      },
-      {
-        label: "Seepage hole diameter",
-        value: "16mm"
-      },
-      {
-        label: "Inner diameter of overflow pipe",
-        value: "16mm"
-      },
-      {
-        label: "Permeable plate aperture",
-        value: "3.5mm"
-      },
-      {
-        label: "Weight",
-        value: "150kg"
-      }
-    ],
-    hasManual: false,
-    hasVideo: false,
-    hasCAD: false,
-    isNew: false
-  },
-  {
     id: "P122",
 
       sortWeight: 3,
@@ -4824,7 +4698,10 @@ window.ludaData.devices = [
     description: "This product is used to manufacture various test pieces for inorganic binder stabilized pellets, including cylindrical test pieces for testing unconfined compression, strength, indirect tensile strength and compressive modulus of resilience, and for testing Beam specimens for temperature shrinkage coefficient, dry shrinkage coefficient, flexural strength and flexural modulus of resilience tests.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "BS 1377-4",
+      "EN 13286-4",
+    ],
     specifications: [
       {
         label: "Vibration motor power",
@@ -5069,7 +4946,16 @@ window.ludaData.devices = [
     description: "This product is mainly suitable for the stripping of test pieces of various compaction instruments, suitable for various test molds with diameters of Ф50mm, Ф100mm, Ф101.6mm, Ф150mm, Ф152mm, and heights within 230mm.This machine is used together with \"multifunctional electric compaction instrument\", \"Marshall compaction instrument\" and \"light manual compaction instrument\" to demould the specimen.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 12697-30",
+      "EN 13286-2",
+      "EN 13286-47",
+      "ASTM D698",
+      "ASTM D1883",
+      "ASTM D1557",
+      "ASTM D1559",
+      "ASTM D5581",
+    ],
     specifications: [
       {
         label: "Maximum release force",
@@ -5131,7 +5017,16 @@ window.ludaData.devices = [
     description: "This product is mainly suitable for the stripping of test pieces of various compaction instruments, suitable for various test molds with diameters of Ф50mm, Ф100mm, Ф101.6mm, Ф150mm, Ф152mm, and heights within 230mm.This machine is used together with \"multifunctional electric compaction instrument\", \"Marshall compaction instrument\" and \"light manual compaction instrument\" to demould the specimen.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 12697-30",
+      "EN 13286-2",
+      "EN 13286-47",
+      "ASTM D698",
+      "ASTM D1883",
+      "ASTM D1557",
+      "ASTM D1559",
+      "ASTM D5581",
+    ],
     specifications: [
       {
         label: "Maximum release force",
@@ -5382,151 +5277,7 @@ window.ludaData.devices = [
     hasCAD: false,
     isNew: false
   },
-  {
-    id: "P131",
-
-      sortWeight: 6,
-    name: "Mortar Mixer",
-    suffixName: "",
-    model: "UJZ-15",
-    category: "cement",
-
-      subcategory: "mixing-compaction",
-    thumbnail: "/assets/images/UJZ-15.png",
-    description: "This product is suitable for mixing mortar, and is generally applicable to construction units, universities and construction research units.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
       {
-        label: "Feed capacity",
-        value: "28L"
-      },
-      {
-        label: "Output capacity",
-        value: "15L"
-      },
-      {
-        label: "Mixing drum speed (counterclockwise)",
-        value: "60±2r/min"
-      },
-      {
-        label: "Stirring blade speed (clockwise)",
-        value: "80±4r/min"
-      },
-      {
-        label: "Working gap between mixing blade and mixing drum",
-        value: "5±0.5mm"
-      },
-      {
-        label: "Motor speed (synchronous speed)",
-        value: "1440r/min"
-      },
-      {
-        label: "Motor power",
-        value: "1.5kW"
-      },
-      {
-        label: "Voltage",
-        value: "AC380V±10%, 50Hz (Customizable to other voltage/frequency)"
-      },
-      {
-        label: "Dimensions",
-        value: "800×600×900mm"
-      },
-      {
-        label: "Weight",
-        value: "2100kg"
-      }
-    ],
-    hasManual: false,
-    hasVideo: false,
-    hasCAD: false,
-    isNew: false
-  },
-  {
-    id: "P132",
-
-      sortWeight: 7,
-    name: "Mortar Permeamete",
-    suffixName: "",
-    model: "SS-1.5",
-    category: "cement",
-
-      subcategory: "physical-testing",
-    thumbnail: "/assets/images/SS-1.5.png",
-    description: "The impermeability of mortar refers to the ability of mortar to resist the penetration of water or other liquid media under pressure.<br>SS-1.5 mortar permeability tester can be used to measure the impermeability of waterproof mortar, to conduct a comparison test between the mortar mixed with waterproof agent and the reference mortar, and to test the water permeability of other waterproof materials.<br>The SS-1.5 mortar penetration tester produced by our factory is suitable for the inspection, research and teaching of the anti-seepage performance of mortar by engineering quality supervision and inspection departments at all levels, construction unit laboratories, scientific research units, and colleges and universities.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "Allowable maximum working pressure",
-        value: "1.5MPa"
-      },
-      {
-        label: "Working mode",
-        value: "Automatic voltage regulation and manual voltage regulation"
-      },
-      {
-        label: "The number of test pieces that can be used at the same time",
-        value: "6"
-      },
-      {
-        label: "The inner diameter of upper mouth of test mold",
-        value: "Φ70mm"
-      },
-      {
-        label: "The inner diameter of lower mouth of test mold",
-        value: "Φ80mm"
-      },
-      {
-        label: "Mold height",
-        value: "30mm"
-      },
-      {
-        label: "Piston pump plunger diameter",
-        value: "Φ10mm"
-      },
-      {
-        label: "Piston pump stroke",
-        value: "10mm"
-      },
-      {
-        label: "Plunger pump reciprocating frequency",
-        value: "130 times/min"
-      },
-      {
-        label: "Piston pump flow",
-        value: "0.1L/min"
-      },
-      {
-        label: "Motor power",
-        value: "90W"
-      },
-      {
-        label: "Motor speed",
-        value: "1340r/min"
-      },
-      {
-        label: "Voltage",
-        value: "AC380V±10%, 50Hz (Customizable to other voltage/frequency)"
-      },
-      {
-        label: "Dimensions",
-        value: "750×560×750mm"
-      },
-      {
-        label: "Weight",
-        value: "120kg"
-      }
-    ],
-    hasManual: false,
-    hasVideo: false,
-    hasCAD: false,
-    isNew: false
-  },
-  {
     id: "P133",
 
       sortWeight: 1,
@@ -7017,85 +6768,7 @@ window.ludaData.devices = [
     hasCAD: false,
     isNew: false
   },
-  {
-    id: "C015",
-
-      sortWeight: 15,
-    name: "Concrete Impermeability Apparatus",
-    suffixName: "",
-    model: "HP-4.0",
-    category: "concrete",
-
-      subcategory: "permeability",
-    thumbnail: "/assets/images/HP-4.0.png",
-    description: "HP-4.0 automatic pressure regulating concrete impermeability instrument is used to measure the impermeability of concrete,which is used in construction enterprises, scientific research institutions, design departments and other units to engaged in the measurement and experimental research of concrete impermeability.It can also be used for building materials permeability measurement of quality inspection.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "Working pressure",
-        value: "4MPa"
-      },
-      {
-        label: "Working mode",
-        value: "Automatic pressurization"
-      },
-      {
-        label: "Number of test specimens",
-        value: "6 PCS"
-      },
-      {
-        label: "Inner diameter of the upper opening of the test mold",
-        value: "Φ175mm"
-      },
-      {
-        label: "Inner diameter of the bottom of the test mold",
-        value: "Φ185mm"
-      },
-      {
-        label: "Trial mold height",
-        value: "160mm"
-      },
-      {
-        label: "Motor power",
-        value: "80W"
-      },
-      {
-        label: "Motor speed",
-        value: "136r/min"
-      },
-      {
-        label: "Plunger pump plunger diameter",
-        value: "Φ10mm"
-      },
-      {
-        label: "Plunger pump reciprocating frequency",
-        value: "136 times/min"
-      },
-      {
-        label: "Piston pump flow",
-        value: "0.11L/min"
-      },
-      {
-        label: "Supply voltage",
-        value: "AC380V±10% (Customizable to other voltage/frequency)"
-      },
-      {
-        label: "Dimensions",
-        value: "1090×710×920mm"
-      },
-      {
-        label: "Weight",
-        value: "185kg"
-      }
-    ],
-    hasManual: false,
-    hasVideo: false,
-    hasCAD: false,
-    isNew: false
-  },
-  {
+    {
     id: "C016",
 
       sortWeight: 16,
@@ -7608,90 +7281,6 @@ window.ludaData.devices = [
     isNew: false
   },
   {
-    id: "C027",
-
-      sortWeight: 25,
-    name: "Chloride Ion Fast Content Analyzer",
-    suffixName: "",
-    model: "LDCL-B",
-    category: "concrete",
-
-      subcategory: "permeability",
-    thumbnail: "/assets/images/LDCL-B.png",
-    description: "This product quickly determines the water-soluble chloride ion content of concrete, sand, gravel, cement, mixing water and other inorganic materials through the professional software and chemical anti-jamming reagents equipped.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "Measurement range",
-        value: "50～999.99mV"
-      },
-      {
-        label: "Electrode configuration",
-        value: "domestic 2 electrodes"
-      },
-      {
-        label: "Electrical measurement range",
-        value: "1×10-2～5×10-5mol/L"
-      },
-      {
-        label: "Voltage",
-        value: "AC220V±10%"
-      }
-    ],
-    hasManual: false,
-    hasVideo: false,
-    hasCAD: false,
-    isNew: false
-  },
-  {
-    id: "C028",
-
-      sortWeight: 26,
-    name: "Concrete Pressure Secretion Instrument",
-    suffixName: "",
-    model: "SY-2",
-    category: "concrete",
-
-      subcategory: "permeability",
-    thumbnail: "/assets/images/SY-2.png",
-    description: "This device is used for concrete mixture with no more than 40mm compound pressure to be measured. It has the advantages of accurate measurement value, simple operation, small volume, and convenient molding.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "The maximum range of the pressure gauge",
-        value: "6MPa"
-      },
-      {
-        label: "Cylinder inner diameter",
-        value: "125±0.02mm"
-      },
-      {
-        label: "Cylinder body height",
-        value: "200±0.2mm"
-      },
-      {
-        label: "Working piston diameter",
-        value: "125mm"
-      },
-      {
-        label: "Screen aperture",
-        value: "0.335mm (50 mesh)"
-      },
-      {
-        label: "Weight",
-        value: "20kg"
-      }
-    ],
-    hasManual: false,
-    hasVideo: false,
-    hasCAD: false,
-    isNew: false
-  },
-  {
     id: "D001",
 
       sortWeight: 8,
@@ -8089,7 +7678,10 @@ window.ludaData.devices = [
     description: "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 196-1",
+      "ISO 679",
+    ],
     specifications: [
       {
         label: "Display method",
@@ -8151,7 +7743,10 @@ window.ludaData.devices = [
     description: "This testing machine is mainly used for testing the flexural strength of cement soft-burning mortar in cement plants, construction units, relevant professional colleges and scientific research units, and can also be used for flexural strength testing of other non-metallic brittle materials.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 196-1",
+      "ISO 679",
+    ],
     specifications: [
       {
         label: "Maximum bending resistance",
@@ -8472,7 +8067,16 @@ window.ludaData.devices = [
       "All-metal structure ensures stable testing performance."
     ],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 196-1",
+      "EN 196-3",
+      "EN 413-2",
+      "EN 459-2",
+      "EN 480-1",
+      "ISO 679",
+      "ASTM C305M",
+      "AASHTO T162",
+    ],
     specifications: [
       {
         label: "Low-speed rotation speed (r/min)",
@@ -8528,96 +8132,7 @@ window.ludaData.devices = [
     hasCAD: false,
     isNew: false
   },
-  {
-    id: "E002",
-
-      sortWeight: 21,
-    name: "Cement Paste Mixer",
-    suffixName: "",
-    model: "NJ-160A",
-    category: "cement",
-
-      subcategory: "mixing-compaction",
-    thumbnail: "/assets/images/NJ-160A.png",
-    description: "This product is suitable for determining the standard consistency and setting time of cement, as well as for making soundness test blocks. It is an indispensable piece of equipment in laboratories of cement manufacturing plants, construction units, relevant universities, and research institutions.",
-    features: [
-      "Controlled by a dual-speed motor via a time program controller, it automatically completes the specified working cycle of \"slow rotation — stop — fast rotation\".",
-      "All-metal structure ensures stable testing performance."
-    ],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "Low-speed revolution speed (r/min)",
-        value: "62±5"
-      },
-      {
-        label: "High-speed revolution speed (r/min)",
-        value: "125±10"
-      },
-      {
-        label: "Low-speed rotation speed (r/min)",
-        value: "140±5"
-      },
-      {
-        label: "High-speed rotation speed (r/min)",
-        value: "258±10"
-      },
-      {
-        label: "Automatic control program time at low speed (s)",
-        value: "120±3"
-      },
-      {
-        label: "Automatic control program stop time (s)",
-        value: "15"
-      },
-      {
-        label: "Automatic control program time at high speed (s)",
-        value: "120±3"
-      },
-      {
-        label: "Connection thread specification between mixing blade and blade shaft",
-        value: "M16×1"
-      },
-      {
-        label: "Working gap between mixing blade and mixing pot (mm)",
-        value: "2±1"
-      },
-      {
-        label: "Width of mixing blade (mm)",
-        value: "111"
-      },
-      {
-        label: "Wall thickness of mixing pot (mm)",
-        value: "1"
-      },
-      {
-        label: "Dimensions of mixing pot (inner diameter × depth) (mm)",
-        value: "Φ160×139"
-      },
-      {
-        label: "Mixing volume (L)",
-        value: "2.5"
-      },
-      {
-        label: "Power supply voltage",
-        value: "AC380V±10%, 50Hz (Customizable to other voltage/frequency)"
-      },
-      {
-        label: "Overall dimensions (mm)",
-        value: "450×250×500"
-      },
-      {
-        label: "Weight (kg)",
-        value: "65"
-      }
-    ],
-    hasManual: false,
-    hasVideo: false,
-    hasCAD: false,
-    isNew: false
-  },
-  {
+    {
     id: "E003",
 
       sortWeight: 22,
@@ -8635,7 +8150,10 @@ window.ludaData.devices = [
       "Distance from the center of the table disc to the center of the arm shaft is 800mm."
     ],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 196-1",
+      "ISO 679",
+    ],
     specifications: [
       {
         label: "Drop distance (mm)",
@@ -8688,7 +8206,13 @@ window.ludaData.devices = [
       "The controller offers high precision and is simple and convenient to operate."
     ],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 459-2",
+      "EN 1015-3",
+      "EN 13279-2",
+      "ASTM C230",
+      "BS 4551-1",
+    ],
     specifications: [
       {
         label: "Vibration drop distance (mm)",
@@ -8728,73 +8252,7 @@ window.ludaData.devices = [
     hasCAD: false,
     isNew: false
   },
-  {
-    id: "E005",
-
-      sortWeight: 24,
-    name: "Cement Paste Mixer",
-    suffixName: "",
-    model: "NJ-160F",
-    category: "cement",
-
-      subcategory: "mixing-compaction",
-    thumbnail: "/assets/images/NJ-160F.png",
-    description: "The cement paste mixer is primarily used for determining the standard consistency and setting time of cement, as well as for preparing soundness test blocks.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "Low-speed revolution speed (r/min)",
-        value: "62±2"
-      },
-      {
-        label: "High-speed revolution speed (r/min)",
-        value: "125±3"
-      },
-      {
-        label: "Low-speed rotation speed (r/min)",
-        value: "140±2"
-      },
-      {
-        label: "High-speed rotation speed (r/min)",
-        value: "258±3"
-      },
-      {
-        label: "Connection thread specification between mixing blade and blade shaft",
-        value: "M16×1"
-      },
-      {
-        label: "Width of mixing blade (mm)",
-        value: "111"
-      },
-      {
-        label: "Wall thickness of mixing pot (mm)",
-        value: "1"
-      },
-      {
-        label: "Mixing volume (L)",
-        value: "2.5"
-      },
-      {
-        label: "Power supply voltage",
-        value: "AC220V±10%, 50Hz"
-      },
-      {
-        label: "Overall dimensions (mm)",
-        value: "570×340×600"
-      },
-      {
-        label: "Weight (kg)",
-        value: "44"
-      }
-    ],
-    hasManual: false,
-    hasVideo: false,
-    hasCAD: false,
-    isNew: false
-  },
-  {
+    {
     id: "E027",
 
       sortWeight: 7,
@@ -9049,7 +8507,11 @@ window.ludaData.devices = [
     description: "This equipment is used to determine the compressive creep deformation of concrete specimens over time under long-term constant axial pressure. It is suitable for testing the creep properties of concrete materials and structures, and meets the requirements for long-term performance research of engineering materials.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "ASTM C512",
+      "ISO 1920-9",
+      "EN 12390-17",
+    ],
     specifications: [
       {
         label: "Maximum Test Force",
@@ -9573,7 +9035,19 @@ window.ludaData.devices = [
     description: null,
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "EN ISO 6892-1",
+      "ISO 7500",
+      "EN 10002",
+      "EN 10080",
+      "EN 15630-1",
+      "ASTM A370",
+      "EN 15630-3",
+      "EN ISO 7438",
+      "EN ISO 15630-1",
+      "ASTM A615",
+      "ASTM A615M",
+    ],
     specifications: [
       {
         label: "Maximum test force",
@@ -9655,7 +9129,11 @@ window.ludaData.devices = [
     description: "This testing machine is primarily used for evaluating the mechanical properties, damping performance, and large deformation behavior of rubber bearings, pot bearings, and spherical bearings for highways, railways, bridges, and building structures. It is capable of conducting compressive elastic modulus tests, shear elastic modulus tests, static shear tests, ultimate compressive strength tests, friction coefficient tests, rotation angle tests, as well as measuring axial compression deformation and radial deformation of pot bearings under load.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 1337",
+      "ASTM D4014",
+      "ISO 22762-1",
+    ],
     specifications: [
       {
         label: "Maximum vertical space of testing machine",
@@ -9741,7 +9219,11 @@ window.ludaData.devices = [
     description: "This testing machine is primarily used for evaluating the mechanical properties, damping performance, and large deformation behavior of rubber bearings, pot bearings, and spherical bearings for highways, railways, bridges, and building structures. It is capable of conducting compressive elastic modulus tests, shear elastic modulus tests, static shear tests, ultimate compressive strength tests, friction coefficient tests, rotation angle tests, as well as measuring axial compression deformation and radial deformation of pot bearings under load.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 1337",
+      "ASTM D4014",
+      "ISO 22762-1",
+    ],
     specifications: [
       {
         label: "Maximum vertical space of testing machine",
@@ -9827,7 +9309,11 @@ window.ludaData.devices = [
     description: "This testing machine is primarily used for evaluating the mechanical properties, damping performance, and large deformation behavior of rubber bearings, pot bearings, and spherical bearings for highways, railways, bridges, and building structures. It is capable of conducting compressive elastic modulus tests, shear elastic modulus tests, static shear tests, ultimate compressive strength tests, friction coefficient tests, rotation angle tests, as well as measuring axial compression deformation and radial deformation of pot bearings under load.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 1337",
+      "ASTM D4014",
+      "ISO 22762-1",
+    ],
     specifications: [
       {
         label: "Maximum vertical space of testing machine",
@@ -9973,7 +9459,12 @@ window.ludaData.devices = [
     customized: [
       "The specifications and spatial dimensions are customizable to meet customer needs."
     ],
-    standards: [],
+    standards: [
+      "ISO 7500-1",
+      "ISO 376",
+      "ASTM E4",
+      "ASTM E74",
+    ],
     specifications: [
       {
         label: "Max. capacity",
@@ -10013,7 +9504,12 @@ window.ludaData.devices = [
     customized: [
       "The specifications and spatial dimensions are customizable to meet customer needs."
     ],
-    standards: [],
+    standards: [
+      "ISO 7500-1",
+      "ISO 376",
+      "ASTM E4",
+      "ASTM E74",
+    ],
     specifications: [
       {
         label: "Max. capacity",
@@ -10051,7 +9547,13 @@ window.ludaData.devices = [
     description: "This electric servo fatigue testing machine is primarily designed for static and dynamic mechanical testing of various rubber/plastic materials, biomedical materials, and small metal materials/components. It supports fatigue tests including tension, compression, and bending.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "ISO 4666-4",
+      "ASTM D4482-11",
+      "ISO 4666-3",
+      "ASTM D7791-22",
+      "ISO 13003",
+    ],
     specifications: [
       {
         label: "",
@@ -10077,7 +9579,10 @@ window.ludaData.devices = [
     description: "This product is mainly used for determining the VeBee consistency of concrete mixtures. It measures the consistency value based on the compaction time (in seconds) of the mixture. It is suitable for aggregates with a maximum particle size not exceeding 40 mm, and for concrete mixtures with a VeBee consistency ranging from 5 to 30 seconds.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "BS 1881:Part 104",
+      "EN 12350-3",
+    ],
     specifications: [
       {
         label: "",
@@ -10143,7 +9648,11 @@ window.ludaData.devices = [
     description: "This equipment is primarily used in laboratories to separate asphalt from solvent in asphalt mixtures, and is mainly employed for determining asphalt content and ensuring construction quality control.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "ASTM D2172 Test Method A",
+      "EN 12697-1 Centrifuge Extractor Method",
+      "AASHTO T 164 Test Method A",
+    ],
     specifications: [
       {
         label: "Bowl density (kg)",
@@ -10176,106 +9685,6 @@ window.ludaData.devices = [
     isNew: null
   },
   {
-    id: "E037",
-
-      sortWeight: 16,
-    name: "Sand pouring cylinder set",
-    suffixName: "150mm",
-    model: null,
-    category: "geotechnical",
-
-      subcategory: "soil-classification",
-    thumbnail: "/assets/images/SandPouring1.png",
-    description: "Sand pouring cylinder is a specialized field device for compaction density testing. Its principle is to use standard sand of known density to measure the volume of a test pit via the replacement method, from which the wet and dry densities of the material are calculated.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "Sand storage cylinder diameter",
-        value: "150mm"
-      },
-      {
-        label: "Sand storage cylinder volume",
-        value: "4771cm³"
-      },
-      {
-        label: "Flowing sand hole diameter",
-        value: "15mm"
-      },
-      {
-        label: "Calibration tank inner diameter",
-        value: "150mm"
-      },
-      {
-        label: "Calibration tank outer diameter",
-        value: "200mm"
-      },
-      {
-        label: "Base plate side length",
-        value: "400mm"
-      },
-      {
-        label: "Base plate depth",
-        value: "50mm"
-      }
-    ],
-    hasManual: null,
-    hasVideo: null,
-    hasCAD: null,
-    isNew: null
-  },
-  {
-    id: "E038",
-
-      sortWeight: 17,
-    name: "Sand pouring cylinder set",
-    suffixName: "100mm",
-    model: null,
-    category: "geotechnical",
-
-      subcategory: "soil-classification",
-    thumbnail: "/assets/images/SandPouring2.png",
-    description: "Sand pouring cylinder is a specialized field device for compaction density testing. Its principle is to use standard sand of known density to measure the volume of a test pit via the replacement method, from which the wet and dry densities of the material are calculated.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "Sand storage cylinder diameter",
-        value: "100mm"
-      },
-      {
-        label: "Sand storage cylinder volume",
-        value: "2121cm³"
-      },
-      {
-        label: "Flowing sand hole diameter",
-        value: "10mm"
-      },
-      {
-        label: "Calibration tank inner diameter",
-        value: "100mm"
-      },
-      {
-        label: "Calibration tank outer diameter",
-        value: "150mm"
-      },
-      {
-        label: "Base plate side length",
-        value: "350mm"
-      },
-      {
-        label: "Base plate depth",
-        value: "40mm"
-      }
-    ],
-    hasManual: null,
-    hasVideo: null,
-    hasCAD: null,
-    isNew: null
-  },
-  {
     id: "E039",
 
       sortWeight: 31,
@@ -10289,7 +9698,12 @@ window.ludaData.devices = [
     description: "The slump cone is a tool used for measuring the consistency (fluidity) of fresh concrete mixtures.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "ASTM C143",
+      "EN 12350-2",
+      "EN 12350-1",
+      "AASHTO T 119",
+    ],
     specifications: [
       {
         label: "Top diameter",
@@ -10325,7 +9739,19 @@ window.ludaData.devices = [
     customized: [
       "Various specifications are available. The number of grooves and the width can be selected according to actual requirements."
     ],
-    standards: [],
+    standards: [
+      "EN 933-3",
+      "ASTM C136",
+      "ASTM C702",
+      "NF P18-553",
+      "UNI 8520",
+      "AASHTO T27",
+      "AASHTO T87",
+      "BS 812:1",
+      "BS 1377:2",
+      "BS 1924:1",
+      "UNE 83120",
+    ],
     specifications: null,
     hasManual: null,
     hasVideo: null,
@@ -10346,7 +9772,19 @@ window.ludaData.devices = [
     description: "It is mainly used to prepare soil sample specimens.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "EN 13286-47",
+      "EN 13286-4",
+      "ASTM D1883",
+      "AASHTO T193",
+      "CNR UNI 10009",
+      "UNE 103-502",
+      "NF P94-078",
+      "NF P94-093",
+      "NF P98-231-1",
+      "BS 1377:4",
+      "BS 1924:2",
+    ],
     specifications: [
       {
         label: "",
@@ -10374,7 +9812,19 @@ window.ludaData.devices = [
     customized: [
       "The load ring can be configured according to actual requirements."
     ],
-    standards: [],
+    standards: [
+      "EN 13286-47",
+      "EN 13286-4",
+      "ASTM D1883",
+      "AASHTO T193",
+      "CNR UNI 10009",
+      "UNE 103-502",
+      "NF P94-078",
+      "NF P94-093",
+      "NF P98-231-1",
+      "BS 1377:4",
+      "BS 1924:2",
+    ],
     specifications: [
       {
         label: "1. Maximum load",
@@ -10399,48 +9849,6 @@ window.ludaData.devices = [
     isNew: null
   },
   {
-    id: "E043",
-
-      sortWeight: 21,
-    name: "In-Situ CBR Testing Apparatus",
-    suffixName: null,
-    model: "LCB-2",
-    category: "geotechnical",
-
-      subcategory: "in-situ",
-    thumbnail: "/assets/images/LCB-2.png",
-    description: "A geotechnical testing instrument specifically used for directly measuring the bearing ratio and resilient modulus of subgrade soil, pavement base, and structural layer materials at highway construction sites.",
-    features: [],
-    customized: [],
-    standards: [],
-    specifications: [
-      {
-        label: "Hydraulic jack",
-        value: "100KN and ball seat"
-      },
-      {
-        label: "Force gauge",
-        value: "60KN"
-      },
-      {
-        label: "Penetration rod",
-        value: "D 50mm"
-      },
-      {
-        label: "Length",
-        value: "200mm"
-      },
-      {
-        label: "Load plate",
-        value: "1.25kg/piece"
-      }
-    ],
-    hasManual: null,
-    hasVideo: null,
-    hasCAD: null,
-    isNew: null
-  },
-  {
     id: "E044",
 
       sortWeight: 22,
@@ -10454,7 +9862,9 @@ window.ludaData.devices = [
     description: "Dynamic Cone Penetration Test Equipment is a lightweight and portable penetrometer used for in-situ testing of foundation soils.",
     features: [],
     customized: [],
-    standards: [],
+    standards: [
+      "ASTM D6951",
+    ],
     specifications: [
       {
         label: "Drop weight",

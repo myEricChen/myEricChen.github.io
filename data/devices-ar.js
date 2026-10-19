@@ -3458,7 +3458,11 @@ window.ludaData.devices = [
         description: "تتميز آلة اختبار ثني الأنابيب الفولاذية LDGW-60C ببنية مدمجة، وسهولة التشغيل، وعرض واضح لزاوية الثني، وسهولة الصيانة، والتشغيل المستقر، والسلامة، وانخفاض مستوى الضوضاء. وهي جهاز متخصص لاختبار الثني البارد للأنابيب الفولاذية. يُعد هذا الجهاز مثاليًا لمصانع الصلب ووحدات البناء لاختبار أداء الثني وأداء الثني العكسي للأنابيب الفولاذية.",
         features: [],
         customized: [],
-        standards: [],
+        standards: [
+          "ISO 8491",
+          "ASTM A53",
+          "ASTM E290",
+        ],
         specifications: [
           {
             label: "القطر الخارجي لأنبوب فولاذي",
@@ -4037,7 +4041,9 @@ window.ludaData.devices = [
           "تعتمد وحدة التحكم في درجة الحرارة في هذا الجهاز على وحدة تحكم رقمية عالية الدقة، تعرض درجة الحرارة بوضوح، وتتيح ضبط نقاط التحكم في درجة الحرارة بسهولة. يمكن استخدام الجهاز لإجراء اختبارات تحليلية لثلاث عينات في وقت واحد، مما يضمن كفاءة عالية في الاختبار."
         ],
         customized: [],
-        standards: [],
+        standards: [
+          "EN 12606-1",
+        ],
         specifications: [
           {
             label: "مصدر الطاقة العامل",
@@ -4628,141 +4634,7 @@ window.ludaData.devices = [
         hasCAD: false,
         isNew: false
       },
-      {
-        id: "P120",
-
-          sortWeight: 1,
-
-        name: "مقياس تشوه التسرب الرأسي للتربة الخشنة (من النوع المنحدر)",
-        suffixName: null,
-        model: "LDSL-III",
-        category: "geotechnical",
-
-          subcategory: "soil-permeability",
-        thumbnail: "/assets/images/LDSL-III.png",
-        description: "يهدف هذا الاختبار إلى تحديد معامل نفاذية العينة عند مرور مياه التسرب عبر التربة الخشنة، والميل الحرج للجسيمات الدقيقة التي تتلاشى تدريجيًا مع التسرب (ظاهرة التآكل الأنبوبي)، وميل الانهيار (التربة المتدفقة) عندما تطفو كتلة التربة ككل. يُطبق هذا الاختبار على عينات التربة الخشنة المضطربة وغير المضطربة.",
-        features: [],
-        customized: [],
-        standards: [],
-        specifications: [
-          {
-            label: "مواصفات أنبوب الاختبار",
-            value: "Φ300×600mm"
-          },
-          {
-            label: "ارتفاع أنبوب الاختبار",
-            value: "600mm"
-          },
-          {
-            label: "ارتفاع المقياس",
-            value: "3000mm"
-          },
-          {
-            label: "تباعد فتحات قياس الضغط",
-            value: "250mm"
-          },
-          {
-            label: "معدات التحميل",
-            value: "Leverage pressure"
-          },
-          {
-            label: "دلو إمداد المياه",
-            value: "140×140×140mm"
-          },
-          {
-            label: "دلو لتخزين الماء",
-            value: "200×400×450mm"
-          },
-          {
-            label: "الجهد االكهربى",
-            value: "AC 220V"
-          },
-          {
-            label: "الأبعاد",
-            value: "1400×600×1900mm"
-          },
-          {
-            label: "وزن",
-            value: "250kg"
-          }
-        ],
-        hasManual: false,
-        hasVideo: false,
-        hasCAD: false,
-        isNew: false
-      },
-      {
-        id: "P121",
-
-          sortWeight: 2,
-
-        name: "جهاز قياس نفاذية التربة الخشنة ذات الرأس الثابت",
-        suffixName: null,
-        model: "LDST-300",
-        category: "geotechnical",
-
-          subcategory: "soil-permeability",
-        thumbnail: "/assets/images/LDST-300.png",
-        description: "يستخدم جهاز قياس النفاذية ذو الرأس الثابت للتربة الخشنة LDST-300 لقياس معامل النفاذية للتربة الخشنة والحجر المكسر المتدرج بحجم جسيمات أقصى لا يزيد عن 75 مم.",
-        features: [],
-        customized: [],
-        standards: [],
-        specifications: [
-          {
-            label: "خزان مياه الإمداد",
-            value: "80L"
-          },
-          {
-            label: "القطر الداخلي للأسطوانة المعدنية",
-            value: "300mm"
-          },
-          {
-            label: "ارتفاع الأسطوانة المعدنية",
-            value: "500mm"
-          },
-          {
-            label: "سمك جدار الأسطوانة المعدنية",
-            value: "10mm"
-          },
-          {
-            label: "عدد أنابيب قياس الضغط",
-            value: "5 PCS"
-          },
-          {
-            label: "القطر الداخلي لأنبوب قياس الضغط",
-            value: "6mm"
-          },
-          {
-            label: "قيمة تقسيم مقياس أنبوب قياس الضغط",
-            value: "1mm"
-          },
-          {
-            label: "تباعد فتحات قياس الضغط",
-            value: "50mm"
-          },
-          {
-            label: "قطر فتحة التسرب",
-            value: "16mm"
-          },
-          {
-            label: "القطر الداخلي لأنبوب الفائض",
-            value: "16mm"
-          },
-          {
-            label: "فتحة صفيحة نفاذة",
-            value: "3.5mm"
-          },
-          {
-            label: "وزن",
-            value: "150kg"
-          }
-        ],
-        hasManual: false,
-        hasVideo: false,
-        hasCAD: false,
-        isNew: false
-      },
-      {
+                  {
         id: "P122",
 
           sortWeight: 3,
@@ -4777,7 +4649,10 @@ window.ludaData.devices = [
         description: "يستخدم هذا المنتج لتصنيع قطع اختبار مختلفة للكريات المثبتة بمادة رابطة غير عضوية، بما في ذلك قطع الاختبار الأسطوانية لاختبار الضغط غير المحصور، والقوة، وقوة الشد غير المباشرة، ومعامل المرونة الانضغاطي، ولاختبار عينات العارضة لمعامل انكماش درجة الحرارة، ومعامل الانكماش الجاف، وقوة الانحناء، واختبارات معامل المرونة الانحنائي.",
         features: [],
         customized: [],
-        standards: [],
+        standards: [
+          "BS 1377-4",
+          "EN 13286-4",
+        ],
         specifications: [
           {
             label: "قوة محرك الاهتزاز",
@@ -5026,7 +4901,16 @@ window.ludaData.devices = [
         description: "هذا المنتج مناسب بشكل أساسي لفك عينات الاختبار من مختلف أجهزة الضغط، وهو مناسب لقوالب اختبار مختلفة بأقطار 50 مم، 100 مم، 101.6 مم، 150 مم، 152 مم، وارتفاعات لا تتجاوز 230 مم. تُستخدم هذه الآلة مع \"جهاز الضغط الكهربائي متعدد الوظائف\"، و\"جهاز ضغط مارشال\"، و\"جهاز الضغط اليدوي الخفيف\" لفك العينة من القالب.",
         features: [],
         customized: [],
-        standards: [],
+        standards: [
+          "EN 12697-30",
+          "EN 13286-2",
+          "EN 13286-47",
+          "ASTM D698",
+          "ASTM D1883",
+          "ASTM D1557",
+          "ASTM D1559",
+          "ASTM D5581",
+        ],
         specifications: [
           {
             label: "أقصى قوة تحرير",
@@ -5089,7 +4973,16 @@ window.ludaData.devices = [
         description: "هذا المنتج مناسب بشكل أساسي لفك عينات الاختبار من مختلف أجهزة الضغط، وهو مناسب لقوالب اختبار مختلفة بأقطار 50 مم، 100 مم، 101.6 مم، 150 مم، 152 مم، وارتفاعات لا تتجاوز 230 مم. تُستخدم هذه الآلة مع \"جهاز الضغط الكهربائي متعدد الوظائف\"، و\"جهاز ضغط مارشال\"، و\"جهاز الضغط اليدوي الخفيف\" لفك العينة من القالب.",
         features: [],
         customized: [],
-        standards: [],
+        standards: [
+          "EN 12697-30",
+          "EN 13286-2",
+          "EN 13286-47",
+          "ASTM D698",
+          "ASTM D1883",
+          "ASTM D1557",
+          "ASTM D1559",
+          "ASTM D5581",
+        ],
         specifications: [
           {
             label: "أقصى قوة تحرير",
@@ -5343,153 +5236,7 @@ window.ludaData.devices = [
         hasCAD: false,
         isNew: false
       },
-      {
-        id: "P131",
-
-          sortWeight: 6,
-
-        name: "خلاطة هاون",
-        suffixName: null,
-        model: "UJZ-15",
-        category: "cement",
-
-          subcategory: "mixing-compaction",
-        thumbnail: "/assets/images/UJZ-15.png",
-        description: "هذا المنتج مناسب لخلط الملاط، وهو قابل للتطبيق بشكل عام على وحدات البناء والجامعات ووحدات أبحاث البناء.",
-        features: [],
-        customized: [],
-        standards: [],
-        specifications: [
-          {
-            label: "سعة التغذية",
-            value: "28L"
-          },
-          {
-            label: "الطاقة الإنتاجية",
-            value: "15L"
-          },
-          {
-            label: "سرعة خلط الطبول (عكس اتجاه عقارب الساعة)",
-            value: "60±2r/min"
-          },
-          {
-            label: "سرعة شفرة التقليب (في اتجاه عقارب الساعة)",
-            value: "80±4r/min"
-          },
-          {
-            label: "المسافة العاملة بين شفرة الخلط وأسطوانة الخلط",
-            value: "5±0.5mm"
-          },
-          {
-            label: "سرعة المحرك (السرعة المتزامنة)",
-            value: "1440r/min"
-          },
-          {
-            label: "قوة المحرك",
-            value: "1.5kW"
-          },
-          {
-            label: "الجهد االكهربى",
-            value: "AC380V±10%, 50Hz (قابل للتخصيص لجهد/تردد آخر)"
-          },
-          {
-            label: "أبعاد",
-            value: "800×600×900mm"
-          },
-          {
-            label: "وزن",
-            value: "2100kg"
-          }
-        ],
-        hasManual: false,
-        hasVideo: false,
-        hasCAD: false,
-        isNew: false
-      },
-      {
-        id: "P132",
-
-          sortWeight: 7,
-
-        name: "نفاذية الهاون",
-        suffixName: null,
-        model: "SS-1.5",
-        category: "cement",
-
-          subcategory: "physical-testing",
-        thumbnail: "/assets/images/SS-1.5.png",
-        description: "تشير خاصية عدم نفاذية الملاط إلى قدرته على مقاومة تسرب الماء أو أي سائل آخر تحت الضغط. يُستخدم جهاز اختبار نفاذية الملاط SS-1.5 لقياس خاصية عدم نفاذية الملاط المقاوم للماء، ولإجراء اختبار مقارنة بين الملاط المخلوط بمادة عازلة للماء والملاط المرجعي، ولاختبار نفاذية الماء لمواد عازلة للماء أخرى. يُعد جهاز اختبار اختراق الملاط SS-1.5، المُصنّع في مصنعنا، مناسبًا لفحص ودراسة وتدريس أداء الملاط في مقاومة التسرب، وذلك من قِبل إدارات مراقبة الجودة الهندسية والتفتيش على جميع المستويات، ومختبرات وحدات البناء، ووحدات البحث العلمي، والكليات والجامعات.",
-        features: [],
-        customized: [],
-        standards: [],
-        specifications: [
-          {
-            label: "أقصى ضغط عمل مسموح به",
-            value: "1.5MPa"
-          },
-          {
-            label: "وضع التشغيل",
-            value: "Automatic voltage regulation and manual voltage regulation"
-          },
-          {
-            label: "عدد قطع الاختبار التي يمكن استخدامها في نفس الوقت",
-            value: "6"
-          },
-          {
-            label: "القطر الداخلي للفوهة العلوية لقالب الاختبار",
-            value: "Φ70mm"
-          },
-          {
-            label: "القطر الداخلي للفوهة السفلية لقالب الاختبار",
-            value: "Φ80mm"
-          },
-          {
-            label: "ارتفاع القالب",
-            value: "30mm"
-          },
-          {
-            label: "قطر مكبس مضخة المكبس",
-            value: "Φ10mm"
-          },
-          {
-            label: "شوط مضخة المكبس",
-            value: "10mm"
-          },
-          {
-            label: "تردد المضخة المكبسية",
-            value: "130 times/min"
-          },
-          {
-            label: "تدفق مضخة المكبس",
-            value: "0.1L/min"
-          },
-          {
-            label: "قوة المحرك",
-            value: "90W"
-          },
-          {
-            label: "سرعة السيارات",
-            value: "1340r/min"
-          },
-          {
-            label: "الجهد االكهربى",
-            value: "AC380V±10%, 50Hz (قابل للتخصيص لجهد/تردد آخر)"
-          },
-          {
-            label: "أبعاد",
-            value: "750×560×750mm"
-          },
-          {
-            label: "وزن",
-            value: "120kg"
-          }
-        ],
-        hasManual: false,
-        hasVideo: false,
-        hasCAD: false,
-        isNew: false
-      },
-      {
+                  {
         id: "P133",
 
           sortWeight: 1,
@@ -7004,86 +6751,7 @@ window.ludaData.devices = [
         hasCAD: false,
         isNew: false
       },
-      {
-        id: "C015",
-
-          sortWeight: 15,
-
-        name: "جهاز قياس نفاذية الخرسانة",
-        suffixName: null,
-        model: "HP-4.0",
-        category: "concrete",
-
-          subcategory: "permeability",
-        thumbnail: "/assets/images/HP-4.0.png",
-        description: "يُستخدم جهاز قياس نفاذية الخرسانة الأوتوماتيكي HP-4.0 لقياس نفاذية الخرسانة، ويُستخدم في شركات البناء ومؤسسات البحث العلمي وأقسام التصميم وغيرها من الوحدات التي تعمل في مجال قياس نفاذية الخرسانة وإجراء البحوث التجريبية عليها. كما يمكن استخدامه لقياس نفاذية مواد البناء لأغراض فحص الجودة.",
-        features: [],
-        customized: [],
-        standards: [],
-        specifications: [
-          {
-            label: "ضغط العمل",
-            value: "4MPa"
-          },
-          {
-            label: "وضع التشغيل",
-            value: "Automatic pressurization"
-          },
-          {
-            label: "عدد عينات الاختبار",
-            value: "6 PCS"
-          },
-          {
-            label: "القطر الداخلي للفتحة العلوية لقالب الاختبار",
-            value: "Φ175mm"
-          },
-          {
-            label: "القطر الداخلي لقاعدة قالب الاختبار",
-            value: "Φ185mm"
-          },
-          {
-            label: "ارتفاع قالب التجربة",
-            value: "160mm"
-          },
-          {
-            label: "قوة المحرك",
-            value: "80W"
-          },
-          {
-            label: "سرعة السيارات",
-            value: "136r/min"
-          },
-          {
-            label: "قطر مكبس مضخة المكبس",
-            value: "Φ10mm"
-          },
-          {
-            label: "تردد المضخة المكبسية",
-            value: "136 times/min"
-          },
-          {
-            label: "تدفق مضخة المكبس",
-            value: "0.11L/min"
-          },
-          {
-            label: "جهد التغذية",
-            value: "AC380V±10% (قابل للتخصيص لجهد/تردد آخر)"
-          },
-          {
-            label: "أبعاد",
-            value: "1090×710×920mm"
-          },
-          {
-            label: "وزن",
-            value: "185kg"
-          }
-        ],
-        hasManual: false,
-        hasVideo: false,
-        hasCAD: false,
-        isNew: false
-      },
-      {
+            {
         id: "C016",
 
           sortWeight: 16,
@@ -7605,92 +7273,6 @@ window.ludaData.devices = [
         isNew: false
       },
       {
-        id: "C027",
-
-          sortWeight: 25,
-
-        name: "محلل المحتوى السريع لأيون الكلوريد",
-        suffixName: null,
-        model: "LDCL-B",
-        category: "concrete",
-
-          subcategory: "permeability",
-        thumbnail: "/assets/images/LDCL-B.png",
-        description: "يحدد هذا المنتج بسرعة محتوى أيون الكلوريد القابل للذوبان في الماء في الخرسانة والرمل والحصى والأسمنت ومياه الخلط وغيرها من المواد غير العضوية من خلال البرامج الاحترافية والمواد الكيميائية المضادة للتشويش المجهزة.",
-        features: [],
-        customized: [],
-        standards: [],
-        specifications: [
-          {
-            label: "نطاق القياس",
-            value: "50～999.99mV"
-          },
-          {
-            label: "تكوين الأقطاب الكهربائية",
-            value: "domestic 2 electrodes"
-          },
-          {
-            label: "نطاق القياس الكهربائي",
-            value: "1×10-2～5×10-5mol/L"
-          },
-          {
-            label: "الجهد االكهربى",
-            value: "AC220V±10%"
-          }
-        ],
-        hasManual: false,
-        hasVideo: false,
-        hasCAD: false,
-        isNew: false
-      },
-      {
-        id: "C028",
-
-          sortWeight: 26,
-
-        name: "أداة إفراز ضغط الخرسانة",
-        suffixName: null,
-        model: "SY-2",
-        category: "concrete",
-
-          subcategory: "permeability",
-        thumbnail: "/assets/images/SY-2.png",
-        description: "يُستخدم هذا الجهاز لقياس ضغط الخلطة الخرسانية التي لا يتجاوز 40 مم. ويتميز بدقة القياس، وسهولة التشغيل، وصغر الحجم، وسهولة التشكيل.",
-        features: [],
-        customized: [],
-        standards: [],
-        specifications: [
-          {
-            label: "أقصى مدى لمقياس الضغط",
-            value: "6MPa"
-          },
-          {
-            label: "القطر الداخلي للأسطوانة",
-            value: "125±0.02mm"
-          },
-          {
-            label: "ارتفاع جسم الأسطوانة",
-            value: "200±0.2mm"
-          },
-          {
-            label: "قطر المكبس العامل",
-            value: "125mm"
-          },
-          {
-            label: "فتحة الشاشة",
-            value: "0.335mm (50 mesh)"
-          },
-          {
-            label: "وزن",
-            value: "20kg"
-          }
-        ],
-        hasManual: false,
-        hasVideo: false,
-        hasCAD: false,
-        isNew: false
-      },
-      {
         id: "D001",
 
           sortWeight: 8,
@@ -8095,7 +7677,10 @@ window.ludaData.devices = [
         description: "تُستخدم آلة الاختبار هذه بشكل أساسي لاختبار قوة الانحناء لمونة الأسمنت ذات الاحتراق الناعم في مصانع الأسمنت ووحدات البناء والكليات المهنية ذات الصلة ووحدات البحث العلمي، ويمكن استخدامها أيضًا لاختبار قوة الانحناء للمواد الهشة غير المعدنية الأخرى.",
         features: [],
         customized: [],
-        standards: [],
+        standards: [
+          "EN 196-1",
+          "ISO 679",
+        ],
         specifications: [
           {
             label: "طريقة العرض",
@@ -8158,7 +7743,10 @@ window.ludaData.devices = [
         description: "تُستخدم آلة الاختبار هذه بشكل أساسي لاختبار قوة الانحناء لمونة الأسمنت ذات الاحتراق الناعم في مصانع الأسمنت ووحدات البناء والكليات المهنية ذات الصلة ووحدات البحث العلمي، ويمكن استخدامها أيضًا لاختبار قوة الانحناء للمواد الهشة غير المعدنية الأخرى.",
         features: [],
         customized: [],
-        standards: [],
+        standards: [
+          "EN 196-1",
+          "ISO 679",
+        ],
         specifications: [
           {
             label: "أقصى مقاومة للانحناء",
@@ -8484,7 +8072,16 @@ window.ludaData.devices = [
           "يضمن الهيكل المعدني بالكامل أداءً مستقرًا أثناء الاختبار."
         ],
         customized: [],
-        standards: [],
+        standards: [
+          "EN 196-1",
+          "EN 196-3",
+          "EN 413-2",
+          "EN 459-2",
+          "EN 480-1",
+          "ISO 679",
+          "ASTM C305M",
+          "AASHTO T162",
+        ],
         specifications: [
           {
             label: "سرعة الدوران المنخفضة (دورة/دقيقة)",
@@ -8540,97 +8137,7 @@ window.ludaData.devices = [
         hasCAD: false,
         isNew: false
       },
-      {
-        id: "E002",
-
-          sortWeight: 21,
-
-        name: "خلاطة معجون الأسمنت",
-        suffixName: null,
-        model: "NJ-160A",
-        category: "cement",
-
-          subcategory: "mixing-compaction",
-        thumbnail: "/assets/images/NJ-160A.png",
-        description: "يُعد هذا المنتج مناسبًا لتحديد قوام الأسمنت القياسي ووقت تصلبه، بالإضافة إلى استخدامه في صنع قوالب اختبار المتانة. وهو جهاز لا غنى عنه في مختبرات مصانع الأسمنت، ووحدات البناء، والجامعات ذات الصلة، ومراكز الأبحاث.",
-        features: [
-          "يتم التحكم فيه بواسطة محرك ثنائي السرعة عبر وحدة تحكم في برنامج الوقت، ويكمل تلقائيًا دورة العمل المحددة \"دوران بطيء - توقف - دوران سريع\".",
-          "يضمن الهيكل المعدني بالكامل أداءً مستقرًا أثناء الاختبار."
-        ],
-        customized: [],
-        standards: [],
-        specifications: [
-          {
-            label: "سرعة الدوران المنخفضة (دورة/دقيقة)",
-            value: "62±5"
-          },
-          {
-            label: "سرعة الدوران العالية (دورة/دقيقة)",
-            value: "125±10"
-          },
-          {
-            label: "سرعة الدوران المنخفضة (دورة/دقيقة)",
-            value: "140±5"
-          },
-          {
-            label: "سرعة دوران عالية (دورة/دقيقة)",
-            value: "258±10"
-          },
-          {
-            label: "مدة برنامج التحكم الآلي عند السرعة المنخفضة (ثانية)",
-            value: "120±3"
-          },
-          {
-            label: "وقت توقف برنامج التحكم الآلي (ثانية)",
-            value: "15"
-          },
-          {
-            label: "مدة برنامج التحكم الآلي عند السرعة العالية (ثانية)",
-            value: "120±3"
-          },
-          {
-            label: "مواصفات خيط التوصيل بين شفرة الخلط وعمود الشفرة",
-            value: "M16×1"
-          },
-          {
-            label: "المسافة بين شفرة الخلط ووعاء الخلط (مم)",
-            value: "2±1"
-          },
-          {
-            label: "عرض شفرة الخلط (مم)",
-            value: "111"
-          },
-          {
-            label: "سمك جدار وعاء الخلط (مم)",
-            value: "1"
-          },
-          {
-            label: "أبعاد وعاء الخلط (القطر الداخلي × العمق) (مم)",
-            value: "Φ160×139"
-          },
-          {
-            label: "حجم الخلط (لتر)",
-            value: "2.5"
-          },
-          {
-            label: "جهد مصدر الطاقة",
-            value: "AC380V±10%, 50Hz (قابل للتخصيص لجهد/تردد آخر)"
-          },
-          {
-            label: "الأبعاد الكلية (مم)",
-            value: "450×250×500"
-          },
-          {
-            label: "الوزن (كجم)",
-            value: "65"
-          }
-        ],
-        hasManual: false,
-        hasVideo: false,
-        hasCAD: false,
-        isNew: false
-      },
-      {
+            {
         id: "E003",
 
           sortWeight: 22,
@@ -8649,7 +8156,10 @@ window.ludaData.devices = [
           "المسافة من مركز قرص الطاولة إلى مركز عمود الذراع هي 800 مم."
         ],
         customized: [],
-        standards: [],
+        standards: [
+          "EN 196-1",
+          "ISO 679",
+        ],
         specifications: [
           {
             label: "مسافة السقوط (مم)",
@@ -8703,7 +8213,13 @@ window.ludaData.devices = [
           "يوفر جهاز التحكم دقة عالية وهو بسيط وسهل التشغيل."
         ],
         customized: [],
-        standards: [],
+        standards: [
+          "EN 459-2",
+          "EN 1015-3",
+          "EN 13279-2",
+          "ASTM C230",
+          "BS 4551-1",
+        ],
         specifications: [
           {
             label: "مسافة سقوط الاهتزاز (مم)",
@@ -8743,74 +8259,7 @@ window.ludaData.devices = [
         hasCAD: false,
         isNew: false
       },
-      {
-        id: "E005",
-
-          sortWeight: 24,
-
-        name: "خلاطة معجون الأسمنت",
-        suffixName: null,
-        model: "NJ-160F",
-        category: "cement",
-
-          subcategory: "mixing-compaction",
-        thumbnail: "/assets/images/NJ-160F.png",
-        description: "تُستخدم خلاطة عجينة الأسمنت بشكل أساسي لتحديد القوام القياسي ووقت تصلب الأسمنت، وكذلك لإعداد كتل اختبار السلامة.",
-        features: [],
-        customized: [],
-        standards: [],
-        specifications: [
-          {
-            label: "سرعة الدوران المنخفضة (دورة/دقيقة)",
-            value: "62±2"
-          },
-          {
-            label: "سرعة الدوران العالية (دورة/دقيقة)",
-            value: "125±3"
-          },
-          {
-            label: "سرعة الدوران المنخفضة (دورة/دقيقة)",
-            value: "140±2"
-          },
-          {
-            label: "سرعة دوران عالية (دورة/دقيقة)",
-            value: "258±3"
-          },
-          {
-            label: "مواصفات خيط التوصيل بين شفرة الخلط وعمود الشفرة",
-            value: "M16×1"
-          },
-          {
-            label: "عرض شفرة الخلط (مم)",
-            value: "111"
-          },
-          {
-            label: "سمك جدار وعاء الخلط (مم)",
-            value: "1"
-          },
-          {
-            label: "حجم الخلط (لتر)",
-            value: "2.5"
-          },
-          {
-            label: "جهد مصدر الطاقة",
-            value: "AC220V±10%, 50Hz"
-          },
-          {
-            label: "الأبعاد الكلية (مم)",
-            value: "570×340×600"
-          },
-          {
-            label: "الوزن (كجم)",
-            value: "44"
-          }
-        ],
-        hasManual: false,
-        hasVideo: false,
-        hasCAD: false,
-        isNew: false
-      },
-      {
+            {
         id: "E027",
 
           sortWeight: 7,

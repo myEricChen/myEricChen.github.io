@@ -132,7 +132,11 @@
 }
 
 /* ---------- 标准列表 ---------- */
+/* 注意：base.css 里 .product-standards 是给「产品卡片」用的 flex 行内标签布局。
+   详情页复用同一个类名包裹 <h3> + <ul>，若沿用 flex 会让标题和标签排在同一行，
+   且默认 align-items: stretch 会把 ul / li 拉伸到标题高度，导致标签文字不居中。 */
 .product-standards {
+    display: block;
     margin: 30px 0;
 }
 
@@ -152,6 +156,7 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;   /* 防止同一行的标签被拉伸成等高，导致背景上下留白不均 */
     gap: 10px;
 }
 
@@ -162,6 +167,9 @@
     border-radius: 30px;
     font-size: 0.9rem;
     font-weight: 500;
+    line-height: 1.4;          /* 显式行高，保证文字在胶囊内上下居中 */
+    display: inline-flex;
+    align-items: center;
 }
 
 /* ---------- 特点列表 ---------- */

@@ -3458,7 +3458,11 @@ window.ludaData.devices = [
         "thumbnail": "/assets/images/LDGW-60C.png",
         "description": "La máquina de ensayo de doblado de tubos de acero LDGW-60C se caracteriza por su estructura compacta, funcionamiento sencillo, visualización intuitiva del ángulo de doblado, fácil mantenimiento, estabilidad operativa, seguridad y bajo nivel de ruido. Es un equipo especializado para el ensayo de doblado en frío de tubos de acero. Este equipo es ideal para que las acerías y las empresas constructoras evalúen el rendimiento de doblado y el rendimiento de doblado inverso de los tubos de acero.",
         "features": [],
-        "standards": [],
+        "standards": [
+          "ISO 8491",
+          "ASTM A53",
+          "ASTM E290",
+        ],
         "specifications": [
           {
             "label": "Diámetro exterior del tubo de acero",
@@ -4037,7 +4041,9 @@ window.ludaData.devices = [
         "features": [
           "El controlador de temperatura de esta máquina utiliza un controlador digital de alta precisión, con una clara visualización de la temperatura y una configuración sencilla de los puntos de control. El instrumento permite analizar hasta tres muestras simultáneamente, con una alta eficiencia en las pruebas."
         ],
-        "standards": [],
+        "standards": [
+          "EN 12606-1",
+        ],
         "specifications": [
           {
             "label": "Fuente de alimentación en funcionamiento",
@@ -4629,141 +4635,7 @@ window.ludaData.devices = [
         "isNew": false,
         "customized": []
       },
-      {
-        "id": "P120",
-
-          "sortWeight": 1,
-
-        "name": "Medidor de deformación por filtración vertical en suelos de grano grueso (tipo de pendiente)",
-        "suffixName": "",
-        "model": "LDSL-III",
-        "category": "geotechnical",
-
-          "subcategory": "soil-permeability",
-        "thumbnail": "/assets/images/LDSL-III.png",
-        "description": "El objetivo de esta prueba es determinar el coeficiente de permeabilidad de la muestra cuando el agua de filtración atraviesa el suelo de grano grueso, la pendiente crítica de las partículas finas que se pierden gradualmente con la filtración (erosión por conductos) y la pendiente de falla (flujo de suelo) cuando el cuerpo de suelo flota como un todo. Esta prueba es aplicable a muestras de suelo de grano grueso alteradas y a muestras de suelo de grano grueso inalteradas.",
-        "features": [],
-        "standards": [],
-        "specifications": [
-          {
-            "label": "Especificación del tubo de ensayo",
-            "value": "Φ300×600mm"
-          },
-          {
-            "label": "Altura del tubo de ensayo",
-            "value": "600mm"
-          },
-          {
-            "label": "Altura del indicador",
-            "value": "3000mm"
-          },
-          {
-            "label": "Espaciado de los orificios de medición de presión",
-            "value": "250mm"
-          },
-          {
-            "label": "Equipo de carga",
-            "value": "Leverage pressure"
-          },
-          {
-            "label": "Cubo de suministro de agua",
-            "value": "140×140×140mm"
-          },
-          {
-            "label": "cubo para almacenar agua",
-            "value": "200×400×450mm"
-          },
-          {
-            "label": "Voltaje",
-            "value": "AC 220V"
-          },
-          {
-            "label": "Dimensión",
-            "value": "1400×600×1900mm"
-          },
-          {
-            "label": "Peso",
-            "value": "250kg"
-          }
-        ],
-        "hasManual": false,
-        "hasVideo": false,
-        "hasCAD": false,
-        "isNew": false,
-        "customized": []
-      },
-      {
-        "id": "P121",
-
-          "sortWeight": 2,
-
-        "name": "Permeámetro de carga constante para suelos de grano grueso",
-        "suffixName": "",
-        "model": "LDST-300",
-        "category": "geotechnical",
-
-          "subcategory": "soil-permeability",
-        "thumbnail": "/assets/images/LDST-300.png",
-        "description": "El permeámetro de carga constante para suelos de grano grueso LDST-300 se utiliza para medir el coeficiente de permeabilidad de suelos de grano grueso y piedra triturada clasificada con un tama?o máximo de partícula no superior a 75 mm.",
-        "features": [],
-        "standards": [],
-        "specifications": [
-          {
-            "label": "Volumen del tanque de suministro de agua",
-            "value": "80L"
-          },
-          {
-            "label": "Diámetro interior del cilindro metálico",
-            "value": "300mm"
-          },
-          {
-            "label": "Altura del cilindro metálico",
-            "value": "500mm"
-          },
-          {
-            "label": "Espesor de la pared del cilindro metálico",
-            "value": "10mm"
-          },
-          {
-            "label": "Número de tubos de medición de presión",
-            "value": "5 PCS"
-          },
-          {
-            "label": "Diámetro interior del tubo de medición de presión",
-            "value": "6mm"
-          },
-          {
-            "label": "Valor de división de la escala del tubo de medición de presión",
-            "value": "1mm"
-          },
-          {
-            "label": "Espaciado de los orificios de medición de presión",
-            "value": "50mm"
-          },
-          {
-            "label": "Diámetro del orificio de filtración",
-            "value": "16mm"
-          },
-          {
-            "label": "Diámetro interior del tubo de rebose",
-            "value": "16mm"
-          },
-          {
-            "label": "Abertura de placa permeable",
-            "value": "3.5mm"
-          },
-          {
-            "label": "Peso",
-            "value": "150kg"
-          }
-        ],
-        "hasManual": false,
-        "hasVideo": false,
-        "hasCAD": false,
-        "isNew": false,
-        "customized": []
-      },
-      {
+                  {
         "id": "P122",
 
           "sortWeight": 3,
@@ -4777,7 +4649,10 @@ window.ludaData.devices = [
         "thumbnail": "/assets/images/LD-08.png",
         "description": "Este producto se utiliza para fabricar diversas piezas de ensayo para gránulos estabilizados con aglutinante inorgánico, incluidas piezas de ensayo cilíndricas para ensayar la compresión sin confinamiento, la resistencia, la resistencia a la tracción indirecta y el módulo de resiliencia a compresión, y para ensayar probetas de viga para ensayos de coeficiente de contracción térmica, coeficiente de contracción en seco, resistencia a la flexión y módulo de resiliencia a flexión.",
         "features": [],
-        "standards": [],
+        "standards": [
+          "BS 1377-4",
+          "EN 13286-4",
+        ],
         "specifications": [
           {
             "label": "Potencia del motor de vibración",
@@ -5026,7 +4901,16 @@ window.ludaData.devices = [
         "thumbnail": "/assets/images/DL-200.png",
         "description": "Este producto es especialmente adecuado para el desmoldeo de probetas de diversos instrumentos de compactación, apto para moldes de ensayo con diámetros de Ф50 mm, Ф100 mm, Ф101,6 mm, Ф150 mm, Ф152 mm y alturas de hasta 230 mm. Esta máquina se utiliza junto con el \"instrumento de compactación eléctrico multifuncional\", el \"instrumento de compactación Marshall\" y el \"instrumento de compactación manual ligero\" para desmoldar la muestra.",
         "features": [],
-        "standards": [],
+        "standards": [
+          "EN 12697-30",
+          "EN 13286-2",
+          "EN 13286-47",
+          "ASTM D698",
+          "ASTM D1883",
+          "ASTM D1557",
+          "ASTM D1559",
+          "ASTM D5581",
+        ],
         "specifications": [
           {
             "label": "Fuerza de liberación máxima",
@@ -5089,7 +4973,16 @@ window.ludaData.devices = [
         "thumbnail": "/assets/images/DL-300.png",
         "description": "Este producto es especialmente adecuado para el desmoldeo de probetas de diversos instrumentos de compactación, apto para moldes de ensayo con diámetros de Ф50 mm, Ф100 mm, Ф101,6 mm, Ф150 mm, Ф152 mm y alturas de hasta 230 mm. Esta máquina se utiliza junto con el \"instrumento de compactación eléctrico multifuncional\", el \"instrumento de compactación Marshall\" y el \"instrumento de compactación manual ligero\" para desmoldar la muestra.",
         "features": [],
-        "standards": [],
+        "standards": [
+          "EN 12697-30",
+          "EN 13286-2",
+          "EN 13286-47",
+          "ASTM D698",
+          "ASTM D1883",
+          "ASTM D1557",
+          "ASTM D1559",
+          "ASTM D5581",
+        ],
         "specifications": [
           {
             "label": "Fuerza de liberación máxima",
@@ -5344,153 +5237,7 @@ window.ludaData.devices = [
         "isNew": false,
         "customized": []
       },
-      {
-        "id": "P131",
-
-          "sortWeight": 6,
-
-        "name": "Mezcladora de mortero",
-        "suffixName": "",
-        "model": "UJZ-15",
-        "category": "cement",
-
-          "subcategory": "mixing-compaction",
-        "thumbnail": "/assets/images/UJZ-15.png",
-        "description": "Este producto es adecuado para la mezcla de mortero y, en general, es aplicable a empresas constructoras, universidades y centros de investigación en construcción.",
-        "features": [],
-        "standards": [],
-        "specifications": [
-          {
-            "label": "Capacidad de alimentación",
-            "value": "28L"
-          },
-          {
-            "label": "Capacidad de salida",
-            "value": "15L"
-          },
-          {
-            "label": "Velocidad del tambor mezclador (en sentido antihorario)",
-            "value": "60±2r/min"
-          },
-          {
-            "label": "Velocidad de agitación de las palas (en sentido horario)",
-            "value": "80±4r/min"
-          },
-          {
-            "label": "Espacio de trabajo entre la pala mezcladora y el tambor mezclador.",
-            "value": "5±0.5mm"
-          },
-          {
-            "label": "Velocidad del motor (velocidad síncrona)",
-            "value": "1440r/min"
-          },
-          {
-            "label": "Potencia del motor",
-            "value": "1.5kW"
-          },
-          {
-            "label": "Voltaje",
-            "value": "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)"
-          },
-          {
-            "label": "Dimensiones",
-            "value": "800×600×900mm"
-          },
-          {
-            "label": "Peso",
-            "value": "2100kg"
-          }
-        ],
-        "hasManual": false,
-        "hasVideo": false,
-        "hasCAD": false,
-        "isNew": false,
-        "customized": []
-      },
-      {
-        "id": "P132",
-
-          "sortWeight": 7,
-
-        "name": "Mortero permeado",
-        "suffixName": "",
-        "model": "SS-1.5",
-        "category": "cement",
-
-          "subcategory": "physical-testing",
-        "thumbnail": "/assets/images/SS-1.5.png",
-        "description": "La impermeabilidad del mortero se refiere a su capacidad para resistir la penetración de agua u otros líquidos bajo presión. El medidor de permeabilidad de mortero SS-1.5 se puede utilizar para medir la impermeabilidad del mortero impermeable, realizar una prueba comparativa entre el mortero mezclado con un agente impermeabilizante y el mortero de referencia, y evaluar la permeabilidad al agua de otros materiales impermeables. El medidor de penetración de mortero SS-1.5, fabricado por nuestra empresa, es adecuado para la inspección, investigación y ense?anza del rendimiento antifiltración del mortero por parte de los departamentos de supervisión e inspección de calidad de ingeniería de todos los niveles, laboratorios de unidades de construcción, unidades de investigación científica y universidades.",
-        "features": [],
-        "standards": [],
-        "specifications": [
-          {
-            "label": "Presión máxima de trabajo admisible",
-            "value": "1.5MPa"
-          },
-          {
-            "label": "Modo de funcionamiento",
-            "value": "Automatic voltage regulation and manual voltage regulation"
-          },
-          {
-            "label": "Número de piezas de prueba que se pueden utilizar al mismo tiempo.",
-            "value": "6"
-          },
-          {
-            "label": "El diámetro interior de la boca superior del molde de prueba",
-            "value": "Φ70mm"
-          },
-          {
-            "label": "El diámetro interior de la boca inferior del molde de prueba",
-            "value": "Φ80mm"
-          },
-          {
-            "label": "Altura del molde",
-            "value": "30mm"
-          },
-          {
-            "label": "Diámetro del émbolo de la bomba de pistón",
-            "value": "Φ10mm"
-          },
-          {
-            "label": "Carrera de bombeo del pistón",
-            "value": "10mm"
-          },
-          {
-            "label": "Frecuencia de oscilación de la bomba de émbolo",
-            "value": "130 times/min"
-          },
-          {
-            "label": "Flujo de la bomba de pistón",
-            "value": "0.1L/min"
-          },
-          {
-            "label": "Potencia del motor",
-            "value": "90W"
-          },
-          {
-            "label": "Velocidad del motor",
-            "value": "1340r/min"
-          },
-          {
-            "label": "Voltaje",
-            "value": "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)"
-          },
-          {
-            "label": "Dimensiones",
-            "value": "750×560×750mm"
-          },
-          {
-            "label": "Peso",
-            "value": "120kg"
-          }
-        ],
-        "hasManual": false,
-        "hasVideo": false,
-        "hasCAD": false,
-        "isNew": false,
-        "customized": []
-      },
-      {
+                  {
         "id": "P133",
 
           "sortWeight": 1,
@@ -7005,86 +6752,7 @@ window.ludaData.devices = [
         "isNew": false,
         "customized": []
       },
-      {
-        "id": "C015",
-
-          "sortWeight": 15,
-
-        "name": "Aparato de impermeabilidad del hormigón",
-        "suffixName": "",
-        "model": "HP-4.0",
-        "category": "concrete",
-
-          "subcategory": "permeability",
-        "thumbnail": "/assets/images/HP-4.0.png",
-        "description": "El instrumento de impermeabilidad del hormigón con regulación automática de presión HP-4.0 se utiliza para medir la impermeabilidad del hormigón en empresas constructoras, instituciones de investigación científica, departamentos de dise?o y otras unidades dedicadas a la medición e investigación experimental de la impermeabilidad del hormigón. También se puede utilizar para la medición de la permeabilidad de los materiales de construcción en el control de calidad.",
-        "features": [],
-        "standards": [],
-        "specifications": [
-          {
-            "label": "Presión de trabajo",
-            "value": "4MPa"
-          },
-          {
-            "label": "Modo de funcionamiento",
-            "value": "Automatic pressurization"
-          },
-          {
-            "label": "Número de muestras de prueba",
-            "value": "6 PCS"
-          },
-          {
-            "label": "Diámetro interior de la abertura superior del molde de prueba",
-            "value": "Φ175mm"
-          },
-          {
-            "label": "Diámetro interior de la parte inferior del molde de prueba",
-            "value": "Φ185mm"
-          },
-          {
-            "label": "Altura del molde de prueba",
-            "value": "160mm"
-          },
-          {
-            "label": "Potencia del motor",
-            "value": "80W"
-          },
-          {
-            "label": "Velocidad del motor",
-            "value": "136r/min"
-          },
-          {
-            "label": "Diámetro del émbolo de la bomba de émbolo",
-            "value": "Φ10mm"
-          },
-          {
-            "label": "Frecuencia de oscilación de la bomba de émbolo",
-            "value": "136 times/min"
-          },
-          {
-            "label": "Flujo de la bomba de pistón",
-            "value": "0.11L/min"
-          },
-          {
-            "label": "Tensión de alimentación",
-            "value": "AC380V±10% (Personalizable a otro voltaje/frecuencia)"
-          },
-          {
-            "label": "Dimensiones",
-            "value": "1090×710×920mm"
-          },
-          {
-            "label": "Peso",
-            "value": "185kg"
-          }
-        ],
-        "hasManual": false,
-        "hasVideo": false,
-        "hasCAD": false,
-        "isNew": false,
-        "customized": []
-      },
-      {
+            {
         "id": "C016",
 
           "sortWeight": 16,
@@ -7606,92 +7274,6 @@ window.ludaData.devices = [
         "customized": []
       },
       {
-        "id": "C027",
-
-          "sortWeight": 25,
-
-        "name": "Analizador rápido de contenido de iones cloruro",
-        "suffixName": "",
-        "model": "LDCL-B",
-        "category": "concrete",
-
-          "subcategory": "permeability",
-        "thumbnail": "/assets/images/LDCL-B.png",
-        "description": "Este producto determina rápidamente el contenido de iones cloruro solubles en agua del hormigón, la arena, la grava, el cemento, el agua de mezcla y otros materiales inorgánicos mediante el software profesional y los reactivos químicos anti-bloqueo que incorpora.",
-        "features": [],
-        "standards": [],
-        "specifications": [
-          {
-            "label": "Rango de medición",
-            "value": "50～999.99mV"
-          },
-          {
-            "label": "Configuración de electrodos",
-            "value": "domestic 2 electrodes"
-          },
-          {
-            "label": "Rango de medición eléctrica",
-            "value": "1×10-2～5×10-5mol/L"
-          },
-          {
-            "label": "Voltaje",
-            "value": "AC220V±10%"
-          }
-        ],
-        "hasManual": false,
-        "hasVideo": false,
-        "hasCAD": false,
-        "isNew": false,
-        "customized": []
-      },
-      {
-        "id": "C028",
-
-          "sortWeight": 26,
-
-        "name": "Instrumento de secreción de presión de hormigón",
-        "suffixName": "",
-        "model": "SY-2",
-        "category": "concrete",
-
-          "subcategory": "permeability",
-        "thumbnail": "/assets/images/SY-2.png",
-        "description": "Este dispositivo se utiliza para medir mezclas de hormigón con una presión compuesta no superior a 40 mm. Ofrece las ventajas de una medición precisa, un funcionamiento sencillo, un tama?o compacto y un moldeado práctico.",
-        "features": [],
-        "standards": [],
-        "specifications": [
-          {
-            "label": "El rango máximo del manómetro",
-            "value": "6MPa"
-          },
-          {
-            "label": "Diámetro interior del cilindro",
-            "value": "125±0.02mm"
-          },
-          {
-            "label": "Altura del cuerpo del cilindro",
-            "value": "200±0.2mm"
-          },
-          {
-            "label": "Diámetro del pistón de trabajo",
-            "value": "125mm"
-          },
-          {
-            "label": "Apertura de la pantalla",
-            "value": "0.335mm (50 mesh)"
-          },
-          {
-            "label": "Peso",
-            "value": "20kg"
-          }
-        ],
-        "hasManual": false,
-        "hasVideo": false,
-        "hasCAD": false,
-        "isNew": false,
-        "customized": []
-      },
-      {
         "id": "D001",
 
           "sortWeight": 8,
@@ -8095,7 +7677,10 @@ window.ludaData.devices = [
         "thumbnail": "/assets/images/DKZ-5000.png",
         "description": "Esta máquina de ensayo se utiliza principalmente para comprobar la resistencia a la flexión del mortero de cemento de cocción suave en fábricas de cemento, unidades de construcción, centros de ense?anza superior y unidades de investigación científica, y también puede utilizarse para comprobar la resistencia a la flexión de otros materiales frágiles no metálicos.",
         "features": [],
-        "standards": [],
+        "standards": [
+          "EN 196-1",
+          "ISO 679",
+        ],
         "specifications": [
           {
             "label": "Método de visualización",
@@ -8158,7 +7743,10 @@ window.ludaData.devices = [
         "thumbnail": "/assets/images/DKZ-6000（数显）.png",
         "description": "Esta máquina de ensayo se utiliza principalmente para comprobar la resistencia a la flexión del mortero de cemento de cocción suave en fábricas de cemento, unidades de construcción, centros de ense?anza superior y unidades de investigación científica, y también puede utilizarse para comprobar la resistencia a la flexión de otros materiales frágiles no metálicos.",
         "features": [],
-        "standards": [],
+        "standards": [
+          "EN 196-1",
+          "ISO 679",
+        ],
         "specifications": [
           {
             "label": "Máxima resistencia a la flexión",
@@ -8484,7 +8072,16 @@ window.ludaData.devices = [
           "Controlado por un motor de doble velocidad mediante un programador horario, completa automáticamente el ciclo de trabajo especificado de \"rotación lenta - parada - rotación rápida\".",
           "La estructura totalmente metálica garantiza un rendimiento de prueba estable."
         ],
-        "standards": [],
+        "standards": [
+          "EN 196-1",
+          "EN 196-3",
+          "EN 413-2",
+          "EN 459-2",
+          "EN 480-1",
+          "ISO 679",
+          "ASTM C305M",
+          "AASHTO T162",
+        ],
         "specifications": [
           {
             "label": "Velocidad de rotación a baja velocidad (r/min)",
@@ -8541,97 +8138,7 @@ window.ludaData.devices = [
         "isNew": false,
         "customized": []
       },
-      {
-        "id": "E002",
-
-          "sortWeight": 21,
-
-        "name": "Mezcladora de pasta de cemento",
-        "suffixName": "",
-        "model": "NJ-160A",
-        "category": "cement",
-
-          "subcategory": "mixing-compaction",
-        "thumbnail": "/assets/images/NJ-160A.png",
-        "description": "Este producto es idóneo para determinar la consistencia estándar y el tiempo de fraguado del cemento, así como para elaborar bloques de ensayo de solidez. Es un equipo indispensable en los laboratorios de plantas cementeras, empresas constructoras, universidades e instituciones de investigación.",
-        "features": [
-          "Controlado por un motor de doble velocidad mediante un programador horario, completa automáticamente el ciclo de trabajo especificado de \"rotación lenta - parada - rotación rápida\".",
-          "La estructura totalmente metálica garantiza un rendimiento de prueba estable."
-        ],
-        "standards": [],
-        "specifications": [
-          {
-            "label": "Velocidad de revolución a baja velocidad (r/min)",
-            "value": "62±5"
-          },
-          {
-            "label": "Velocidad de revolución a alta velocidad (r/min)",
-            "value": "125±10"
-          },
-          {
-            "label": "Velocidad de rotación a baja velocidad (r/min)",
-            "value": "140±5"
-          },
-          {
-            "label": "Velocidad de rotación de alta velocidad (r/min)",
-            "value": "258±10"
-          },
-          {
-            "label": "Tiempo del programa de control automático a baja velocidad (s)",
-            "value": "120±3"
-          },
-          {
-            "label": "Tiempo de parada del programa de control automático (s)",
-            "value": "15"
-          },
-          {
-            "label": "Tiempo del programa de control automático a alta velocidad (s)",
-            "value": "120±3"
-          },
-          {
-            "label": "Especificación de la rosca de conexión entre la pala mezcladora y el eje de la pala.",
-            "value": "M16×1"
-          },
-          {
-            "label": "Espacio de trabajo entre la pala mezcladora y el recipiente de mezcla (mm)",
-            "value": "2±1"
-          },
-          {
-            "label": "Ancho de la pala mezcladora (mm)",
-            "value": "111"
-          },
-          {
-            "label": "Espesor de la pared del recipiente de mezcla (mm)",
-            "value": "1"
-          },
-          {
-            "label": "Dimensiones del recipiente mezclador (diámetro interior × profundidad) (mm)",
-            "value": "Φ160×139"
-          },
-          {
-            "label": "Volumen de mezcla (L)",
-            "value": "2.5"
-          },
-          {
-            "label": "Tensión de alimentación",
-            "value": "AC380V±10%, 50Hz (Personalizable a otro voltaje/frecuencia)"
-          },
-          {
-            "label": "Dimensiones generales (mm)",
-            "value": "450×250×500"
-          },
-          {
-            "label": "Peso (kg)",
-            "value": "65"
-          }
-        ],
-        "hasManual": false,
-        "hasVideo": false,
-        "hasCAD": false,
-        "isNew": false,
-        "customized": []
-      },
-      {
+            {
         "id": "E003",
 
           "sortWeight": 22,
@@ -8649,7 +8156,10 @@ window.ludaData.devices = [
           "Control automático de conteo por infrarrojos, se detiene automáticamente a 60 conteos por segundo, lo que ofrece un funcionamiento cómodo y un conteo preciso;",
           "La distancia desde el centro del disco de la mesa hasta el centro del eje del brazo es de 800 mm."
         ],
-        "standards": [],
+        "standards": [
+          "EN 196-1",
+          "ISO 679",
+        ],
         "specifications": [
           {
             "label": "Distancia de caída (mm)",
@@ -8703,7 +8213,13 @@ window.ludaData.devices = [
           "La superficie de la mesa está fabricada con un material cromado duro, que presenta un acabado brillante, un aspecto elegante y una excelente resistencia a la oxidación.",
           "El controlador ofrece alta precisión y es sencillo y cómodo de usar."
         ],
-        "standards": [],
+        "standards": [
+          "EN 459-2",
+          "EN 1015-3",
+          "EN 13279-2",
+          "ASTM C230",
+          "BS 4551-1",
+        ],
         "specifications": [
           {
             "label": "Distancia de caída por vibración (mm)",
@@ -8744,74 +8260,7 @@ window.ludaData.devices = [
         "isNew": false,
         "customized": []
       },
-      {
-        "id": "E005",
-
-          "sortWeight": 24,
-
-        "name": "Mezcladora de pasta de cemento",
-        "suffixName": "",
-        "model": "NJ-160F",
-        "category": "cement",
-
-          "subcategory": "mixing-compaction",
-        "thumbnail": "/assets/images/NJ-160F.png",
-        "description": "La mezcladora de pasta de cemento se utiliza principalmente para determinar la consistencia estándar y el tiempo de fraguado del cemento, así como para preparar bloques de prueba de solidez.",
-        "features": [],
-        "standards": [],
-        "specifications": [
-          {
-            "label": "Velocidad de revolución a baja velocidad (r/min)",
-            "value": "62±2"
-          },
-          {
-            "label": "Velocidad de revolución a alta velocidad (r/min)",
-            "value": "125±3"
-          },
-          {
-            "label": "Velocidad de rotación a baja velocidad (r/min)",
-            "value": "140±2"
-          },
-          {
-            "label": "Velocidad de rotación de alta velocidad (r/min)",
-            "value": "258±3"
-          },
-          {
-            "label": "Especificación de la rosca de conexión entre la pala mezcladora y el eje de la pala.",
-            "value": "M16×1"
-          },
-          {
-            "label": "Ancho de la pala mezcladora (mm)",
-            "value": "111"
-          },
-          {
-            "label": "Espesor de la pared del recipiente de mezcla (mm)",
-            "value": "1"
-          },
-          {
-            "label": "Volumen de mezcla (L)",
-            "value": "2.5"
-          },
-          {
-            "label": "Tensión de alimentación",
-            "value": "AC220V±10%, 50Hz"
-          },
-          {
-            "label": "Dimensiones generales (mm)",
-            "value": "570×340×600"
-          },
-          {
-            "label": "Peso (kg)",
-            "value": "44"
-          }
-        ],
-        "hasManual": false,
-        "hasVideo": false,
-        "hasCAD": false,
-        "isNew": false,
-        "customized": []
-      },
-      {
+            {
         "id": "E027",
 
           "sortWeight": 7,

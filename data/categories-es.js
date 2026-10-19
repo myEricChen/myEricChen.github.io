@@ -27,7 +27,6 @@ window.ludaData.categories = [
             { id: "compression", name: "Máquinas de Ensayo de Compresión", description: "Máquinas de ensayo de compresión para probetas de hormigón, bloques y mampostería." },
             { id: "fresh-concrete", name: "Ensayos de Hormigón Fresco", description: "Equipos para trabajabilidad del hormigón fresco, asentamiento, contenido de aire y densidad." },
             { id: "durability", name: "Ensayos de Durabilidad y Permeabilidad", description: "Equipos de durabilidad para resistencia a hielo-deshielo, penetración de cloruros y carbonatación." },
-            { id: "permeability", name: "Ensayos de Permeabilidad y Cloruros", description: "Sistemas de ensayo de permeabilidad y penetración de iones cloruro para evaluación del hormigón." },
             { id: "curing-specimens", name: "Curado y Preparación de Probetas", description: "Tanques de curado, baños termostáticos, moldes y equipos de preparación de probetas." }
         ]      },
       {

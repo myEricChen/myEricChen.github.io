@@ -3142,6 +3142,7 @@ window.ludaData.deviceDetails = {
   },
   P068: {
     features: [
+      "The bath can also be used for Marshall tests and general laboratory purposes.",
       "The shell of this machine is made of steel plate,the shell is sprayed with high-temperature spray paint, and the inner tank is made of imported stainless steel material,with exquisite  workmanship,more reasonable structure and more convenient use.",
     ],
     specifications: [
@@ -3176,6 +3177,10 @@ window.ludaData.deviceDetails = {
     ],
   },
   P069: {
+    features: [
+      "The bath can also be used for Marshall tests and general laboratory purposes.",
+      "The shell of this machine is made of steel plate,the shell is sprayed with high-temperature spray paint, and the inner tank is made of imported stainless steel material,with exquisite  workmanship,more reasonable structure and more convenient use.",
+    ],
     specifications: [
       {
         label: "Temperature range",
@@ -3346,102 +3351,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Voltage",
         value: "220V±10%, 50-60Hz",
-      },
-    ],
-  },
-  P120: {
-    specifications: [
-      {
-        label: "Test cylinder specification",
-        value: "Φ300×600mm",
-      },
-      {
-        label: "Test cylinder height",
-        value: "600mm",
-      },
-      {
-        label: "Gauge height",
-        value: "3000mm",
-      },
-      {
-        label: "Pressure measuring hole spacing",
-        value: "250mm",
-      },
-      {
-        label: "Loading equipment",
-        value: "Lever loading",
-      },
-      {
-        label: "Water supply bucket",
-        value: "140×140×140mm",
-      },
-      {
-        label: "Water storage bucket",
-        value: "200×400×450mm",
-      },
-      {
-        label: "Voltage",
-        value: "AC 220V",
-      },
-      {
-        label: "Dimension",
-        value: "1400×600×1900mm",
-      },
-      {
-        label: "Weight",
-        value: "250kg",
-      },
-    ],
-  },
-  P121: {
-    specifications: [
-      {
-        label: "Water supply tank volume",
-        value: "80L",
-      },
-      {
-        label: "Inner diameter of metal cylinder",
-        value: "300mm",
-      },
-      {
-        label: "Metal cylinder height",
-        value: "500mm",
-      },
-      {
-        label: "Metal cylinder wall thickness",
-        value: "10mm",
-      },
-      {
-        label: "Number of pressure measuring tubes",
-        value: "5 PCS",
-      },
-      {
-        label: "Inner diameter of pressure measuring tube",
-        value: "6mm",
-      },
-      {
-        label: "Pressure measuring tube scale division value",
-        value: "1mm",
-      },
-      {
-        label: "Pressure measuring hole spacing",
-        value: "50mm",
-      },
-      {
-        label: "Seepage hole diameter",
-        value: "16mm",
-      },
-      {
-        label: "Inner diameter of overflow pipe",
-        value: "16mm",
-      },
-      {
-        label: "Permeable plate aperture",
-        value: "3.5mm",
-      },
-      {
-        label: "Weight",
-        value: "150kg",
       },
     ],
   },
@@ -3826,114 +3735,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Inner diameter",
         value: "4±0.2mm",
-      },
-    ],
-  },
-  P131: {
-    specifications: [
-      {
-        label: "Feed capacity",
-        value: "28L",
-      },
-      {
-        label: "Output capacity",
-        value: "15L",
-      },
-      {
-        label: "Mixing drum speed (counterclockwise)",
-        value: "60±2r/min",
-      },
-      {
-        label: "Stirring blade speed (clockwise)",
-        value: "80±4r/min",
-      },
-      {
-        label: "Working gap between mixing blade and mixing drum",
-        value: "5±0.5mm",
-      },
-      {
-        label: "Motor speed (synchronous speed)",
-        value: "1440r/min",
-      },
-      {
-        label: "Motor power",
-        value: "1.5kW",
-      },
-      {
-        label: "Voltage",
-        value: "AC380V±10%, 50Hz (Customizable to other voltage/frequency)",
-      },
-      {
-        label: "Dimensions",
-        value: "800×600×900mm",
-      },
-      {
-        label: "Weight",
-        value: "2100kg",
-      },
-    ],
-  },
-  P132: {
-    specifications: [
-      {
-        label: "Allowable maximum working pressure",
-        value: "1.5MPa",
-      },
-      {
-        label: "Working mode",
-        value: "Automatic voltage regulation and manual voltage regulation",
-      },
-      {
-        label: "The number of test pieces that can be used at the same time",
-        value: "6",
-      },
-      {
-        label: "The inner diameter of upper mouth of test mold",
-        value: "Φ70mm",
-      },
-      {
-        label: "The inner diameter of lower mouth of test mold",
-        value: "Φ80mm",
-      },
-      {
-        label: "Mold height",
-        value: "30mm",
-      },
-      {
-        label: "Piston pump plunger diameter",
-        value: "Φ10mm",
-      },
-      {
-        label: "Piston pump stroke",
-        value: "10mm",
-      },
-      {
-        label: "Plunger pump reciprocating frequency",
-        value: "130 times/min",
-      },
-      {
-        label: "Piston pump flow",
-        value: "0.1L/min",
-      },
-      {
-        label: "Motor power",
-        value: "90W",
-      },
-      {
-        label: "Motor speed",
-        value: "1340r/min",
-      },
-      {
-        label: "Voltage",
-        value: "AC380V±10%, 50Hz (Customizable to other voltage/frequency)",
-      },
-      {
-        label: "Dimensions",
-        value: "750×560×750mm",
-      },
-      {
-        label: "Weight",
-        value: "120kg",
       },
     ],
   },
@@ -4434,6 +4235,7 @@ window.ludaData.deviceDetails = {
   },
   P150: {
     features: [
+      "It is mainly used for the drying shrinkage test of cement, concrete, and mortar.",
       "The overall structure is strong, beautiful shape, good corrosion resistance.",
       "The temperature and humidity meter adopts setting, displaying double digital display,which  has the advantages of high resolution, intuition, easy adjustment and high control accuracy.",
     ],
@@ -4872,66 +4674,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  C015: {
-    specifications: [
-      {
-        label: "Working pressure",
-        value: "4MPa",
-      },
-      {
-        label: "Working mode",
-        value: "Automatic pressurization",
-      },
-      {
-        label: "Number of test specimens",
-        value: "6 PCS",
-      },
-      {
-        label: "Inner diameter of the upper opening of the test mold",
-        value: "Φ175mm",
-      },
-      {
-        label: "Inner diameter of the bottom of the test mold",
-        value: "Φ185mm",
-      },
-      {
-        label: "Test mold height",
-        value: "160mm",
-      },
-      {
-        label: "Motor power",
-        value: "80W",
-      },
-      {
-        label: "Motor speed",
-        value: "136r/min",
-      },
-      {
-        label: "Plunger pump plunger diameter",
-        value: "Φ10mm",
-      },
-      {
-        label: "Plunger pump reciprocating frequency",
-        value: "136 times/min",
-      },
-      {
-        label: "Piston pump flow",
-        value: "0.11L/min",
-      },
-      {
-        label: "Supply voltage",
-        value: "AC380V±10% (Customizable to other voltage/frequency)",
-      },
-      {
-        label: "Dimensions",
-        value: "1090×710×920mm",
-      },
-      {
-        label: "Weight",
-        value: "185kg",
-      },
-    ],
-  },
   C016: {
     specifications: [
       {
@@ -5249,54 +4991,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Weight",
         value: "220kg",
-      },
-    ],
-  },
-  C027: {
-    specifications: [
-      {
-        label: "Measurement range",
-        value: "50～999.99mV",
-      },
-      {
-        label: "Electrode configuration",
-        value: "domestic 2 electrodes",
-      },
-      {
-        label: "Electrical measurement range",
-        value: "1×10-2～5×10-5mol/L",
-      },
-      {
-        label: "Voltage",
-        value: "AC220V±10%",
-      },
-    ],
-  },
-  C028: {
-    specifications: [
-      {
-        label: "The maximum range of the pressure gauge",
-        value: "6MPa",
-      },
-      {
-        label: "Cylinder inner diameter",
-        value: "125±0.02mm",
-      },
-      {
-        label: "Cylinder body height",
-        value: "200±0.2mm",
-      },
-      {
-        label: "Working piston diameter",
-        value: "125mm",
-      },
-      {
-        label: "Sieve aperture",
-        value: "0.335mm (50 mesh)",
-      },
-      {
-        label: "Weight",
-        value: "20kg",
       },
     ],
   },
@@ -5856,78 +5550,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E002: {
-    features: [
-      "Controlled by a dual-speed motor via a time program controller, it automatically completes the specified working cycle of \"slow rotation — stop — fast rotation\".",
-      "All-metal structure ensures stable testing performance.",
-    ],
-    specifications: [
-      {
-        label: "Low-speed revolution speed (r/min)",
-        value: "62±5",
-      },
-      {
-        label: "High-speed revolution speed (r/min)",
-        value: "125±10",
-      },
-      {
-        label: "Low-speed rotation speed (r/min)",
-        value: "140±5",
-      },
-      {
-        label: "High-speed rotation speed (r/min)",
-        value: "258±10",
-      },
-      {
-        label: "Automatic control program time at low speed (s)",
-        value: "120±3",
-      },
-      {
-        label: "Automatic control program stop time (s)",
-        value: "15",
-      },
-      {
-        label: "Automatic control program time at high speed (s)",
-        value: "120±3",
-      },
-      {
-        label: "Connection thread specification between mixing blade and blade shaft",
-        value: "M16×1",
-      },
-      {
-        label: "Working gap between mixing blade and mixing pot (mm)",
-        value: "2±1",
-      },
-      {
-        label: "Width of mixing blade (mm)",
-        value: "111",
-      },
-      {
-        label: "Wall thickness of mixing pot (mm)",
-        value: "1",
-      },
-      {
-        label: "Dimensions of mixing pot (inner diameter × depth) (mm)",
-        value: "Φ160×139",
-      },
-      {
-        label: "Mixing volume (L)",
-        value: "2.5",
-      },
-      {
-        label: "Power supply voltage",
-        value: "AC380V±10%, 50Hz (Customizable to other voltage/frequency)",
-      },
-      {
-        label: "Overall dimensions (mm)",
-        value: "450×250×500",
-      },
-      {
-        label: "Weight (kg)",
-        value: "65",
-      },
-    ],
-  },
   E003: {
     features: [
       "Composed of a vibrating component, a frame section, and an infrared counting control system;",
@@ -6002,54 +5624,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Weight (kg)",
         value: "25",
-      },
-    ],
-  },
-  E005: {
-    specifications: [
-      {
-        label: "Low-speed revolution speed (r/min)",
-        value: "62±2",
-      },
-      {
-        label: "High-speed revolution speed (r/min)",
-        value: "125±3",
-      },
-      {
-        label: "Low-speed rotation speed (r/min)",
-        value: "140±2",
-      },
-      {
-        label: "High-speed rotation speed (r/min)",
-        value: "258±3",
-      },
-      {
-        label: "Connection thread specification between mixing blade and blade shaft",
-        value: "M16×1",
-      },
-      {
-        label: "Width of mixing blade (mm)",
-        value: "111",
-      },
-      {
-        label: "Wall thickness of mixing pot (mm)",
-        value: "1",
-      },
-      {
-        label: "Mixing volume (L)",
-        value: "2.5",
-      },
-      {
-        label: "Power supply voltage",
-        value: "AC220V±10%, 50Hz",
-      },
-      {
-        label: "Overall dimensions (mm)",
-        value: "570×340×600",
-      },
-      {
-        label: "Weight (kg)",
-        value: "44",
       },
     ],
   },
@@ -6897,50 +6471,53 @@ window.ludaData.deviceDetails = {
     ],
   },
   F123: {
+    customized: [
+      "Vibrating table amplitude is customizable to meet customer needs.",
+    ],
     specifications: [
       {
-        label: "",
-        value: "Slump cone (mm)：100±1",
+        label: "Slump cone (mm)",
+        value: "100±1",
       },
       {
-        label: "",
-        value: "Bottom inner diameter (mm)：200±1",
+        label: "Bottom inner diameter (mm)",
+        value: "200±1",
       },
       {
-        label: "",
-        value: "Height (mm)：300±1",
+        label: "Height (mm)",
+        value: "300±1",
       },
       {
-        label: "",
-        value: "Container inner diameter (mm)：240±2",
+        label: "Container inner diameter (mm)",
+        value: "240±2",
       },
       {
-        label: "",
-        value: "Inner height (mm)：200±2",
+        label: "Inner height (mm)",
+        value: "200±2",
       },
       {
-        label: "",
-        value: "Vibrator frequency (Hz)：50±2",
+        label: "Vibrator frequency (Hz)",
+        value: "50±2",
       },
       {
-        label: "",
-        value: "Vibrating table amplitude (with empty container) (mm)：0.5±0.02",
+        label: "Vibrating table amplitude (with empty container) (mm)",
+        value: "0.5±0.02 or 0.35±0.02 (Customizable)",
       },
       {
-        label: "",
-        value: "Motor power (W)：550",
+        label: "Motor power (W)",
+        value: "550",
       },
       {
-        label: "",
-        value: "Timer range(S)：0.1-99.9",
+        label: "Timer range(S)",
+        value: "0.1-99.9",
       },
       {
-        label: "",
-        value: "Overall dimensions (mm)：380×520×870",
+        label: "Overall dimensions (mm)",
+        value: "380×520×870",
       },
       {
-        label: "",
-        value: "Power supply：AC380V (Customizable to other voltage/frequency)",
+        label: "Power supply",
+        value: "AC380V (Customizable to other voltage/frequency)",
       },
     ],
   },
@@ -6972,70 +6549,6 @@ window.ludaData.deviceDetails = {
       },
     ],
   },
-  E037: {
-    specifications: [
-      {
-        label: "Sand storage cylinder diameter",
-        value: "150mm",
-      },
-      {
-        label: "Sand storage cylinder volume",
-        value: "4771cm³",
-      },
-      {
-        label: "Flowing sand hole diameter",
-        value: "15mm",
-      },
-      {
-        label: "Calibration tank inner diameter",
-        value: "150mm",
-      },
-      {
-        label: "Calibration tank outer diameter",
-        value: "200mm",
-      },
-      {
-        label: "Base plate side length",
-        value: "400mm",
-      },
-      {
-        label: "Base plate depth",
-        value: "50mm",
-      },
-    ],
-  },
-  E038: {
-    specifications: [
-      {
-        label: "Sand storage cylinder diameter",
-        value: "100mm",
-      },
-      {
-        label: "Sand storage cylinder volume",
-        value: "2121cm³",
-      },
-      {
-        label: "Flowing sand hole diameter",
-        value: "10mm",
-      },
-      {
-        label: "Calibration tank inner diameter",
-        value: "100mm",
-      },
-      {
-        label: "Calibration tank outer diameter",
-        value: "150mm",
-      },
-      {
-        label: "Base plate side length",
-        value: "350mm",
-      },
-      {
-        label: "Base plate depth",
-        value: "40mm",
-      },
-    ],
-  },
   E039: {
     specifications: [
       {
@@ -7054,14 +6567,14 @@ window.ludaData.deviceDetails = {
   },
   E040: {
     customized: [
-      "Various specifications are available. The number of grooves and the width can be selected according to actual requirements.",
+      "Various specifications are available. Customer need to determine ASTM/AASHTO/EN/BS standards",
     ],
   },
   E041: {
     specifications: [
       {
         label: "",
-        value: "152mm × 177mm",
+        value: "Detailed specifications will be provided once the customer determines which standard (ASTM, AASHTO, EN, or BS) they require.",
       },
     ],
   },
@@ -7085,30 +6598,6 @@ window.ludaData.deviceDetails = {
       {
         label: "Test cylinder inner diameter",
         value: "Φ50mm, height 170mm",
-      },
-    ],
-  },
-  E043: {
-    specifications: [
-      {
-        label: "Hydraulic jack",
-        value: "100 kN and ball seat",
-      },
-      {
-        label: "Force gauge",
-        value: "60 kN",
-      },
-      {
-        label: "Penetration rod",
-        value: "D 50mm",
-      },
-      {
-        label: "Length",
-        value: "200mm",
-      },
-      {
-        label: "Load plate",
-        value: "1.25 kg per piece",
       },
     ],
   },
